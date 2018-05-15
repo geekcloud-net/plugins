@@ -1,0 +1,8 @@
+$borderStyles: 'none', 'dotted', 'dashed', 'solid', 'double', 'groove', 'ridge', 'inset', 'outset';
+
+@mixin icon-size($size) {
+  font-size: $size;
+  line-height: $size;
+  width: $size;
+  height: $size;
+}

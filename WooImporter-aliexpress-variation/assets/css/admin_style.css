@@ -1,0 +1,9 @@
+#wpeae-aliexpress-variation-loader-dialog .message{
+    font-weight: normal;
+}
+
+#wpeae-aliexpress-variation-loader-dialog .warn{
+    padding-top: 10px;
+    font-weight: normal;
+    color: red;
+}

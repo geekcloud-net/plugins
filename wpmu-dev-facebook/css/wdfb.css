@@ -1,0 +1,28 @@
+.wdfb-album-image-row a {
+    display: inline-block;
+}
+#TB_caption {
+    height: auto !important;
+}
+
+/*Widget styling*/
+.wdfb_album_photos {
+    display: block;
+    overflow: hidden;
+}
+.wdfb-album-image-row {
+    display: inline-block;
+    background: #fff;
+    padding: 0.2em;
+    margin: 0 0.7em 0.7em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    vertical-align: top;
+}
+.Wdfb_WidgetAlbums .wdfb-album-image-row {
+    margin: 0 0.5em 0.5em;
+}
+.Wdfb_WidgetAlbums .wdfb-album-image-row
+
+

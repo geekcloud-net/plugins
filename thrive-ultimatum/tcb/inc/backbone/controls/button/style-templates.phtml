@@ -1,0 +1,10 @@
+<div class="col-xs-12 button-category-label"><?php echo strtoupper( __( 'Saved Templates', 'thrive-cb' ) ); ?></div>
+<style><#=media_css #></style>
+<# _.each( tpls, function ( template, k ) { #>
+<div class="col-xs-12 button-item">
+	<div class="tve-select-item click" data-value="tcb-saved-button-template-<#=template['id'] #>" data-fn="select">
+		<#=template['content'].replace('href', 'data-href') #>
+	</div>
+</div>
+<# }); #>
+<div class="col-xs-12 button-category-label"><?php echo strtoupper( __( 'Default Templates', 'thrive-cb' ) ); ?></div>

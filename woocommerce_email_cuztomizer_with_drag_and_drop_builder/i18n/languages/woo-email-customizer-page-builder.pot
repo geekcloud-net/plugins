@@ -1,0 +1,834 @@
+#, # Copyright (C) 2018 Flycart
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: WooCommerce Email Customizer with Drag and Drop Email Builder\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Flycart\n"
+"MIME-Version: 1.0\n"
+"Language: en\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. Text in function
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:272
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:269
+msgid "...Showing the most recent %u orders"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:444
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:435
+msgid "Active"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:409
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:459
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:491
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:400
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:450
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:481
+msgid "Background color"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:669
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:611
+msgid "Billing:"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:401
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:482
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:392
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:472
+msgid "Bottom"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:442
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:433
+msgid "Button"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:411
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:402
+msgid "Button background color"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:372
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:463
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:363
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:454
+msgid "Button text"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:384
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:454
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:375
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:445
+msgid "Center"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:225
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:533
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:223
+msgid "Choose which email to preview or send."
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:246
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:243
+msgid "Choose which order to use to populate the email template preview."
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:350
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:341
+msgid "Clone element"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:192
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:190
+msgid "Close preview"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:423
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:414
+msgid "Color"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:149
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:146
+msgid "Container width"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:295
+msgid "Copy From"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:292
+msgid "Copy Template"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:514
+msgid "Copy Template From"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:552
+msgid "Copy template"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:161
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:158
+msgid "Custom CSS"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:773
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:697
+msgid "Custom code:"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:790
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:714
+msgid "Custom fields:"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:349
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:340
+msgid "Delete element"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:97
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:94
+msgid "Display payment instruction above order table"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:348
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:339
+msgid "Edit element"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:227
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:535
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:225
+msgid "Email to show"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:433
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:424
+msgid "Family"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:815
+msgid "Flexible Checkout Custom Fields :"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:416
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:407
+msgid "Font"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:448
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:439
+msgid "Full width"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:720
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:662
+msgid "General:"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:362
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:353
+msgid "Image URL"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:120
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:117
+msgid "Image height"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:129
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:126
+msgid "Image width"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:383
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:404
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:453
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:480
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:374
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:395
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:444
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:470
+msgid "Left"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:467
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:458
+msgid "Link"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:351
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:342
+msgid "Move element"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:762
+msgid "New User:"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:104
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:116
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:101
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:113
+msgid "No"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:105
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:102
+msgid "Only for Customer"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:564
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:506
+msgid "Order Details:"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:138
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:135
+msgid "Order Item table border color"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:172
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:169
+msgid "Order URL"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:599
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:541
+msgid "Payment:"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:502
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:492
+msgid "Please choose an <strong>email</strong> and an <strong>order</strong> from list above to show."
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:302
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:293
+msgid "Preview"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/helper-3.php:250
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/helper.php:256
+msgid "Preview Email"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/helper-3.php:251
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/helper.php:257
+msgid "Preview and test emails as they will appear in mail clients when received."
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:755
+msgid "Reset Password:"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:86
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:89
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:84
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:87
+msgid "Reset all template to default"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:78
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:205
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:76
+msgid "Return back"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:385
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:398
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:455
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:484
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:376
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:389
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:446
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:474
+msgid "Right"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:249
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:246
+msgid "Sample order to show"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:193
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:191
+msgid "Save email"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:183
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:180
+msgid "Save settings"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:309
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:300
+msgid "Send test email"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:198
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:196
+msgid "Settings"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:618
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:560
+msgid "Shipping:"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:305
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:296
+msgid "Shortcodes"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:110
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:107
+msgid "Show product image"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:418
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:409
+msgid "Size"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:367
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:358
+msgid "Text"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:410
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:401
+msgid "Text color"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:279
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:276
+msgid "The order data is used as a sample"
+msgstr ""
+
+#. Text in function
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:275
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:272
+msgid "The order you select here is just used for previewing your email design. But when WooCommerce uses this email design to send notifications to the customers, the respective order data would be used."
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:253
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:250
+msgid "There are no orders to preview..."
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:673
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:615
+msgid "To Get Billing Address"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:689
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:631
+msgid "To Get Billing Address 1"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:693
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:635
+msgid "To Get Billing Address 2"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:697
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:639
+msgid "To Get Billing City"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:685
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:627
+msgid "To Get Billing Company"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:709
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:651
+msgid "To Get Billing Country"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:717
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:659
+msgid "To Get Billing Email"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:713
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:655
+msgid "To Get Billing Phone"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:701
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:643
+msgid "To Get Billing State"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:748
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:690
+msgid "To Get Customer last note"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:744
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:686
+msgid "To Get Customer provided note"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:677
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:619
+msgid "To Get First Name"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:568
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:510
+msgid "To Get Items"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:681
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:623
+msgid "To Get Last Name"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:596
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:538
+msgid "To Get Order Date"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:588
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:530
+msgid "To Get Order Fee"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:572
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:514
+msgid "To Get Order ID"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:592
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:534
+msgid "To Get Order Refunds"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:580
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:522
+msgid "To Get Order Sub-Total"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:584
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:526
+msgid "To Get Order Total"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:576
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:518
+msgid "To Get Order URL: Takes url from settings"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:607
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:549
+msgid "To Get Payment Method"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:611
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:553
+msgid "To Get Payment URL"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:642
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:584
+msgid "To Get Shipping Address"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:646
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:588
+msgid "To Get Shipping Address 1"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:650
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:592
+msgid "To Get Shipping Address 2"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:654
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:596
+msgid "To Get Shipping City"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:638
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:580
+msgid "To Get Shipping Company"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:666
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:608
+msgid "To Get Shipping Country"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:630
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:572
+msgid "To Get Shipping First Name"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:634
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:576
+msgid "To Get Shipping Last Name"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:622
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:564
+msgid "To Get Shipping Method"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:662
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:604
+msgid "To Get Shipping Postal Code"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:658
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:600
+msgid "To Get Shipping State"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:728
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:670
+msgid "To Get Site URL"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:615
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:557
+msgid "To Get Transaction ID"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:732
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:674
+msgid "To Get User Id"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:752
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:694
+msgid "To Get all Customer Notes"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:626
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:568
+msgid "To get Shipping Total"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:724
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:666
+msgid "To get Site Name"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:766
+msgid "To get User Password"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:770
+msgid "To get activation url"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:759
+msgid "To get reset url"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:395
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:478
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:386
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:468
+msgid "Top"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:377
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:368
+msgid "URL"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:179
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:176
+msgid "Use the shortcode [woo_mb_order_id] for dynamic id"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:427
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:418
+msgid "Weight"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/helper-3.php:239
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/helper-3.php:248
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/helper.php:245
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/helper.php:254
+msgid "Woo Mail Builder"
+msgstr ""
+
+#. Text in function
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/helper-3.php:81
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/helper.php:81
+msgid "WooCommerce Email Customizer"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:83
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:81
+msgid "WooCommerce Email Customizer settings"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:103
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:115
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:100
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:112
+msgid "Yes"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:779
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:703
+msgid "You can also add attributes if required Eg:[woo_mb_custom_code type=\"pre-order-link\"]"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:79
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:206
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:77
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:204
+msgid "arrow_back"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:289
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:286
+msgid "close"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:293
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:350
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:341
+msgid "content_copy"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:349
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:340
+msgid "delete"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:351
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:342
+msgid "drag_handle"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:348
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:339
+msgid "edit"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:308
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:299
+msgid "email"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:337
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:328
+msgid "open_in_new"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:301
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:292
+msgid "remove_red_eye"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:290
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:287
+msgid "save"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:199
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page-3.php:332
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:197
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/pages/woo-admin-page.php:323
+msgid "settings"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/email-base-3.php:722
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/email-base.php:592
+msgid "Payment page"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/email-base-3.php:732
+msgid "Order"
+msgstr ""
+
+#. Text in echo
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/email-base-3.php:782
+#: woocommerce_email_cuztomizer_with_drag_and_drop_builder/includes/email-base.php:643
+msgid "Go to site"
+msgstr ""

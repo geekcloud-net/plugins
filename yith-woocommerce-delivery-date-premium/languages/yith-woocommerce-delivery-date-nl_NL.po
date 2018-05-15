@@ -1,0 +1,993 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Delivery Date\n"
+"POT-Creation-Date: 2017-11-02 15:25+0100\n"
+"PO-Revision-Date: 2017-11-02 15:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;_ngettext_noop:1,2;"
+"_n_nooop:1,2;_c,_nc:4c,1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../class.yith-delivery-date.php:141 ../class.yith-delivery-date.php:220
+#: ../templates/meta-boxes/carrier-meta-boxes-options.php:13
+#: ../templates/meta-boxes/processing-method-meta-boxes-options.php:13
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../class.yith-delivery-date.php:143
+msgid "Live demo"
+msgstr "Live demo"
+
+#: ../class.yith-delivery-date.php:167
+msgid "Plugin documentation"
+msgstr "Plugin documentatie"
+
+#: ../class.yith-delivery-date.php:215
+msgid "Delivery"
+msgstr "Levering"
+
+#: ../class.yith-delivery-date.php:216
+msgid "Delivery Time Slot"
+msgstr "Levertermijn"
+
+#: ../class.yith-delivery-date.php:217
+msgid "Custom Shipping Day"
+msgstr "Aangepaste dag van verzending"
+
+#: ../class.yith-delivery-date.php:218
+msgid "Calendar"
+msgstr "Kalender"
+
+#: ../class.yith-delivery-date.php:219
+msgid "Email"
+msgstr "E-mail"
+
+#: ../class.yith-delivery-date.php:226 ../class.yith-delivery-date.php:227
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:968
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:1075
+#: ../templates/meta-boxes/order-delivery-details-meta-box.php:29
+#: ../templates/woocommerce/checkout/delivery-date-select-date.php:44
+#: ../templates/woocommerce/pdf/delivery-date-info.php:24
+msgid "Delivery Date"
+msgstr "Leveringsdatum"
+
+#: ../includes/admin-tables/class.yith-wcdd-carrier-time-slot-table.php:34
+#: ../includes/admin-tables/class.yith-wcdd-time-slot-table.php:28
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:935
+#: ../templates/admin/timeslot_table.php:7
+#: ../templates/meta-boxes/types/addtimeslot.php:8
+msgid "Fee"
+msgstr "Kosten"
+
+#: ../includes/admin-tables/class.yith-wcdd-carrier-time-slot-table.php:36
+#: ../includes/admin-tables/class.yith-wcdd-time-slot-table.php:30
+msgid "From"
+msgstr "Van"
+
+#: ../includes/admin-tables/class.yith-wcdd-carrier-time-slot-table.php:37
+#: ../includes/admin-tables/class.yith-wcdd-time-slot-table.php:31
+msgid "To"
+msgstr "Tot"
+
+#: ../includes/admin-tables/class.yith-wcdd-carrier-time-slot-table.php:38
+#: ../includes/admin-tables/class.yith-wcdd-time-slot-table.php:32
+msgid "Lockout after"
+msgstr "Lockout na"
+
+#: ../includes/admin-tables/class.yith-wcdd-carrier-time-slot-table.php:40
+#: ../includes/admin-tables/class.yith-wcdd-time-slot-table.php:34
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:358
+#: ../templates/meta-boxes/processing-method-meta-boxes-options.php:16
+msgid "Workdays"
+msgstr "Werkdagen"
+
+#: ../includes/admin-tables/class.yith-wcdd-carrier-time-slot-table.php:107
+#: ../templates/meta-boxes/types/single-timeslot-row.php:23
+msgid "Override workdays"
+msgstr "Overschrijf werkdagen"
+
+#: ../includes/admin-tables/class.yith-wcdd-carrier-time-slot-table.php:119
+#: ../templates/admin/multiselectday.php:26
+#: ../templates/meta-boxes/types/multiselectday.php:24
+#: ../templates/meta-boxes/types/select_carrier.php:24
+#: ../templates/meta-boxes/types/single-timeslot-row.php:34
+msgid "Select all"
+msgstr "Alles selecteren"
+
+#: ../includes/admin-tables/class.yith-wcdd-carrier-time-slot-table.php:120
+#: ../templates/admin/multiselectday.php:27
+#: ../templates/meta-boxes/types/multiselectday.php:25
+#: ../templates/meta-boxes/types/select_carrier.php:25
+#: ../templates/meta-boxes/types/single-timeslot-row.php:35
+msgid "Clear"
+msgstr "Wissen"
+
+#: ../includes/admin-tables/class.yith-wcdd-carrier-time-slot-table.php:127
+#: ../includes/admin-tables/class.yith-wcdd-shipping-day-category-table.php:46
+#: ../includes/admin-tables/class.yith-wcdd-shipping-day-product-table.php:50
+#: ../includes/admin-tables/class.yith-wcdd-time-slot-table.php:117
+#: ../templates/meta-boxes/types/single-timeslot-row.php:46
+msgid "Update"
+msgstr "Update"
+
+#: ../includes/admin-tables/class.yith-wcdd-carrier-time-slot-table.php:129
+#: ../includes/admin-tables/class.yith-wcdd-shipping-day-category-table.php:48
+#: ../includes/admin-tables/class.yith-wcdd-shipping-day-product-table.php:52
+#: ../includes/admin-tables/class.yith-wcdd-time-slot-table.php:119
+#: ../templates/meta-boxes/types/single-timeslot-row.php:48
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../includes/admin-tables/class.yith-wcdd-shipping-day-category-table.php:22
+msgid "Category"
+msgstr "Categorie"
+
+#: ../includes/admin-tables/class.yith-wcdd-shipping-day-category-table.php:23
+#: ../includes/admin-tables/class.yith-wcdd-shipping-day-product-table.php:23
+msgid "Process Day"
+msgstr "Verwerk dagen"
+
+#: ../includes/admin-tables/class.yith-wcdd-shipping-day-product-table.php:22
+msgid "Product"
+msgstr "Producten"
+
+#: ../includes/admin-tables/class.yith-wcdd-time-slot-table.php:98
+msgid "Override work days"
+msgstr "Werkdagen overschrijven"
+
+#: ../includes/class.yith-delivery-date-admin.php:183
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:235
+msgid "No items found."
+msgstr "Geen items gevonden."
+
+#: ../includes/class.yith-delivery-date-admin.php:541
+msgid ""
+"In order to use the plugin, it is essential to create at least an Order "
+"Processing Method"
+msgstr ""
+"Om deze plugin te gebruiken, is het essentieel om minstens een Order "
+"Verwerkings Methode te creëren"
+
+#: ../includes/class.yith-delivery-date-admin.php:542
+msgid "Add new method"
+msgstr "Voeg nieuwe methode toe"
+
+#: ../includes/class.yith-delivery-date-admin.php:558
+msgid "These options are disabled since you enabled the carriers system"
+msgstr ""
+"Deze opties zijn uitgeschakeld aangezien u het bezorgsysteem heeft "
+"ingeschakeld"
+
+#: ../includes/class.yith-delivery-date-admin.php:559
+msgid "Go here to disable"
+msgstr "Klik hier om uit te schakelen"
+
+#: ../includes/class.yith-delivery-date-calendar.php:227
+msgid "Holiday for"
+msgstr "Vakantie voor"
+
+#: ../includes/class.yith-delivery-date-calendar.php:234
+#: ../includes/class.yith-delivery-date-calendar.php:243
+msgid "Order"
+msgstr "Bestelling"
+
+#: ../includes/class.yith-delivery-date-calendar.php:235
+msgid "Shipping day for"
+msgstr "Verzenddatum voor"
+
+#: ../includes/class.yith-delivery-date-calendar.php:244
+msgid "Delivery day for"
+msgstr "Leveringsdatum voor"
+
+#: ../includes/class.yith-delivery-date-calendar.php:298
+msgid "Carrier Default"
+msgstr "Bezorger Default"
+
+#: ../includes/class.yith-delivery-date-order-manager.php:45
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:1063
+msgid "Delivery Details"
+msgstr "Leveringsdetails"
+
+#: ../includes/class.yith-delivery-date-order-manager.php:90
+msgid "Shipping date"
+msgstr "Verzenddatum"
+
+#: ../includes/class.yith-delivery-date-order-manager.php:113
+msgid "No shipping date"
+msgstr "Geen verzenddatum"
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:20
+#: ../templates/meta-boxes/order-delivery-details-meta-box.php:77
+#: ../templates/meta-boxes/order-delivery-details-meta-box.php:92
+msgid "Shipped to carrier"
+msgstr "Verzonden naar bezorger"
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:21
+msgid ""
+"This email is sent to user when administrator has processed and sent the "
+"order to the carrier"
+msgstr ""
+"Deze e-mail wordt verstuurd, wanneer de administrator de bestelling heeft "
+"verwerkt en de bestelling naar de bezorger is verzonden"
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:220
+msgid "HTML template"
+msgstr "HTML sjabloon"
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:221
+msgid "Plain text template"
+msgstr "Eenvoudige tekst sjabloon"
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:248
+msgid "Delete template file"
+msgstr "Verwijder sjabloon bestand"
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:251
+#, php-format
+msgid ""
+"This template has been overridden by your theme and can be found in: <code>"
+"%s</code>."
+msgstr ""
+"Dit sjabloon is overschreven doo ruw theme en kan gevonden worden in: <code>"
+"%s</code>."
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:269
+msgid "Copy file to theme"
+msgstr "Kopieer bestand naar theme"
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:272
+#, php-format
+msgid ""
+"To override and edit this email template copy <code>%s</code> into your "
+"theme folder: <code>%s</code>."
+msgstr ""
+"Om dit e-mail sjabloon te overschrijven en bewerken, kopieer <code>%s</code> "
+"in uw theme folder: <code>%s</code>."
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:283
+msgid "File was not found."
+msgstr "Bestand was niet gevonden."
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:310
+msgid "View template"
+msgstr "Bekijk sjabloon"
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:311
+msgid "Hide template"
+msgstr "Verberg sjabloon"
+
+#: ../includes/emails/class.yith-delivery-date-advise-customer-email.php:322
+msgid "Are you sure you want to delete this template file?"
+msgstr "Weet u zeker dat u dit sjabloon bestand wilt verwijderen?"
+
+#: ../includes/functions.yith-delivery-date.php:16
+msgid "Sunday"
+msgstr "Zondag"
+
+#: ../includes/functions.yith-delivery-date.php:17
+msgid "Monday"
+msgstr "Maandag"
+
+#: ../includes/functions.yith-delivery-date.php:18
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: ../includes/functions.yith-delivery-date.php:19
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: ../includes/functions.yith-delivery-date.php:20
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: ../includes/functions.yith-delivery-date.php:21
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: ../includes/functions.yith-delivery-date.php:22
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: ../includes/functions.yith-delivery-date.php:50
+msgctxt "month"
+msgid "January"
+msgstr "Januari"
+
+#: ../includes/functions.yith-delivery-date.php:51
+msgctxt "month"
+msgid "February"
+msgstr "Februari"
+
+#: ../includes/functions.yith-delivery-date.php:52
+msgctxt "month"
+msgid "March"
+msgstr "Maart"
+
+#: ../includes/functions.yith-delivery-date.php:53
+msgctxt "month"
+msgid "April"
+msgstr "April"
+
+#: ../includes/functions.yith-delivery-date.php:54
+msgctxt "month"
+msgid "May"
+msgstr "Mei"
+
+#: ../includes/functions.yith-delivery-date.php:55
+msgctxt "month"
+msgid "June"
+msgstr "Juni"
+
+#: ../includes/functions.yith-delivery-date.php:56
+msgctxt "month"
+msgid "July"
+msgstr "Juli"
+
+#: ../includes/functions.yith-delivery-date.php:57
+msgctxt "month"
+msgid "August "
+msgstr "Augustus "
+
+#: ../includes/functions.yith-delivery-date.php:58
+#: ../includes/functions.yith-delivery-date.php:59
+msgctxt "month"
+msgid "September "
+msgstr "September "
+
+#: ../includes/functions.yith-delivery-date.php:60
+msgctxt "month"
+msgid "October "
+msgstr "Oktober "
+
+#: ../includes/functions.yith-delivery-date.php:61
+msgctxt "month"
+msgid "November "
+msgstr "November "
+
+#: ../includes/functions.yith-delivery-date.php:62
+msgctxt "month"
+msgid "December "
+msgstr "December "
+
+#: ../includes/functions.yith-delivery-date.php:122
+msgid "Y/m/d"
+msgstr "J/m/d"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:115
+msgctxt "post type general name"
+msgid "Carrier"
+msgstr "Bezorger"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:116
+msgctxt "post type singular name"
+msgid "Carrier"
+msgstr "Bezorger"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:117
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:964
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:1067
+#: ../templates/admin/calendar.php:30
+#: ../templates/meta-boxes/order-delivery-details-meta-box.php:21
+#: ../templates/woocommerce/checkout/delivery-date-select-date.php:24
+#: ../templates/woocommerce/pdf/delivery-date-info.php:15
+msgid "Carrier"
+msgstr "Bezorger"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:118
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:126
+msgid "Parent Item:"
+msgstr "Bovenliggend Item:"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:119
+msgid "All carriers"
+msgstr "Alle bezorgers"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:120
+msgid "View carrier"
+msgstr "Bekijk bezorger"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:121
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:122
+msgid "Add new carrier"
+msgstr "Voeg nieuwe bezorger toe"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:123
+msgid "Edit carrier"
+msgstr "Bewerk bezorger"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:124
+msgid "Update carrier"
+msgstr "Update bezorger"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:125
+msgid "Search carrier"
+msgstr "Zoek bezorger"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:126
+msgid "No carrier found"
+msgstr "Geen bezorger gevonden"
+
+#: ../includes/post-type/class.yith-delivery-date-carrier.php:127
+msgid "No carrier found in Trash"
+msgstr "Geen bezorger gevonden in prullenbak"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:123
+msgctxt "post type general name"
+msgid "Order Processing Method"
+msgstr "Bestelling verwerk methode"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:124
+msgctxt "post type singular name"
+msgid "Order Processing Method"
+msgstr "Bestelling verwerk methode"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:125
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:147
+#: ../templates/admin/calendar.php:25
+msgid "Order Processing Method"
+msgstr "Bestelling verwerk methode"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:127
+msgid "All methods"
+msgstr "Alle methoden"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:128
+msgid "View method"
+msgstr "Bekijk methode"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:129
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:130
+msgid "Add new Processing Method"
+msgstr "Voeg nieuwe verwerk methode toe"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:131
+msgid "Edit Processing Method"
+msgstr "Bewerk verwerk methode"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:132
+msgid "Update Processing Method"
+msgstr "Update verwerk methode"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:133
+msgid "Search Processing Method"
+msgstr "Zoek verwerk methode"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:134
+msgid "No method found"
+msgstr "Geen methode gevonden"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:135
+msgid "No method found in Trash"
+msgstr "Geen methode gevonden in prullenbak"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:199
+#: ../templates/meta-boxes/select-shipping-method.php:29
+msgid "Shipping Method"
+msgstr "Verzendmethode"
+
+#: ../includes/post-type/class.yith-delivery-date-processing-method.php:359
+#: ../templates/meta-boxes/processing-method-meta-boxes-options.php:23
+msgid "Shipping Day"
+msgstr "Verzenddatum"
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:140
+msgid "Select an order processing method"
+msgstr "Selecteer een bestelling verwerk methode"
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:155
+msgid "Set as mandatory"
+msgstr "Stel in als verplicht"
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:159
+msgid "If enabled, the customers must select a date for the delivery"
+msgstr "Indien ingeschakeld, moet de klant een leveringsdatum selecteren"
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:695
+msgid "Your order will be delivered on"
+msgstr "Uw order zal worden bezorgd op"
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:695
+#: ../templates/woocommerce/checkout/delivery-date-select-date.php:39
+msgid "Edit date"
+msgstr "Bewerk datum"
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:931
+msgctxt "form time"
+msgid "From"
+msgstr "Van"
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:931
+msgctxt "to time"
+msgid "To"
+msgstr "Tot"
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:964
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:968
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:974
+msgid "is a required field."
+msgstr "is een verplicht veld."
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:974
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:1079
+#: ../templates/meta-boxes/carrier-meta-boxes-options.php:38
+#: ../templates/meta-boxes/order-delivery-details-meta-box.php:33
+#: ../templates/woocommerce/checkout/delivery-date-select-timeslot.php:26
+msgid "Time Slot"
+msgstr "Levertermijn"
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:1071
+#: ../templates/meta-boxes/order-delivery-details-meta-box.php:25
+#: ../templates/woocommerce/pdf/delivery-date-info.php:20
+msgid "Shipping Date"
+msgstr "Verzenddatum"
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:1072
+#: ../templates/woocommerce/pdf/delivery-date-info.php:21
+msgid "within"
+msgstr "binnen"
+
+#: ../includes/shipping/class.yith-delivery-date-shipping-manager.php:1177
+msgid "Time Slot Fee"
+msgstr "Levertermijn kosten"
+
+#: ../init.php:39
+msgid ""
+"YITH WooCommerce Delivery Date Premium is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Delivery Date Premium is ingeschakeld maar niet werkend. "
+"Het heeft WooCommerce nodig om te werken."
+
+#: ../plugin-options/colors-labels-options.php:10
+#: ../plugin-options/general-settings-options.php:9
+msgid "Delivery Settings"
+msgstr "Levering instellingen"
+
+#: ../plugin-options/colors-labels-options.php:14
+msgid "Show DatePicker"
+msgstr "Toon datumprikker"
+
+#: ../plugin-options/colors-labels-options.php:17
+msgid "If checked, the datepicker is always shown in frontend"
+msgstr ""
+"Indien ingeschakeld, zal de datumprikker altijd te zien zijn in frontend"
+
+#: ../plugin-options/colors-labels-options.php:22
+msgid "Time increments"
+msgstr "Tijdstoename"
+
+#: ../plugin-options/colors-labels-options.php:25
+msgid ""
+"Set how users will choose the delivery time: let them choose any type of "
+"increments, from 1 minute to 1 hour increments."
+msgstr ""
+"Stel in hoe gebruikers de levertijd kunnen kiezen: ze kunnen dit zelf "
+"bepalen, er kan gekozen worden voor toenames van 1 minuut tot 1 uur"
+
+#: ../plugin-options/colors-labels-options.php:33
+msgid "Calendar Colors"
+msgstr "Kleuren kalender"
+
+#: ../plugin-options/colors-labels-options.php:37
+msgid "Shipping Event Color"
+msgstr "Kleur gebeurtenis verzending"
+
+#: ../plugin-options/colors-labels-options.php:43
+msgid "Delivery Event Color"
+msgstr "Kleur gebeurtenis levering"
+
+#: ../plugin-options/colors-labels-options.php:49
+msgid "Holiday Event Color"
+msgstr "Kleur gebeurtenis vakantie"
+
+#: ../plugin-options/colors-labels-options.php:60
+msgid "Event Calendar settings"
+msgstr "Calender gebeurtenis instellingen"
+
+#: ../plugin-options/colors-labels-options.php:64
+msgid "Order status"
+msgstr "Bestelling status"
+
+#: ../plugin-options/colors-labels-options.php:65
+msgid ""
+"Add events to the calendar when the order is marked with one or more of the "
+"following statuses"
+msgstr ""
+"Voeg gebeurtenissen toe aan de kalender, wanneer de bestelling is gemarkeerd "
+"met een van de volgende statussen"
+
+#: ../plugin-options/email-settings-options.php:5
+msgid "Your order has been shipped!"
+msgstr "Uw bestelling is verzonden!"
+
+#: ../plugin-options/email-settings-options.php:7
+msgid "Dear"
+msgstr "Beste"
+
+#: ../plugin-options/email-settings-options.php:8
+msgid "the order"
+msgstr "de bestelling"
+
+#: ../plugin-options/email-settings-options.php:9
+msgid "has been shipped to carrier"
+msgstr "is verzonden naar de bezorger"
+
+#: ../plugin-options/email-settings-options.php:10
+msgid "You should receive your order within"
+msgstr "U zult de bestelling ontvangen binnen"
+
+#: ../plugin-options/email-settings-options.php:11
+msgid "Best regards"
+msgstr "Met vriendelijke groet"
+
+#: ../plugin-options/email-settings-options.php:15
+msgid "You can use the following placeholders"
+msgstr "U kunt de volgende invulvelden gebruiken"
+
+#: ../plugin-options/email-settings-options.php:16
+msgid "{site_title} replaced by website title"
+msgstr "{site_titel} vervangen door de website titel"
+
+#: ../plugin-options/email-settings-options.php:17
+msgid "{order_url} replaced by order link"
+msgstr "{bestelling_url} vervangen door link bestelling"
+
+#: ../plugin-options/email-settings-options.php:18
+msgid "{order_id} replaced by order id"
+msgstr "{bestelling_id} vervangen door bestelling id"
+
+#: ../plugin-options/email-settings-options.php:19
+msgid "{order_content} replaced by order content"
+msgstr "{bestelling_inhoud} vervangen door bestelling inhoud"
+
+#: ../plugin-options/email-settings-options.php:20
+msgid "{customer_email} replaced by customer's email address"
+msgstr "{klant_e-mail} vervangen door klant e-mail adres"
+
+#: ../plugin-options/email-settings-options.php:21
+msgid "{customer_name} replaced by customer's name"
+msgstr "{klantnaam} vervangen door klantnaam"
+
+#: ../plugin-options/email-settings-options.php:22
+msgid "{delivery_date} replaced by delivery date"
+msgstr "{leveringsdatum} vervangen door leveringsdatum"
+
+#: ../plugin-options/email-settings-options.php:31
+msgid "Shipped to carrier - email settings"
+msgstr "Verzonden naar bezorger - e-mail instellingen"
+
+#: ../plugin-options/email-settings-options.php:36
+msgid "Enable/Disable"
+msgstr "Inschakelen/Uitschakelen"
+
+#: ../plugin-options/email-settings-options.php:43
+msgid "Email type"
+msgstr "E-mail type"
+
+#: ../plugin-options/email-settings-options.php:46
+msgid "HTML"
+msgstr "HTML"
+
+#: ../plugin-options/email-settings-options.php:47
+msgid "Plain text"
+msgstr "Simpele tekst"
+
+#: ../plugin-options/email-settings-options.php:56
+msgid "Email subject"
+msgstr "E-mail onderwerp"
+
+#: ../plugin-options/email-settings-options.php:65
+msgid "Email sender"
+msgstr "E-mail verzender"
+
+#: ../plugin-options/email-settings-options.php:73
+msgid "Email content"
+msgstr "E-mail inhoud"
+
+#: ../plugin-options/general-settings-options.php:14
+msgid "Carrier system"
+msgstr "Bezorger systeem"
+
+#: ../plugin-options/general-settings-options.php:15
+msgid ""
+"Enable the carriers system (N.B. by enabling this option, those already set "
+"will be overriden)"
+msgstr ""
+"Bezorger systeem inschakelen (N.B. door deze optie in te schakelen, worden "
+"eerder ingestelde opties overschreven)"
+
+#: ../plugin-options/general-settings-options.php:21
+#: ../templates/meta-boxes/carrier-meta-boxes-options.php:16
+msgid "Estimated Delivery Day"
+msgstr "Verwachte leveringsdatum"
+
+#: ../plugin-options/general-settings-options.php:22
+msgid ""
+"Set the  number of days essential for your carrier to deliver the order (Set "
+"0 as value if the delivery occurs within the day)"
+msgstr ""
+"Stel het aantal dagen in, die essentieel zijn voor de bezorger om te kunnen "
+"leveren (Vul 0 in als waarde, als de bestelling binnen een dag wordt "
+"geleverd)"
+
+#: ../plugin-options/general-settings-options.php:30
+msgid "Workday"
+msgstr "Werkdag"
+
+#: ../plugin-options/general-settings-options.php:32
+msgid "Select the days on which there are deliveries"
+msgstr "Selecteer dagen waarop wordt geleverd"
+
+#: ../plugin-options/general-settings-options.php:35
+msgid "Select day"
+msgstr "Selecteer dag"
+
+#: ../plugin-options/general-settings-options.php:38
+msgid "Maximum days that can be selected"
+msgstr "Maximum aantal dagen dat geselecteerd kan worden"
+
+#: ../plugin-options/general-settings-options.php:40
+#: ../templates/meta-boxes/carrier-meta-boxes-options.php:30
+msgid "Days that can be selected since the first valid date for the delivery"
+msgstr ""
+"Dagen die geselecteerd kunnen worden, vanaf de eerste geldige dag van "
+"levering"
+
+#: ../templates/admin/calendar.php:21
+msgid "Add new Holiday"
+msgstr "Voeg nieuwe vakantie toe"
+
+#: ../templates/admin/calendar.php:24
+msgid "Add holiday to"
+msgstr "Voeg vakantie toe"
+
+#: ../templates/admin/calendar.php:42
+msgid "Default Carrier (if carrier system is disabled)"
+msgstr "Default bezorger (als bezorger systeem is uitgeschakeld)"
+
+#: ../templates/admin/calendar.php:46
+msgid "Event name"
+msgstr "Naam gebeurtenis"
+
+#: ../templates/admin/calendar.php:47
+msgid "Date From"
+msgstr "Datum vanaf"
+
+#: ../templates/admin/calendar.php:48
+msgid "Date To"
+msgstr "Datum tot"
+
+#: ../templates/admin/calendar.php:49
+#: ../templates/admin/custom-shipping-day.php:52
+#: ../templates/admin/custom-shipping-day.php:78
+#: ../templates/admin/timeslot_table.php:20
+#: ../templates/meta-boxes/types/addtimeslot.php:17
+#: ../templates/woocommerce/checkout/delivery-date-select-timeslot.php:23
+msgid "Add"
+msgstr "Toevoegen"
+
+#: ../templates/admin/custom-shipping-day.php:34
+msgid "Shipping Day for Product Category"
+msgstr "Leverdatum voor product categorie"
+
+#: ../templates/admin/custom-shipping-day.php:36
+#: ../templates/admin/custom-shipping-day.php:63
+msgid "Add new"
+msgstr "Voeg nieuwe toe"
+
+#: ../templates/admin/custom-shipping-day.php:44
+msgid "Search for a category&hellip;"
+msgstr "Zoek voor een categorie&hellip;"
+
+#: ../templates/admin/custom-shipping-day.php:51
+#: ../templates/admin/custom-shipping-day.php:77
+msgid "Day"
+msgstr "Dag"
+
+#: ../templates/admin/custom-shipping-day.php:61
+msgid "Shipping Day for Product"
+msgstr "Verzenddatum van product"
+
+#: ../templates/admin/custom-shipping-day.php:70
+msgid "Search for a product&hellip;"
+msgstr "Zoeken naar een product&hellip;"
+
+#: ../templates/admin/custom-shipping-day.php:88
+msgid "Update All"
+msgstr "Alles updaten"
+
+#: ../templates/admin/dayrange.php:18
+msgid "Between"
+msgstr "Tussen"
+
+#: ../templates/admin/dayrange.php:22
+msgid "and"
+msgstr "en"
+
+#: ../templates/admin/timeslot_table.php:13
+msgid "Time Slot Table"
+msgstr "Levertermijn tabel"
+
+#: ../templates/admin/timeslot_table.php:15
+msgid "Add new time slot"
+msgstr "Voeg nieuwe levertermijn toe"
+
+#: ../templates/admin/timeslot_table.php:16
+#: ../templates/meta-boxes/types/addtimeslot.php:13
+msgid "Time From"
+msgstr "Tijd vanaf"
+
+#: ../templates/admin/timeslot_table.php:17
+#: ../templates/meta-boxes/types/addtimeslot.php:14
+msgid "Time To"
+msgstr "Tijd tot"
+
+#: ../templates/admin/timeslot_table.php:18
+#: ../templates/meta-boxes/types/addtimeslot.php:15
+msgid "Lockout"
+msgstr "Lockout"
+
+#: ../templates/meta-boxes/carrier-meta-boxes-options.php:7
+msgid "Carrier settings"
+msgstr "Bezorger instellingen"
+
+#: ../templates/meta-boxes/carrier-meta-boxes-options.php:17
+msgid ""
+"Set the number of days essential to your carrier to deliver the order (Set 0 "
+"as value if the deliver occurs within the day)"
+msgstr ""
+"Stel het aantal dagen in, die essentieel zijn voor de bezorger om te kunnen "
+"leveren Stel het aantal dagen in, die essentieel zijn voor de bezorger om te "
+"kunnen leveren (Vul 0 in als waarde, als de bestelling binnen een dag wordt "
+"geleverd)"
+
+#: ../templates/meta-boxes/carrier-meta-boxes-options.php:23
+msgctxt "workdays"
+msgid "Workday"
+msgstr "Werkdag"
+
+#: ../templates/meta-boxes/carrier-meta-boxes-options.php:24
+msgid "Choose the carriers workdays"
+msgstr "Kies de bezorgers voor werkdagen"
+
+#: ../templates/meta-boxes/carrier-meta-boxes-options.php:26
+msgid "Select a day"
+msgstr "Selecteer een dag"
+
+#: ../templates/meta-boxes/carrier-meta-boxes-options.php:29
+msgctxt "days that can be selected starting from"
+msgid "Maximum days for selection"
+msgstr "Maximaal aantal dagen voor selectie"
+
+#: ../templates/meta-boxes/carrier-meta-boxes-options.php:41
+msgid "Add time slot"
+msgstr "Levertermijn toevoegen"
+
+#: ../templates/meta-boxes/order-delivery-details-meta-box.php:66
+msgid "Please, ship this order to the carrier within this date"
+msgstr "Verzend deze bestelling naar de bezorger binnen deze datum"
+
+#: ../templates/meta-boxes/order-delivery-details-meta-box.php:70
+msgid "You haven't shipped the order in time!"
+msgstr "U heeft de bestelling niet optijd verzonden!"
+
+#: ../templates/meta-boxes/processing-method-meta-boxes-options.php:7
+msgid "Processing Method settings"
+msgstr "Verwerk methode instellingen"
+
+#: ../templates/meta-boxes/processing-method-meta-boxes-options.php:17
+msgid ""
+"Set the minimum number of days required to process an order ( Set 0 if you "
+"can ship the package on the same day )"
+msgstr ""
+"Stel het minimum aantal dagen in dat nodig is om een order te verwerken (Vul "
+"0 in als waarde, als de bestelling binnen een dag wordt verzonden)"
+
+#: ../templates/meta-boxes/processing-method-meta-boxes-options.php:24
+msgid "Select the days on which you ship"
+msgstr "Selecteer de dagen waarop u wilt verzenden"
+
+#: ../templates/meta-boxes/processing-method-meta-boxes-options.php:29
+msgctxt "allows to select the created carriers"
+msgid "Select Carrier"
+msgstr "Selecteer bezorger"
+
+#: ../templates/meta-boxes/processing-method-meta-boxes-options.php:31
+msgid ""
+"If the carriers system has been enabled, select the carriers for this method"
+msgstr ""
+"Indien het bezorgsysteem is uitgeschakeld, selecteer een bezorger voor deze "
+"methode"
+
+#: ../templates/meta-boxes/processing-method-meta-boxes-options.php:32
+msgid "Select carriers"
+msgstr "Selecteer bezorgers"
+
+#: ../templates/meta-boxes/select-shipping-method.php:19
+msgid "Shipping Zone"
+msgstr "Verzendzone"
+
+#: ../templates/meta-boxes/select-shipping-method.php:21
+msgid "Select  a Shipping Zone"
+msgstr "Selecteer een verzendzone"
+
+#: ../templates/meta-boxes/select-shipping-method.php:31
+msgid "Select a Shipping Method"
+msgstr "Selecteer een verzendmethode"
+
+#: ../templates/meta-boxes/select-shipping-method.php:34
+msgid "Set as Mandatory"
+msgstr "Stel in als verplicht"
+
+#: ../templates/meta-boxes/shipping-method-info.php:69
+#: ../templates/meta-boxes/shipping-method-info.php:120
+msgid "This processing method is set in WooCommerce Shipping Method:"
+msgstr "Deze verwerkmethode is ingesteld in WooCommerce Shipping Method:"
+
+#: ../templates/meta-boxes/shipping-method-info.php:71
+#: ../templates/meta-boxes/shipping-method-info.php:122
+msgid "This method is not set in any WooCommerce Shipping Method"
+msgstr "Deze methode is niet ingesteld in een WooCommerce Shipping Method"
+
+#: ../templates/meta-boxes/shipping-method-info.php:82
+#: ../templates/meta-boxes/shipping-method-info.php:129
+msgid "Edit settings"
+msgstr "Bewerk instellingen"
+
+#: ../templates/meta-boxes/shipping-method-info.php:94
+msgid "Manage Shipping Zones"
+msgstr "Beheer verzendzones"
+
+#: ../templates/meta-boxes/shipping-method-info.php:138
+msgid "Manage Shipping Methods"
+msgstr "Beheer verzendmethoden"
+
+#: ../templates/meta-boxes/types/check_list_day.php:34
+msgid "All Days"
+msgstr "Alle dagen"
+
+#: ../templates/meta-boxes/types/check_list_day.php:48
+msgid "Time Limit"
+msgstr "Tijdlimiet"
+
+#: ../templates/meta-boxes/types/select_carrier.php:35
+msgid "or create one"
+msgstr "of creëer er een"
+
+#: ../templates/woocommerce/checkout/checkout-show-delivery-date-info.php:7
+msgid "Your order will be shipped to carrier on"
+msgstr "Uw bestelling zal worden verzonden naar bezorger op"
+
+#: ../templates/woocommerce/checkout/checkout-show-delivery-date-info.php:11
+msgid "You should receive the package on"
+msgstr "U zult de bestelling ontvangen op"
+
+#: ../templates/woocommerce/checkout/delivery-date-select-date.php:26
+msgid "Select a Carrier"
+msgstr "Selecteer een bezorger"
+
+#: ../templates/woocommerce/checkout/delivery-date-select-date.php:39
+msgid "Your order will be shipped on"
+msgstr "Uw bestelling wordt verzonden op"
+
+#: ../templates/woocommerce/checkout/delivery-date-select-timeslot.php:23
+msgid "You can select a time slot for this day"
+msgstr "U kunt een levertermijn selecteren voor deze dag"
+
+#: ../templates/woocommerce/checkout/delivery-date-select-timeslot.php:29
+msgid "Select time slot"
+msgstr "Selecteer levertermijn"
+
+#: ../templates/woocommerce/pdf/delivery-date-info.php:12
+msgid "Delivery Notes"
+msgstr "Levering notities"

@@ -1,0 +1,21 @@
+<div class="api-field">
+	<div class="field-description">
+		<?php echo __( 'Choose your mailing list', 'thrive-cb' ); ?>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-9">
+			<select class="api-list change" data-fn="setupChange" data-name="list">
+				<# _.each(api.get('lists'), function(item) { #>
+				<#= TVE.tpl( 'util/option', {value:item.id, selected: (api.getConfig('list')==item.id), text: item.name}) #>
+				<# } ) #>
+			</select>
+		</div>
+
+		<div class="col-xs-3">
+			<button type="button" class="button-link blue tcb-right click" data-fn="forceGet">
+				<?php echo __( 'Reload Lists', 'thrive-cb' ); ?>
+			</button>
+		</div>
+	</div>
+</div>

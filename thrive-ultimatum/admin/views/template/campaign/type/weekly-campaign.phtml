@@ -1,0 +1,29 @@
+<div class="tvd-row tvd-collapse">
+    <div class="tvd-col tvd-s12 tvd-m4">
+        <div class="tvd-input-field">
+            <input maxlength="2" id="tvu-rolling-duration" type="text" value="<#= item.duration ? item.duration : 1 #>" class="tvu-rolling-weekly  tvd-no-margin-bottom" data-field="duration">
+            <label class="tvd-active" for="tvu-rolling-duration"><?php echo __('Duration (days)', TVE_Ult_Const::T) ?></label>
+        </div>
+    </div>
+    <div class="tvd-col tvd-s12 tvd-m4">
+        <div class="tvd-input-field tvu-no-margin-select">
+            <select class="tvu-rolling-repeat" id="tvu-rolling-repeat-weekly">
+                <# _.times( 10, function ( index ) { var i = index + 1 #>
+                    <option<#= ( item.repeat == i ? ' selected' : '' ) #> value="<#= i #>"><#= i #></option>
+                <# } ) #>
+            </select>
+            <label for="tvu-rolling-repeat-weekly"><?php echo __('Repeat every (weeks)', TVE_Ult_Const::T) ?> </label>
+        </div>
+    </div>
+</div>
+<div class="tvd-v-spacer"></div>
+<div class="tvd-row tvd-collapse">
+    <div class="tvd-col tvd-s12">
+        <p class="tvu-repeat-paragraph">
+            <?php echo __('Repeat On:', TVE_Ult_Const::T) ?>
+        </p>
+    </div>
+    <div class="tvd-col tvd-s12">
+        <div class="tvu-weekly-repeats-wrapper"></div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="gradient-picker">
+	<div class="dark-box">
+		<div class="row middle-xs">
+			<div class="col-xs-5 tcb-text-right">
+				<?php echo __( 'Orientation', 'thrive-cb' ) ?>:
+			</div>
+			<div class="col-xs-7">
+				<select class="gradient-style change tcb-dark" data-fn="gradient_type">
+					<option value="linear-gradient"><?php echo __( 'Linear', 'thrive-cb' ); ?></option>
+					<option value="radial-gradient"><?php echo __( 'Radial', 'thrive-cb' ); ?></option>
+				</select>
+			</div>
+		</div>
+		<div class="row middle-xs padding-top-10 gradient-orientation">
+			<div class="col-xs-5 tcb-text-right"><?php echo __( 'Angle', 'thrive-cb' ) ?>:</div>
+			<div class="col-xs-7">
+				<div class="tve-gradient-angle"></div>
+			</div>
+		</div>
+		<div class="tve-gradient-settings padding-top-10">
+			<canvas class="gradient-picker-preview"></canvas>
+			<div class="gradient-picker-points"></div>
+		</div>
+		<div class="tcb-text-right gradient-reset padding-top-10"><span class="click" data-fn="reset"><?php echo __( 'Reset gradient', 'thrive-cb' ) ?></span></div>
+	</div>
+</div>
+<div class="gradient-color-picker"></div>

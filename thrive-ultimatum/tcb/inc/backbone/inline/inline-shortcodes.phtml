@@ -1,0 +1,14 @@
+<ul class="fr-dropdown-list" role="presentation">
+	<# _.each(shortcodes, function(group, group_name) { #>
+	<li role="presentation">
+		<a class="tcb-shortcode-group"><#= group_name #></a>
+	</li>
+	<# _.each(group, function(shortcode) { #>
+	<li role="presentation">
+		<a class="fr-command" tabIndex="-1" role="option" data-cmd="shortcode" data-param1="<#= shortcode.value #>" data-param2="<#= shortcode.name #>" title="<#= shortcode.option #>">
+			<#= shortcode.option #>
+		</a>
+	</li>
+	<# }); #>
+	<# }); #>
+</ul>

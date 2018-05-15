@@ -1,0 +1,144 @@
+/* State manager styles */
+.states-button-container {
+  position: fixed;
+  right: 52px;
+  bottom: 35px;
+  .tve-right-side & {
+    right: auto;
+    left: 35px;
+  }
+  button {
+    box-sizing: content-box;
+    color: white;
+    border: 0;
+    background: #52c578;
+    border-radius: 100%;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .25);
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.design-states {
+  width: 180px;
+  padding: 10px 15px;
+  display: none;
+  position: fixed;
+  right: 52px;
+  bottom: 35px;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, .25);
+  .tve-right-side & {
+    right: auto;
+    left: 35px;
+  }
+  span.title {
+    display: block;
+    padding-top: 8px;
+  }
+  .state-close {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+  }
+}
+
+.btn-icon {
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+ul.state-steps {
+  list-style: none;
+  padding-bottom: 10px;
+  > li {
+    text-transform: uppercase;
+    display: block;
+    color: #555555;
+    background-color: #dadfdf;
+    position: relative;
+    padding: 20px 0;
+    margin: 10px 0 0;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .25);
+    border-radius: 2px;
+    text-align: center;
+    &.state-active, &.state-active:hover {
+      background-color: #3399cc;
+      .state-name {
+        color: #fff;
+      }
+      .state-clone {
+        &:before {
+          color: #fff;
+        }
+        &:hover {
+          border-color: #fff;
+        }
+      }
+    }
+    &.tl-multistep-open {
+      .lightbox-step-add-menu {
+        transition: all .2s ease;
+        opacity: 1;
+        visibility: visible;
+        bottom: 70px;
+      }
+    }
+    &.state-add {
+      background: none;
+      box-shadow: none;
+      border: 1px dashed #cccccc;
+      cursor: pointer;
+      color: #8d8d8d;
+      &:hover {
+        background: none;
+        border: 1px dashed darken(#cccccc, 10);
+      }
+    }
+    //Show (duplicate, delete, edit) buttons on list hover
+    &:hover {
+      background-color: darken(#dadfdf, 5);
+      .state-delete,
+      .state-edit,
+      .state-clone {
+        display: block;
+      }
+    }
+  }
+  .state-delete,
+  .state-edit,
+  .state-clone {
+    font-size: 14px;
+    cursor: pointer;
+    top: 7px;
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    padding: 0;
+    display: none;
+    color: #606060;
+  }
+  .state-delete {
+    right: 7px;
+    color: #f44551;
+  }
+  .state-clone {
+    font-size: 12px;
+    left: 7px;
+  }
+  .state-edit {
+    font-size: 12px;
+    top: 30px;
+    left: 7px;
+  }
+  .state-name {
+    color: #666666;
+  }
+}

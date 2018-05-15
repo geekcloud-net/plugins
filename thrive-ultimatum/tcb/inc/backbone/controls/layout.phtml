@@ -1,0 +1,52 @@
+<?php
+/**
+ * Thrive Themes - https://thrivethemes.com
+ *
+ * @package thrive-visual-editor
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Silence is golden!
+}
+?>
+<div class="layout-options action-group">
+	<div class="dropdown-header" data-prop="docked">
+		<span>
+			<?php echo __( 'Layout & Position', 'thrive-cb' ); ?>
+		</span>
+		<i></i>
+	</div>
+	<div class="dropdown-content">
+		<div class="tve-control" data-view="MarginAndPadding"></div>
+
+		<hr>
+
+		<div class="tve-control" data-view="MaxWidth"></div>
+
+		<div class="tve-control" data-view="Alignment"></div>
+
+		<div class="tve-advanced-controls extend-grey">
+			<div class="dropdown-header" data-prop="advanced">
+				<span>
+					<?php echo __( 'Advanced', 'thrive-cb' ); ?>
+				</span>
+				<i></i>
+			</div>
+
+			<div class="dropdown-content clear-top">
+				<div class="row middle-xs">
+					<div class="col-xs-6 tve-control" data-view="Float"></div>
+					<div class="col-xs-6 tve-control" data-view="zIndex"></div>
+				</div>
+
+				<hr>
+
+				<div class="tve-control" data-view="Position"></div>
+
+				<hr>
+
+				<div class="tve-control" data-view="PositionFrom"></div>
+			</div>
+		</div>
+	</div>
+</div>

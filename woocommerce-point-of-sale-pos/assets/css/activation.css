@@ -1,0 +1,55 @@
+.woocommerce-message{overflow:hidden;position:relative;border-left-color:#8f1e20!important}.woocommerce-message a.docs:focus,.woocommerce-message a.docs:hover,.woocommerce-message a.skip:focus,.woocommerce-message a.skip:hover,p.woocommerce-actions a.docs:focus,p.woocommerce-actions a.docs:hover,p.woocommerce-actions a.skip:focus,p.woocommerce-actions a.skip:hover{opacity:1}.woocommerce-message a.button-primary,.woocommerce-message a.button-secondary,p.woocommerce-actions a.button-primary,p.woocommerce-actions a.button-secondary{text-decoration:none!important}.woocommerce-message .twitter-share-button,p.woocommerce-actions .twitter-share-button{margin-top:-3px;margin-left:3px;vertical-align:middle}.woocommerce-about-text,p.woocommerce-actions{margin-bottom:1em!important}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary:focus
+.woocommerce-message a.button-primary,p.woocommerce-actions a.button-primary {background:#8f1e20;border-color:#8f1e20;-webkit-box-shadow:inset 0 1px 0 rgba(120,200,230,.6);box-shadow:inset 0 1px 0 rgba(120,200,230,.6);color:#fff}
+.woocommerce-message a.button-primary:active,p.woocommerce-actions a.button-primary:active{background:#8f1e20;border-color:#8f1e20}
+
+.woocommerce-message a.docs,.woocommerce-message a.skip,p.woocommerce-actions a.docs,p.woocommerce-actions a.skip{opacity:.5}
+
+.button {
+	background: #921D20 !important;
+    border-color: #75171a !important;
+    -webkit-box-shadow: 0 1px 0 #75171a !important;
+    box-shadow: 0 1px 0 #75171a !important;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #75171a, 1px 0 1px #75171a, 0 1px 1px #75171a, -1px 0 1px #75171a !important;
+}
+.button:hover {
+	background: #ac2b2f !important;
+    border-color: #a1262a !important;
+}
+.wc-badge::before {
+    color: #fff;
+    font-family: dashicons;
+	content: "\f513";
+    font-size: 80px;
+    font-weight: normal;
+    height: 165px;
+    left: 0;
+    line-height: 145px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    vertical-align: middle;
+    width: 145px;
+}
+.about-wrap .wc-badge {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.wc-badge {
+    background: #8f1e20 none repeat scroll 0 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    color: #D1A4A4;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    margin: 5px 0 0;
+    padding-top: 120px;
+    position: relative;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    width: 140px;
+}

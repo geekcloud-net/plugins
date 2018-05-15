@@ -1,0 +1,17 @@
+.wp-list-table.carriertimeslots input[type="text"],
+.wp-list-table.carriertimeslots input[type="number"]
+{
+    width: 100%;
+}
+
+.wp-list-table.carriertimeslots .yith_single_multiworkday{
+	display:none
+}
+
+.carriertimeslots .yith_single_multiworkday .select2-container{
+    width: 100%!important;
+}
+
+.yith_timeslot_all_day {
+    margin-right: 5px;
+}

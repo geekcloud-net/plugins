@@ -1,0 +1,27 @@
+<div class="tvd-row">
+	<div class="tvd-col tvd-s12 tcb-admin-image-overlay-wrapper">
+		<img src="<#= model.get('image_url') #>"/>
+		<div class="tcb-admin-image-overlay">
+			<div class="tvd-row">
+				<div class="tvd-col tvd-s12">
+					<div class="tvd-left tvd-pointer">
+						<?php echo tcb_admin_icon( 'move' ); ?>
+					</div>
+					<div class="tvd-right tvd-pointer">
+						<i class="tvd-icon-trash-o tcb-admin-delete-template-item"></i>
+					</div>
+				</div>
+				<div class="tvd-col tvd-s12">&nbsp;</div>
+				<div class="tvd-col tvd-s12 tvd-center">
+					<a class="tcb-admin-preview-text" href="#template/<#= model.get('id') #>"><?php echo __( 'PREVIEW', 'thrive-cb' ); ?></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tvd-col tvd-s12 tcb-admin-template-name">
+		<span class="tvd-card-title">
+			<#= model.get('name') #>
+		</span>
+		<span class="tvd-icon-pencil tvd-pointer tcb-admin-edit-template-name"></span>
+	</div>
+</div>

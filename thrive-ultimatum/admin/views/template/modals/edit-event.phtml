@@ -1,0 +1,67 @@
+<div class="tvd-modal-content">
+	<h3 class="tvd-modal-title"><?php echo __( 'Timeline Event Settings', TVE_Ult_Const::T ) ?></h3>
+	<div id="tvu-trigger-options" style="display: none">
+		<div class="tvd-v-spacer vs-2"></div>
+		<h4><?php echo __( 'Trigger', TVE_Ult_Const::T ) ?></h4>
+		<div class="tvd-v-spacer"></div>
+		<?php echo __( 'This event starts', TVE_Ult_Const::T ) ?>
+		<div class="tvd-input-field tvd-inline-block tvd-input-field-medium tvu-timeline-align-inputs">
+			<input id="tvu-event-time" type="text" maxlength="3" data-field="time"/>
+			<label for="tvu-event-start"
+			       data-error="<?php echo __( 'Required field', TVE_Ult_Const::T ) ?>">&nbsp;</label>
+		</div>
+		<div class="tvd-input-field tvd-inline-block tvd-input-field-medium tvu-timeline-align-inputs tvd-no-margin">
+			<select id="tvu-event-unit">
+				<option value="days"><?php echo __( 'Days', TVE_Ult_Const::T ) ?></option>
+				<option value="hours"><?php echo __( 'Hours', TVE_Ult_Const::T ) ?></option>
+			</select>
+		</div>
+		<?php echo __( 'before the countdown reaches zero.', TVE_Ult_Const::T ) ?>
+	</div>
+	<div class="tvd-v-spacer vs-2"></div>
+	<div class="tvd-row tvd-collapse">
+		<div class="tvd-col tvd-s12">
+			<h4 class="tvd-no-margin"><?php echo __( 'Actions', TVE_Ult_Const::T ) ?></h4>
+			<em class="tvd-small-text"><?php echo __( 'Choose the designs and states to be displayed once the countdown reaches this event', TVE_Ult_Const::T ) ?></em>
+		</div>
+	</div>
+	<div class="tvu-event-designs">
+		<ul class="tvd-collection tvd-with-header" id="tvu-event-designs">
+			<li class="tvd-collection-header">
+				<div class="tvd-row tvd-collapse tvd-no-mb">
+					<div class="tvd-col tvd-s4">
+						<h5>
+							<?php echo __( 'Design to show', TVE_Ult_Const::T ) ?>
+						</h5>
+					</div>
+					<div class="tvd-col tvd-s2 tvd-center-align">
+						<h5>
+							<?php echo __( 'Display', TVE_Ult_Const::T ) ?>
+						</h5>
+					</div>
+					<div class="tvd-col tvd-s6">
+						<h5>
+							<?php echo __( 'Design State', TVE_Ult_Const::T ) ?>
+						</h5>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="tvd-modal-footer">
+	<div class="tvd-row">
+		<div class="tvd-col tvd-s12 tvd-m6">
+			<button
+				class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-modal-close tvd-waves-effect">
+				<?php echo __( 'Cancel', TVE_Ult_Const::T ) ?>
+			</button>
+		</div>
+		<div class="tvd-col tvd-s12 tvd-m6">
+			<button
+				class="tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-green tvu-event-save tvd-right">
+				<?php echo __( 'Save Timeline Event', TVE_Ult_Const::T ) ?>
+			</button>
+		</div>
+	</div>
+</div>

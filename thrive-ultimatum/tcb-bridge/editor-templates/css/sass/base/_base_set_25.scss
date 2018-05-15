@@ -1,0 +1,202 @@
+@import "config/_base_set_25_config";
+
+#tvu_set_25 {
+  font-family: $font-family;
+  //countdown
+  .thrv_countdown_timer.tve_countdown_3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    .tve_t_part {
+      @if $countdown-no-border {
+        border: 0;
+      }
+      @if $countdown-no-background {
+        background: none;
+      }
+      margin-right: 7px;
+      padding: 0;
+      position: relative;
+      &.tve_t_min {
+        z-index: 1;
+      }
+      &.tve_t_hour {
+        z-index: 2;
+      }
+      &.tve_t_day {
+        z-index: 3;
+      }
+      &:after {
+        border-radius: $countdown-item-border-radius;
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transform: rotate(-45deg);
+      }
+      .t-digits {
+        @if $countdown-same-color-items {
+          background: $countdown-item-bg;
+        }
+        height: $item-height;
+        min-width: $item-min-width;
+        padding: 0 $item-padding;
+        [class*="part-"] {
+          color: $item-color;
+          font-size: $item-font-size;
+          font-weight: $item-font-weight;
+          font-style: $item-font-style;
+          line-height: $item-line-height;
+          right: $item-spacing;
+          min-width: $item-min-width/2;
+          z-index: 1;
+          width: $item-min-width/2;
+        }
+        .part-2 {
+          right: $item2-spacing;
+        }
+        .part-3 {
+          right: $item3-spacing;
+        }
+        .part-4 {
+          right: $item4-spacing;
+        }
+        &:after {
+          display: none;
+        }
+      }
+      .t-caption {
+        color: $caption-color;
+        border-top: 0;
+        font-weight: $caption-font-weight;
+        font-size: $caption-font-size;
+        min-width: $item-min-width;
+        margin: 0 10px 0;
+        padding: 2px 0 10px 0;
+        position: relative;
+        z-index: 1;
+        &:before {
+          display: none;
+        }
+      }
+    }
+    &.tve_white {
+      .tve_t_part {
+        [class*="part-"] {
+          color: $item-color-dark;
+        }
+        .t-caption {
+          color: $caption-color-dark;
+        }
+      }
+    }
+    &[data-dd="2"] {
+      .tve_t_day {
+        .t-digits {
+          min-width: $item-min-width;
+        }
+      }
+    }
+    &[data-dd="3"] {
+      .tve_t_day {
+        .t-digits {
+          min-width: $item-min-width * 1.5;
+        }
+      }
+    }
+    &[data-dd="4"] {
+      .tve_t_day {
+        .t-digits {
+          min-width: $item-min-width * 2;
+        }
+      }
+    }
+  }
+}
+
+//color pallete
+
+@each $color in $color-pallete {
+  #tvu_set_25 {
+    .thrv_countdown_timer.tve_countdown_3.tve_#{nth($color, 1)} {
+      .tve_t_part {
+        &:after {
+          background: nth($color, 2);
+          border: 1px solid nth($color, 3);
+          box-shadow: -3px 5px 0 0 rgba(nth($color, 2), .35);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  #tvu_set_25 {
+    .thrv_countdown_timer.tve_countdown_3 {
+      .tve_t_part {
+        &:after {
+          transform: none;
+        }
+        .t-digits {
+          height: $item-height-r;
+          min-width: $item-min-width-r;
+          padding: 0 $item-padding-r;
+          [class*="part-"] {
+            font-size: $item-font-size-r;
+            line-height: $item-line-height-r;
+            right: $item-spacing-r;
+            min-width: $item-min-width-r/2;
+            width: $item-min-width-r/2;
+          }
+          .part-2 {
+            right: $item2-spacing-r;
+          }
+          .part-3 {
+            right: $item3-spacing-r;
+          }
+          .part-4 {
+            right: $item4-spacing-r;
+          }
+        }
+        .t-caption {
+          margin: 0 5px;
+          padding: 0 0 5px;
+        }
+      }
+      &[data-dd="2"] {
+        .tve_t_day {
+          .t-digits {
+            min-width: $item-min-width-r;
+          }
+        }
+      }
+      &[data-dd="3"] {
+        .tve_t_day {
+          .t-digits {
+            min-width: $item-min-width-r * 1.5;
+          }
+        }
+      }
+      &[data-dd="4"] {
+        .tve_t_day {
+          .t-digits {
+            min-width: $item-min-width-r * 2;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  #tvu_set_25 {
+    .thrv_countdown_timer.tve_countdown_3 {
+      margin: 10px auto;
+      .tve_t_part {
+        margin-right: 4px;
+      }
+    }
+  }
+}

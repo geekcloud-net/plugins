@@ -1,0 +1,88 @@
+<h4><?php echo __('Recurring Campaign', TVE_Ult_Const::T) ?></h4>
+<p><?php echo __('Tell us when you would like the new offer to start and how many days the campaign should last for', TVE_Ult_Const::T) ?></p>
+<div class="tvd-row tvd-collapse">
+	<div class="tvd-col tvd-s12 tvd-m4">
+		<div class="tvd-input-field tvd-timepicker-left">
+			<input id="tvu-start-date" type="text" class="tvd-no-focus tvd-no-margin-bottom" value="<#= settings.start && settings.start.date ? settings.start.date : '' #>" data-field="start_date">
+			<label <#= settings.start ? 'class="tvd-active"' : '' #> for="tvu-start-date"><?php echo __('Start date', TVE_Ult_Const::T) ?></label>
+		</div>
+	</div>
+	<div class="tvd-col tvd-s12 tvd-m4">
+		<div class="tvd-input-field timepicker-append-to">
+			<input id="tvu-start-hour" type="text"  class="tvd-no-focus tvd-no-margin-bottom" value="<#= settings.start && settings.start.time ?  settings.start.time : '' #>" data-field="start_time">
+			<label <#= settings.start ? 'class="tvd-active"' : '' #> for="tvu-start-hour"><?php echo __('Start hour', TVE_Ult_Const::T) ?></label>
+		</div>
+	</div>
+	<div class="tvd-col tvd-s12 tvd-m4">
+		<div class="tvd-input-field tvu-no-margin-select">
+			<select name="" id="tvu-select-recurrence-change" class="tvu-campaign-recurrence" data-field="recurrence">
+				<option value="daily" <#= item.get('rolling_type') == 'daily' ? 'selected' : '' #>><?php echo __('Daily', TVE_Ult_Const::T) ?></option>
+				<option value="weekly" <#= item.get('rolling_type') == 'weekly' ? 'selected' : '' #>><?php echo __('Weekly', TVE_Ult_Const::T) ?></option>
+				<option value="monthly" <#= item.get('rolling_type') == 'monthly' ? 'selected' : '' #>><?php echo __('Monthly', TVE_Ult_Const::T) ?></option>
+				<option value="yearly" <#= item.get('rolling_type') == 'yearly' ? 'selected' : '' #>><?php echo __('Yearly', TVE_Ult_Const::T) ?></option>
+			</select>
+			<label for="tvu-select-recurrence-change"><?php echo __('Repeats', TVE_Ult_Const::T) ?></label>
+		</div>
+	</div>
+</div>
+<div class="tvd-v-spacer"></div>
+<div id="tvu-rolling-options"></div>
+<div class="tvd-row tvd-collapse">
+	<div class="tvd-col tvd-s12">
+		<p class="tvd-no-margin"><?php echo __("Ends:", TVE_Ult_Const::T); ?> </p>
+	</div>
+	<div class="tvd-col tvd-s6 tvd-m2">
+		<p class="tvu-align-radio">
+			<input class="" name="ends" type="radio" value="never" id="tve-rolling-end-never" <#= settings.end === null ? 'checked' : '' #> />
+				<label for="tve-rolling-end-never"><?php echo __("Never", TVE_Ult_Const::T); ?></label>
+		</p>
+	</div>
+	<div class="tvd-col tvd-s6 tvd-m4">
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s2">
+				<p>
+					<input class="" name="ends" type="radio"  value="after" id="tve-rolling-end-after" <#= settings.end && settings.end.length < 4 ? 'checked' : '' #>/>
+					<label for="tve-rolling-end-after"></label>
+				</p>
+			</div>
+			<div class="tvd-col tvd-s10">
+				<div class="tvd-input-field">
+					<input class="tvd-no-margin-bottom" id="tvu-rolling-end-after-in" type="text" value="<#= settings.end && settings.end.length < 4 ? settings.end : '' #>" data-field="occurrences_number" maxlength="4">
+					<label <#= settings.end && settings.end.length < 4 ? 'class="tvd-active"' : '' #> for="tvu-rolling-end-after-in"  class="tve_text"><?php echo __('After (occurrences)', TVE_Ult_Const::T) ?></label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tvd-col tvd-s6 tvd-m4">
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s2">
+				<p>
+					<input class="" name="ends" type="radio" value="date" id="tve-rolling-end-on" <#= settings.end !== null && typeof settings.end === 'object' ? 'checked' : '' #> />
+					<label for="tve-rolling-end-on"></label>
+				</p>
+			</div>
+			<div class="tvd-col tvd-s10">
+				<div class="tvd-input-field">
+					<input id="tvu-end-date" type="text" class="tvd-no-focus tvd-no-margin-bottom" value="<#= settings.end !== null && typeof settings.end === 'object' && settings.end.date ? settings.end.date : '' #>" data-field="end_date">
+					<label <#= settings.end && settings.end.length > 4 ? 'class="tvd-active"' : '' #> for="tvu-end-date"><?php echo __('On', TVE_Ult_Const::T) ?></label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tvd-col tvd-s6 tvd-m2">
+		<div class="tvd-input-field timepicker-append-to">
+			<input id="tvu-end-hour" type="text"  class="tvd-no-focus tvd-no-margin-bottom" value="<#= settings.end !== null && typeof settings.end === 'object' && settings.end.time ?  settings.end.time : '' #>" data-field="end_time">
+			<label <#= settings.end ? 'class="tvd-active"' : '' #> for="tvu-end-hour"><?php echo __('End hour', TVE_Ult_Const::T) ?></label>
+		</div>
+	</div>
+</div>
+
+<div class="tvd-row tvd-collapse">
+	<div class="tvd-col tvd-s12">
+		<h4><?php echo __('Description', TVE_Ult_Const::T) ?></h4>
+		<p><?php echo __('This campaign will repeat every', TVE_Ult_Const::T) ?> <span class="tvu-campaign-rolling-repeat"></span> <span class="tvu-campaign-rolling-day">on </span></p>
+	</div>
+	<div class="tvd-col tvd-s12">
+		<p><?php echo __('Your current timezone settings are: ', TVE_Ult_Const::T) ?> <strong><#= ThriveUlt.globals.settings.get('offset') ? ThriveUlt.globals.settings.get('offset') : '<?php __( 'Not Set', TVE_Ult_Const::T ) ?>' #></strong>. <?php echo __('Local time is ', TVE_Ult_Const::T) ?> <strong><?php echo tve_ult_current_time( 'Y-m-d H:i' ); ?></strong>,  <?php echo __('see ', TVE_Ult_Const::T) ?><?php echo __(' Date & Time Settings', TVE_Ult_Const::T) ?></p>
+	</div>
+</div>

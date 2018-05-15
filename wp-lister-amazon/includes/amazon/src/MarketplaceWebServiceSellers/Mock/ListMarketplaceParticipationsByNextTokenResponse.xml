@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListMarketplaceParticipationsByNextTokenResponse xmlns="https://mws.amazonservices.com/Sellers/2011-07-01">
+  <ListMarketplaceParticipationsByNextTokenResult>
+    <!--Optional:-->
+    <NextToken>string</NextToken>
+    <ListParticipations>
+      <!--1 or more repetitions:-->
+      <Participation>
+        <!--Optional:-->
+        <MarketplaceId>string</MarketplaceId>
+        <!--Optional:-->
+        <SellerId>string</SellerId>
+        <!--Optional:-->
+        <HasSellerSuspendedListings>No</HasSellerSuspendedListings>
+      </Participation>
+    </ListParticipations>
+    <ListMarketplaces>
+      <!--1 or more repetitions:-->
+      <Marketplace>
+        <!--Optional:-->
+        <MarketplaceId>string</MarketplaceId>
+        <!--Optional:-->
+        <Name>string</Name>
+        <!--Optional:-->
+        <DefaultLanguageCode>string</DefaultLanguageCode>
+        <!--Optional:-->
+        <DefaultCountryCode>string</DefaultCountryCode>
+        <!--Optional:-->
+        <DefaultCurrencyCode>string</DefaultCurrencyCode>
+        <!--Optional:-->
+        <DomainName>string</DomainName>
+      </Marketplace>
+    </ListMarketplaces>
+  </ListMarketplaceParticipationsByNextTokenResult>
+  <ResponseMetadata>
+    <RequestId>string</RequestId>
+  </ResponseMetadata>
+</ListMarketplaceParticipationsByNextTokenResponse>

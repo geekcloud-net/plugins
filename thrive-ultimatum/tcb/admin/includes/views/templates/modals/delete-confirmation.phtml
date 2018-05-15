@@ -1,0 +1,30 @@
+<div class="tvd-modal-content tvd-red tcb-delete-template">
+	<h3 class="tvd-modal-title tvd-white-text">
+		<#= text #>
+	</h3>
+	<div class="tvd-v-spacer"></div>
+
+	<div class="tvd-row hidden tcb-admin-extra-setting-row">
+		<div class="tvd-col tvd-s12 tvd-left">
+			<input type="checkbox" class="noUi-target noUi-ltr noUi-horizontal noUi-background" id="tcb-admin-extra-setting-check">
+			<label for="tcb-admin-extra-setting-check" class="tvd-white-text"><?php echo __( 'Delete saved templates also', 'thrive-cb' ); ?></label>
+		</div>
+	</div>
+</div>
+<div class="tvd-modal-footer tvd-red tcb-delete-template">
+	<div class="tvd-row">
+		<div class="tvd-col tvd-s12 tvd-m6">
+			<a href="javascript:void(0)"
+			   class="tvd-btn-flat tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-light tvd-left tvd-modal-close">
+				<?php echo __( "NO, DON'T DELETE", 'thrive-cb' ); ?>
+			</a>
+		</div>
+		<div class="tvd-col tvd-s12 tvd-m6">
+			<a href="javascript:void(0)"
+			   class="tvd-modal-submit tvd-btn-flat tvd-btn-flat-primary tvd-btn-flat-light tvd-right">
+				<?php echo __( 'YES, DELETE', 'thrive-cb' ); ?>
+			</a>
+		</div>
+	</div>
+</div>
+<a href="javascript:void(0)" class="tvd-modal-action tvd-modal-close tvd-modal-close-x tvd-white-text"><i class="tvd-icon-close2"></i></a>

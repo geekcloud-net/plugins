@@ -1,0 +1,10 @@
+<div class="tcb-table-preview">
+	<div class="table-cells clearfix">
+		<?php foreach ( range( 1, 6 ) as $row ) : ?>
+			<?php foreach ( range( 1, 8 ) as $col ) : ?>
+				<div class="table-size-cell mouseenter click" data-fn-mouseenter="highlight" data-fn-click="insert" data-row="<?php echo $row ?>" data-col="<?php echo $col ?>"></div>
+			<?php endforeach ?>
+		<?php endforeach ?>
+	</div>
+	<div id="table-size-preview" class="padding-top-5 tcb-text-center">1 x 1</div>
+</div>

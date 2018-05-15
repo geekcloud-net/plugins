@@ -1,0 +1,61 @@
+<div class="tvd-modal-content tvd-modal-add-edit-script">
+	<h4 class="tvd-modal-title"><#= message #></h4>
+	<a href="javascript:void(0)"
+	   class="tvd-modal-action tvd-modal-close tvd-modal-close-x">
+		<i class="tvd-icon-close2"></i>
+	</a>
+	<form class="">
+		<div class="tvd-row">
+			<div class="tvd-sm-input-field tvd-aes-flex clearfix">
+				<label for="tvd-sm-script-code">
+					<?php echo __( 'Script', TVE_DASH_TRANSLATE_DOMAIN ) ?>
+				</label>
+				<textarea id="tvd-sm-script-code"><#= typeof(this.model) !== 'undefined' ? this.model.get('code'):''#></textarea>
+			</div>
+
+			<div id="tvd-sm-code-empty" class="tvd-sm-input-error" hidden>
+				<?php echo __( 'Required field!', TVE_DASH_TRANSLATE_DOMAIN ); ?>
+			</div>
+
+			<div id="tvd-sm-code-invalid" class="tvd-sm-input-error" hidden>
+				<?php echo __( 'Invalid code!', TVE_DASH_TRANSLATE_DOMAIN ); ?>
+			</div>
+
+			<div class="tvd-sm-input-field tvd-aes-flex">
+				<label class="tvd-sm-script-name" for="tvd-sm-script-name"><?php echo __( 'Script Label', TVE_DASH_TRANSLATE_DOMAIN ) ?></label>
+				<input id="tvd-sm-script-name" type="text" value="<#= typeof(this.model) !== 'undefined' ? this.model.get('label') : '' #>">
+			</div>
+
+			<div id="tvd-sm-label-empty" class="tvd-sm-input-error no-space-top" hidden>
+				<?php echo __( 'Required field!', TVE_DASH_TRANSLATE_DOMAIN ); ?>
+			</div>
+
+			<div class="tvd-sm-input-field tvd-aes-flex">
+				<label class="tvd-sm-script-placement" for="tvd-sm-script-placement"><?php echo __( 'Placement', TVE_DASH_TRANSLATE_DOMAIN ) ?></label>
+				<select id="tvd-sm-script-placement">
+					<option value="" disabled selected hidden><?php echo __( 'Choose placement', TVE_DASH_TRANSLATE_DOMAIN ) ?></option>
+					<# _.each(TVD_SM_CONST.script_placement_text, function(value,key){  #>
+					<option value="<#= key #>"
+					<#= (typeof(this.model) !== 'undefined') && (key === this.model.get('placement')) ? "selected" : "" #>
+					>
+					<#= value #>
+					</option>
+					<# }, this);  #>
+
+				</select>
+			</div>
+
+			<div id="tvd-sm-placement-empty" class="tvd-sm-input-error no-space-top" hidden>
+				<?php echo __( 'Required field!', TVE_DASH_TRANSLATE_DOMAIN ); ?>
+			</div>
+
+			<div class="tvd-sm-input-field" style="display:none">
+				<input id="tvd-sm-script-icon" type="text" value="<#= typeof(this.model) !== 'undefined' ? this.model.get('icon') : '' #>">
+			</div>
+		</div>
+		<div class="tvd-row tvd-row_wmb">
+			<a href="javascript:void(0)" class="tvd-modal-close tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-waves-effect"><?php echo __( 'BACK', TVE_DASH_TRANSLATE_DOMAIN ) ?></a>
+			<a href="javascript:void(0)" class="tvd-submit tvd-waves-effect tvd-waves-light tvd-btn tvd-right tvd-btn-green"><?php echo __( 'CONTINUE', TVE_DASH_TRANSLATE_DOMAIN ) ?></a>
+		</div>
+	</form>
+</div>

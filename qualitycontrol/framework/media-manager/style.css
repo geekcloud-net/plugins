@@ -1,0 +1,37 @@
+/* File extensions */
+
+.file-extension {
+	margin: 5px 0;
+}
+
+.file-extension a {
+	margin-left: 20px;
+}
+
+.file-extension.file-pdf {
+	background: url('images/file-pdf.png') no-repeat;
+}
+
+.file-extension.file-word {
+	background: url('images/file-word.png') no-repeat;
+}
+
+.file-extension.file-excel {
+	background: url('images/file-excel.png') no-repeat;
+}
+
+.file-extension.file-image {
+	background: url('images/file-image.png') no-repeat;
+}
+
+.file-extension.file-audio {
+	background: url('images/file-audio.png') no-repeat;
+}
+
+.file-extension.file-video {
+	background: url('images/file-video.png') no-repeat;
+}
+
+.file-extension.file-other {
+	background: url('images/file-other.png') no-repeat;
+}

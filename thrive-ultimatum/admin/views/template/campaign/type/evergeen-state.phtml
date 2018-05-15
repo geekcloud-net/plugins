@@ -1,0 +1,123 @@
+<h4><?php echo __('Evergreen Campaign', TVE_Ult_Const::T) ?></h4>
+<p><?php echo __('Tell us how long you would like the Evergreen Campaign to last for, for each user.', TVE_Ult_Const::T) ?></p>
+<div class="tvd-row tvd-collapse">
+	<div class="tvd-col tvd-s5">
+		<div class="tvd-input-field">
+			<input id="tvu-evergreen-days" maxlength="3" type="text" value="<#= item.duration  && typeof item.duration !== 'object' ? item.duration : '' #>" data-field="duration">
+			<label value="<#= item.duration && typeof item.duration !== 'object' ? 'class="tvd-active"' : '' #>" for="tvu-evergreen-days"><?php echo __('Duration', TVE_Ult_Const::T) ?></label>
+		</div>
+	</div>
+	<div class="tvd-col tvd-s1">
+		<p>
+			<?php echo __('days', TVE_Ult_Const::T) ?>
+		</p>
+	</div>
+</div>
+<div class="tvd-row tvd-collapse">
+	<div class="tvd-col tvd-s4">
+		<p class="tvd-no-margin"><?php echo __( 'Activate Lockdown?' , TVE_Ult_Const::T) ?></p>
+	</div>
+	<div class="tvd-col tvd-s3">
+		<div class="tvd-switch">
+			<label>
+				<?php echo __('NO', TVE_Ult_Const::T) ?>
+				<input class="tvu-lockdown-switch" <#= !lockdown == 1 ? '' : 'checked'  #> type="checkbox">
+					<span class="tvd-lever"></span>
+					<?php echo __('YES', TVE_Ult_Const::T) ?>
+			</label>
+		</div>
+	</div>
+</div>
+<div class="tvd-row tvd-collapse">
+	<div class="tvd-col tvd-s4">
+		<p class="tvd-no-margin"><?php echo __('Repeat this campaign?', TVE_Ult_Const::T) ?></p>
+	</div>
+	<div class="tvd-col tvd-s3">
+		<div class="tvd-switch">
+			<label>
+				<?php echo __('NO', TVE_Ult_Const::T) ?>
+				<input class="tvu-repeat-switch" <#= item.evergreen_repeat == 1 ? 'checked' : ''  #> type="checkbox">
+				<span id="tvu-repeat-campaign-switch" class="tvd-lever"></span>
+				<?php echo __('YES', TVE_Ult_Const::T) ?>
+			</label>
+		</div>
+	</div>
+</div>
+
+<div class="tvu-gray-box tvu-repeat-wrapper tvd-margin-bottom"<#= item.evergreen_repeat == 1 ? '' : ' style="display: none"' #>>
+	<p class="tvd-inline-block tvd-vertical-align tvd-no-margin">
+		<?php echo __("Show this campaign again after", TVE_Ult_Const::T) ?>
+	</p>
+	<div class="tvd-input-field tvd-inline-block tvd-input-field-small">
+		<input id="tvu-evergreen-expire" class="tvd-no-margin" maxlength="5" type="text" value="<#= item.end && typeof item.end !== 'object' ? item.end : '' #>" data-field="end">
+	</div>
+	<p class="tvd-inline-block tvd-vertical-align tvd-no-margin">
+		<?php echo __('days.', TVE_Ult_Const::T) ?>
+	</p>
+</div>
+<div class="tvd-row tvd-collapse">
+	<div class="tvd-col tvd-s4">
+		<p class="tvd-no-margin"><?php echo __('Set realistic end time?', TVE_Ult_Const::T) ?></p>
+	</div>
+	<div class="tvd-col tvd-s3">
+		<div class="tvd-switch">
+			<label>
+				<?php echo __('NO', TVE_Ult_Const::T) ?>
+				<input class="tvu-real-time"<#= item.real == 1 ? ' checked' : ''  #> type="checkbox">
+				<span class="tvd-lever"></span>
+				<?php echo __('YES', TVE_Ult_Const::T) ?>
+			</label>
+		</div>
+	</div>
+</div>
+<div class="tvu-gray-box tvu-real-time-wrapper tvd-margin-bottom"<#= item.real == 1 ? '' : ' style="display: none"' #>>
+	<p class="tvd-inline-block tvd-vertical-align tvd-no-margin">
+		<?php echo __("End this campaign at", TVE_Ult_Const::T) ?>
+	</p>
+	<div class="tvd-input-field tvd-inline-block timepicker-append-to tvd-input-field-medium">
+		<input id="tvu-real-time" type="text" class="tvd-no-focus tvd-no-margin" value="<#= item.realtime ? item.realtime : '' #>" data-field="real_time">
+	</div>
+	<p class="tvd-inline-block tvd-vertical-align tvd-no-margin">
+		<?php echo __("o'clock.", TVE_Ult_Const::T) ?>
+	</p>
+</div>
+<div class="tvd-v-spacer"></div>
+<h4><?php echo __('Select trigger type', TVE_Ult_Const::T) ?></h4>
+<div class="tvd-row tvd-collapse">
+	<# if(collection instanceof ThriveUlt.collections.LeadGroupsCollection) { #>
+	<div class="tvd-col tvd-s12 tvd-m5">
+		<p class="tvu-align-radio tvd-no-margin-bottom">
+			<input class="tvu-evergreen-settings" name="trigger" type="radio" value="conversion" id="tve-evergreen-conversion" <#= item.trigger.type == 'conversion' ? 'checked="checked"' : '' #> />
+			<label for="tve-evergreen-conversion" data-type="conversion"><?php echo __( 'Thrive Leads Conversion', TVE_Ult_Const::T); ?></label>
+		</p>
+	</div>
+	<# } #>
+	<# if(lockdown == 1) { #>
+		<div class="tvd-col tvd-s12 tvd-m6">
+			<p class="tvu-align-radio tvd-no-margin-bottom">
+				<input class="tvu-evergreen-settings" name="trigger" type="radio" value="promotion" id="tvu-lockdown-promotion" <#= item.trigger.type == 'promotion' ? 'checked="checked"' : '' #>/>
+					<label for="tvu-lockdown-promotion" data-type="first"><?php echo __( 'Visit to promotion page', TVE_Ult_Const::T ); ?></label>
+			</p>
+		</div>
+	<# } else { #>
+	<div class="tvd-col tvd-s12 tvd-m3">
+		<p class="tvu-align-radio tvd-no-margin-bottom">
+			<input class="tvu-evergreen-settings" name="trigger" type="radio" value="first" id="tve-evergreen-first-visit" <#= item.trigger.type == 'first' ? 'checked="checked"' : '' #>/>
+			<label for="tve-evergreen-first-visit" data-type="first"><?php echo __('First visit to site', TVE_Ult_Const::T); ?></label>
+		</p>
+	</div>
+	<div class="tvd-col tvd-s12 tvd-m4">
+		<p class="tvu-align-radio tvd-no-margin-bottom">
+			<input class="tvu-evergreen-settings" name="trigger" type="radio" value="url" id="tve-evergreen-specific" <#= item.trigger.type == 'url' ? 'checked="checked"' : '' #>/>
+			<label for="tve-evergreen-specific" data-type="specific"><?php echo __( 'Visit to a specific page', TVE_Ult_Const::T ); ?></label>
+		</p>
+	</div>
+	<# } #>
+</div>
+<div id="tvu-trigger-description" class="tvd-small-text tvu-campaign-trigger-description"></div>
+<div id="tvu-evergreen-settings"></div>
+
+<div class="tvu-evergreen-linked">
+	<p><strong><?php echo __("This campaign will automatically start when a conversion event of the following campaigns are met", TVE_Ult_Const::T); ?>: </strong></p>
+	<div class="tvu-evergreen-linked-to"></div>
+</div>

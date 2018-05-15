@@ -1,0 +1,2280 @@
+# Copyright (C) 2014 AppThemes
+# This file is distributed under the same license as the Quality Control package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quality Control 0.8.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-27 11:10+0100\n"
+"PO-Revision-Date: 2014-04-07 08:49+0100\n"
+"Last-Translator: AppThemes\n"
+"Language-Team: AppThemes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2;_x:1,2c;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:1,2,3c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:10
+msgid "404 - Page Not Found"
+msgstr ""
+
+#: 404.php:11
+msgid "Sorry, the page you are looking for could not be located."
+msgstr ""
+
+#: create-ticket.php:20
+msgid "You do not have permission to create tickets."
+msgstr ""
+
+#: footer.php:7
+msgid "Issue Tracking Software"
+msgstr ""
+
+#: footer.php:7
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:8
+#, php-format
+msgid "%1$d queries. %2$s seconds."
+msgstr ""
+
+#: form-password-reset-fields.php:5
+#: framework/templates/form-password-reset.php:2
+msgid "Enter your new password below."
+msgstr ""
+
+#: form-password-reset-fields.php:14
+#: framework/templates/form-password-reset.php:8
+msgid "New password"
+msgstr ""
+
+#: form-password-reset-fields.php:19
+#: framework/templates/form-password-reset.php:13
+msgid "Confirm new password"
+msgstr ""
+
+#: form-password-reset-fields.php:27
+msgid "New Password"
+msgstr ""
+
+#: form-password-reset-fields.php:35 form-registration-fields.php:51
+#: templates/form-edit-profile.php:63
+msgid "Hide password"
+msgstr ""
+
+#: form-password-reset-fields.php:37 form-registration-fields.php:53
+#: templates/form-edit-profile.php:65
+msgid "Hide"
+msgstr ""
+
+#: form-password-reset-fields.php:45 form-registration-fields.php:61
+#: framework/templates/form-password-reset.php:18
+#: framework/templates/form-registration.php:35
+#: templates/form-edit-profile.php:45 templates/form-edit-profile.php:73
+msgid "Strength indicator"
+msgstr ""
+
+#: form-password-reset-fields.php:46 form-registration-fields.php:62
+#: framework/templates/form-password-reset.php:19
+#: framework/templates/form-registration.php:36
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+
+#: form-password-reset-fields.php:50
+#: framework/templates/form-password-recovery.php:17
+#: framework/templates/form-password-reset.php:23
+msgid "Reset Password"
+msgstr ""
+
+#: form-registration-fields.php:5 framework/templates/form-registration.php:3
+msgid "Complete the fields below to register."
+msgstr ""
+
+#: form-registration-fields.php:10 framework/templates/form-login.php:7
+#: framework/templates/form-registration.php:8
+msgid "Username:"
+msgstr ""
+
+#: form-registration-fields.php:17 framework/templates/form-registration.php:15
+#: templates/form-edit-profile.php:30
+msgid "Email:"
+msgstr ""
+
+#: form-registration-fields.php:26 form-registration-fields.php:42
+#: framework/templates/form-login.php:14
+#: framework/templates/form-registration.php:22
+msgid "Password:"
+msgstr ""
+
+#: form-registration-fields.php:33 framework/templates/form-registration.php:29
+msgid "Password Again:"
+msgstr ""
+
+#: form-registration-fields.php:69 framework/includes/views-login.php:432
+#: framework/kernel/functions.php:290
+#: framework/templates/form-registration.php:43
+msgid "Register"
+msgstr ""
+
+#: framework/admin/class-attachments-metabox.php:339
+msgid "Are you sure you want to un-attach this media item from this post?"
+msgstr ""
+
+#: framework/admin/class-attachments-metabox.php:386
+msgid "Thumbnail"
+msgstr ""
+
+#: framework/admin/class-attachments-metabox.php:387
+msgid "Title"
+msgstr ""
+
+#: framework/admin/class-attachments-metabox.php:388
+msgid "Upload Date"
+msgstr ""
+
+#: framework/admin/class-attachments-metabox.php:389
+msgid "Dimensions"
+msgstr ""
+
+#: framework/admin/class-attachments-metabox.php:390
+msgid "Detach/Sort"
+msgstr ""
+
+#: framework/admin/class-attachments-metabox.php:416
+msgid "Add Media Attachment"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:15 includes/core.php:180
+msgid "Dashboard"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:23
+msgid "Latest News"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:24
+msgid "Tutorials"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:25
+msgid "From the Marketplace"
+msgstr ""
+
+#: framework/admin/class-meta-box.php:32
+#: framework/admin/class-tabs-page.php:153
+msgid "Help"
+msgstr ""
+
+#: framework/admin/class-system-info.php:18
+#: framework/admin/class-system-info.php:19
+#: framework/admin/class-system-info.php:76
+msgid "System Info"
+msgstr ""
+
+#: framework/admin/class-system-info.php:77
+#: framework/admin/class-system-info.php:380
+msgid "Cron Jobs"
+msgstr ""
+
+#: framework/admin/class-system-info.php:86
+msgid "Theme Info"
+msgstr ""
+
+#: framework/admin/class-system-info.php:89
+msgid "Theme Name"
+msgstr ""
+
+#: framework/admin/class-system-info.php:98
+msgid "Theme Version"
+msgstr ""
+
+#: framework/admin/class-system-info.php:111
+msgid "WordPress Info"
+msgstr ""
+
+#: framework/admin/class-system-info.php:114
+msgid "Home URL"
+msgstr ""
+
+#: framework/admin/class-system-info.php:123
+msgid "Site URL"
+msgstr ""
+
+#: framework/admin/class-system-info.php:132
+msgid "Theme Path"
+msgstr ""
+
+#: framework/admin/class-system-info.php:141
+msgid "WP Version"
+msgstr ""
+
+#: framework/admin/class-system-info.php:147
+msgid "Multisite"
+msgstr ""
+
+#: framework/admin/class-system-info.php:150
+msgid "WP Memory Limit"
+msgstr ""
+
+#: framework/admin/class-system-info.php:159
+msgid "WP Max Upload Size"
+msgstr ""
+
+#: framework/admin/class-system-info.php:168
+msgid "WP Debug Mode"
+msgstr ""
+
+#: framework/admin/class-system-info.php:174
+#: framework/admin/class-system-info.php:183
+#: framework/admin/class-system-info.php:192
+#: framework/admin/class-system-info.php:271
+#: framework/admin/class-system-info.php:280
+#: framework/admin/class-system-info.php:296
+#: framework/admin/class-system-info.php:321
+#: framework/admin/class-system-info.php:330
+#: framework/admin/class-system-info.php:339
+#: framework/admin/class-system-info.php:348 includes/admin/settings.php:55
+msgid "Yes"
+msgstr ""
+
+#: framework/admin/class-system-info.php:174
+#: framework/admin/class-system-info.php:183
+#: framework/admin/class-system-info.php:192
+#: framework/admin/class-system-info.php:271
+#: framework/admin/class-system-info.php:280
+#: framework/admin/class-system-info.php:296
+#: framework/admin/class-system-info.php:321
+#: framework/admin/class-system-info.php:330
+#: framework/admin/class-system-info.php:339
+#: framework/admin/class-system-info.php:348
+msgid "No"
+msgstr ""
+
+#: framework/admin/class-system-info.php:177
+msgid "Force SSL Admin"
+msgstr ""
+
+#: framework/admin/class-system-info.php:186
+msgid "Child Theme"
+msgstr ""
+
+#: framework/admin/class-system-info.php:199
+msgid "Server Info"
+msgstr ""
+
+#: framework/admin/class-system-info.php:202
+msgid "Server Software"
+msgstr ""
+
+#: framework/admin/class-system-info.php:211
+msgid "PHP Version"
+msgstr ""
+
+#: framework/admin/class-system-info.php:217
+msgid "Function phpversion() is not available."
+msgstr ""
+
+#: framework/admin/class-system-info.php:220
+msgid "MySQL Version"
+msgstr ""
+
+#: framework/admin/class-system-info.php:226
+msgid "Function mysql_get_server_info() is not available."
+msgstr ""
+
+#: framework/admin/class-system-info.php:229
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: framework/admin/class-system-info.php:235
+#: framework/admin/class-system-info.php:244
+#: framework/admin/class-system-info.php:253
+#: framework/admin/class-system-info.php:262
+#: framework/admin/class-system-info.php:271
+msgid "Function ini_get() is not available."
+msgstr ""
+
+#: framework/admin/class-system-info.php:238
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: framework/admin/class-system-info.php:247
+msgid "PHP Time Limit"
+msgstr ""
+
+#: framework/admin/class-system-info.php:256
+msgid "Upload Max Filesize"
+msgstr ""
+
+#: framework/admin/class-system-info.php:265
+msgid "Display Errors"
+msgstr ""
+
+#: framework/admin/class-system-info.php:274
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: framework/admin/class-system-info.php:287
+msgid "Image Support"
+msgstr ""
+
+#: framework/admin/class-system-info.php:290
+msgid "GD Library Installed"
+msgstr ""
+
+#: framework/admin/class-system-info.php:299
+msgid "Image Upload Path"
+msgstr ""
+
+#: framework/admin/class-system-info.php:312
+msgid "Other Checks"
+msgstr ""
+
+#: framework/admin/class-system-info.php:315
+msgid "JSON Decode"
+msgstr ""
+
+#: framework/admin/class-system-info.php:324
+msgid "cURL Enabled"
+msgstr ""
+
+#: framework/admin/class-system-info.php:333
+msgid "fsockopen Enabled"
+msgstr ""
+
+#: framework/admin/class-system-info.php:342
+msgid "OpenSSL Enabled"
+msgstr ""
+
+#: framework/admin/class-system-info.php:351
+msgid "WP Remote Post"
+msgstr ""
+
+#: framework/admin/class-system-info.php:357
+msgid "wp_remote_post() test was successful."
+msgstr ""
+
+#: framework/admin/class-system-info.php:357
+msgid "wp_remote_post() test failed."
+msgstr ""
+
+#: framework/admin/class-system-info.php:364
+msgid "Plugins"
+msgstr ""
+
+#: framework/admin/class-system-info.php:367
+msgid "Installed Plugins"
+msgstr ""
+
+#: framework/admin/class-system-info.php:395
+msgid "Download Report"
+msgstr ""
+
+#: framework/admin/class-system-info.php:457
+msgid "One-off event"
+msgstr ""
+
+#: framework/admin/class-system-info.php:482
+msgid "You haven&#39;t created any cron job tasks yet."
+msgstr ""
+
+#: framework/admin/class-system-info.php:488
+msgid "Hook Name"
+msgstr ""
+
+#: framework/admin/class-system-info.php:489
+msgid "Frequency"
+msgstr ""
+
+#: framework/admin/class-system-info.php:490
+msgid "Next Run Date"
+msgstr ""
+
+#: framework/admin/class-tabs-page.php:133
+msgid "Save Changes"
+msgstr ""
+
+#: framework/admin/class-user-meta-box.php:178
+msgid "ERROR"
+msgstr ""
+
+#: framework/admin/class-widget.php:161 framework/p2p-core/widget.php:37
+#: includes/widgets.php:38 includes/widgets.php:207 includes/widgets.php:319
+#: includes/widgets.php:423 templates/form-create-ticket.php:18
+msgid "Title:"
+msgstr ""
+
+#: framework/admin/importer.php:80
+msgid "CSV Importer"
+msgstr ""
+
+#: framework/admin/importer.php:81
+msgid "Importer"
+msgstr ""
+
+#: framework/admin/importer.php:106
+msgid ""
+"Below you will find a tool which allows you to import content from other "
+"systems via a CSV (comma-separated values) file, which can be edited using a "
+"program like Excel. Note that the file must be in the correct format for the "
+"import tool to work. You will find an example .csv file in the \"examples\" "
+"theme folder."
+msgstr ""
+
+#: framework/admin/importer.php:107
+msgid "Choose a CSV file to upload, then click \"Upload file and import\"."
+msgstr ""
+
+#: framework/admin/importer.php:117
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+
+#: framework/admin/importer.php:123
+msgid "Choose a file from your computer:"
+msgstr ""
+
+#: framework/admin/importer.php:123
+#, php-format
+msgid "Maximum size: %s"
+msgstr ""
+
+#: framework/admin/importer.php:131
+msgid "Upload file and import"
+msgstr ""
+
+#: framework/admin/importer.php:143
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/admin/importer.php:155
+msgid "The file could not be processed."
+msgstr ""
+
+#: framework/admin/importer.php:157
+#, php-format
+msgid "Imported %s items."
+msgstr ""
+
+#: framework/admin/importer.php:397
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/admin/importer.php:442
+msgid "Remote server did not respond"
+msgstr ""
+
+#: framework/admin/importer.php:448
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: framework/admin/importer.php:455
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: framework/admin/importer.php:460
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: framework/admin/importer.php:466
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/admin/versions.php:54
+#, php-format
+msgid "Successfully updated to version %s."
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:37
+msgid "Images"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:61
+msgid "Clear"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:69
+msgid "Add Image"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:70
+#, php-format
+msgid "You are allowed to upload %s file(s)."
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:70
+#, php-format
+msgid "Maximum file size: %s KB."
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:72
+msgid ""
+"You are using the flash uploader. Problems? Try the <a href=\"#\">browser "
+"uploader</a> instead."
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:73
+msgid ""
+"You are using the browser uploader. Problems? Try the <a href=\"#\">flash "
+"uploader</a> instead."
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:96
+msgid "Change Title"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:100
+msgid "Delete"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:123
+msgid "Are you sure?"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:136
+msgid "Allowed Files"
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:239
+msgid "Your listing images are now being processed..."
+msgstr ""
+
+#: framework/app-plupload/app-plupload.php:256
+#, php-format
+msgid "Image number %1$d of %2$s has been processed."
+msgstr ""
+
+#: framework/includes/search-index.php:68
+msgid "Search Index Update Progress: %g%s complete."
+msgstr ""
+
+#: framework/includes/stats.php:242
+msgid "Stats has been reseted!"
+msgstr ""
+
+#: framework/includes/stats.php:332
+#, php-format
+msgid "%d total views, %d today"
+msgstr ""
+
+#: framework/includes/stats.php:334
+msgid "No views yet"
+msgstr ""
+
+#: framework/includes/stats.php:435
+msgid "Reset listing statistics"
+msgstr ""
+
+#: framework/includes/stats.php:435
+msgid "Reset stats"
+msgstr ""
+
+#: framework/includes/views-login.php:64 framework/templates/form-login.php:20
+msgid "Login"
+msgstr ""
+
+#: framework/includes/views-login.php:116
+msgid "<strong>ERROR</strong>: The username field is empty."
+msgstr ""
+
+#: framework/includes/views-login.php:119
+msgid "<strong>ERROR</strong>: The password field is empty."
+msgstr ""
+
+#: framework/includes/views-login.php:153
+msgid ""
+"Cookies are blocked or not supported by your browser. You must enable "
+"cookies to continue."
+msgstr ""
+
+#: framework/includes/views-login.php:157
+msgid "You are now logged out."
+msgstr ""
+
+#: framework/includes/views-login.php:160
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: framework/includes/views-login.php:163
+msgid "Check your email for the confirmation link."
+msgstr ""
+
+#: framework/includes/views-login.php:166
+msgid "Check your email for your new password."
+msgstr ""
+
+#: framework/includes/views-login.php:169
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: framework/includes/views-login.php:171
+msgid "Your password has been reset. Please login."
+msgstr ""
+
+#: framework/includes/views-login.php:201
+msgid "Password Recovery"
+msgstr ""
+
+#: framework/includes/views-login.php:234
+msgid "Sorry, that key does not appear to be valid. Please try again."
+msgstr ""
+
+#: framework/includes/views-login.php:253
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: framework/includes/views-login.php:257
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: framework/includes/views-login.php:269
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: framework/includes/views-login.php:283
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: framework/includes/views-login.php:295
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: framework/includes/views-login.php:297
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: framework/includes/views-login.php:298
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: framework/includes/views-login.php:299
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: framework/includes/views-login.php:311
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: framework/includes/views-login.php:317
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: framework/includes/views-login.php:317
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+#: framework/includes/views-login.php:333
+msgid "Password Reset"
+msgstr ""
+
+#: framework/includes/views-login.php:372
+msgid "The passwords do not match."
+msgstr ""
+
+#: framework/includes/views-login.php:388
+#: framework/includes/views-login.php:391
+#: framework/includes/views-login.php:396
+msgid "Invalid key"
+msgstr ""
+
+#: framework/includes/views-login.php:503
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: framework/includes/views-login.php:505
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: framework/includes/views-login.php:508
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr ""
+
+#: framework/includes/views-login.php:513
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: framework/includes/views-login.php:515
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: framework/includes/views-login.php:518
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+#: framework/includes/views-login.php:532
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr ""
+
+#: framework/includes/views-login.php:534
+msgid "<strong>ERROR</strong>: Please enter the password twice."
+msgstr ""
+
+#: framework/includes/views-login.php:536
+msgid "<strong>ERROR</strong>: The passwords do not match."
+msgstr ""
+
+#: framework/includes/views-login.php:549
+msgid "<strong>ERROR</strong>: The reCaptcha anti-spam response was incorrect."
+msgstr ""
+
+#: framework/includes/views-login.php:565
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#39;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: framework/includes/views-login.php:647
+msgid "The default WordPress login page is still accessible."
+msgstr ""
+
+#: framework/includes/views-login.php:648
+#, php-format
+msgid ""
+"After you ensure that permalinks on your site are working correctly and you "
+"are not using any \"maintenance mode\" plugins, please disable it in your <a "
+"href=\"%s\">theme settings</a>."
+msgstr ""
+
+#: framework/js/localization.php:13
+msgid "This field is required."
+msgstr ""
+
+#: framework/js/localization.php:14
+msgid "Please fix this field."
+msgstr ""
+
+#: framework/js/localization.php:15
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: framework/js/localization.php:16
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: framework/js/localization.php:17
+msgid "Please enter a valid date."
+msgstr ""
+
+#: framework/js/localization.php:18
+msgid "Please enter a valid date (ISO)."
+msgstr ""
+
+#: framework/js/localization.php:19
+msgid "Please enter a valid number."
+msgstr ""
+
+#: framework/js/localization.php:20
+msgid "Please enter only digits."
+msgstr ""
+
+#: framework/js/localization.php:21
+msgid "Please enter a valid credit card number."
+msgstr ""
+
+#: framework/js/localization.php:22
+msgid "Please enter the same value again."
+msgstr ""
+
+#: framework/js/localization.php:23
+msgid "Please enter no more than {0} characters."
+msgstr ""
+
+#: framework/js/localization.php:24
+msgid "Please enter at least {0} characters."
+msgstr ""
+
+#: framework/js/localization.php:25
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr ""
+
+#: framework/js/localization.php:26
+msgid "Please enter a value between {0} and {1}."
+msgstr ""
+
+#: framework/js/localization.php:27
+msgid "Please enter a value less than or equal to {0}."
+msgstr ""
+
+#: framework/js/localization.php:28
+msgid "Please enter a value greater than or equal to {0}."
+msgstr ""
+
+#: framework/js/localization.php:34
+msgid "image {current} of {total}"
+msgstr ""
+
+#: framework/js/localization.php:35
+msgid "previous"
+msgstr ""
+
+#: framework/js/localization.php:36
+msgid "next"
+msgstr ""
+
+#: framework/js/localization.php:37
+msgid "close"
+msgstr ""
+
+#: framework/js/localization.php:38
+msgid "This content failed to load."
+msgstr ""
+
+#: framework/js/localization.php:39
+msgid "This image failed to load."
+msgstr ""
+
+#: framework/js/localization.php:40
+msgid "start slideshow"
+msgstr ""
+
+#: framework/js/localization.php:41
+msgid "stop slideshow"
+msgstr ""
+
+#: framework/js/localization.php:50
+msgid "Done"
+msgstr ""
+
+#: framework/js/localization.php:51
+msgid "Prev"
+msgstr ""
+
+#: framework/js/localization.php:52
+msgid "Next"
+msgstr ""
+
+#: framework/js/localization.php:53
+msgid "Today"
+msgstr ""
+
+#: framework/js/localization.php:54
+msgid "Wk"
+msgstr ""
+
+#: framework/js/localization.php:60
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Su"
+msgstr ""
+
+#: framework/js/localization.php:61
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Mo"
+msgstr ""
+
+#: framework/js/localization.php:62
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Tu"
+msgstr ""
+
+#: framework/js/localization.php:63
+msgctxt "two-letter abbreviation of the weekday"
+msgid "We"
+msgstr ""
+
+#: framework/js/localization.php:64
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Th"
+msgstr ""
+
+#: framework/js/localization.php:65
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Fr"
+msgstr ""
+
+#: framework/js/localization.php:66
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Sa"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:178
+msgid "Browse:"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:179
+msgid "Home"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:180
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:181
+msgid "404 Not Found"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:182
+#, php-format
+msgid "Page %d"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:183
+msgid "Archives"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:184
+msgid "g:i a"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:185
+#, php-format
+msgid "Minute %d"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:186
+msgid "g a"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:187
+msgid "d"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:188
+#, php-format
+msgid "Week %d"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:189
+msgid "F"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:190
+#: framework/kernel/breadcrumb-trail.php:1031
+msgid "Y"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:1035
+msgid "F Y"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:1039
+msgid "F j, Y"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:1130
+#: framework/kernel/breadcrumb-trail.php:1166
+#: framework/kernel/breadcrumb-trail.php:1183
+#: framework/kernel/breadcrumb-trail.php:1214 single.php:32
+msgid "Edit"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:1158
+msgid "Split"
+msgstr ""
+
+#: framework/kernel/breadcrumb-trail.php:1162
+msgid "Merge"
+msgstr ""
+
+#: framework/kernel/functions.php:77
+msgid ""
+"Query vars cannot be added before WP_Query is instantiated and default query "
+"vars has not been pre-filled yet."
+msgstr ""
+
+#: framework/kernel/functions.php:200
+msgid "You must first login."
+msgstr ""
+
+#: framework/kernel/functions.php:201
+#, php-format
+msgid "You must first login or <a href=\"%s\">register</a>."
+msgstr ""
+
+#: framework/kernel/functions.php:256
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: framework/kernel/functions.php:283
+msgid "Lost password?"
+msgstr ""
+
+#: framework/kernel/functions.php:333
+#, php-format
+msgid "Page %s of %s"
+msgstr ""
+
+#: framework/kernel/functions.php:566
+msgid "No categories"
+msgstr ""
+
+#: framework/kernel/functions.php:1178
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: framework/kernel/social.php:64
+#, php-format
+msgid ""
+"Enter your %1$s username here. The URL will look like this: %2$s where the "
+"\"%3$s\" is your username."
+msgstr ""
+
+#: framework/kernel/social.php:95
+msgid "Facebook"
+msgstr ""
+
+#: framework/kernel/social.php:99
+msgid "Twitter"
+msgstr ""
+
+#: framework/kernel/social.php:103
+msgid "LinkedIn"
+msgstr ""
+
+#: framework/kernel/social.php:108
+msgid "Google+"
+msgstr ""
+
+#: framework/kernel/social.php:113
+#, php-format
+msgid ""
+"Enter your Google+ ID here. The URL will look like this: %s where the number "
+"is your ID."
+msgstr ""
+
+#: framework/kernel/social.php:119
+msgid "YouTube"
+msgstr ""
+
+#: framework/kernel/social.php:124
+msgid "Instagram"
+msgstr ""
+
+#: framework/kernel/social.php:128
+msgid "Pinterest"
+msgstr ""
+
+#: framework/kernel/social.php:132 includes/modules/sourcecontrol.php:231
+msgid "Github"
+msgstr ""
+
+#: framework/kernel/social.php:136
+msgid "Path"
+msgstr ""
+
+#: framework/kernel/social.php:140
+msgid "Vimeo"
+msgstr ""
+
+#: framework/kernel/social.php:144
+msgid "Flickr"
+msgstr ""
+
+#: framework/kernel/social.php:148
+msgid "Picassa"
+msgstr ""
+
+#: framework/kernel/social.php:152
+msgid "Foursquare"
+msgstr ""
+
+#: framework/kernel/social.php:156
+msgid "WordPress"
+msgstr ""
+
+#: framework/kernel/view-edit-profile.php:14
+msgid "Edit Profile"
+msgstr ""
+
+#: framework/kernel/view-edit-profile.php:37
+msgid "Your profile has been updated."
+msgstr ""
+
+#: framework/kernel/view-types.php:269
+msgid "Page Attributes"
+msgstr ""
+
+#: framework/kernel/view-types.php:352
+msgid "(no parent)"
+msgstr ""
+
+#: framework/kernel/view-types.php:361 framework/kernel/view-types.php:362
+msgid "Parent"
+msgstr ""
+
+#: framework/kernel/view-types.php:377
+msgid "Template"
+msgstr ""
+
+#: framework/kernel/view-types.php:378
+msgid "Page Template"
+msgstr ""
+
+#: framework/kernel/view-types.php:380
+msgid "Default Template"
+msgstr ""
+
+#: framework/kernel/view-types.php:407 framework/kernel/view-types.php:408
+msgid "Order"
+msgstr ""
+
+#: framework/kernel/view-types.php:409
+msgid "Need help? Use the Help tab in the upper right of your screen."
+msgstr ""
+
+#: framework/media-manager/media-manager.php:125
+msgid "Allowed files"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:126
+msgid "Allowed file types"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:127
+msgid "Insert Media"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:128
+msgid "Insert from URL"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:129
+msgid "Maximum upload file size"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:130
+msgid "Allowed embeds"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:131
+msgid "Clear Embeds (clears any previously added embeds)"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:132
+msgid "No more embeds allowed"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:166
+msgid "Add Media"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:167
+msgid "Manage Media"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:168
+msgid "No media added yet"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:471
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr ""
+
+#: framework/media-manager/media-manager.php:484
+msgid ""
+"Sorry, you cannot upload this file as it exceeds the size limitations for "
+"this field."
+msgstr ""
+
+#: framework/p2p-core/connection-type.php:91
+msgid "Create connections"
+msgstr ""
+
+#: framework/p2p-core/connection-type.php:109
+#, php-format
+msgid "Connected %s"
+msgstr ""
+
+#: framework/p2p-core/side-user.php:16
+msgid "Users"
+msgstr ""
+
+#: framework/p2p-core/side-user.php:25
+msgid "User"
+msgstr ""
+
+#: framework/p2p-core/side-user.php:26
+msgid "Search Users"
+msgstr ""
+
+#: framework/p2p-core/side-user.php:27
+msgid "No users found."
+msgstr ""
+
+#: framework/p2p-core/widget.php:19
+msgid "Posts 2 Posts"
+msgstr ""
+
+#: framework/p2p-core/widget.php:20
+msgid "A list of posts connected to the current post"
+msgstr ""
+
+#: framework/p2p-core/widget.php:44
+msgid "Connection type:"
+msgstr ""
+
+#: framework/p2p-core/widget.php:49
+msgid "Connection listing:"
+msgstr ""
+
+#: framework/p2p-core/widget.php:55
+msgid "connected"
+msgstr ""
+
+#: framework/p2p-core/widget.php:56
+msgid "related"
+msgstr ""
+
+#: framework/scb/AdminPage.php:228
+msgid "Settings <strong>saved</strong>."
+msgstr ""
+
+#: framework/scb/AdminPage.php:467 includes/admin/settings.php:18
+msgid "Settings"
+msgstr ""
+
+#: framework/templates/form-login.php:27
+msgid "Remember me"
+msgstr ""
+
+#: framework/templates/form-login.php:31
+msgid "Lost your password?"
+msgstr ""
+
+#: framework/templates/form-password-recovery.php:3
+msgid ""
+"Please enter your username or email address. A new password will be emailed "
+"to you."
+msgstr ""
+
+#: framework/templates/form-password-recovery.php:9
+msgid "Username or Email:"
+msgstr ""
+
+#: includes/admin/admin.php:16 includes/tickets.php:17
+#: templates/ticket-meta.php:4
+msgid "Ticket"
+msgstr ""
+
+#: includes/admin/admin.php:29
+msgid "Created"
+msgstr ""
+
+#: includes/admin/admin.php:38 includes/admin/importer.php:27
+#: includes/tickets.php:16 includes/views.php:93
+msgid "Tickets"
+msgstr ""
+
+#: includes/admin/admin.php:59
+msgid "View tickets by this author"
+msgstr ""
+
+#: includes/admin/dashboard.php:10
+msgid "Quality Control Dashboard"
+msgstr ""
+
+#: includes/admin/dashboard.php:11
+msgid "Quality Control"
+msgstr ""
+
+#: includes/admin/dashboard.php:15
+msgid "Support Forum"
+msgstr ""
+
+#: includes/admin/dashboard.php:18
+msgid "Snapshot"
+msgstr ""
+
+#: includes/admin/dashboard.php:28
+msgid "New Registrations Today"
+msgstr ""
+
+#: includes/admin/dashboard.php:29
+msgid "New Registrations Yesterday"
+msgstr ""
+
+#: includes/admin/dashboard.php:31
+msgid "Total Users"
+msgstr ""
+
+#: includes/admin/dashboard.php:43 includes/admin/dashboard.php:48
+msgid "Total Tickets"
+msgstr ""
+
+#: includes/admin/dashboard.php:55 includes/admin/dashboard.php:60
+msgid "Total Changesets"
+msgstr ""
+
+#: includes/admin/dashboard.php:65
+msgid "Product Version"
+msgstr ""
+
+#: includes/admin/dashboard.php:66 includes/admin/dashboard.php:67
+msgid "Product Support"
+msgstr ""
+
+#: includes/admin/dashboard.php:66
+msgid "Forum"
+msgstr ""
+
+#: includes/admin/dashboard.php:67
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/importer.php:27
+msgid "Download CSV file"
+msgstr ""
+
+#: includes/admin/importer.php:29
+#, php-format
+msgid "Download example CSV file: %s"
+msgstr ""
+
+#: includes/admin/install.php:37
+msgid "New"
+msgstr ""
+
+#: includes/admin/install.php:40
+msgid "Closed"
+msgstr ""
+
+#: includes/admin/install.php:47
+msgid "Low"
+msgstr ""
+
+#: includes/admin/install.php:48
+msgid "Medium"
+msgstr ""
+
+#: includes/admin/install.php:49
+msgid "High"
+msgstr ""
+
+#: includes/admin/install.php:60
+msgid "Awaiting Review"
+msgstr ""
+
+#: includes/admin/install.php:61
+msgid "Future Release"
+msgstr ""
+
+#: includes/admin/install.php:73
+msgid "Bug"
+msgstr ""
+
+#: includes/admin/install.php:74
+msgid "Enhancement"
+msgstr ""
+
+#: includes/admin/install.php:75
+msgid "Feature"
+msgstr ""
+
+#: includes/admin/install.php:88
+msgid ""
+"This is your first Quality Control ticket. It is a placeholder ticket just "
+"so you can see how it works. Delete this before launching your new issue "
+"tracking site."
+msgstr ""
+
+#: includes/admin/install.php:136 includes/widgets.php:148
+msgid "Project Team"
+msgstr ""
+
+#: includes/admin/install.php:139 includes/widgets.php:250
+msgid "Recent Tickets"
+msgstr ""
+
+#: includes/admin/install.php:144 includes/admin/settings.php:99
+#: includes/modules/milestones.php:17
+msgid "Milestones"
+msgstr ""
+
+#: includes/admin/install.php:150 includes/widgets.php:374
+msgid "Recent Tickets Updates"
+msgstr ""
+
+#: includes/admin/install.php:157
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/admin/install.php:162
+msgid "Recent Comments"
+msgstr ""
+
+#: includes/admin/install.php:166
+msgid "Blog Categories"
+msgstr ""
+
+#: includes/admin/install.php:170 includes/admin/install.php:184
+#: includes/admin/settings.php:101 includes/modules/tags.php:17
+#: includes/modules/tags.php:82
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/install.php:178 includes/admin/settings.php:97
+#: includes/modules/categories.php:17
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/settings.php:17
+msgid "Quality Control Settings"
+msgstr ""
+
+#: includes/admin/settings.php:36
+msgid "General"
+msgstr ""
+
+#: includes/admin/settings.php:39
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/settings.php:42
+msgid "Permissions"
+msgstr ""
+
+#: includes/admin/settings.php:46
+msgid "Users can only view their own tickets and tickets they are assigned to."
+msgstr ""
+
+#: includes/admin/settings.php:47
+msgid "Users can view all tickets."
+msgstr ""
+
+#: includes/admin/settings.php:48
+msgid "Users can view and updated all tickets."
+msgstr ""
+
+#: includes/admin/settings.php:52
+msgid "Lock Site from Visitors"
+msgstr ""
+
+#: includes/admin/settings.php:56
+msgid ""
+"Visitors will be asked to login, and will not be able to browse site. Also "
+"content of the sidebars and menus will be hidden."
+msgstr ""
+
+#: includes/admin/settings.php:62 includes/modules/states.php:17
+msgid "States"
+msgstr ""
+
+#: includes/admin/settings.php:65
+msgid "Default State"
+msgstr ""
+
+#: includes/admin/settings.php:66
+msgid "This state will be selected by default when creating a ticket."
+msgstr ""
+
+#: includes/admin/settings.php:73
+msgid "Resolved State"
+msgstr ""
+
+#: includes/admin/settings.php:74
+msgid "Tickets in this state are assumed to no longer need attention."
+msgstr ""
+
+#: includes/admin/settings.php:88
+msgid "Modules"
+msgstr ""
+
+#: includes/admin/settings.php:91
+msgid "Enable Modules"
+msgstr ""
+
+#: includes/admin/settings.php:95 includes/modules/assignment.php:104
+msgid "Assignment"
+msgstr ""
+
+#: includes/admin/settings.php:96
+msgid "Attachments"
+msgstr ""
+
+#: includes/admin/settings.php:98
+msgid "Changesets"
+msgstr ""
+
+#: includes/admin/settings.php:100 includes/modules/priorities.php:15
+msgid "Priorities"
+msgstr ""
+
+#: includes/admin/settings.php:103
+msgid "Choose the modules that you want to use on your site."
+msgstr ""
+
+#: includes/admin/settings.php:112 includes/modules/changesets.php:295
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/admin/settings.php:209
+msgid "Background"
+msgstr ""
+
+#: includes/admin/settings.php:210
+msgid "Text"
+msgstr ""
+
+#: includes/admin/settings.php:211
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/settings.php:225
+msgid "Enter colors in a hexadecimal format (i.e. #F66 or #557544)."
+msgstr ""
+
+#: includes/admin/settings.php:228
+msgid "Colors"
+msgstr ""
+
+#: includes/class-qc-taxonomy.php:105 includes/widgets.php:94
+#, php-format
+msgid "View all tickets marked %s"
+msgstr ""
+
+#: includes/class-qc-taxonomy.php:142
+msgid "none"
+msgstr ""
+
+#: includes/class-qc-taxonomy.php:321
+#, php-format
+msgid "<strong class=\"taxonomy\">%1$s</strong> set to <em>%2$s</em>."
+msgstr ""
+
+#: includes/class-qc-taxonomy.php:325
+#, php-format
+msgid "<strong class=\"taxonomy\">%1$s</strong> deleted."
+msgstr ""
+
+#: includes/class-qc-taxonomy.php:329
+#, php-format
+msgid ""
+"<strong class=\"taxonomy\">%1$s</strong> changed from <em>%2$s</em> to <em>"
+"%3$s</em>."
+msgstr ""
+
+#: includes/class-qc-taxonomy.php:372
+msgid "&mdash;"
+msgstr ""
+
+#: includes/comments.php:18
+#, php-format
+msgid "uploaded %s"
+msgstr ""
+
+#: includes/comments.php:33
+#, php-format
+msgid "about <em title=\"%s\">%s</em> ago"
+msgstr ""
+
+#: includes/comments.php:34
+msgid " at "
+msgstr ""
+
+#: includes/core.php:28
+msgid "Primary Widget Area"
+msgstr ""
+
+#: includes/core.php:30
+msgid "The primary widget area."
+msgstr ""
+
+#: includes/core.php:38
+msgid "Blog Sidebar"
+msgstr ""
+
+#: includes/core.php:40
+msgid "The widget area displayed on blog pages."
+msgstr ""
+
+#: includes/core.php:48
+msgid "Page Sidebar"
+msgstr ""
+
+#: includes/core.php:50
+msgid "The widget area displayed on pages."
+msgstr ""
+
+#: includes/core.php:58
+msgid "Header Menu"
+msgstr ""
+
+#: includes/core.php:59
+msgid "Footer Menu"
+msgstr ""
+
+#: includes/core.php:80
+msgid "Navigation"
+msgstr ""
+
+#: includes/core.php:174
+#, php-format
+msgid "Containing \"%s\""
+msgstr ""
+
+#: includes/core.php:176
+#, php-format
+msgid "Ticket #%d"
+msgstr ""
+
+#: includes/core.php:178 includes/views.php:208
+#, php-format
+msgid "Assigned to %s"
+msgstr ""
+
+#: includes/core.php:182 includes/views.php:6
+msgid "Blog"
+msgstr ""
+
+#: includes/core.php:190
+#, php-format
+msgid "(assigned to %s)"
+msgstr ""
+
+#: includes/core.php:204
+msgid "Anonymous"
+msgstr ""
+
+#: includes/modules/assignment.php:50
+msgid ""
+"Assigned To: <em>(Optional) Separated multiple usernames with commas.</em>"
+msgstr ""
+
+#: includes/modules/assignment.php:153
+#, php-format
+msgid "Updated Ticket on %s"
+msgstr ""
+
+#: includes/modules/assignment.php:154
+#, php-format
+msgid ""
+"A new ticket has been updated on %1$s, and you are currently assigned to it: "
+"%2$s"
+msgstr ""
+
+#: includes/modules/assignment.php:155
+#, php-format
+msgid "From: %1$s <%2$s>"
+msgstr ""
+
+#: includes/modules/assignment.php:214
+#, php-format
+msgid "Tickets assigned to %s"
+msgstr ""
+
+#: includes/modules/categories.php:18
+msgid "Category"
+msgstr ""
+
+#: includes/modules/categories.php:19
+msgid "Search Categories"
+msgstr ""
+
+#: includes/modules/categories.php:20
+msgid "Popular Categories"
+msgstr ""
+
+#: includes/modules/categories.php:21
+msgid "All Categories"
+msgstr ""
+
+#: includes/modules/categories.php:22
+msgid "Update Category"
+msgstr ""
+
+#: includes/modules/categories.php:23
+msgid "Add New Category"
+msgstr ""
+
+#: includes/modules/categories.php:24
+msgid "New Category Name"
+msgstr ""
+
+#: includes/modules/categories.php:25
+msgid "Edit Category"
+msgstr ""
+
+#: includes/modules/changesets.php:75
+msgid "Source Control"
+msgstr ""
+
+#: includes/modules/changesets.php:78
+msgid "Repository Type"
+msgstr ""
+
+#: includes/modules/changesets.php:88
+msgid "View Changesets"
+msgstr ""
+
+#: includes/modules/changesets.php:112
+msgid ""
+"This repository is currently <strong>disabled</strong>. You can go to the <a "
+"href=\"?page=app-settings\">General</a> tab to enable it."
+msgstr ""
+
+#: includes/modules/changesets.php:119 includes/modules/changesets.php:130
+msgctxt "changeset"
+msgid "Changesets"
+msgstr ""
+
+#: includes/modules/changesets.php:120
+msgctxt "changeset"
+msgid "Changeset"
+msgstr ""
+
+#: includes/modules/changesets.php:121
+msgctxt "changeset"
+msgid "Add New"
+msgstr ""
+
+#: includes/modules/changesets.php:122
+msgctxt "changeset"
+msgid "Add New Changeset"
+msgstr ""
+
+#: includes/modules/changesets.php:123
+msgctxt "changeset"
+msgid "Edit Changeset"
+msgstr ""
+
+#: includes/modules/changesets.php:124
+msgctxt "changeset"
+msgid "New Changeset"
+msgstr ""
+
+#: includes/modules/changesets.php:125
+msgctxt "changeset"
+msgid "View Changeset"
+msgstr ""
+
+#: includes/modules/changesets.php:126
+msgctxt "changeset"
+msgid "Search Changesets"
+msgstr ""
+
+#: includes/modules/changesets.php:127
+msgctxt "changeset"
+msgid "No changesets found"
+msgstr ""
+
+#: includes/modules/changesets.php:128
+msgctxt "changeset"
+msgid "No changesets found in Trash"
+msgstr ""
+
+#: includes/modules/changesets.php:129
+msgctxt "changeset"
+msgid "Parent Changeset:"
+msgstr ""
+
+#: includes/modules/changesets.php:309
+msgid "Import changesets now"
+msgstr ""
+
+#: includes/modules/changesets.php:344
+#, php-format
+msgid "Error while fetching changesets: %s."
+msgstr ""
+
+#: includes/modules/changesets.php:346
+#, php-format
+msgid "Imported %d changests."
+msgstr ""
+
+#: includes/modules/changesets.php:351
+msgid "Changeset URL"
+msgstr ""
+
+#: includes/modules/milestones.php:18
+msgid "Milestone"
+msgstr ""
+
+#: includes/modules/milestones.php:19
+msgid "Search Milestones"
+msgstr ""
+
+#: includes/modules/milestones.php:20
+msgid "Popular Milestones"
+msgstr ""
+
+#: includes/modules/milestones.php:21
+msgid "All Milestones"
+msgstr ""
+
+#: includes/modules/milestones.php:22
+msgid "Update Milestone"
+msgstr ""
+
+#: includes/modules/milestones.php:23
+msgid "Add New Milestone"
+msgstr ""
+
+#: includes/modules/milestones.php:24
+msgid "New Milestone Name"
+msgstr ""
+
+#: includes/modules/milestones.php:25
+msgid "Edit Milestone"
+msgstr ""
+
+#: includes/modules/priorities.php:16
+msgid "Priority"
+msgstr ""
+
+#: includes/modules/priorities.php:17
+msgid "Search Priorities"
+msgstr ""
+
+#: includes/modules/priorities.php:18
+msgid "Popular Priorities"
+msgstr ""
+
+#: includes/modules/priorities.php:19
+msgid "All Priorities"
+msgstr ""
+
+#: includes/modules/priorities.php:20
+msgid "Update Priority"
+msgstr ""
+
+#: includes/modules/priorities.php:21
+msgid "Add New Priority"
+msgstr ""
+
+#: includes/modules/priorities.php:22
+msgid "New Priority Name"
+msgstr ""
+
+#: includes/modules/priorities.php:23
+msgid "Edit Priority"
+msgstr ""
+
+#: includes/modules/sourcecontrol.php:38
+msgid "account"
+msgstr ""
+
+#: includes/modules/sourcecontrol.php:44
+msgid "repository"
+msgstr ""
+
+#: includes/modules/sourcecontrol.php:52
+#, php-format
+msgid "%s User"
+msgstr ""
+
+#: includes/modules/sourcecontrol.php:65 includes/modules/sourcecontrol.php:78
+#, php-format
+msgid "%s Password"
+msgstr ""
+
+#: includes/modules/sourcecontrol.php:69
+#, php-format
+msgid "Password is set in <code>wp-config.php</code>: %s"
+msgstr ""
+
+#: includes/modules/sourcecontrol.php:83
+msgid "Please set the password in your <code>wp-config.php</code> file."
+msgstr ""
+
+#: includes/modules/sourcecontrol.php:109
+#, php-format
+msgid "Example: %s"
+msgstr ""
+
+#: includes/modules/sourcecontrol.php:112
+msgid "Repository URL"
+msgstr ""
+
+#: includes/modules/sourcecontrol.php:167
+msgid "Beanstalk"
+msgstr ""
+
+#: includes/modules/sourcecontrol.php:286
+msgid "Bitbucket"
+msgstr ""
+
+#: includes/modules/states.php:18
+msgid "Status"
+msgstr ""
+
+#: includes/modules/states.php:19
+msgid "Search States"
+msgstr ""
+
+#: includes/modules/states.php:20
+msgid "Popular States"
+msgstr ""
+
+#: includes/modules/states.php:21
+msgid "All States"
+msgstr ""
+
+#: includes/modules/states.php:22
+msgid "Update Status"
+msgstr ""
+
+#: includes/modules/states.php:23
+msgid "Add New Status"
+msgstr ""
+
+#: includes/modules/states.php:24
+msgid "New Status Name"
+msgstr ""
+
+#: includes/modules/states.php:25
+msgid "Edit Status"
+msgstr ""
+
+#: includes/modules/tags.php:18
+msgid "Tag"
+msgstr ""
+
+#: includes/modules/tags.php:19
+msgid "Search Tags"
+msgstr ""
+
+#: includes/modules/tags.php:20
+msgid "Popular Tags"
+msgstr ""
+
+#: includes/modules/tags.php:21
+msgid "All Tags"
+msgstr ""
+
+#: includes/modules/tags.php:22
+msgid "Update Tag"
+msgstr ""
+
+#: includes/modules/tags.php:23
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/modules/tags.php:24
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/modules/tags.php:25
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/template-tags.php:271
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: includes/template-tags.php:277
+#, php-format
+msgid ""
+"Posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+
+#: includes/template-tags.php:279
+#, php-format
+msgid "Posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: includes/template-tags.php:281
+#, php-format
+msgid "Posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: includes/tickets.php:18
+msgid "Add New"
+msgstr ""
+
+#: includes/tickets.php:19
+msgid "Add New Ticket"
+msgstr ""
+
+#: includes/tickets.php:20
+msgid "Edit Ticket"
+msgstr ""
+
+#: includes/tickets.php:21
+msgid "New Ticket"
+msgstr ""
+
+#: includes/tickets.php:22 includes/tickets.php:23
+msgid "View Ticket"
+msgstr ""
+
+#: includes/tickets.php:24
+msgid "Search Tickets"
+msgstr ""
+
+#: includes/tickets.php:25
+msgid "No Tickets Found"
+msgstr ""
+
+#: includes/tickets.php:26
+msgid "No Tickets found in trash"
+msgstr ""
+
+#: includes/utils.php:11
+#, php-format
+msgid "%s added"
+msgstr ""
+
+#: includes/utils.php:16
+#, php-format
+msgid "%s removed"
+msgstr ""
+
+#: includes/views.php:142
+msgid "Ticket has been deleted."
+msgstr ""
+
+#: includes/views.php:265 templates/form-create-ticket.php:69
+msgid "Create Ticket"
+msgstr ""
+
+#: includes/widgets.php:19
+msgid "QC: Taxonomy"
+msgstr ""
+
+#: includes/widgets.php:21
+msgid "Create a list of any taxonomy."
+msgstr ""
+
+#: includes/widgets.php:45
+msgid "Taxonomy:"
+msgstr ""
+
+#: includes/widgets.php:52
+msgid "Show RSS Link"
+msgstr ""
+
+#: includes/widgets.php:58
+msgid "Show Ticket Count"
+msgstr ""
+
+#: includes/widgets.php:101
+msgid "No Results"
+msgstr ""
+
+#: includes/widgets.php:151
+msgid "QC: Project Team"
+msgstr ""
+
+#: includes/widgets.php:152
+msgid ""
+"Lists all team members assigned to this project and the time of their last "
+"activity."
+msgstr ""
+
+#: includes/widgets.php:169
+#, php-format
+msgid "View tickets by %s"
+msgstr ""
+
+#: includes/widgets.php:178
+#, php-format
+msgid "View tickets assigned to %s"
+msgstr ""
+
+#: includes/widgets.php:179
+msgid "(assigned to)"
+msgstr ""
+
+#: includes/widgets.php:184
+#, php-format
+msgid "Last activity: %s ago"
+msgstr ""
+
+#: includes/widgets.php:223
+msgid "The most recent tickets on your site"
+msgstr ""
+
+#: includes/widgets.php:224
+msgid "QC: Recent Tickets"
+msgstr ""
+
+#: includes/widgets.php:322
+msgid "Number of tickets to show:"
+msgstr ""
+
+#: includes/widgets.php:326
+msgid "Display ticket date?"
+msgstr ""
+
+#: includes/widgets.php:340
+msgid "The most recent tickets updates on your site."
+msgstr ""
+
+#: includes/widgets.php:341
+msgid "QC: Recent Tickets Updates"
+msgstr ""
+
+#: includes/widgets.php:391
+#, php-format
+msgctxt "widget recent updates"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: includes/widgets.php:426
+msgid "Number of updates to show:"
+msgstr ""
+
+#: single-ticket.php:23 single.php:20 templates/loop-post.php:36
+#: templates/loop-ticket.php:37 templates/ticket-meta.php:5
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: single-ticket.php:28 templates/loop-post.php:31 templates/loop-ticket.php:42
+#, php-format
+msgid "by <strong>%1$s</strong> on <em>%2$s</em>"
+msgstr ""
+
+#: single-ticket.php:32
+msgid "Delete Ticket"
+msgstr ""
+
+#: single-ticket.php:60
+msgid "Attachments:"
+msgstr ""
+
+#: single-ticket.php:63
+#, php-format
+msgid "by %1$s on %2$s"
+msgstr ""
+
+#: templates/form-create-ticket.php:12
+msgid "Basic Information"
+msgstr ""
+
+#: templates/form-create-ticket.php:23
+msgid "Description:"
+msgstr ""
+
+#: templates/form-create-ticket.php:30
+msgid "Tags: <em>(Optional)</em>"
+msgstr ""
+
+#: templates/form-create-ticket.php:43
+msgid "Ticket Properties"
+msgstr ""
+
+#: templates/form-create-ticket.php:55 templates/form-update-ticket.php:59
+msgid "Attach a File"
+msgstr ""
+
+#: templates/form-edit-profile.php:20
+msgid "Profile"
+msgstr ""
+
+#: templates/form-edit-profile.php:25
+msgid "Display Name:"
+msgstr ""
+
+#: templates/form-edit-profile.php:39 templates/form-edit-profile.php:52
+msgid "New Password:"
+msgstr ""
+
+#: templates/form-edit-profile.php:40
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+
+#: templates/form-edit-profile.php:42
+msgid "Type your new password again."
+msgstr ""
+
+#: templates/form-edit-profile.php:46 templates/form-edit-profile.php:74
+msgid "Your password should be at least seven characters long."
+msgstr ""
+
+#: templates/form-edit-profile.php:53
+msgid "Generate Password"
+msgstr ""
+
+#: templates/form-edit-profile.php:67
+msgid "Cancel password change"
+msgstr ""
+
+#: templates/form-edit-profile.php:68
+msgid "Cancel"
+msgstr ""
+
+#: templates/form-edit-profile.php:90
+msgid "Update profile"
+msgstr ""
+
+#: templates/form-update-ticket.php:24
+msgid "Leave a comment"
+msgstr ""
+
+#: templates/form-update-ticket.php:38
+msgid "Update ticket properties"
+msgstr ""
+
+#: templates/form-update-ticket.php:44
+msgid "Tags: <em>(Optional) Separated multiple tags with commas.</em>"
+msgstr ""
+
+#: templates/form-update-ticket.php:77
+msgid "Submit"
+msgstr ""
+
+#: templates/loop-post.php:68
+msgid "No posts found."
+msgstr ""
+
+#: templates/loop-ticket.php:71
+msgid "No tickets found."
+msgstr ""
+
+#: templates/navigation.php:17
+msgid "All Tickets"
+msgstr ""
+
+#: templates/navigation.php:24
+msgid "My Tickets"
+msgstr ""
+
+#: templates/navigation.php:27
+msgid "Tickets Started"
+msgstr ""
+
+#: templates/navigation.php:31
+msgid "Assigned Tickets"
+msgstr ""
+
+#: templates/ticket-meta.php:13
+msgid "Assigned to"
+msgstr ""
+
+#: templates/ticket-meta.php:20
+msgid "Last Updated"
+msgstr ""
+
+#: templates/ticket-meta.php:25
+msgid "Modified by"
+msgstr ""
+
+#: templates/user-box-visitor.php:4
+msgid "Visitor"
+msgstr ""
+
+#: templates/user-box.php:8
+msgid "Edit profile"
+msgstr ""

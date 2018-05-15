@@ -1,0 +1,17 @@
+<# if( collection ) { #>
+	<br>
+	<h4><?php echo __( 'Lead Groups', TVE_Ult_Const::T ); ?></h4>
+	<# if(collection && collection.length == 0) { #>
+		<div class="tvu-no-conversion-posts"><?php echo __( 'No Lead Groups Defined', TVE_Ult_Const::T ); ?></div>
+	<# } #>
+	<div class="tvu-evergreen-leads-checkboxes tvd-row"></div>
+	<div class="tvd-v-spacer"></div>
+<# } #>
+<# if( shortcodes ) { #>
+	<h4><?php echo __( 'Shortcodes', TVE_Ult_Const::T ); ?></h4>
+	<# if( shortcodes && shortcodes.length == 0) { #>
+		<div class="tvu-no-conversion-posts"><?php echo __( 'No Shortcodes Defined', TVE_Ult_Const::T ); ?></div>
+	<# } #>
+	<div class="tvu-evergreen-shortcodes-checkboxes tvd-row"></div>
+	<div class="tvd-v-spacer"></div>
+<# } #>

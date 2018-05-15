@@ -1,0 +1,82 @@
+<p><?php echo $action['description'] ?></p>
+
+<?php if ( empty( $designs ) ) : ?>
+	<p class="tvd-text-red"><?php echo __( "You cannot choose this action because you have not set any design yet", TVE_Ult_Const::T ) ?></p>
+	<?php return; ?>
+<?php endif; ?>
+
+<div class="tvd-v-spacer"></div>
+
+<div class="tvd-row tvd-collapse">
+	<div class="tvd-col tvd-s6">
+		<div class="tvd-input-field">
+			<select name="design" id="tvu-design">
+				<option disabled selected value="0"><?php echo __( "Choose design to show", TVE_Ult_Const::T ) ?></option>
+				<?php foreach ( $designs as $d ) : ?>
+					<?php $selected = ( ! empty( $action['design'] && $d['id'] == $action['design'] ) ? 'selected="selected"' : '' ); ?>
+					<option <?php echo $selected ?> value="<?php echo $d['id'] ?>"><?php echo $d['post_title'] ?></option>
+				<?php endforeach; ?>
+			</select>
+			<label for="tvu-design"><?php echo __( "Choose design to show", TVE_Ult_Const::T ) ?></label>
+		</div>
+	</div>
+	<div id="tvu-states-wrapper" class="tvd-col tvd-s6">
+		<div class="tvd-input-field">
+			<select id="tvu-state" name="state">
+				<option value="0"><?php echo __( "Choose design sate", TVE_Ult_Const::T ) ?></option>
+			</select>
+			<label for="tvu-state"><?php echo __( "Choose design sate", TVE_Ult_Const::T ) ?></label>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	(
+		function ( $ ) {
+			var designs = <?php echo $states ?>,
+				action = <?php echo json_encode( $action )?>;
+
+			$design = $( "#tvu-design" );
+			$state = $( "#tvu-state" );
+			$states_wrapper = $( "#tvu-states-wrapper" );
+
+			$design.change( function () {
+				var $this = $( this ),
+					id = $this.val(),
+					$options = $state.find( 'option' ),
+					length = 1 - $options.length;
+
+				if ( $options.length > 1 ) {
+					$options.slice( length ).remove();
+				}
+
+				if ( designs[id] === undefined ) {
+					TVE_Dash.materialize( $state.parent() );
+					return;
+				}
+
+				for ( var i = 0; i < designs[id].length; i ++ ) {
+					var state = designs[id][i];
+					$state.append( '<option value="' + state.id + '">' + state.post_title + '</option>' );
+				}
+
+				TVE_Dash.materialize( $state.parent() );
+
+				$states_wrapper[designs[id].length > 1 ? 'show' : 'hide']();
+				if ( designs[id].length === 1 ) {
+					$state.val( designs[id][0]['id'] );
+					$state.trigger( 'change' );
+				}
+			} );
+
+			ThriveUlt.util.ajax_done = function () {
+				$design.trigger( 'change' );
+				if ( action.state ) {
+					$state.val( action.state );
+					$state.trigger( 'change' );
+				}
+				TVE_Dash.materialize( $state.parent() );
+			}
+
+		}
+	)( jQuery )
+</script>

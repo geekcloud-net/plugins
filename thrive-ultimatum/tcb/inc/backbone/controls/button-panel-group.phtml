@@ -1,0 +1,14 @@
+<div class="button-group-holder">
+	<# if ( this.data.label ) { #>
+		<div class="group-label"><#=this.data.label#>:</div>
+	<# } #>
+	<div class="tve-btn-group <#=this.data.group_class || 'grey'#>">
+		<# _.each( this.data.buttons, function( btn, key ) { #>
+
+			<div class="btn-inline tve-btn click <#=btn.class || 'padded'#>" data-fn="tab_click" data-panel="<#=key#>" title="<#=btn.title#>">
+				<#=this.icon( btn )#>
+			</div>
+
+		<# }, this ); #>
+	</div>
+</div>

@@ -1,0 +1,25 @@
+@import "../_ribbon";
+@import "../base/_base_set_08.scss";
+@import "config/_set_08_config.scss";
+#tvu_set_08 {
+  //ribbon general
+  .thrv_ult_bar {
+    @if $has-ribbon-box-shadow {
+      box-shadow: $ribbon-box-shadow;
+    }
+    border-bottom: 1px solid #333131;
+    .tve_editor_main_content {
+      max-width: $ribbon-max-width;
+      padding: $ribbon-padding;
+    }
+  }
+}
+@each $color in $color-pallete {
+  #tvu_set_08 {
+    .thrv_ult_bar.tve_#{nth($color, 1)} {
+      background: nth($color, 6);
+    }
+  }
+}
+
+@import '../_responsive';

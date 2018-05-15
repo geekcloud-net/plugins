@@ -1,0 +1,71 @@
+.thrv_countdown_timer {
+  &[data-dd="2"] {
+    &.tve_countdown_1 {
+      .tve_t_day {
+        .t-digits {
+          min-width: 50px;
+        }
+      }
+    }
+    &.tve_countdown_2 {
+      .tve_t_day {
+        .t-digits {
+          min-width: 80px;
+        }
+      }
+    }
+    &.tve_countdown_3 {
+      .tve_t_day {
+        .t-digits {
+          min-width: 50px;
+        }
+      }
+    }
+  }
+  &[data-dd="3"] {
+    &.tve_countdown_1 {
+      .tve_t_day {
+        .t-digits {
+          min-width: 75px;
+        }
+      }
+    }
+    &.tve_countdown_2 {
+      .tve_t_day {
+        .t-digits {
+          min-width: 120px;
+        }
+      }
+    }
+    &.tve_countdown_3 {
+      .tve_t_day {
+        .t-digits {
+          min-width: 75px;
+        }
+      }
+    }
+  }
+  &[data-dd="4"] {
+    &.tve_countdown_1 {
+      .tve_t_day {
+        .t-digits {
+          min-width: 100px;
+        }
+      }
+    }
+    &.tve_countdown_2 {
+      .tve_t_day {
+        .t-digits {
+          min-width: 160px;
+        }
+      }
+    }
+    &.tve_countdown_3 {
+      .tve_t_day {
+        .t-digits {
+          min-width: 100px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+<div class="tvd-card tvd-white tvu-small-card <#= !item.get('type') || !item.has_valid_lockdown_trigger() ? 'tvd-gray' : '' #>">
+	<div class="tvd-card-content">
+		<div class="tvd-row tvd-no-margin tvd-valign-wrapper">
+			<div class="tvd-col tvd-s12 tvd-m3 tvd-hide-on-meds-and-down tvd-l2 tvd-center-align tvd-valign">
+				<# if(!item.get('lockdown')) { #>
+					<i class="tvu-icon-unlock tvu-gray-text tvu-large-icon"></i>
+					<# } else { #>
+						<i class="tvu-icon-lock tvu-gray-text tvu-large-icon"></i>
+						<# } #>
+			</div>
+			<div class="tvd-col tvd-s12 tvd-m9 tvd-ms12 tvd-l10 tvd-valign">
+				<h3 class="tvd-truncate">
+					<#= !item.get('lockdown') ? '<?php echo __( 'Open Campaign', TVE_Ult_Const::T ) ?>' : '<?php echo __( 'Lockdown Campaign', TVE_Ult_Const::T ) ?>' #>
+				</h3>
+				<p class="tvu-lockdown-summary tvu-campaign-card-summary">
+					<# if ( ! item.get( 'type' ) ) { #>
+						<?php $link = '<a href="javascript:void(0)" class="tvu-edit-campaign">' . __( 'Campaign Type', TVE_Ult_Const::T ) . '</a>' ?>
+						<?php echo sprintf( __( 'Lockdown feature will become available after you setup the %s', TVE_Ult_Const::T ), $link ) ?>
+						<# } else { #>
+							<#= !item.get('lockdown') ? '<?php echo __( 'Select the lockdown options for the campaign', TVE_Ult_Const::T ) ?>' : '<?php echo __( 'Activated for ', TVE_Ult_Const::T ) ?>' + ThriveUlt.util.get_type_title( item.get('type') ) #>
+								<# } #>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="tvd-card-action">
+		<div class="tvd-row tvd-no-margin tvd-valign-wrapper">
+			<div class="tvd-col tvd-m1 tvd-l2 tvd-hide-on-meds-and-down tvd-center-align tvd-valign">
+				<p>&nbsp;</p>
+			</div>
+			<div class="tvd-col tvd-s12 tvd-m11 tvd-l10 tvd-ms12 tvd-valign tvd-relative">
+				<hr class="tvu-lightgray-line">
+				<div class="tvd-row tvd-collapse tvd-no-mb">
+					<div class="tvd-col <#= !item.get('lockdown') ? 'tvd-m10 tvd-l10 ' : 'tvd-m6 tvd-l6 ' #>">
+						<a class="tvd-btn-flat tvu-btn-flat <#= !item.get('type') || !item.has_valid_lockdown_trigger() ? 'tvd-tooltipped tvd-disabled tvu-disabled' : 'tvu-btn-flat-blue tvu-lockdown' #>"
+						   href="javascript:void(0)"
+						   data-tooltip="<?php echo __( "The lockdown feature requires the campaign trigger to be either 'Thrive Leads Conversion' or 'Visit to Promotion Page'", TVE_Ult_Const::T ) ?>">
+							<#= !item.get('lockdown') ? '<?php echo __( 'Activate Lockdown', TVE_Ult_Const::T ) ?>' : '<?php echo __( 'Edit', TVE_Ult_Const::T ) ?>'  #>
+						</a>
+						<# if ( item.get_settings_step() === 'lockdown' ) { #>
+							<div class="tvd-tooltip-visible tvd-fixed-bottom tvd-normalize">
+								<span><?php echo __( 'Next step: select campaign pages', TVE_Ult_Const::T ) ?></span>
+							</div>
+							<# } #>
+					</div>
+					<div class="tvd-col tvd-m6 tvd-l6">
+						<# if(item.get('lockdown')) { #>
+							<a class="tvd-btn-flat tvu-btn-flat tvu-btn-flat-red tvu-disable-lockdown tvd-right" href="javascript:void(0)">
+								<?php echo __( 'Disable', TVE_Ult_Const::T ) ?>
+							</a>
+							<# } #>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

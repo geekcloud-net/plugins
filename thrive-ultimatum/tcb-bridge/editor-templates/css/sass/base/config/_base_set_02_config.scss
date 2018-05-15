@@ -1,0 +1,120 @@
+$font-family: 'Lato', sans-serif;
+$font-family2: 'Cookie', cursive;
+/*heading*/
+$heading-color: #ffffff;
+$heading-font-weight: 400;
+$heading-font-size: 48px;
+$heading-line-height: 1em;
+/*paragraph*/
+$paragraph-color: #666666;
+$paragraph-font-size: 16px;
+$paragraph-font-weight: 300;
+$paragraph-line-height: 1.556em;
+$paragraph-margin-bottom: 20px;
+$paragraph-bold-weight: 700;
+
+/*close button*/
+$close-btn-bg: #eca8bf;
+$close-btn-color: #e689a8;
+$close-btn-no-border: false;
+$close-btn-size: 22px;
+$close-btn-font-size: 20px;
+$close-btn-line-height: 17px;
+
+/*buttons*/
+$button-border-radius: 50px;
+$button-box-shadow: none;
+$button-text-shadow: none;
+$button-font-size: 22px;
+$button-font-weight: 700;
+$button-line-height: 34px;
+$button-padding: 12px 50px;
+
+$transparent-bg: true;
+
+//if buttons have the same color on default state
+$same-colors-for-btns: false;
+$button-default-color: #fff;
+
+//if white button has a different color than the rest
+$different-btn-white: false;
+$button-white-color: #000;
+
+//if orange button has a different color than the rest
+$different-btn-orange: false;
+$button-orange-color: #d7fe3a;
+
+$button-color-hover: #fff;
+
+//if white button has a different color on hover
+$different-btn-white-h: false;
+$button-white-color-h: #000;
+
+//if orange button has a different color on hover
+$different-btn-orange-h: false;
+$button-orange-color-h: #000;
+
+//if white button has a different color active
+$different-btn-white-a: false;
+$button-white-color-a: #333333;
+
+//if orange button has a different color active
+$different-btn-orange-a: false;
+$button-orange-color-a: #333333;
+
+//if same bg as active
+$same-active-bg: true;
+$button-active-bg: #fff;
+$button-active-border: #fff;
+
+/*countdown*/
+//has background
+$countdown-no-background: true;
+
+//has border
+$countdown-no-border: true;
+
+//if same color items
+$countdown-same-color-items: false;
+$countdown-item-bg: #fff;
+
+$countdown-item-border-radius: 50px;
+$item-color: #fff;
+$item-color-dark: #333333;
+$item-font-size: 23px;
+$item-font-weight: 700;
+$item-font-style: italic;
+$item-line-height: 50px;
+$item-height: 40px; //numbers height, not the whole item
+$item-min-width: 30px; //numbers width (without padding)
+$item-spacing: 20px; //space from the outer margin to the first number
+$item-padding: $item-spacing;
+$item2-spacing: $item-spacing + ($item-min-width/2);
+$item3-spacing: $item2-spacing + ($item-min-width/2);
+$item4-spacing: $item3-spacing + ($item-min-width/2);
+//countdown responsive size
+$item-font-size-r: 18px;
+$item-line-height-r: 30px;
+$item-height-r: 30px; //numbers height, not the whole item
+$item-min-width-r: 36px; //numbers width (without padding)
+$item-spacing-r: 10px; //space from the outer margin to the first number
+$item-padding-r: $item-spacing-r;
+$item2-spacing-r: $item-spacing-r + ($item-min-width-r/2);
+$item3-spacing-r: $item2-spacing-r + ($item-min-width-r/2);
+$item4-spacing-r: $item3-spacing-r + ($item-min-width-r/2);
+//caption
+$caption-color: #fff;
+$caption-color-dark: #333;
+$caption-font-weight: 700;
+$caption-font-size: 11px;
+
+
+$color-pallete:
+'blue' #4cb3d2 #4cb3d2 #8ccee2,
+'black' #333333 #333333 #787878,
+'green' #5ac26b #5ac26b #90c899,
+'white' #fff #cd3568 #fff,
+'orange' #fa913d #fa913d #f2bc91,
+'purple' #7d6694 #7d6694 #dcd3e5,
+'red' #cd3568 #cd3568 #e689a8,
+'teal' #80d9c9 #80d9c9 #bce6de;

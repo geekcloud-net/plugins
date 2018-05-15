@@ -1,0 +1,28 @@
+<label><?php echo __( 'Image', 'thrive-cb' ) ?></label>
+<div class="image-picker"></div>
+<div class="row">
+	<div class="col-xs-8">
+		<label><?php echo __( 'Image Display', 'thrive-cb' ) ?></label>
+		<select id="bg-image-prop" class="tcb-dark change" data-fn="prop">
+			<option value="size:auto"><?php echo __( 'Default', 'thrive-cb' ) ?></option>
+			<option value="size:cover"><?php echo __( 'Stretch', 'thrive-cb' ) ?></option>
+			<option value="repeat:repeat"><?php echo __( 'Repeat/tile', 'thrive-cb' ) ?></option>
+		</select>
+	</div>
+	<div class="col-xs-4">
+		<div class="bg-image-position-area tcb-disabled">
+			<div class="bg-image-control click" data-fn="set_position" data-value="0%:0%" style="position: absolute; top:-3px; left: -3px;"></div>
+			<div class="bg-image-control click" data-fn="set_position" data-value="50%:0%" style="position: absolute; top:-4px; left: 45%;"></div>
+			<div class="bg-image-control click" data-fn="set_position" data-value="100%:0%" style="position: absolute; top:-3px; right: -3px;"></div>
+			<div class="bg-image-control click" data-fn="set_position" data-value="0%:50%" style="position: absolute; top:45%; left: -4px;"></div>
+			<div class="bg-image-control click" data-fn="set_position" data-value="50%:50%" style="position: absolute; top:45%; left: 45%;"></div>
+			<div class="bg-image-control click" data-fn="set_position" data-value="100%:50%" style="position: absolute; top:45%; right: -4px;"></div>
+			<div class="bg-image-control click" data-fn="set_position" data-value="0%:100%" style="position: absolute; bottom: -3px; left: -3px;"></div>
+			<div class="bg-image-control click" data-fn="set_position" data-value="50%:100%" style="position: absolute; bottom: -4px; left: 45%;"></div>
+			<div class="bg-image-control click" data-fn="set_position" data-value="100%:100%" style="position: absolute; bottom:-3px; right: -3px;"></div>
+		</div>
+	</div>
+	<div class="col-xs-12">
+		<label class="tcb-checkbox"><input type="checkbox" class="change" id="bg-static" data-fn="static" value="1"><span><?php echo __( 'Static background image', 'thrive-cb' ) ?></span></label>
+	</div>
+</div>

@@ -1,0 +1,8 @@
+<div class="panel-text">
+	<#= this.model.config.label #>
+</div>
+<div class="row middle-xs">
+	<# _.each(this.model.config.items, function(label, key) { #>
+	<#= this.render_item( key, label ) #>
+	<# }, this); #>
+</div>

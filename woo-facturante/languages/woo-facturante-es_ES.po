@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: woo-facturante\n"
+"POT-Creation-Date: 2018-04-19 10:33-0300\n"
+"PO-Revision-Date: 2018-04-19 10:35-0300\n"
+"Last-Translator: \n"
+"Language-Team: FY <hernan@fuegoyamana.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ../admin\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-KeywordsList: __;__ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: class-woo-facturante-admin.php\n"
+
+#: class-woo-facturante-admin.php:92
+msgid "Facturante Settings"
+msgstr "Facturante"
+
+#: class-woo-facturante-admin.php:177 class-woo-facturante-admin.php:302
+msgid "DNI"
+msgstr "CUIT/CUIL/DNI"
+
+#: class-woo-facturante-admin.php:194
+msgid "<strong>Error</strong>: DNI must be a numeric value!."
+msgstr "<strong>Error</strong>: DNI debe ser un valor numérico!."
+
+#: class-woo-facturante-admin.php:198
+msgid "<strong>Error</strong>: DNI is required!."
+msgstr "<strong>Error</strong>: el DNI es obligatorio!."
+
+#: class-woo-facturante-admin.php:222 class-woo-facturante-admin.php:254
+msgid "CUIT/CUIL/DNI"
+msgstr ""
+
+#: class-woo-facturante-admin.php:255
+msgctxt "placeholder"
+msgid "enter your dni"
+msgstr "ingrese su dni"
+
+#: class-woo-facturante-admin.php:278
+msgid "Your DNI is invalid."
+msgstr "El CUIT/CUIL/DNI es incorrecto."
+
+#: class-woo-facturante-admin.php:327
+msgid "Facturante"
+msgstr "Facturante"
+
+#: class-woo-facturante-admin.php:358 class-woo-facturante-admin.php:395
+msgid "create invoice"
+msgstr "Crear factura"
+
+#: class-woo-facturante-admin.php:358 class-woo-facturante-admin.php:395
+#: class-woo-facturante-admin.php:546 class-woo-facturante-admin.php:593
+msgid "Invoice"
+msgstr "Factura"
+
+#: class-woo-facturante-admin.php:372 class-woo-facturante-admin.php:563
+msgid "awaiting invoice"
+msgstr "Esperando factura"
+
+#: class-woo-facturante-admin.php:383 class-woo-facturante-admin.php:578
+msgid "view invoice"
+msgstr "Ver factura"
+
+#: class-woo-facturante-admin.php:419
+msgid "Input parameters"
+msgstr "Parámetros de entrada"
+
+#: class-woo-facturante-admin.php:425
+msgid "Activate test mode"
+msgstr "Activar modo de pruebas"
+
+#: class-woo-facturante-admin.php:427
+msgid "Activate sandbox mode."
+msgstr "Se imprimirán comprobantes sin validez fiscal."
+
+#: class-woo-facturante-admin.php:431
+msgid "User"
+msgstr "Usuario"
+
+#: class-woo-facturante-admin.php:433
+msgid "User provided by Facturante"
+msgstr "Usuario provisto por Facturante"
+
+#: class-woo-facturante-admin.php:437
+msgid "Hash"
+msgstr "Hash "
+
+#: class-woo-facturante-admin.php:439
+msgid "Password provided by Facturante"
+msgstr "Clave provista por Facturante"
+
+#: class-woo-facturante-admin.php:449
+msgid "Organization ID"
+msgstr "Id de empresa"
+
+#: class-woo-facturante-admin.php:451
+msgid "Organization number provided by Facturante"
+msgstr "Nro. de empresa provisto por Facturante"
+
+#: class-woo-facturante-admin.php:486
+msgid "Point of sale"
+msgstr "Punto de venta"
+
+#: class-woo-facturante-admin.php:488
+msgid "Point of sale for invoices, i.e: 0004, must be filled with zeros."
+msgstr ""
+"Punto de venta, por ej. 0005, debe estar relleno con ceros hacia la "
+"izquierda."
+
+#: class-woo-facturante-admin.php:493
+msgid "Tratamiento impositivo"
+msgstr "Tratamiento impositivo"
+
+#: class-woo-facturante-admin.php:513
+msgid "Contact"
+msgstr "Contacto"
+
+#~ msgid "Organization"
+#~ msgstr "Empresa"
+
+#~ msgid "Organization name provided by Facturante"
+#~ msgstr "Nombre de empresa provisto por Facturante"
+
+#~ msgid "Invoice prefix"
+#~ msgstr "Punto de venta"
+
+#~ msgid "Please enter yor DNI."
+#~ msgstr "Por favor ingrese su DNI."
+
+#~ msgid "Invoice Type"
+#~ msgstr "Tipo de factura"
+
+#~ msgid "Type of invoice to submit to customer. "
+#~ msgstr "Tipo de factura que se enviará al cliente"
+
+#~ msgid "IVA"
+#~ msgstr "IVA"
+
+#~ msgid "IVA %"
+#~ msgstr "IVA %"
+
+#~ msgid "Impositive treatment"
+#~ msgstr "Tratamiento impositivo"

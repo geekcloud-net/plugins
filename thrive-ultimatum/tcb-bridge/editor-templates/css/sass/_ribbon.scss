@@ -1,0 +1,88 @@
+@import "bourbon";
+@import "_countdown";
+@import "../../../assets/css/sass/variables";
+
+/*
+ * this should contain general css that applies to Header / footer bars
+ * to overwrite editor styles, use editor.scss
+ */
+body {
+  .thrv_wrapper {
+    &.thrv_ult_bar {
+      margin: 0;
+    }
+  }
+}
+
+/* Header / footer bars */
+.tve-ult-bar {
+  top: -100%;
+  left: 0;
+  min-height: 20px;
+  position: fixed;
+  right: 0;
+  z-index: 90000;
+  .tve_editor_page & {
+    z-index: 0;
+  }
+  @include transition(top .7s);
+  &.tvu-triggered {
+    top: 0;
+    @include transition(top .6s);
+  }
+  .admin-bar & {
+    &.tvu-header.tvu-triggered {
+      top: 32px;
+    }
+  }
+  &.tvu-footer {
+    top: auto !important;
+    bottom: -100%;
+    @include transition(bottom .7s);
+    &.tvu-triggered {
+      bottom: 0;
+      @include transition(bottom .6s);
+    }
+  }
+  .single-tve_ult_campaign & {
+    .admin-bar {
+      z-index: 0;
+      top: 32px;
+    }
+  }
+  .tve-ult-bar-content {
+    margin: 0 auto;
+    max-width: 1080px;
+    min-width: 500px;
+  }
+  .thrv-ult-bar {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    padding: 10px 0;
+    margin: 0;
+  }
+  .tve-ult-bar-close {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    @include transform(translateY(-50%));
+    font-size: 30px;
+    line-height: 23px;
+    color: #fff;
+    border: 1px solid;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 22px;
+    width: 30px;
+    height: 30px;
+    z-index: 100;
+  }
+}
+
+@each $border in $borderStyles {
+  .tve-ult-bar {
+    .tve_brdr_#{$border} {
+      border-bottom-style: #{$border} !important;
+    }
+  }
+}

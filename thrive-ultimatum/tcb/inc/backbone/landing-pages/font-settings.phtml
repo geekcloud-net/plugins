@@ -1,0 +1,39 @@
+<div class="row tve-control margin-bottom-15" data-view="FontManager">
+	<div class="col-xs-12 margin-bottom-5">
+		<span class="input-label"><?php echo __( 'Font Face', 'thrive-cb' ); ?></span>
+	</div>
+	<div class="col-xs-12 tcb-input-button-wrapper" data-selector="<#= selector #>">
+		<div class="col-sep click" data-fn="openFonts"></div>
+		<input type="text" class="font-face-input click" data-fn="openFonts" readonly>
+		<?php tcb_icon( 'edit', false, 'sidebar', 'tcb-input-button click', array( 'data-fn' => 'openFonts' ) ) ?>
+	</div>
+</div>
+
+<div class="tve-control" data-view="ColorPicker"></div>
+
+<# if( selector.indexOf('h') === 0 ) { #>
+	<div class="row margin-top-15">
+		<div class="col-xs-2"></div>
+		<div class="col-xs-8">
+			<button class="blue tve-button click tcb-disabled apply-to-all" data-fn="applyToAll" data-selector="<#= selector #>">
+				<?php echo __( 'Apply to all headings', 'thrive-cb' ); ?>
+			</button>
+		</div>
+		<div class="col-xs-2"></div>
+	</div>
+<# } #>
+
+<hr>
+<div class="tve-control" data-key="FontSize" data-view="Slider"></div>
+<hr>
+<div class="tve-control" data-key="LineHeight" data-view="Slider"></div>
+<hr>
+<div class="row">
+	<div class="col-xs-2"></div>
+	<div class="col-xs-8">
+		<button class="grey tve-button click" data-fn="clearFont" data-selector="<#= selector #>">
+			<?php echo __( 'Clear custom font', 'thrive-cb' ); ?>
+		</button>
+	</div>
+	<div class="col-xs-2"></div>
+</div>

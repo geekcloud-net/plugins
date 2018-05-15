@@ -1,0 +1,4 @@
+<input id="tcb-admin-edit-text" data-bind="value" type="text" value="<#= item.get('value') #>">
+<label for="tcb-admin-edit-text" <# if ( item.get( 'required' ) ) { #> data-error="<?php echo sprintf( __( '%s is required', 'thrive-cb' ), "<#= item.get( 'label' ) #>" ) ?>" <# } #> class="tvd-active">
+	<#= ( item.get('show_label') ? item.get('label') : '&nbsp;' ) #>
+</label>

@@ -1,0 +1,564 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Cost of Goods for WooCommerce\n"
+"POT-Creation-Date: 2018-01-23 10:15+0000\n"
+"PO-Revision-Date: 2018-01-23 10:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/admin/class.yith-cog-admin-premium.php:141
+msgid "Settings"
+msgstr "Ajustes"
+
+#: ../includes/admin/class.yith-cog-admin-premium.php:142
+msgid "Reports"
+msgstr "Informes"
+
+#: ../includes/admin/class.yith-cog-admin-premium.php:143
+msgid "Stock Reports"
+msgstr "Informes de inventario"
+
+#: ../includes/admin/class.yith-cog-admin-premium.php:149
+#: ../includes/admin/class.yith-cog-admin-premium.php:150
+msgid "YITH Cost of Goods"
+msgstr "YITH Cost of Goods"
+
+#: ../includes/admin/class.yith-cog-admin-premium.php:232
+#: ../includes/admin/class.yith-cog-admin-premium.php:248
+msgid "YITH Cost of Good"
+msgstr "YITH Cost of Good"
+
+#: ../includes/admin/class.yith-cog-admin-premium.php:385
+msgid "Set Cost of Goods"
+msgstr "Establecer coste de bienes"
+
+#: ../includes/admin/class.yith-cog-admin-premium.php:407
+#: ../includes/admin/class.yith-cog-admin-premium.php:413
+msgid "Error during updating the product Cost of Goods."
+msgstr "Error al actualizar el coste de bienes del producto."
+
+#: ../includes/admin/class.yith-cog-admin-premium.php:431
+msgid "Set cost"
+msgstr "Establecer coste"
+
+#: ../includes/admin/class.yith-cog-admin-premium.php:466
+msgid "Cost"
+msgstr "Coste"
+
+#: ../includes/admin/class.yith-cog-admin-premium.php:567
+msgid "This will apply costs to previous orders if the cost was not set."
+msgstr ""
+"Esto aplicará costes a pedidos anteriores si el coste no estaba establecido."
+
+#: ../includes/admin/class.yith-cog-admin-premium.php:569
+msgid ""
+"This will apply costs to previous orders, overriding the previous cost if it "
+"was set."
+msgstr ""
+"Esto aplicará costes a pedidos anteriores, sobrescribiendo el precio "
+"anterior si este estaba establecido."
+
+#: ../includes/admin/reports/class.yith-cog-report-data-category.php:97
+#: ../includes/admin/reports/class.yith-cog-report-data-category.php:122
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:187
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:211
+#: ../includes/admin/reports/class.yith-cog-report-data-tag.php:95
+#: ../includes/admin/reports/class.yith-cog-report-data.php:68
+#: ../includes/admin/reports/class.yith-cog-report-data.php:95
+msgid "Year"
+msgstr "Año"
+
+#: ../includes/admin/reports/class.yith-cog-report-data-category.php:98
+#: ../includes/admin/reports/class.yith-cog-report-data-category.php:123
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:188
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:212
+#: ../includes/admin/reports/class.yith-cog-report-data-tag.php:96
+#: ../includes/admin/reports/class.yith-cog-report-data.php:69
+#: ../includes/admin/reports/class.yith-cog-report-data.php:96
+msgid "Last Month"
+msgstr "Último mes"
+
+#: ../includes/admin/reports/class.yith-cog-report-data-category.php:99
+#: ../includes/admin/reports/class.yith-cog-report-data-category.php:124
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:189
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:213
+#: ../includes/admin/reports/class.yith-cog-report-data-tag.php:97
+#: ../includes/admin/reports/class.yith-cog-report-data.php:70
+#: ../includes/admin/reports/class.yith-cog-report-data.php:97
+msgid "This Month"
+msgstr "Este mes"
+
+#: ../includes/admin/reports/class.yith-cog-report-data-category.php:100
+#: ../includes/admin/reports/class.yith-cog-report-data-category.php:125
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:190
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:214
+#: ../includes/admin/reports/class.yith-cog-report-data-tag.php:98
+#: ../includes/admin/reports/class.yith-cog-report-data.php:71
+#: ../includes/admin/reports/class.yith-cog-report-data.php:98
+msgid "Last 7 Days"
+msgstr "Últimos 7 días"
+
+#: ../includes/admin/reports/class.yith-cog-report-data-category.php:143
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:231
+#: ../includes/admin/reports/class.yith-cog-report-data.php:116
+msgid "Export CSV"
+msgstr "Exportar CSV"
+
+#: ../includes/admin/reports/class.yith-cog-report-data-category.php:168
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-data-category.php:87
+msgid "Select categories&hellip;"
+msgstr "Seleccionar categorías&hellip;"
+
+#: ../includes/admin/reports/class.yith-cog-report-data-category.php:224
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-data-category.php:140
+msgid "Categories"
+msgstr "Categorías"
+
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:72
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-data-product.php:64
+msgid "Showing reports for:"
+msgstr "Mostrando informes para:"
+
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:78
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-data-product.php:70
+msgid "Product Search"
+msgstr "Búsqueda de producto"
+
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:105
+#: ../includes/admin/reports/class.yith-cog-report-data-product.php:123
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-data-product.php:97
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-data-product.php:115
+msgid "Reset"
+msgstr "Restablecer"
+
+#: ../includes/admin/reports/class.yith-cog-report-links.php:33
+msgid "Sales by date"
+msgstr "Ventas por fecha"
+
+#: ../includes/admin/reports/class.yith-cog-report-links.php:39
+msgid "Sales by product"
+msgstr "Ventas por producto"
+
+#: ../includes/admin/reports/class.yith-cog-report-links.php:45
+msgid "Sales by category"
+msgstr "Ventas por categoría"
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:47
+#: ../includes/admin/reports/class.yith-cog-report-totals.php:36
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:43
+msgid "No products found."
+msgstr "No se encontraron productos."
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:610
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:390
+msgid "Edit"
+msgstr "Editar"
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:617
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:397
+msgid "View"
+msgstr "Ver"
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:647
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:428
+msgid "Product"
+msgstr "Producto"
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:648
+#: ../includes/admin/reports/class.yith-cog-report-totals.php:121
+msgid "Total Sales"
+msgstr "Ventas totales"
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:649
+msgid "Product Prices"
+msgstr "Precios de producto"
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:650
+#: ../includes/admin/reports/class.yith-cog-report-totals.php:123
+msgid "Total Price"
+msgstr "Precio total"
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:651
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:432
+msgid "Product Cost"
+msgstr "Coste de producto"
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:652
+#: ../includes/admin/reports/class.yith-cog-report-totals.php:125
+msgid "Total Cost"
+msgstr "Coste total"
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:653
+msgid "Product Profit"
+msgstr "Beneficio de producto"
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:654
+#: ../includes/admin/reports/class.yith-cog-report-totals.php:127
+msgid "Total Profit"
+msgstr "Beneficio total"
+
+#: ../includes/admin/reports/class.yith-cog-report-table.php:661
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:441
+msgid "Actions"
+msgstr "Acciones"
+
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-links.php:33
+msgid "All stock"
+msgstr "Todo el inventario"
+
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-links.php:39
+msgid "Stock by product"
+msgstr "Inventario por producto"
+
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-links.php:45
+msgid "Stock by category"
+msgstr "Inventario por categoría"
+
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:163
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:181
+msgid "In stock"
+msgstr "En inventario"
+
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:165
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:183
+msgid "Out of stock"
+msgstr "Sin existencias"
+
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:283
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:328
+msgid "No cost is set for this product"
+msgstr "No se ha establecido coste para este producto"
+
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:429
+msgid "Stock status"
+msgstr "Estado del inventario"
+
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:430
+msgid "Product Price"
+msgstr "Precio de producto"
+
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:431
+msgid "Product Total Price"
+msgstr "Precio total del producto"
+
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:433
+msgid "Product Total Cost"
+msgstr "Coste total del producto"
+
+#: ../includes/admin/reports/stock-reports/class.yith-cog-report-stock-table.php:434
+msgid "Potential Profit"
+msgstr "Beneficio potencial"
+
+#: ../includes/class.yith-cog-custom-columns.php:140
+#: ../includes/class.yith-cog-custom-columns.php:207
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: ../includes/class.yith-cog-orders.php:184
+msgid "Cost of Goods"
+msgstr "Coste de bienes"
+
+#: ../settings/settings-options.php:22
+msgid "YITH Cost of Goods Settings"
+msgstr "Ajustes de YITH Cost of Goods"
+
+#: ../settings/settings-options.php:28
+msgid "Include total fees"
+msgstr "Incluir cuotas totales"
+
+#: ../settings/settings-options.php:30
+msgid ""
+"The cost related to the payment gateway used will be included in the total "
+"product cost"
+msgstr ""
+"El coste relacionado con la pasarela de pago usada será incluido en el coste "
+"total del producto"
+
+#: ../settings/settings-options.php:35
+msgid "Include Shipping total cost"
+msgstr "Incluir coste total de envío"
+
+#: ../settings/settings-options.php:37
+msgid "Shipping costs will be included in the total product cost"
+msgstr "Los gastos de envío serás incluidos en el coste total del producto"
+
+#: ../settings/settings-options.php:43
+msgid "Include taxes cost for each product"
+msgstr "Incluir coste de impuestos para cada producto"
+
+#: ../settings/settings-options.php:45
+msgid "Tax costs will be included in the total product cost"
+msgstr "Los costes de impuesto serán incluidos en el coste total del producto"
+
+#: ../settings/settings-options.php:63
+msgid "Apply costs to previous orders"
+msgstr "Aplicar costes a pedidos anteriores"
+
+#: ../settings/settings-options.php:88
+msgid "Add custom columns to the report"
+msgstr "Añadir columnas personalizadas al informe"
+
+#: ../settings/settings-options.php:94
+msgid "Add custom field"
+msgstr "Añadir campo personalizado"
+
+#: ../settings/settings-options.php:96
+msgid ""
+"Add a custom field to the report table (Separate them with commas for "
+"different columns)."
+msgstr ""
+"Añadir un campo personalizado a la tabla de informes (Separalos por con "
+"comas para columnas diferentes)."
+
+#: ../settings/settings-options.php:101
+msgid "Add a Tag column to Report."
+msgstr "Añadir una etiqueta de columna al informe."
+
+#: ../settings/settings-options.php:103
+msgid "Show a Tag column for products in the Report table"
+msgstr "Mostrar una etiqueta de columna para productos en la tabla de informes"
+
+#: ../templates/html/html-report-by-category.php:43
+#: ../templates/html/html-report-by-date.php:45
+#: ../templates/html/html-report-by-product.php:43
+msgid "Custom:"
+msgstr "Personalizado:"
+
+#: ../templates/template-product-search.php:25
+msgid "Search for:"
+msgstr "Buscar por:"
+
+#~ msgid "This review is closed for replies"
+#~ msgstr "This review is closed to replies"
+
+#~ msgid "This review is closed for comments"
+#~ msgstr "This review is closed to comments"
+
+#~ msgid "Product id is in invalid format"
+#~ msgstr "Product id is an invalid format"
+
+#~ msgid "Voting/Reviews settings"
+#~ msgstr "Voting/Review settings"
+
+#~ msgid ""
+#~ "In the YIT Plugins tab you can find the YITH WooCommerce Advanced Reviews "
+#~ "options. With this menu, you can access to all the settings of our "
+#~ "plugins that you have activated."
+#~ msgstr ""
+#~ "In YIT Plugins tab you can find YITH WooCommerce Advanced Reviews "
+#~ "options. From this menu you can access all settings of YITH plugins "
+#~ "activated."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of YITH WooCommerce Advanced "
+#~ "Reviews under YIT Plugin -> Advanced Reviews instead of WooCommerce -> "
+#~ "Settings -> Advanced Reviews, as in the previous version. When one of our "
+#~ "plugins updates, a new voice will be added to this menu."
+#~ msgstr ""
+#~ "From now on, you can find all YITH WooCommerce Advanced Reviews options "
+#~ "in YIT Plugin -> Advanced Reviews instead of WooCommerce -> Settings -> "
+#~ "Advanced Reviews, as in the previous version. Any time one of our plugins "
+#~ "is updated, a new entry will be added to this menu."
+
+#~ msgid "The layout for this "
+#~ msgstr "Layout for this "
+
+#~ msgid ""
+#~ "The word used for the URL of each project (the slug of post if empty)"
+#~ msgstr ""
+#~ "Univocal identification name in the URL for each product (slug from post "
+#~ "if empty)"
+
+#~ msgid "Label Singular"
+#~ msgstr "Label in Singular"
+
+#~ msgid ""
+#~ "Set the label in singular to use for each label (the title of portfolio "
+#~ "if empty)"
+#~ msgstr "Set a label in singular (title of portfolio if empty)"
+
+#~ msgid "Label Plural"
+#~ msgstr "Label in Plural"
+
+#~ msgid ""
+#~ "Set the label in plural to use for each label (the title of portfolio if "
+#~ "empty)"
+#~ msgstr "Set a label in plural (title of portfolio if empty)"
+
+#~ msgid ""
+#~ "If you want to use a category section for the portfolio, set the name of "
+#~ "taxonomy. Name should be in slug form (must not contain capital letters "
+#~ "or spaces) and not more than 32 characters long (database structure "
+#~ "restriction)."
+#~ msgstr ""
+#~ "If you want to use categories in the portfolio, set a name for taxonomy. "
+#~ "Name should be a slug (must not contain capital letters nor spaces) and "
+#~ "must not be more than 32 characters long (database structure restriction)."
+
+#~ msgid "Set the word to use in the URL for each category page."
+#~ msgstr "Set the word for each category page URL."
+
+#~ msgid "The layout for single page of this portfolio"
+#~ msgstr "Layout for single page of this portfolio"
+
+#~ msgid "Show the frontend of the %s"
+#~ msgstr "Show frontend of the %s"
+
+#~ msgid ""
+#~ "The changes you made will be lost if you navigate away from this page."
+#~ msgstr "The changes you made will be lost if you leave this page."
+
+#~ msgid ""
+#~ "If you continue with this action, you will reset all options are in this "
+#~ "page."
+#~ msgstr ""
+#~ "If you go on with this action, you will reset all options in this page."
+
+#~ msgid ""
+#~ "The element you have written is already exists. Please, add another name."
+#~ msgstr "This element already exists. Please, enter a different name."
+
+#~ msgid "An error encoured during during import. Please try again."
+#~ msgstr "An error has occurred during import. Please try again."
+
+#~ msgid "The file you have insert doesn't valid."
+#~ msgstr "The file inserted is not valid."
+
+#~ msgid "I'm sorry, the import featured is disabled."
+#~ msgstr "Sorry, import is disabled."
+
+#~ msgid "Sorting done correctly."
+#~ msgstr "Sorting successful."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                     For every installation of our new "
+#~ "plugins, a new voice will be added to access to the customization "
+#~ "settings."
+#~ msgstr ""
+#~ "From now on, you can find all plugin options in YIT Plugin menu.\n"
+#~ "                                     For each plugin installed, "
+#~ "customization settings will be available as a new entry in YIT Plugin "
+#~ "menu."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                    When one of our plugins updates, a "
+#~ "new voice will be added to this menu.\n"
+#~ "                                    For example, after the update, the "
+#~ "options from the plugins (YITH WooCommerce Wishlist, YITH WooCommerce "
+#~ "Ajax Search, etc.)\n"
+#~ "                                    will be removed from the previous "
+#~ "location and moved under the YIT Plugin tab."
+#~ msgstr ""
+#~ "From now on, you can find all the options of your plugins in YIT Plugin "
+#~ "menu.\n"
+#~ "                                    Any time one of our plugins is "
+#~ "updated, a new entry will be added to this menu.\n"
+#~ "                                    For example, after update, plugin "
+#~ "options (such for YITH WooCommerce Wishlist, YITH WooCommerce Ajax "
+#~ "Search, etc.)\n"
+#~ "                                    will be moved from previous location "
+#~ "to YIT Plugin tab."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s "
+#~ "details</a>. <em>You have to activate the plugin on a single site of the "
+#~ "network to benefit from the automatic updates.</em>"
+#~ msgstr ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s "
+#~ "details</a>. <em>You have to activate the plugin on a single site of the "
+#~ "network to benefit from automatic updates.</em>"
+
+#~ msgid "%field% field can not be empty"
+#~ msgstr "%field% field cannot be empty"
+
+#~ msgid "%field_1% and %field_2% fields can not be empty"
+#~ msgstr "%field_1% and %field_2% fields cannot be empty"
+
+#~ msgid "Software has been deactive"
+#~ msgstr "Software has been deactivated"
+
+#~ msgid "Licence key has be banned"
+#~ msgstr "Licence key has been banned"
+
+#~ msgid "To Active"
+#~ msgstr "Activation"
+
+#~ msgid "Insert the title of field."
+#~ msgstr "Insert title for the field."
+
+#~ msgid ""
+#~ "REQUIRED: The identification name of this field, that you can insert into "
+#~ "body email configuration. <strong>Note:</strong>Use only lowercase "
+#~ "characters and underscores."
+#~ msgstr ""
+#~ "REQUIRED: Field identification name to be entered into email body. "
+#~ "<strong>Note:</strong>Use only lowercase characters and underscores."
+
+#~ msgid "Select the type of this field."
+#~ msgstr "Select type for this field."
+
+#~ msgid "Select this if it's the email where you can reply."
+#~ msgstr "Select this if it is the email you can reply to."
+
+#~ msgid ""
+#~ "Insert an additional class(es) (separateb by comma) for more "
+#~ "personalization."
+#~ msgstr ""
+#~ "Insert additional class(es) (separated by commas) for more "
+#~ "personalization."
+
+#~ msgid "Choose how much long will be the field."
+#~ msgstr "Set field length."
+
+#~ msgid "The content of the tab. (HTML is supported)"
+#~ msgstr "Content of the tab. (HTML is supported)"
+
+#~ msgid "Sidebar Left"
+#~ msgstr "Left sidebar"
+
+#~ msgid "Sidebar Right"
+#~ msgstr "Right sidebar"
+
+#~ msgid "Add a title field on reviews."
+#~ msgstr "Add a title field to reviews."
+
+#~ msgid "Set maximum number of attachments selectable (0 = no limit)."
+#~ msgstr ""
+#~ "Set maximum number of attachments that can be selected (0 = no limit)."
+
+#~ msgid "Reviews summary options"
+#~ msgstr "Review summary options"
+
+#~ msgid "Fixed bars color"
+#~ msgstr "Fixed bar color"
+
+#~ msgid "Percentage bars color"
+#~ msgstr "Percentage bar color"
+
+#~ msgid "Show people's votes"
+#~ msgstr "Show review votes"
+
+#~ msgid "Add a string stating how many people's found the review useful."
+#~ msgstr "Add a string stating how many people found the review useful."
+
+#~ msgid "Customers reviews"
+#~ msgstr "Customers' reviews"

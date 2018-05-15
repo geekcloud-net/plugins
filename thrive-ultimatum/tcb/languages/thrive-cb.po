@@ -1,0 +1,4313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: inc/backbone/controls/font-manager.phtml:77
+#: inc/backbone/controls/font-manager.phtml:94
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: thrive-content-builder 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-11 10:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/class-tcb-admin.php:96 admin/class-tcb-admin.php:97
+#: admin/includes/class-tcb-product.php:54
+#: inc/views/modals/no-content-templates.php:1
+msgid "Content Templates"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:61
+msgid "Invalid request."
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:70
+#, php-format
+msgid "Method %s not implemented"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:92
+#: admin/includes/class-tcb-admin-ajax.php:206
+#: admin/includes/class-tcb-admin-ajax.php:256
+msgid "Invalid call"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:118
+msgid "Uncategorized templates"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:124
+msgid "Page Templates"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:144
+msgid "The template category list is empty!"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:149
+#: admin/includes/class-tcb-admin-ajax.php:284
+msgid "Invalid parameters"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:156
+msgid "The category name was modified!"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:164
+#: admin/includes/class-tcb-admin-ajax.php:304
+#: admin/includes/class-tcb-admin-ajax.php:330
+msgid "Undefined parameter: id"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:169
+msgid "Invalid category template"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:203
+msgid "The category was deleted!"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:225
+msgid "Category parameter could not be found!"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:252
+msgid "The category(s) was saved!"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:279
+msgid "The template list is empty"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:297
+msgid "The template saved!"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:309
+#: admin/includes/class-tcb-admin-ajax.php:335
+msgid "Invalid template"
+msgstr ""
+
+#: admin/includes/class-tcb-admin-ajax.php:323
+msgid "The template was deleted!"
+msgstr ""
+
+#: admin/includes/class-tcb-product.php:24
+msgid "Create beautiful content & conversion optimized landing pages."
+msgstr ""
+
+#: admin/includes/class-tcb-product.php:27
+msgid "View Video Tutorial"
+msgstr ""
+
+#: admin/includes/class-tcb-product.php:40
+msgid "Tutorials"
+msgstr ""
+
+#: admin/includes/class-tcb-product.php:47
+msgid "Support"
+msgstr ""
+
+#: admin/includes/i18n.php:16
+#: admin/includes/views/templates/user-templates/list.phtml:4
+msgid "Templates"
+msgstr ""
+
+#: admin/includes/i18n.php:17
+msgid "Dashboard"
+msgstr ""
+
+#: admin/includes/i18n.php:18
+msgid "Please insert some categories!"
+msgstr ""
+
+#: admin/includes/i18n.php:19
+#, php-format
+msgid "Are you sure you want to delete the template \"%s\" ?"
+msgstr ""
+
+#: admin/includes/i18n.php:20
+#, php-format
+msgid "Are you sure you want to delete the category \"%s\" ?"
+msgstr ""
+
+#: admin/includes/i18n.php:21
+msgid "Show more templates"
+msgstr ""
+
+#: admin/includes/i18n.php:22
+msgid "Show less templates"
+msgstr ""
+
+#: admin/includes/views/header.phtml:4
+msgid "Thrive Architect Home"
+msgstr ""
+
+#: admin/includes/views/templates/modals/delete-confirmation.phtml:10
+msgid "Delete saved templates also"
+msgstr ""
+
+#: admin/includes/views/templates/modals/delete-confirmation.phtml:19
+msgid "NO, DON'T DELETE"
+msgstr ""
+
+#: admin/includes/views/templates/modals/delete-confirmation.phtml:25
+#: inc/backbone/landing-pages/delete-confirmation.phtml:8
+msgid "YES, DELETE"
+msgstr ""
+
+#: admin/includes/views/templates/modals/move-category.phtml:2
+msgid "Move Template to Other Category"
+msgstr ""
+
+#: admin/includes/views/templates/modals/move-category.phtml:3
+msgid "Select from the dropdown bellow where do you want to move "
+msgstr ""
+
+#: admin/includes/views/templates/modals/move-category.phtml:6
+msgid "Current Category "
+msgstr ""
+
+#: admin/includes/views/templates/modals/move-category.phtml:10
+msgid "Select New Category "
+msgstr ""
+
+#: admin/includes/views/templates/modals/move-category.phtml:27
+#: admin/includes/views/templates/modals/new-category.phtml:17
+#: inc/views/editor-settings.php:73 inc/views/modals/custom-html.php:16
+#: inc/views/modals/lg-error-messages.php:43
+#: inc/views/modals/wordpress-content.php:24
+#: inc/backbone/lead-generation/submit-options.phtml:32
+#: inc/backbone/page-events/actions/lightbox.phtml:22
+#: inc/backbone/page-events/actions/lightbox.phtml:48
+#: inc/backbone/page-events/form.phtml:50
+msgid "Save"
+msgstr ""
+
+#: admin/includes/views/templates/modals/new-category.phtml:2
+msgid "Add New Category"
+msgstr ""
+
+#: admin/includes/views/templates/modals/new-category.phtml:3
+msgid "Here you can add one or more categories."
+msgstr ""
+
+#: admin/includes/views/templates/modals/new-category.phtml:8 inc/i18n.php:28
+#: inc/menu/numberedlist.php:38 inc/menu/styledlist.php:25
+#: inc/backbone/controls/text/typefocus-settings.phtml:28
+msgid "Add new"
+msgstr ""
+
+#: admin/includes/views/templates/modals/new-category.phtml:25
+msgid "Enter the name of the new category"
+msgstr ""
+
+#: admin/includes/views/templates/text-edit.phtml:2
+#, php-format
+msgid "%s is required"
+msgstr ""
+
+#: admin/includes/views/templates/user-templates/c-item.phtml:21
+msgid "  Show more templates"
+msgstr ""
+
+#: admin/includes/views/templates/user-templates/item.phtml:16
+msgid "Back to templates"
+msgstr ""
+
+#: admin/includes/views/templates/user-templates/list.phtml:6
+msgid "Add new category"
+msgstr ""
+
+#: admin/includes/views/templates/user-templates/t-item.phtml:16
+msgid "PREVIEW"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:41
+msgid "Sliding"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:44
+msgid "Slide, top"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:48
+msgid "Slide, bottom"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:52
+msgid "Slide, right"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:56
+msgid "Slide, left"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:62
+msgid "Zoom (Appear)"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:65
+msgid "Zoom in"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:69
+msgid "Zoom out"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:75
+msgid "Modify"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:78
+msgid "Grow"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:82
+msgid "Shrink"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:88
+msgid "Other (Appear)"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:91
+msgid "Fade in"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:95
+msgid "Rotate"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_CSS_Animation.php:99
+msgid "Roll in"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_Image_Zoom.php:19
+#: event-manager/classes/actions/TCB_Thrive_Image_Zoom.php:74
+msgid "Open Image"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_Lightbox.php:180
+msgid "Open Lightbox"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_Lightbox.php:240
+msgid "Instant (No animation)"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_Lightbox.php:241
+#: inc/classes/elements/class-tcb-gmap-element.php:77
+msgid "Zoom"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_Lightbox.php:242
+msgid "Zoom Out"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_Lightbox.php:243
+msgid "Rotational"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_Lightbox.php:244
+msgid "Slide in from Top"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_Lightbox.php:245
+msgid "Slide in from Bottom"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_Lightbox.php:246
+msgid "Lateral"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_LightboxClose.php:29
+msgid "Close Lightbox"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_Tooltip.php:50
+#: event-manager/classes/actions/TCB_Thrive_Tooltip.php:89
+msgid "Tooltip"
+msgstr ""
+
+#: event-manager/classes/actions/TCB_Thrive_Video_Popup.php:34
+#: event-manager/classes/actions/TCB_Thrive_Video_Popup.php:110
+msgid "Open Video"
+msgstr ""
+
+#: event-manager/classes/triggers/TCB_Event_Trigger_Click.php:16
+msgid "Click on element"
+msgstr ""
+
+#: event-manager/classes/triggers/TCB_Event_Trigger_Click.php:21
+#: inc/menu/general.php:135
+msgid "Click"
+msgstr ""
+
+#: event-manager/classes/triggers/TCB_Event_Trigger_Exit_Intent.php:16
+msgid "Exit intent (user about to leave the page)"
+msgstr ""
+
+#: event-manager/classes/triggers/TCB_Event_Trigger_Exit_Intent.php:62
+msgid "Exit intent"
+msgstr ""
+
+#: event-manager/classes/triggers/TCB_Event_Trigger_Mouseover.php:16
+msgid "Mouse over element"
+msgstr ""
+
+#: event-manager/classes/triggers/TCB_Event_Trigger_Mouseover.php:21
+#: inc/i18n.php:141 inc/backbone/element-states.phtml:11
+msgid "Hover"
+msgstr ""
+
+#: event-manager/classes/triggers/TCB_Event_Trigger_Timer.php:16
+msgid "Timer (duration after page load)"
+msgstr ""
+
+#: event-manager/classes/triggers/TCB_Event_Trigger_Timer.php:48
+msgid "Timer"
+msgstr ""
+
+#: event-manager/classes/triggers/TCB_Event_Trigger_Viewport.php:16
+#: inc/menu/general.php:136
+msgid "Comes into viewport"
+msgstr ""
+
+#: event-manager/classes/triggers/TCB_Event_Trigger_Viewport.php:30
+msgid "Into view"
+msgstr ""
+
+#: event-manager/init.php:172
+msgid "CSS Animation"
+msgstr ""
+
+#: event-manager/init.php:177
+msgid "Popups"
+msgstr ""
+
+#: event-manager/init.php:200
+msgid "Display tooltip on hover"
+msgstr ""
+
+#: event-manager/init.php:206
+msgid "Create hyperlink"
+msgstr ""
+
+#: event-manager/init.php:210
+msgid "Custom integrations"
+msgstr ""
+
+#: inc/backbone/controls/revision-manager-item.php:7
+msgid "Revision made by "
+msgstr ""
+
+#: inc/backbone/controls/revision-manager-item.php:17
+msgid "Restore Revision"
+msgstr ""
+
+#: inc/classes/class-tcb-cloud-template-element-abstract.php:60
+#, php-format
+msgid "Insert %s"
+msgstr ""
+
+#: inc/classes/class-tcb-cloud-template-element-abstract.php:94
+#: inc/classes/class-tcb-cloud-template-element-abstract.php:136
+msgid "Element does not have cloud templates"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:51
+msgid "This page has expired. Please reload and try again"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:139
+msgid "Settings saved"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:171
+msgid "TCB Lightbox"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:240
+msgid "That template name already exists, please use another name"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:262
+msgid "Template could not be generated"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:274
+msgid "Template saved!"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:284
+msgid "Invalid parameters!"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:306
+msgid "Category saved!"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:315 inc/i18n.php:130
+msgid "The content is empty. Please input some content."
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:320
+msgid "Success! Your content was added."
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:336
+msgid "You do not have the required permission for this action"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:367
+#: inc/classes/class-tcb-editor-ajax.php:368
+msgid ""
+"Some of the required files were not found. Please try re-downloading this "
+"template"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:373
+#: inc/classes/class-tcb-editor-ajax.php:383
+msgid "All changes saved."
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:647
+msgid "Content template deleted"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:657
+#: inc/classes/class-tcb-editor-ajax.php:673
+msgid "Invalid Post Parameter"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:789
+msgid "Lightbox created"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:832
+#: inc/classes/class-tcb-editor-ajax.php:837
+#: inc/classes/class-tcb-editor-ajax.php:859
+#: inc/classes/class-tcb-editor-ajax.php:868
+msgid "Invalid element type"
+msgstr ""
+
+#: inc/classes/class-tcb-editor-ajax.php:863
+msgid "Missing template id"
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:146
+msgid "Paragraph Spacing"
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:154
+msgid "H1 Spacing"
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:156
+msgid "H2 Spacing"
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:158
+msgid "H3 Spacing"
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:174
+#: inc/classes/elements/class-tcb-label-element.php:67
+#: inc/classes/elements/class-tcb-landing-page-text-element.php:83
+#: inc/classes/elements/class-tcb-text-element.php:66
+msgid "Font Size"
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:175
+#: inc/classes/elements/class-tcb-label-element.php:78
+#: inc/classes/elements/class-tcb-landing-page-text-element.php:84
+#: inc/classes/elements/class-tcb-text-element.php:67
+msgid "Line Height"
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:176
+#: inc/classes/elements/class-tcb-label-element.php:89
+#: inc/classes/elements/class-tcb-landing-page-text-element.php:85
+#: inc/classes/elements/class-tcb-text-element.php:68
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:589
+msgid "Thrive Integrations"
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:598
+msgid "Foundation"
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:607
+msgid "Building Blocks"
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:660
+msgid ""
+"Group styling disabled. The styling will be applied only for the selected "
+"element."
+msgstr ""
+
+#: inc/classes/class-tcb-element-abstract.php:661
+msgid ""
+"Group styling active. The same styling will be applied to similar elements."
+msgstr ""
+
+#: inc/classes/class-tcb-font-manager.php:67
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/classes/class-tcb-font-manager.php:71
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: inc/classes/class-tcb-font-manager.php:75
+msgid "Custom Fonts"
+msgstr ""
+
+#: inc/classes/class-tcb-lightbox.php:256
+msgid "Thrive Lightboxes"
+msgstr ""
+
+#: inc/classes/class-tcb-lightbox.php:257
+#: inc/classes/elements/class-tcb-lightbox-element.php:25
+msgid "Thrive Lightbox"
+msgstr ""
+
+#: inc/classes/class-tcb-lightbox.php:258
+msgid "Add New Thrive Lightbox"
+msgstr ""
+
+#: inc/classes/class-tcb-lightbox.php:259
+msgid "Edit Thrive Lightbox"
+msgstr ""
+
+#: inc/classes/class-tcb-post-grid.php:34
+#: inc/classes/elements/class-tcb-postgrid-element.php:239
+#: inc/classes/elements/class-tcb-postgrid-element.php:393
+msgid "Read More"
+msgstr ""
+
+#: inc/classes/class-tcb-post-grid.php:105
+msgid ""
+"No results have been returned for your Query. Please edit the query for "
+"content to display."
+msgstr ""
+
+#: inc/classes/content-templates/class-tcb-content-templates-api.php:222
+msgid "Could not extract the archive file"
+msgstr ""
+
+#: inc/classes/content-templates/class-tcb-content-templates-api.php:226
+msgid "Invalid archive contents"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:32
+msgid "Button"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:64
+#: inc/classes/elements/class-tcb-lead-generation-input-element.php:51
+#: inc/classes/elements/class-tcb-lead-generation-select-element.php:51
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:44
+#: inc/classes/elements/class-tcb-lead-generation-textarea-element.php:51
+msgid "Icon Side"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:66
+#: inc/classes/elements/class-tcb-lead-generation-input-element.php:55
+#: inc/classes/elements/class-tcb-lead-generation-select-element.php:55
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:48
+#: inc/classes/elements/class-tcb-lead-generation-textarea-element.php:55
+msgid "Left"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:67
+#: inc/classes/elements/class-tcb-lead-generation-input-element.php:59
+#: inc/classes/elements/class-tcb-lead-generation-select-element.php:59
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:52
+#: inc/classes/elements/class-tcb-lead-generation-textarea-element.php:59
+msgid "Right"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:73
+msgid "Button Link"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:76
+#: inc/classes/elements/class-tcb-image-element.php:134
+msgid "Insert linking URL"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:83
+#: inc/classes/elements/class-tcb-image-element.php:141
+#: inc/views/actions/link.php:13
+msgid "Open in new tab"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:91
+#: inc/classes/elements/class-tcb-image-element.php:149
+msgid "No Follow"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:99
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:62
+msgid "Button Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:107
+#: inc/classes/elements/class-tcb-lead-generation-input-element.php:72
+#: inc/classes/elements/class-tcb-lead-generation-select-element.php:72
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:37
+#: inc/classes/elements/class-tcb-lead-generation-textarea-element.php:66
+#: inc/views/elements/icon.php:16
+msgid "Add Icon"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:115
+msgid "Secondary button text"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:123
+#: inc/classes/elements/class-tcb-credit-element.php:76
+#: inc/classes/elements/class-tcb-lead-generation-element.php:121
+#: inc/classes/elements/class-tcb-rating-element.php:93
+#: inc/classes/elements/class-tcb-social-element.php:112
+msgid "Size"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:139
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:73
+msgid "Button width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:148
+msgid "Full Width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:156
+#: inc/classes/elements/class-tcb-countdown-element.php:76
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:73
+#: inc/classes/elements/class-tcb-credit-element.php:89
+#: inc/classes/elements/class-tcb-divider-element.php:82
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:112
+#: inc/classes/elements/class-tcb-rating-element.php:80
+#: inc/classes/elements/class-tcb-social-element.php:73
+#: inc/views/actions/tooltip.php:12
+#: inc/backbone/controls/decoration/divider.phtml:4
+msgid "Style"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:158
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:114
+#: inc/i18n.php:140 inc/backbone/controls/background-image.phtml:7
+#: inc/backbone/controls/text/typefocus-settings.phtml:5
+#: inc/backbone/element-states.phtml:4 inc/backbone/element-states.phtml:8
+msgid "Default"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:159
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:115
+msgid "Ghost"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:160
+#: inc/classes/elements/class-tcb-countdown-element.php:83
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:80
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:116
+msgid "Rounded"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:161
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:117
+msgid "Full Rounded"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:162
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:118
+#: inc/i18n.php:34
+msgid "Gradient"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:163
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:119
+msgid "Elevated"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:164
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:120
+msgid "Border 1"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:165
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:121
+msgid "Border 2"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-button-element.php:167
+msgid "Template Button"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-callaction-element.php:33
+msgid "Call to Action"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-cell-element.php:25
+msgid "Table Cell"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-cell-element.php:68
+msgid "Column Width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-cell-element.php:77
+msgid "Row Height"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-cell-element.php:84
+#: inc/classes/elements/class-tcb-table-element.php:105
+msgid "Vertical Align"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-column-element.php:32
+msgid "Column"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-columns-element.php:23
+#: inc/classes/elements/class-tcb-postgrid-element.php:291
+msgid "Columns"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-columns-element.php:72
+msgid "Gutter Width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-columns-element.php:82
+msgid "Reverse Column Order"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-columns-element.php:90
+#: inc/classes/elements/class-tcb-contentbox-element.php:90
+#: inc/classes/elements/class-tcb-section-element.php:114
+msgid "Vertical Position"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-columns-element.php:113
+msgid "Wrap columns on "
+msgstr ""
+
+#: inc/classes/elements/class-tcb-columns-element.php:124
+msgid "Minimum Column Width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-columns-element.php:133
+#: inc/classes/elements/class-tcb-image-element.php:195
+#: inc/classes/elements/class-tcb-section-element.php:107
+msgid "Stretch to fit screen width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-columns-element.php:143
+msgid "Minimum Height"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-commentsdisqus-element.php:24
+msgid "Disqus Comments"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-commentsdisqus-element.php:65
+msgid "Forum Name"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-commentsdisqus-element.php:73
+#: inc/classes/elements/class-tcb-commentsfacebook-element.php:75
+msgid "URL"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-commentsfacebook-element.php:24
+msgid "Facebook Comments"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-commentsfacebook-element.php:65
+msgid ""
+"Add Facebook user ID for the people that you will like to moderate the "
+"comments."
+msgstr ""
+
+#: inc/classes/elements/class-tcb-commentsfacebook-element.php:66
+msgid "Add Moderator"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-commentsfacebook-element.php:68
+msgid "Remove Moderator"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-commentsfacebook-element.php:86
+msgid "Number of comments"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-commentsfacebook-element.php:93
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-commentsfacebook-element.php:110
+#: inc/classes/elements/class-tcb-postgrid-element.php:414
+msgid "Order By"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-contentbox-element.php:23
+msgid "Content Box"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-contentbox-element.php:70
+msgid "Content Minimum Height"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-contentbox-element.php:82
+#: inc/classes/elements/class-tcb-landing-page-element.php:83
+#: inc/classes/elements/class-tcb-section-element.php:79
+msgid "Content Maximum Width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdown-element.php:25
+msgid "Countdown"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdown-element.php:68
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:65
+msgid "Text to show on complete"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdown-element.php:79
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:76
+msgid "Simple"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdown-element.php:87
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:84
+msgid "Squared"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdown-element.php:96
+msgid "End Date"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdown-element.php:104
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:94
+#: inc/classes/elements/class-tcb-credit-element.php:84 inc/i18n.php:39
+#: inc/backbone/controls/gradient-pattern.phtml:14
+msgid "Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdown-element.php:116
+msgid "Hour"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdown-element.php:126
+msgid "Minute(s)"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:23
+msgid "Countdown Evergreen"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:106
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:146
+msgid "Days"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:116
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:156
+msgid "Hours"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:126
+msgid "Minutes"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:136
+#: inc/backbone/page-events/triggers/exit.phtml:18
+#: inc/backbone/page-events/triggers/timer.phtml:14
+msgid "Seconds"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-countdownevergreen-element.php:167
+msgid "Starts again after"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-credit-element.php:23
+msgid "Credit Card"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-credit-element.php:94
+#: inc/classes/elements/class-tcb-rating-element.php:85
+#: inc/classes/elements/class-tcb-social-element.php:78
+msgid "Change style"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-credit-element.php:99
+msgid "Cards"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-credit-element.php:104
+msgid "Change cards"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-ct-element.php:25
+msgid "Content Template"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-divider-element.php:24 inc/i18n.php:61
+#: inc/backbone/controls/decoration/decoration.phtml:14
+msgid "Divider"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-divider-element.php:66
+#: inc/classes/elements/class-tcb-rating-element.php:104
+msgid "Fill color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-divider-element.php:75
+msgid "Thickness"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-divider-element.php:85
+msgid "Solid"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-divider-element.php:89
+msgid "Dotted"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-divider-element.php:93
+msgid "Dashed Slim"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-divider-element.php:97
+msgid "Dashed Thick"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-divider-element.php:101
+msgid "Starred"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-fillcounter-element.php:23
+msgid "Fill Counter"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-fillcounter-element.php:68
+msgid "Counter Size"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-fillcounter-element.php:79
+#: inc/classes/elements/class-tcb-progressbar-element.php:68
+msgid "Fill Percentage"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-fillcounter-element.php:88
+#: inc/classes/elements/class-tcb-progressbar-element.php:78
+msgid "Fill Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-fillcounter-element.php:99
+msgid "Circle Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-fillcounter-element.php:110
+msgid "Inner Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-form-icon-element.php:51
+#: inc/classes/elements/class-tcb-icon-element.php:57
+msgid "Choose Icon"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-form-icon-element.php:58
+#: inc/classes/elements/class-tcb-icon-element.php:64
+#: inc/classes/elements/class-tcb-lightbox-element.php:81
+msgid "Icon color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-form-icon-element.php:67
+#: inc/classes/elements/class-tcb-icon-element.php:72
+msgid "Icon size"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-gmap-element.php:23
+msgid "Google Map"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-gmap-element.php:65
+msgid "Address"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-gmap-element.php:68
+msgid "Insert Address"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-guaranteebox-element.php:23
+msgid "Guarantee Box"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-heading-element.php:25
+msgid "Heading"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-html-element.php:23
+msgid "Custom HTML"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-icon-element.php:28
+#: inc/backbone/controls/modal-picker.phtml:3
+msgid "Icon"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:23
+#: inc/classes/elements/class-tcb-lead-generation-element.php:109
+#: inc/i18n.php:20 inc/backbone/controls/background-image.phtml:1
+#: inc/backbone/controls/social/pin-share.phtml:5
+msgid "Image"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:65
+msgid "Change Image"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:74
+msgid "Image Size"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:82
+msgid "Choose image style"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:84
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:67
+msgid "No Style"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:85
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:74
+msgid "Dark Frame"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:86
+msgid "Framed"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:87
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:76
+msgid "Lifted Style 1"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:88
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:77
+msgid "Lifted Style 2"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:89
+msgid "Polaroid"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:90
+msgid "Rounded Corners"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:91
+msgid "Circle"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:92
+msgid "Caption Overlay"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:99
+#: inc/classes/elements/class-tcb-postgrid-element.php:344
+#: inc/classes/elements/class-tcb-postgrid-element.php:391
+msgid "Title"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:107
+msgid "Alt Text"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:116
+msgid "Add caption text"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:124
+msgid "Open full size image on click"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:131
+msgid "Image Link"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:164 inc/i18n.php:25
+msgid "Grayscale"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:175 inc/i18n.php:23
+msgid "Opacity"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:186 inc/i18n.php:24
+msgid "Blur"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:203
+msgid "Image Overlay"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-image-element.php:211
+msgid "Overlay Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-label-element.php:23
+msgid "Inline text"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-label-element.php:98
+msgid "Font Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-label-element.php:108
+msgid "Font Highlight"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-landing-page-content-element.php:36
+msgid "Landing Page Content"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-landing-page-element.php:27
+msgid "Thrive Landing Page"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-landing-page-element.php:72
+msgid "Remove Theme CSS"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-landing-page-element.php:92
+#: inc/classes/elements/class-tcb-section-element.php:98
+msgid "Content covers entire screen width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-landing-page-text-element.php:29
+msgid "Landing Page Text Element"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-landing-page-text-element.php:73
+msgid "States"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-checkbox-element.php:15
+#: inc/menu/lead_generation_checkbox.php:14
+msgid "Lead Generation Checkbox"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-checkbox-element.php:36
+#: inc/classes/elements/class-tcb-lead-generation-radio-element.php:36
+#, php-format
+msgid "%d column"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-checkbox-element.php:56
+#: inc/classes/elements/class-tcb-lead-generation-input-element.php:67
+#: inc/classes/elements/class-tcb-lead-generation-radio-element.php:56
+#: inc/classes/elements/class-tcb-lead-generation-select-element.php:67
+#: inc/classes/elements/class-tcb-lead-generation-textarea-element.php:72
+msgid "Required field"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-element.php:21
+msgid "Lead Generation"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-element.php:79
+msgid "Add Captcha to prevent spam signups"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-element.php:87
+msgid "Theme"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-element.php:92
+msgid "Light"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-element.php:96
+msgid "Dark"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-element.php:104
+#: inc/classes/elements/class-tcb-social-element.php:90
+msgid "Type"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-element.php:113
+msgid "Audio"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-element.php:126
+msgid "Normal"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-element.php:130
+msgid "Compact"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-input-element.php:15
+#: inc/menu/lead_generation_input.php:14
+msgid "Lead Generation Input"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-input-element.php:38
+#: inc/classes/elements/class-tcb-lead-generation-select-element.php:38
+#: inc/classes/elements/class-tcb-lead-generation-textarea-element.php:38
+msgid "Apply changes to similar elements"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-input-element.php:44
+#: inc/classes/elements/class-tcb-lead-generation-select-element.php:44
+#: inc/classes/elements/class-tcb-lead-generation-textarea-element.php:44
+msgid "Placeholder"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-radio-element.php:15
+#: inc/menu/lead_generation_radio.php:14
+msgid "Lead Generation Radio"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-select-element.php:15
+#: inc/menu/lead_generation_select.php:14
+msgid "Lead Generation Select"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:15
+#: inc/menu/lead_generation_submit.php:14
+msgid "Lead Generation Submit"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-submit-element.php:81
+msgid "Button Align"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lead-generation-textarea-element.php:15
+#: inc/menu/lead_generation_textarea.php:14
+msgid "Lead Generation Textarea"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lightbox-element.php:75
+msgid "Show \"close\" icon"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lightbox-element.php:88
+msgid "Icon border"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lightbox-element.php:95
+msgid "Icon background"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-lightbox-element.php:102
+msgid "Overlay color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-menu-element.php:23
+msgid "Custom Menu"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-menu-element.php:66
+#: inc/classes/elements/class-tcb-menu-element.php:96
+msgid "Main Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-menu-element.php:76
+#: inc/classes/elements/class-tcb-menu-element.php:116
+msgid "Child Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-menu-element.php:86
+#: inc/classes/elements/class-tcb-menu-element.php:126
+msgid "Child Background"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-menu-element.php:106
+msgid "Main Background"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-menu-element.php:136
+msgid "Menu Icon Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-menu-element.php:148
+msgid "Make this primary menu"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-moretag-element.php:25
+msgid "More Tag"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:24
+msgid "Numbered List"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:83
+msgid "Numbers Style"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:117
+msgid "Numbers color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:128
+#: inc/classes/elements/class-tcb-styledlist-element.php:81
+msgid "List Item Spacing"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:136
+msgid "Starting Number"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:146
+msgid "Increment"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:160
+msgid "Numbers size"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:215
+#: inc/classes/elements/class-tcb-styledlist-element.php:141
+#: inc/menu/general.php:263
+msgid "Exit Group Styling"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:220
+#: inc/classes/elements/class-tcb-styledlist-element.php:146
+msgid "Grouped List Items"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:221
+#: inc/classes/elements/class-tcb-styledlist-element.php:147
+#, php-format
+msgid "-- List Item %s"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:226
+msgid "Grouped Figures"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:227
+#, php-format
+msgid "-- Figure %s"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:232
+#: inc/classes/elements/class-tcb-styledlist-element.php:158
+msgid "Grouped Texts"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-numberedlist-element.php:233
+#: inc/classes/elements/class-tcb-styledlist-element.php:159
+#, php-format
+msgid "-- Text %s"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:24
+msgid "Post Grid"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:248
+msgid "Text Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:258
+msgid "Image Height"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:269
+msgid "Title Font Size"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:280
+msgid "Title Line Height"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:301
+msgid "Display"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:318
+msgid "Grid Layout"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:336
+msgid "Featured image"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:352
+msgid "Read more link"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:360
+#: inc/classes/elements/class-tcb-postgrid-element.php:392 inc/i18n.php:29
+#: inc/backbone/controls/text/typefocus-settings.phtml:14
+msgid "Text"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:367
+msgid "Text type"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:390
+msgid "Featured Image"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:403
+msgid "Content"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:408
+msgid "No posts were found satisfying your Query"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:443
+msgid "Order"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:460
+msgid "Number of posts"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:468
+msgid "Show Items More recent than"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:478
+msgid "Start"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:492
+msgid "Categories"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:497
+msgid "No categories were found satisfying your Query"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:503
+#: inc/views/modals/save-template-lp.php:24
+#: inc/backbone/lead-generation/apis/activecampaign.phtml:40
+#: inc/backbone/lead-generation/apis/aweber.phtml:26
+msgid "Tags"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:508
+msgid "No tags were found satisfying your Query"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:514
+msgid "Authors"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:519
+msgid "No authors were found satisfying your Query"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:525
+msgid "Custom Taxonomies"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:530
+msgid "No taxonomies were found satisfying your Query"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:536
+msgid "Individual Posts / Pages"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-postgrid-element.php:541
+msgid "No post / pages were found satisfying your Query"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-progressbar-element.php:23 inc/i18n.php:63
+msgid "Progress Bar"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-progressbar-element.php:89
+msgid "Label Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-progressbar-element.php:100
+#: inc/classes/elements/class-tcb-toc-element.php:61
+msgid "Background Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-progressbar-element.php:110
+msgid "Add Inner Label"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-rating-element.php:23
+msgid "Star Rating"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-rating-element.php:99
+msgid "Background color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-rating-element.php:109
+msgid "Outline color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:24
+msgid "Video"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:65
+msgid "Choose video style"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:68
+msgid "Gray Monitor"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:69
+msgid "Black Monitor"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:70
+msgid "Black Tablet"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:71
+msgid "White Tablet"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:72
+msgid "White Frame"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:73
+msgid "Gray Frame"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:75
+msgid "Light Frame"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:78
+msgid "Lifted Style 3"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:79
+msgid "Lifted Style 4"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:80
+msgid "Lifted Style 5"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-responsivevideo-element.php:81
+msgid "Lifted Style 6"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-reveal-element.php:24
+msgid "Content Reveal"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-reveal-element.php:65
+msgid "Redirect to URL"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-reveal-element.php:76
+msgid "Reveal content after"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-reveal-element.php:84
+msgid "Autoscroll to content when revealed"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-section-element.php:23
+msgid "Background Section"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-section-element.php:67
+msgid "Section Minimum Height"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-section-element.php:89
+msgid "Match height to screen"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-social-element.php:23
+msgid "Social Share"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-social-element.php:92
+msgid "Icon only"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-social-element.php:93
+msgid "Icon + text"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-social-element.php:94
+msgid "Counter"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-social-element.php:100
+#: inc/backbone/controls/gradient-picker.phtml:5
+msgid "Orientation"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-social-element.php:102
+#: inc/classes/elements/class-tcb-tabs-element.php:60
+#: inc/backbone/controls/custom-menu/menu-display.phtml:7
+msgid "Horizontal"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-social-element.php:103
+#: inc/classes/elements/class-tcb-tabs-element.php:64
+#: inc/backbone/controls/custom-menu/menu-display.phtml:8
+msgid "Vertical"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-social-element.php:124
+#: inc/classes/elements/class-tcb-tweet-element.php:82
+msgid "Custom Share URL"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-social-element.php:130
+msgid "http://"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-social-element.php:142
+msgid "Show share count greater than"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-stylebox-element.php:23
+msgid "Styled Box"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-styledlist-element.php:24
+msgid "Styled List"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-styledlist-element.php:89
+msgid "Change all icons"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-styledlist-element.php:152
+msgid "Grouped Icons"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-styledlist-element.php:153
+#, php-format
+msgid "-- Icon %s"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-styledlistitem-element.php:26
+msgid "List Item"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:23
+msgid "Table"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:68
+msgid "Cell padding"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:75
+msgid "Make table sortable"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:81
+msgid "Header color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:87
+msgid "Cell color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:93
+msgid "Even rows color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:99
+msgid "Odd rows color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:131
+msgid "Create mobile-responsive table"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:139
+msgid "Mobile header width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:150
+msgid "Apply inner border"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:156
+msgid "Heading border"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-table-element.php:162
+#: inc/menu/tableborders.php:16
+msgid "Cell border"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tabs-element.php:23
+msgid "Tabs"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tabs-element.php:55
+msgid "Tabs layout"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tabs-element.php:75
+msgid "Tabs Width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tabs-element.php:83
+msgid "Default Tab"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tabs-element.php:91
+msgid "Select which tabs are being edited"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tabs-element.php:97
+msgid "Active Tabs"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tabs-element.php:102
+msgid "Inactive Tabs"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tabs-element.php:111
+msgid "Tab Background"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tabs-element.php:121
+msgid "Tab Border"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tabs-element.php:131
+msgid "Content Background"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tabs-element.php:141
+msgid "Content Border"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-testimonial-element.php:23 inc/i18n.php:162
+msgid "Testimonial"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-text-element.php:23
+msgid "Paragraph / Text"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-toc-element.php:18
+msgid "Table of Contents"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-toc-element.php:54
+msgid "Header Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-toc-element.php:68
+msgid "Headings"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-toc-element.php:99
+msgid "Number of Columns"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-toc-element.php:123
+msgid "Minimum Width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-toc-element.php:134
+msgid "Maximum Width"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-toggle-element.php:23
+msgid "Toggle"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-toggle-element.php:65
+msgid "Hover Color"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tweet-element.php:23
+#: inc/views/elements/tweet.php:9
+msgid "Click to Tweet"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tweet-element.php:65
+msgid "Label Text"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tweet-element.php:73
+msgid "Tweet Text"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-tweet-element.php:98
+msgid "via"
+msgstr ""
+
+#: inc/classes/elements/class-tcb-wordpress-element.php:23
+msgid "Wordpress Content"
+msgstr ""
+
+#: inc/compat.php:72
+msgid "Wordpress SEO settings"
+msgstr ""
+
+#: inc/compat.php:74
+#, php-format
+msgid ""
+"Thrive Architect and Thrive Leads cannot work with the current configuration "
+"of Wordpress SEO. Please go to %s and disable the %s\"Redirect ugly URL's to "
+"clean permalinks\"%s option"
+msgstr ""
+
+#: inc/functions.php:246 inc/functions.php:417
+#: inc/views/admin/post-edit-button.php:32
+#: inc/views/admin/post-edit-button.php:47
+msgid "Edit with Thrive Architect"
+msgstr ""
+
+#: inc/functions.php:428
+msgid "Close Thrive Architect"
+msgstr ""
+
+#: inc/functions.php:540 inc/functions.php:594
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/functions.php:1807
+msgid ""
+"Thrive Leads Shortcode could not be rendered, please check it in Thrive "
+"Leads Section!"
+msgstr ""
+
+#: inc/functions.php:2503
+msgid "Thrive Architect Content"
+msgstr ""
+
+#: inc/functions.php:2504
+msgid "Thrive Architect Custom CSS"
+msgstr ""
+
+#: inc/functions.php:2505
+msgid "Landing Page"
+msgstr ""
+
+#: inc/functions.php:2789
+#, php-format
+msgid "Only %s files are accepted"
+msgstr ""
+
+#: inc/functions.php:2858
+msgid "Please prove us that you are not a robot!!!"
+msgstr ""
+
+#: inc/functions.php:2865
+msgid "The email address is required"
+msgstr ""
+
+#: inc/functions.php:2871
+msgid "The email address is invalid"
+msgstr ""
+
+#: inc/functions.php:2888
+msgid "No connection for this form"
+msgstr ""
+
+#: inc/functions.php:3029
+msgid "All categories"
+msgstr ""
+
+#: inc/functions.php:3158
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: inc/functions.php:3160
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: inc/functions.php:3435
+msgid "Copy"
+msgstr ""
+
+#: inc/i18n.php:9
+msgid "Success"
+msgstr ""
+
+#: inc/i18n.php:10
+msgid "Error"
+msgstr ""
+
+#: inc/i18n.php:11
+msgid "Tweet text is too long"
+msgstr ""
+
+#: inc/i18n.php:12
+msgid "Share"
+msgstr ""
+
+#: inc/i18n.php:13
+msgid "Facebook App ID is required"
+msgstr ""
+
+#: inc/i18n.php:14
+msgid "Validating..."
+msgstr ""
+
+#: inc/i18n.php:15
+msgid "App ID validated"
+msgstr ""
+
+#: inc/i18n.php:16
+msgid "Invalid App ID"
+msgstr ""
+
+#: inc/i18n.php:17
+msgid "Select Columns Layout"
+msgstr ""
+
+#: inc/i18n.php:18
+msgid "Video Background"
+msgstr ""
+
+#: inc/i18n.php:19
+msgid "Saving..."
+msgstr ""
+
+#: inc/i18n.php:21
+msgid "Name"
+msgstr ""
+
+#: inc/i18n.php:22
+msgid "Phone"
+msgstr ""
+
+#: inc/i18n.php:26
+msgid "Pattern"
+msgstr ""
+
+#: inc/i18n.php:27
+msgid "Add layer"
+msgstr ""
+
+#: inc/i18n.php:30
+msgid "Inner"
+msgstr ""
+
+#: inc/i18n.php:31
+msgid "Drop"
+msgstr ""
+
+#: inc/i18n.php:32
+msgid "Solid color"
+msgstr ""
+
+#: inc/i18n.php:33
+msgid "Background Effects"
+msgstr ""
+
+#: inc/i18n.php:35
+msgid "Linear gradient"
+msgstr ""
+
+#: inc/i18n.php:36
+msgid "Repeating linear gradient"
+msgstr ""
+
+#: inc/i18n.php:37
+msgid "Radial gradient"
+msgstr ""
+
+#: inc/i18n.php:38
+msgid "Repeating radial gradient"
+msgstr ""
+
+#: inc/i18n.php:40
+msgid "Link"
+msgstr ""
+
+#: inc/i18n.php:41
+msgid "Selected"
+msgstr ""
+
+#: inc/i18n.php:42
+msgid "URL is missing or invalid"
+msgstr ""
+
+#: inc/i18n.php:43
+msgid "Please choose a video"
+msgstr ""
+
+#: inc/i18n.php:44 inc/views/modals/export-lp.php:30
+msgid "Choose Image"
+msgstr ""
+
+#: inc/i18n.php:45
+msgid "Choose File"
+msgstr ""
+
+#: inc/i18n.php:46
+msgid "Choose video"
+msgstr ""
+
+#: inc/i18n.php:47
+msgid "Files"
+msgstr ""
+
+#: inc/i18n.php:48
+msgid "Videos"
+msgstr ""
+
+#: inc/i18n.php:49 inc/views/editor-settings-elements.php:59
+#: inc/views/editor-settings.php:40
+msgid "Desktop"
+msgstr ""
+
+#: inc/i18n.php:50 inc/views/editor-settings-elements.php:66
+#: inc/views/editor-settings.php:51
+msgid "Tablet"
+msgstr ""
+
+#: inc/i18n.php:51 inc/views/editor-settings-elements.php:73
+#: inc/views/editor-settings.php:62
+msgid "Mobile"
+msgstr ""
+
+#: inc/i18n.php:52 inc/backbone/controls/icon-label-switch.phtml:14
+msgid "Visible"
+msgstr ""
+
+#: inc/i18n.php:53
+msgid "Hidden"
+msgstr ""
+
+#: inc/i18n.php:54
+msgid "Disabled"
+msgstr ""
+
+#: inc/i18n.php:55
+msgid "ID"
+msgstr ""
+
+#: inc/i18n.php:56
+msgid "Class"
+msgstr ""
+
+#: inc/i18n.php:57
+msgid "The template name is required"
+msgstr ""
+
+#: inc/i18n.php:58
+msgid ""
+"The redirection will not take place because the URL you've entered is not "
+"valid!"
+msgstr ""
+
+#: inc/i18n.php:59 inc/backbone/controls/decoration/decoration.phtml:12
+msgid "Slanted Edge"
+msgstr ""
+
+#: inc/i18n.php:60 inc/backbone/controls/decoration/decoration.phtml:13
+msgid "Pointer"
+msgstr ""
+
+#: inc/i18n.php:62
+msgid "The URL you've entered is not valid!"
+msgstr ""
+
+#: inc/i18n.php:64
+msgid "Only three headings can be selected at once !"
+msgstr ""
+
+#: inc/i18n.php:65
+msgid "At least one text variation is required"
+msgstr ""
+
+#: inc/i18n.php:66
+msgid "Default text is required"
+msgstr ""
+
+#: inc/i18n.php:67 inc/backbone/animation/preview.phtml:2
+#: inc/backbone/controls/decoration/decoration.phtml:11
+#: inc/backbone/controls/modal-picker.phtml:7
+#: inc/backbone/controls/preview-list-item.phtml:2
+#: inc/backbone/shadow/no-shadow.phtml:1
+msgid "None"
+msgstr ""
+
+#: inc/i18n.php:68
+msgid "Template reverted to theme successfully!"
+msgstr ""
+
+#: inc/i18n.php:69
+msgid "Page template successfully saved!"
+msgstr ""
+
+#: inc/i18n.php:70
+msgid "Template changed successfully!"
+msgstr ""
+
+#: inc/i18n.php:71
+msgid "Template saved successfully!"
+msgstr ""
+
+#: inc/i18n.php:73 inc/views/actions/responsive-video-providers/vimeo.php:13
+#: inc/views/actions/responsive-video-providers/wistia.php:13
+#: inc/views/actions/video-popup/vimeo.php:13
+#: inc/views/actions/video-popup/wistia.php:13
+msgid "Player color"
+msgstr ""
+
+#: inc/i18n.php:74
+msgid ""
+"Another identical configuration exists for this trigger. It has been "
+"replaced with the new one"
+msgstr ""
+
+#: inc/i18n.php:75
+msgid ""
+"You have multiple events that are triggered on click. Please remove one."
+msgstr ""
+
+#: inc/i18n.php:76
+msgid "Please select an animation"
+msgstr ""
+
+#: inc/i18n.php:77
+msgid "Please select an image"
+msgstr ""
+
+#: inc/i18n.php:78
+msgid "Please select a lightbox"
+msgstr ""
+
+#: inc/i18n.php:79
+msgid "You have to select a video source"
+msgstr ""
+
+#: inc/i18n.php:80
+msgid "Could not validate the video URL"
+msgstr ""
+
+#: inc/i18n.php:81
+msgid "Cannot get the video ID from the provided URL. Please try again"
+msgstr ""
+
+#: inc/i18n.php:82
+msgid "Could not get video information. Please check the URL and try again."
+msgstr ""
+
+#: inc/i18n.php:83
+msgid "This video is private. Some information may not be available."
+msgstr ""
+
+#: inc/i18n.php:84
+msgid ""
+"Could not get video information from Wistia. It's possible that the embed "
+"will still work"
+msgstr ""
+
+#: inc/i18n.php:85
+msgid "Tooltip text is required"
+msgstr ""
+
+#: inc/i18n.php:86
+msgid "URL is missing"
+msgstr ""
+
+#: inc/i18n.php:89
+msgid "Email error"
+msgstr ""
+
+#: inc/i18n.php:90
+msgid "Phone number error"
+msgstr ""
+
+#: inc/i18n.php:91
+msgid "Password error"
+msgstr ""
+
+#: inc/i18n.php:92
+msgid "Password mismatch"
+msgstr ""
+
+#: inc/i18n.php:93
+msgid "Required field error"
+msgstr ""
+
+#: inc/i18n.php:96 inc/backbone/lead-generation/wrappers.phtml:3
+msgid "Email address invalid"
+msgstr ""
+
+#: inc/i18n.php:97 inc/backbone/lead-generation/wrappers.phtml:4
+msgid "Phone number invalid"
+msgstr ""
+
+#: inc/i18n.php:98 inc/backbone/lead-generation/wrappers.phtml:5
+msgid "Password invalid"
+msgstr ""
+
+#: inc/i18n.php:99 inc/backbone/lead-generation/wrappers.phtml:6
+msgid "Password mismatch error"
+msgstr ""
+
+#: inc/i18n.php:100 inc/backbone/lead-generation/wrappers.phtml:7
+msgid "Required field missing"
+msgstr ""
+
+#: inc/i18n.php:102
+msgid "This table has merged cells. It cannot be sorted"
+msgstr ""
+
+#: inc/i18n.php:103
+msgid "Delete content template"
+msgstr ""
+
+#: inc/i18n.php:104
+msgid ""
+"Are you sure you want to remove this Content Template? This action cannot be "
+"undone"
+msgstr ""
+
+#: inc/i18n.php:105 inc/views/modals/lg-error-messages.php:38
+#: inc/backbone/controls/drop-panel.phtml:6
+#: inc/backbone/controls/position-from.phtml:39
+#: inc/backbone/controls/styles-templates.phtml:71
+#: inc/backbone/page-events/form.phtml:24
+msgid "Cancel"
+msgstr ""
+
+#: inc/i18n.php:106 inc/backbone/page-events/actions/lightbox.phtml:16
+#: inc/backbone/page-events/actions/lightbox.phtml:42
+msgid "Create new lightbox"
+msgstr ""
+
+#: inc/i18n.php:107
+msgid "Change direction"
+msgstr ""
+
+#: inc/i18n.php:108
+msgid "Reverse pointer"
+msgstr ""
+
+#: inc/i18n.php:109
+msgid "Image is required for pinterest share"
+msgstr ""
+
+#: inc/i18n.php:110
+msgid "Edit HTML Form"
+msgstr ""
+
+#: inc/i18n.php:111
+#: inc/backbone/controls/lead-generation/api-connections.phtml:7
+msgid "Connect Form To Service"
+msgstr ""
+
+#: inc/i18n.php:112 inc/backbone/lead-generation/wrappers.phtml:21
+msgid "Sign Up"
+msgstr ""
+
+#: inc/i18n.php:113
+msgid "Reload Page"
+msgstr ""
+
+#: inc/i18n.php:114
+msgid "Redirect to Custom URL"
+msgstr ""
+
+#: inc/i18n.php:115
+msgid "Show success notification"
+msgstr ""
+
+#: inc/i18n.php:116
+msgid "Go to next step in quiz"
+msgstr ""
+
+#: inc/i18n.php:117
+msgid "Invalid code! Please add at least one input."
+msgstr ""
+
+#: inc/i18n.php:118
+msgid ""
+"You can customize the design of the form by clicking the <b>EDIT FORM "
+"ELEMENTS</b> from the sidebar!"
+msgstr ""
+
+#: inc/i18n.php:119
+msgid ""
+"In order to customize each form component click on the \"EDIT FORM COMPONENTS"
+"\" button from the side bar."
+msgstr ""
+
+#: inc/i18n.php:120
+msgid "You have no active connections."
+msgstr ""
+
+#: inc/i18n.php:121
+msgid ""
+"Are you sure you want to DELETE all of the content that was created in this "
+"landing page and revert to the theme page?\n"
+"If you click OK, any custom content you added to the landing page will be "
+"deleted."
+msgstr ""
+
+#: inc/i18n.php:122
+msgid ""
+"Are you sure you want to CLEAR all content from this Landing Page? This "
+"action cannot be undone"
+msgstr ""
+
+#: inc/i18n.php:123
+msgid "Template name is required"
+msgstr ""
+
+#: inc/i18n.php:124
+msgid "Please enter a template name, it will be easier to reload it after."
+msgstr ""
+
+#: inc/i18n.php:125
+msgid "First, you must select a template from the available ones."
+msgstr ""
+
+#: inc/i18n.php:126
+msgid "An unknown error has occured. Response was: "
+msgstr ""
+
+#: inc/i18n.php:127
+msgid ""
+"Importing a landing page will overwrite the current contents of this page. "
+"Are you sure you want to continue ?"
+msgstr ""
+
+#: inc/i18n.php:128
+msgid "If you leave this page then any unsaved changes will be lost"
+msgstr ""
+
+#: inc/i18n.php:129
+msgid "All changes saved!"
+msgstr ""
+
+#: inc/i18n.php:131
+msgid ""
+"An event is already setup for this Trigger and Action. Please choose another "
+"configuration."
+msgstr ""
+
+#: inc/i18n.php:132
+msgid "Custom URL"
+msgstr ""
+
+#: inc/i18n.php:133
+msgid "Edit your caption text here"
+msgstr ""
+
+#: inc/i18n.php:134
+msgid "Max width"
+msgstr ""
+
+#: inc/i18n.php:135
+msgid "Float"
+msgstr ""
+
+#: inc/i18n.php:136
+msgid "Position"
+msgstr ""
+
+#: inc/i18n.php:137
+msgid "Z-index"
+msgstr ""
+
+#: inc/i18n.php:138
+msgid "Edit Components"
+msgstr ""
+
+#: inc/i18n.php:139 inc/backbone/element-states.phtml:3
+msgid "State:"
+msgstr ""
+
+#: inc/i18n.php:142
+msgid "Visited"
+msgstr ""
+
+#: inc/i18n.php:143
+msgid ""
+"You are now in hover state mode. To revert to default state click on <strong>"
+"\"EXIT STATE\"</strong> button."
+msgstr ""
+
+#: inc/i18n.php:144
+msgid "Add current color to favorites"
+msgstr ""
+
+#: inc/i18n.php:145
+msgid ""
+"Animations applied here are available on all screen sizes. In order to edit "
+"these, switch to Desktop Preview."
+msgstr ""
+
+#: inc/i18n.php:146
+msgid "KlickTipp Thank You URL"
+msgstr ""
+
+#: inc/i18n.php:147
+msgid "An unknown error occured."
+msgstr ""
+
+#: inc/i18n.php:148
+msgid "Choose a Landing Page Template"
+msgstr ""
+
+#: inc/i18n.php:149
+msgid "Change Landing Page Template"
+msgstr ""
+
+#: inc/i18n.php:150
+msgid "Wrap columns on tablet"
+msgstr ""
+
+#: inc/i18n.php:151
+msgid "Wrap columns on mobile"
+msgstr ""
+
+#: inc/i18n.php:152
+msgid "Edit Lightbox"
+msgstr ""
+
+#: inc/i18n.php:153
+msgid "Edit Thrivebox"
+msgstr ""
+
+#: inc/i18n.php:154
+msgid "Fetching data..."
+msgstr ""
+
+#: inc/i18n.php:155
+msgid "Element"
+msgstr ""
+
+#: inc/i18n.php:156
+msgid "Turn Off Save Reminders "
+msgstr ""
+
+#: inc/i18n.php:157
+msgid "Turn On Save Reminders "
+msgstr ""
+
+#: inc/i18n.php:158
+msgid ""
+"You cannot have nested links inside containers. Please remove the link of "
+"the ##split## in order to drop the new element"
+msgstr ""
+
+#: inc/i18n.php:159
+msgid ""
+"You cannot have nested links inside containers. Please remove the link of "
+"the ##split## in order to insert new link"
+msgstr ""
+
+#: inc/i18n.php:160
+msgid ""
+"You cannot have nested links inside containers. Pasted text contains links. "
+"Try to remove the link of the"
+msgstr ""
+
+#: inc/i18n.php:164
+msgid "Above"
+msgstr ""
+
+#: inc/i18n.php:165
+msgid "Below"
+msgstr ""
+
+#: inc/i18n.php:166
+msgid "Left of"
+msgstr ""
+
+#: inc/i18n.php:167
+msgid "Right of"
+msgstr ""
+
+#: inc/i18n.php:168
+msgid "Inside"
+msgstr ""
+
+#: inc/license_notice.php:11
+#, php-format
+msgid "You need to %s before you can use the editor!"
+msgstr ""
+
+#: inc/license_notice.php:11
+msgid "activate your license"
+msgstr ""
+
+#: inc/menu/button.php:16
+msgid "Button Options"
+msgstr ""
+
+#: inc/menu/cell.php:16
+msgid "Table Cell Options"
+msgstr ""
+
+#: inc/menu/click-tweet.php:16
+msgid "Click to Tweet Options"
+msgstr ""
+
+#: inc/menu/click-tweet.php:31 inc/views/editor-settings-elements.php:19
+#: inc/views/editor-settings.php:8
+msgid "Preview"
+msgstr ""
+
+#: inc/menu/columns.php:16
+msgid "Column Options"
+msgstr ""
+
+#: inc/menu/commentsdisqus.php:15
+msgid "Disqus Comments Options"
+msgstr ""
+
+#: inc/menu/commentsdisqus.php:22
+msgid ""
+"Your forum name is part of the login address to Disqus. E.g. \"http://"
+"healtylife.disqus.com\", the forum name is \"healtylife\"."
+msgstr ""
+
+#: inc/menu/commentsdisqus.php:28
+msgid ""
+"The URL of the current place of content will be used. You can specify a "
+"different URL to store comments against if you prefer."
+msgstr ""
+
+#: inc/menu/commentsfacebook.php:15
+msgid "Facebook Comments Options"
+msgstr ""
+
+#: inc/menu/commentsfacebook.php:30
+msgid "Comments Moderators"
+msgstr ""
+
+#: inc/menu/commentsfacebook.php:39
+msgid "This only works if you are friends on Facebook with the moderator(s)"
+msgstr ""
+
+#: inc/menu/contentbox.php:16
+msgid "Content Box Options"
+msgstr ""
+
+#: inc/menu/countdown.php:18
+msgid "Countdown Options"
+msgstr ""
+
+#: inc/menu/countdown.php:37
+msgid "Timezone"
+msgstr ""
+
+#: inc/menu/countdownevergreen.php:16
+msgid "Countdown Evergreen Options"
+msgstr ""
+
+#: inc/menu/credit.php:15
+msgid "Credit Card Icons"
+msgstr ""
+
+#: inc/menu/decoration.php:5
+msgid "Decorations"
+msgstr ""
+
+#: inc/menu/divider.php:15
+msgid "Divider Options"
+msgstr ""
+
+#: inc/menu/fillcounter.php:15
+msgid "Fill Counter Options"
+msgstr ""
+
+#: inc/menu/general.php:10 inc/menu/lp-text.php:66
+msgid "Background Style"
+msgstr ""
+
+#: inc/menu/general.php:25 inc/menu/lp-text.php:16
+msgid "Typography"
+msgstr ""
+
+#: inc/menu/general.php:49 inc/menu/lp-text.php:44 inc/menu/text.php:38
+#: inc/backbone/landing-pages/font-settings.phtml:3
+msgid "Font Face"
+msgstr ""
+
+#: inc/menu/general.php:60 inc/menu/lead_generation.php:54
+#: inc/menu/menu.php:46 inc/menu/table.php:46 inc/menu/tabs.php:36
+#: inc/menu/text.php:56 inc/backbone/controls/layout.phtml:31
+#: inc/backbone/controls/responsive-video-settings.phtml:52
+msgid "Advanced"
+msgstr ""
+
+#: inc/menu/general.php:81 inc/menu/lp-text.php:83
+msgid "Borders & Corners"
+msgstr ""
+
+#: inc/menu/general.php:133
+msgid "Trigger"
+msgstr ""
+
+#: inc/menu/general.php:173 inc/menu/lp-text.php:99
+msgid "Shadow"
+msgstr ""
+
+#: inc/menu/general.php:188
+msgid "Advanced Options"
+msgstr ""
+
+#: inc/menu/general.php:205
+msgid "Custom Scripts"
+msgstr ""
+
+#: inc/menu/general.php:212
+msgid "Header Scripts"
+msgstr ""
+
+#: inc/menu/general.php:215
+msgid "Body Scripts"
+msgstr ""
+
+#: inc/menu/general.php:218
+msgid "Footer Scripts"
+msgstr ""
+
+#: inc/menu/general.php:224
+msgid "Landing Page Text Options"
+msgstr ""
+
+#: inc/menu/general.php:229
+msgid "EDIT PAGE TEXTS"
+msgstr ""
+
+#: inc/menu/general.php:236
+msgid "Template Options"
+msgstr ""
+
+#: inc/menu/general.php:241
+msgid "Change Template"
+msgstr ""
+
+#: inc/menu/general.php:249
+msgid "Currently styling"
+msgstr ""
+
+#: inc/menu/gmap.php:16
+msgid "Google Map Options"
+msgstr ""
+
+#: inc/menu/html.php:15
+msgid "Custom HTML Options"
+msgstr ""
+
+#: inc/menu/html.php:22
+msgid "EDIT HTML CONTENT"
+msgstr ""
+
+#: inc/menu/icon.php:15
+msgid "Icon Options"
+msgstr ""
+
+#: inc/menu/image.php:14
+msgid "Image Options"
+msgstr ""
+
+#: inc/menu/image.php:22
+msgid "Image Style"
+msgstr ""
+
+#: inc/menu/image.php:72
+msgid "Image Effects"
+msgstr ""
+
+#: inc/menu/lead_generation_input.php:21
+#: inc/menu/lead_generation_select.php:21
+#: inc/menu/lead_generation_submit.php:21
+#: inc/menu/lead_generation_textarea.php:21
+msgid "Remove Input Icon"
+msgstr ""
+
+#: inc/menu/lead_generation.php:14
+msgid "Form Options"
+msgstr ""
+
+#: inc/menu/lead_generation.php:23
+msgid "Edit Form Elements"
+msgstr ""
+
+#: inc/menu/lead_generation.php:32
+msgid "Requires integration with Google ReCaptcha"
+msgstr ""
+
+#: inc/menu/lead_generation.php:61
+msgid "Edit error messages"
+msgstr ""
+
+#: inc/menu/lead_generation.php:64
+msgid "Connect to multiple services"
+msgstr ""
+
+#: inc/menu/lightbox.php:16
+msgid "Thrive Lightbox options"
+msgstr ""
+
+#: inc/menu/lp-base.php:15
+msgid "Landing Page Options"
+msgstr ""
+
+#: inc/menu/lp-text.php:56
+msgid "Clear formatting"
+msgstr ""
+
+#: inc/menu/menu.php:22
+msgid "Custom Menu Options"
+msgstr ""
+
+#: inc/menu/menu.php:34
+msgid "Edit Menu"
+msgstr ""
+
+#: inc/menu/menu.php:53
+msgid "Hover Colors"
+msgstr ""
+
+#: inc/menu/numberedlist.php:15
+msgid "Number List Options"
+msgstr ""
+
+#: inc/menu/numberedlist.php:25
+msgid "Number Font"
+msgstr ""
+
+#: inc/menu/postgrid.php:15
+msgid "Post Grid Options"
+msgstr ""
+
+#: inc/menu/postgrid.php:20
+msgid "EDIT GRID OPTIONS"
+msgstr ""
+
+#: inc/menu/progressbar.php:16
+msgid "Progress Bar Options"
+msgstr ""
+
+#: inc/menu/rating.php:13
+msgid "Star Rating Options"
+msgstr ""
+
+#: inc/menu/responsivevideo.php:16
+msgid "Video Options"
+msgstr ""
+
+#: inc/menu/reveal.php:15
+msgid "Content Reveal Options"
+msgstr ""
+
+#: inc/menu/section.php:16
+msgid "Section Options"
+msgstr ""
+
+#: inc/menu/social.php:13
+msgid "Social Sharing Options"
+msgstr ""
+
+#: inc/menu/social.php:27
+msgid "Social Networks"
+msgstr ""
+
+#: inc/menu/social.php:30
+msgid "Change"
+msgstr ""
+
+#: inc/menu/styledlist.php:15
+msgid "Styled List Options"
+msgstr ""
+
+#: inc/menu/table.php:16
+msgid "Table Options"
+msgstr ""
+
+#: inc/menu/table.php:33
+msgid ""
+"This will apply some transformations on the table, making it responsive for "
+"mobile devices. Note that this will have unpredictable results if there are "
+"merged cells in the table."
+msgstr ""
+
+#: inc/menu/table.php:41
+msgid "Manage cells"
+msgstr ""
+
+#: inc/menu/table.php:58
+msgid "Clear alternating colors"
+msgstr ""
+
+#: inc/menu/table.php:63
+msgid "Reset widths"
+msgstr ""
+
+#: inc/menu/table.php:66
+msgid "Reset heights"
+msgstr ""
+
+#: inc/menu/tableborders.php:5
+msgid "Table Borders"
+msgstr ""
+
+#: inc/menu/tableborders.php:13
+msgid "Header border"
+msgstr ""
+
+#: inc/menu/tabs.php:16
+msgid "Tabs Options"
+msgstr ""
+
+#: inc/menu/tabs.php:27
+msgid "Add New Tabs"
+msgstr ""
+
+#: inc/menu/text.php:16
+msgid "Text Options"
+msgstr ""
+
+#: inc/menu/text.php:49
+msgid "Clear all formatting"
+msgstr ""
+
+#: inc/menu/toc.php:15
+msgid "Table of Contents Options"
+msgstr ""
+
+#: inc/menu/toggle.php:16
+msgid "Toggle Options"
+msgstr ""
+
+#: inc/menu/wordpress.php:15
+msgid "WordPress Content Options"
+msgstr ""
+
+#: inc/menu/wordpress.php:22
+msgid "EDIT WORDPRESS CONTENT"
+msgstr ""
+
+#: inc/views/actions/animation.php:15
+msgid "Animation Trigger"
+msgstr ""
+
+#: inc/views/actions/link.php:3
+msgid "Insert / edit hyperlink"
+msgstr ""
+
+#: inc/views/actions/link.php:14
+msgid "Set link as nofollow"
+msgstr ""
+
+#: inc/views/actions/responsive-video-providers/custom-extra.php:3
+#: inc/views/actions/responsive-video-providers/vimeo-extra.php:3
+#: inc/views/actions/responsive-video-providers/wistia-extra.php:3
+#: inc/views/actions/responsive-video-providers/youtube-extra.php:3
+#: inc/views/actions/video-popup/custom.php:3
+#: inc/views/actions/video-popup/vimeo.php:18
+#: inc/views/actions/video-popup/wistia.php:18
+#: inc/views/actions/video-popup/youtube.php:13
+msgid "Autoplay"
+msgstr ""
+
+#: inc/views/actions/responsive-video-providers/custom-extra.php:6
+#: inc/views/actions/responsive-video-providers/youtube-extra.php:15
+#: inc/views/actions/video-popup/youtube.php:17
+msgid "Hide controls"
+msgstr ""
+
+#: inc/views/actions/responsive-video-providers/custom-extra.php:9
+#: inc/views/actions/video-popup/vimeo.php:19
+msgid "Loop"
+msgstr ""
+
+#: inc/views/actions/responsive-video-providers/vimeo-extra.php:6
+msgid "Hide title bar"
+msgstr ""
+
+#: inc/views/actions/responsive-video-providers/vimeo-extra.php:9
+#: inc/views/actions/responsive-video-providers/youtube-extra.php:9
+#: inc/views/actions/video-popup/youtube.php:15
+msgid "Hide logo"
+msgstr ""
+
+#: inc/views/actions/responsive-video-providers/vimeo-extra.php:12
+msgid "Hide byline"
+msgstr ""
+
+#: inc/views/actions/responsive-video-providers/wistia-extra.php:6
+msgid "Disable Playbar"
+msgstr ""
+
+#: inc/views/actions/responsive-video-providers/wistia-extra.php:12
+#: inc/views/actions/video-popup/wistia.php:20
+msgid "Hide full-screen button"
+msgstr ""
+
+#: inc/views/actions/responsive-video-providers/youtube-extra.php:6
+#: inc/views/actions/video-popup/youtube.php:14
+msgid "Hide title"
+msgstr ""
+
+#: inc/views/actions/responsive-video-providers/youtube-extra.php:12
+#: inc/views/actions/video-popup/youtube.php:16
+msgid "Hide related"
+msgstr ""
+
+#: inc/views/actions/responsive-video-providers/youtube-extra.php:18
+#: inc/views/actions/video-popup/youtube.php:18
+msgid "Hide full-screen"
+msgstr ""
+
+#: inc/views/actions/tooltip.php:1
+msgid "Show Tooltip on Hover"
+msgstr ""
+
+#: inc/views/actions/tooltip.php:2
+msgid "Tooltip text"
+msgstr ""
+
+#: inc/views/actions/tooltip.php:4
+msgid "Tooltip direction"
+msgstr ""
+
+#: inc/views/actions/video-popup/vimeo.php:20
+msgid "Show portrait"
+msgstr ""
+
+#: inc/views/actions/video-popup/vimeo.php:21
+msgid "Show title"
+msgstr ""
+
+#: inc/views/actions/video-popup/vimeo.php:22
+msgid "Show byline"
+msgstr ""
+
+#: inc/views/actions/video-popup/vimeo.php:27
+msgid "Title, portrait and byline are visible only when the video is stopped."
+msgstr ""
+
+#: inc/views/actions/video-popup/wistia.php:19
+msgid "Playbar"
+msgstr ""
+
+#: inc/views/admin/cannot-edit-blog-page.php:1
+msgid ""
+"This page is setup as a \"Blog Page\" from Wordpress Reading Settings. "
+"Thrive Architect cannot be loaded in such instances."
+msgstr ""
+
+#: inc/views/admin/post-edit-button.php:5
+msgid ""
+"You can upgrade this post / page to Thrive Architect. Upgrading the content "
+"will disable the default WP editor for this post and activate the Thrive "
+"Architect editor for it. This will allow you to have your content (text and "
+"images) saved if you want to disable Thrive Architect for this post. You "
+"will not lose any content during this action - all of your current WP editor "
+"content will get saved as a \"Wordpress Content\" element and appended to "
+"the end of the Thrive Architect content"
+msgstr ""
+
+#: inc/views/admin/post-edit-button.php:12
+msgid "Upgrade to Thrive Architect"
+msgstr ""
+
+#: inc/views/admin/post-edit-button.php:25
+msgid ""
+"You are currently using Thrive Architect to edit this content. You can "
+"continue editing with Thrive Architect or return to the default Wordpress "
+"editor"
+msgstr ""
+
+#: inc/views/admin/post-edit-button.php:35
+msgid "or"
+msgstr ""
+
+#: inc/views/admin/post-edit-button.php:35
+msgid "Return to the WP editor"
+msgstr ""
+
+#: inc/views/admin/post-edit-button.php:55
+msgid ""
+"Are you sure you want to DELETE all of the content that was created in this "
+"landing page and revert to the theme page?\\nIf you click OK, any custom "
+"content you added to the landing page will be deleted."
+msgstr ""
+
+#: inc/views/admin/post-edit-button.php:63
+msgid ""
+"You are currently using a Thrive Architect landing page to display this "
+"piece of content."
+msgstr ""
+
+#: inc/views/admin/post-edit-button.php:65
+msgid ""
+"If you'd like to revert back to your theme template then click the button "
+"below:"
+msgstr ""
+
+#: inc/views/admin/post-edit-button.php:68
+msgid "Revert to theme template"
+msgstr ""
+
+#: inc/views/control-panel.php:28
+msgid "Search Elements"
+msgstr ""
+
+#: inc/views/control-panel.php:84
+msgid "Migrate Element"
+msgstr ""
+
+#: inc/views/control-panel.php:85
+msgid ""
+"You can migrate this element to Thrive Architect. Click the following button "
+"to migrate the element"
+msgstr ""
+
+#: inc/views/control-panel.php:86
+msgid "Migrate element"
+msgstr ""
+
+#: inc/views/control-panel.php:90
+msgid "Multiple-Selected Mode"
+msgstr ""
+
+#: inc/views/control-panel.php:93
+msgid ""
+"Multiple selection mode activated. You can now move the selected elements "
+"across the page."
+msgstr ""
+
+#: inc/views/control-panel.php:98
+msgid "Exit mode"
+msgstr ""
+
+#: inc/views/control-panel.php:118
+msgid "Expand panel"
+msgstr ""
+
+#: inc/views/control-panel.php:119
+msgid "Collapse panel"
+msgstr ""
+
+#: inc/views/editor-settings-elements.php:27 inc/views/editor-settings.php:13
+#: inc/views/modals/revision-manager.php:6
+msgid "Revision Manager"
+msgstr ""
+
+#: inc/views/editor-settings-elements.php:35 inc/views/editor-settings.php:18
+msgid "Undo (Ctrl + Z)"
+msgstr ""
+
+#: inc/views/editor-settings-elements.php:42 inc/views/editor-settings.php:22
+msgid "Redo (Ctrl + Y)"
+msgstr ""
+
+#: inc/views/editor-settings-elements.php:49 inc/views/editor-settings.php:26
+msgid "Exit Thrive Architect"
+msgstr ""
+
+#: inc/views/editor-settings.php:2
+msgid "More Options"
+msgstr ""
+
+#: inc/views/editor-settings.php:31
+msgid "Responsive View"
+msgstr ""
+
+#: inc/views/editor-settings.php:43
+msgid "100% width"
+msgstr ""
+
+#: inc/views/editor-settings.php:54
+msgid "768px width"
+msgstr ""
+
+#: inc/views/editor-settings.php:65
+msgid "360px width"
+msgstr ""
+
+#: inc/views/editor-settings.php:70
+msgid "Page Setup"
+msgstr ""
+
+#: inc/views/elements/ct.php:2
+msgid "Select Content Template"
+msgstr ""
+
+#: inc/views/elements/heading.php:14
+msgid "Your Heading Here"
+msgstr ""
+
+#: inc/views/elements/html.php:17
+msgid "Insert Custom HTML"
+msgstr ""
+
+#: inc/views/elements/image.php:16
+msgid "Insert Image"
+msgstr ""
+
+#: inc/views/elements/lead_generation.php:13
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: inc/views/elements/lead_generation.php:14
+msgid "Please enter a valid phone number"
+msgstr ""
+
+#: inc/views/elements/lead_generation.php:15
+msgid "Please enter a password"
+msgstr ""
+
+#: inc/views/elements/lead_generation.php:16
+msgid "The passwords do not match"
+msgstr ""
+
+#: inc/views/elements/lead_generation.php:17
+msgid "Highlighted fields are required"
+msgstr ""
+
+#: inc/views/elements/lead_generation.php:24
+msgid "Connect"
+msgstr ""
+
+#: inc/views/elements/moretag.php:1
+msgid "More..."
+msgstr ""
+
+#: inc/views/elements/postgrid.php:17
+msgid "Add post grid"
+msgstr ""
+
+#: inc/views/elements/responsivevideo.php:18
+msgid "Insert Video"
+msgstr ""
+
+#: inc/views/elements/table.php:2
+msgid "Insert table"
+msgstr ""
+
+#: inc/views/elements/tabs.php:15
+msgid "First tab"
+msgstr ""
+
+#: inc/views/elements/tabs.php:16
+msgid "Second tab"
+msgstr ""
+
+#: inc/views/elements/tabs.php:17
+msgid "Third tab"
+msgstr ""
+
+#: inc/views/elements/text.php:14
+msgid "Enter your text here..."
+msgstr ""
+
+#: inc/views/elements/toc.php:14
+msgid "Quick Navigation"
+msgstr ""
+
+#: inc/views/elements/toggle.php:5
+msgid "Content Toggle Headline"
+msgstr ""
+
+#: inc/views/elements/tweet.php:4
+msgid "Insert your tweetable quote/phrase here"
+msgstr ""
+
+#: inc/views/elements/wordpress.php:16
+msgid "Insert WordPress Content"
+msgstr ""
+
+#: inc/views/inner.php:28
+msgid "Add column"
+msgstr ""
+
+#: inc/views/inner.php:29
+msgid "Add row"
+msgstr ""
+
+#: inc/views/inner.php:30
+msgid "Split"
+msgstr ""
+
+#: inc/views/inner.php:31
+msgid "Merge"
+msgstr ""
+
+#: inc/views/inner.php:34
+msgid "Remove column"
+msgstr ""
+
+#: inc/views/inner.php:36
+msgid "Remove row"
+msgstr ""
+
+#: inc/views/inner.php:40
+msgid "Insert column after"
+msgstr ""
+
+#: inc/views/inner.php:41
+msgid "Insert column before"
+msgstr ""
+
+#: inc/views/inner.php:42
+msgid "Insert row after"
+msgstr ""
+
+#: inc/views/inner.php:43
+msgid "Insert row before"
+msgstr ""
+
+#: inc/views/inner.php:45 inc/views/inner.php:61
+#: inc/views/modals/revision-manager.php:20
+#: inc/views/sidebars/table-edit-state.php:3
+#: inc/views/sidebars/toggle-edit-state.php:3
+#: inc/backbone/landing-pages/lp-text-templates.phtml:59
+msgid "Close"
+msgstr ""
+
+#: inc/views/inner.php:52 inc/views/modals/no-content-templates.php:9
+#: inc/views/sidebars/post-grid-edit-grid-options.php:11
+msgid "Done"
+msgstr ""
+
+#: inc/views/inner.php:57
+msgid "Save & Close"
+msgstr ""
+
+#: inc/views/layouts/editor.php:19
+msgid "Thrive Architect"
+msgstr ""
+
+#: inc/views/modals/api-connections.php:13
+msgid "Connect with service"
+msgstr ""
+
+#: inc/views/modals/cloud-templates.php:15
+#, php-format
+msgid "Choose %s Template"
+msgstr ""
+
+#: inc/views/modals/cloud-templates.php:26
+#: inc/views/modals/lp-templates.php:64
+msgid "Choose Template"
+msgstr ""
+
+#: inc/views/modals/custom-html.php:1
+msgid "Insert Custom HTML into the Page"
+msgstr ""
+
+#: inc/views/modals/custom-html.php:4
+msgid "Type or paste HTML code below."
+msgstr ""
+
+#: inc/views/modals/export-lp.php:13
+msgid "Export Template"
+msgstr ""
+
+#: inc/views/modals/export-lp.php:17 inc/views/modals/save-template-lp.php:20
+#: inc/views/modals/save-template.php:20
+#: inc/backbone/controls/styles-templates.phtml:36
+msgid "Template Name"
+msgstr ""
+
+#: inc/views/modals/export-lp.php:22
+msgid ""
+"Recommended image size: 166x140px. If you do not choose a picture, the "
+"default template thumbnail will be used."
+msgstr ""
+
+#: inc/views/modals/export-lp.php:31
+msgid "Remove Image"
+msgstr ""
+
+#: inc/views/modals/export-lp.php:39
+msgid "Download File"
+msgstr ""
+
+#: inc/views/modals/icons.php:25
+msgid "Choose an icon"
+msgstr ""
+
+#: inc/views/modals/icons.php:28
+msgid "Search Icon"
+msgstr ""
+
+#: inc/views/modals/icons.php:47
+msgid "Select"
+msgstr ""
+
+#: inc/views/modals/lg-error-messages.php:1
+msgid "Set error message"
+msgstr ""
+
+#: inc/views/modals/lg-error-messages.php:9
+msgid "Restore errors to default"
+msgstr ""
+
+#: inc/views/modals/lg-error-messages.php:19
+msgid "Add 'Signup failed' error message"
+msgstr ""
+
+#: inc/views/modals/lg-error-messages.php:25
+msgid ""
+"This error message is shown in the rare case that the signup fails. This can "
+"happen when your connected email marketing service can't be reached."
+msgstr ""
+
+#: inc/views/modals/lp-templates.php:13
+msgid "Choose Landing Page Template"
+msgstr ""
+
+#: inc/views/modals/lp-templates.php:15
+msgid "Support Forum"
+msgstr ""
+
+#: inc/views/modals/lp-templates.php:23
+#, php-format
+msgid ""
+"An error was encountered while fetching Cloud Landing Page Templates. Please "
+"contact our %s and provide the following error message:"
+msgstr ""
+
+#: inc/views/modals/lp-templates.php:31
+msgid ""
+"Any changes you’ve made to the current landing page will be lost when you "
+"select a new template. We recommend you to save your current template first."
+msgstr ""
+
+#: inc/views/modals/lp-templates.php:37
+#: inc/backbone/controls/button/style-templates.phtml:10
+msgid "Default Templates"
+msgstr ""
+
+#: inc/views/modals/lp-templates.php:38
+msgid "Saved Landing Pages"
+msgstr ""
+
+#: inc/views/modals/lp-templates.php:41
+msgid "Filter templates by tags"
+msgstr ""
+
+#: inc/views/modals/lp-templates.php:45
+msgid "Search for tags"
+msgstr ""
+
+#: inc/views/modals/no-content-templates.php:3
+msgid ""
+"You have no content templates saved at the moment. Create a new content "
+"template in order to use this option."
+msgstr ""
+
+#: inc/views/modals/no-content-templates.php:5
+msgid "Click here to found out more about saving and loading templates"
+msgstr ""
+
+#: inc/views/modals/options-post-types.php:19
+msgid "Select the content to be included in search results."
+msgstr ""
+
+#: inc/views/modals/options-post-types.php:33
+#: inc/backbone/lead-generation/edit-api-card.phtml:12
+#: inc/backbone/lead-generation/form.phtml:12
+#: inc/backbone/page-events/form.phtml:27
+msgid "Continue"
+msgstr ""
+
+#: inc/views/modals/page-events.php:1
+msgid "Page Event Manager"
+msgstr ""
+
+#: inc/views/modals/revision-manager.php:7
+msgid "Use the revision manager to restore your page to a previous version:"
+msgstr ""
+
+#: inc/views/modals/revision-manager.php:12
+msgid "The current post has no revisions!"
+msgstr ""
+
+#: inc/views/modals/revision-manager.php:16
+msgid "Show the default Wordpress Revision Manager"
+msgstr ""
+
+#: inc/views/modals/save-template-lp.php:13
+msgid "Save Page Template"
+msgstr ""
+
+#: inc/views/modals/save-template-lp.php:15
+msgid ""
+"You can save the current page as a template for use on another post / page "
+"on your site."
+msgstr ""
+
+#: inc/views/modals/save-template-lp.php:29
+msgid "ADD"
+msgstr ""
+
+#: inc/views/modals/save-template-lp.php:37
+#: inc/views/modals/save-template.php:26
+#: inc/backbone/controls/styles-templates.phtml:29
+#: inc/backbone/controls/styles-templates.phtml:74
+msgid "Save Template"
+msgstr ""
+
+#: inc/views/modals/save-template.php:13 inc/views/sidebar-settings.php:108
+msgid "Save Content as Template"
+msgstr ""
+
+#: inc/views/modals/save-template.php:15
+msgid ""
+"You can save your work as a template for use on another post/page on your "
+"site."
+msgstr ""
+
+#: inc/views/modals/wordpress-content.php:1
+msgid "Insert WordPress Content into the page"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:4
+msgid "Settings"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:10
+msgid "Template Setup"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:24
+msgid "Setup Page Events"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:31
+msgid "Edit HTML"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:37
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:48
+msgid "Switch Editor Side"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:58
+msgid "Landing Page Settings"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:64
+msgid "Save Landing Page"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:75
+msgid "Import Landing Page"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:81
+msgid "Export Landing Page"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:87
+msgid "Revert to Theme"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:93
+msgid "Reset to Default"
+msgstr ""
+
+#: inc/views/sidebar-settings.php:101
+#: inc/backbone/page-events/actions/lightbox.phtml:1
+msgid "Thrive Lightbox Settings"
+msgstr ""
+
+#: inc/views/sidebars/lead-generation.php:1
+msgid "You are now in Form Components Mode."
+msgstr ""
+
+#: inc/views/sidebars/lead-generation.php:1
+msgid "Select a form component to edit it."
+msgstr ""
+
+#: inc/views/sidebars/lead-generation.php:3
+msgid "Exit Edit Mode"
+msgstr ""
+
+#: inc/views/sidebars/post-grid-edit-grid-options.php:16
+msgid "Layout"
+msgstr ""
+
+#: inc/views/sidebars/post-grid-edit-grid-options.php:30
+msgid "Teaser Layout"
+msgstr ""
+
+#: inc/views/sidebars/post-grid-edit-grid-options.php:48
+msgid "Display Order"
+msgstr ""
+
+#: inc/views/sidebars/post-grid-edit-grid-options.php:55
+msgid "Query"
+msgstr ""
+
+#: inc/views/sidebars/post-grid-edit-grid-options.php:75
+msgid "Filters"
+msgstr ""
+
+#: inc/views/sidebars/table-edit-state.php:1
+msgid ""
+"You are currently editing the table cells. Click \"Close\" to go back to "
+"editing the table, or select a cell to edit it."
+msgstr ""
+
+#: inc/views/sidebars/toggle-edit-state.php:1
+msgid ""
+"You are currently reordering toggles. Click \"Close\" to go back to editing "
+"the element."
+msgstr ""
+
+#: inc/backbone/cloud-error.phtml:9
+#, php-format
+msgid ""
+"An error was encountered while fetching data from the cloud. Please contact "
+"our %s and provide the following error message:"
+msgstr ""
+
+#: inc/backbone/controls/background-effects.phtml:9
+msgid "Select Background Effect"
+msgstr ""
+
+#: inc/backbone/controls/background-image.phtml:5
+msgid "Image Display"
+msgstr ""
+
+#: inc/backbone/controls/background-image.phtml:8
+msgid "Stretch"
+msgstr ""
+
+#: inc/backbone/controls/background-image.phtml:9
+msgid "Repeat/tile"
+msgstr ""
+
+#: inc/backbone/controls/background-image.phtml:26
+msgid "Static background image"
+msgstr ""
+
+#: inc/backbone/controls/button/style-templates.phtml:1
+msgid "Saved Templates"
+msgstr ""
+
+#: inc/backbone/controls/custom-menu/menu-display.phtml:3
+msgid "Menu Display"
+msgstr ""
+
+#: inc/backbone/controls/custom-menu/select-menu.phtml:6
+msgid "Select Menu"
+msgstr ""
+
+#: inc/backbone/controls/drop-panel.phtml:7
+#: inc/backbone/controls/icons.phtml:27
+msgid "Apply"
+msgstr ""
+
+#: inc/backbone/controls/font-manager.phtml:2
+#: inc/backbone/controls/responsive-video-settings.phtml:3
+#: inc/backbone/controls/video-settings.phtml:3
+msgid "Source"
+msgstr ""
+
+#: inc/backbone/controls/font-manager.phtml:9
+msgid "Inherit Theme Fonts"
+msgstr ""
+
+#: inc/backbone/controls/font-manager.phtml:16
+msgid "Show recommended fonts only"
+msgstr ""
+
+#: inc/backbone/controls/font-manager.phtml:21
+#: inc/backbone/controls/font-manager.phtml:75
+#: inc/backbone/controls/font-manager.phtml:92
+msgid "Font"
+msgstr ""
+
+#: inc/backbone/controls/font-manager.phtml:30
+msgid "Regular"
+msgstr ""
+
+#: inc/backbone/controls/font-manager.phtml:39
+msgid "Bold"
+msgstr ""
+
+#: inc/backbone/controls/font-manager.phtml:50
+#, php-format
+msgid "Also include the %sItalic%s version"
+msgstr ""
+
+#: inc/backbone/controls/font-manager.phtml:55
+msgid "Including the Italic styles may result in slower loading"
+msgstr ""
+
+#: inc/backbone/controls/font-manager.phtml:63
+msgid "Charset"
+msgstr ""
+
+#: inc/backbone/controls/gradient-pattern.phtml:1
+msgid "Select pattern"
+msgstr ""
+
+#: inc/backbone/controls/gradient-picker.phtml:9
+msgid "Linear"
+msgstr ""
+
+#: inc/backbone/controls/gradient-picker.phtml:10
+msgid "Radial"
+msgstr ""
+
+#: inc/backbone/controls/gradient-picker.phtml:15
+msgid "Angle"
+msgstr ""
+
+#: inc/backbone/controls/gradient-picker.phtml:24
+msgid "Reset gradient"
+msgstr ""
+
+#: inc/backbone/controls/layout.phtml:15
+msgid "Layout & Position"
+msgstr ""
+
+#: inc/backbone/controls/lead-generation/connected-api.phtml:10
+#: inc/backbone/page-events/list.phtml:20
+#: inc/backbone/util/file-picker.phtml:17
+#: inc/backbone/util/video-file-picker.phtml:17
+msgid "Edit"
+msgstr ""
+
+#: inc/backbone/controls/lead-generation/connected-api.phtml:13
+msgid "Disconnect"
+msgstr ""
+
+#: inc/backbone/controls/margin-padding.phtml:15
+msgid "Margins & Padding"
+msgstr ""
+
+#: inc/backbone/controls/margin-padding.phtml:18
+msgid "(Click + Drag)"
+msgstr ""
+
+#: inc/backbone/controls/margin-padding.phtml:63
+msgid "The value entered is not valid. Please try again."
+msgstr ""
+
+#: inc/backbone/controls/position-from.phtml:13
+#: inc/backbone/controls/position-from.phtml:18
+msgid "Edit Position"
+msgstr ""
+
+#: inc/backbone/controls/position-from.phtml:42
+msgid "Save Position"
+msgstr ""
+
+#: inc/backbone/controls/rating-value.phtml:2
+msgid "Rating"
+msgstr ""
+
+#: inc/backbone/controls/rating-value.phtml:4
+msgid "out of"
+msgstr ""
+
+#: inc/backbone/controls/responsive-video-settings.phtml:7
+#: inc/backbone/controls/video-settings.phtml:8
+msgid "Select source"
+msgstr ""
+
+#: inc/backbone/controls/responsive-video-settings.phtml:26
+msgid "Video Start Time"
+msgstr ""
+
+#: inc/backbone/controls/responsive-video-settings.phtml:40
+msgid "Video Style"
+msgstr ""
+
+#: inc/backbone/controls/responsive-video-settings.phtml:60
+msgid "here"
+msgstr ""
+
+#: inc/backbone/controls/responsive-video-settings.phtml:61
+#, php-format
+msgid ""
+"Autoplay is not currently supported by default on mobile devices (tablets, "
+"phones). More info %s"
+msgstr ""
+
+#: inc/backbone/controls/responsive-video-settings.phtml:73
+msgid "Video Thumbnail"
+msgstr ""
+
+#: inc/backbone/controls/responsive.phtml:15
+msgid "Responsive"
+msgstr ""
+
+#: inc/backbone/controls/responsive.phtml:22
+msgid "Element visible on"
+msgstr ""
+
+#: inc/backbone/controls/responsive.phtml:31
+msgid "All devices"
+msgstr ""
+
+#: inc/backbone/controls/responsive.phtml:37
+msgid "Show all hidden elements"
+msgstr ""
+
+#: inc/backbone/controls/responsive.phtml:44
+msgid "Learn more about responsive modify"
+msgstr ""
+
+#: inc/backbone/controls/social/fb-share.phtml:5
+msgid "App ID"
+msgstr ""
+
+#: inc/backbone/controls/social/fb-share.phtml:11
+msgid "Learn how to set up a Facebook App."
+msgstr ""
+
+#: inc/backbone/controls/social/fb-share.phtml:19
+msgid "Link title"
+msgstr ""
+
+#: inc/backbone/controls/social/fb-share.phtml:26
+msgid "Caption"
+msgstr ""
+
+#: inc/backbone/controls/social/fb-share.phtml:32
+msgid "Description"
+msgstr ""
+
+#: inc/backbone/controls/social/fb-share.phtml:37
+msgid "Custom image"
+msgstr ""
+
+#: inc/backbone/controls/social/network-settings.phtml:7
+msgid "Button label"
+msgstr ""
+
+#: inc/backbone/controls/social/pin-share.phtml:2
+msgid "Description:"
+msgstr ""
+
+#: inc/backbone/controls/social/t-share.phtml:2
+msgid "Tweet text:"
+msgstr ""
+
+#: inc/backbone/controls/styles-templates.phtml:16
+msgid "Styles & Templates"
+msgstr ""
+
+#: inc/backbone/controls/styles-templates.phtml:26
+msgid "Clear Styles"
+msgstr ""
+
+#: inc/backbone/controls/styles-templates.phtml:48
+msgid "Add template to a category"
+msgstr ""
+
+#: inc/backbone/controls/styles-templates.phtml:53
+msgid "Select a category"
+msgstr ""
+
+#: inc/backbone/controls/styles-templates.phtml:65
+msgid "Manage content templates"
+msgstr ""
+
+#: inc/backbone/controls/text/typefocus-settings.phtml:33
+msgid "Pause between animations"
+msgstr ""
+
+#: inc/backbone/controls/text/typefocus-settings.phtml:36
+msgid "Short"
+msgstr ""
+
+#: inc/backbone/controls/text/typefocus-settings.phtml:42
+msgid "Long"
+msgstr ""
+
+#: inc/backbone/controls/text/typefocus-settings.phtml:50
+msgid "Blink cursor effect"
+msgstr ""
+
+#: inc/backbone/controls/text/typefocus-settings.phtml:56
+msgid "Highlight"
+msgstr ""
+
+#: inc/backbone/controls/text/typefocus-settings.phtml:64
+msgid "Highlight color"
+msgstr ""
+
+#: inc/backbone/controls/text/typefocus.phtml:4
+msgid "Typefocus animation"
+msgstr ""
+
+#: inc/backbone/controls/text/typefocus.phtml:9
+msgid "Add Animation"
+msgstr ""
+
+#: inc/backbone/controls/time-slider.phtml:10
+msgid "MIN"
+msgstr ""
+
+#: inc/backbone/controls/time-slider.phtml:20
+msgid "SEC"
+msgstr ""
+
+#: inc/backbone/controls/toc/headings.phtml:6
+msgid "Update Table"
+msgstr ""
+
+#: inc/backbone/controls/toggle.phtml:4
+msgid "Add new Toggle"
+msgstr ""
+
+#: inc/backbone/controls/toggle.phtml:9
+msgid "Reorder Toggles"
+msgstr ""
+
+#: inc/backbone/element-states.phtml:17
+msgid "Exit state"
+msgstr ""
+
+#: inc/backbone/elements/social.phtml:2
+msgid "shares"
+msgstr ""
+
+#: inc/backbone/inline/column-options.phtml:3
+#: inc/backbone/inline/column-options.phtml:6
+#: inc/backbone/inline/column-options.phtml:9
+#, php-format
+msgid "%d Columns"
+msgstr ""
+
+#: inc/backbone/inline/content-templates.phtml:1
+msgid "Search..."
+msgstr ""
+
+#: inc/backbone/inline/inline-responsive.phtml:11
+msgid "Edit fonts for:"
+msgstr ""
+
+#: inc/backbone/landing-pages/delete-confirmation.phtml:3
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/backbone/landing-pages/delete-confirmation.phtml:11
+msgid "NO, KEEP IT"
+msgstr ""
+
+#: inc/backbone/landing-pages/font-settings.phtml:19
+msgid "Apply to all headings"
+msgstr ""
+
+#: inc/backbone/landing-pages/font-settings.phtml:35
+msgid "Clear custom font"
+msgstr ""
+
+#: inc/backbone/landing-pages/lp-set.phtml:5
+msgid "EXPAND SET"
+msgstr ""
+
+#: inc/backbone/landing-pages/lp-text-templates.phtml:4
+msgid "All text formats"
+msgstr ""
+
+#: inc/backbone/lead-generation/api-field-add.phtml:3
+msgid "Add a new field"
+msgstr ""
+
+#: inc/backbone/lead-generation/api-field-add.phtml:9
+msgid "Select Field"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis.phtml:3
+msgid "Add new API Connections"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis.phtml:7
+msgid "Chose an already created API or create a new one."
+msgstr ""
+
+#: inc/backbone/lead-generation/apis.phtml:14
+msgid "Switch to HTML Integration"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/activecampaign.phtml:3
+#: inc/backbone/lead-generation/apis/aweber.phtml:3
+#: inc/backbone/lead-generation/apis/default.phtml:3
+#: inc/backbone/lead-generation/apis/get-response.phtml:3
+#: inc/backbone/lead-generation/apis/klicktipp.phtml:3
+#: inc/backbone/lead-generation/apis/mailchimp.phtml:3
+#: inc/backbone/lead-generation/apis/sendy.phtml:3
+msgid "Choose your mailing list"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/activecampaign.phtml:16
+#: inc/backbone/lead-generation/apis/aweber.phtml:16
+#: inc/backbone/lead-generation/apis/default.phtml:17
+#: inc/backbone/lead-generation/apis/drip.phtml:38
+#: inc/backbone/lead-generation/apis/get-response.phtml:17
+#: inc/backbone/lead-generation/apis/klicktipp.phtml:16
+#: inc/backbone/lead-generation/apis/mailchimp.phtml:17
+#: inc/backbone/lead-generation/apis/sendy.phtml:16
+msgid "Reload Lists"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/activecampaign.phtml:23
+msgid "Choose the form you want to use:"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/activecampaign.phtml:32
+msgid "No forms available!"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/activecampaign.phtml:44
+msgid ""
+"Comma-separated lists of tags to assign to a new contact in ActiveCampaign"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/aweber.phtml:30
+msgid "Comma-separated lists of tags to assign to a new contact in Aweber"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:3
+msgid "Choose what should happen in Drip when this form is submitted:"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:10
+msgid "Add to Campaign"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:11
+msgid "Record Custom Event"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:21
+msgid ""
+"(You can add new subscribers to an existing Drip campaign or record a custom "
+"event. Custom events are used for Drip Automations.)"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:25
+msgid "Choose campaign: "
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:50
+msgid "First Name field label:"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:58
+msgid "Last Name field label:"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:65
+msgid ""
+"If you use a name field in your form, these are the labels under which "
+"collected names are passed on to Drip."
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:67
+msgid "Choose opt-in type:"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:72
+#: inc/backbone/lead-generation/apis/mailchimp.phtml:37
+msgid "Single optin"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:74
+#: inc/backbone/lead-generation/apis/mailchimp.phtml:38
+msgid "Double optin"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:78
+msgid ""
+"(Single opt-in adds new subscribers to the campaign immediately. Double opt-"
+"in only starts the campaign after the new subscriber has confirmed their "
+"email address.)."
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:86
+msgid "Set custom event parameters:"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:95
+#: inc/backbone/lead-generation/apis/drip.phtml:119
+msgid "Custom Field"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:102
+#: inc/backbone/lead-generation/apis/drip.phtml:103
+#: inc/backbone/lead-generation/apis/drip.phtml:126
+#: inc/backbone/lead-generation/apis/drip.phtml:127
+msgid "Custom Field Value"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:109
+#: inc/backbone/lead-generation/apis/drip.phtml:132
+#: inc/backbone/util/video-file-picker.phtml:20
+msgid "Remove"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:141
+msgid "Add a new custom field"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/drip.phtml:145
+msgid ""
+"Custom field value must be without spaces (use dashes or underscores, "
+"instead)."
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/extra/mailchimp-group.phtml:1
+msgid "Choose your group:"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/get-response.phtml:24
+msgid "Cycle day:"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/get-response.phtml:34
+msgid "Number of the cycle day(between 0 and 103)"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/klicktipp.phtml:23
+msgid "Choose tag:"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/klicktipp.phtml:29
+msgid "No tag"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/mailchimp.phtml:25
+msgid "Choose your grouping:"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/mailchimp.phtml:33
+msgid "Choose the type of optin you would like for the Mailchimp integration"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/mailchimp.phtml:42
+msgid ""
+"(Double optin means your subscribers will need to confirm their email "
+"address before being added to your list)"
+msgstr ""
+
+#: inc/backbone/lead-generation/apis/sendy.phtml:20
+msgid ""
+"Note: we would prefer displaying the list names instead of IDs here, but "
+"unfortunately that isn't possible with Sendy."
+msgstr ""
+
+#: inc/backbone/lead-generation/custom-field.phtml:20
+#: inc/backbone/lead-generation/fields.phtml:16
+msgid "Required"
+msgstr ""
+
+#: inc/backbone/lead-generation/edit-api-card.phtml:6
+msgid "Discard"
+msgstr ""
+
+#: inc/backbone/lead-generation/edit.phtml:2
+msgid "Set Connection Details"
+msgstr ""
+
+#: inc/backbone/lead-generation/fields.phtml:2
+msgid "Form Fields"
+msgstr ""
+
+#: inc/backbone/lead-generation/fields.phtml:9
+msgid "Email"
+msgstr ""
+
+#: inc/backbone/lead-generation/fields.phtml:31
+msgid ""
+"Warning! You're about to connect more than one api to the form. Only email, "
+"name and phone fields will be available."
+msgstr ""
+
+#: inc/backbone/lead-generation/fields.phtml:37
+#: inc/backbone/lead-generation/submit-options.phtml:26
+#: inc/backbone/page-events/form.phtml:47
+msgid "Back"
+msgstr ""
+
+#: inc/backbone/lead-generation/fields.phtml:43
+msgid "Next"
+msgstr ""
+
+#: inc/backbone/lead-generation/form.phtml:1
+msgid "Insert your code here"
+msgstr ""
+
+#: inc/backbone/lead-generation/form.phtml:6
+msgid "Switch to API Integration"
+msgstr ""
+
+#: inc/backbone/lead-generation/start.phtml:1
+msgid "1. Choose a Connection"
+msgstr ""
+
+#: inc/backbone/lead-generation/start.phtml:2
+msgid ""
+"You have no connections set yet. Please create a new connection using one of "
+"the options below."
+msgstr ""
+
+#: inc/backbone/lead-generation/start.phtml:9
+msgid "New Api connection"
+msgstr ""
+
+#: inc/backbone/lead-generation/start.phtml:18
+msgid "HTML Form Connection"
+msgstr ""
+
+#: inc/backbone/lead-generation/submit-options.phtml:1
+msgid "Post Opt-In Action"
+msgstr ""
+
+#: inc/backbone/lead-generation/wordpress-option.phtml:4
+msgid "Redirect to Account Creation Page"
+msgstr ""
+
+#: inc/backbone/lead-generation/wordpress-option.phtml:7
+msgid ""
+"by checking this, the form will pass the form data to the page where the "
+"account creation is made."
+msgstr ""
+
+#: inc/backbone/page-events/actions/lightbox-preview.phtml:4
+msgid "Edit this lightbox"
+msgstr ""
+
+#: inc/backbone/page-events/actions/lightbox.phtml:5
+msgid "Select the Thrive Lightbox to be displayed"
+msgstr ""
+
+#: inc/backbone/page-events/actions/lightbox.phtml:19
+#: inc/backbone/page-events/actions/lightbox.phtml:45
+msgid "Lightbox title"
+msgstr ""
+
+#: inc/backbone/page-events/actions/lightbox.phtml:29
+msgid "Lightbox animation"
+msgstr ""
+
+#: inc/backbone/page-events/actions/lightbox.phtml:40
+msgid "You don't have any lightboxes yet. Create one using the link below."
+msgstr ""
+
+#: inc/backbone/page-events/form.phtml:4
+msgid "Add event"
+msgstr ""
+
+#: inc/backbone/page-events/form.phtml:10
+msgid "Step 1: Select your Trigger"
+msgstr ""
+
+#: inc/backbone/page-events/form.phtml:33
+msgid "Step 2: Set the action for the trigger"
+msgstr ""
+
+#: inc/backbone/page-events/form.phtml:37
+msgid "This is only available if you have Thrive Leads installed and activated"
+msgstr ""
+
+#: inc/backbone/page-events/list.phtml:1
+msgid "Existing Events"
+msgstr ""
+
+#: inc/backbone/page-events/list.phtml:21
+msgid "Delete"
+msgstr ""
+
+#: inc/backbone/page-events/no-events.phtml:1
+msgid ""
+"There are no events setup for this page. Use the options below to create a "
+"new event."
+msgstr ""
+
+#: inc/backbone/page-events/triggers/exit.phtml:1
+msgid "Exit Intent Settings"
+msgstr ""
+
+#: inc/backbone/page-events/triggers/exit.phtml:3
+msgid "Perform action on mobile devices"
+msgstr ""
+
+#: inc/backbone/page-events/triggers/exit.phtml:7
+msgid ""
+"It is not possible to detect exit intent on a mobile device, so instead the "
+"selected action will be performed after a time delay. How long after page "
+"load before the action is performed on mobile devices ?"
+msgstr ""
+
+#: inc/backbone/page-events/triggers/timer.phtml:1
+msgid "Timer (duration after page load) Settings"
+msgstr ""
+
+#: inc/backbone/page-events/triggers/timer.phtml:3
+msgid "How many seconds after page load should the event be triggered ?"
+msgstr ""
+
+#: inc/backbone/shadow/shadow-entry.phtml:26
+msgid "Text Shadow"
+msgstr ""
+
+#: inc/backbone/shadow/shadow-entry.phtml:29
+msgid "Inner Shadow"
+msgstr ""
+
+#: inc/backbone/shadow/shadow-entry.phtml:31
+msgid "Drop Shadow"
+msgstr ""
+
+#: inc/backbone/util/favorite-colors.phtml:9
+msgid "more"
+msgstr ""
+
+#: inc/backbone/util/favorite-colors.phtml:18
+msgid "Remove selected color"
+msgstr ""
+
+#: inc/backbone/util/favorite-colors.phtml:22
+msgid "Other Color Palettes"
+msgstr ""
+
+#: inc/backbone/util/favorite-colors.phtml:36
+msgid "less"
+msgstr ""

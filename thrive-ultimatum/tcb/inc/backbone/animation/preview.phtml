@@ -1,0 +1,37 @@
+<#if(preview_none){#>
+	<div class="no-animation tcb-text-center"><?php echo __( 'None', 'thrive-cb' ) ?></div>
+<#} else {#>
+<div class="animation-item tcb-relative">
+	<div class="row middle-xs">
+		<div class="col-xs-5">
+			<# if ( has_preview ) { #>
+				<i title="<?php esc_attr_e( 'Preview', 'thrive-db' ) ?>" class="click anim-preview" data-fn="preview" data-index="<#=i#>">
+					<?php tcb_icon( 'preview2' ) ?>
+				</i>
+			<# } else { #>
+				<span title="<?php esc_html_e( 'To preview this, use the Preview tool (it will open the page in a new tab)', 'thrive-cb' ) ?>">
+					<?php tcb_icon( 'no-preview' ) ?>
+				</span>
+			<# } #>
+			<span class="tcb-truncate t-80" style="padding-left: 10px;">
+				<#=trigger_text#>
+			</span>
+			<span class="col-sep tcb-absolute"></span>
+			<span class="tcb-absolute tcb-icon-2w anim-arrow"><?php tcb_icon( 'arrow' ) ?></span>
+		</div>
+		<div class="col-xs-7 animation-action clearfix">
+			<div class="tcb-left" style="width:75%">
+				<span class="tcb-truncate"><#=action_text#></span>
+			</div>
+			<div class="tcb-right">
+				<a href="javascript:void(0)" title="<?php esc_attr_e( 'Edit', 'thrive-db' ) ?>" class="click" data-fn="edit" data-index="<#=i#>">
+					<?php tcb_icon( 'edit' ) ?>
+				</a>
+				<a href="javascript:void(0)" title="<?php esc_attr_e( 'Remove', 'thrive-db' ) ?>" class="click" data-fn="remove" data-index="<#=i#>">
+					<?php tcb_icon( 'close' ) ?>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<#}#>

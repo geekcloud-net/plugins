@@ -1,0 +1,2084 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woomelly 1.0.0\n"
+"POT-Creation-Date: 2018-05-07 00:02-0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Woomelly <makeplugins@gmail.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /var/www/html/woomelly/wp-content/plugins/woomelly\n"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:8
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:476
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:576
+msgid "Extensions"
+msgstr "Extensiones"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:12
+msgid ""
+"At this moment the sales module is in test mode (BETA) since we are "
+"presenting problems with Mercadolibre and sales are duplicated in countries "
+"where the shopping cart is implemented. If you want to use it in test mode, "
+"you can activate it and inactivate it in this same page. Sorry for the "
+"inconvenience caused. Any questions can write to makeplugins@gmail.com."
+msgstr ""
+"En este momento el módulo de ventas se encuentra en modo de prueba (BETA) "
+"dado que estamos presentando inconvenientes con Mercadolibre y las ventas "
+"llegan duplicadas en países donde el carro de compra esta implementado. Si "
+"desea usarla en modo de prueba, puede activarla y desactivarla en esta misma "
+"página. Disculpe las molestia causadas. Cualquier duda puede escribirnos a "
+"makeplugins@gmail.com."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:16
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:18
+#, php-format
+msgid "Manage Sales %s"
+msgstr "Gestión de Ventas %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:16
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:23
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:45
+msgid "ON"
+msgstr "ON"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:18
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:25
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:42
+msgid "OFF"
+msgstr "OFF"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:21
+msgid ""
+"An order is a request a customer places on a listed item with the intention "
+"to purchase it under a series of conditions he/she will choose throughout "
+"the checkout flow."
+msgstr ""
+"Una orden es una solicitud que un cliente realiza en un artículo de la lista "
+"con la intención de comprarlo bajo una serie de condiciones que él / ella "
+"elegirá a lo largo del flujo de pago."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:23
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:25
+#, php-format
+msgid "Manage feedback %s"
+msgstr "Gestión de Calificaciones %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:28
+msgid ""
+"According to MercadoLibres business rules, after the sale (or purchase) is "
+"complete, the buyer and the seller must provide feedback about the "
+"transaction and rate each other. Buyers and sellers build their reputations "
+"based on their trading partners ratings."
+msgstr ""
+"De acuerdo con las reglas comerciales de Mercadolibre, una vez que se "
+"completa la venta (o compra), el comprador y el vendedor deben proporcionar "
+"sus comentarios sobre la transacción y calificarse entre ellos. Los "
+"compradores y vendedores construyen su reputación según las calificaciones "
+"de sus socios comerciales."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:56
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1410
+msgid "Success!"
+msgstr "¡Éxito!"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:58
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/extensions.php:62
+msgid "Error!"
+msgstr "¡Error!"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:8
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wminstall.php:156
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:472
+msgid "Overview"
+msgstr "Principal"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:14
+msgid "Authorization with Mercadolibre"
+msgstr "Autorización con Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:15
+msgid "General configuration"
+msgstr "Configuración General"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:16
+msgid "Configuration Connection Templates"
+msgstr "Configuración Plantillas de Conexión"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:17
+msgid "Synchronization with Mercadolibre"
+msgstr "Sincronización con Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:18
+msgid "Extensions of Woomelly"
+msgstr "Extensiones de Woomelly"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:19
+msgid "Support and Suggestions"
+msgstr "Soporte y Sugerencias"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:23
+msgid ""
+"Once the Woomelly plugin is installed, the first step is to set up your "
+"website with your store in Mercadolibre. This step is very important for a "
+"correct link of both stores and for this you have to follow the following "
+"steps:"
+msgstr ""
+"Una vez instalado el plugin Woomelly, el primer paso es configurar tu sitio "
+"web con tu tienda en Mercadolibre. Este paso es muy importante para una "
+"correcta vinculación de ambas tiendas y para ello tienes que seguir los "
+"siguientes pasos:"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:25
+#, php-format
+msgid ""
+"Go to the %s configuration and follow the steps shown on the 'Help' button."
+msgstr ""
+"Ve a la configuración del %s y sigues allí los pasos que te mostramos en el "
+"botón de 'Ayuda'."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:25
+msgid "site"
+msgstr "sitio"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:26
+#, php-format
+msgid ""
+"This authorization lasts only 6 hours but quiet, Woomelly is responsible for "
+"updating it automatically and in case of error you will receive a "
+"notification to the administrator's mail. To change this email, as well as "
+"activate and deactivate it, you have to go to %s."
+msgstr ""
+"Esta autorización dura solo 6 horas pero tranquilo, Woomelly se encarga de "
+"actualizarlo automáticamente y en caso de error te llegara una notificación "
+"al correo del administrador. Para cambiar este correo, así como activarlo y "
+"desactivarlo, tienes que dirigirte a %s."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:26
+msgid "Settings > Security"
+msgstr "Ajustes > Seguridad"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:27
+msgid ""
+"You can also unlink your store whenever you want. This step is easily "
+"reversible but remember that when your store is unlinked, no synchronization "
+"with Mercadolibre will take effect."
+msgstr ""
+"Puedes también desvincular tu tienda cuando lo desees. Este paso es "
+"reversible fácilmente pero recuerda que estando desvinculada tu tienda "
+"ninguna sincronización con Mercadolibre tendrá efecto."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:31
+msgid ""
+"Once your store is authorized with Mercadolibre it is time to configure the "
+"basic data for your publications. For this you have to take into account "
+"these options:"
+msgstr ""
+"Una vez autorizada tu tienda con Mercadolibre es momento de configurar los "
+"datos básicos para tus publicaciones. Para ello tienes que tomar en cuenta "
+"estas opciones:"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:33
+#, php-format
+msgid ""
+"In %s you will find very important configurations such as the currency in "
+"which you want to market your products and the template of how you want the "
+"data to be organized in the description of your publication. Keep in mind "
+"that Mercadolibre is only working with plain text in the description of its "
+"publications and that Woomelly has certain tags, which you can use to place "
+"dynamic information in the template."
+msgstr ""
+"En %s encontraras configuraciones muy importante como es el caso de moneda "
+"en que deseas comercializar tus productos y la plantilla de como desea que "
+"aparezca organizada los datos en la descripción de tu publicación. Ten en "
+"cuenta que Mercadolibre solo esta trabajando con texto plano en las "
+"descripción de sus publicaciones y que Woomelly dispone de ciertas "
+"etiquetas, las cuales puedes usar para colocar información dinámica en la "
+"plantilla."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:33
+msgid "Settings > Publication Tab"
+msgstr "Ajustes > Pestaña de Publicación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:34
+#, php-format
+msgid ""
+"In %s you will find the management of system notifications, as well as the "
+"configuration of your automatic mass synchronizer. Remember that this "
+"service currently works with a Wordpress Task Scheduler / CRON and often has "
+"certain limitations. We recommend using the Server Task Scheduler service to "
+"ensure proper operation. If you need support with this, write to "
+"makeplugins@gmail.com."
+msgstr ""
+"En %s encontraras la gestión de las notificaciones del sistemas, así como "
+"también la configuración de tu sincronizador masivo automático. Recuerda que "
+"este servicio actualmente funciona con un CRON/Planificador de Tarea propio "
+"de Wordpress y muchas veces tiene ciertas limitantes. Nosotros recomendamos "
+"usar el servicio de Planificador de tareas del servidor para garantizar un "
+"correcto funcionamiento. Si necesitas apoyo con esto escríbenos a "
+"makeplugins@gmail.com."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:34
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:50
+msgid "Settings > Security Tab"
+msgstr "Ajustes > Pestaña de Seguridad"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:38
+msgid ""
+"This step is very important since you need to configure the publications "
+"with mandatory data requested by Mercadolibre. The configuration templates "
+"are a solution to generalize this process but many times you will need the "
+"configuration of each of your products. We are currently working to make it "
+"as automatic as possible while we will explain the steps you have to perform "
+"for proper operation:"
+msgstr ""
+"Este paso es de suma importancia ya que necesitas configurar las "
+"publicaciones con datos obligatorios que solicita Mercadolibre. Las "
+"plantillas de configuración son una solución para generalizar este proceso "
+"pero muchas veces necesitaras la configuración de cada uno de tus productos. "
+"Actualmente estamos trabajando para hacerlo lo mas automático posible "
+"mientras te explicaremos los pasos que tienes que realizar para un correcto "
+"funcionamiento:"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:40
+#, php-format
+msgid ""
+"In %s you will find the list of existing templates so far on your website. "
+"If you do not have any template you can add it by pressing the 'Add New' "
+"button. Then select the categories to publish your product and fill in all "
+"the fields requested by that category. This template can be added to all the "
+"products you want but keep in mind that fields like the 'Technical Sheet' "
+"and 'Variations' have to be configured by products individually given the "
+"characteristics of your publication."
+msgstr ""
+"En %s encontraras el listado de plantillas existentes hasta el momento en tu "
+"sitio web. Si no tienes ninguna plantilla puedes añadirla presionado el "
+"botón de 'Añadir Nueva'. Luego selecciona la categorías a publicar tu "
+"producto y llena todos los campos que te solicita esa categoría. Esta "
+"plantilla puede ser añadida a todos los productos que desees pero ten en "
+"consideración que campos como la 'Ficha Técnica' y 'Variaciones' tienen que "
+"ser configuradas por productos de manera individual dado las características "
+"propia de tu publicación."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:40
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesync.php:7
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:598
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1030
+msgid "Connection Template"
+msgstr "Plantilla de Conexión"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:41
+#, php-format
+msgid ""
+"You can update and delete your template whenever you like. To assign this "
+"template to your products you have to go to %s and select the products you "
+"want. Then press the 'Actions in batch' button and you will find a field "
+"with all your synchronization templates. Select the template you want and "
+"then press the 'modify' button. Ready! With this you can start synchronizing "
+"your products correctly."
+msgstr ""
+"Puedes actualizar y eliminar tu plantilla cuando guste. Para asignar esta "
+"plantilla a tus producto tienes que dirigirte al %s y seleccionar los "
+"productos que desee. Luego presiona el botón de 'Acciones en lote' y "
+"encontraras un campo con todas tus plantillas de sincronización. Selecciona "
+"la plantilla que desees y luego presiona el botón de 'modificar'. ¡Listo! ya "
+"con esto puedes comenzar a sincronizar tus productos correctamente."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:41
+msgid "List of Products"
+msgstr "Listado de Productos"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:42
+msgid ""
+"IMPORTANT: You have to take into account that fields such as the technical "
+"sheet and categories that require attributes and variations have to be "
+"configured by products individually. To do this enter the products, go to "
+"the 'WM Tab' tab and place the fields for your technical sheet. In the case "
+"of variations you have to address each of the variations of your variable "
+"products and configure these variations with Mercadolibre."
+msgstr ""
+"IMPORTANTE: Tienes que tomar en cuenta que campos como la ficha técnica y "
+"categorías que requieren atributos y variaciones tienes que ser configuradas "
+"por productos de manera individual. Para ello ingresa al productos, ve a la "
+"pestaña de 'WM Ficha' y coloca los campos para tu ficha técnica. En el caso "
+"de las variaciones tienes que dirigirte a cada una de las variaciones de tus "
+"productos variables y configurar dicha variaciones con Mercadolibre."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:46
+msgid ""
+"At this point you can now successfully synchronize all your products with "
+"Mercadolibre. Woomely has three (3) types of synchronizations: Individual, "
+"Massive and Automatic Massive. We will explain what it is and how it works:"
+msgstr ""
+"En este punto ya puedes realizar una sincronización exitosa de todos tus "
+"productos con Mercadolibre. Woomely dispone de tres(3) tipos de "
+"sincronizaciones: Individual, Masiva y Masiva Automática. Te explicaremos en "
+"que consiste y como funciona cada una:"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:48
+msgid ""
+"For an individual synchronization: you have to enter the product you want "
+"and inside you will find a button to the right of your green panel. With it "
+"you can synchronize and unlink such product with your Mercadolibre store. If "
+"there is any problem in that same section, it will give you a message of "
+"what you have to correct."
+msgstr ""
+"Para una sincronización individual: tienes que ingresar al producto que "
+"desee y dentro encontraras un botón a la derecha de tu panel de color verde. "
+"Con él puedes sincronizar y desvincular dicho producto con tu tienda de "
+"Mercadolibre. En caso de existir algún inconveniente en esa misma sección te "
+"dará un mensaje de lo que tienes que corregir."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:49
+#, php-format
+msgid ""
+"For a massive synchronization: you have to go to %s. Then you can see the "
+"details of it in the tab of Last Connection and All Connections."
+msgstr ""
+"Para una sincronización masiva: tienes que dirigirte a %s. Luego puedes ver "
+"en la pestaña de Última Conexión y Todas las Conexiones los detalles de la "
+"misma."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:49
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:8
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:14
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:30
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:475
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:568
+msgid "Connection"
+msgstr "Conexión"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:50
+#, php-format
+msgid ""
+"In the case of automatic mass synchronization: you have to go to %s and "
+"adjust the status of the synchronization (default is Active) and the "
+"execution time of it. In the tab of Last Connection and All Connections you "
+"can find the detail of the result of these synchronizations."
+msgstr ""
+"En el caso de la sincronización masiva automática: tienes que dirigirte a %s "
+"y ajustar el estado de dicha sincronización (por defecto esta Activa) y el "
+"tiempo de ejecución de la misma. En las pestaña de Última Conexión y Todas "
+"las Conexiones podrás encontrar el detalle del resultado de dichas "
+"sincronizaciones."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:57
+#, php-format
+msgid ""
+"To have all the features of Woomelly, we ask you to activate your purchase "
+"license %s. Additionally you can for any questions or suggestions you can "
+"write to makeplugins@gmail.com and we will answer you as soon as possible. "
+"Thank you for trusting us and acquiring our product."
+msgstr ""
+"Para disponer de todas las funcionalidades de Woomelly te solicitamos que "
+"actives tu licencia de compra %s. Adicionalmente puedes para cualquier duda "
+"o sugerencias puedes escribirnos a makeplugins@gmail.com y te daremos "
+"respuesta lo antes posible. Gracias por confiar en nosotros y adquirir "
+"nuestro producto."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:57
+msgid "here"
+msgstr "aquí"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:66
+msgid "Mercadolibre"
+msgstr "Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:75
+msgid "My Account"
+msgstr "Mi Cuenta"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/dashboard.php:84
+msgid "Transactions"
+msgstr "Transacciones"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:17
+msgid "Last Connection"
+msgstr "Última Conexión"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:22
+msgid ""
+"Once the synchronization starts, avoid reloading the page or closing the "
+"browser since it would interrupt the process in its entirety."
+msgstr ""
+"Una vez puesta en marcha la sincronización evite recargar la página o cerrar "
+"el navegador ya que interrumpiría el proceso en su totalidad."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:25
+msgid "Specify what type of synchronization you want to perform:"
+msgstr "Especifique que tipo de sincronización desea realizar:"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:30
+msgid "Woo - Meli"
+msgstr "Woo - Meli"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:36
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:284
+#, php-format
+msgid ""
+"Excuse me, you have a connection problem with Mercadolibre. Verify that your "
+"website is %s"
+msgstr ""
+"Disculpe, tiene problema de conexión con Mercadolibre. Verifique que su "
+"sitio web este %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:36
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:284
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1133
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1235
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1431
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1612
+msgid "connected and authorized correctly with Mercadolibre."
+msgstr "conectado y autorizado correctamente con Mercadolibre."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:96
+msgid "Process Completed!"
+msgstr "¡Proceso Finalizado!"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:96
+msgid "See details in last connection tab."
+msgstr "Ver detalles en pestaña de última conexión "
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:105
+msgid "Process Not Completed!"
+msgstr "¡Proceso No Finalizado!"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:105
+msgid "There was a drawback that interrupted the process. Try again."
+msgstr "Hubo un inconveniente que interrumpió el proceso. Intente nuevamente."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:114
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:304
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1414
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1419
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1424
+msgid "Cancelled!"
+msgstr "¡Cancelado!"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/connection.php:114
+msgid "There are no products configured to synchronize with Mercadolibre."
+msgstr "No existen productos configurados para sincronizar con Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:8
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wminstall.php:157
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:473
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:552
+msgid "Settings"
+msgstr "Ajustes"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:13
+msgid "General"
+msgstr "General"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:14
+msgid "Publication"
+msgstr "Publicación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:15
+msgid "Security"
+msgstr "Seguridad"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:23
+#, php-format
+msgid ""
+"Store connected to Mercadolibre. If you want to unlink your store press %s."
+msgstr ""
+"Tienda conectada con Mercadolibre. Si desea desvincular su tienda presione "
+"%s."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:23
+msgid "Unlink"
+msgstr "Desvincular"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:29
+#, php-format
+msgid ""
+"Store not connected with Mercadolibre. If you want to connect your store "
+"press %s."
+msgstr ""
+"Tienda no conectada con Mercadolibre. Si desea conectar su tienda presione "
+"%s."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:29
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:85
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:171
+msgid "Link"
+msgstr "Vincular"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:34
+#, php-format
+msgid "ID Application %s"
+msgstr "Aplicación ID %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:34
+msgid ""
+"ID of the Mercadolibre application. Press the Help button for more "
+"information."
+msgstr ""
+"ID de la aplicación de Mercadolibre. Presione el botón de Ayuda para más "
+"información."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:37
+msgid "Enter your Application ID..."
+msgstr "Ingrese su Aplicación ID..."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:41
+#, php-format
+msgid "Secret Key %s"
+msgstr "Llave Secreta %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:41
+msgid ""
+"Security key of Mercadolibre. Press the Help button for more information."
+msgstr ""
+"Llave de seguridad de Mercadolibre. Presione el botón de Ayuda para más "
+"información."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:44
+msgid "Enter your Secret Key..."
+msgstr "Ingrese su Llave Secreta..."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:49
+#, php-format
+msgid "Country %s"
+msgstr "País %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:49
+msgid "Country where you operate the data of your Mercadolibre account."
+msgstr "País donde opera los datos de su cuenta de Mercadolibre. "
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:53
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:106
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:144
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/wm-core-functions.php:231
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:222
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:398
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1032
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1196
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1213
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1573
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1592
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-templatesync.php:338
+msgid "- Select -"
+msgstr "- Seleccione -"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:70
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:139
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:170
+msgid "Save this changes"
+msgstr "Guardar cambios"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:71
+msgid "Help"
+msgstr "Ayuda"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:77
+msgid "Configure Mercadolibre Application"
+msgstr "Configurar Aplicación de Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:79
+#, php-format
+msgid ""
+"Go %s and create an application depending on the country with which your "
+"store will work. You fill the fields indicated there."
+msgstr ""
+"Ve %s y crea una aplicación dependiendo el país con el cual trabajara tu "
+"tienda. Llenas los campos allí indicados."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:80
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:83
+#, php-format
+msgid "Important: Copy this information %s"
+msgstr "Importante: Copia esta información %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:80
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:83
+msgid "Copy"
+msgstr "Copiar"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:80
+#, php-format
+msgid " in the %s of your application."
+msgstr "en el %s de tu aplicación."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:81
+#, php-format
+msgid "In the %s section select all options (read, offline access, write)."
+msgstr ""
+"En la sección de %s selecciona todas las opciones (read, offline access, "
+"write)."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:82
+#, php-format
+msgid "In the %s section select these options (orders_v2/orders)"
+msgstr "En la sección de %s selecciona estas opciones (orders_v2/orders)."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:82
+msgid "Topics"
+msgstr "Tópicos"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:83
+#, php-format
+msgid " in %s of your application."
+msgstr "en %s de tu aplicación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:83
+msgid "URL callbacks notifications"
+msgstr "Notificaciones callbacks URL"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:84
+#, php-format
+msgid "Save the changes and copy your %s and %s generated in your form."
+msgstr "Guarda los cambios y copia tu %s y %s generadas en tu formulario."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:84
+msgid "APPLICATION ID"
+msgstr "Aplicación ID"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:84
+msgid "SECRET KEY"
+msgstr "Llave Secreta"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:85
+#, php-format
+msgid ""
+"To finish press the button of %s so that the access with Mercadolibre is "
+"generated correctly."
+msgstr ""
+"Para finalizar presiona el botón de %s para que se genere correctamente el "
+"acceso con Mercadolibre."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:86
+#, php-format
+msgid ""
+"If you have any questions you can check the %s or write an email to "
+"makeplugins@gmail.com"
+msgstr ""
+"Si tienes aun dudas puedes revisar la %s o escribirnos un correo a "
+"makeplugins@gmail.com"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:86
+msgid "Mercadolibre Documentation"
+msgstr "Documentación de Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:97
+#, php-format
+msgid "Currency %s"
+msgstr "Moneda %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:97
+msgid "Currency where your Mercadolibre account operates."
+msgstr "Moneda donde opera su cuenta de Mercadolibre."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:112
+msgid "Create Template"
+msgstr "Crear Plantilla"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:112
+msgid ""
+"Although it is optional, it is advisable to place general data on how you "
+"wish to display the data of your publication in Mercadolibre."
+msgstr ""
+"Aunque es opcional, es recomendable colocar datos generales de como desea se "
+"muestre los datos de su publicación en Mercadolibre."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:114
+#, php-format
+msgid "Available tags: %s"
+msgstr "Tags disponibles: %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:119
+#, php-format
+msgid "Publication format %s"
+msgstr "Formato de publicación %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:119
+msgid ""
+"HTML publications are already obsolete in the majority of Mercadolibre "
+"accounts. However, we still have the option in case your country is still "
+"used."
+msgstr ""
+"Ya están quedando obsoletas las publicaciones HTML en la mayoría de cuentas "
+"de Mercadolibre. Sin embargo, aún disponemos de la opción por si tu país se "
+"sigue usando."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:123
+msgid "Plane Text"
+msgstr "Texto Plano"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:124
+msgid "HTML"
+msgstr "HTML"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:129
+msgid "Omit fields to Sync"
+msgstr "Omitir campos a Sincronizar"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:129
+msgid "Check the fields you want to omit in the synchronizations."
+msgstr "Marque los campos que desea omitir en la sincronización."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:131
+msgid " Omit Title"
+msgstr "Omitir Título"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:132
+msgid " Omit Description"
+msgstr " Omitir Descripción"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:133
+msgid " Omit Pictures"
+msgstr "Omitir Imágenes"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:134
+msgid " Omit Stock"
+msgstr "Omitir Inventario"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:135
+msgid " Omit SKU"
+msgstr "Omitir SKU"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:146
+msgid "Notification Renewal of Token"
+msgstr "Notificación de Renovación de Token"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:154
+msgid "Automatic Synchronization Summary Notification"
+msgstr "Notificación de Resumen de Sincronización automática"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:162
+msgid "Automatic Synchronization Interval"
+msgstr "Intervalo de Sincronización automática"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/settings.php:162
+msgid "The time is calculated in hours."
+msgstr "El tiempo es calculado en horas."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/license.php:8
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:477
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:584
+msgid "License"
+msgstr "Licencia"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:7
+msgid "Add new Template"
+msgstr "Añadir nueva Plantilla"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:7
+#, php-format
+msgid "Edit Template #%s %s %s"
+msgstr "Actualizar Plantilla #%s %s %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:7
+msgid "Create New"
+msgstr "Crear Nueva"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:7
+msgid "Add Products"
+msgstr "Añade Productos"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:13
+msgid "Name of Template"
+msgstr "Nombre de la Plantilla"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:13
+msgid "Select a name to your template. By default set the template ID."
+msgstr ""
+"Seleccione un nombre para su plantilla. Por defecto se le asignara el ID de "
+"la misma."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:19
+#, php-format
+msgid "Category of Mercadolibre %s"
+msgstr "Categoría de Mercadolibre %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:19
+msgid ""
+"The leaf category is the last category of the tree and is the only category "
+"where you can publish articles."
+msgstr ""
+"La categoría hoja es la última categoría del árbol y es la única categoría "
+"donde puedes publicar artículos."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:25
+msgid "Reset"
+msgstr "Restablecer"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:35
+#, php-format
+msgid "Sales Mode %s"
+msgstr "Modo de Venta %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:35
+msgid "Sale mode allowed in this category."
+msgstr "Modo de venta permitida en esta categoría."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:49
+#, php-format
+msgid "Publication Type %s"
+msgstr "Tipo de Publicación %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:49
+msgid ""
+"Mercadolibre suggests publishing in the following way: MLA, MLB, MLC, MLM, "
+"MCO (Premium, Classic, Free). MPE, MLV, MLU (Premium, Classical, Free). In "
+"other sites you can use any of the listings listed."
+msgstr ""
+"Mercadolibre sugiere publicar de la siguiente forma: MLA, MLB, MLC, MLM, MCO "
+"(Premium, Clásica, Gratuita). MPE, MLV, MLU (Premium, Clásica, Gratuita). En "
+"resto de los sitios se pueden utilizar cualquiera de los listings listados."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:63
+#, php-format
+msgid "Condition %s"
+msgstr "Condición %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:63
+msgid "Publication conditions allowed for that category."
+msgstr "Condiciones del publicaciones permitidas para dicha categoría."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:78
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:340
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:342
+msgid "Accept Mercadopago"
+msgstr "Acepta Mercadopago"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:83
+#, php-format
+msgid "Shipping Mode %s"
+msgstr "Modo de Envío %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:83
+msgid ""
+"not_specified: It means that the seller did not specify any shipping price "
+"for their items and the buyer must contact the seller to arrange a shipping "
+"option and the purchase price. custom: Sellers can include a table with up "
+"to 10 shipping costs in one item and the buyer must deliver that number at "
+"the end of the process and leave [checkout]. me1 (MercadoEnvios mode 1): "
+"This method offers a shipping calculator to calculate the shipping cost of "
+"each order and allow the seller to select the shipping service of their "
+"choice, but choosing a carrier. The seller is responsible for managing the "
+"tracking number. me2 (MercadoEnvios mode 2): This method offers the seller a "
+"prepaid label and a numerical tracking code with a predefined local carrier "
+"in each country. The seller does not have to worry about choosing a carrier "
+"or handling the tracking number. It is the most recommended mode because it "
+"offers an excellent experience for both buyers and sellers. ML chooses the "
+"transport company."
+msgstr ""
+"not_specified: Significa que el vendedor no especificó ningún precio de "
+"envío para sus artículos y el comprador debe ponerse en contacto con el "
+"vendedor para acordar una opción de envío y el precio de la compra. custom: "
+"Los vendedores pueden incluir una tabla con hasta 10 costos de envío en un "
+"artículo y el comprador debe entregar ese número al terminar y salir "
+"[checkout] del proceso. me1 (MercadoEnvios mode 1): Este método ofrece un "
+"calculador de envíos para calcular el costo de envío de cada pedido y "
+"permitir que el vendedor seleccione el servicio de envío de su preferencia, "
+"pero eligiendo un transportista. El vendedor se encarga de administrar el "
+"número de seguimiento. me2 (MercadoEnvios mode 2): Este método ofrece al "
+"vendedor una etiqueta prepaga y un código numérico de seguimiento con un "
+"transportista local predefinido en cada país. El vendedor no tiene que "
+"preocuparse de elegir un transportista ni de manejar el número de "
+"seguimiento. Es el modo más recomendado porque ofrece una experiencia "
+"excelente tanto para compradores como para vendedores. ML elige la empresa "
+"de transporte."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:97
+#, php-format
+msgid "Shipping Custom Cost %s"
+msgstr "Costo Personalizado de Envío %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:97
+msgid "Add Description and Costs to your personalized shipments."
+msgstr "Añadir Descripción y Costos a tus envíos personalizados."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:113
+#, php-format
+msgid "Free Methods Accepted %s"
+msgstr "Método Gratuito Aceptado %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:113
+msgid "Select Free Methods Accepted"
+msgstr "Selecciona Método Gratuito Aceptado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:121
+msgid "Local Pick up"
+msgstr "Retiro Local"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:121
+msgid "Select local Pick up"
+msgstr "Selecciona Retiro Local"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:125
+msgid "Free shipping"
+msgstr "Envío Gratuito"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:125
+msgid "Select Free shipping"
+msgstr "Selecciona Envío Gratuito"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:129
+msgid "Send Dimensions"
+msgstr "Enviar Dimensiones"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:129
+msgid "Select Send Woocommerce Dimensions"
+msgstr "Selecciona Enviar Dimensiones de Woocommerce"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:135
+msgid "Publication Title"
+msgstr "Título de Publicación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:135
+msgid ""
+"The best way to build a title is name + brand + model + technical "
+"specifications and features + additional services. Separate words with "
+"spaces and do not use symbols or punctuation marks. Control to avoid words "
+"with spelling errors. For example: Ipod Touch Apple 16gb 5 Generation."
+msgstr ""
+"La mejor forma de armar un título es nombre + marca + modelo + "
+"especificaciones técnicas y características + servicios adicionales. Separa "
+"las palabras con espacios y no utilices símbolos ni signos de puntuación. "
+"Controla para evitar palabras con errores de ortografía. Por ejemplo: Ipod "
+"Touch Apple 16gb 5 Generación."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:141
+msgid "Publication Status"
+msgstr "Estado de Publicación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:141
+msgid ""
+"States available in Mercadolibre. You can adjust from here or directly from "
+"the product (optional)."
+msgstr ""
+"Estados disponible en Mercadolibre. Puede ajustar desde aqui o directamente "
+"desde el producto (opcional)."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:145
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:267
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmproduct.php:341
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:32
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1052
+msgid "Active"
+msgstr "Activo"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:146
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:266
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmproduct.php:356
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:32
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1091
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:151
+msgid "ID Official Store"
+msgstr "ID Tienda Oficial"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:151
+msgid "Enter the ID of your official MercadoShop store (optional)."
+msgstr "Coloque el ID de su tienda oficial de MercadoShop (opcional)."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:157
+msgid "Price Variation"
+msgstr "Variación de Precio"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:157
+msgid ""
+"It is used to adjust the amount of the sale price of the product (optional)."
+msgstr ""
+"Es usado para ajustar el monto del precio de venta del producto (opcional)."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:174
+msgid "Inventory Variation"
+msgstr "Variación de Inventario"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:174
+msgid "It is used to adjust the product inventory (optional)."
+msgstr "Es usado para ajustar el inventario del producto (opcional)."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:191
+msgid "SKU"
+msgstr "SKU"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:191
+msgid "Used to place the product SKU."
+msgstr "Usado para colocar el SKU del producto."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:197
+msgid "Video ID"
+msgstr "Vídeo ID"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:197
+msgid ""
+"YouTube video ID, e.g. https://youtu.be/hgma71jxCsc your select  "
+"hgma71jxCsc. Or https://www.youtube.com/watch?v=hgma71jxCsc your select "
+"hgma71jxCsc (optional)."
+msgstr ""
+" Vídeo YouTube ID, e.g. https://youtu.be/hgma71jxCsc se obtiene hgma71jxCsc. "
+"o https://www.youtube.com/watch?v=hgma71jxCsc se obtiene hgma71jxCsc "
+"(optional)."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:203
+msgid "Warranty"
+msgstr "Garantía"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:203
+msgid "You can place here a guarantee for your publication (optional)."
+msgstr "Puedes colocar acá una garantía para tu publicación (opcional)."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:209
+msgid "Location"
+msgstr "Ubicación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:209
+msgid "Select a location for the product (mandatory in some cases)."
+msgstr ""
+"Seleccione una ubicacion para el producto (obligatorios en algunos casos)."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:212
+msgid "Country"
+msgstr "País"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:224
+msgid "State"
+msgstr "Estado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:236
+msgid "City"
+msgstr "Ciudad"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:253
+#, php-format
+msgid "Total product with this template: %s."
+msgstr "Total productos con esta plantilla: %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:255
+msgid "No attribute is mandatory or allows variations."
+msgstr "Ningún atributo es obligatorio ni permite variaciones."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:257
+msgid "Please save the changes to update attribute information."
+msgstr "Por favor guarde los cambios para actualizar información de atributos."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:263
+msgid "Independent Variations"
+msgstr "Variaciones Independientes"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:263
+msgid "Send variations as independent products (optional)."
+msgstr "Enviar variaciones como productos independientes (opcional)."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:275
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:324
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:277
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmlisttable.php:80
+msgid "Delete"
+msgstr "Eliminar"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:294
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1394
+msgid "Are you sure?"
+msgstr "¿Está seguro?"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:295
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1395
+msgid "Once eliminated you will not be able to reverse such action!"
+msgstr "¡Una vez eliminado usted no sera capaz de revertir dicha acción!"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesyncsingle.php:304
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1419
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1424
+msgid "The action has been canceled!"
+msgstr "¡La acción ha sido cancelada!"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesync.php:7
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/template/admin/templatesync.php:12
+msgid "Search"
+msgstr "Buscar"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmorder.php:47
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmorder.php:51
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmtemplatesync.php:142
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmtemplatesync.php:146
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:62
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:69
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmsettings.php:174
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmsettings.php:178
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmproduct.php:85
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmproduct.php:89
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:47
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:51
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-assets.php:27
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-assets.php:31
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:304
+msgid "Enter your license code."
+msgstr "Coloque su código de licencia."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:309
+#, php-format
+msgid "Your purchase code %s"
+msgstr "Su código de compra %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:312
+msgid "Your Purchase license..."
+msgstr "Su licencia de Compra..."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:316
+msgid "Your Email"
+msgstr "Su Email"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:319
+msgid "Your email..."
+msgstr "Su email..."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:321
+msgid ""
+"This email will be used for possible updates and corrections of Woomelly."
+msgstr ""
+"Este email será usado para posibles actualizaciones y correcciones de "
+"Woomelly."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:405
+#, php-format
+msgid "%s - Woomelly Notification Refresh Token"
+msgstr "%s - Woomelly Notificación de Actualización del Token"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:411
+msgid ""
+"Sorry, we have presented the following error when refreshing the "
+"Mercadolibre token"
+msgstr ""
+"Disculpe, hemos presentado el siguiente error al refrescar el token de "
+"Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:430
+#, php-format
+msgid "%s - Woomelly Synchronization Summary"
+msgstr "%s - Woomelly Resumen de Sincronización"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:437
+msgid "A synchronization has been made on your site"
+msgstr "Se ha realizado una sincronización en su sitio"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:484
+msgid "You must select an extension."
+msgstr "Debe de selecciona una extensión."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:527
+msgid "Product successfully unlinked."
+msgstr "Producto desvinculado exitosamente."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:529
+msgid "Problems when obtaining the product data."
+msgstr "Inconvenientes al obtener los datos del producto."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:544
+msgid "Sorry, but there is no possibility of obtaining the product code."
+msgstr "Disculpe, pero no es posible obtener el código del producto."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:658
+msgid "New"
+msgstr "Nuevo"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:661
+msgid "Used"
+msgstr "Usado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:664
+msgid "Not specified"
+msgstr "No especificado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:993
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1003
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1025
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1028
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1073
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1083
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1105
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1108
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1151
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1161
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1183
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1186
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1224
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1236
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1258
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1261
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1280
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1292
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1449
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1459
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1480
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1483
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1544
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1554
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1575
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1578
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1620
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1630
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1651
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1654
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1722
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1734
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1755
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1758
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1776
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1789
+msgid "Connection error with Mercadolibre. Try again in a few seconds."
+msgstr ""
+"Error de Conexión con Mercadolibre. Intente nuevamente en unos segundos."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1003
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1028
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1083
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1108
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1161
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1186
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1236
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1261
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1292
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1342
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1434
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1459
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1483
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1529
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1554
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1578
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1630
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1654
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1682
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1707
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1734
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1758
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1789
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1817
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1834
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1852
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1870
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1888
+msgid "(see)"
+msgstr "(ver)"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1318
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1321
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1903
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1906
+msgid "The product code could not be obtained."
+msgstr "No se pudo obtener el código del producto."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1321
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1906
+msgid "Invalid Product"
+msgstr "Producto Inválido"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1338
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1342
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1430
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1434
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1525
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1529
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1678
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1682
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1703
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1707
+msgid "SUCCESSFUL SYNCHRONIZATION."
+msgstr "SINCRONIZACIÓN EXITOSA."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1814
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1817
+msgid ""
+"This product is variable but does not have any charged variation. Add "
+"variations or modify the product type to simple and add a price."
+msgstr ""
+"Este producto es variable pero no tiene ninguna variación cargada. Añada "
+"variaciones o modifique el tipo de producto a simple y añada un precio."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1831
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1834
+msgid ""
+"This product has variations but they are not configured with Mercadolibre "
+"nor does it have the option of individual active products in its connection "
+"template. Check which one best suits your needs and re-synchronize that "
+"product."
+msgstr ""
+"Este producto tiene variaciones pero las mismas no están configuradas con "
+"Mercadolibre ni tampoco cuenta con la opción de productos individuales "
+"activo en su plantilla de conexión. Verifique cual se adapta mejor a sus "
+"necesidades y vuelva a sincronizar dicho producto."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1849
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1852
+msgid ""
+"The product can not be synchronized because it is pending payment. Go to "
+"your Mercadolibre account."
+msgstr ""
+"El producto no se puede sincronizar porque esta pendiente de pago. Vaya a su "
+"cuenta de Mercadolibre."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1867
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1870
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1885
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-woomelly.php:1888
+msgid "The product is not active for synchronization."
+msgstr "El producto no esta activo para la sincronización."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmproduct.php:344
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1053
+msgid "Pending of Payment"
+msgstr "Pendiente de Pago"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmproduct.php:347
+msgid "Under Review by Mercadolibre"
+msgstr "En Revisión por Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmproduct.php:350
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1073
+msgid "Paused"
+msgstr "Pausado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmproduct.php:353
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1088
+msgid "Finished"
+msgstr "Finalizado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmproduct.php:359
+msgid "Pending of Relist"
+msgstr "Pendiente de Republicación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmproduct.php:362
+msgid "Without connection"
+msgstr "Sin conexión"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/wm-core-functions.php:232
+msgid "— Custom —"
+msgstr "— Personalizado —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/wm-core-functions.php:235
+#, php-format
+msgid "— Custom %s —"
+msgstr "— Personalizado %s —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmnotification.php:168
+msgid "Order from Mercadolibre"
+msgstr "Venta de Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmnotification.php:176
+msgid "Address by default"
+msgstr "Dirección por defecto"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmnotification.php:268
+msgid "Not Specified"
+msgstr "No especificado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmnotification.php:270
+#, php-format
+msgid "Custom %s"
+msgstr "Personalizado %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmnotification.php:272
+#, php-format
+msgid "ME type 1 %s"
+msgstr "ME tipo 1 %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmnotification.php:274
+#, php-format
+msgid "ME type 2 %s"
+msgstr "ME tipo 2 %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmnotification.php:332
+msgid "Bad Review | Review from Mercadolibre"
+msgstr "Calificación Negativa | Calificación de Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmnotification.php:335
+msgid "Neutral Review | Review from Mercadolibre"
+msgstr "Calificación Neutral | Calificación de Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmnotification.php:338
+msgid "Success Review | Review from Mercadolibre"
+msgstr "Calificación Positiva | Calificación de Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmlisttable.php:39
+msgid "Edit"
+msgstr "Actualizar"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmlisttable.php:62
+msgid "# Template"
+msgstr "# Plantilla"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmlisttable.php:63
+msgid "Cod. Category"
+msgstr "Cod. Categoría"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wmlisttable.php:95
+#, php-format
+msgid "Templates successfully deleted. Total: %d"
+msgstr "Plantillas eliminadas correctamente. Total: %d"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wminstall.php:33
+msgid "Plugin \"Woocommerce\" must be installed and active."
+msgstr "Plugin \"Woocommerce\" debe estar instalado y activo."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wminstall.php:39
+#, php-format
+msgid "Plugin \"Woomelly v.%s\" can not be installed for these reasons:"
+msgstr "Plugin \"Woomelly v.%s\" no puede ser instalado por estas razones:"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wminstall.php:45
+msgid "Solve these problems and try to install it again."
+msgstr "Resuelve estos inconvenientes e intenta instalarlo nuevamente."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wminstall.php:137
+#, php-format
+msgid ""
+"Number of products to be synchronized: %s. <br> Number of Products "
+"synchronized successfully: %s. <br> Product Quantity with synchronization "
+"errors: %s. <br> Synchronization efficiency: %s&#37;"
+msgstr ""
+"Cantidad de productos a sincronizar: %s.<br>Cantidad de Productos "
+"sincronizados exitosamente: %s.<br>Cantidad de Producto con errores de "
+"sincronización: %s.<br>Eficacia de la sincronización: %s&#37;"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wminstall.php:139
+msgid ""
+"The synchronization could not be performed since there are no products "
+"configured correctly."
+msgstr ""
+"No se pudo realizar la sincronización dado que no hay productos configurados "
+"correctamente."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wminstall.php:142
+msgid ""
+"Sorry, you have a problem with your license or in connection with "
+"Mercadolibre"
+msgstr ""
+"Disculpe, tiene problema con su licencia o en la conexión con Mercadolibre."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/class-wminstall.php:172
+#, php-format
+msgid "Every %s hour"
+msgstr "Cada %s hora"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:41
+msgid "see"
+msgstr "ver"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:45
+msgid "user points"
+msgstr "puntos del usuario"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:52
+msgid "app url"
+msgstr "url de la aplicación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:56
+msgid "app callback url"
+msgstr "callback url de la aplicación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:60
+msgid "app max requests by hours"
+msgstr "max. peticiones por hora"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:64
+msgid "app scopes"
+msgstr "alcance de la aplicación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:68
+msgid "app notifications callback url"
+msgstr "callback url de notificaciones"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:72
+msgid "app notifications topics"
+msgstr "tópicos de notificaciones"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:77
+msgid "id"
+msgstr "id"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:81
+msgid "nickname"
+msgstr "nickname"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:85
+msgid "registration date"
+msgstr "fecha de registro"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:89
+msgid "full name"
+msgstr "Nombre completo"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:95
+msgid "email"
+msgstr "email"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:99
+msgid "email secure"
+msgstr "email seguro"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:103
+msgid "identification"
+msgstr "identificación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:113
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:119
+#, php-format
+msgid "address %s"
+msgstr "dirección %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:113
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:119
+msgid ", (zip)"
+msgstr ", (zip)"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:113
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:119
+msgid ". (type)"
+msgstr ". (tipo)"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:127
+msgid "phone"
+msgstr "teléfono"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:131
+msgid "user type"
+msgstr "tipo de usuario"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:135
+msgid "shipping modes"
+msgstr "modos de envíos"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:139
+msgid "REPUTATION OF THE SELLER"
+msgstr "REPUTACIÓN DEL VENDEDOR"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:143
+msgid "level id"
+msgstr "nivel del id"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:147
+msgid "cancelled"
+msgstr "cancelado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:151
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:180
+msgid "completed"
+msgstr "completado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:155
+msgid "negative"
+msgstr "negativo"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:159
+msgid "neutral"
+msgstr "neutral"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:163
+msgid "positive"
+msgstr "positivo"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:168
+msgid "REPUTATION OF THE BUYER"
+msgstr "REPUTACIÓN DEL COMPRADOR"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:172
+msgid "canceled transactions"
+msgstr "transacciones canceladas"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:176
+msgid "canceled (paid / total)"
+msgstr "cancelada (pagadas/total)"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:184
+msgid "not yet qualified (paid / total)"
+msgstr "aún no calificado (pagado/total)"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-dashboard.php:188
+msgid "unqualified (paid / total)"
+msgstr "no calificado (paid/total)"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:117
+msgid "Copied!"
+msgstr "Copiado!"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:170
+msgid "Store successfully unlinked!"
+msgstr "¡Tienda desvinculada exitosamente!"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:171
+msgid ""
+"Application currently not connected to Mercadolibre. If you want to connect "
+"your store press "
+msgstr ""
+"Aplicación actualmente no conectada con Mercadolibre. Si desea conectar su "
+"tienda presione"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:177
+msgid "Sorry, there was an inconvenience in unlinking your store."
+msgstr "Disculpe, hubo un inconveniente al desvincular su tienda."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:277
+msgid "- Country -"
+msgstr "- País -"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:282
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:415
+msgid "- State -"
+msgstr "- Estado -"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:283
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:420
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:432
+msgid "- City -"
+msgstr "- Ciudad -"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:474
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:560
+msgid "TemplateSync"
+msgstr "PlantillaSync"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:544
+msgid "Woomelly"
+msgstr "Woomelly"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:602
+msgid "— Without changes —"
+msgstr "— Sin cambios —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:603
+msgid "— Remove Template —"
+msgstr "— Remover Plantilla —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:640
+msgid "Meli"
+msgstr "Meli"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:665
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:667
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:670
+#, php-format
+msgid "SYNC %s"
+msgstr "SYNC %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:709
+msgid "Filter by WMtemplate"
+msgstr "Filtrar por WMplantilla"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:710
+msgid "— Without template —"
+msgstr "— Sin plantilla —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:711
+msgid "— With template —"
+msgstr "— Con plantilla —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:722
+msgid "Filter by WMstatus"
+msgstr "Filtrar por WMestado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:723
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1762
+msgid "— Without connection —"
+msgstr "— Sin conexión —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:724
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1763
+msgid "— With connection —"
+msgstr "— Con conexión —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:725
+msgid "— Active in Meli —"
+msgstr "— Activo en Meli —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:726
+msgid "— Paused in Meli —"
+msgstr "— Pausado en Meli —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:727
+msgid "— Finished in Meli —"
+msgstr "— Finalizado en Meli —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:728
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1767
+msgid "— Relist in Meli —"
+msgstr "— Republicar en  Meli —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:729
+msgid "— Sync Problem —"
+msgstr "— Problema de Sincronización —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:731
+msgid "Filter by WMcode"
+msgstr "Filtrar por WMcódigo"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:900
+msgid "WM Details"
+msgstr "WM Detalles"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:905
+msgid "WM Technical"
+msgstr "WM Ficha"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:950
+msgid "Without code"
+msgstr "Sin código"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:988
+msgid "No sales"
+msgstr "Sin ventas"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:991
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:994
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:997
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1000
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1003
+msgid "---"
+msgstr "---"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1006
+msgid "Without preview"
+msgstr "Sin vista previa"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1021
+msgid "Connected"
+msgstr "Conectado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1027
+msgid "Connection status of the product with Mercadolibre."
+msgstr "Estado de conexión del producto con Mercadolibre."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1042
+msgid "Synchronization Templates"
+msgstr "Plantillas de Sincronización"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1045
+msgid "Synchronization Status"
+msgstr "Estado de Sincronización"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1047
+msgid ""
+"Uncheck the field if you want this product not to synchronize with "
+"Mercadolibre but maintain its current configuration"
+msgstr ""
+"Destilde el campo si desea que este producto no sincronice con Mercadolibre "
+"pero mantega su configuración actual"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1050
+msgid "Mercadolibre Status"
+msgstr "Estado en Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1058
+msgid "Waiting For Patch"
+msgstr "Pendiente de Revisión Manual"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1060
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1078
+msgid "Hidden - Waiting For Patch"
+msgstr "Oculto - Pendiente de Revisión Manual"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1062
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1080
+msgid "Held"
+msgstr "Pendiente de Moderación Manual"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1064
+msgid "Pending Documentation"
+msgstr "Pendiente de Documentación"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1066
+msgid "Forbidden"
+msgstr "Dado de Baja"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1068
+msgid "Under Review"
+msgstr "Bajo Revisión"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1071
+msgid "Paused for Stock"
+msgstr "Pausado por Inventario"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1076
+msgid "Expired"
+msgstr "Expirado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1082
+msgid "deleted"
+msgstr "Eliminado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1084
+msgid "Suspended"
+msgstr "Suspendido"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1086
+msgid "Freezed"
+msgstr "Congelado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1090
+msgid "Relist"
+msgstr "Republicar"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1093
+msgid ""
+"States available in Mercadolibre. You must have your product already "
+"synchronized with mercadolibre to see the available options."
+msgstr ""
+"Estados disponible en Mercadolibre. Tienes que tener tu producto ya "
+"sincronizado con mercadolibre para ver las opciones disponibles."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1096
+msgid "Custom Title"
+msgstr "Título Personalizado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1098
+msgid ""
+"This field is used to set a custom title to your products. Remember that the "
+"maximum number of characters allowed for the title of mercadolibre "
+"publication is 60 characters."
+msgstr ""
+"Este campo es usado para fijar un título personalizado a tu producto. "
+"Recuerda que el máximo numero de caracteres permitido para mercadolibre es "
+"de 60 caracteres."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1101
+msgid "Plain Text Description"
+msgstr "Descripción de Texto Plano"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1103
+msgid ""
+"This field is used to place information in plain text without taking into "
+"consideration the general description of the product (optional)."
+msgstr ""
+"Es campo es usado para colocar información en texto plano sin tomar en "
+"consideración la descripción general del producto (opcional)."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1106
+msgid "Code"
+msgstr "Código"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1108
+msgid "Product code in Mercadolibre."
+msgstr "Código de Producto en Mercadolibre."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1111
+msgid "Sales"
+msgstr "Ventas"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1113
+msgid "Number of registered sales of the product in Mercadolibre."
+msgstr "Cantidad de ventas registradas del producto en Mercadolibre."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1116
+msgid "Duration"
+msgstr "Duración"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1120
+msgid "Expiration Date"
+msgstr "Fecha de Expiración"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1124
+msgid "Creation and Update"
+msgstr "Creación y Actualización"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1128
+msgid "Preview"
+msgstr "Vista Previa"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1133
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1235
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1431
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1612
+#, php-format
+msgid ""
+"Sorry, you have a problem with your license or in connection with "
+"Mercadolibre. Verify that your website is %s"
+msgstr ""
+"Disculpe, tiene problema con su licencia o en la conexión con Mercadolibre. "
+"Verifique que su sitio web este %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1230
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1509
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1645
+#, php-format
+msgid ""
+"Sorry, but it has no connection template assigned. Check the %s and assign "
+"one of them to this product."
+msgstr ""
+"Disculpe, pero no tiene ninguna plantilla de conexión asignada. Verifique el "
+"%s y asigne una de ellas a este producto."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1230
+msgid "List"
+msgstr "Listado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1327
+msgid "Synchronize with Mercadolibre"
+msgstr "Sincronizar con Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1353
+msgid "Sync"
+msgstr "Sincronizar"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1359
+msgid "Unlink with Mercadolibre"
+msgstr "Desvincular con Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1360
+#, php-format
+msgid "Last Synchronization: %s (%s)"
+msgstr "Últ. Sincronización: %s (%s)"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1379
+msgid "Synchronized!"
+msgstr "¡Sincronizado!"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1379
+msgid "Product Successfully Synchronized!"
+msgstr "¡Producto Sincronizado Exitosamente!"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1449
+msgid "Do you want to skip sending dimensions?"
+msgstr "¿Desea omitir el envío de dimensiones?"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1467
+msgid "Mercadolibre #:"
+msgstr "Mercadolibre #:"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1504
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1505
+msgid "Attributes in Mercadolibre"
+msgstr "Atributos en Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1509
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1645
+msgid "list"
+msgstr "listado"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1641
+#, php-format
+msgid "Mercadolibre Variations: %s"
+msgstr "Variaciones de Mercadolibre: %s"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1643
+msgid "Mercadolibre Variations"
+msgstr "Variaciones de Mercadolibre"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1651
+msgid "There are no attributes available to configure this variation."
+msgstr "No hay atributos disponibles para configurar esta variación."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1764
+msgid "— Activate in Meli —"
+msgstr "— Activar en Meli —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1765
+msgid "— Pause in Meli —"
+msgstr "— Pausar en Meli —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1766
+msgid "— Finish in Meli —"
+msgstr "— Finalizar en Meli —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-menu.php:1768
+msgid "— Reset —"
+msgstr "— Restablecer —"
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-connection.php:17
+msgid "There is no record."
+msgstr "No existe ningún registro."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-settings.php:109
+msgid "The changes were stored correctly."
+msgstr "Los cambios fueron almacenados correctamente."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-settings.php:131
+msgid ""
+"There is a problem obtaining the users values. Try again or write to "
+"makeplugins@gmail.com"
+msgstr ""
+"Existe un inconveniente obteniendo los valores del usuario. Intente "
+"nuevamente o escribanos a makeplugins@gmail.com "
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-templatesync.php:237
+msgid "Changes stored correctly."
+msgstr "Cambios almacenados correctamente."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-templatesync.php:239
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-templatesync.php:242
+msgid "Sorry, there was a problem with storing the data."
+msgstr "Disculpe, hubo un inconveniente al almacenar los datos."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-templatesync.php:246
+msgid "Templates successfully deleted."
+msgstr "Plantillas eliminadas exitosamente."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-templatesync.php:367
+#, php-format
+msgid "Attribute %s allows variations and is mandatory."
+msgstr "Atributo %s permite variaciones y es obligatorio."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-templatesync.php:370
+#, php-format
+msgid "Attribute %s allows variations but is optional."
+msgstr "Atributo %s permite variaciones pero es opcional."
+
+#: /var/www/html/woomelly/wp-content/plugins/woomelly/includes/admin/class-wm-admin-templatesync.php:373
+#, php-format
+msgid "Attribute %s is mandatory."
+msgstr "Atributo %s es obligatorio."
+
+#~ msgid ""
+#~ "In the %s section select these options (items, questions, payments, "
+#~ "pictures, messages, orders_v2, shipments)"
+#~ msgstr ""
+#~ "En la sección de %s selecciona estas opciones (items, questions, "
+#~ "payments, pictures, messages, orders_v2, shipments)"
+
+#~ msgid ""
+#~ "{name}\n"
+#~ "==== Basic Characteristics ====\n"
+#~ "{description}\n"
+#~ "- Condition: {condition}\n"
+#~ "- Warranty: {warranty}\n"
+#~ "{tags}\n"
+#~ "==== Important information before making your purchase ====\n"
+#~ "In case you have any inconvenience, doubt, delay, etc. With your order, "
+#~ "we invite you to contact us and we will gladly solve it immediately. We "
+#~ "are always to help you ;)\n"
+#~ "\n"
+#~ "Please take into account our Customer Service Hours:\n"
+#~ "- Monday to Friday from 10am to 6pm.\n"
+#~ "- Saturdays from 10am to 3pm.\n"
+#~ "\n"
+#~ "WOOMELLY SHOP\n"
+#~ "We are a Mercadolider specialist in the electrical trade. We have more "
+#~ "than 10,000 specific sales in Mercadolibre. If you need any additional "
+#~ "product, we invite you to search our wide variety of products."
+#~ msgstr ""
+#~ "{name}==== Características Básicas ===={description}- Condición: "
+#~ "{condition}- Garantía: {warranty}{tags}==== Información importante antes "
+#~ "de realizar tu compra ====En caso de que tengas algún inconveniente, "
+#~ "duda, demora, etc. con tu pedido, te invitamos a contactárnos y con mucho "
+#~ "gusto te solucionaremos de inmediato. Estamos siempre para ayudarte :)Por "
+#~ "favor toma en cuenta nuestros Horarios de Atención al Cliente:- Lunes a "
+#~ "Viernes de 10am a 6pm.- Sábados de 10am a 3pm.NOMBRE DE NUESTRA "
+#~ "TIENDASomos Mercadolider especialista en el comercio eléctrico. Contamos "
+#~ "con mas de XXXX ventas en Mercadolibre. Si necesita algún producto "
+#~ "adicional puedes buscar en nuestra amplia variedad de productos."
+
+#~ msgid "Automatic Synchronization Status"
+#~ msgstr "Estado de Sincronización automática"
+
+#~ msgid "- Seleccione -"
+#~ msgstr "- Seleccione -"

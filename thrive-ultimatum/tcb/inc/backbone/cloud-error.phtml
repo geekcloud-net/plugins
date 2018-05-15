@@ -1,0 +1,14 @@
+<?php $support_link = '<a href="https://thrivethemes.com/forums/forum/plugins/thrive-architect/" title="Support Forum">Support Forum</a>' ?>
+<div class="cloud-lp-error message-inline">
+	<div class="tcb-notification">
+		<div class="tcb-notification-icon tcb-notification-icon-error">
+			<?php tcb_icon( 'close2' ) ?>
+		</div>
+		<div class="tcb-notification-text">
+			<div>
+				<?php echo sprintf( __( 'An error was encountered while fetching data from the cloud. Please contact our %s and provide the following error message:', 'thrive-cb' ), $support_link ) ?>
+				<pre style="color: #e74c3c"><#= error_message #></pre>
+			</div>
+		</div>
+	</div>
+</div>

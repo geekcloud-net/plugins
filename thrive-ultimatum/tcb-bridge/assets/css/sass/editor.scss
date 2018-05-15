@@ -1,0 +1,81 @@
+@import "variables";
+@import "bourbon";
+
+html.tve-html-editor {
+  overflow: auto;
+  body {
+    overflow: auto;
+  }
+}
+
+body {
+  &:before {
+    display: none !important;
+  }
+}
+
+.tve-ult-body-ribbon {
+  #tve_editor {
+    padding: 0 !important;
+  }
+}
+
+/* ribbon styles */
+.tve-ult-bar {
+  .admin-bar & {
+    top: 32px;
+  }
+  .tve_editor_page & {
+    &.tvu-footer.tvu-triggered {
+      bottom: 150px;
+    }
+  }
+  .tve_editor_page.tl-state-collapse & {
+    &.tvu-footer {
+      bottom: 0;
+    }
+  }
+}
+
+/* Widget - editor page */
+.tve-ult-widget {
+  margin: 0 auto;
+  padding-top: 20px;
+  max-width: 300px;
+  .thrv_ult_widget {
+    outline: 1px dotted #dedede;
+    &.active_highlight, &.active_delete {
+      outline: 1px dashed #ff0000;
+    }
+  }
+}
+
+//edit mode conflict with theme
+.tve-html-editor {
+  .cnt {
+    background: #fff;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    article {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+//
+//#tve_cpanel_onpage {
+//  &.menu_elem_ult_design {
+//    #tve_submenu_save {
+//      display: none;
+//    }
+//  }
+//}
+//
+//#tve_lightbox_frame {
+//  .tu-tpl-menu li {
+//    > span {
+//      display: block;
+//    }
+//  }
+//}

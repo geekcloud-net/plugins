@@ -1,0 +1,255 @@
+@media print {
+body, html {
+    width: 100% !important;
+    margin: 0 !important;
+}
+html.wp-toolbar {
+	padding: 0;
+}
+#wpadminbar,
+body #wpwrap,
+.toast,
+body.print_receipt #wpwrap,
+.blockUI {
+  display: none !important
+}
+body.print_receipt #sale_report_popup_inner {
+	padding: 20px;
+}
+#printable_barcode{
+	background: #fff
+}
+#printable_barcode .barcode_border {
+  	margin: 15px;
+  	text-align: center;
+}
+#printable_barcode .barcode_border img {
+    width: 100%;
+  }
+#printable_barcode .barcode_border {
+  	width: 180px;
+}	
+  
+#printable_barcode, #printable {
+	display: block !important;
+	overflow: hidden; }
+#printable_barcode.continuous_feed .barcode_border,
+#printable_barcode.con_4_3 .barcode_border,
+#printable_barcode.con_4_2 .barcode_border,
+#printable_barcode.jew_50_10 .barcode_border {
+	width: auto;
+	border: none;
+	margin: 0 auto;
+	page-break-after: always;
+	overflow: hidden;
+}
+#printable_barcode.jew_50_10 .barcode_border img {
+	width: 18mm;
+	float: right;
+}
+#printable_barcode.jew_50_10 .barcode_border .barcode_text {
+	float: left;
+	width: 18mm;
+	font-size: 8px;
+	line-height: 1.5;
+	text-align: left;
+}
+#printable_barcode.jew_50_10 .barcode_border {
+	width: 50mm;
+	height: 10mm;
+}
+#printable_barcode.con_4_3 .barcode_border {
+	width: 4cm;
+	height: 3cm;
+}
+#printable_barcode.con_4_2 .barcode_border {
+	width: 40mm;
+	height: 20mm;
+}
+#printable_barcode.con_4_3 .barcode_border img,
+#printable_barcode.con_4_2 .barcode_border img {
+	height: 30%;
+	image-rendering: pixelated;
+}
+#printable_barcode.a4 .barcode_border{
+	display: inline-block;
+	border: none;
+	float: left;
+	height: 38.1mm;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 96mm;
+	margin-right: 3mm;
+	/* box-shadow: 0 0 1px 0; */
+}
+#printable_barcode.letter .barcode_border{
+	width: 145px;
+	float: left;
+	border: none;
+	margin: 10px;
+	overflow: hidden;
+}
+#printable_barcode.a4 {
+	text-align: center;
+	padding: 0mm 6mm;
+	padding-bottom: 0mm !important;
+	width: 195mm;
+}
+#printable_barcode.a4 .barcode_border:nth-child(2n) {
+	margin-right: 0!important;
+	clear: right;
+}
+#printable_barcode.a4 .barcode_border:nth-child(14n+1),
+#printable_barcode.a4 .barcode_border:nth-child(14n+2) {	
+	margin-top: 12.5mm;
+}
+#printable_barcode.a4 .barcode_border:nth-child(14n+13) {
+	margin-bottom: 12.5mm;
+}
+#printable_barcode.a4 .barcode_border img{
+	width: 100% !important;
+	height: 50% !important;
+}
+#printable_barcode.a4 .barcode_text {
+	font-size: 16px;
+	line-height: 1.2;
+}
+#printable_barcode.per_sheet_80{
+	text-align: center;
+	padding: 0mm 7.5mm;
+	padding-bottom: 0mm !important;
+	width: 200mm;
+}
+#printable_barcode.per_sheet_80 .barcode_border{
+	display: inline-block;
+	border: none;
+	float: left;
+	height: 0.5in;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 1.75in;
+	margin-right: 7.4mm;
+	/* box-shadow: 0 0 1px 0; */
+}
+#printable_barcode.per_sheet_80 .barcode_text {
+	font-size: 8px;
+	line-height: 1;
+	/* float: left; */
+	/* margin: 0 10px; */
+}
+#printable_barcode.per_sheet_80 .barcode_text br {
+	/* display: none; */
+	padding: 0 4px;
+	content: "-";
+}
+#printable_barcode.per_sheet_80 .barcode_border:nth-child(4n) {
+	margin-right: 0!important;
+	clear: right;
+}
+#printable_barcode.per_sheet_80 .barcode_border:nth-child(80n+1),
+#printable_barcode.per_sheet_80 .barcode_border:nth-child(80n+2),
+#printable_barcode.per_sheet_80 .barcode_border:nth-child(80n+3),
+#printable_barcode.per_sheet_80 .barcode_border:nth-child(80n+4) {	
+	margin-top: 12.5mm;
+}
+#printable_barcode.per_sheet_80 .barcode_border:nth-child(80n+79) {
+	margin-bottom: 12.5mm;
+}
+#printable_barcode.per_sheet_80 .barcode_border img{
+	width: 100% !important;
+	height: 50% !important;
+}
+#printable_barcode.per_sheet_30{
+	text-align: center;
+	padding: 0mm 4.6mm;
+	padding-bottom: 0mm !important;
+	width: 207mm;
+}
+#printable_barcode.per_sheet_30 .barcode_border{
+	display: inline-block;
+	border: none;
+	float: left;
+	height: 0.9in;
+	overflow: hidden;
+	margin: 0;
+	padding: 0.05in;
+	width: 2.54in;
+	margin-right: 2.6mm;
+	/* box-shadow: 0 0 0 1px black; */
+}
+#printable_barcode.per_sheet_30 .barcode_text {
+	font-size: 12px;
+	line-height: 1;
+}
+#printable_barcode.per_sheet_30 .barcode_border:nth-child(3n) {
+	margin-right: 0!important;
+	clear: right;
+}
+#printable_barcode.per_sheet_30 .barcode_border:nth-child(30n+1),
+#printable_barcode.per_sheet_30 .barcode_border:nth-child(30n+2),
+#printable_barcode.per_sheet_30 .barcode_border:nth-child(30n+3){
+	margin-top: 13mm;
+}
+#printable_barcode.per_sheet_30 .barcode_border:nth-child(30n+29) {
+	margin-bottom: 12.5mm;
+}
+#printable_barcode.per_sheet_30 .barcode_border img{
+	width: 100% !important;
+	height: 50% !important;
+}
+
+
+#printable_barcode.a4_30{
+	text-align: center;
+	padding: 0mm 8mm;
+	padding-bottom: 0mm !important;
+	width: 195mm;
+}
+#printable_barcode.a4_30 .barcode_border{
+	display: inline-block;
+	border: none;
+	float: left;
+	height: 38.1mm;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 63.5mm;
+	margin-right: 2mm;
+}
+#printable_barcode.a4_30 .barcode_text {
+	font-size: 16px;
+	line-height: 1.2;
+}
+#printable_barcode.a4_30 .barcode_border:nth-child(3n) {
+	margin-right: 0!important;
+	clear: right;
+}
+#printable_barcode.a4_30 .barcode_border:nth-child(21n+1),
+#printable_barcode.a4_30 .barcode_border:nth-child(21n+2),
+#printable_barcode.a4_30 .barcode_border:nth-child(21n+3) {	
+	margin-top: 12.5mm;
+}
+#printable_barcode.a4_30 .barcode_border:nth-child(21n+20) {
+	margin-bottom: 12.5mm;
+}
+#printable_barcode.a4_30 .barcode_border img{
+	width: 100% !important;
+	height: 50% !important;
+}
+
+#printable_barcode {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.md-modal.md-show{
+	visibility:hidden;
+	display: none;
+}
+.md-modal.md-show ~ .md-overlay{
+	visibility:hidden;
+	display: none;	
+}
+}

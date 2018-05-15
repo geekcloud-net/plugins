@@ -1,0 +1,86 @@
+<div class="wrap" id="php-settings-page">
+    
+    <div class="plugin-banner">
+        <img height="128" src="<?php echo PHP_SETTINGS_IMG_URL ?>icon-256x256.png" />
+        <h1>PHP Settings <span>V <?php echo PHP_SETTINGS_VERSION ?></span><br/>
+            <span>Easily edit you INI settings</span><br />
+            <span class="social-buttons"><?php $this->render_social_buttons(); ?></span>
+        </h1>
+        <div id="social-buttons">
+            
+        </div>
+    </div>
+   
+    
+    <h2 class="nav-tab-wrapper">
+        <a class="nav-tab" href="#tab1"><span class="dashicons dashicons-editor-code"></span> Editor</a>
+        <a class="nav-tab" href="#tab2"><span class="dashicons dashicons-admin-generic"></span> Settings</a>
+    </h2>
+    
+    <div class="nav-tab-notifications">
+        <?php if( !INIFile::is_writable() ): ?>
+            <div class="nav-tab-notification nav-tab-error">
+                <i class="dashicons dashicons-no"></i>
+                <p><strong>ERROR:</strong> The directory <code><?php echo INIFile::get_dir_path(); ?></code> is not writable. This plugin requires writing permission to create <code>.ini</code> files.</p>
+            </div>
+        <?php endif; ?>
+    </div>
+    
+    <div id="tab1" class="tab">
+        <div class="tab-wrapper">
+            <div class="tab-content">
+                <div id="editor-wrapper">
+                    <textarea id="php-settings"><?php echo INIFile::get_content(); ?></textarea>
+                </div>
+                <div class="controls">
+                    <button type="submit" name="submit" id="save-php-settings" class="button button-primary process-button" data-icon="upload" data-processing-text="Saving..." data-done-text="Saved!">
+                        Save Settings
+                    </button>
+                    <button type="submit" name="submit" id="delete-files" class="button button-danger process-button" data-icon="no" data-processing-text="Deleting..." data-done-text="Done!">
+                        Delete .ini Files
+                    </button>
+                </div>
+            </div>
+            <div class="tab-description">
+                <p>Use the editor on the left to add directives to a local <code>.ini</code> file.
+                    You can copy directives from the table in the "PHP Info" tab.</p>
+                <p>If you don't have sufficient permissions to create files in the WordPress root directory, then a <code>.ini</code> file will not be created and this won't work.</p>
+                <p>Additionally, not all the settings in the main php.ini file can be overridden by a local ini file. See <a href="http://www.php.net/manual/en/ini.list.php">this table</a> for a list of directive that can be overridden locally (anything in the "Changeable" column not labeled as <strong>PHP_INI_SYSTEM</strong>)</p>
+                <p><strong>NOTE</strong>: Some hosting companies setup their servers to ignore settings in a local <code>.ini</code> file, in which case your only option is to contact them and ask them to manually change the settings.</p>
+                <ul class="ul-square">
+                    <li>For more information about the INI syntax, <a href="http://php.net/manual/en/configuration.file.php">click here</a></li>
+                    <li>For more information about local <code>.user.ini</code> files, <a href="http://php.net/manual/en/configuration.file.per-user.php">click here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        
+    <div id="tab2" class="tab">
+        <div class="tab-wrapper">
+            <div class="tab-content" id="directives">
+                <div id="search-wrapper">
+                    <input class="search" placeholder="Search for directives" />
+                    <i class="dashicons dashicons-dismiss"></i>
+                </div>
+                <button class="button button-primary" id="copy-directives">
+                    <i class="dashicons dashicons-admin-page"></i> <span>Copy To Editor</span>
+                </button>
+                <p id="directive-counter">0 directive selected</p>
+                <div id="phpinfo-wrapper">
+                    <?php echo PHPInfo::render('Core') ?>
+                </div>
+                <div class="controls">
+                    <button type="submit" name="submit" id="refresh-table" class="button button-primary process-button" data-icon="update" data-processing-text="Refreshing..." data-done-text="Done!">
+                        Refresh Table
+                    </button>
+                </div>
+            </div>
+            <div class="tab-description">
+                <p>Use this table to see which core PHP settings were locally overridden (their row becomes highlighted).</p>
+                <p>You can click on a setting row to copy it to the editor.</p>
+                <p><strong>NOTE</strong>: In certain hosting platforms it may take a few minutes for the system to update the settings. You can click on "Refresh Table" to load the most recent PHP settings from the server.</p>
+            </div>
+        </div>
+    </div>
+    <p>If you like this plugin, please give it <a target="_blank" href="https://wordpress.org/support/view/plugin-reviews/php-settings?filter=5#postform">★★★★★</a> rating on WordPress.org. Thanks!</p>
+</div>

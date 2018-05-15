@@ -1,0 +1,78 @@
+<div class="row">
+	<div class="col-xs-3">
+		<label><?php echo __( 'Source', 'thrive-cb' ) ?></label>
+	</div>
+	<div class="col-xs-9">
+		<select class="v-source change input" data-fn-change="show_section" data-fn-input="video_provider_changed">
+			<option value=""><?php echo __( 'Select source', 'thrive-cb' ) ?></option>
+			<option value="youtube">YouTube</option>
+			<option value="vimeo">Vimeo</option>
+			<option value="wistia">Wistia</option>
+			<option value="custom">Custom</option>
+		</select>
+	</div>
+</div>
+
+
+<div class="v-settings" style="display:none" id="v-settings-youtube" data-view="Youtube"><?php tcb_template( 'actions/responsive-video-providers/youtube' ) ?></div>
+<div class="v-settings" style="display:none" id="v-settings-vimeo" data-view="Vimeo"><?php tcb_template( 'actions/responsive-video-providers/vimeo' ) ?></div>
+<div class="v-settings" style="display:none" id="v-settings-wistia" data-view="Wistia"><?php tcb_template( 'actions/responsive-video-providers/wistia' ) ?></div>
+<div class="v-settings tve_custom_responsive_video" style="display:none" id="v-settings-custom" data-view="Custom"><?php tcb_template( 'actions/responsive-video-providers/custom' ) ?></div>
+
+<div class="responsive-video-time-settings">
+	<hr>
+	<div class="row">
+		<div class="col-xs-12 margin-bottom-10">
+			<span class="grey-text"><?php echo __( 'Video Start Time', 'thrive-cb' ); ?></span>
+		</div>
+		<div class="col-xs-6">
+			<div class="tve-time-control" data-time="Minute"></div>
+		</div>
+		<div class="col-xs-6">
+			<div class="tve-time-control" data-time="Second"></div>
+		</div>
+	</div>
+</div>
+
+<hr>
+<div class="row padding-top-5 middle-xs">
+	<div class="col-xs-12 margin-bottom-10">
+		<div class="input-label grey-text"><?php echo __( 'Video Style', 'thrive-cb' ); ?></div>
+	</div>
+	<div class="col-xs-12 tcb-input-button-wrapper">
+		<div class="col-sep click" data-fn="open_style_picker"></div>
+		<input type="text" id="responsive-video-style-name" class="style-change-input click" data-fn="open_style_picker" readonly value="<?php esc_attr_e( 'None', 'thrive-cb' ) ?>" data-default="<?php esc_attr_e( 'None', 'thrive-cb' ) ?>">
+		<?php tcb_icon( 'edit', false, 'sidebar', 'tcb-input-button click', array( 'data-fn' => 'open_style_picker' ) ) ?>
+	</div>
+</div>
+
+<div class="tve-advanced-controls extend-grey">
+	<div class="dropdown-header" data-prop="advanced">
+		<span>
+			<?php echo __( 'Advanced', 'thrive-cb' ); ?>
+		</span>
+		<i></i>
+	</div>
+	<div class="dropdown-content clear-top">
+
+		<span class="blue-text"><?php echo tcb_icon( 'info' ) ?></span>
+		<span class="info-text">
+			<?php $link = '<a href="https://webkit.org/blog/6784/new-video-policies-for-ios/" target="_blank" rel="noopener">' . __( 'here', 'thrive-cb' ) . '</a>' ?>
+			<?php echo sprintf( __( 'Autoplay is not currently supported by default on mobile devices (tablets, phones). More info %s', 'thrive-cb' ), $link ) ?>
+		</span>
+
+		<div class="r-v-checkbox-settings" id="r-v-checkbox-settings-youtube" data-setting="youtube"
+			 style="display:none"><?php tcb_template( 'actions/responsive-video-providers/youtube-extra' ) ?></div>
+		<div class="r-v-checkbox-settings" id="r-v-checkbox-settings-vimeo" data-setting="vimeo" style="display:none"><?php tcb_template( 'actions/responsive-video-providers/vimeo-extra' ) ?></div>
+		<div class="r-v-checkbox-settings" id="r-v-checkbox-settings-wistia" data-setting="wistia" style="display:none"><?php tcb_template( 'actions/responsive-video-providers/wistia-extra' ) ?></div>
+		<div class="r-v-checkbox-settings" id="r-v-checkbox-settings-custom" data-setting="custom" style="display:none"><?php tcb_template( 'actions/responsive-video-providers/custom-extra' ) ?></div>
+
+		<div class="row tcb-responsive-video-thumbnail">
+			<hr>
+			<div class="col-xs-12">
+				<?php echo __( 'Video Thumbnail', 'thrive-cb' ); ?>
+			</div>
+			<div class="col-xs-12 margin-top-10 tve-video-thumbnail-control"></div>
+		</div>
+	</div>
+</div>

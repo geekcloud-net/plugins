@@ -1,0 +1,84 @@
+<div class="tvd-modal-content">
+	<h3 class="tvd-modal-title">
+		<?php echo __( 'Activate Lockdown Campaign', TVE_Ult_Const::T ) ?>
+		<?php tve_ult_video( 'qmax5va8nw' ) ?>
+	</h3>
+	<div class="tvd-v-spacer"></div>
+
+	<div id="tve-message-container">
+		<div class="error">
+			<p><?php echo __( 'If you have a caching plugin installed, in order for the lockdown feature to function properly, please exclude the promotion page URL from the caching engine (or, exclude any URL that contains "tu_em" as a query string parameter)', TVE_Ult_Const::T ) ?></p>
+		</div>
+	</div>
+
+	<div class="tvd-row tvd-collapse">
+		<div class="tvd-col tvd-s6 tvd-m2 tvu-selected-design">
+			<div class="tvd-center-align tvd-card tvd-white tvu-selected-design">
+				<img width="80" class="tvu-selected-design" src="<#= ThriveUlt.plugin_url +'admin/img/tvd-'+ model.get('type') + '-campaign.png' #>"/>
+			</div>
+		</div>
+	</div>
+	<h5><?php echo __( 'Pre-access page: this is what visitors see if the campaign has not yet started for them', TVE_Ult_Const::T ) ?></h5>
+	<div class="tvd-v-spacer vs-half"></div>
+	<div class="tvd-input-field">
+		<input id="tvu-lockdown-pre-access-url" class="tvd-no-focus" type="text" value="<#= model.get('lockdown_settings').preaccess.value #>" data-field="preaccess"
+		       data-allow-regex="^http(s)?:\/\/">
+		<label for="tvu-lockdown-pre-access-url"><?php echo __( 'Enter URL or search term', TVE_Ult_Const::T ) ?></label>
+	</div>
+	<h5><?php echo __( 'Promotion page: this is the page that is only available during the campaign', TVE_Ult_Const::T ) ?></h5>
+	<div class="tvd-v-spacer vs-half"></div>
+	<div class="tve-ult-promotion-wrapper"></div>
+	<a href="javascript:void(0)" class="tve_ult_add_promotion_field"><span class="tvd-icon-plus"></span> Add New Promotion Page</a>
+	<h5><?php echo __( 'Expired page: this is what visitors see once their countdown expires', TVE_Ult_Const::T ) ?></h5>
+	<div class="tvd-v-spacer vs-half"></div>
+	<div class="tvd-input-field">
+		<input id="tvu-lockdown-expired-url" class="tvd-no-focus" type="text" value="<#= model.get('lockdown_settings').expired.value #>" data-field="expired"
+		       data-allow-regex="^http(s)?:\/\/">
+		<label for="tvu-lockdown-expired-url"><?php echo __( 'Enter URL or search term', TVE_Ult_Const::T ) ?></label>
+	</div>
+	<# if(model.get('type') == ThriveUlt.util.campaignType.evergreen) { #>
+		<div class="tvd-v-spacer"></div>
+		<div class="tvu-lockdown-box">
+			<h5 class="tvd-no-margin">
+				<?php echo __( 'Generate email link', TVE_Ult_Const::T ) ?>
+			</h5>
+			<hr class="tvu-lightgray-line">
+			<div class="tvd-v-spacer"></div>
+			<div class="tvd-row tvd-collapse tvd-no-mb">
+				<div class="tvd-col tvd-s12 tvd-m6">
+					<div class="tvd-input-field">
+						<select id="tvu-autoresponder-type">
+							<option disabled selected value="0"><?php echo __( 'Select Email Service', TVE_Ult_Const::T ) ?></option>
+							<?php $connected_apis = Thrive_List_Manager::getAvailableAPIsByType( false, array( 'autoresponder' ) ); ?>
+							<?php foreach ( $connected_apis as $k => $v ) : ?>
+								<?php $connection = Thrive_Dash_List_Manager::connectionInstance( $k ); ?>
+								<option data-tag="<?php echo $connection->getEmailMergeTag(); ?>"
+								        value="<?php echo $k ?>"><?php echo $connection->getTitle() ?></option>
+							<?php endforeach; ?>
+						</select>
+						<label for="tvu-autoresponder-type"><?php echo __( 'Select Email Service', TVE_Ult_Const::T ) ?></label>
+					</div>
+				</div>
+			</div>
+			<div class="tvu-url-to-copy-wrapper">
+
+			</div>
+		</div>
+		<# } #>
+</div>
+<div class="tvd-modal-footer">
+	<div class="tvd-row">
+		<div class="tvd-col tvd-s12 tvd-m6">
+			<a href="javascript:void(0)"
+			   class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-waves-effect tvd-modal-close">
+				<?php echo __( 'Cancel', TVE_Ult_Const::T ) ?>
+			</a>
+		</div>
+		<div class="tvd-col tvd-s12 tvd-m6">
+			<a href="javascript:void(0)"
+			   class="tvd-btn tvd-btn-green tvd-waves-light tvd-right tvu-save-lockdown-settings tvd-modal-submit">
+				<?php echo __( 'Save', TVE_Ult_Const::T ) ?>
+			</a>
+		</div>
+	</div>
+</div>

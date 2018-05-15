@@ -1,0 +1,18 @@
+<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="icon-move" viewBox="0 0 32 32">
+            <title>move</title>
+            <path d="M16 4.8v6.4h-12.8v-6.4h12.8zM17.6 3.2h-16v9.6h16v-9.6z"></path>
+            <path d="M22.4 8h-1.6v1.6h1.6c3.52 0 6.4 2.88 6.4 6.4s-2.88 6.4-6.4 6.4v1.6c4.48 0 8-3.52 8-8s-3.52-8-8-8z"></path>
+            <path d="M8 19.2h3.2v1.6h-3.2v-1.6z"></path>
+            <path d="M16 19.2h-1.6v1.6h1.6v1.6h1.6v-3.2z"></path>
+            <path d="M1.6 19.2v3.2h1.6v-1.6h1.6v-1.6h-1.6z"></path>
+            <path d="M8 27.2h3.2v1.6h-3.2v-1.6z"></path>
+            <path d="M3.2 25.6h-1.6v3.2h3.2v-1.6h-1.6z"></path>
+            <path d="M16 27.2h-1.6v1.6h3.2v-3.2h-1.6z"></path>
+            <path d="M19.337 22.731l3.394-3.394 1.131 1.131-3.394 3.394-1.131-1.131z"></path>
+            <path d="M20.469 22.537l3.394 3.394-1.131 1.131-3.394-3.394 1.131-1.131z"></path>
+            <path d="M20.8 22.4h1.6v1.6h-1.6v-1.6z"></path>
+        </symbol>
+    </defs>
+</svg>

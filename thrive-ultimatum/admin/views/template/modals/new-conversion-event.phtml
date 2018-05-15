@@ -1,0 +1,145 @@
+<div class="tvu-modal-step">
+	<div class="tvd-modal-content">
+		<h3 class="tvd-modal-title"><?php echo __( "Conversion Events Settings", TVE_Ult_Const::T ) ?></h3>
+		<p><?php echo __( "Step 1: Set your Trigger", TVE_Ult_Const::T ) ?></p>
+
+		<div id="tvu-conversion-options" class="tvd-row tvd-collapse">
+			<div class="tvd-col tvd-m6">
+				<div class="tvd-input-field tvu-no-margin-select">
+					<select name="" id="tvu-select-campaign-trigger" class="tvu-campaign-trigger" data-field="trigger">
+						<option disabled selected value="0"><?php echo __( 'Choose Trigger', TVE_Ult_Const::T ) ?></option>
+						<?php foreach ( TU_Campaign_Event::get_triggers() as $key => $details ) : ?>
+							<option data-icon="<?php echo $key ?>" <#= model.get('trigger_options').trigger && model.get('trigger_options').trigger === '<?php echo $key ?>' ? 'selected' : '' #> value="<?php echo $key ?>" class="tvu-<?php echo $key ?>"><?php echo $details['title'] ?></option>
+						<?php endforeach; ?>
+					</select>
+					<label for="tvu-select-campaign-trigger"><?php echo __( 'Trigger', TVE_Ult_Const::T ) ?></label>
+				</div>
+			</div>
+		</div>
+		<div class="tvd-v-spacer"></div>
+		<div id="tvu-conversion-triggers"></div>
+	</div>
+	<div class="tvd-modal-footer">
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a href="javascript:void(0)"
+				   class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-waves-effect tvd-modal-close">
+					<?php echo __( "Cancel", TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a href="javascript:void(0)"
+				   class="tvd-btn tvd-btn-green tvd-waves-light tvd-right tvu-continue-events">
+					<?php echo __( "Continue", TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="tvu-modal-step">
+	<div class="tvd-modal-content">
+		<h3 class="tvd-modal-title"><?php echo __( 'Conversion Events Settings', TVE_Ult_Const::T ) ?></h3>
+		<div class="tvd-v-spacer vs-2"></div>
+		<div id="tvu-trigger-description" class="tvu-trigger-description tvd-row tvd-collapse"></div>
+		<div class="tvd-v-spacer"></div>
+		<p class="tvd-no-margin"><?php echo __( "Step 2: Set the action for the trigger, to be performed", TVE_Ult_Const::T ) ?></p>
+		<div class="tvd-v-spacer"></div>
+		<div id="tvu-conversion-options" class="tvd-row tvd-collapse">
+			<div class="tvd-col tvd-m6">
+				<div class="tvd-input-field tvu-no-margin-select">
+					<select name="" id="tvu-select-campaign-event" class="tvu-campaign-event" data-field="action_event">
+						<option disabled selected value="0"><?php echo __( 'Choose action', TVE_Ult_Const::T ) ?></option>
+						<?php foreach ( TU_Campaign_Event::get_types() as $key => $details ) : ?>
+							<option <#= model.get('trigger_options').event && model.get('trigger_options').event === '<?php echo $key ?>' ? 'selected' : '' #> value="<?php echo $key ?>" class="tvu-<?php echo $key ?>"><?php echo $details['title'] ?></option>
+						<?php endforeach; ?>
+					</select>
+					<label for="tvu-select-campaign-event"><?php echo __( 'Choose action', TVE_Ult_Const::T ) ?></label>
+				</div>
+			</div>
+		</div>
+		<div id="tvu-conversion-events"></div>
+	</div>
+	<div class="tvd-modal-footer">
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a href="javascript:void(0)"
+				   class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-waves-effect tvu-modal-prev-step">
+					<?php echo __( "Back", TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a href="javascript:void(0)"
+				   class="tvd-btn tvd-btn-green tvd-waves-light tvd-right tvu-save-new-conversion-event tvd-modal-submit">
+					<?php echo __( "Save", TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="tvu-modal-step">
+	<div class="tvd-modal-content">
+		<h3 class="tvd-modal-title"><?php echo __( 'Add new Evergreen Campaign', TVE_Ult_Const::T ) ?></h3>
+
+		<p><?php echo __( 'Please fill in the fields for the new campaign', TVE_Ult_Const::T ) ?></p>
+		<div class="tvd-input-field">
+			<input id="tvu-new-campaign-name" type="text" name="new-campaign-name" data-field="post_title" data-bind="post_title">
+			<label for="tvu-new-campaign-name"><?php echo __( "Campaign name", TVE_Ult_Const::T ) ?></label>
+		</div>
+		<p><?php echo __('Tell us how long you would like the evergreen campaign to last for, for each user', TVE_Ult_Const::T ); ?></p>
+		<div class="tvd-row">
+			<div class="tvd-col tvd-m11">
+				<div class="tvd-input-field">
+					<input id="tvu-new-campaign-days" type="text" value="" data-field="duration">
+					<label for="tvu-new-campaign-days" ><?php echo __( "Duration", TVE_Ult_Const::T ) ?></label>
+				</div>
+			</div>
+			<div class="tvd-col tvd-m1">
+				<p>days</p>
+			</div>
+		</div>
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s4">
+				<p class="tvd-no-margin"><?php echo __('Repeat this campaign?', TVE_Ult_Const::T) ?></p>
+			</div>
+			<div class="tvd-col tvd-s3">
+				<div class="tvd-switch">
+					<label>
+						<?php echo __('NO', TVE_Ult_Const::T) ?>
+						<input class="tvu-new-campaign-repeat-switch" type="checkbox">
+							<span id="tvu-new-campaign-repeat-campaign-switch" class="tvd-lever"></span>
+							<?php echo __('YES', TVE_Ult_Const::T) ?>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="tvu-gray-box tvu-repeat-wrapper tvd-margin-bottom" style="display:none;">
+			<p class="tvd-inline-block tvd-vertical-align tvd-no-margin">
+				<?php echo __("Show this campaign again after", TVE_Ult_Const::T) ?>
+			</p>
+			<div class="tvd-input-field tvd-inline-block tvd-input-field-small">
+				<input id="tvu-new-campaign-expire" class="tvd-no-margin" maxlength="5" type="text" value="" data-field="end">
+			</div>
+			<p class="tvd-inline-block tvd-vertical-align tvd-no-margin">
+				<?php echo __('days.', TVE_Ult_Const::T) ?>
+			</p>
+	</div>
+	</div>
+	<div class="tvd-modal-footer">
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a href="javascript:void(0)"
+				   class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-waves-effect tvu-modal-prev-step">
+					<?php echo __( "Back", TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a href="javascript:void(0)"
+				   class="tvd-btn tvd-btn-green tvd-waves-light tvd-right tvu-save-new-evergreen-campaign tvd-modal-submit">
+					<?php echo __( "Add Campaign", TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

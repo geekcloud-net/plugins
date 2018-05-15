@@ -1,0 +1,85 @@
+.yith-wcfm-content table td small.act {
+    opacity: 0;
+    display: block;
+}
+
+.yith-wcfm-content table td:hover small.act {
+    opacity: 1;
+}
+
+.yith-wcfm-content table small.act a {
+    font-weight: normal;
+}
+
+.yith-wcfm-content table small.act a.delete {
+    color: #a00;
+}
+
+.yith-wcfm-content table small.act a:hover {
+    text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+2.0 Accessibility
+--------------------------------------------------------------*/
+
+/* Text meant only for screen readers. */
+
+.yith-wcfm-endpoint .screen-reader-text,
+#yith_wcfm-nav-toggle .screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.yith-wcfm-endpoint .screen-reader-text:focus,
+#yith_wcfm-nav-toggle .screen-reader-text:focus {
+    background-color: #f1f1f1;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+/* WooCommerce 3.3 Fix */
+.yith-frontend-manager-for-woocommerce .user_actions .edit,
+.yith-frontend-manager-for-woocommerce .user_actions .link,
+.yith-frontend-manager-for-woocommerce .user_actions .refresh,
+.yith-frontend-manager-for-woocommerce .user_actions .view,
+.yith-frontend-manager-for-woocommerce .order_actions .complete,
+.yith-frontend-manager-for-woocommerce .order_actions .processing,
+.yith-frontend-manager-for-woocommerce .order_actions .view{
+    padding: 0 !important;
+    height: 2em !important;
+    width: 2em;
+    text-indent: -9999px;
+}
+
+.yith-frontend-manager-for-woocommerce .user_actions .edit::after,
+.yith-frontend-manager-for-woocommerce .user_actions .link::after,
+.yith-frontend-manager-for-woocommerce .user_actions .refresh::after,
+.yith-frontend-manager-for-woocommerce .user_actions .view::after {
+    text-indent: 0;
+    margin:0;
+    line-height: 1.85;
+    width:100%;
+    height:100%;
+    text-align: center;
+}

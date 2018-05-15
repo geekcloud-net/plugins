@@ -1,0 +1,14 @@
+@import "../_shortcode";
+@import "../base/_base_set_22.scss";
+@import "config/_set_22_config.scss";
+
+#tvu_set_22 {
+  //shortcode general
+  @media (min-width: 1080px) {
+    .thrv_ult_shortcode {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@import '../_responsive';

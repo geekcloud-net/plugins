@@ -1,0 +1,2 @@
+title,description,status,author,date,slug,ticket_category,ticket_tag,ticket_status,ticket_milestone,ticket_priority,assigned
+Add importer into Quality Control theme,"<p>I would love to be able to import my Tickets to new website.</p><p>This is the default ticket created by using Quality Control importer. It is for demonstration purposes only and is not a valid ticket.</p>",publish,1,2014-04-06 13:54:09,add-importer-into-qc-theme,Feature,"csv,importer",New,Future Release,Medium,"admin, meloniq"

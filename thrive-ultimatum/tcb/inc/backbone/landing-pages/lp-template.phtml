@@ -1,0 +1,17 @@
+<div class="tve-template-item" data-key="<#= key #>">
+	<div class="template-wrapper" data-key="<#= key #>" data-cloud="<#= typeof cloud === 'undefined'?0:1 #>">
+		<div class="template-thumbnail" data-count="<#= typeof count === 'undefined'?0:count #>" style="background-image: url('<#= thumbnail #>')">
+			<# if(key.indexOf('user-saved-template-') === 0) { #>
+			<div class="template-thumbnail-overlay">
+				<div class="tcb-right margin-right-5 tcb-delete-saved-template click">
+					<?php tcb_icon( 'trash', false ); ?>
+				</div>
+			</div>
+			<# } #>
+		</div>
+		<div class="template-name">
+			<#= name #>
+		</div>
+		<div class="selected"></div>
+	</div>
+</div>

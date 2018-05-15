@@ -1,0 +1,4 @@
+<input <#= ids && _.contains(ids, item.get('ID')) ? 'checked="checked"' : '' #> type="checkbox" id="tvu-lead-conversion-<#= item.get('ID') #>" value="<#= item.get('ID') #>" class="tvu-lead-conversion" />
+<label for="tvu-lead-conversion-<#= item.get('ID') #>">
+    <#= item.get('post_title') #>
+</label>

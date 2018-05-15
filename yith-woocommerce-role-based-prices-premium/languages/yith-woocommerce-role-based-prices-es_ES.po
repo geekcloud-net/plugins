@@ -1,0 +1,834 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Role Based Prices\n"
+"POT-Creation-Date: 2018-02-28 11:22+0100\n"
+"PO-Revision-Date: 2018-02-28 11:31+0100\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;_ngettext_noop:1,2;"
+"_n_nooop:1,2;_c,_nc:4c,1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class.yith-role-based-prices-admin.php:156
+msgid "Deleted!"
+msgstr ""
+
+#: ../includes/class.yith-role-based-prices-post-type.php:66
+msgid "YITH WooCommerce Role Based Prices"
+msgstr "YITH WooCommerce Role Based Prices"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:158
+msgctxt "post type general name"
+msgid "YITH WooCommerce Role Based Prices"
+msgstr "YITH WooCommerce Role Based Prices"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:159
+msgctxt "post type singular name"
+msgid "Role Based Prices"
+msgstr "Role Based Prices"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:160
+msgid "Role Based Prices"
+msgstr "Role Based Prices"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:161
+msgid "Parent Item:"
+msgstr "Ítem padre"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:162
+msgid "All role based prices"
+msgstr "Todos los precios basados en el rol"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:163
+msgid "View role based price"
+msgstr "Ver precio basado en el rol"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:164
+#: ../includes/class.yith-role-based-prices-post-type.php:165
+msgid "Add new role based price"
+msgstr "Añadir un nuevo precio basado en el rol"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:166
+msgid "Edit role based price"
+msgstr "Editar precio basado en el rol"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:167
+msgid "Update role based price"
+msgstr "Actualizar precio basado en el rol"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:168
+msgid "Search role based price"
+msgstr "Buscar precio basado el rol"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:169
+msgid "No role based price found"
+msgstr "No se encontraron precios basados el rol"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:170
+msgid "No role based price found in Trash"
+msgstr "No se encontraron precios basados en el rol en la papelera"
+
+#: ../includes/class.yith-role-based-prices-post-type.php:221
+msgid "Back to rules"
+msgstr "Volver a las reglas"
+
+#: ../includes/class.yith-role-based-prices-product.php:391
+msgid "There are some price rules for this product"
+msgstr "Hay algunas reglas de precio para este producto"
+
+#: ../includes/class.yith-role-based-prices-product.php:881
+msgid "Free!"
+msgstr "¡Gratis!"
+
+#: ../includes/class.yith-role-based-prices-product.php:1437
+msgid "Sorry, this product cannot be purchased."
+msgstr "Lo siento, este producto no puede ser comprado."
+
+#: ../includes/class.yith-role-based-prices-table.php:21
+msgctxt "yith-woocommerce-role-based-prices"
+msgid "price rule"
+msgstr "Regla de precio"
+
+#: ../includes/class.yith-role-based-prices-table.php:23
+msgctxt "yith-woocommerce-role-based-prices"
+msgid "price rules"
+msgstr "Reglas de precio"
+
+#: ../includes/class.yith-role-based-prices-table.php:39
+#: ../templates/metaboxes/view/product-single-rule.php:46
+#: ../templates/metaboxes/view/product-variation-single-rule.php:46
+msgid "Rule name"
+msgstr "Nombre de regla"
+
+#: ../includes/class.yith-role-based-prices-table.php:40
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:32
+msgid "Rule type"
+msgstr "Tipo de regla"
+
+#: ../includes/class.yith-role-based-prices-table.php:41
+msgid "User role"
+msgstr "Rol de usuario"
+
+#: ../includes/class.yith-role-based-prices-table.php:42
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:70
+#: ../templates/metaboxes/view/product-single-rule.php:75
+#: ../templates/metaboxes/view/product-variation-single-rule.php:72
+msgid "Discount or markup"
+msgstr "Descuento o margen"
+
+#: ../includes/class.yith-role-based-prices-table.php:43
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:98
+msgid "Priority"
+msgstr "Prioridad"
+
+#: ../includes/class.yith-role-based-prices-table.php:44
+msgid "Active rule"
+msgstr "Regla activa"
+
+#: ../includes/class.yith-role-based-prices-table.php:45
+msgid "Author"
+msgstr "Autor"
+
+#: ../includes/class.yith-role-based-prices-table.php:46
+msgid "Date"
+msgstr "Fecha"
+
+#: ../includes/class.yith-role-based-prices-table.php:60
+msgid "All"
+msgstr "Todo"
+
+#: ../includes/class.yith-role-based-prices-table.php:61
+msgid "Published"
+msgstr "Publicados"
+
+#: ../includes/class.yith-role-based-prices-table.php:62
+msgid "Mine"
+msgstr "Mío "
+
+#: ../includes/class.yith-role-based-prices-table.php:63
+#: ../includes/class.yith-role-based-prices-table.php:144
+msgid "Trash"
+msgstr "Papelera"
+
+#: ../includes/class.yith-role-based-prices-table.php:138
+msgid "Restore"
+msgstr "Restaurar"
+
+#: ../includes/class.yith-role-based-prices-table.php:141
+msgid "Delete permanently"
+msgstr "Eliminar permanentemente"
+
+#: ../includes/class.yith-role-based-prices-table.php:143
+#: ../includes/class.yith-role-based-prices-table.php:148
+msgid "Edit"
+msgstr "Editar"
+
+#: ../includes/class.yith-role-based-prices-table.php:157
+msgid "All Products"
+msgstr "Todos los productos"
+
+#: ../includes/class.yith-role-based-prices-table.php:159
+msgid "Product Category"
+msgstr "Categoría de productos"
+
+#: ../includes/class.yith-role-based-prices-table.php:166
+msgid "Product Tag"
+msgstr "Etiqueta del producto"
+
+#: ../includes/class.yith-role-based-prices-table.php:199
+#: ../includes/class.yith-role-based-prices-table.php:201
+msgid "discount"
+msgstr "descuento"
+
+#: ../includes/class.yith-role-based-prices-table.php:203
+#: ../includes/class.yith-role-based-prices-table.php:205
+msgid "markup"
+msgstr "margen"
+
+#: ../includes/class.yith-role-based-prices-table.php:222
+msgid "Enabled"
+msgstr "Activado"
+
+#: ../includes/class.yith-role-based-prices-table.php:225
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: ../includes/class.yith-role-based-prices-table.php:290
+msgid "Delete"
+msgstr "Borrar"
+
+#: ../includes/class.yith-role-based-prices.php:117
+msgid "Settings"
+msgstr "Ajustes"
+
+#: ../includes/class.yith-role-based-prices.php:119
+msgid "Live demo"
+msgstr "Demo en vivo"
+
+#: ../includes/class.yith-role-based-prices.php:144
+msgid "Plugin documentation"
+msgstr "Documentación del plugin"
+
+#: ../includes/class.yith-role-based-prices.php:201
+#: ../plugin-options/general-settings-options.php:12
+msgid "General settings"
+msgstr "Ajustes generales"
+
+#: ../includes/class.yith-role-based-prices.php:202
+#: ../plugin-options/user-settings-options.php:31
+msgid "User settings"
+msgstr "Ajustes de usuario"
+
+#: ../includes/class.yith-role-based-prices.php:203
+#: ../includes/third-party/class.compatibility-role-based-prices-multivendor.php:147
+#: ../templates/admin/price-rules.php:19
+msgid "Price rules"
+msgstr "Reglas de precio"
+
+#: ../includes/class.yith-role-based-prices.php:204
+#: ../plugin-options/text-role-options.php:19
+msgid "Label settings"
+msgstr "Ajustes de etiqueta"
+
+#: ../includes/class.yith-role-based-prices.php:210
+#: ../includes/class.yith-role-based-prices.php:211
+msgid "Role based prices"
+msgstr "Role Based Prices"
+
+#: ../includes/class.yith-role-based-prices.php:242
+msgid "Your Inspiration Themes"
+msgstr "Your Inspiration Themes"
+
+#: ../includes/class.yith-role-based-prices.php:246
+msgid "Plugin Documentation"
+msgstr "Documentación del plugin"
+
+#: ../includes/class.yith-role-based-prices.php:250
+msgid "Live Demo"
+msgstr "Demo en vivo"
+
+#: ../includes/class.yith-role-based-prices.php:254
+msgid "Support platform"
+msgstr "Plataforma de soporte"
+
+#: ../includes/class.yith-role-based-prices.php:273
+msgid "Role-based Prices Premium has new options !"
+msgstr "Role-based Prices Premium tiene nuevas opciones"
+
+#: ../includes/functions.yith-wc-role-based-prices.php:17
+msgid "Guest"
+msgstr "Invitado"
+
+#: ../includes/third-party/class.compatibility-role-based-prices-multivendor.php:154
+#: ../includes/third-party/class.compatibility-role-based-prices-multivendor.php:155
+msgid "All Role Based Prices"
+msgstr "Todos los precios basados en el rol"
+
+#: ../init.php:34
+msgid ""
+"YITH WooCommerce Role Based Prices Premium is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Role Based Prices Premium está activado pero no es "
+"efectivo. Requiere WooCommerce para funcionar."
+
+#: ../plugin-options/general-settings-options.php:5
+msgid ""
+"By selecting Regular Price, the new prices will be calculated on the product "
+"base price, otherwise on the sale price (if available)"
+msgstr ""
+"Al seleccionar el Precio Normal, los nuevos precios se calcularán sobre el "
+"precio base del producto, de lo contrario sobre el precio rebajado (si está "
+"disponible)"
+
+#: ../plugin-options/general-settings-options.php:17
+msgid "Apply price rule on"
+msgstr "Aplicar regla de precio en"
+
+#: ../plugin-options/general-settings-options.php:22
+#: ../plugin-options/text-role-options.php:28
+msgid "Regular Price"
+msgstr "Precio Normal"
+
+#: ../plugin-options/general-settings-options.php:23
+msgid "On Sale Price"
+msgstr "Precio Rebajado"
+
+#: ../plugin-options/general-settings-options.php:28
+msgid "Role based Prices transient"
+msgstr "Transient de Role Based Prices"
+
+#: ../plugin-options/general-settings-options.php:29
+msgid "This tool will clear the plugin transients cache."
+msgstr "Exta herramiento limpiará el caché de los transients del plugin"
+
+#: ../plugin-options/general-settings-options.php:34
+msgid "Clear Transient"
+msgstr "Limpiar transient"
+
+#: ../plugin-options/text-role-options.php:6
+#: ../plugin-options/user-settings-options.php:6
+msgid "Before product name"
+msgstr "Antes del nombre del producto"
+
+#: ../plugin-options/text-role-options.php:7
+#: ../plugin-options/user-settings-options.php:7
+msgid "Before price"
+msgstr "Antes del precio"
+
+#: ../plugin-options/text-role-options.php:8
+#: ../plugin-options/user-settings-options.php:8
+msgid "Before product excerpt"
+msgstr "Antes del extracto del producto"
+
+#: ../plugin-options/text-role-options.php:9
+#: ../plugin-options/user-settings-options.php:9
+msgid "Before Add to Cart"
+msgstr "Antes de Añadir al carrito"
+
+#: ../plugin-options/text-role-options.php:10
+#: ../plugin-options/user-settings-options.php:10
+msgid "Before meta"
+msgstr "Antes de meta"
+
+#: ../plugin-options/text-role-options.php:11
+#: ../plugin-options/user-settings-options.php:11
+msgid "Before sharing buttons"
+msgstr "Antes de compartir los botones"
+
+#: ../plugin-options/text-role-options.php:24
+msgid "Regular Price text"
+msgstr "Texto de Precio Normal"
+
+#: ../plugin-options/text-role-options.php:27
+msgid "This text appears next to regular price"
+msgstr "Este texto aparece junto a un precio normal"
+
+#: ../plugin-options/text-role-options.php:31
+msgid "On Sale Price text"
+msgstr "Texto de Precio Rebajado"
+
+#: ../plugin-options/text-role-options.php:34
+msgid "This text appears next to on sale price"
+msgstr "Este texto aparece junto a un precio rebajado"
+
+#: ../plugin-options/text-role-options.php:35
+#: ../plugin-options/user-settings-options.php:16
+#: ../templates/admin/show-prices-user-role.php:9
+msgid "On sale price"
+msgstr "Precio rebajado"
+
+#: ../plugin-options/text-role-options.php:38
+msgid "Role Price text"
+msgstr "Texto de Precio de Rol"
+
+#: ../plugin-options/text-role-options.php:41
+msgid "This text appears next to role-based price"
+msgstr "Este texto aparece junto a un precio basado en el rol"
+
+#: ../plugin-options/text-role-options.php:42
+msgid "role-based price"
+msgstr "precio basado en el rol"
+
+#: ../plugin-options/text-role-options.php:45
+msgid "Price Display incl. tax Suffix:"
+msgstr "Pantalla de precios impuesto incluido:"
+
+#: ../plugin-options/text-role-options.php:49
+#: ../plugin-options/text-role-options.php:56
+msgid "Define text to show after price"
+msgstr "Definir texto para mostrar después del precio"
+
+#: ../plugin-options/text-role-options.php:52
+msgid "Price Display excl. tax Suffix:"
+msgstr "Visualización de precios impuesto excluido:"
+
+#: ../plugin-options/text-role-options.php:60
+msgid "Alternative text shown to users"
+msgstr "Texto alternativo mostrado a los usuarios"
+
+#: ../plugin-options/text-role-options.php:64
+msgid ""
+"This text will be shown in place of price if all prices (regular,on sale and "
+"role-based price) are hidden to a specific user role"
+msgstr ""
+"Este texto se mostrará en lugar del precio si todos los precios (normal, "
+"rebajado y el precio basado en el rol) están ocultos a un rol de usuario "
+"específico"
+
+#: ../plugin-options/text-role-options.php:70
+msgid " Show in"
+msgstr "Mostrar en"
+
+#: ../plugin-options/text-role-options.php:80
+msgid "Alternative text color"
+msgstr "Color alternativo de texto"
+
+#: ../plugin-options/text-role-options.php:93
+msgid "Total discount/markup settings"
+msgstr "Ajustes de descuento/margen total"
+
+#: ../plugin-options/text-role-options.php:98
+msgid "Total discount message"
+msgstr "Mensaje de descuento total"
+
+#: ../plugin-options/text-role-options.php:101
+msgid ""
+"This text appears below the role-based price (if any) and shows the total "
+"discount users with a specific role will see on the product."
+msgstr ""
+"Este texto aparece debajo del precio basado en el rol (si existe) y muestra "
+"el total de usuarios con un rol específico que verán en el producto."
+
+#: ../plugin-options/text-role-options.php:103
+msgctxt "Your total discount is 30%"
+msgid "Your total discount is"
+msgstr "Tu descuento total es"
+
+#: ../plugin-options/text-role-options.php:104
+msgid "{ywcrbp_total_discount} replaced with the total discount"
+msgstr "{ywcrbp_total_discount} sustituido por el descuento total"
+
+#: ../plugin-options/text-role-options.php:108
+msgid "Total markup message"
+msgstr "Mensaje del margen total"
+
+#: ../plugin-options/text-role-options.php:111
+msgid ""
+"This text appears below the role based price (if any) and shows the total "
+"markup users with a specific role will see on the product."
+msgstr ""
+"Este texto aparece debajo del precio basado en el rol (si existe) y muestra "
+"el número total de usuarios con un rol específico que verá en el producto."
+
+#: ../plugin-options/text-role-options.php:113
+msgctxt "The total markup on this product is 30%"
+msgid "The total markup on this product is"
+msgstr "El margen de beneficio total de este producto es"
+
+#: ../plugin-options/text-role-options.php:114
+msgid "{ywcrbp_total_markup} replaced with the total markup"
+msgstr "{ywcrbp_total_markup} sustituido por el margen total"
+
+#: ../plugin-options/user-settings-options.php:15
+#: ../templates/admin/show-prices-user-role.php:8
+msgid "Regular price"
+msgstr "Precio normal"
+
+#: ../plugin-options/user-settings-options.php:16
+#: ../templates/admin/show-prices-user-role.php:10
+msgid "Role-based price"
+msgstr "Precio basado en el rol"
+
+#: ../plugin-options/user-settings-options.php:17
+#: ../templates/admin/show-prices-user-role.php:11
+msgid "Add to Cart"
+msgstr "Añadir al carrito"
+
+#: ../plugin-options/user-settings-options.php:17
+#: ../templates/admin/show-prices-user-role.php:12
+msgid "Show Price Incl Tax"
+msgstr "Mostras precio con impuestos incluidos"
+
+#: ../templates/admin/show-prices-user-role.php:13
+msgid "Show total discount/markup ( % )"
+msgstr "Mostrar descuento/margen total (%)"
+
+#: ../templates/admin/show-prices-user-role.php:47
+msgid ""
+"Use this table to set what to show to each user role. You can choose whether "
+"to display regular price, on-sale price, role-based price and Add to cart "
+"button."
+msgstr ""
+"Utiliza esta tabla para establecer qué mostrar a cada función de usuario. "
+"Puede elegir si desea mostrar el precio normal, el precio rebajado, el "
+"precio basado en el rol y el botón Añadir al carrito."
+
+#: ../templates/admin/show-prices-user-role.php:48
+msgid ""
+"Attention: whether you show it or not, Role-based price is the actual price "
+"that users are charged of."
+msgstr ""
+"Atención: si lo muestra o no, el precio basado en el rol es el precio real "
+"que se cobra a los usuarios."
+
+#: ../templates/admin/show-prices-user-role.php:53
+msgid "Example 1"
+msgstr "Ejemplo 1"
+
+#: ../templates/admin/show-prices-user-role.php:54
+msgid "Case 1"
+msgstr "Caso 1"
+
+#: ../templates/admin/show-prices-user-role.php:57
+msgid ""
+"In a case like the above one, guests will neither be shown price nor \"Add "
+"to cart\" button."
+msgstr ""
+"En un caso como el anterior, los invitados no se mostrarán el precio ni el "
+"botón \"Añadir al carrito\"."
+
+#: ../templates/admin/show-prices-user-role.php:58
+msgid ""
+"As all prices are hidden (regular, on-sale and role-based price), the "
+"alternative text will be shown."
+msgstr ""
+"Como todos los precios están ocultos (precio normal, rebajado y basado en el "
+"rol), se mostrará el texto alternativo."
+
+#: ../templates/admin/show-prices-user-role.php:64
+msgid "Example 2"
+msgstr "Ejemplo 2"
+
+#: ../templates/admin/show-prices-user-role.php:65
+msgid "Case 2"
+msgstr "Caso 2"
+
+#: ../templates/admin/show-prices-user-role.php:67
+msgid ""
+"In the above example, guests can see regular price, on-sale price, \"Add to "
+"cart\" button, but they are not shown their role-based price."
+msgstr ""
+"En el ejemplo anterior, los clientes pueden ver el precio normal, el precio "
+"rebajado, el botón \"Añadir al carrito\", pero no se muestra su precio "
+"basado en el rol."
+
+#: ../templates/admin/show-prices-user-role.php:68
+msgid ""
+" Consider that if a price rule has been set for the role \"Guests\", whether "
+"you show it or not, Role-based price is the actual price that users are "
+"charged of during checkout."
+msgstr ""
+" Considere que si se ha establecido una regla de precio para el rol "
+"\"Invitados\", tanto si lo muestra como si no, el precio basado en rol es el "
+"precio real que se cobra a los usuarios durante la compra."
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:5
+msgid "Set rule visibility"
+msgstr "Establecer regla de visibilidad"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:6
+msgid "If Global, the rule applies to all products"
+msgstr "Si existe la opción Global, la regla se aplica a todos los productos"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:7
+msgid "If Product Category, the rule applies to selected categories"
+msgstr ""
+"Si existe Categoría de producto, la regla se aplica a las categorías "
+"seleccionadas"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:8
+msgid "If Product Tag, the rule applies to selected tags"
+msgstr ""
+"Si existe Etiqueta de Producto, la regla se aplica a las etiquetas "
+"seleccionadas"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:12
+msgid "Price rule settings"
+msgstr "Ajustes de regla de precios"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:18
+msgid "Price rule"
+msgstr "Regla de precio"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:22
+msgid "Apply rule to"
+msgstr "Aplicar regla a"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:35
+msgid "All products"
+msgstr "Todos los productos"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:36
+msgid "Product category"
+msgstr "Categoría del producto"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:37
+msgid "Product tag"
+msgstr "Etiqueta del producto"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:42
+msgid "Select categories"
+msgstr "Seleccionar categorías"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:43
+msgid "Select product categories to which the rule applies"
+msgstr "Selecciona las categorías de productos a las que se aplica la regla"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:55
+msgid "Select tags"
+msgstr "Seleccionar etiquetas"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:56
+msgid "Select product tags to which the rule applies"
+msgstr "Seleccionar las etiquetas del producto a las que se aplica la regla"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:74
+#: ../templates/metaboxes/product-rules.php:8
+#: ../templates/metaboxes/product-variation-rules.php:8
+msgid "Discount %"
+msgstr "% de descuento"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:75
+#: ../templates/metaboxes/product-rules.php:9
+#: ../templates/metaboxes/product-variation-rules.php:9
+msgid "Discount "
+msgstr "Descuento"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:76
+#: ../templates/metaboxes/product-rules.php:10
+#: ../templates/metaboxes/product-variation-rules.php:10
+msgid "Markup %"
+msgstr "% de margen"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:77
+#: ../templates/metaboxes/product-rules.php:11
+#: ../templates/metaboxes/product-variation-rules.php:11
+msgid "Markup "
+msgstr "Margen"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:82
+msgid "Price"
+msgstr "Precio"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:83
+msgid "Enter an amount to be removed or added to regular price."
+msgstr "Ingrese una cantidad a ser removida o agregada al precio normal."
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:90
+#: ../templates/metaboxes/view/product-single-rule.php:32
+#: ../templates/metaboxes/view/product-variation-single-rule.php:33
+msgid "Value"
+msgstr "Valor"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:91
+msgid "Enter a percent value to calculate discount or markup."
+msgstr ""
+"Introduzca un valor de porcentaje para calcular el descuento o el margen de "
+"beneficio."
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:99
+msgid ""
+"If more than one rule of the same type (Global, product category or product "
+"tag) are created for the same user role, priority allows you to create an "
+"order for rules to be applied. Ex. A priority 1 rule will be applied before "
+"a priority 10 rule."
+msgstr ""
+"Si se crea más de una regla del mismo tipo (Global, categoría de producto o "
+"etiqueta de producto) para el mismo rol, la prioridad permite crear un orden "
+"de reglas a aplicar. Ej. Una regla de prioridad 1 se aplicará antes de una "
+"regla de prioridad 10."
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:105
+msgid "Activate Rule"
+msgstr "Activar regla"
+
+#: ../templates/metaboxes/price-rules-metaboxes-options.php:108
+msgid "Activate or deactivate the rule"
+msgstr "Activar o desactivar la regla"
+
+#: ../templates/metaboxes/product-rules.php:23
+#: ../templates/metaboxes/product-variation-rules.php:42
+msgid "Expand"
+msgstr "Expandir"
+
+#: ../templates/metaboxes/product-rules.php:23
+#: ../templates/metaboxes/product-variation-rules.php:42
+msgid "Close"
+msgstr "Cerrar"
+
+#: ../templates/metaboxes/product-rules.php:25
+msgid "Add a role based price rule"
+msgstr "Añadir una regla de precio basada en el rol"
+
+#: ../templates/metaboxes/product-rules.php:27
+#: ../templates/metaboxes/product-variation-rules.php:22
+msgid "Select an option"
+msgstr "Selecciona una opción"
+
+#: ../templates/metaboxes/product-rules.php:32
+#: ../templates/metaboxes/product-variation-rules.php:27
+msgid "Add"
+msgstr "Añadir"
+
+#: ../templates/metaboxes/product-rules.php:38
+#: ../templates/metaboxes/product-variation-rules.php:32
+msgid "Use only the rules below"
+msgstr "Usa sólo las reglas abajo"
+
+#: ../templates/metaboxes/product-rules.php:42
+#: ../templates/metaboxes/product-variation-rules.php:36
+msgid "Override rules created for the same user role"
+msgstr "Reglas de anulación creadas para el mismo rol de usuario"
+
+#: ../templates/metaboxes/product-variation-rules.php:20
+msgid "Add role-based price rule"
+msgstr "Añadir regla de precio role-based"
+
+#: ../templates/metaboxes/view/product-single-rule.php:37
+#: ../templates/metaboxes/view/product-variation-single-rule.php:39
+msgid "Remove"
+msgstr "Eliminar"
+
+#: ../templates/metaboxes/view/product-single-rule.php:47
+#: ../templates/metaboxes/view/product-variation-single-rule.php:47
+msgid "Name your rule"
+msgstr "Nombra tu regla"
+
+#: ../templates/metaboxes/view/product-single-rule.php:52
+#: ../templates/metaboxes/view/product-variation-single-rule.php:50
+msgid "Apply to"
+msgstr "Aplicar a"
+
+#: ../templates/metaboxes/view/product-single-rule.php:53
+#: ../templates/metaboxes/view/product-variation-single-rule.php:51
+msgid "Select user role"
+msgstr "Seleccionar rol de usuario"
+
+#: ../templates/metaboxes/view/product-single-rule.php:69
+#: ../templates/metaboxes/view/product-variation-single-rule.php:66
+msgid "Discount"
+msgstr "Descuento"
+
+#: ../templates/metaboxes/view/product-single-rule.php:72
+#: ../templates/metaboxes/view/product-variation-single-rule.php:69
+msgid "Markup"
+msgstr "Margen"
+
+#: ../templates/sidebar_widget/yith-role-based-new-options.php:7
+msgid "With YITH Role-based Prices v. 1.0.4 you can:"
+msgstr ""
+
+#: ../templates/sidebar_widget/yith-role-based-new-options.php:9
+msgid "Show prices with or without tax for user role!"
+msgstr "¡Mostrar precios con o sin impuesto por rol de usuario!"
+
+#: ../templates/sidebar_widget/yith-role-based-new-options.php:10
+msgid "Change all prices label!"
+msgstr "¡Cambie la etiqueta de todos los precios!"
+
+#: ../templates/sidebar_widget/yith-role-based-new-options.php:11
+msgid "Add prices suffix! for example"
+msgstr "¡Agregue el sufijo de los precios! por ejemplo"
+
+#~ msgid "Please enter in decimal (%s) format without thousand separators."
+#~ msgstr "Escribe en forma decimal (%s) sin separador de miles."
+
+#~ msgid ""
+#~ "Please enter in monetary decimal (%s) format without thousand separators "
+#~ "and currency symbols."
+#~ msgstr ""
+#~ "Escribe en formato monetario decimal (%s) sin separador de miles ni "
+#~ "símbolos de monedas"
+
+#~ msgid "Please enter in country code with two capital letters."
+#~ msgstr "Por favor, ingrese el código del país con dos letras mayúsculas."
+
+#~ msgid "Please enter in a value less than the regular price."
+#~ msgstr "Introduce un valor inferior al precio normal."
+
+#~ msgctxt "enhanced select"
+#~ msgid "One result is available, press enter to select it."
+#~ msgstr "Hay un resultado disponible, pulse enter para seleccionarlo."
+
+#~ msgctxt "enhanced select"
+#~ msgid "%qty% results are available, use up and down arrow keys to navigate."
+#~ msgstr ""
+#~ "% Qty% de resultados están disponibles, use las teclas de flecha arriba y "
+#~ "abajo para navegar."
+
+#~ msgctxt "enhanced select"
+#~ msgid "No matches found"
+#~ msgstr "No se encontraron coincidencias"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Loading failed"
+#~ msgstr "Error de carga"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please enter 1 or more characters"
+#~ msgstr "Ingrese 1 o más caracteres"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please enter %qty% or more characters"
+#~ msgstr "Por favor, ingrese %qty% o más caracteres"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete 1 character"
+#~ msgstr "Por favor, elimina 1 caracter"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete %qty% characters"
+#~ msgstr "Elimine %qty% caracteres"
+
+#~ msgctxt "enhanced select"
+#~ msgid "You can only select 1 item"
+#~ msgstr "Sólo puedes seleccionar 1 item"
+
+#~ msgctxt "enhanced select"
+#~ msgid "You can only select %qty% items"
+#~ msgstr "Sólo puedes seleccionar %qty% items"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Loading more results&hellip;"
+#~ msgstr "Cargando más resultados&hellip;"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Searching&hellip;"
+#~ msgstr "Buscando&hellip;"
+
+#~ msgctxt "Price range: from-to"
+#~ msgid "%1$s&ndash;%2$s"
+#~ msgstr "%1$s&ndash;%2$s"
+
+#~ msgid "With YITH Role-based Prices v1.0.4 is possible:"
+#~ msgstr "Con la versión 1.0.4 YITH Role-based Prices es posible:"

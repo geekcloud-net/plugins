@@ -1,0 +1,532 @@
+/*** Clear Fix ***/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.Hidden {
+	display: none;
+}
+
+.woocommerce_page_aelia_cs_options_page h4 {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.woocommerce_page_aelia_cs_options_page strong {
+	font-weight: bold;
+}
+
+.woocommerce_page_aelia_cs_options_page li p {
+	font-weight: normal;
+	margin-top: 0.5em;
+}
+
+.woocommerce_page_aelia_cs_options_page #section-usage_section ul {
+	list-style: disc;
+	list-style-position: inside;
+}
+
+.woocommerce_page_aelia_cs_options_page #section-support_section h3#debug_mode {
+	width: 20em;
+	margin: 0.5em 0 0 0;
+}
+
+.woocommerce_page_aelia_cs_options_page .help-icon {
+	font-family: 'WooCommerce';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	margin-left: 5px;
+}
+
+.woocommerce_page_aelia_cs_options_page .help-icon:before {
+	content: "\e018";
+}
+
+.woocommerce_page_aelia_cs_options_page .numeric {
+	text-align: right;
+}
+
+.woocommerce_page_aelia_cs_options_page .form-table tbody th {
+	width: 30%;
+}
+
+.woocommerce_page_aelia_cs_options_page .wc_aelia.message_header {
+	margin: 1em 0 0 0;
+}
+
+.woocommerce_page_aelia_cs_options_page .wc_aelia.important,
+.woocommerce_page_aelia_cs_options_page .wc_aelia.plugin_id {
+	font-weight: bold;
+}
+
+.woocommerce_page_aelia_cs_options_page .notice-warning {
+	border-left: 3px solid #DD3D36;
+	padding-left: 4px;
+}
+
+.woocommerce_page_aelia_cs_options_page .settings-section {
+	/*border: 1px solid red;*/
+}
+
+.woocommerce_page_aelia_cs_options_page .settings-section th {
+	padding: 10px 0;
+}
+
+.woocommerce_page_aelia_cs_options_page .settings-section td {
+	padding: 0 0 10px 0;
+}
+
+
+.woocommerce_page_aelia_cs_options_page .settings-section h3 {
+	margin: 0;
+	padding-top: 1em;
+}
+
+.woocommerce_page_aelia_cs_options_page .settings-section > .form-table tbody th[scope="row"] {
+	padding-top: 0;
+}
+
+.woocommerce_page_aelia_cs_options_page .settings-section > .form-table tbody th[scope="row"] label {
+	font-weight: normal;
+}
+
+#aelia_cs_order_currency_box .order-currency {
+	font-size: large;
+	margin: 0.5em 0 0 0;
+}
+
+#wc_aelia_currency_switcher_form div.Separator {
+	border-top: 1px dashed black;
+	margin-top: 16px;
+}
+
+#wc_aelia_currency_switcher_form .ui-tabs .ui-tabs-panel {
+	padding: 0 0.5em;
+}
+
+#wc_aelia_currency_switcher_form .ui-widget {
+	font-family: sans-serif;
+}
+
+#wc_aelia_currency_switcher_form .enabled_currencies {
+	width: 35em;
+	height: 15em;
+}
+
+#wc_aelia_currency_switcher_form .buttons {
+	margin-top: 2em;
+}
+
+#wc_aelia_currency_switcher_form .buttons input {
+	margin-right: 1em;
+}
+
+#wc_aelia_currency_switcher_form #next_exchange_rates_update,
+#wc_aelia_currency_switcher_form #last_exchange_rates_update {
+	font-weight: bold;
+}
+
+
+/* Currency Exchange Rates table */
+#section-exchange_rates_section .form-table tbody th[scope="row"] {
+	display: none;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings {
+	border-collapse: collapse;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings th {
+	font-weight: bold;
+	padding: 0 8px 4px;
+	border-bottom: 1px solid #aaa;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings td {
+	padding: 4px 8px;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings td input.numeric {
+	width: 100%;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings tbody .numeric {
+	text-align: right;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .currency_name {
+	width: 15em;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .exchange_rate {
+	width: 11em;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .rate_markup {
+	width: 10em;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .set_manually {
+	width: 9em;
+	text-align: center;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .set_manually .selectors {
+	cursor: pointer;
+	font-size: 90%;
+	font-weight: normal;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .set_manually .selectors span {
+	text-decoration: underline;
+	margin: 0 4px;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .thousand_separator,
+#wc_aelia_currency_switcher_form #exchange_rates_settings .decimal_separator,
+#wc_aelia_currency_switcher_form #exchange_rates_settings .thousand_separator input,
+#wc_aelia_currency_switcher_form #exchange_rates_settings .decimal_separator input {
+	width: 5em;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .decimals {
+	width: 7em;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .symbol,
+#wc_aelia_currency_switcher_form #exchange_rates_settings .symbol input {
+	width: 5em;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .symbol_position {
+	width: 24em;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .symbol_position select {
+	width: 100%;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings #set_manually_all {
+	margin-left: 1em;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings .sort {
+	width: 0.5em;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings tbody td {
+	border-top: 1px dashed silver;
+	border-bottom: 1px dashed silver;
+}
+
+/* Sortable handle element */
+#wc_aelia_currency_switcher_form #exchange_rates_settings thead .sort,
+#wc_aelia_currency_switcher_form #exchange_rates_settings tbody .sort {
+	padding: 4px 0;
+	cursor: move;
+	position: relative;
+	/*background: #F9F9F9;*/
+	text-align: center;
+}
+
+#wc_aelia_currency_switcher_form #exchange_rates_settings tbody .sort:before {
+  color: #999999;
+  content: "";
+  display: inline-block;
+  /*float: left;*/
+  font-family: WooCommerce;
+  height: 100%;
+  line-height: 1;
+  text-align: center;
+  width: 17px;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+/* Open Exchange Rates settings */
+#wc_aelia_currency_switcher\[openexchange_api_key\] {
+	width: 30em;
+}
+
+/* Currency Payment Gateways settings */
+#wc_aelia_currency_switcher_form #payment_gateways_settings {
+	width: 90%;
+}
+
+#wc_aelia_currency_switcher_form #payment_gateways_settings th {
+	padding: 4px 0;
+	font-weight: bold;
+}
+
+#wc_aelia_currency_switcher_form #section-paymentgateways_section #payment_gateways_settings .currency {
+	width: 15%;
+}
+
+#wc_aelia_currency_switcher_form #section-paymentgateways_section #payment_gateways_settings .payment_gateways {
+	width: 84%;
+}
+
+#wc_aelia_currency_switcher_form #payment_gateways_settings td {
+	padding: 4px 0;
+}
+
+#wc_aelia_currency_switcher_form #payment_gateways_settings td .chosen-container {
+	min-width: 100%;
+}
+
+#wc_aelia_currency_switcher_form #section-paymentgateways_section .form-table tbody th {
+	width: 15em;
+}
+
+#wc_aelia_currency_switcher_form .currency_payment_gateways {
+	width: 40em;
+}
+
+/* Currency selection options */
+#section-currencyselection_widgets_section .form-table tbody th {
+}
+
+/* Support section */
+.support_information #contact_links {
+	list-style: disc inside;
+}
+
+.support_information #contact_links .label {
+	font-weight: bold;
+}
+
+/* Fixes for jQuery Chosen styles */
+.woocommerce_page_aelia_cs_options_page .chosen-container {
+	min-width: 250px;
+}
+
+.woocommerce_page_aelia_cs_options_page .chosen-container-multi .chosen-choices .search-field input,
+.woocommerce_page_aelia_cs_options_page .chzn-container-multi .chzn-choices .search-field input {
+	height: 80%;
+}
+
+/*** Product Currency Pricing ***/
+.wc_aelia_cs_product_prices {
+	/*border: 1px solid red;*/
+	padding-right: 7px;
+}
+
+#poststuff .wc_aelia_cs_product_prices h3 {
+	padding: 7px;
+}
+
+#poststuff .wc_aelia_cs_product_prices .description {
+	margin: 7px;
+	display: block;
+}
+
+.wc_aelia_cs_product_prices input {
+	width: 10em;
+}
+
+.wc_aelia_cs_product_prices .regular_prices,
+.wc_aelia_cs_product_prices .sale_prices {
+	width: 43%;
+	float: left;
+	margin-right: 1em;
+}
+
+.wc_aelia_cs_product_prices input {
+	min-width: 7em;
+}
+
+div.beta-notice {
+	padding: 0.3em 0.5em;
+	font-size: 110%;
+}
+
+.wc_aelia_cs_product_prices .product_base_currency {
+	border: 1px solid #DFDFDF;
+	margin-bottom: 8px;
+}
+
+.wc_aelia_cs_product_prices .product_base_currency label {
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.wc_aelia_cs_product_prices .product_base_currency .warning {
+	margin-top: 8px;
+}
+
+.wc_aelia_cs_product_prices .product_base_currency .important {
+	font-weight: bold;
+	color: #DD3D36;
+}
+
+.wc_aelia_cs_product_prices .product_currency_prices_header {
+	border: 1px solid #DFDFDF;
+	border-bottom: none;
+}
+
+.wc_aelia_cs_product_prices .product_base_currency h3,
+.wc_aelia_cs_product_prices .product_currency_prices_header h3 {
+	border-bottom: 1px solid #DFDFDF;
+}
+
+.wc_aelia_cs_product_prices .prices_wrapper {
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+}
+
+.wc_aelia_cs_product_prices.variation_prices {
+	clear: both;
+}
+
+/*** Orders list page ***/
+tr.type-shop_order .order_total_base_currency {
+	font-style: italic;
+}
+
+
+/*** Reports ***/
+.wc_aelia_currencyswitcher.report.header {
+	border: 1px solid #e1e1e1;
+	background: white;
+	padding: 8px;
+}
+
+.wc_aelia_currencyswitcher.report.header h3 {
+	margin: 0 0 8px 0;
+}
+
+.wc_aelia_currencyswitcher.report.header li {
+	float: left;
+	margin-right: 10px;
+}
+
+.wc_aelia_currencyswitcher.report.header .tips {
+	color: #2EA2CC;
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+.wc_aelia_currencyswitcher.report.header .close {
+	color: #2EA2CC;
+	font-size: 110%;
+	font-weight: normal;
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.wc_aelia_currencyswitcher.report.header .more_info {
+	margin-bottom: 8px;
+	padding: 8px;
+	border: 1px dashed silver;
+}
+
+.wc_aelia_currencyswitcher.report.header .more_info blockquote {
+	background: #fafafa;
+	padding: 8px;
+	border-left: 2px solid #ccc;
+	font-style: italic;
+}
+
+.wc_aelia_currencyswitcher.report thead .column_headers th,
+.wc_aelia_currencyswitcher.report thead .column_headers td {
+	padding: 2px 3px;
+}
+
+.wc_aelia_currencyswitcher.report thead .report_information ul {
+	margin: 0;
+}
+
+.wc_aelia_currencyswitcher.report thead .report_information ul li {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0 10px 0 0;
+	border-right: 1px solid silver;
+}
+
+.wc_aelia_currencyswitcher.report table {
+	border-collapse: collapse;
+	border: 1px solid #e1e1e1;
+}
+
+.wc_aelia_currencyswitcher.report .label {
+	font-weight: bold;
+}
+
+.wc_aelia_currencyswitcher.report .column_group.header {
+	font-weight: bold;
+	text-align: center;
+	border-left: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+}
+
+.wc_aelia_currencyswitcher.report .column_group.left {
+	border-left: 1px solid #e1e1e1;
+}
+
+.wc_aelia_currencyswitcher.report .column_group.right {
+	border-right: 1px solid #e1e1e1;
+}
+
+.wc_aelia_currencyswitcher.report .tax_rate,
+.wc_aelia_currencyswitcher.report .total_row {
+	text-align: right;
+}
+
+.wc_aelia_currencyswitcher.report .country_name {
+	width: 10em;
+}
+
+.wc_aelia_currencyswitcher.report .country_code {
+	width: 5em;
+}
+
+.wc_aelia_currencyswitcher.report .group_header {
+	border: 1px solid #e1e1e1;
+	background: #fcfcfc;
+}
+
+.wc_aelia_currencyswitcher.report .group_header .title {
+	font-weight: bold;
+}
+
+.wc_aelia_currencyswitcher.report .group_header .description {
+	font-size: 90%;
+}
+
+.wc_aelia_currencyswitcher.report #vat-grand-totals th,
+.wc_aelia_currencyswitcher.report #vat-grand-totals td {
+	border-top: 1px solid #e1e1e1;
+}
+
+.wc_aelia_currencyswitcher.report tfoot {
+	border-top: 1px solid #e1e1e1;
+}
+
+#aelia_cs_report_header .options .option_title {
+	margin: 8px 0 4px 0;
+}
+
+#aelia_cs_report_header .options ul {
+	margin: 2px 0 4px;
+}
+
+/*** Coupons ***/
+#multi_currency_coupon_data .title {
+	padding-top: 4px;
+	padding-bottom: 0;
+}

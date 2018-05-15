@@ -1,0 +1,57 @@
+v1.0.7 (April 06, 2018)
+-----------------------------
+- Fixed responsive issues
+
+Files updated:
+- wp-google-translate.php
+- public/css/css-wp-google-translate-public.css
+- includes/class-wp-google-translate.php
+
+v1.0.6 (March 28, 2018)
+-----------------------------
+- Fixed language flags issue
+
+Files updated:
+- wp-google-translate.php
+- includes/class-wp-google-translate.php
+
+v1.0.5 (Nov 16, 2015)
+-----------------------------
+- Fixed 'exclude mobile' option
+
+Files updated:
+- wp-google-translate.php
+- includes/class-wp-google-translate.php
+
+
+v1.0.4 (Oct 7, 2015)
+-----------------------------
+- Corrected Serbian flag
+
+Files updated:
+- wp-google-translate.php
+- includes/class-wp-google-translate.php
+
+
+v1.0.3 (May 30, 2015)
+-----------------------------
+- Added missing Tamil & Telugu languages
+
+Files updated:
+- wp-google-translate.php
+- includes/class-wp-google-translate.php
+
+
+v1.0.2 (May 19, 2015)
+-----------------------------
+- Fixed button corner positioning
+- Fixed one PHP notice
+
+Files updated:
+- wp-google-translate.php
+- includes/class-wp-google-translate.php
+
+
+v1.0 May 13th, 2015
+-------------------------------
+- Plugin Released

@@ -1,0 +1,41 @@
+<nav id="tvu-nav">
+	<div class="nav-wrapper">
+		<div class="tvu-logo tvd-left">
+			<a href="<?php echo admin_url( 'admin.php?page=tve_ult_dashboard' ) ?>"
+			   title="<?php echo __( 'Thrive Ultimatum Home', TVE_Ult_Const::T ) ?>">
+				<img src="<?php echo TVE_Ult_Const::plugin_url() . '/admin/img/tvu-logo-white.png'; ?>"/>
+			</a>
+		</div>
+		<ul class="tvd-right">
+			<li>
+				<a  href="javascript:void(0)" class="tvd-dropdown-button" data-activates="tvu-submenu" data-beloworigin="true" data-hover="false" data-constrainwidth="false">
+					<i class="tvd-icon-settings" style="font-size: 12px;"></i>
+					<?php echo __( 'Settings', TVE_Ult_Const::T ) ?>
+					<i class="tvd-icon-expanded tvd-no-margin-right"></i>
+				</a>
+			</li>
+			<li>
+				<a id="tvd-share-modal" class="tvd-modal-trigger" href="#tvd-modal1"
+				   data-overlay_class="tvd-white-bg" data-opacity=".95">
+					<span class="tvd-icon-heart"></span>
+				</a>
+			</li>
+		</ul>
+		<ul id="tvu-submenu" class="tvd-dropdown-content">
+			<li>
+				<a id="date_time_settings" href="#">
+					<i class="tvu-icon-datetime" style="font-size: 18px;"></i>
+					<?php echo __( 'Date & Time Settings', TVE_Ult_Const::T ) ?>
+				</a>
+			</li>
+			<li>
+				<a id="tu-purge-cache" href="#purge-cache" class="tvd-tooltipped"
+				   data-tooltip="<?php echo __( 'Clear the cache for impressions and conversions displayed for each campaign in Ultimatum Dashboard', TVE_Ult_Const::T ) ?>">
+					<i class="tvd-icon-loop2" style="font-size: 12px;"></i>
+					<?php echo __( 'Purge Cache', TVE_Ult_Const::T ) ?>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<?php include TVE_DASH_PATH . '/templates/share.phtml'; ?>

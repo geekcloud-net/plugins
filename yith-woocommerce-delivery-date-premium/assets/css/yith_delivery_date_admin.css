@@ -1,0 +1,96 @@
+.ywcdd_block{
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+.wp-list-table.timeslots td{
+	vertical-align:middle;
+}
+
+#yith_wcdd_panel_shipping_day .yith-products-select,
+#yith_wcdd_panel_shipping_day .yith-categories-select:not(select),
+#yith_wcdd_panel_shipping_day .yith-deposit-type:not(select),
+#ywcdd_calendar_panel .yith-wcdd-new-holiday:not(select),
+#yith_wcdd_panel_shipping_day input {
+	display: inline-block !important;
+	vertical-align: middle;
+}
+
+#yith_wcdd_panel_shipping_day .yith-wcdd-new-shipping-day-cat,
+#yith_wcdd_panel_shipping_day .yith-wcdd-new-shipping-day-prod,
+#ywcdd_calendar_panel .yith-wcdd-new-holiday-content,
+.yith-new-time-slot{
+	display: inline-block;
+	background: #f9f9f9;
+	border: 1px solid #e5e5e5;
+	padding: 20px;
+	margin-bottom: 20px;
+	-o-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	-ms-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+
+#yith_wcdd_panel_shipping_day .yith-wcdd-new-shipping-day-cat h4,
+#yith_wcdd_panel_shipping_day .yith-wcdd-new-shipping-day-prod h4{
+	margin-top: 0;
+}
+
+#yith_wcdd_panel_shipping_day th.column-type,
+#yith_wcdd_panel_shipping_day th.column-value,
+#yith_wcdp_panel_deposits th.column-actions{
+	width: 20%;
+}
+
+#yith_wcdd_panel_shipping_day th.column-role,
+#yith_wcdd_panel_shipping_day th.column-category {
+	width: 40%;
+}
+
+#ywcdd_general_calendar .fc-view-container{
+	background: #fff;
+}
+
+.how_holiday.wc-enhanced-select{
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.wp-list-table.timeslots .yith_single_multiworkday{
+	display:none;
+}
+
+.fc-event-container a{
+
+	position: relative;
+}
+.ywcdd_delete_calendar{
+	position: absolute;
+	top:5px;
+	right: 5px;
+	z-index:99;
+	cursor: pointer;
+}
+
+.ywcdd_delete_calendar:after{
+	font-family: 'WooCommerce';
+	content: '\e013';
+}
+
+.ywcdd_required_field{
+	border:1px solid red!important;
+}
+
+.yith-wcdd-new-holiday-content .select2 {
+
+    width: 40%!important;
+}
+
+.yith-wcdd-new-holiday-content #yith_event_name {
+    width: 23%;
+}
+
+.yith-wcdd-new-holiday-content #yith_datepicker_from , .yith-wcdd-new-holiday-content #yith_datepicker_to {
+width:14%;
+}

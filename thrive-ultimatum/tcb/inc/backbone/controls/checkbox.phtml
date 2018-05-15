@@ -1,0 +1,8 @@
+<div class="grey-text">
+	<#= this.model.config.name #>
+</div>
+<label class="tcb-checkbox">
+	<input class="tve-checkbox change" type="checkbox" data-fn="check" value="<#= this.model.config.value ? this.model.config.value : 1  #>"
+	<#= this.model.config.default ? 'checked' : '' #>>
+	<span class="grey-text"><#= this.model.config.label #></span>
+</label>

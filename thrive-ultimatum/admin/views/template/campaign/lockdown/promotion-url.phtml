@@ -1,0 +1,8 @@
+<input id="tvu-promotion-url<#= key ? key : 0 #>" class="tvd-no-focus tvu-promotion-url" type="text" value="<#= model.get('value') ? model.get('value') : '' #>"
+<#= key && key > 0 ? '' : 'data-field="promotion"' #>
+       data-allow-regex="^http(s)?:\/\/">
+<label class=" <#= model.get('value') ? 'tvd-active' : '' #>" for="tvu-promotion-url<#= key ? key : 0 #>"><?php echo __( 'Enter search term to select page', TVE_Ult_Const::T ) ?></label>
+<# if ( key && key > 0) { #>
+	<div class="tvu-close-input tvd-right"><a href="javascript:void(0)" class="tve-ult-remove-button tvd-icon-trash-o"></a></div>
+	<# } #>
+

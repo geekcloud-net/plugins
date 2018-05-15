@@ -1,0 +1,30 @@
+<#if(typeof no_item !== 'undefined' && no_item){#>
+	<div class="list-no-items tcb-text-center"><?php echo __( 'None', 'thrive-cb' ) ?></div>
+<#} else {#>
+	<div class="preview-list-item tcb-relative<#=view.has_settings_icon() ? '' : ' click'#><#=item.get('icon') ? '' : ' no-icon'#>" data-fn="item_click" data-index="<#=item.index#>">
+		<div class="row middle-xs between-xs">
+			<div class="col-xs-2 item-icon">
+				<#=item.get('icon')#>
+			</div>
+			<div class="col-xs-8 tcb-relative item-label">
+				<div class="preview-list-sort-handle clearfix">
+					<span class="col-sep tcb-left"></span>
+					<span class="col-sep tcb-left margin-left-5"></span>
+				</div>
+				<span class="tcb-truncate"><#=item.get('label')#></span>
+			</div>
+			<div class="col-xs-2 clearfix">
+				<div class="tcb-right">
+					<# if (view.has_settings_icon()) { #>
+						<span title="<?php esc_attr_e( 'Settings', 'thrive-cb' ) ?>" class="click" data-fn="item_click" data-index="<#=item.index#>">
+							<?php tcb_icon( 'settings' ) ?>
+						</span>
+					<# } #>
+					<span title="<?php esc_attr_e( 'Remove', 'thrive-cb' ) ?>" class="click" data-fn="item_remove" data-index="<#=item.index#>">
+						<?php tcb_icon( 'close2' ) ?>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+<#}#>

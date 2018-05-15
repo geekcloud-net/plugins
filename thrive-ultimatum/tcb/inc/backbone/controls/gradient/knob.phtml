@@ -1,0 +1,17 @@
+<div class="row middle-xs tve-knob-wrapper">
+	<div class="col-xs-4">
+		<div class="tve-knob small"></div>
+	</div>
+
+	<div class="col-xs-8">
+		<div class="input-control">
+			<span class="input-um tcb-dark" style="display: inline"><#= this.model.config.um.length === 1 ? this.model.config.um[0]:'' #></span>
+			<div data-dir="top" class="handle reverse tcb-dark">
+				<div class="up click" data-fn="up"></div>
+				<div class="down click" data-fn="down"></div>
+			</div>
+			<input type="text" style="max-width: none;text-align:right;padding-right: 45px;" class="tve-input tcb-dark change width-input <#= this.model.config.um.length === 1 ? 'has-um':'' #>" data-fn="onChange" data-fn-input="onInput"
+				   value="<#= this.model.config.default #>">
+		</div>
+	</div>
+</div>

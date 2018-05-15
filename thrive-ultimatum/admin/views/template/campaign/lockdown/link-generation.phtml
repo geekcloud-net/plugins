@@ -1,0 +1,11 @@
+<div class="tvd-col tvd-s12 tvd-m9">
+	<div class="tvd-input-field">
+		<input id="tvu-email-link<#= key || key == 0 ? key : 0 #>" readonly="readonly" class="tvd-no-focus tvu-email-link tvu-lockdown-input" type="text"
+		       value="<#= model.get('link') ? model.get('link') : '' #>">
+	</div>
+</div>
+<div class="tvd-col tvd-s12 tvd-m3 ">
+	<a class="tve-copy-to-clipboard tvu-url-to-copy tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-blue" href="javascript:void(0)">
+		<span class="tvd-copy-text"><?php echo __( 'Copy', TVE_Ult_Const::T ) ?></span>
+	</a>
+</div>

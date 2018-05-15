@@ -1,0 +1,1079 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Blank Pot v1.0.0\n"
+"POT-Creation-Date: 2016-05-23 14:52-0300\n"
+"PO-Revision-Date: \n"
+"Language-Team: Product Development <translations@example.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;"
+"_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../Documents/woocommerce (MAMP)/wp-content/plugins/woo-mercado-pago-module\n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: \n"
+"Language: es_MX\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "This is the <strong>oficial</strong> module of Mercado Pago for WooCommerce plugin. This module enables WooCommerce to use Mercado Pago as a payment Gateway for purchases made in your e-commerce store."
+msgstr ""
+
+msgid "Mercado Pago Settings"
+msgstr ""
+
+msgid "Rate Us"
+msgstr ""
+
+msgid "Tutorial"
+msgstr ""
+
+msgid "Report Issue"
+msgstr ""
+
+msgid "ERROR: It was not possible to convert the unsupported currency"
+msgstr ""
+
+msgid "to"
+msgstr ""
+
+msgid "Currency conversions should be made outside this module."
+msgstr ""
+
+msgid "ATTENTION: The currency"
+msgstr ""
+
+msgid "defined in WooCommerce is different from the one used in your credentials country.<br>The currency for transactions in this payment method will be"
+msgstr ""
+
+msgid "CURRENCY CONVERTED: Your store is converting currency from"
+msgstr ""
+
+msgid "Colombia"
+msgstr ""
+
+msgid "Argentine"
+msgstr ""
+
+msgid "Brazil"
+msgstr ""
+
+msgid "Chile"
+msgstr ""
+
+msgid "Mexico"
+msgstr ""
+
+msgid "Uruguay"
+msgstr ""
+
+msgid "Venezuela"
+msgstr ""
+
+msgid "Peru"
+msgstr ""
+
+msgid "Update WooCommerce order to "
+msgstr ""
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+msgid "WooCommerce is installed and enabled."
+msgstr ""
+
+msgid "You don\'t have WooCommerce installed and enabled."
+msgstr ""
+
+msgid "Your PHP version is OK."
+msgstr ""
+
+msgid "Your PHP version do not support this module. You have %s, minimal required is %s."
+msgstr ""
+
+msgid "cURL is installed."
+msgstr ""
+
+msgid "cURL is not installed."
+msgstr ""
+
+msgid "SSL is missing in your site."
+msgstr ""
+
+msgid "Your site has SSL enabled."
+msgstr ""
+
+msgid "Basic Checkout"
+msgstr ""
+
+msgid "Custom Checkout"
+msgstr ""
+
+msgid "Ticket"
+msgstr ""
+
+msgid "Subscription"
+msgstr ""
+
+msgid "Configure your Client_id and Client_secret to have access to more options."
+msgstr ""
+
+msgid "Define which type of products your store sells."
+msgstr ""
+
+msgid "Your <strong>client_id</strong> and <strong>client_secret</strong> are <strong>valid</strong> for"
+msgstr ""
+
+msgid "Your <strong>client_id</strong> and <strong>client_secret</strong> are <strong>not valid</strong>!"
+msgstr ""
+
+msgid "These credentials are used in <strong>Basic Checkout</strong> and <strong>Subscriptions</strong>. Access it for your country:<br>"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "Your <strong>public_key</strong> and <strong>access_token</strong> are <strong>valid</strong> for"
+msgstr ""
+
+msgid "Your <strong>public_key</strong> and <strong>access_token</strong> are <strong>not valid</strong>!"
+msgstr ""
+
+msgid "These credentials are used in <strong>Custom Checkout</strong> and <strong>Tickets</strong>. Access it for your country:<br>"
+msgstr ""
+
+msgid "This module enables WooCommerce to use Mercado Pago as payment method for purchases made in your virtual store."
+msgstr ""
+
+msgid "Payment Gateways"
+msgstr ""
+
+msgid "Basic Checkout & Subscriptions"
+msgstr ""
+
+msgid "Custom Checkout & Tickets"
+msgstr ""
+
+msgid "Insert your Mercado Pago Client_id."
+msgstr ""
+
+msgid "Insert your Mercado Pago Client_secret."
+msgstr ""
+
+msgid "Currency Conversion"
+msgstr ""
+
+msgid "If the used currency in WooCommerce is different or not supported by Mercado Pago, convert values of your transactions using Mercado Pago currency ratio. This service may slow down your server as each conversion is made in the checkout moment."
+msgstr ""
+
+msgid "Insert your Mercado Pago Public key."
+msgstr ""
+
+msgid "Insert your Mercado Pago Access token."
+msgstr ""
+
+msgid "Status Mapping of Payment x Order"
+msgstr ""
+
+msgid "Here you can configure details about Mercado Pago payments and WooCommerce order statuses."
+msgstr ""
+
+msgid "For status mappings between payment/order you can use the defaults, or check references of %s and %s"
+msgstr ""
+
+msgid "Status for PENDING"
+msgstr ""
+
+msgid "when Mercado Pago updates a payment status to PENDING."
+msgstr ""
+
+msgid "Status for APPROVED"
+msgstr ""
+
+msgid "When Mercado Pago updates a payment status to APPROVED."
+msgstr ""
+
+msgid "Status for IN_PROCESS"
+msgstr ""
+
+msgid "When Mercado Pago updates a payment status to IN_PROCESS."
+msgstr ""
+
+msgid "Status for IN_MEDIATION"
+msgstr ""
+
+msgid "When Mercado Pago updates a payment status to IN_MEDIATION."
+msgstr ""
+
+msgid "Status for REJECTED"
+msgstr ""
+
+msgid "When Mercado Pago updates a payment status to REJECTED."
+msgstr ""
+
+msgid "Status for CANCELLED"
+msgstr ""
+
+msgid "When Mercado Pago updates a payment status to CANCELLED."
+msgstr ""
+
+msgid "Status for REFUNDED"
+msgstr ""
+
+msgid "When Mercado Pago updates a payment status to REFUNDED."
+msgstr ""
+
+msgid "Status for CHARGED_BACK"
+msgstr ""
+
+msgid "When Mercado Pago updates a payment status to CHARGED_BACK."
+msgstr ""
+
+msgid "Store Settings"
+msgstr ""
+
+msgid "Here you can place details about your store."
+msgstr ""
+
+msgid "Statement Descriptor"
+msgstr ""
+
+msgid "The description that will be shown in your customer\'s invoice."
+msgstr ""
+
+msgid "Store Category"
+msgstr ""
+
+msgid "Store Identificator"
+msgstr ""
+
+msgid "Please, inform a prefix to your store."
+msgstr ""
+
+msgid "If you use your Mercado Pago account on multiple stores you should make sure that this prefix is unique as Mercado Pago will not allow orders with same identificators."
+msgstr ""
+
+msgid "Test and Debug Options"
+msgstr ""
+
+msgid "Tools for debug and testing your integration."
+msgstr ""
+
+msgid "Debug and Log"
+msgstr ""
+
+msgid "Enable log (Keep this disabled if you’re in production)."
+msgstr ""
+
+msgid "Register event logs of Mercado Pago, such as API requests, for"
+msgstr ""
+
+msgid "Tickets"
+msgstr ""
+
+msgid "You can access your logs in "
+msgstr ""
+
+msgid "WooCommerce &gt; System Status &gt; Logs"
+msgstr ""
+
+msgid "Files are located in: "
+msgstr ""
+
+msgid "Mercado Pago Sandbox"
+msgstr ""
+
+msgid "Enable Mercado Pago Sandbox."
+msgstr ""
+
+msgid "This option allows you to test payments inside a sandbox environment."
+msgstr ""
+
+msgid "Mercado Pago - Basic Checkout"
+msgstr ""
+
+msgid "Receive payments in a matter of minutes. We make it easy for you: just tell us what you want to collect and we’ll take care of the rest."
+msgstr ""
+
+msgid "It appears that your credentials are not properly configured.<br/>Please, go to %s and configure it."
+msgstr ""
+
+msgid "This appears to be an invalid URL."
+msgstr ""
+
+msgid "Where customers should be redirected after a successful purchase. Let blank to redirect to the default store order resume page."
+msgstr ""
+
+msgid "Where customers should be redirected after a failed purchase. Let blank to redirect to the default store order resume page."
+msgstr ""
+
+msgid "Where customers should be redirected after a pending purchase. Let blank to redirect to the default store order resume page."
+msgstr ""
+
+msgid "Enable/Disable"
+msgstr ""
+
+msgid "Enable Basic Checkout"
+msgstr ""
+
+msgid "Checkout Interface: How checkout is shown"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Title shown to the client in the checkout."
+msgstr ""
+
+msgid "Mercado Pago"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Description shown to the client in the checkout."
+msgstr ""
+
+msgid "Pay with Mercado Pago"
+msgstr ""
+
+msgid "Integration Method"
+msgstr ""
+
+msgid "Select how your clients should interact with Mercado Pago. Modal Window (inside your store), Redirect (Client is redirected to Mercado Pago), or iFrame (an internal window is embedded to the page layout)."
+msgstr ""
+
+msgid "iFrame"
+msgstr ""
+
+msgid "Modal Window"
+msgstr ""
+
+msgid "Redirect"
+msgstr ""
+
+msgid "iFrame Width"
+msgstr ""
+
+msgid "If your integration method is iFrame, please inform the payment iFrame width."
+msgstr ""
+
+msgid "iFrame Height"
+msgstr ""
+
+msgid "If your integration method is iFrame, please inform the payment iFrame height."
+msgstr ""
+
+msgid "Checkout Navigation: How checkout redirections will behave"
+msgstr ""
+
+msgid "Auto Return"
+msgstr ""
+
+msgid "Automatic Return After Payment"
+msgstr ""
+
+msgid "After the payment, client is automatically redirected."
+msgstr ""
+
+msgid "Sucess URL"
+msgstr ""
+
+msgid "Failure URL"
+msgstr ""
+
+msgid "Pending URL"
+msgstr ""
+
+msgid "Payment Options: How payment options behaves"
+msgstr ""
+
+msgid "Max installments"
+msgstr ""
+
+msgid "Select the max number of installments for your customers."
+msgstr ""
+
+msgid "1x installment"
+msgstr ""
+
+msgid "2x installmens"
+msgstr ""
+
+msgid "3x installmens"
+msgstr ""
+
+msgid "4x installmens"
+msgstr ""
+
+msgid "5x installmens"
+msgstr ""
+
+msgid "6x installmens"
+msgstr ""
+
+msgid "10x installmens"
+msgstr ""
+
+msgid "12x installmens"
+msgstr ""
+
+msgid "15x installmens"
+msgstr ""
+
+msgid "18x installmens"
+msgstr ""
+
+msgid "24x installmens"
+msgstr ""
+
+msgid "Exclude Payment Methods"
+msgstr ""
+
+msgid "Select the payment methods that you <strong>don\'t</strong> want to receive with Mercado Pago."
+msgstr ""
+
+msgid "Discount/Fee by Gateway"
+msgstr ""
+
+msgid "Give a percentual (-99 to 99) discount or fee for your customers if they use this payment gateway. Use negative for fees, positive for discounts."
+msgstr ""
+
+msgid "Two Cards Mode"
+msgstr ""
+
+msgid "Payments with Two Cards"
+msgstr ""
+
+msgid "Your customer will be able to use two different cards to pay the order."
+msgstr ""
+
+msgid "Thank you for your order. Please, proceed with your payment clicking in the bellow button."
+msgstr ""
+
+msgid "Cancel order &amp; Clear cart"
+msgstr ""
+
+msgid "Thank you for your order. Proceed with your payment completing the following information."
+msgstr ""
+
+msgid "An error occurred when proccessing your payment. Please try again or contact us for assistence.""
+msgstr ""
+
+msgid "Shipping service used by store"
+msgstr ""
+
+msgid "Discount of"
+msgstr ""
+
+msgid "Mercado Pago Request Failure"
+msgstr ""
+
+msgid "Payer email"
+msgstr ""
+
+msgid "Payment type"
+msgstr ""
+
+msgid "Payment approved."
+msgstr ""
+
+msgid "Customer haven\'t paid yet."
+msgstr ""
+
+msgid "Payment under review."
+msgstr ""
+
+msgid "The payment was refused. The customer can try again."
+msgstr ""
+
+msgid "The payment was refunded to the customer."
+msgstr ""
+
+msgid "The payment was cancelled."
+msgstr ""
+
+msgid "The payment is under mediation or it was charged-back."
+msgstr ""
+
+msgid "Mercado Pago - Custom Checkout"
+msgstr ""
+
+msgid "We give you the possibility to adapt the payment experience you want to offer 100% in your website, mobile app or anywhere you want. You can build the design that best fits your business model, aiming to maximize conversion."
+msgstr ""
+
+msgid "Enable Custom Checkout"
+msgstr ""
+
+msgid "Coupons"
+msgstr ""
+
+msgid "Enable coupons of discounts"
+msgstr ""
+
+msgid "If there is a Mercado Pago campaign, allow your store to give discounts to customers."
+msgstr ""
+
+msgid "Binary Mode"
+msgstr ""
+
+msgid "Enable binary mode for checkout status"
+msgstr ""
+
+msgid "When charging a credit card, only [approved] or [reject] status will be taken."
+msgstr ""
+
+msgid "This service allows you to subscribe customers to subscription plans."
+msgstr ""
+
+msgid "It appears that your country is not supported for this solution.<br/>Please, use another payment method or go to %s to use another credential."
+msgstr ""
+
+msgid "Enable Subscription"
+msgstr ""
+
+msgid "Instant Payment Notification (IPN) URL"
+msgstr ""
+
+msgid "For this solution, you need to configure your IPN URL. You can access it in your account for your specific country in:"
+msgstr ""
+
+msgid "Your IPN URL to receive instant payment notifications is"
+msgstr ""
+
+msgid "Mercado Pago - Ticket"
+msgstr ""
+
+msgid "UNDER BUILDING..."
+msgstr ""
+
+msgid "Enable Ticket Payment Method"
+msgstr ""
+
+msgid "Ticket Interface: How checkout is shown"
+msgstr ""
+
+msgid "Title shown to the client in the ticket."
+msgstr ""
+
+msgid "Description shown to the client in the ticket."
+msgstr ""
+
+msgid "Stock Reduce"
+msgstr ""
+
+msgid "Reduce Stock in Order Generation"
+msgstr ""
+
+msgid "Enable this to reduce the stock on order creation. Disable this to reduce <strong>after</strong> the payment approval."
+msgstr ""
+
+msgid "Mercado Envios is a shipping method available only for payments with Mercado Pago."
+msgstr ""
+
+msgid "Free Shipping"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Enable the two shipping methods the Mercado Envios (Express and Normal) for the proper functioning of the module."
+msgstr ""
+
+msgid "Mercado Envios"
+msgstr ""
+
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+msgid "Enable free shipping for this shipping method"
+msgstr ""
+
+msgid "Delivery Time"
+msgstr ""
+
+msgid "Show estimated delivery time"
+msgstr ""
+
+msgid "Display the estimated delivery time in working days."
+msgstr ""
+
+msgid "Tag ready to print"
+msgstr ""
+
+msgid "Tag printed"
+msgstr ""
+
+msgid "Unsuccessful"
+msgstr ""
+
+msgid "Delayed shipping"
+msgstr ""
+
+msgid "Missing recipient for delivery"
+msgstr ""
+
+msgid "In return to sender"
+msgstr ""
+
+msgid "Buyer initiates complaint and requested a refund."
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Mercado Envios Tracking ID"
+msgstr ""
+
+msgid "Hello,"
+msgstr ""
+
+msgid "Your order"
+msgstr ""
+
+msgid "made in"
+msgstr ""
+
+msgid "used Mercado Envios as its shipment method."
+msgstr ""
+
+msgid "You can track it with the following Tracking ID:"
+msgstr ""
+
+msgid "Best regards."
+msgstr ""
+
+msgid "Mercado Pago Subscription"
+msgstr ""
+
+msgid "Payment ID:"
+msgstr ""
+
+msgid "Amount:"
+msgstr ""
+
+msgid "This operation could not be completed."
+msgstr ""
+
+msgid "Operation successfully completed."
+msgstr ""
+
+msgid "Refund Payment"
+msgstr ""
+
+msgid "Cancel Payment"
+msgstr ""
+
+msgid "Mercado Pago - Subscription"
+msgstr ""
+
+msgid "A recurrent product is a signature that should be bought isolated in your cart. Please, create separated orders."
+msgstr ""
+
+msgid "Recurrent Product"
+msgstr ""
+
+msgid "Frequency"
+msgstr ""
+
+msgid "Amount of time (in days or months) for the execution of the next payment."
+msgstr ""
+
+msgid "End date"
+msgstr ""
+
+msgid "Deadline to generate new charges. Defaults to never if blank."
+msgstr ""
+
+msgid "Months"
+msgstr ""
+
+msgid "Indicates the period of time."
+msgstr ""
+
+msgid "Make this product a subscription."
+msgstr ""
+
+msgid "Frequency type"
+msgstr ""
+
+msgid "Subscribe with Mercado Pago"
+msgstr ""
+
+msgid "Woo Mercado Pago Module depends on the last version of %s to execute!"
+msgstr ""
+
+msgid "Tracking code:"
+msgstr ""
+
+msgid "Tag:"
+msgstr ""
+
+msgid "Shipping is pending"
+msgstr ""
+
+msgid "Print"
+msgstr ""
+
+msgid "Cancel Order"
+msgstr ""
+
+msgid "Total of your purchase:"
+msgstr ""
+
+msgid "Total of your purchase with discount:"
+msgstr ""
+
+msgid "*Uppon payment approval"
+msgstr ""
+
+msgid "Terms and Conditions of Use"
+msgstr ""
+
+msgid "with discount from"
+msgstr ""
+
+msgid "You will save"
+msgstr ""
+
+msgid "Please, inform your coupon code"
+msgstr ""
+
+msgid "Payment converted from"
+msgstr ""
+
+msgid "Installments"
+msgstr ""
+
+msgid "Choose"
+msgstr ""
+
+msgid "Parameter cardIssuerId can not be null/empty"
+msgstr ""
+
+msgid "Issuer"
+msgstr ""
+
+msgid "Invalid Document Number"
+msgstr ""
+
+msgid "Parameter docNumber can not be null/empty"
+msgstr ""
+
+msgid "Document number"
+msgstr ""
+
+msgid "Invalid Document Type"
+msgstr ""
+
+msgid "Parameter docType can not be null/empty"
+msgstr ""
+
+msgid "Document Type"
+msgstr ""
+
+msgid "Invalid Card Holder Name"
+msgstr ""
+
+msgid "Parameter cardholderName can not be null/empty"
+msgstr ""
+
+msgid "Card holder name"
+msgstr ""
+
+msgid "Invalid Expiration Date"
+msgstr ""
+
+msgid "Year"
+msgstr ""
+
+msgid "Expiration year"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "Expiration month"
+msgstr ""
+
+msgid "Invalid Card Number"
+msgstr ""
+
+msgid "Parameter cardNumber can not be null/empty"
+msgstr ""
+
+msgid "Credit card number"
+msgstr ""
+
+msgid "Parameter securityCode can not be null/empty"
+msgstr ""
+
+msgid "Invalid Security Code"
+msgstr ""
+
+msgid "Security code"
+msgstr ""
+
+msgid "Other Card"
+msgstr ""
+
+msgid "Other Cards"
+msgstr ""
+
+msgid "ended in"
+msgstr ""
+
+msgid "Your Card"
+msgstr ""
+
+msgid "Payment Method"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Discount Coupon"
+msgstr ""
+
+msgid "Mercado Pago - Credit Card"
+msgstr ""
+
+msgid "Check your order resume"
+msgstr ""
+
+msgid "Your payment was refused. You can try again."
+msgstr ""
+
+msgid "Click to try again"
+msgstr ""
+
+msgid "A problem was occurred when processing your payment. Are you sure you have correctly filled all information in the checkout form?"
+msgstr ""
+
+msgid "Discount provided by store"
+msgstr ""
+
+msgid "Discount for %s coupon"
+msgstr ""
+
+msgid "Done, your payment was accredited!"
+msgstr ""
+
+msgid "We are processing the payment. In less than an hour we will e-mail you the results."
+msgstr ""
+
+msgid "We are processing the payment. In less than 2 business days we will tell you by e-mail whether it has accredited or we need more information."
+msgstr ""
+
+msgid "Check the card number."
+msgstr ""
+
+msgid "Check the expiration date."
+msgstr ""
+
+msgid "Check the information."
+msgstr ""
+
+msgid "Check the security code."
+msgstr ""
+
+msgid "We could not process your payment."
+msgstr ""
+
+msgid "You must authorize the payment of your orders."
+msgstr ""
+
+msgid "Call your card issuer to activate your card. The phone is on the back of your card."
+msgstr ""
+
+msgid "You already made a payment for that amount. If you need to repay, use another card or other payment method."
+msgstr ""
+
+msgid "Your payment was rejected. Choose another payment method. We recommend cash."
+msgstr ""
+
+msgid "Your payment do not have sufficient funds."
+msgstr ""
+
+msgid "Your payment does not process payments with selected installments."
+msgstr ""
+
+msgid "You have reached the limit of allowed attempts. Choose another card or another payment method."
+msgstr ""
+
+msgid "This payment method did not process the payment."
+msgstr ""
+
+msgid "Please, inform your email in billing address to use this feature"
+msgstr ""
+
+msgid "Waiting for the ticket payment."
+msgstr ""
+
+msgid "here"
+msgstr ""
+
+msgid "To reprint the ticket click "
+msgstr ""
+
+msgid "A problem was occurred when processing your payment. Please, try again."
+msgstr ""
+
+msgid "Print the Ticket"
+msgstr ""
+
+msgid "Thank you for your order. Please, pay the ticket to get your order approved."
+msgstr ""
+
+msgid "Important: The order will be confirmed only after the payment approval."
+msgstr ""
+
+msgid "Click [Place order] button. The ticket will be generated and you will be redirected to print it."
+msgstr ""
+
+msgid "Please, select the ticket issuer of your preference."
+msgstr ""
+
+msgid "Needed informations due to brazilian bank compliances numbers 3.461/09, 3.598/12 and 3.656/13 of the Central Bank of Brazil."
+msgstr ""
+
+msgid "NAME"
+msgstr ""
+
+msgid "SURNAME"
+msgstr ""
+
+msgid "DOCUMENT"
+msgstr ""
+
+msgid "ADDRESS"
+msgstr ""
+
+msgid "NUMBER"
+msgstr ""
+
+msgid "CITY"
+msgstr ""
+
+msgid "STATE"
+msgstr ""
+
+msgid "ZIP"
+msgstr ""
+
+msgid "You must inform you NAME"
+msgstr ""
+
+msgid "You must inform your SURNAME"
+msgstr ""
+
+msgid "You must inform your DOCUMENT"
+msgstr ""
+
+msgid "You must inform your ADDRESS"
+msgstr ""
+
+msgid "You must inform your ADDRESS NUMBER"
+msgstr ""
+
+msgid "You must inform your CITY"
+msgstr ""
+
+msgid "You must inform your STATE"
+msgstr ""
+
+msgid "You must inform your ZIP"
+msgstr ""
+
+msgid "Fisical Person"
+msgstr ""
+
+msgid "Legal Person"
+msgstr ""
+
+msgid "SOCIAL NAME"
+msgstr ""
+
+msgid "CNPJ"
+msgstr ""
+
+msgid "Your products have theirs dimensions well defined."
+msgstr ""
+
+msgid "You have product(s) with invalid dimensions."
+msgstr ""
+
+msgid "It seems you have <strong>Woo Mercado Pago Module</strong> installed. Please, uninstall it before using this version."
+msgstr ""
+
+msgid "Custom URL for IPN"
+msgstr ""
+
+msgid "If you want to use a custom URL for IPN inform it here.<br>Format should be as: <code>https://yourdomain.com/yoursubdomain</code>."
+msgstr ""
+
+msgid "Address Number"
+msgstr ""
+
+msgid "Address Additional Info"
+msgstr ""
+
+msgid "CVC"
+msgstr ""
+
+msgid "Needed informations"
+msgstr ""
+
+msgid "Note: Confirmation under payment approval."
+msgstr ""
+
+msgid "Invalid payment_method_id"
+msgstr ""
+
+msgid "Invalid transaction_amount"
+msgstr ""
+
+msgid "Invalid users involved"
+msgstr ""
+
+msgid "Unauthorized use of live credentials"
+msgstr ""
+
+msgid "Posible causes: Currency not supported; Values under the minimal or above the maximun allowed."
+msgstr ""
+
+msgid "Posible causes: Seller and buyer have the same email in Mercado Pago; Transaction involves production and test users."
+msgstr ""
+
+msgid "Posible causes: Pending permission of use in production of the seller credentials."
+msgstr ""
+
+msgid "Days for Expiration"
+msgstr ""
+
+msgid "Place the number of days (1 to 30) until expiration of the ticket."
+msgstr ""
+
+msgid "Fee of"
+msgstr ""
+
+msgid "Do not save my card"
+msgstr ""
+
+msgid "Custom banner for checkout"
+msgstr ""
+
+msgid "Inform the URL of your banner image. Let blank to use Mercado Pago default."
+msgstr ""

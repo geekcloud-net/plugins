@@ -1,0 +1,23 @@
+#wpuf_mailchimp_api_form input.wpuf_mailchimp_api {
+    width:50%;
+}
+.wpuf_mc_wrapper{
+    overflow: hidden;
+}
+
+p#wpuf_mc_api{
+    float: left;
+    font-size: 15px;
+    margin: 0px;
+}
+
+
+#wpuf_mc_api_remove_action{
+    float: right;
+    margin-right: 15px;
+}
+
+#wpuf_mc_api_refresh_action{
+    float: right;
+    margin-right: 15px;
+}

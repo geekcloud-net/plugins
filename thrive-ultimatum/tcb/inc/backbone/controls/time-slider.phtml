@@ -1,0 +1,28 @@
+<div class="grey-text">
+	<#= this.model.config.label #>
+</div>
+<div class="row middle-xs">
+	<div class="col-xs-6">
+		<input type="range" class="tve-slider input change" data-fn="onChange" data-fn-input="onInput" min="<#= this.model.config.min #>" max="<#= this.model.config.max #>" value="<#= this.model.config.default #>"/>
+	</div>
+	<div class="col-xs-3 slider-input">
+		<div class="um-wrapper">
+			<span class="tve-input-um"><?php echo __( 'MIN', 'thrive-cb' ); ?></span>
+		</div>
+		<div data-dir="top" class="minutes-handle handle reverse">
+			<div class="up click" data-fn="up" data-time="min"></div>
+			<div class="down click" data-fn="down" data-time="min"></div>
+		</div>
+		<input type="text" class="tve-input tcb-input-minutes change width-input" data-fn="onChange" data-fn-input="onInput" value="<#= this.model.config.default #>" maxlength="3">
+	</div>
+	<div class="col-xs-3 slider-input">
+		<div class="um-wrapper">
+			<span class="tve-input-um"><?php echo __( 'SEC', 'thrive-cb' ); ?></span>
+		</div>
+		<div data-dir="top" class="seconds-handle handle reverse">
+			<div class="up click" data-fn="up" data-time="sec"></div>
+			<div class="down click" data-fn="down" data-time="sec"></div>
+		</div>
+		<input type="text" class="tve-input tcb-input-seconds change width-input" data-fn="onChange" data-fn-input="onInput" value="<#= this.model.config.default #>" maxlength="2">
+	</div>
+</div>

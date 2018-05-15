@@ -1,0 +1,52 @@
+<p><strong><?php echo __( 'Thrive Lightbox Settings', 'thrive-cb' ) ?></strong></p>
+<# if ( this.get().length ) { #>
+	<div class="row top-xs">
+		<div class="col-xs-7">
+			<label for="evt-lightbox"><?php echo __( 'Select the Thrive Lightbox to be displayed', 'thrive-cb' ) ?></label>
+		</div>
+		<div class="col-xs-5">
+			<select id="evt-lightbox" class="change" data-fn="lightbox_change">
+				<# _.each( this.get(), function( lb ) { #>
+					<option value="<#=lb.id#>"<#=this.model.config && this.model.config.l_id == lb.id ? ' selected="selected"' : '' #>><#=lb.title#></option>
+				<# }, this ) #>
+			</select>
+		</div>
+	</div>
+	<div class="tcb-text-right lightbox-add clearfix margin-top-10">
+		<a href="javascript:void(0)" class="click tcb-right" data-fn="create_lightbox_toggle"><?php echo __( 'Create new lightbox', 'thrive-cb' ) ?></a>
+		<div class="form-create-lb tcb-right row middle-xs" style="display: none;">
+			<div class="col-xs-9">
+				<input type="text" placeholder="<?php echo __( 'Lightbox title', 'thrive-cb' ) ?>" class="create-lb keyup-enter" data-fn="create_lightbox">
+			</div>
+			<div class="col-xs-3">
+				<button type="button" class="tcb-right tve-button small green click" data-fn="create_lightbox"><?php echo __( 'Save', 'thrive-cb' ) ?></button>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="row top-xs">
+		<div class="col-xs-7">
+			<label for="evt-animation"><?php echo __( 'Lightbox animation', 'thrive-cb' ) ?></label>
+		</div>
+		<div class="col-xs-5">
+			<select id="evt-animation" class="change" data-fn="animation_change">
+				<?php foreach (TCB_Thrive_Lightbox::animations() as $key => $label ) : ?>
+					<option value="<?php echo $key ?>"<#=this.model.config && this.model.config.l_anim == '<?php echo $key ?>' ? ' selected="selected"' : ''#>> <?php echo esc_html($label) ?></option>
+				<?php endforeach ?>
+			</select>
+		</div>
+	</div>
+<# } else { #>
+	<p><?php echo __( "You don't have any lightboxes yet. Create one using the link below.", 'thrive-cb' ) ?></p>
+	<div class="tcb-text-right lightbox-add clearfix margin-top-10">
+		<a href="javascript:void(0)" class="click tcb-right" data-fn="create_lightbox_toggle"><?php echo __( 'Create new lightbox', 'thrive-cb' ) ?></a>
+		<div class="form-create-lb tcb-right row middle-xs" style="display: none;">
+			<div class="col-xs-9">
+				<input type="text" placeholder="<?php echo __( 'Lightbox title', 'thrive-cb' ) ?>" class="create-lb keyup-enter" data-fn="create_lightbox">
+			</div>
+			<div class="col-xs-3">
+				<button type="button" class="tcb-right tve-button small green click" data-fn="create_lightbox"><?php echo __( 'Save', 'thrive-cb' ) ?></button>
+			</div>
+		</div>
+	</div>
+<# } #>

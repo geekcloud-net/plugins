@@ -1,0 +1,41 @@
+<div class="tvd-modal-content">
+	<h3 class="tvd-modal-title">
+		<?php echo __( 'Campaign settings', TVE_Ult_Const::T ) ?>
+		<?php tve_ult_video( 'iaeykxn0b5' ) ?>
+	</h3>
+	<p><?php echo __( "Events on timeline may be affected by the campaign's duration.", TVE_Ult_Const::T ) ?></p>
+
+	<div class="tvd-row tvd-collapse">
+		<?php foreach ( TVE_Ult_Const::campaign_types_details() as $type => $prop_type ) : ?>
+			<div class="tvd-col tvd-s12 tvd-m4 tvu-campaign-selector" data-type="<?php echo $type; ?>">
+				<div class="tvu-xsmall-card tvd-tooltipped tvd-card tvd-white tvd-pointer tvd-center-align <#= (model.get('type') === '<?php echo $type; ?>')? 'tvu-selected-design':'' #>"
+				     data-position="top" data-tooltip="<?php echo $prop_type['tooltip'] ?>">
+					<div class="tvd-card-content">
+						<img width="80"
+						     src="<?php echo TVE_Ult_Const::plugin_url( 'admin/img/' . $prop_type['image'] ); ?>"/>
+						<p><strong><?php echo $prop_type['name'] ?></strong></p>
+					</div>
+
+				</div>
+			</div>
+		<?php endforeach; ?>
+	</div>
+
+	<div class="tvd-col tvd-s12" id="tvu-campaign-type-options"></div>
+</div>
+<div class="tvd-modal-footer">
+	<div class="tvd-row">
+		<div class="tvd-col tvd-s12 tvd-m6">
+			<a href="javascript:void(0)"
+			   class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-waves-effect tvd-modal-close">
+				<?php echo __( 'Cancel', TVE_Ult_Const::T ) ?>
+			</a>
+		</div>
+		<div class="tvd-col tvd-s12 tvd-m6">
+			<a href="javascript:void(0)"
+			   class="tvd-btn tvd-btn-green tvd-waves-light tvd-right tvu-save-campaign-type tvd-modal-submit">
+				<?php echo __( 'Save', TVE_Ult_Const::T ) ?>
+			</a>
+		</div>
+	</div>
+</div>

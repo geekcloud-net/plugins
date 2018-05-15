@@ -1,0 +1,91 @@
+*** WooCommerce Amazon S3 Storage ***
+
+2018-02-21 - version 2.1.8
+* Fix - Remove unnecessary HTTP/HTTPS feature (HTTPS is enforced).
+* Tweak - Added settings, support, and doc links in plugin action links.
+
+2017-12-14 - version 2.1.7
+* Fix - WC 3.3 compatibility.
+
+2017-06-23 - version 2.1.6
+* Add - More region endpoints.
+* Update - Change main plugin file name to match plugin name.
+
+2017-05-19 - version 2.1.5
+* Fix - Stale region cache that prevents updated region location. Set to 1 hour expiration.
+* Fix - File names with spaces break downloads.
+* Tweak - Removed unneeded SDK files.
+
+2017-04-03 - version 2.1.4
+* Fix - Update for WooCommerce 3.0 compatibility.
+
+2015-12-18 - version 2.1.3
+* Fix - remove CURLOPT_CLOSEPOLICY as it was never implemented and was deprecated in PHP 5.6
+
+2015-10-07 - version 2.1.2
+* Fix - Legacy Bucket names with uppercase letters now work correctly.
+* Fix - If a space was accidently present in the key/secret fields, signing would fail.
+
+2015-09-08 - version 2.1.1
+* Added additional error handling.
+
+2015-08-24 - version 2.1.0
+* Feature - Added a new 'region' shortcode attribute to make generating download URLs faster
+* Fix - eu-central-1 (Frankfurt/EU) region is now supported
+* Fix - Authentication & signing has been updated to use Amazon's v4 signature signing
+* Fix - Remove SSLverify / SSL setting (no longer needed for WP)
+* Fix - Return the file name when no custom name is set, instead of the amazon tag
+
+2015-05-24 - version 2.0.6
+ * Only run shortcode when download is shortcode
+
+2014-04-09 - version 2.0.5
+ * Load Amazon Class only it is used
+
+2014-02-03 - version 2.0.4
+ * WC 2.1 Compatibility
+
+2013-11-22 - version 2.0.3
+ * Fix deprecated warnings
+
+2013-09-16 - version 2.0.2
+ * Fix auto update from <= WC 1.6 for variations
+
+2013-05-07 - version 2.0.1
+ * Changed to Unix line ending to fix text output issue on some installs.
+
+2013-03-04 - version 2.0
+ * WooCommerce 2.0 Support
+ * Amazon S3 Shortcode
+ * Multiple downloads support
+
+2012-12-04 - version 1.1.5
+ * New updater
+
+2012-11-22 - version 1.1.4
+ * Remove trying to load config file, setting are loaded from db.
+
+2012-08-22 - version 1.1.3
+ * Update to latest Amazon SDK 1.5.12
+
+2012-04-26 - version 1.1.2
+ * Minor fixes
+ * Improved bucket selectors
+ * variable_use_amazon_s3 was unused
+ * Fixed variations downloads
+
+2012-04-26 - version 1.1.1
+ * Enable/disable checkbox fix
+ * Return file path when not using amazon
+
+2012-04-26 - version 1.1
+ * Product variation support
+
+2012-04-01 - version 1.0.2
+ * Added https file serving support
+
+2012-03-38 - version 1.0.1
+ * Bucket fix
+
+2012-03-01 - version 1.0
+ * First release

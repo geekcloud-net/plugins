@@ -1,0 +1,5632 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Porto Shortcodes\n"
+"POT-Creation-Date: 2017-11-02 11:43+0800\n"
+"PO-Revision-Date: 2017-10-10 00:07+0800\n"
+"Last-Translator: porto <porto@example.com>\n"
+"Language-Team: porto <porto@example.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: content-types/porto-content-types.php:27
+#: shortcodes/shortcodes/porto_block.php:21
+#: shortcodes/shortcodes/porto_lightbox.php:52
+#: shortcodes/shortcodes/porto_popover.php:48
+#: shortcodes/shortcodes/porto_tooltip.php:48
+msgid "Block"
+msgstr ""
+
+#: content-types/porto-content-types.php:27
+msgid "Blocks"
+msgstr ""
+
+#: content-types/porto-content-types.php:48
+#: shortcodes/shortcodes/porto_portfolios.php:17
+msgid "Portfolios"
+msgstr ""
+
+#: content-types/porto-content-types.php:49
+msgid "Portfolio"
+msgstr ""
+
+#: content-types/porto-content-types.php:50
+#: content-types/porto-content-types.php:113
+#: content-types/porto-content-types.php:161
+#: content-types/porto-content-types.php:209
+#: shortcodes/woo_shortcodes/porto_product_category.php:115
+msgid "Category"
+msgstr ""
+
+#: content-types/porto-content-types.php:50
+msgid "Portfolio Category"
+msgstr ""
+
+#: content-types/porto-content-types.php:51
+#: content-types/porto-content-types.php:114
+#: content-types/porto-content-types.php:162
+#: content-types/porto-content-types.php:210
+#: shortcodes/woo_shortcodes/porto_product_categories.php:108
+msgid "Categories"
+msgstr ""
+
+#: content-types/porto-content-types.php:51
+msgid "Portfolio Categories"
+msgstr ""
+
+#: content-types/porto-content-types.php:52
+#: content-types/porto-content-types.php:211
+msgid "Skill"
+msgstr ""
+
+#: content-types/porto-content-types.php:52
+msgid "Portfolio Skill"
+msgstr ""
+
+#: content-types/porto-content-types.php:53
+#: content-types/porto-content-types.php:212
+msgid "Skills"
+msgstr ""
+
+#: content-types/porto-content-types.php:53
+msgid "Portfolio Skills"
+msgstr ""
+
+#: content-types/porto-content-types.php:111
+#: shortcodes/shortcodes/porto_faqs.php:21
+msgid "FAQs"
+msgstr ""
+
+#: content-types/porto-content-types.php:112
+msgid "FAQ"
+msgstr ""
+
+#: content-types/porto-content-types.php:113
+msgid "FAQ Category"
+msgstr ""
+
+#: content-types/porto-content-types.php:114
+msgid "FAQ Categories"
+msgstr ""
+
+#: content-types/porto-content-types.php:159
+#: shortcodes/shortcodes/porto_members.php:21
+msgid "Members"
+msgstr ""
+
+#: content-types/porto-content-types.php:160
+msgid "Member"
+msgstr ""
+
+#: content-types/porto-content-types.php:161
+msgid "Member Category"
+msgstr ""
+
+#: content-types/porto-content-types.php:162
+msgid "Member Categories"
+msgstr ""
+
+#: content-types/porto-content-types.php:207
+#: shortcodes/shortcodes/porto_events.php:14
+msgid "Events"
+msgstr ""
+
+#: content-types/porto-content-types.php:208
+msgid "Event"
+msgstr ""
+
+#: content-types/porto-content-types.php:209
+msgid "Event Category"
+msgstr ""
+
+#: content-types/porto-content-types.php:210
+msgid "Event Categories"
+msgstr ""
+
+#: content-types/porto-content-types.php:211
+msgid "Event Skill"
+msgstr ""
+
+#: content-types/porto-content-types.php:212
+msgid "Event Skills"
+msgstr ""
+
+#: content-types/porto-content-types.php:245
+msgid "Add New"
+msgstr ""
+
+#: content-types/porto-content-types.php:246
+#: content-types/porto-content-types.php:268
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: content-types/porto-content-types.php:247
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: content-types/porto-content-types.php:248
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: content-types/porto-content-types.php:249
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: content-types/porto-content-types.php:250
+#: content-types/porto-content-types.php:262
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: content-types/porto-content-types.php:251
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: content-types/porto-content-types.php:252
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: content-types/porto-content-types.php:263
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: content-types/porto-content-types.php:264
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: content-types/porto-content-types.php:265
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: content-types/porto-content-types.php:266
+msgid "Edit %"
+msgstr ""
+
+#: content-types/porto-content-types.php:267
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: content-types/porto-content-types.php:269
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: porto-functionality.php:70
+msgid ""
+"<b>Important:</b> Please deactivate Porto Shortcodes, Porto Content Types "
+"and Porto Widgets plugins from old Porto 3.x version."
+msgstr ""
+
+#: shortcodes/lib/functions.php:251
+msgid "Animation Type"
+msgstr ""
+
+#: shortcodes/lib/functions.php:253 shortcodes/lib/functions.php:264
+#: shortcodes/lib/functions.php:275
+#: shortcodes/shortcodes/porto_animation.php:21
+#: shortcodes/shortcodes/porto_carousel.php:165
+#: shortcodes/shortcodes/porto_carousel.php:171
+msgid "Animation"
+msgstr ""
+
+#: shortcodes/lib/functions.php:260
+msgid "Animation Duration"
+msgstr ""
+
+#: shortcodes/lib/functions.php:262 shortcodes/lib/functions.php:273
+msgid "numerical value (unit: milliseconds)"
+msgstr ""
+
+#: shortcodes/lib/functions.php:271
+msgid "Animation Delay"
+msgstr ""
+
+#: shortcodes/lib/functions.php:282 shortcodes/shortcodes/porto_events.php:64
+msgid "Extra class name"
+msgstr ""
+
+#: shortcodes/lib/functions.php:284
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: shortcodes/lib/functions.php:340
+#: shortcodes/shortcodes/porto_image_frame.php:91
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:58
+msgid "Date"
+msgstr ""
+
+#: shortcodes/lib/functions.php:341
+msgid "ID"
+msgstr ""
+
+#: shortcodes/lib/functions.php:342
+msgid "Author"
+msgstr ""
+
+#: shortcodes/lib/functions.php:343 shortcodes/shortcodes/porto_blog.php:28
+#: shortcodes/shortcodes/porto_concept.php:33
+#: shortcodes/shortcodes/porto_concept.php:58
+#: shortcodes/shortcodes/porto_concept.php:83
+#: shortcodes/shortcodes/porto_concept.php:108
+#: shortcodes/shortcodes/porto_diamonds.php:55
+#: shortcodes/shortcodes/porto_diamonds.php:93
+#: shortcodes/shortcodes/porto_diamonds.php:131
+#: shortcodes/shortcodes/porto_diamonds.php:169
+#: shortcodes/shortcodes/porto_diamonds.php:207
+#: shortcodes/shortcodes/porto_diamonds.php:245
+#: shortcodes/shortcodes/porto_diamonds.php:283
+#: shortcodes/shortcodes/porto_faqs.php:28
+#: shortcodes/shortcodes/porto_image_frame.php:71
+#: shortcodes/shortcodes/porto_info_box.php:210
+#: shortcodes/shortcodes/porto_links_block.php:33
+#: shortcodes/shortcodes/porto_members.php:28
+#: shortcodes/shortcodes/porto_portfolios.php:24
+#: shortcodes/shortcodes/porto_portfolios_category.php:24
+#: shortcodes/shortcodes/porto_price_box.php:29
+#: shortcodes/shortcodes/porto_recent_members.php:82
+#: shortcodes/shortcodes/porto_recent_portfolios.php:28
+#: shortcodes/shortcodes/porto_recent_posts.php:28
+#: shortcodes/shortcodes/porto_schedule_timeline_container.php:24
+#: shortcodes/shortcodes/porto_ultimate_heading.php:42
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:31
+#: shortcodes/woo_shortcodes/porto_featured_products.php:33
+#: shortcodes/woo_shortcodes/porto_product.php:29
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:39
+#: shortcodes/woo_shortcodes/porto_product_categories.php:33
+#: shortcodes/woo_shortcodes/porto_product_category.php:53
+#: shortcodes/woo_shortcodes/porto_products.php:33
+#: shortcodes/woo_shortcodes/porto_recent_products.php:33
+#: shortcodes/woo_shortcodes/porto_sale_products.php:33
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:33
+#: shortcodes/woo_shortcodes/porto_widget_woo_product_tags.php:32
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:32
+#: shortcodes/woo_shortcodes/porto_widget_woo_recent_reviews.php:32
+#: shortcodes/woo_shortcodes/porto_widget_woo_recently_viewed.php:32
+#: shortcodes/woo_shortcodes/porto_widget_woo_top_rated_products.php:32
+#: widgets/block.php:63 widgets/contact_info.php:82 widgets/follow_us.php:185
+#: widgets/recent_portfolios.php:125 widgets/recent_posts.php:116
+#: widgets/twitter_tweets.php:144
+msgid "Title"
+msgstr ""
+
+#: shortcodes/lib/functions.php:344
+msgid "Modified"
+msgstr ""
+
+#: shortcodes/lib/functions.php:345
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:60
+msgid "Random"
+msgstr ""
+
+#: shortcodes/lib/functions.php:346
+msgid "Comment count"
+msgstr ""
+
+#: shortcodes/lib/functions.php:347
+msgid "Menu order"
+msgstr ""
+
+#: shortcodes/lib/functions.php:354
+msgid "Descending"
+msgstr ""
+
+#: shortcodes/lib/functions.php:355
+msgid "Ascending"
+msgstr ""
+
+#: shortcodes/lib/functions.php:364 shortcodes/lib/functions.php:571
+#: shortcodes/lib/functions.php:1321
+#: shortcodes/shortcodes/porto_google_map.php:207
+#: shortcodes/shortcodes/porto_icon.php:140
+#: shortcodes/shortcodes/porto_info_box.php:151
+#: shortcodes/shortcodes/porto_lightbox.php:113
+#: shortcodes/shortcodes/porto_single_icon.php:136
+#: shortcodes/shortcodes/porto_stat_counter.php:139
+msgid "None"
+msgstr ""
+
+#: shortcodes/lib/functions.php:365 shortcodes/lib/functions.php:584
+#: shortcodes/lib/functions.php:752
+#: shortcodes/shortcodes/porto_carousel.php:156
+#: shortcodes/shortcodes/porto_fancytext.php:62
+#: shortcodes/shortcodes/porto_icon.php:211
+#: shortcodes/shortcodes/porto_stat_counter.php:198
+#: shortcodes/shortcodes/porto_ultimate_heading.php:184
+msgid "Left"
+msgstr ""
+
+#: shortcodes/lib/functions.php:366 shortcodes/lib/functions.php:582
+#: shortcodes/lib/functions.php:753
+#: shortcodes/shortcodes/porto_carousel.php:154
+#: shortcodes/shortcodes/porto_fancytext.php:63
+#: shortcodes/shortcodes/porto_icon.php:212
+#: shortcodes/shortcodes/porto_stat_counter.php:197
+#: shortcodes/shortcodes/porto_ultimate_heading.php:185
+msgid "Right"
+msgstr ""
+
+#: shortcodes/lib/functions.php:367 shortcodes/lib/functions.php:664
+#: shortcodes/lib/functions.php:751
+#: shortcodes/shortcodes/porto_carousel.php:155
+#: shortcodes/shortcodes/porto_fancytext.php:61
+#: shortcodes/shortcodes/porto_icon.php:210
+#: shortcodes/shortcodes/porto_ultimate_heading.php:183
+msgid "Center"
+msgstr ""
+
+#: shortcodes/lib/functions.php:368
+msgid "Justify"
+msgstr ""
+
+#: shortcodes/lib/functions.php:374 shortcodes/lib/functions.php:381
+#: shortcodes/lib/functions.php:433 shortcodes/lib/functions.php:481
+#: shortcodes/lib/functions.php:495 shortcodes/lib/functions.php:525
+#: shortcodes/lib/functions.php:533 shortcodes/lib/functions.php:547
+#: shortcodes/lib/functions.php:611 shortcodes/lib/functions.php:625
+#: shortcodes/lib/functions.php:691 shortcodes/lib/functions.php:698
+#: shortcodes/lib/functions.php:711 shortcodes/lib/functions.php:726
+#: shortcodes/shortcodes/porto_blockquote.php:47
+#: shortcodes/shortcodes/porto_blockquote.php:56
+#: shortcodes/shortcodes/porto_blog.php:46
+#: shortcodes/shortcodes/porto_buttons.php:24
+#: shortcodes/shortcodes/porto_carousel.php:124
+#: shortcodes/shortcodes/porto_carousel_item.php:39
+#: shortcodes/shortcodes/porto_events.php:24
+#: shortcodes/shortcodes/porto_fancytext.php:21
+#: shortcodes/shortcodes/porto_image_frame.php:31
+#: shortcodes/shortcodes/porto_info_box.php:24
+#: shortcodes/shortcodes/porto_info_box.php:306
+#: shortcodes/shortcodes/porto_portfolios.php:112
+#: shortcodes/shortcodes/porto_recent_members.php:439
+#: shortcodes/shortcodes/porto_recent_portfolios.php:158
+#: shortcodes/shortcodes/porto_recent_posts.php:91
+#: shortcodes/shortcodes/porto_recent_posts.php:196
+#: shortcodes/shortcodes/porto_section.php:82
+#: shortcodes/shortcodes/porto_stat_counter.php:24
+#: shortcodes/shortcodes/porto_testimonial.php:83
+#: shortcodes/shortcodes/porto_ultimate_heading.php:24
+#: shortcodes/shortcodes/porto_ultimate_heading.php:114
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:64
+#: shortcodes/woo_shortcodes/porto_featured_products.php:66
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:72
+#: shortcodes/woo_shortcodes/porto_product_categories.php:68
+#: shortcodes/woo_shortcodes/porto_product_category.php:86
+#: shortcodes/woo_shortcodes/porto_products.php:59
+#: shortcodes/woo_shortcodes/porto_recent_products.php:66
+#: shortcodes/woo_shortcodes/porto_sale_products.php:66
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:66
+msgid "Default"
+msgstr ""
+
+#: shortcodes/lib/functions.php:375 shortcodes/shortcodes/porto_icon.php:118
+#: shortcodes/shortcodes/porto_info_box.php:129
+#: shortcodes/shortcodes/porto_schedule_timeline_container.php:39
+#: shortcodes/shortcodes/porto_single_icon.php:113
+#: shortcodes/shortcodes/porto_stat_counter.php:120
+#: shortcodes/shortcodes/porto_testimonial.php:84
+msgid "Simple"
+msgstr ""
+
+#: shortcodes/lib/functions.php:382 shortcodes/lib/functions.php:592
+#: shortcodes/lib/functions.php:619 shortcodes/lib/functions.php:744
+#: shortcodes/shortcodes/porto_image_frame.php:302
+#: shortcodes/shortcodes/porto_image_frame.php:425
+#: shortcodes/shortcodes/porto_lightbox.php:126
+#: shortcodes/shortcodes/porto_price_box.php:107
+#: shortcodes/shortcodes/porto_recent_posts.php:79
+#: widgets/recent_portfolios.php:139 widgets/recent_posts.php:130
+msgid "Small"
+msgstr ""
+
+#: shortcodes/lib/functions.php:383 shortcodes/lib/functions.php:390
+#: shortcodes/lib/functions.php:414 shortcodes/lib/functions.php:591
+#: shortcodes/lib/functions.php:745
+#: shortcodes/shortcodes/porto_image_frame.php:301
+#: shortcodes/shortcodes/porto_image_frame.php:424
+#: shortcodes/shortcodes/porto_lightbox.php:125
+#: shortcodes/shortcodes/porto_price_box.php:106
+#: widgets/recent_portfolios.php:140 widgets/recent_posts.php:131
+msgid "Large"
+msgstr ""
+
+#: shortcodes/lib/functions.php:389 shortcodes/lib/functions.php:415
+msgid "Full"
+msgstr ""
+
+#: shortcodes/lib/functions.php:391
+msgid "Large Alt"
+msgstr ""
+
+#: shortcodes/lib/functions.php:392 shortcodes/lib/functions.php:413
+#: shortcodes/shortcodes/porto_image_frame.php:300
+#: shortcodes/shortcodes/porto_image_frame.php:423
+#: shortcodes/shortcodes/porto_price_box.php:105
+msgid "Medium"
+msgstr ""
+
+#: shortcodes/lib/functions.php:393
+msgid "Medium Alt"
+msgstr ""
+
+#: shortcodes/lib/functions.php:394 shortcodes/lib/functions.php:410
+#: shortcodes/lib/functions.php:460 shortcodes/lib/functions.php:506
+#: shortcodes/woo_shortcodes/porto_product_categories.php:42
+msgid "Grid"
+msgstr ""
+
+#: shortcodes/lib/functions.php:395 shortcodes/lib/functions.php:412
+msgid "Timeline"
+msgstr ""
+
+#: shortcodes/lib/functions.php:401 shortcodes/lib/functions.php:421
+#: shortcodes/shortcodes/porto_events.php:47
+msgid "1"
+msgstr ""
+
+#: shortcodes/lib/functions.php:402 shortcodes/lib/functions.php:422
+#: shortcodes/lib/functions.php:450 shortcodes/shortcodes/porto_events.php:48
+msgid "2"
+msgstr ""
+
+#: shortcodes/lib/functions.php:403 shortcodes/lib/functions.php:423
+#: shortcodes/lib/functions.php:451
+msgid "3"
+msgstr ""
+
+#: shortcodes/lib/functions.php:404 shortcodes/lib/functions.php:424
+#: shortcodes/lib/functions.php:452
+msgid "4"
+msgstr ""
+
+#: shortcodes/lib/functions.php:411
+msgid "Masonry"
+msgstr ""
+
+#: shortcodes/lib/functions.php:425 shortcodes/lib/functions.php:453
+msgid "5"
+msgstr ""
+
+#: shortcodes/lib/functions.php:426 shortcodes/lib/functions.php:454
+msgid "6"
+msgstr ""
+
+#: shortcodes/lib/functions.php:432 shortcodes/lib/functions.php:441
+#: shortcodes/shortcodes/porto_portfolios.php:59
+#: shortcodes/shortcodes/porto_portfolios.php:75
+#: shortcodes/shortcodes/porto_portfolios.php:87
+#: shortcodes/shortcodes/porto_portfolios.php:99
+#: shortcodes/shortcodes/porto_recent_portfolios.php:45
+#: shortcodes/shortcodes/porto_recent_portfolios.php:59
+#: shortcodes/shortcodes/porto_recent_portfolios.php:71
+#: shortcodes/shortcodes/porto_recent_posts.php:38
+#: shortcodes/shortcodes/porto_recent_posts.php:53
+#: shortcodes/shortcodes/porto_recent_posts.php:65
+#: shortcodes/shortcodes/porto_recent_posts.php:77
+#: shortcodes/shortcodes/porto_recent_posts.php:90
+msgid "Standard"
+msgstr ""
+
+#: shortcodes/lib/functions.php:434
+msgid "No Margin"
+msgstr ""
+
+#: shortcodes/lib/functions.php:435 shortcodes/lib/functions.php:496
+msgid "Out of Image"
+msgstr ""
+
+#: shortcodes/lib/functions.php:442
+msgid "Type 1"
+msgstr ""
+
+#: shortcodes/lib/functions.php:443
+msgid "Type 2"
+msgstr ""
+
+#: shortcodes/lib/functions.php:444
+msgid "Type 3"
+msgstr ""
+
+#: shortcodes/lib/functions.php:446
+#: shortcodes/shortcodes/porto_image_frame.php:165
+#: shortcodes/shortcodes/porto_image_frame.php:313
+#: shortcodes/shortcodes/porto_image_frame.php:436
+#: shortcodes/shortcodes/porto_portfolios.php:100
+#: shortcodes/shortcodes/porto_portfolios_category.php:54
+#: shortcodes/shortcodes/porto_price_box.php:118
+#: shortcodes/shortcodes/porto_recent_portfolios.php:72
+msgid "Zoom"
+msgstr ""
+
+#: shortcodes/lib/functions.php:446
+msgid "No_Zoom"
+msgstr ""
+
+#: shortcodes/lib/functions.php:461 shortcodes/lib/functions.php:507
+msgid "List"
+msgstr ""
+
+#: shortcodes/lib/functions.php:462
+#: shortcodes/woo_shortcodes/porto_product_categories.php:43
+msgid "Slider"
+msgstr ""
+
+#: shortcodes/lib/functions.php:474 shortcodes/lib/functions.php:475
+msgid "(without sidebar)"
+msgstr ""
+
+#: shortcodes/lib/functions.php:482 shortcodes/lib/functions.php:483
+#: shortcodes/lib/functions.php:484 shortcodes/lib/functions.php:485
+#: shortcodes/lib/functions.php:486 shortcodes/lib/functions.php:487
+msgid " of content width"
+msgstr ""
+
+#: shortcodes/lib/functions.php:488 shortcodes/lib/functions.php:489
+msgid " of content width (without sidebar)"
+msgstr ""
+
+#: shortcodes/lib/functions.php:497
+msgid "On Image"
+msgstr ""
+
+#: shortcodes/lib/functions.php:498
+msgid "Wishlist, Quick View On Image"
+msgstr ""
+
+#: shortcodes/lib/functions.php:499
+msgid "Out of Image, Quick View On Image"
+msgstr ""
+
+#: shortcodes/lib/functions.php:500
+msgid "Out of Image, Quick View On Image Alt"
+msgstr ""
+
+#: shortcodes/lib/functions.php:514 shortcodes/lib/functions.php:700
+#: shortcodes/shortcodes/porto_recent_posts.php:92
+msgid "Primary"
+msgstr ""
+
+#: shortcodes/lib/functions.php:515 shortcodes/lib/functions.php:701
+#: shortcodes/shortcodes/porto_recent_posts.php:93
+msgid "Secondary"
+msgstr ""
+
+#: shortcodes/lib/functions.php:516 shortcodes/lib/functions.php:702
+#: shortcodes/shortcodes/porto_recent_posts.php:94
+msgid "Tertiary"
+msgstr ""
+
+#: shortcodes/lib/functions.php:517 shortcodes/lib/functions.php:703
+#: shortcodes/shortcodes/porto_recent_posts.php:95
+msgid "Quaternary"
+msgstr ""
+
+#: shortcodes/lib/functions.php:518 shortcodes/lib/functions.php:704
+#: shortcodes/lib/functions.php:727
+#: shortcodes/shortcodes/porto_recent_posts.php:96
+msgid "Dark"
+msgstr ""
+
+#: shortcodes/lib/functions.php:519 shortcodes/lib/functions.php:705
+#: shortcodes/lib/functions.php:728
+#: shortcodes/shortcodes/porto_recent_posts.php:97
+msgid "Light"
+msgstr ""
+
+#: shortcodes/lib/functions.php:526
+msgid "Flat"
+msgstr ""
+
+#: shortcodes/lib/functions.php:527
+msgid "Custom"
+msgstr ""
+
+#: shortcodes/lib/functions.php:534 shortcodes/lib/functions.php:560
+#: shortcodes/lib/functions.php:680 shortcodes/lib/functions.php:734
+#: shortcodes/shortcodes/porto_interactive_banner.php:71
+msgid "Style 1"
+msgstr ""
+
+#: shortcodes/lib/functions.php:535 shortcodes/lib/functions.php:561
+#: shortcodes/lib/functions.php:626 shortcodes/lib/functions.php:681
+#: shortcodes/lib/functions.php:735
+#: shortcodes/shortcodes/porto_interactive_banner.php:72
+msgid "Style 2"
+msgstr ""
+
+#: shortcodes/lib/functions.php:536 shortcodes/lib/functions.php:562
+#: shortcodes/lib/functions.php:682 shortcodes/lib/functions.php:736
+msgid "Style 3"
+msgstr ""
+
+#: shortcodes/lib/functions.php:537 shortcodes/lib/functions.php:563
+#: shortcodes/lib/functions.php:683 shortcodes/lib/functions.php:737
+msgid "Style 4"
+msgstr ""
+
+#: shortcodes/lib/functions.php:538 shortcodes/lib/functions.php:564
+#: shortcodes/lib/functions.php:684
+msgid "Style 5"
+msgstr ""
+
+#: shortcodes/lib/functions.php:539 shortcodes/lib/functions.php:565
+#: shortcodes/lib/functions.php:685
+msgid "Style 6"
+msgstr ""
+
+#: shortcodes/lib/functions.php:540
+msgid "Style 7"
+msgstr ""
+
+#: shortcodes/lib/functions.php:541
+msgid "Style 8"
+msgstr ""
+
+#: shortcodes/lib/functions.php:548
+msgid "Effect 1"
+msgstr ""
+
+#: shortcodes/lib/functions.php:549
+msgid "Effect 2"
+msgstr ""
+
+#: shortcodes/lib/functions.php:550
+msgid "Effect 3"
+msgstr ""
+
+#: shortcodes/lib/functions.php:551
+msgid "Effect 4"
+msgstr ""
+
+#: shortcodes/lib/functions.php:552
+msgid "Effect 5"
+msgstr ""
+
+#: shortcodes/lib/functions.php:553
+msgid "Effect 6"
+msgstr ""
+
+#: shortcodes/lib/functions.php:554
+msgid "Effect 7"
+msgstr ""
+
+#: shortcodes/lib/functions.php:572
+msgid "Success"
+msgstr ""
+
+#: shortcodes/lib/functions.php:573 widgets/twitter_tweets.php:191
+msgid "Info"
+msgstr ""
+
+#: shortcodes/lib/functions.php:574
+msgid "Warning"
+msgstr ""
+
+#: shortcodes/lib/functions.php:575
+msgid "Danger"
+msgstr ""
+
+#: shortcodes/lib/functions.php:581 shortcodes/lib/functions.php:665
+#: shortcodes/shortcodes/porto_carousel.php:113
+#: shortcodes/shortcodes/porto_price_box.php:135
+#: shortcodes/shortcodes/porto_recent_members.php:406
+#: shortcodes/shortcodes/porto_recent_portfolios.php:147
+#: shortcodes/shortcodes/porto_recent_posts.php:185
+#: shortcodes/shortcodes/porto_section.php:133
+#: shortcodes/shortcodes/porto_stat_counter.php:196
+#: shortcodes/shortcodes/porto_ultimate_heading.php:206
+msgid "Top"
+msgstr ""
+
+#: shortcodes/lib/functions.php:583 shortcodes/lib/functions.php:666
+#: shortcodes/shortcodes/porto_carousel.php:114
+#: shortcodes/shortcodes/porto_price_box.php:136
+#: shortcodes/shortcodes/porto_recent_members.php:409
+#: shortcodes/shortcodes/porto_recent_portfolios.php:148
+#: shortcodes/shortcodes/porto_recent_posts.php:186
+#: shortcodes/shortcodes/porto_section.php:134
+#: shortcodes/shortcodes/porto_ultimate_heading.php:208
+msgid "Bottom"
+msgstr ""
+
+#: shortcodes/lib/functions.php:590 shortcodes/lib/functions.php:618
+#: shortcodes/lib/functions.php:656 shortcodes/lib/functions.php:743
+#: shortcodes/shortcodes/porto_lightbox.php:124
+#: shortcodes/shortcodes/porto_recent_posts.php:66
+#: shortcodes/shortcodes/porto_recent_posts.php:78
+#: shortcodes/shortcodes/porto_testimonial.php:142
+msgid "Normal"
+msgstr ""
+
+#: shortcodes/lib/functions.php:593
+#: shortcodes/shortcodes/porto_image_frame.php:303
+#: shortcodes/shortcodes/porto_image_frame.php:426
+#: shortcodes/shortcodes/porto_lightbox.php:127
+#: shortcodes/shortcodes/porto_price_box.php:108
+#: shortcodes/shortcodes/porto_recent_posts.php:80
+msgid "Extra Small"
+msgstr ""
+
+#: shortcodes/lib/functions.php:599
+msgid "Click"
+msgstr ""
+
+#: shortcodes/lib/functions.php:600
+msgid "Hover"
+msgstr ""
+
+#: shortcodes/lib/functions.php:601
+msgid "Focus"
+msgstr ""
+
+#: shortcodes/lib/functions.php:612
+msgid "Alternative"
+msgstr ""
+
+#: shortcodes/lib/functions.php:632
+msgid "Original Order"
+msgstr ""
+
+#: shortcodes/lib/functions.php:633
+msgid "Popular Value"
+msgstr ""
+
+#: shortcodes/lib/functions.php:639
+msgid "12 columns - 1/1"
+msgstr ""
+
+#: shortcodes/lib/functions.php:640
+msgid "11 columns - 11/12"
+msgstr ""
+
+#: shortcodes/lib/functions.php:641
+msgid "10 columns - 5/6"
+msgstr ""
+
+#: shortcodes/lib/functions.php:642
+msgid "9 columns - 3/4"
+msgstr ""
+
+#: shortcodes/lib/functions.php:643
+msgid "8 columns - 2/3"
+msgstr ""
+
+#: shortcodes/lib/functions.php:644
+msgid "7 columns - 7/12"
+msgstr ""
+
+#: shortcodes/lib/functions.php:645
+msgid "6 columns - 1/2"
+msgstr ""
+
+#: shortcodes/lib/functions.php:646
+msgid "5 columns - 5/12"
+msgstr ""
+
+#: shortcodes/lib/functions.php:647
+msgid "4 columns - 1/3"
+msgstr ""
+
+#: shortcodes/lib/functions.php:648
+msgid "3 columns - 1/4"
+msgstr ""
+
+#: shortcodes/lib/functions.php:649
+msgid "2 columns - 1/6"
+msgstr ""
+
+#: shortcodes/lib/functions.php:650
+msgid "1 columns - 1/12"
+msgstr ""
+
+#: shortcodes/lib/functions.php:657
+msgid "Short"
+msgstr ""
+
+#: shortcodes/lib/functions.php:658
+msgid "Long"
+msgstr ""
+
+#: shortcodes/lib/functions.php:672
+msgid "Open URL (Link)"
+msgstr ""
+
+#: shortcodes/lib/functions.php:673
+msgid "Popup Video or Map"
+msgstr ""
+
+#: shortcodes/lib/functions.php:674
+#: shortcodes/shortcodes/porto_image_frame.php:289
+#: shortcodes/shortcodes/porto_image_frame.php:412
+#: shortcodes/shortcodes/porto_price_box.php:94
+msgid "Popup Block"
+msgstr ""
+
+#: shortcodes/lib/functions.php:692
+#: shortcodes/shortcodes/porto_blockquote.php:57
+msgid "Reverse"
+msgstr ""
+
+#: shortcodes/lib/functions.php:699
+#: shortcodes/shortcodes/porto_image_frame.php:153
+#: shortcodes/shortcodes/porto_portfolios.php:90
+#: shortcodes/shortcodes/porto_recent_portfolios.php:62
+msgid "Transparent"
+msgstr ""
+
+#: shortcodes/lib/functions.php:712
+msgid "Scale 1"
+msgstr ""
+
+#: shortcodes/lib/functions.php:713 shortcodes/shortcodes/porto_section.php:83
+msgid "Scale 2"
+msgstr ""
+
+#: shortcodes/lib/functions.php:714
+msgid "Scale 3"
+msgstr ""
+
+#: shortcodes/lib/functions.php:715
+msgid "Scale 4"
+msgstr ""
+
+#: shortcodes/lib/functions.php:716
+msgid "Scale 5"
+msgstr ""
+
+#: shortcodes/lib/functions.php:717
+msgid "Scale 6"
+msgstr ""
+
+#: shortcodes/lib/functions.php:718
+msgid "Scale 7"
+msgstr ""
+
+#: shortcodes/lib/functions.php:719
+msgid "Scale 8"
+msgstr ""
+
+#: shortcodes/lib/functions.php:720
+msgid "Scale 9"
+msgstr ""
+
+#: shortcodes/lib/functions.php:778
+msgid "Attention Seekers"
+msgstr ""
+
+#: shortcodes/lib/functions.php:787
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: shortcodes/lib/functions.php:796
+msgid "Bouncing Exits"
+msgstr ""
+
+#: shortcodes/lib/functions.php:805
+msgid "Fading Entrances"
+msgstr ""
+
+#: shortcodes/lib/functions.php:814
+msgid "Fading Exits"
+msgstr ""
+
+#: shortcodes/lib/functions.php:823
+msgid "Flippers"
+msgstr ""
+
+#: shortcodes/lib/functions.php:832
+msgid "Lightspeed"
+msgstr ""
+
+#: shortcodes/lib/functions.php:841
+msgid "Rotating Entrances"
+msgstr ""
+
+#: shortcodes/lib/functions.php:850
+msgid "Rotating Exits"
+msgstr ""
+
+#: shortcodes/lib/functions.php:859
+msgid "Sliding Entrances"
+msgstr ""
+
+#: shortcodes/lib/functions.php:868
+msgid "Sliding Exit"
+msgstr ""
+
+#: shortcodes/lib/functions.php:877
+msgid "Specials"
+msgstr ""
+
+#: shortcodes/lib/functions.php:1322
+msgid "Inherit"
+msgstr ""
+
+#: shortcodes/lib/functions.php:1323 shortcodes/shortcodes/porto_icon.php:145
+#: shortcodes/shortcodes/porto_info_box.php:156
+#: shortcodes/shortcodes/porto_single_icon.php:141
+#: shortcodes/shortcodes/porto_stat_counter.php:144
+msgid "Inset"
+msgstr ""
+
+#: shortcodes/lib/functions.php:1324 shortcodes/shortcodes/porto_icon.php:146
+#: shortcodes/shortcodes/porto_info_box.php:157
+#: shortcodes/shortcodes/porto_single_icon.php:142
+#: shortcodes/shortcodes/porto_stat_counter.php:145
+msgid "Outset"
+msgstr ""
+
+#: shortcodes/lib/functions.php:1355
+msgid "Box Shadow Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_animation.php:23
+#: shortcodes/shortcodes/porto_block.php:23
+#: shortcodes/shortcodes/porto_blockquote.php:23
+#: shortcodes/shortcodes/porto_blog.php:23
+#: shortcodes/shortcodes/porto_buttons.php:39
+#: shortcodes/shortcodes/porto_carousel.php:23
+#: shortcodes/shortcodes/porto_carousel_item.php:20
+#: shortcodes/shortcodes/porto_carousel_logo.php:26
+#: shortcodes/shortcodes/porto_concept.php:23
+#: shortcodes/shortcodes/porto_container.php:23
+#: shortcodes/shortcodes/porto_content_box.php:23
+#: shortcodes/shortcodes/porto_countdown.php:29
+#: shortcodes/shortcodes/porto_diamonds.php:23
+#: shortcodes/shortcodes/porto_events.php:16
+#: shortcodes/shortcodes/porto_experience_timeline_container.php:20
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:23
+#: shortcodes/shortcodes/porto_fancytext.php:34
+#: shortcodes/shortcodes/porto_faqs.php:23
+#: shortcodes/shortcodes/porto_feature_box.php:23
+#: shortcodes/shortcodes/porto_floating_menu_container.php:20
+#: shortcodes/shortcodes/porto_floating_menu_item.php:23
+#: shortcodes/shortcodes/porto_google_map.php:47
+#: shortcodes/shortcodes/porto_grid_container.php:23
+#: shortcodes/shortcodes/porto_grid_item.php:20
+#: shortcodes/shortcodes/porto_history.php:23
+#: shortcodes/shortcodes/porto_icon.php:28
+#: shortcodes/shortcodes/porto_icons.php:29
+#: shortcodes/shortcodes/porto_image_frame.php:23
+#: shortcodes/shortcodes/porto_info_box.php:37
+#: shortcodes/shortcodes/porto_info_list.php:29
+#: shortcodes/shortcodes/porto_info_list_item.php:26
+#: shortcodes/shortcodes/porto_interactive_banner.php:29
+#: shortcodes/shortcodes/porto_lightbox.php:23
+#: shortcodes/shortcodes/porto_lightbox_container.php:23
+#: shortcodes/shortcodes/porto_links_block.php:23
+#: shortcodes/shortcodes/porto_links_item.php:20
+#: shortcodes/shortcodes/porto_map_section.php:23
+#: shortcodes/shortcodes/porto_members.php:23
+#: shortcodes/shortcodes/porto_modal.php:26
+#: shortcodes/shortcodes/porto_popover.php:23
+#: shortcodes/shortcodes/porto_portfolios.php:19
+#: shortcodes/shortcodes/porto_portfolios_category.php:19
+#: shortcodes/shortcodes/porto_preview_image.php:20
+#: shortcodes/shortcodes/porto_price_box.php:23
+#: shortcodes/shortcodes/porto_price_boxes.php:23
+#: shortcodes/shortcodes/porto_recent_members.php:67
+#: shortcodes/shortcodes/porto_recent_portfolios.php:23
+#: shortcodes/shortcodes/porto_recent_posts.php:23
+#: shortcodes/shortcodes/porto_schedule_timeline_container.php:15
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:23
+#: shortcodes/shortcodes/porto_section.php:23
+#: shortcodes/shortcodes/porto_single_icon.php:29
+#: shortcodes/shortcodes/porto_sort_container.php:23
+#: shortcodes/shortcodes/porto_sort_filter.php:20
+#: shortcodes/shortcodes/porto_sort_filters.php:23
+#: shortcodes/shortcodes/porto_sort_item.php:20
+#: shortcodes/shortcodes/porto_stat_counter.php:37
+#: shortcodes/shortcodes/porto_sticky.php:23
+#: shortcodes/shortcodes/porto_sticky_nav.php:23
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:20
+#: shortcodes/shortcodes/porto_testimonial.php:19
+#: shortcodes/shortcodes/porto_toggles.php:23
+#: shortcodes/shortcodes/porto_tooltip.php:23
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:34
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:28
+#: shortcodes/shortcodes/porto_ultimate_heading.php:37
+msgid "Porto"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_block.php:28
+msgid "Input block id & slug name"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_block.php:33
+msgid "Block ID"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_block.php:39 widgets/block.php:69
+msgid "Block Slug Name"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blockquote.php:21
+msgid "Blockquote"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blockquote.php:28
+#: shortcodes/shortcodes/porto_testimonial.php:69
+msgid "Quote"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blockquote.php:34
+msgid "Footer Text 1"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blockquote.php:39
+msgid "Footer Text 2"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blockquote.php:44
+#: shortcodes/shortcodes/porto_image_frame.php:109
+#: shortcodes/shortcodes/porto_members.php:42
+#: shortcodes/shortcodes/porto_portfolios.php:46
+#: shortcodes/shortcodes/porto_recent_members.php:100
+#: shortcodes/shortcodes/porto_recent_portfolios.php:34
+#: shortcodes/shortcodes/porto_recent_posts.php:34
+#: shortcodes/shortcodes/porto_testimonial.php:80 widgets/contact_info.php:164
+#: widgets/recent_portfolios.php:137 widgets/recent_posts.php:128
+msgid "View Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blockquote.php:48
+msgid "With Borders"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blockquote.php:53
+msgid "Direction"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blockquote.php:62
+#: shortcodes/shortcodes/porto_content_box.php:32
+#: shortcodes/shortcodes/porto_feature_box.php:33
+#: shortcodes/shortcodes/porto_image_frame.php:247
+#: shortcodes/shortcodes/porto_image_frame.php:370
+#: shortcodes/shortcodes/porto_price_box.php:58
+#: shortcodes/shortcodes/porto_sticky_nav.php:51
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:78
+#: shortcodes/shortcodes/porto_testimonial.php:128
+#: shortcodes/shortcodes/porto_testimonial.php:139
+#: shortcodes/shortcodes/porto_toggles.php:51
+msgid "Skin Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blockquote.php:73
+#: shortcodes/shortcodes/porto_buttons.php:209
+#: shortcodes/shortcodes/porto_icon.php:154
+#: shortcodes/shortcodes/porto_info_box.php:165
+#: shortcodes/shortcodes/porto_single_icon.php:151
+#: shortcodes/shortcodes/porto_stat_counter.php:152
+msgid "Border Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:21
+msgid "Blog"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:34
+msgid "Blog Layout"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:42
+msgid "Post Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:47
+msgid "Post Carousel Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:52
+#: shortcodes/shortcodes/porto_members.php:34
+#: shortcodes/shortcodes/porto_portfolios.php:38
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:51
+#: shortcodes/woo_shortcodes/porto_featured_products.php:53
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:59
+#: shortcodes/woo_shortcodes/porto_product_categories.php:55
+#: shortcodes/woo_shortcodes/porto_product_category.php:73
+#: shortcodes/woo_shortcodes/porto_products.php:46
+#: shortcodes/woo_shortcodes/porto_recent_products.php:53
+#: shortcodes/woo_shortcodes/porto_sale_products.php:53
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:53
+msgid "Columns"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:60
+#: shortcodes/shortcodes/porto_faqs.php:34
+#: shortcodes/shortcodes/porto_members.php:72
+#: shortcodes/shortcodes/porto_portfolios.php:119
+#: shortcodes/shortcodes/porto_portfolios_category.php:77
+#: shortcodes/shortcodes/porto_recent_members.php:259
+#: shortcodes/shortcodes/porto_recent_portfolios.php:98
+#: shortcodes/shortcodes/porto_recent_posts.php:116
+#: widgets/recent_portfolios.php:152 widgets/recent_posts.php:143
+msgid "Category IDs"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:61
+#: shortcodes/shortcodes/porto_faqs.php:35
+#: shortcodes/shortcodes/porto_members.php:73
+#: shortcodes/shortcodes/porto_portfolios.php:120
+#: shortcodes/shortcodes/porto_portfolios_category.php:78
+msgid "comma separated list of category ids"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:67
+msgid "Post IDs"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:68
+msgid "comma separated list of post ids"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:73
+#: shortcodes/shortcodes/porto_recent_posts.php:109
+msgid "Posts Count"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:79
+#: shortcodes/shortcodes/porto_faqs.php:53
+#: shortcodes/shortcodes/porto_members.php:97
+#: shortcodes/shortcodes/porto_portfolios.php:155
+msgid "Show Archive Link"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:81
+#: shortcodes/shortcodes/porto_carousel.php:47
+#: shortcodes/shortcodes/porto_carousel.php:96
+#: shortcodes/shortcodes/porto_carousel.php:103
+#: shortcodes/shortcodes/porto_carousel.php:135
+#: shortcodes/shortcodes/porto_carousel.php:177
+#: shortcodes/shortcodes/porto_carousel.php:184
+#: shortcodes/shortcodes/porto_carousel.php:191
+#: shortcodes/shortcodes/porto_carousel.php:198
+#: shortcodes/shortcodes/porto_carousel.php:206
+#: shortcodes/shortcodes/porto_carousel.php:214
+#: shortcodes/shortcodes/porto_carousel.php:224
+#: shortcodes/shortcodes/porto_carousel.php:233
+#: shortcodes/shortcodes/porto_carousel.php:242
+#: shortcodes/shortcodes/porto_carousel.php:251
+#: shortcodes/shortcodes/porto_carousel.php:260
+#: shortcodes/shortcodes/porto_diamonds.php:31
+#: shortcodes/shortcodes/porto_faqs.php:55
+#: shortcodes/shortcodes/porto_faqs.php:67
+#: shortcodes/shortcodes/porto_faqs.php:73
+#: shortcodes/shortcodes/porto_google_map.php:128
+#: shortcodes/shortcodes/porto_lightbox_container.php:50
+#: shortcodes/shortcodes/porto_map_section.php:35
+#: shortcodes/shortcodes/porto_map_section.php:41
+#: shortcodes/shortcodes/porto_members.php:61
+#: shortcodes/shortcodes/porto_members.php:68
+#: shortcodes/shortcodes/porto_members.php:99
+#: shortcodes/shortcodes/porto_members.php:111
+#: shortcodes/shortcodes/porto_members.php:117
+#: shortcodes/shortcodes/porto_members.php:123
+#: shortcodes/shortcodes/porto_members.php:130
+#: shortcodes/shortcodes/porto_portfolios.php:157
+#: shortcodes/shortcodes/porto_portfolios.php:169
+#: shortcodes/shortcodes/porto_portfolios.php:182
+#: shortcodes/shortcodes/porto_portfolios.php:190
+#: shortcodes/shortcodes/porto_price_boxes.php:62
+#: shortcodes/shortcodes/porto_price_boxes.php:69
+#: shortcodes/shortcodes/porto_recent_members.php:156
+#: shortcodes/shortcodes/porto_recent_members.php:177
+#: shortcodes/shortcodes/porto_recent_members.php:218
+#: shortcodes/shortcodes/porto_recent_members.php:228
+#: shortcodes/shortcodes/porto_recent_members.php:355
+#: shortcodes/shortcodes/porto_recent_members.php:376
+#: shortcodes/shortcodes/porto_recent_members.php:472
+#: shortcodes/shortcodes/porto_recent_members.php:496
+#: shortcodes/shortcodes/porto_recent_portfolios.php:80
+#: shortcodes/shortcodes/porto_recent_portfolios.php:87
+#: shortcodes/shortcodes/porto_recent_portfolios.php:130
+#: shortcodes/shortcodes/porto_recent_portfolios.php:137
+#: shortcodes/shortcodes/porto_recent_portfolios.php:169
+#: shortcodes/shortcodes/porto_recent_portfolios.php:177
+#: shortcodes/shortcodes/porto_recent_posts.php:125
+#: shortcodes/shortcodes/porto_recent_posts.php:131
+#: shortcodes/shortcodes/porto_recent_posts.php:168
+#: shortcodes/shortcodes/porto_recent_posts.php:175
+#: shortcodes/shortcodes/porto_recent_posts.php:207
+#: shortcodes/shortcodes/porto_recent_posts.php:215
+#: shortcodes/shortcodes/porto_section.php:41
+#: shortcodes/shortcodes/porto_sticky_nav.php:35
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:90
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:98
+#: shortcodes/woo_shortcodes/porto_featured_products.php:106
+#: shortcodes/woo_shortcodes/porto_featured_products.php:114
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:131
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:139
+#: shortcodes/woo_shortcodes/porto_product_categories.php:120
+#: shortcodes/woo_shortcodes/porto_product_categories.php:128
+#: shortcodes/woo_shortcodes/porto_product_categories.php:136
+#: shortcodes/woo_shortcodes/porto_product_category.php:134
+#: shortcodes/woo_shortcodes/porto_product_category.php:142
+#: shortcodes/woo_shortcodes/porto_products.php:116
+#: shortcodes/woo_shortcodes/porto_products.php:124
+#: shortcodes/woo_shortcodes/porto_recent_products.php:106
+#: shortcodes/woo_shortcodes/porto_recent_products.php:114
+#: shortcodes/woo_shortcodes/porto_sale_products.php:106
+#: shortcodes/woo_shortcodes/porto_sale_products.php:114
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:106
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:114
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:78
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:84
+msgid "Yes"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_blog.php:85
+#: shortcodes/shortcodes/porto_faqs.php:59
+#: shortcodes/shortcodes/porto_members.php:103
+#: shortcodes/shortcodes/porto_portfolios.php:161
+msgid "Extra class name for Archive Link"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:33
+msgid "Porto Advanced Button"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:40
+msgid "Create creative buttons."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:44
+msgid "Button Title"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:53
+#: shortcodes/shortcodes/porto_popover.php:57
+#: shortcodes/shortcodes/porto_tooltip.php:57
+msgid "Button Link"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:61
+msgid "Button Alignment"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:64
+#: shortcodes/shortcodes/porto_icons.php:42
+msgid "Left Align"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:65
+#: shortcodes/shortcodes/porto_icons.php:44
+msgid "Center Align"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:66
+#: shortcodes/shortcodes/porto_icons.php:43
+msgid "Right Align"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:67
+#: shortcodes/shortcodes/porto_lightbox.php:51
+#: shortcodes/shortcodes/porto_lightbox_container.php:41
+#: shortcodes/shortcodes/porto_popover.php:47
+#: shortcodes/shortcodes/porto_tooltip.php:47 widgets/contact_info.php:166
+msgid "Inline"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:74
+#: shortcodes/shortcodes/porto_lightbox.php:66
+#: shortcodes/shortcodes/porto_popover.php:69
+#: shortcodes/shortcodes/porto_price_box.php:125
+#: shortcodes/shortcodes/porto_recent_posts.php:72
+#: shortcodes/shortcodes/porto_tooltip.php:69
+msgid "Button Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:77
+msgid "Normal Button"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:78
+msgid "Mini Button"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:79
+msgid "Small Button"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:80
+msgid "Large Button"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:81
+msgid "Button Block"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:82
+msgid "Custom Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:88
+msgid "Button Width"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:100
+msgid "Button Height"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:112
+msgid "Button Left / Right Padding"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:124
+msgid "Button Top / Bottom Padding"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:136
+msgid "Button Title Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:144
+#: shortcodes/shortcodes/porto_icon.php:128
+#: shortcodes/shortcodes/porto_image_frame.php:253
+#: shortcodes/shortcodes/porto_image_frame.php:376
+#: shortcodes/shortcodes/porto_info_box.php:139
+#: shortcodes/shortcodes/porto_interactive_banner.php:117
+#: shortcodes/shortcodes/porto_single_icon.php:123
+#: shortcodes/shortcodes/porto_stat_counter.php:128
+#: shortcodes/shortcodes/porto_sticky_nav.php:46
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:147
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:37
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:43
+msgid "Background Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:153
+msgid "Rel Attribute"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:155
+msgid ""
+"This is useful when you want to trigger third party features. Example- "
+"prettyPhoto, thickbox etc"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:160
+msgid "Button Hover Background Effect"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:163
+#: shortcodes/shortcodes/porto_info_box.php:271
+msgid "No Effect"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:164
+msgid "Fade Background"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:165
+msgid "Fill Background from Top"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:166
+msgid "Fill Background from Bottom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:167
+msgid "Fill Background from Left"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:168
+msgid "Fill Background from Right"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:169
+msgid "Fill Background from Center Horizontally"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:170
+msgid "Fill Background from Center Vertically"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:171
+msgid "Fill Background from Center Diagonal"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:177
+msgid "Hover Background Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:185
+msgid "Hover Text Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:193
+msgid "Button Border Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:218
+msgid "Border Color on Hover"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:227
+#: shortcodes/shortcodes/porto_icon.php:163
+#: shortcodes/shortcodes/porto_info_box.php:174
+#: shortcodes/shortcodes/porto_single_icon.php:161
+#: shortcodes/shortcodes/porto_stat_counter.php:160
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:56
+msgid "Border Width"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:239
+#: shortcodes/shortcodes/porto_content_box.php:47
+#: shortcodes/shortcodes/porto_icon.php:175
+#: shortcodes/shortcodes/porto_info_box.php:186
+#: shortcodes/shortcodes/porto_single_icon.php:174
+#: shortcodes/shortcodes/porto_stat_counter.php:171
+msgid "Border Radius"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:251
+#: shortcodes/shortcodes/porto_countdown.php:251
+#: shortcodes/shortcodes/porto_fancytext.php:219
+#: shortcodes/shortcodes/porto_icon.php:218
+#: shortcodes/shortcodes/porto_icons.php:50
+#: shortcodes/shortcodes/porto_info_box.php:479
+#: shortcodes/shortcodes/porto_interactive_banner.php:151
+#: shortcodes/shortcodes/porto_stat_counter.php:396
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:365
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:141
+msgid "Css"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:253
+msgid "Styling"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:258
+#: shortcodes/shortcodes/porto_info_box.php:318
+#: shortcodes/shortcodes/porto_info_box.php:428
+#: shortcodes/shortcodes/porto_stat_counter.php:320
+#: shortcodes/shortcodes/porto_stat_counter.php:362
+msgid "Font Family"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:260
+#: shortcodes/shortcodes/porto_info_box.php:320
+#: shortcodes/shortcodes/porto_info_box.php:430
+#: shortcodes/shortcodes/porto_stat_counter.php:279
+#: shortcodes/shortcodes/porto_stat_counter.php:322
+#: shortcodes/shortcodes/porto_stat_counter.php:364
+#: shortcodes/shortcodes/porto_ultimate_heading.php:60
+#: shortcodes/shortcodes/porto_ultimate_heading.php:136
+msgid ""
+"You can add new font using 'Custom font' section in Appearance->Theme "
+"options->Skin->Typography"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:266
+#: shortcodes/shortcodes/porto_countdown.php:201
+#: shortcodes/shortcodes/porto_fancytext.php:116
+#: shortcodes/shortcodes/porto_fancytext.php:167
+#: shortcodes/shortcodes/porto_info_box.php:326
+#: shortcodes/shortcodes/porto_info_box.php:377
+#: shortcodes/shortcodes/porto_info_box.php:436
+#: shortcodes/shortcodes/porto_stat_counter.php:285
+#: shortcodes/shortcodes/porto_stat_counter.php:328
+#: shortcodes/shortcodes/porto_stat_counter.php:370
+#: shortcodes/shortcodes/porto_ultimate_heading.php:74
+#: shortcodes/shortcodes/porto_ultimate_heading.php:150
+msgid "Font Weight"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:272
+#: shortcodes/shortcodes/porto_info_box.php:334
+#: shortcodes/shortcodes/porto_info_box.php:385
+#: shortcodes/shortcodes/porto_info_box.php:444
+#: shortcodes/shortcodes/porto_stat_counter.php:292
+#: shortcodes/shortcodes/porto_stat_counter.php:335
+#: shortcodes/shortcodes/porto_stat_counter.php:377
+#: shortcodes/shortcodes/porto_ultimate_heading.php:67
+msgid "Font size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_buttons.php:278
+#: shortcodes/shortcodes/porto_fancytext.php:130
+#: shortcodes/shortcodes/porto_fancytext.php:181
+#: shortcodes/shortcodes/porto_info_box.php:349
+#: shortcodes/shortcodes/porto_info_box.php:400
+#: shortcodes/shortcodes/porto_info_box.php:459
+#: shortcodes/shortcodes/porto_stat_counter.php:298
+#: shortcodes/shortcodes/porto_stat_counter.php:341
+#: shortcodes/shortcodes/porto_stat_counter.php:383
+#: shortcodes/shortcodes/porto_ultimate_heading.php:90
+#: shortcodes/shortcodes/porto_ultimate_heading.php:166
+#: shortcodes/shortcodes/porto_ultimate_heading.php:223
+msgid "Line Height"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:21
+msgid "Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:33
+msgid "Stage Padding"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:39
+msgid "Item Margin"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:45
+msgid "Auto Play"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:51
+msgid "Auto Play Timeout"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:58
+msgid "Pause on Mouse Hover"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:64
+msgid "Items"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:70
+msgid "Items on Desktop"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:76
+msgid "Items on Tablet"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:82
+msgid "Items on Mobile"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:88
+msgid "Items on Mini"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:94
+#: shortcodes/shortcodes/porto_recent_members.php:370
+#: shortcodes/shortcodes/porto_recent_portfolios.php:135
+#: shortcodes/shortcodes/porto_recent_posts.php:173
+msgid "Show Nav"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:97
+#: shortcodes/shortcodes/porto_carousel.php:105
+#: shortcodes/shortcodes/porto_carousel.php:117
+#: shortcodes/shortcodes/porto_carousel.php:129
+#: shortcodes/shortcodes/porto_carousel.php:136
+#: shortcodes/shortcodes/porto_carousel.php:147
+#: shortcodes/shortcodes/porto_carousel.php:159
+msgid "Navigation"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:101
+#: shortcodes/shortcodes/porto_recent_members.php:466
+#: shortcodes/shortcodes/porto_recent_portfolios.php:167
+#: shortcodes/shortcodes/porto_recent_posts.php:205
+msgid "Show Nav on Hover"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:109
+#: shortcodes/shortcodes/porto_recent_members.php:394
+#: shortcodes/shortcodes/porto_recent_portfolios.php:143
+#: shortcodes/shortcodes/porto_recent_posts.php:181
+msgid "Nav Position"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:112
+#: shortcodes/shortcodes/porto_recent_members.php:403
+#: shortcodes/shortcodes/porto_recent_portfolios.php:146
+#: shortcodes/shortcodes/porto_recent_posts.php:184
+msgid "Middle"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:121
+#: shortcodes/shortcodes/porto_recent_members.php:430
+#: shortcodes/shortcodes/porto_recent_portfolios.php:155
+#: shortcodes/shortcodes/porto_recent_posts.php:193
+msgid "Nav Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:125
+#: shortcodes/shortcodes/porto_image_frame.php:44
+#: shortcodes/shortcodes/porto_recent_members.php:442
+#: shortcodes/shortcodes/porto_recent_portfolios.php:159
+#: shortcodes/shortcodes/porto_recent_posts.php:197
+msgid "Rounded"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:126
+#: shortcodes/shortcodes/porto_recent_members.php:445
+#: shortcodes/shortcodes/porto_recent_portfolios.php:160
+#: shortcodes/shortcodes/porto_recent_posts.php:198
+msgid "Big & Full Width"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:133
+#: shortcodes/shortcodes/porto_recent_members.php:490
+#: shortcodes/shortcodes/porto_recent_portfolios.php:175
+#: shortcodes/shortcodes/porto_recent_posts.php:213
+msgid "Show Dots"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:140
+msgid "Dots Position"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:143
+msgid "Outside"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:144
+msgid "Inside"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:151
+msgid "Dots Align"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:163
+msgid "Item Animation In"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:169
+msgid "Item Animation Out"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:175
+msgid "Infinity loop"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:178
+#: shortcodes/shortcodes/porto_carousel.php:185
+#: shortcodes/shortcodes/porto_carousel.php:192
+#: shortcodes/shortcodes/porto_carousel.php:200
+#: shortcodes/shortcodes/porto_carousel.php:208
+#: shortcodes/shortcodes/porto_carousel.php:216
+#: shortcodes/shortcodes/porto_carousel.php:225
+#: shortcodes/shortcodes/porto_carousel.php:234
+#: shortcodes/shortcodes/porto_carousel.php:243
+#: shortcodes/shortcodes/porto_carousel.php:252
+#: shortcodes/shortcodes/porto_carousel.php:261
+#: shortcodes/shortcodes/porto_stat_counter.php:123
+msgid "Advanced"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:182
+msgid "Full Screen"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:189
+msgid "Center Item"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:196
+msgid "Fetch Videos"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:199
+msgid "Please edit video items using porto carousel item element."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:204
+msgid "Lazy Load"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:207
+msgid "Please edit lazy load images using porto carousel item element."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:212
+msgid "Merge Items"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:215
+msgid "Please edit merge items using porto carousel item element."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:220
+msgid "Merge Fit"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:229
+msgid "Merge Fit on Desktop"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:238
+msgid "Merge Fit on Tablet"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:247
+msgid "Merge Fit on Mobile"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel.php:256
+msgid "Merge Fit on Mini"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_item.php:18
+msgid "Carousel Item"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_item.php:31
+msgid ""
+"You shouldn't add shortcode, when select Lazy Load Image or Fetch Viedo type."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_item.php:36
+#: shortcodes/shortcodes/porto_image_frame.php:28
+#: shortcodes/shortcodes/porto_lightbox_container.php:36
+#: shortcodes/shortcodes/porto_toggles.php:33
+msgid "Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_item.php:40
+msgid "Lazy Load Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_item.php:41
+msgid "Fetch Video"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_item.php:46
+msgid "Vimeo or Youtube Video URL (Link)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_item.php:52
+#: shortcodes/shortcodes/porto_concept.php:43
+#: shortcodes/shortcodes/porto_concept.php:68
+#: shortcodes/shortcodes/porto_concept.php:93
+#: shortcodes/shortcodes/porto_diamonds.php:45
+#: shortcodes/shortcodes/porto_diamonds.php:83
+#: shortcodes/shortcodes/porto_diamonds.php:121
+#: shortcodes/shortcodes/porto_diamonds.php:159
+#: shortcodes/shortcodes/porto_diamonds.php:197
+#: shortcodes/shortcodes/porto_diamonds.php:235
+#: shortcodes/shortcodes/porto_diamonds.php:273
+#: shortcodes/shortcodes/porto_image_frame.php:61
+#: shortcodes/shortcodes/porto_preview_image.php:36
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:34
+msgid "Image URL"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_item.php:58
+#: shortcodes/shortcodes/porto_concept.php:48
+#: shortcodes/shortcodes/porto_concept.php:73
+#: shortcodes/shortcodes/porto_concept.php:98
+#: shortcodes/shortcodes/porto_diamonds.php:50
+#: shortcodes/shortcodes/porto_diamonds.php:88
+#: shortcodes/shortcodes/porto_diamonds.php:126
+#: shortcodes/shortcodes/porto_diamonds.php:164
+#: shortcodes/shortcodes/porto_diamonds.php:202
+#: shortcodes/shortcodes/porto_diamonds.php:240
+#: shortcodes/shortcodes/porto_diamonds.php:278
+#: shortcodes/shortcodes/porto_image_frame.php:66
+#: shortcodes/shortcodes/porto_lightbox_container.php:39
+#: shortcodes/shortcodes/porto_modal.php:77
+#: shortcodes/shortcodes/porto_preview_image.php:41
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:39
+#: shortcodes/shortcodes/porto_ultimate_heading.php:196
+msgid "Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_item.php:64
+msgid "Items to Merge"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_logo.php:22
+msgid "Porto Carousel Logo"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_logo.php:30
+msgid "Logo"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_logo.php:35
+msgid "Logo on hover"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_carousel_logo.php:41
+msgid "Text "
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:21
+msgid "Concept"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:28
+msgid "Block 1"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:28
+#: shortcodes/shortcodes/porto_concept.php:53
+#: shortcodes/shortcodes/porto_concept.php:78
+#: shortcodes/shortcodes/porto_concept.php:103
+#: shortcodes/shortcodes/porto_diamonds.php:35
+#: shortcodes/shortcodes/porto_image_frame.php:56
+#: shortcodes/shortcodes/porto_preview_image.php:31
+msgid "Input Image URL or Select Image."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:38
+#: shortcodes/shortcodes/porto_concept.php:63
+#: shortcodes/shortcodes/porto_concept.php:88
+#: shortcodes/shortcodes/porto_diamonds.php:72
+#: shortcodes/shortcodes/porto_diamonds.php:110
+#: shortcodes/shortcodes/porto_diamonds.php:148
+#: shortcodes/shortcodes/porto_diamonds.php:186
+#: shortcodes/shortcodes/porto_diamonds.php:224
+#: shortcodes/shortcodes/porto_diamonds.php:262
+#: shortcodes/shortcodes/porto_diamonds.php:300
+#: shortcodes/shortcodes/porto_floating_menu_item.php:40
+#: shortcodes/shortcodes/porto_image_frame.php:51
+#: shortcodes/shortcodes/porto_image_frame.php:277
+#: shortcodes/shortcodes/porto_image_frame.php:400
+#: shortcodes/shortcodes/porto_preview_image.php:25
+#: shortcodes/shortcodes/porto_price_box.php:82
+msgid "URL (Link)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:53
+msgid "Block 2"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:78
+msgid "Block 3"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:103
+msgid "Slideshow Block"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:113
+msgid "Slide #1 URL (Link)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:118
+msgid "Slide #1 Image URL"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:123
+msgid "Slide #1 Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:128
+msgid "Slide #2 URL (Link)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:133
+msgid "Slide #2 Image URL"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:138
+msgid "Slide #2 Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:143
+msgid "Slide #3 URL (Link)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:148
+msgid "Slide #3 Image URL"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_concept.php:153
+msgid "Slide #3 Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_container.php:21
+msgid "Container"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:21
+msgid "Content Box"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:40
+msgid "Border Top Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:49
+msgid "Enter the border radius in px."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:54
+msgid "Border Top Width"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:56
+msgid "Enter the border top width in px."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:61
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:34
+msgid "Background Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:68
+msgid "Background Gradient Top Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:77
+msgid "Background Gradient Bottom Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:86
+#: shortcodes/shortcodes/porto_section.php:51
+#: shortcodes/shortcodes/porto_sort_item.php:45
+msgid "Text Align"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:92
+#: shortcodes/shortcodes/porto_feature_box.php:103
+#: shortcodes/shortcodes/porto_info_box.php:280
+msgid "Box Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:99
+msgid "Box Effect"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:106
+#: shortcodes/shortcodes/porto_feature_box.php:41
+#: shortcodes/shortcodes/porto_links_block.php:40
+#: shortcodes/shortcodes/porto_links_item.php:37
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:38
+msgid "Show Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:108
+#: shortcodes/shortcodes/porto_feature_box.php:43
+#: shortcodes/shortcodes/porto_image_frame.php:178
+#: shortcodes/shortcodes/porto_image_frame.php:184
+#: shortcodes/shortcodes/porto_image_frame.php:195
+#: shortcodes/shortcodes/porto_image_frame.php:205
+#: shortcodes/shortcodes/porto_image_frame.php:328
+#: shortcodes/shortcodes/porto_links_block.php:42
+#: shortcodes/shortcodes/porto_links_item.php:39
+#: shortcodes/shortcodes/porto_preview_image.php:48
+#: shortcodes/shortcodes/porto_preview_image.php:69
+#: shortcodes/shortcodes/porto_preview_image.php:76
+#: shortcodes/shortcodes/porto_price_box.php:42
+#: shortcodes/shortcodes/porto_price_box.php:66
+#: shortcodes/shortcodes/porto_section.php:59
+#: shortcodes/shortcodes/porto_section.php:90
+#: shortcodes/shortcodes/porto_section.php:97
+#: shortcodes/shortcodes/porto_section.php:104
+#: shortcodes/shortcodes/porto_section.php:111
+#: shortcodes/shortcodes/porto_section.php:118
+#: shortcodes/shortcodes/porto_section.php:125
+#: shortcodes/shortcodes/porto_section.php:154
+#: shortcodes/shortcodes/porto_sort_filter.php:47
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:40
+#: shortcodes/shortcodes/porto_testimonial.php:104
+#: shortcodes/shortcodes/porto_testimonial.php:110
+#: shortcodes/shortcodes/porto_testimonial.php:120
+#: shortcodes/shortcodes/porto_toggles.php:47
+msgid "Yes, please"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:112
+#: shortcodes/shortcodes/porto_feature_box.php:47
+#: shortcodes/shortcodes/porto_image_frame.php:214
+#: shortcodes/shortcodes/porto_image_frame.php:337
+#: shortcodes/shortcodes/porto_links_block.php:46
+#: shortcodes/shortcodes/porto_links_item.php:43
+#: shortcodes/shortcodes/porto_section.php:159
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:44
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:180
+msgid "Icon library"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:114
+#: shortcodes/shortcodes/porto_feature_box.php:49
+#: shortcodes/shortcodes/porto_icon.php:37
+#: shortcodes/shortcodes/porto_image_frame.php:216
+#: shortcodes/shortcodes/porto_image_frame.php:339
+#: shortcodes/shortcodes/porto_info_box.php:48
+#: shortcodes/shortcodes/porto_info_list_item.php:37
+#: shortcodes/shortcodes/porto_links_block.php:48
+#: shortcodes/shortcodes/porto_links_item.php:45
+#: shortcodes/shortcodes/porto_section.php:161
+#: shortcodes/shortcodes/porto_single_icon.php:40
+#: shortcodes/shortcodes/porto_stat_counter.php:45
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:46
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:182
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:285
+msgid "Font Awesome"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:115
+#: shortcodes/shortcodes/porto_feature_box.php:50
+#: shortcodes/shortcodes/porto_icon.php:38
+#: shortcodes/shortcodes/porto_image_frame.php:217
+#: shortcodes/shortcodes/porto_image_frame.php:340
+#: shortcodes/shortcodes/porto_info_box.php:49
+#: shortcodes/shortcodes/porto_info_list_item.php:38
+#: shortcodes/shortcodes/porto_links_block.php:49
+#: shortcodes/shortcodes/porto_links_item.php:46
+#: shortcodes/shortcodes/porto_section.php:162
+#: shortcodes/shortcodes/porto_single_icon.php:41
+#: shortcodes/shortcodes/porto_stat_counter.php:46
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:47
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:183
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:286
+msgid "Simple Line Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:116
+#: shortcodes/shortcodes/porto_feature_box.php:51
+#: shortcodes/shortcodes/porto_icon.php:25
+#: shortcodes/shortcodes/porto_icon.php:39
+#: shortcodes/shortcodes/porto_info_box.php:50
+#: shortcodes/shortcodes/porto_info_list_item.php:39
+#: shortcodes/shortcodes/porto_links_item.php:46
+#: shortcodes/shortcodes/porto_single_icon.php:42
+#: shortcodes/shortcodes/porto_stat_counter.php:47
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:184
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:287
+msgid "Porto Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:117
+#: shortcodes/shortcodes/porto_feature_box.php:52
+#: shortcodes/shortcodes/porto_icon.php:40
+#: shortcodes/shortcodes/porto_image_frame.php:218
+#: shortcodes/shortcodes/porto_image_frame.php:341
+#: shortcodes/shortcodes/porto_info_box.php:51
+#: shortcodes/shortcodes/porto_links_block.php:50
+#: shortcodes/shortcodes/porto_links_item.php:47
+#: shortcodes/shortcodes/porto_section.php:163
+#: shortcodes/shortcodes/porto_stat_counter.php:48
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:48
+msgid "Custom Image Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:124
+#: shortcodes/shortcodes/porto_content_box.php:130
+#: shortcodes/shortcodes/porto_content_box.php:136
+#: shortcodes/shortcodes/porto_content_box.php:147
+#: shortcodes/shortcodes/porto_feature_box.php:59
+#: shortcodes/shortcodes/porto_feature_box.php:65
+#: shortcodes/shortcodes/porto_feature_box.php:71
+#: shortcodes/shortcodes/porto_feature_box.php:82
+#: shortcodes/shortcodes/porto_image_frame.php:224
+#: shortcodes/shortcodes/porto_image_frame.php:230
+#: shortcodes/shortcodes/porto_image_frame.php:236
+#: shortcodes/shortcodes/porto_image_frame.php:347
+#: shortcodes/shortcodes/porto_image_frame.php:353
+#: shortcodes/shortcodes/porto_image_frame.php:359
+#: shortcodes/shortcodes/porto_links_block.php:57
+#: shortcodes/shortcodes/porto_links_block.php:63
+#: shortcodes/shortcodes/porto_links_block.php:69
+#: shortcodes/shortcodes/porto_links_item.php:54
+#: shortcodes/shortcodes/porto_links_item.php:60
+#: shortcodes/shortcodes/porto_links_item.php:66
+#: shortcodes/shortcodes/porto_links_item.php:74
+#: shortcodes/shortcodes/porto_section.php:170
+#: shortcodes/shortcodes/porto_section.php:176
+#: shortcodes/shortcodes/porto_section.php:182
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:55
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:61
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:67
+msgid "Select Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:158
+#: shortcodes/shortcodes/porto_image_frame.php:262
+#: shortcodes/shortcodes/porto_image_frame.php:385
+#: shortcodes/shortcodes/porto_section.php:201
+msgid "Icon Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:164
+#: shortcodes/shortcodes/porto_section.php:207
+msgid "Icon Background Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:170
+#: shortcodes/shortcodes/porto_section.php:213
+msgid "Icon Border Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:176
+#: shortcodes/shortcodes/porto_section.php:219
+msgid "Icon Wrap Border Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:182
+msgid "Icon Box Shadow Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:188
+msgid "Icon Hover Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:194
+msgid "Icon Hover Background Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:200
+msgid "Icon Hover Border Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:206
+msgid "Icon Wrap Hover Border Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_content_box.php:212
+msgid "Icon Hover Box Shadow Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:25
+msgid "Porto Countdown"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:30
+msgid "Countdown Timer."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:35
+msgid "Countdown Timer Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:38
+msgid "Digit and Unit Side by Side"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:39
+msgid "Digit and Unit Up and Down"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:46
+msgid "Target Time For Countdown"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:49
+msgid "Date and time format (yyyy/mm/dd hh:mm:ss)."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:55
+msgid "Countdown Timer Depends on"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:58
+msgid "WordPress Defined Timezone"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:59
+msgid "User's System Timezone"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:66
+msgid "Select Time Units To Display In Countdown Timer"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:69
+msgid "Years"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:70
+msgid "Months"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:71
+msgid "Weeks"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:72
+msgid "Days"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:73
+msgid "Hours"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:74
+msgid "Minutes"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:75
+msgid "Seconds"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:83
+msgid "Day (Singular)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:91
+msgid "Days (Plural)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:99
+msgid "Week (Singular)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:107
+msgid "Weeks (Plural)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:115
+msgid "Month (Singular)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:123
+msgid "Months (Plural)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:131
+msgid "Year (Singular)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:139
+msgid "Years (Plural)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:147
+msgid "Hour (Singular)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:155
+msgid "Hours (Plural)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:163
+msgid "Minute (Singular)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:171
+msgid "Minutes (Plural)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:179
+msgid "Second (Singular)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:187
+msgid "Seconds (Plural)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:194
+msgid "Timer Digit Settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:208
+msgid "Timer Digit Text Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:216
+msgid "Timer Digit Text Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:223
+msgid "Timer Digit Text Line height"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:229
+msgid "Timer Unit Settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:237
+msgid "Timer Unit Text Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:245
+msgid "Timer Unit Text Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_countdown.php:253
+#: shortcodes/shortcodes/porto_fancytext.php:221
+#: shortcodes/shortcodes/porto_icon.php:220
+#: shortcodes/shortcodes/porto_info_box.php:481
+#: shortcodes/shortcodes/porto_interactive_banner.php:153
+#: shortcodes/shortcodes/porto_stat_counter.php:398
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:367
+msgid "Design "
+msgstr ""
+
+#: shortcodes/shortcodes/porto_diamonds.php:21
+msgid "Diamonds"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_diamonds.php:28
+msgid "Enable Lightbox"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_diamonds.php:40
+msgid "Block 1:"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_diamonds.php:60
+#: shortcodes/shortcodes/porto_diamonds.php:98
+#: shortcodes/shortcodes/porto_diamonds.php:136
+#: shortcodes/shortcodes/porto_diamonds.php:174
+#: shortcodes/shortcodes/porto_diamonds.php:212
+#: shortcodes/shortcodes/porto_diamonds.php:250
+#: shortcodes/shortcodes/porto_diamonds.php:288
+msgid "Zoom Image URL"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_diamonds.php:66
+#: shortcodes/shortcodes/porto_diamonds.php:104
+#: shortcodes/shortcodes/porto_diamonds.php:142
+#: shortcodes/shortcodes/porto_diamonds.php:180
+#: shortcodes/shortcodes/porto_diamonds.php:218
+#: shortcodes/shortcodes/porto_diamonds.php:256
+#: shortcodes/shortcodes/porto_diamonds.php:294
+msgid "Zoom Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_diamonds.php:78
+msgid "Block 2:"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_diamonds.php:116
+msgid "Block 3:"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_diamonds.php:154
+msgid "Block 4:"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_diamonds.php:192
+msgid "Block 5:"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_diamonds.php:230
+msgid "Block 6:"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_diamonds.php:268
+msgid "Block 7:"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_events.php:21
+msgid "Event Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_events.php:25
+msgid "Next"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_events.php:26
+msgid "Upcoming"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_events.php:27
+msgid "Past"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_events.php:32
+msgid "Number of Events"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_events.php:38
+msgid "Skip Number of Events"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_events.php:44
+msgid "Numbers of Columns"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_events.php:54
+msgid "Display Countdown"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_events.php:57
+msgid "YES"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_events.php:58
+msgid "NO"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_container.php:18
+msgid "Experience Timeline Container"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:21
+msgid "Experience Timeline Item"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:29
+#: shortcodes/templates/porto_experience_timeline_item.php:23
+msgid "From"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:34
+#: shortcodes/templates/porto_experience_timeline_item.php:26
+msgid "To"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:39
+msgid "Duration"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:44
+#: shortcodes/shortcodes/porto_testimonial.php:39
+msgid "Company"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:49
+msgid "Location"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:54
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:44
+msgid "Heading"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:60
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:50
+msgid "Details"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:66
+msgid "From, To, Duration & Location Settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:72
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:84
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:96
+#: shortcodes/shortcodes/porto_icon.php:107
+#: shortcodes/shortcodes/porto_info_box.php:118
+#: shortcodes/shortcodes/porto_info_box.php:364
+#: shortcodes/shortcodes/porto_info_box.php:415
+#: shortcodes/shortcodes/porto_info_box.php:474
+#: shortcodes/shortcodes/porto_schedule_timeline_container.php:50
+#: shortcodes/shortcodes/porto_schedule_timeline_container.php:62
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:66
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:78
+#: shortcodes/shortcodes/porto_single_icon.php:102
+#: shortcodes/shortcodes/porto_stat_counter.php:110
+#: shortcodes/shortcodes/porto_stat_counter.php:304
+#: shortcodes/shortcodes/porto_stat_counter.php:348
+#: shortcodes/shortcodes/porto_stat_counter.php:390
+#: shortcodes/shortcodes/porto_toggles.php:59
+msgid "Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:78
+msgid "Company Settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_experience_timeline_item.php:90
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:60
+#: shortcodes/shortcodes/porto_ultimate_heading.php:49
+msgid "Heading Settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:30
+msgid "Porto Fancy Text"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:35
+msgid "Fancy lines with animation effects."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:40
+#: shortcodes/shortcodes/porto_lightbox.php:32
+#: shortcodes/shortcodes/porto_popover.php:28
+#: shortcodes/shortcodes/porto_tooltip.php:28
+msgid "Prefix"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:45
+msgid "Fancy Text"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:47
+msgid "Enter each string on a new line"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:53
+#: shortcodes/shortcodes/porto_lightbox.php:43
+#: shortcodes/shortcodes/porto_popover.php:39
+#: shortcodes/shortcodes/porto_tooltip.php:39
+msgid "Suffix"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:58
+#: shortcodes/shortcodes/porto_icon.php:207
+#: shortcodes/shortcodes/porto_icons.php:39
+#: shortcodes/shortcodes/porto_ultimate_heading.php:180
+msgid "Alignment"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:68
+msgid "Animation Speed"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:72
+#: shortcodes/shortcodes/porto_fancytext.php:82
+msgid "In Miliseconds"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:74
+msgid "Duration of 'Slide Up' animation"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:78
+msgid "Pause Time"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:84
+msgid "How long the string should stay visible?"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:88
+msgid "Pause on Hover"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:100
+msgid "Fancy Text Settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:108
+msgid "Text Font"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:123
+#: shortcodes/shortcodes/porto_fancytext.php:174
+#: shortcodes/shortcodes/porto_interactive_banner.php:89
+#: shortcodes/shortcodes/porto_ultimate_heading.php:143
+msgid "Font Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:136
+msgid "Fancy Text Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:143
+msgid "Fancy Text Background"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:151
+msgid "Prefix Suffix Text Settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:159
+msgid "Prefix Suffix Text Font"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:188
+msgid "Prefix & Suffix Text Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:196
+msgid "Prefix & Suffix Background Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:203
+msgid "Markup"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:206
+msgid "div"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:207
+#: shortcodes/shortcodes/porto_info_box.php:307
+#: shortcodes/shortcodes/porto_ultimate_heading.php:115
+msgid "H1"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:208
+#: shortcodes/shortcodes/porto_info_box.php:308
+msgid "H2"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:209
+#: shortcodes/shortcodes/porto_ultimate_heading.php:116
+msgid "H3"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:210
+#: shortcodes/shortcodes/porto_info_box.php:309
+#: shortcodes/shortcodes/porto_ultimate_heading.php:117
+msgid "H4"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:211
+#: shortcodes/shortcodes/porto_info_box.php:310
+#: shortcodes/shortcodes/porto_ultimate_heading.php:118
+msgid "H5"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_fancytext.php:212
+#: shortcodes/shortcodes/porto_info_box.php:311
+#: shortcodes/shortcodes/porto_ultimate_heading.php:119
+msgid "H6"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_faqs.php:41
+msgid "FAQ IDs"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_faqs.php:42
+msgid "comma separated list of faq ids"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_faqs.php:47
+msgid "FAQs Count"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_faqs.php:65
+#: shortcodes/shortcodes/porto_members.php:109
+#: shortcodes/shortcodes/porto_portfolios.php:167
+msgid "Show Filter"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_faqs.php:71
+#: shortcodes/shortcodes/porto_members.php:115
+msgid "Show Pagination"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_feature_box.php:21
+msgid "Feature Box"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_feature_box.php:93
+#: shortcodes/shortcodes/porto_icon.php:96
+#: shortcodes/shortcodes/porto_info_box.php:107
+#: shortcodes/shortcodes/porto_section.php:239
+#: shortcodes/shortcodes/porto_single_icon.php:80
+#: shortcodes/shortcodes/porto_stat_counter.php:100
+msgid "Icon Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_feature_box.php:110
+msgid "Box Direction"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_floating_menu_container.php:18
+msgid "Floating Menu Container"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_floating_menu_item.php:21
+msgid "Floating Menu Item"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_floating_menu_item.php:29
+#: shortcodes/shortcodes/porto_icon.php:46
+#: shortcodes/shortcodes/porto_icon.php:53
+#: shortcodes/shortcodes/porto_icon.php:63
+#: shortcodes/shortcodes/porto_info_box.php:65
+#: shortcodes/shortcodes/porto_info_box.php:75
+#: shortcodes/shortcodes/porto_info_list_item.php:46
+#: shortcodes/shortcodes/porto_info_list_item.php:57
+#: shortcodes/shortcodes/porto_info_list_item.php:72
+#: shortcodes/shortcodes/porto_single_icon.php:49
+#: shortcodes/shortcodes/porto_single_icon.php:57
+#: shortcodes/shortcodes/porto_single_icon.php:68
+#: shortcodes/shortcodes/porto_stat_counter.php:61
+#: shortcodes/shortcodes/porto_stat_counter.php:71
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_floating_menu_item.php:46
+msgid "Tooltip text"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:40
+msgid "Porto Google Map"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:46
+msgid "Display Google Maps to indicate your location."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:52
+msgid "Width (in %)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:61
+msgid "Height (in px)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:70
+msgid "Map type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:73
+msgid "Roadmap"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:73
+msgid "Satellite"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:73
+msgid "Hybrid"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:73
+msgid "Terrain"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:79
+msgid "Latitude"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:83
+#: shortcodes/shortcodes/porto_google_map.php:93
+msgid "Here is a tool"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:83
+#: shortcodes/shortcodes/porto_google_map.php:93
+msgid "where you can find Latitude & Longitude of your location"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:89
+msgid "Longitude"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:98
+msgid "Map Zoom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:101
+msgid "18 - Default"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:110
+msgid "Disable map zoom on mouse wheel scroll"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:117
+msgid "Info Window Text"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:125
+msgid "Open on Marker Click"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:129
+msgid "No"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:136
+msgid "Marker/Point icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:138
+msgid "Use Google Default"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:138
+msgid "Upload Custom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:144
+#: shortcodes/shortcodes/porto_info_box.php:86
+#: shortcodes/shortcodes/porto_stat_counter.php:81
+msgid "Upload Image Icon:"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:147
+#: shortcodes/shortcodes/porto_icon.php:78
+#: shortcodes/shortcodes/porto_info_box.php:89
+#: shortcodes/shortcodes/porto_stat_counter.php:84
+msgid "Upload the custom image icon."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:154
+msgid "Street view control"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:156
+#: shortcodes/shortcodes/porto_google_map.php:164
+#: shortcodes/shortcodes/porto_google_map.php:172
+#: shortcodes/shortcodes/porto_google_map.php:196
+msgid "Disable"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:156
+#: shortcodes/shortcodes/porto_google_map.php:164
+#: shortcodes/shortcodes/porto_google_map.php:172
+#: shortcodes/shortcodes/porto_google_map.php:196
+msgid "Enable"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:162
+msgid "Map type control"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:170
+msgid "Zoom control"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:178
+msgid "Zoom Control Position"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:181
+msgid "Right Bottom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:182
+msgid "Right Top"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:183
+msgid "Right Center"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:184
+msgid "Left Top"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:185
+msgid "Left Center"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:186
+msgid "Left Bottom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:194
+msgid "Dragging on Mobile"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:202
+msgid "Top margin"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:205
+msgid "Page (small)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:206
+msgid "Section (large)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:214
+msgid "Map Width Override"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:230
+msgid ""
+"By default, the map will be given to the Visual Composer row. However, in "
+"some cases depending on your theme's CSS - it may not fit well to the "
+"container you are wishing it would. In that case you will have to select the "
+"appropriate value here that gets you desired output.."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:236
+msgid "Google Styled Map JSON"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:239
+msgid "Click here"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_google_map.php:239
+msgid "to get the style JSON code for styling your map."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_grid_container.php:21
+msgid "Masonry Container"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_grid_container.php:33
+msgid "Gutter Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_grid_container.php:39
+msgid "Max Width"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_grid_container.php:41
+msgid "Will be show as grid only when window width > max width."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_grid_item.php:18
+msgid "Masonry Item"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_grid_item.php:28
+#: shortcodes/woo_shortcodes/porto_product.php:42
+msgid "Width"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_history.php:21
+#: shortcodes/shortcodes/porto_history.php:49
+msgid "History"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_history.php:28
+msgid "Year"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_history.php:34
+#: shortcodes/shortcodes/porto_testimonial.php:54
+msgid "Input Photo URL or Select Photo."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_history.php:39
+#: shortcodes/shortcodes/porto_testimonial.php:59
+msgid "Photo URL"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_history.php:44
+#: shortcodes/shortcodes/porto_testimonial.php:64
+msgid "Photo"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:29
+msgid "Add a custom icon."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:34
+#: shortcodes/shortcodes/porto_info_box.php:45
+#: shortcodes/shortcodes/porto_single_icon.php:37
+#: shortcodes/shortcodes/porto_stat_counter.php:42
+msgid "Icon to display:"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:74
+msgid "Upload Image Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:84
+#: shortcodes/shortcodes/porto_info_box.php:95
+#: shortcodes/shortcodes/porto_stat_counter.php:89
+msgid "Image Width"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:90
+#: shortcodes/shortcodes/porto_info_box.php:101
+#: shortcodes/shortcodes/porto_stat_counter.php:95
+msgid "Provide image width"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:115
+msgid "Icon or Image Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:119
+#: shortcodes/shortcodes/porto_info_box.php:130
+#: shortcodes/shortcodes/porto_single_icon.php:114
+#: shortcodes/shortcodes/porto_stat_counter.php:121
+msgid "Circle Background"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:120
+#: shortcodes/shortcodes/porto_info_box.php:131
+msgid "Circle Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:121
+#: shortcodes/shortcodes/porto_info_box.php:132
+#: shortcodes/shortcodes/porto_single_icon.php:115
+#: shortcodes/shortcodes/porto_stat_counter.php:122
+msgid "Square Background"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:122
+#: shortcodes/shortcodes/porto_info_box.php:133
+#: shortcodes/shortcodes/porto_single_icon.php:116
+msgid "Design your own"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:131
+#: shortcodes/shortcodes/porto_info_box.php:142
+#: shortcodes/shortcodes/porto_single_icon.php:126
+#: shortcodes/shortcodes/porto_stat_counter.php:131
+msgid "Select background color for icon."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:137
+#: shortcodes/shortcodes/porto_info_box.php:148
+#: shortcodes/shortcodes/porto_single_icon.php:133
+#: shortcodes/shortcodes/porto_stat_counter.php:136
+msgid "Icon Border Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:141
+#: shortcodes/shortcodes/porto_info_box.php:152
+#: shortcodes/shortcodes/porto_single_icon.php:137
+#: shortcodes/shortcodes/porto_stat_counter.php:140
+msgid "Solid"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:142
+#: shortcodes/shortcodes/porto_info_box.php:153
+#: shortcodes/shortcodes/porto_single_icon.php:138
+#: shortcodes/shortcodes/porto_stat_counter.php:141
+msgid "Dashed"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:143
+#: shortcodes/shortcodes/porto_info_box.php:154
+#: shortcodes/shortcodes/porto_single_icon.php:139
+#: shortcodes/shortcodes/porto_stat_counter.php:142
+msgid "Dotted"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:144
+#: shortcodes/shortcodes/porto_info_box.php:155
+#: shortcodes/shortcodes/porto_single_icon.php:140
+#: shortcodes/shortcodes/porto_stat_counter.php:143
+msgid "Double"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:148
+#: shortcodes/shortcodes/porto_info_box.php:159
+#: shortcodes/shortcodes/porto_single_icon.php:144
+#: shortcodes/shortcodes/porto_stat_counter.php:147
+msgid "Select the border style for icon."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:157
+#: shortcodes/shortcodes/porto_info_box.php:168
+#: shortcodes/shortcodes/porto_single_icon.php:154
+#: shortcodes/shortcodes/porto_stat_counter.php:155
+msgid "Select border color for icon."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:169
+#: shortcodes/shortcodes/porto_info_box.php:180
+#: shortcodes/shortcodes/porto_single_icon.php:167
+#: shortcodes/shortcodes/porto_stat_counter.php:166
+msgid "Thickness of the border."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:186
+#: shortcodes/shortcodes/porto_info_box.php:197
+#: shortcodes/shortcodes/porto_single_icon.php:186
+#: shortcodes/shortcodes/porto_stat_counter.php:181
+msgid "Background Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:192
+#: shortcodes/shortcodes/porto_info_box.php:203
+#: shortcodes/shortcodes/porto_single_icon.php:192
+#: shortcodes/shortcodes/porto_stat_counter.php:187
+msgid ""
+"Spacing from center of the icon till the boundary of border / background"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:198
+#: shortcodes/shortcodes/porto_interactive_banner.php:60
+#: shortcodes/shortcodes/porto_single_icon.php:199
+msgid "Link "
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icon.php:201
+#: shortcodes/shortcodes/porto_info_box.php:253
+#: shortcodes/shortcodes/porto_single_icon.php:202
+msgid "Add a custom link or select existing page."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icons.php:25
+msgid "Porto Icons"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icons.php:30
+#: shortcodes/shortcodes/porto_single_icon.php:30
+msgid "Add a set of multiple icons and give some custom style."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_icons.php:52
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:143
+msgid "Design"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:21
+msgid "Image Frame"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:32
+msgid "Hover Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:37
+msgid "Shape"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:45
+msgid "Circle"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:46
+msgid "Thumbnail"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:81
+msgid "Sub Title"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:100
+#: shortcodes/shortcodes/porto_info_box.php:229
+#: shortcodes/shortcodes/porto_info_list_item.php:104
+#: shortcodes/shortcodes/porto_interactive_banner.php:44
+#: shortcodes/shortcodes/porto_price_box.php:35
+msgid "Description"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:116
+#: shortcodes/shortcodes/porto_portfolios.php:60
+#: shortcodes/shortcodes/porto_recent_portfolios.php:46
+msgid "Left Info"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:117
+#: shortcodes/shortcodes/porto_portfolios.php:61
+#: shortcodes/shortcodes/porto_recent_portfolios.php:47
+msgid "Centered Info"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:118
+#: shortcodes/shortcodes/porto_portfolios.php:62
+#: shortcodes/shortcodes/porto_portfolios_category.php:43
+#: shortcodes/shortcodes/porto_recent_portfolios.php:48
+msgid "Bottom Info"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:119
+#: shortcodes/shortcodes/porto_portfolios.php:63
+#: shortcodes/shortcodes/porto_portfolios_category.php:44
+#: shortcodes/shortcodes/porto_recent_portfolios.php:49
+msgid "Bottom Info Dark"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:120
+#: shortcodes/shortcodes/porto_portfolios.php:64
+#: shortcodes/shortcodes/porto_recent_portfolios.php:50
+msgid "Hide Info Hover"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:121
+msgid "Side Image Left"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:122
+msgid "Side Image Right"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:127
+msgid "Image Max Width (unit: px)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:134
+msgid "Align"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:144
+msgid "Hover Background"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:151
+#: shortcodes/shortcodes/porto_portfolios.php:88
+#: shortcodes/shortcodes/porto_recent_portfolios.php:60
+msgid "Darken"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:152
+#: shortcodes/shortcodes/porto_portfolios.php:89
+#: shortcodes/shortcodes/porto_recent_portfolios.php:61
+msgid "Lighten"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:158
+#: shortcodes/shortcodes/porto_members.php:50
+#: shortcodes/shortcodes/porto_portfolios.php:95
+#: shortcodes/shortcodes/porto_portfolios_category.php:49
+#: shortcodes/shortcodes/porto_recent_members.php:123
+#: shortcodes/shortcodes/porto_recent_portfolios.php:67
+msgid "Hover Image Effect"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:166
+#: shortcodes/shortcodes/porto_portfolios.php:102
+#: shortcodes/shortcodes/porto_portfolios_category.php:56
+#: shortcodes/shortcodes/porto_recent_portfolios.php:73
+msgid "No Zoom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:167
+msgid "Push Horizontally"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:172
+#: shortcodes/shortcodes/porto_preview_image.php:67
+msgid "Disable Border"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:182
+#: shortcodes/shortcodes/porto_preview_image.php:74
+msgid "Enable Box Shadow"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:188
+msgid "Show URL (Link) Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:199
+msgid "Show Centered Links"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:271
+#: shortcodes/shortcodes/porto_image_frame.php:394
+msgid "Action Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:283
+#: shortcodes/shortcodes/porto_image_frame.php:406
+#: shortcodes/shortcodes/porto_price_box.php:88
+msgid "Video or Map URL (Link)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:291
+#: shortcodes/shortcodes/porto_image_frame.php:414
+#: shortcodes/shortcodes/porto_price_box.php:96
+msgid "Please add block slug name."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:296
+#: shortcodes/shortcodes/porto_image_frame.php:419
+#: shortcodes/shortcodes/porto_price_box.php:101
+msgid "Popup Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:308
+#: shortcodes/shortcodes/porto_image_frame.php:431
+#: shortcodes/shortcodes/porto_price_box.php:113
+msgid "Popup Animation"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:312
+#: shortcodes/shortcodes/porto_image_frame.php:435
+#: shortcodes/shortcodes/porto_modal.php:107
+#: shortcodes/shortcodes/porto_price_box.php:117
+msgid "Fade"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:314
+#: shortcodes/shortcodes/porto_image_frame.php:437
+#: shortcodes/shortcodes/porto_lightbox.php:114
+#: shortcodes/shortcodes/porto_price_box.php:119
+msgid "Fade Zoom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:315
+#: shortcodes/shortcodes/porto_image_frame.php:438
+#: shortcodes/shortcodes/porto_lightbox.php:115
+#: shortcodes/shortcodes/porto_price_box.php:120
+msgid "Fade Slide"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_image_frame.php:322
+#: shortcodes/shortcodes/porto_members.php:65
+#: shortcodes/shortcodes/porto_recent_members.php:168
+msgid "Show Social Links"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:33
+msgid "Porto Info Box"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:38
+msgid "Adds icon box with custom font icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:53
+#: shortcodes/shortcodes/porto_stat_counter.php:50
+msgid "Use an existing font icon or upload a custom image."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:58
+#: shortcodes/shortcodes/porto_stat_counter.php:54
+msgid "Icon "
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:126
+#: shortcodes/shortcodes/porto_section.php:225
+#: shortcodes/shortcodes/porto_single_icon.php:110
+#: shortcodes/shortcodes/porto_stat_counter.php:117
+msgid "Icon Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:214
+msgid "Provide the title for this icon box."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:219
+msgid "Sub title"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:223
+msgid "Provide the sub title for this icon box."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:232
+#: shortcodes/shortcodes/porto_info_list_item.php:107
+msgid "Provide the description for this icon box."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:238
+msgid "Apply link to:"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:241
+msgid "No Link"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:242
+msgid "Complete Box"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:243
+msgid "Box Title"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:244
+msgid "Display Read More"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:250
+msgid "Add Link"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:259
+msgid "Read More Text"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:262
+msgid "Customize the read more text."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:268
+msgid "Select Hover Effect type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:272
+msgid "Icon Zoom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:273
+msgid "Icon Bounce Up"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:275
+msgid "Select the type of effct you want on hover"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:283
+msgid "Icon at Left with heading"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:284
+msgid "Icon at Right with heading"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:285
+msgid "Icon at Left"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:286
+msgid "Icon at Right"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:287
+msgid "Icon at Top"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:288
+msgid "Boxed Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:290
+msgid ""
+"Select icon position. Icon box style will be changed according to the icon "
+"position."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:296
+msgid "Title settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:303
+#: shortcodes/shortcodes/porto_ultimate_heading.php:111
+msgid "Tag"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:313
+msgid "Default is H3"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:370
+msgid "Sub title settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_box.php:421
+msgid "Description settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list.php:25
+msgid "Porto Info List"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list.php:31
+msgid "Text blocks connected together in one list."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list.php:38
+msgid "Icon Color:"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list.php:41
+msgid "Select the color for icon."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list.php:46
+msgid "Icon Font Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list.php:52
+msgid "Enter value in pixels."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list_item.php:22
+msgid "Porto Info List Item"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list_item.php:34
+msgid "Icon Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list_item.php:40
+#: shortcodes/shortcodes/porto_info_list_item.php:87
+msgid "Icon Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list_item.php:48
+#: shortcodes/shortcodes/porto_info_list_item.php:59
+#: shortcodes/shortcodes/porto_info_list_item.php:74
+msgid "Select the icon."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list_item.php:89
+msgid "Select the icon image."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_info_list_item.php:98
+msgid "Desc Font Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:25
+msgid "Porto Interactive Banner"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:30
+msgid "Displays the banner image with Information"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:35
+msgid "Title "
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:39
+msgid "Give a title to this banner"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:47
+msgid "Text that comes on mouse hover."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:52
+msgid "Banner Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:55
+msgid "Upload the image for this banner"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:63
+msgid "Add link / select existing page to link to this banner"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:68
+msgid "Styles "
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:79
+msgid "Title Background Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:99
+msgid "Title Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:108
+msgid "Description Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:126
+msgid "Image Opacity"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:133
+#: shortcodes/shortcodes/porto_interactive_banner.php:146
+msgid ""
+"Enter value between 0.0 to 1 (0 is maximum transparency, while 1 is lowest)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_interactive_banner.php:139
+msgid "Image Opacity on Hover"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:21
+msgid "Lightbox"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:37
+#: shortcodes/shortcodes/porto_popover.php:33
+#: shortcodes/shortcodes/porto_tooltip.php:33
+msgid "Text"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:48
+#: shortcodes/shortcodes/porto_popover.php:44
+#: shortcodes/shortcodes/porto_tooltip.php:44
+msgid "Display Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:57
+#: shortcodes/shortcodes/porto_popover.php:53
+#: shortcodes/shortcodes/porto_tooltip.php:53
+msgid "Text Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:60
+#: shortcodes/shortcodes/porto_links_item.php:32
+#: shortcodes/shortcodes/porto_popover.php:56
+#: shortcodes/shortcodes/porto_popover.php:63
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:32
+#: shortcodes/shortcodes/porto_tooltip.php:56
+#: shortcodes/shortcodes/porto_tooltip.php:63
+msgid "Link"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:61
+#: shortcodes/shortcodes/porto_popover.php:58
+#: shortcodes/shortcodes/porto_tooltip.php:58
+msgid "Button"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:73
+#: shortcodes/shortcodes/porto_popover.php:76
+#: shortcodes/shortcodes/porto_price_box.php:142
+#: shortcodes/shortcodes/porto_tooltip.php:76
+msgid "Button Skin Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:80
+#: shortcodes/shortcodes/porto_popover.php:83
+#: shortcodes/shortcodes/porto_tooltip.php:83
+msgid "Button Contextual Class"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:87
+msgid "Lightbox Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:90
+#: shortcodes/shortcodes/porto_price_box.php:149
+msgid "Content"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:91
+msgid "Video or Google Map"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:92
+#: shortcodes/shortcodes/porto_lightbox_container.php:42
+msgid "Ajax"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:97
+msgid "Video or Google Map Url"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:103
+msgid "Ajax Url"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:109
+msgid "Lightbox Animation"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox.php:120
+msgid "Lightbox Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox_container.php:21
+msgid "Lightbox Container"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox_container.php:30
+msgid "Delegate"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox_container.php:40
+msgid "Iframe"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_lightbox_container.php:47
+msgid "Enable Gallery"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_links_block.php:21
+msgid "Links Block"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_links_item.php:18
+msgid "Links Item"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_links_item.php:26
+#: shortcodes/shortcodes/porto_sort_filter.php:26
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:26
+msgid "Label"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_map_section.php:21
+msgid "Map Section"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_map_section.php:33
+#: shortcodes/shortcodes/porto_section.php:39
+#: shortcodes/shortcodes/porto_sticky_nav.php:33
+msgid "Wrap as Container"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_map_section.php:39
+msgid "Change Map Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_map_section.php:45
+msgid "Map Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_map_section.php:51
+msgid "Image Gap (unit: px)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_map_section.php:58
+msgid "Content Min Height (unit: px)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_members.php:58
+#: shortcodes/shortcodes/porto_recent_members.php:147
+msgid "Show Overview"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_members.php:79
+msgid "Member IDs"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_members.php:80
+msgid "comma separated list of member ids"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_members.php:85
+#: shortcodes/shortcodes/porto_recent_members.php:238
+msgid "Members Count"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_members.php:91
+msgid "Show Role"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_members.php:121
+#: shortcodes/shortcodes/porto_portfolios.php:180
+#: shortcodes/shortcodes/porto_recent_members.php:212
+#: shortcodes/shortcodes/porto_recent_portfolios.php:78
+msgid "Enable Ajax Load"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_members.php:127
+#: shortcodes/shortcodes/porto_portfolios.php:187
+#: shortcodes/shortcodes/porto_recent_members.php:225
+#: shortcodes/shortcodes/porto_recent_portfolios.php:84
+msgid "Ajax Load on Modal"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:22
+msgid "Porto Modal Box"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:27
+msgid "Adds bootstrap modal box in your content"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:34
+msgid "What's in Modal Popup?"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:37
+msgid "Miscellaneous Things"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:38
+msgid "Youtube Video"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:39
+msgid "Vimeo Video"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:41
+msgid ""
+"Please put the embed code in the content for videos, eg: <a href='http://bsf."
+"io/kuv3-' target='_blank'>http://bsf.io/kuv3-</a><br>\n"
+"                        For hosted video - Add any video with WordPress "
+"media uploader or with <a href='https://codex.wordpress.org/Video_Shortcode' "
+"target='_blank'>[video]</a> shortcode."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:47
+msgid "Youtube URL"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:55
+msgid "Vimeo URL"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:63
+msgid "Modal Content"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:66
+msgid "Content that will be displayed in Modal Popup."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:73
+msgid "Display Modal On -"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:76
+msgid "On Page Load"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:78
+msgid "Selector"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:80
+msgid "When should the popup be initiated?"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:85
+msgid "Class and/or ID"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:87
+msgid ""
+"Add .Class and/or #ID to open your modal. Multiple ID or Classes separated "
+"by comma"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:94
+msgid "Upload Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:97
+msgid "Upload the custom image / image banner."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:104
+msgid "Modal Box Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:108
+msgid "Zoom in"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:115
+msgid "Overlay Background Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:122
+msgid "Overlay Background Opacity"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:128
+msgid "Select opacity of overlay background."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:133
+msgid "Extra Class (Button/Image)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_modal.php:137
+msgid "Provide ex class for this button/image."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_popover.php:21
+msgid "Popover"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_popover.php:90
+msgid "Popover Title"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_popover.php:96
+msgid "Popover Text"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_popover.php:102
+msgid "Popover Position"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_popover.php:108
+msgid "Popover Trigger"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_popover.php:114
+msgid "Popover Skin Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:30
+msgid "Portfolio Layout"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:54
+#: shortcodes/shortcodes/porto_portfolios_category.php:38
+#: shortcodes/shortcodes/porto_recent_portfolios.php:41
+msgid "Info View Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:65
+msgid "Plus Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:70
+msgid "Info View Type Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:76
+msgid "Alternate"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:77
+msgid "Alternate with Plus"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:78
+msgid "No Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:83
+#: shortcodes/shortcodes/porto_recent_portfolios.php:55
+msgid "Image Overlay Background"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:101
+#: shortcodes/shortcodes/porto_portfolios_category.php:55
+msgid "Slow Zoom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:107
+msgid "Image Counter"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:113
+#: shortcodes/shortcodes/porto_portfolios_category.php:65
+#: shortcodes/shortcodes/porto_recent_posts.php:54
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:44
+msgid "Show"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:114
+#: shortcodes/shortcodes/porto_portfolios_category.php:66
+#: shortcodes/shortcodes/porto_recent_posts.php:55
+msgid "Hide"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:126
+msgid "Portfolio IDs"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:127
+msgid "comma separated list of portfolio ids"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:132
+msgid "Slider on Portfolio"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:133
+msgid ""
+"comma separated list of portfolio ids. <br /> Will Only work with ajax on "
+"page settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:138
+#: shortcodes/shortcodes/porto_recent_portfolios.php:91
+msgid "Portfolios Count"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:144
+msgid "Load More Posts"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:148
+#: shortcodes/woo_shortcodes/porto_product_category.php:39
+msgid "Select"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:149
+msgid "Pagination"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios.php:150
+msgid "Load More (Button)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios_category.php:17
+msgid "Portfolios Categories"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios_category.php:30
+msgid "Category Layout"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios_category.php:42
+msgid "Basic"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios_category.php:61
+msgid "Portfolios Counter"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_portfolios_category.php:71
+msgid "Category Count"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_preview_image.php:18
+msgid "Preview Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_preview_image.php:27
+msgid "Add link to image."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_preview_image.php:46
+msgid "Fixed Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_preview_image.php:53
+msgid "Fixed Position"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_preview_image.php:60
+msgid "Preview Time"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_preview_image.php:81
+msgid "Preview Height"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_preview_image.php:87
+msgid "Tip Label"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_preview_image.php:92
+msgid "Tip Skin Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_box.php:21
+msgid "Price Box"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_box.php:40
+msgid "Popular Price Box"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_box.php:46
+msgid "Popular Label"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_box.php:52
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:59
+msgid "Price"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_box.php:64
+msgid "Show Button"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_box.php:70
+msgid "Button Label"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_box.php:76
+msgid "Button Action"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_box.php:132
+msgid "Button Position"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_boxes.php:21
+msgid "Price Boxes"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_boxes.php:33
+msgid "Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_boxes.php:39
+#: shortcodes/shortcodes/porto_toggles.php:39
+msgid "Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_boxes.php:45
+msgid "Counts of Price Box on Desktop"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_boxes.php:52
+msgid "Counts of Price Box on Tablet"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_boxes.php:59
+msgid "Show Border in Price Boxes"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_price_boxes.php:66
+msgid "Show Space between Price Boxes"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_members.php:61
+msgid "Recent Members"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_members.php:188
+msgid "Social Links Advance Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_members.php:277
+#: shortcodes/shortcodes/porto_recent_portfolios.php:104
+#: shortcodes/shortcodes/porto_recent_posts.php:142
+msgid "Items to show on Desktop"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_members.php:295
+#: shortcodes/shortcodes/porto_recent_portfolios.php:110
+#: shortcodes/shortcodes/porto_recent_posts.php:148
+msgid "Items to show on Tablets"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_members.php:313
+#: shortcodes/shortcodes/porto_recent_portfolios.php:116
+#: shortcodes/shortcodes/porto_recent_posts.php:154
+msgid "Items to show on Mobile"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_members.php:331
+#: shortcodes/shortcodes/porto_recent_portfolios.php:122
+#: shortcodes/shortcodes/porto_recent_posts.php:160
+msgid "Items Row"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_members.php:349
+#: shortcodes/shortcodes/porto_recent_portfolios.php:128
+#: shortcodes/shortcodes/porto_recent_posts.php:166
+msgid "Change Slider Config"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_members.php:358
+#: shortcodes/shortcodes/porto_recent_members.php:382
+#: shortcodes/shortcodes/porto_recent_members.php:418
+#: shortcodes/shortcodes/porto_recent_members.php:454
+#: shortcodes/shortcodes/porto_recent_members.php:478
+#: shortcodes/shortcodes/porto_recent_members.php:502
+#: shortcodes/shortcodes/porto_recent_portfolios.php:131
+#: shortcodes/shortcodes/porto_recent_portfolios.php:139
+#: shortcodes/shortcodes/porto_recent_portfolios.php:151
+#: shortcodes/shortcodes/porto_recent_portfolios.php:163
+#: shortcodes/shortcodes/porto_recent_portfolios.php:171
+#: shortcodes/shortcodes/porto_recent_portfolios.php:179
+#: shortcodes/shortcodes/porto_recent_posts.php:169
+#: shortcodes/shortcodes/porto_recent_posts.php:177
+#: shortcodes/shortcodes/porto_recent_posts.php:189
+#: shortcodes/shortcodes/porto_recent_posts.php:201
+#: shortcodes/shortcodes/porto_recent_posts.php:209
+#: shortcodes/shortcodes/porto_recent_posts.php:217
+msgid "Slider Options"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_portfolios.php:21
+#: widgets/recent_portfolios.php:121
+msgid "Recent Portfolios"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:21 widgets/recent_posts.php:112
+msgid "Recent Posts"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:39
+msgid "Read More Link"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:40
+msgid "Post Meta"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:41
+msgid "Read More Button"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:42
+msgid "Side Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:43
+msgid "Post Cats"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:48
+msgid "Author Name"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:60
+msgid "Button Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:67
+msgid "Borders"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:85
+msgid "Button Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:102
+msgid "Image Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:105
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height))."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:122
+#: widgets/recent_posts.php:149
+msgid "Show Post Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:129
+msgid "Show Post Metas"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_recent_posts.php:136
+msgid "Excerpt Length"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_schedule_timeline_container.php:13
+msgid "Schedule Timeline Container"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_schedule_timeline_container.php:30
+msgid "Subtitle"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_schedule_timeline_container.php:35
+msgid "Circle Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_schedule_timeline_container.php:38
+msgid "Filled"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_schedule_timeline_container.php:44
+msgid "Title Settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_schedule_timeline_container.php:56
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:72
+msgid "Subtitle Settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:21
+msgid "Schedule Timeline Item"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:29
+msgid "Subtitle/time"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_schedule_timeline_item.php:55
+msgid "Shadow"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:21
+msgid "Section"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:33
+msgid "Anchor Name"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:45
+msgid "Section & Parallax Text Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:57
+msgid "Is Section?"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:64
+msgid "Section Skin Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:71
+msgid "Section Default Color Scale"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:78
+msgid "Section Color Scale"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:88
+msgid "Remove Margin Top"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:95
+msgid "Remove Margin Bottom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:102
+msgid "Remove Padding Top"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:109
+msgid "Remove Padding Bottom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:116
+#: shortcodes/shortcodes/porto_testimonial.php:102
+msgid "Remove Border"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:123
+msgid "Show Divider"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:130
+msgid "Divider Position"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:140
+msgid "Divider Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:146
+msgid "Divider Height"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:152
+msgid "Show Divider Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:193
+msgid "Icon Skin Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_section.php:232
+#: shortcodes/shortcodes/porto_stat_counter.php:193
+msgid "Icon Position"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_single_icon.php:25
+msgid "Icon Item"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_single_icon.php:91
+msgid "Space after Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_container.php:21
+msgid "Sort Container"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_container.php:33
+msgid "Container ID"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_filter.php:18
+msgid "Sort Filter"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_filter.php:32
+msgid "Sort By"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_filter.php:39
+msgid "Filter By"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_filter.php:41
+msgid ""
+"Please add several identifying classes like \"*\" or \".transition, .metal\"."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_filter.php:45
+msgid "Active Filter"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_filters.php:21
+msgid "Sort Filters"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_filters.php:33
+msgid "Sort Container ID"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_filters.php:39
+msgid "Sort Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_filters.php:46
+msgid "Sort Align"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_item.php:18
+msgid "Sort Item"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_item.php:31
+msgid "Filter Classes"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_item.php:33
+msgid "Please add several identifying classes like \"transition metal\"."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_item.php:38
+msgid "Popular Order Value"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_item.php:51
+msgid "Width on Large Screen"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_item.php:57
+msgid "Width on Medium Screen"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_item.php:63
+msgid "Width on Small Screen"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sort_item.php:69
+msgid "Width on Extra Small Screen"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:33
+msgid "Porto Counter"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:38
+msgid "Your milestones, achievements, etc."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:200
+msgid "Enter Position of Icon"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:204
+msgid "Counter Title "
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:208
+msgid "Enter title for stats counter block"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:213
+msgid "Counter Value"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:216
+msgid ""
+"Enter number for counter without any special character. You may enter a "
+"decimal number. Eg 12.76"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:221
+msgid "Thousands Separator"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:224
+msgid ""
+"Enter character for thousanda separator. e.g. ',' will separate 125000 into "
+"125,000"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:229
+msgid "Replace Decimal Point With"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:232
+msgid ""
+"Did you enter a decimal number (Eg - 12.76) The decimal point '.' will be "
+"replaced with value that you will enter above."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:237
+msgid "Counter Value Prefix"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:240
+msgid "Enter prefix for counter value"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:245
+msgid "Counter Value Suffix"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:248
+msgid "Enter suffix for counter value"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:252
+msgid "Counter rolling time"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:258
+msgid "How many seconds the counter should roll?"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:262
+msgid "Extra Class"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:265
+msgid ""
+"Add extra class name that will be applied to the icon process, and you can "
+"use this class for your customizations."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:270
+msgid "Counter Title settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:277
+#: shortcodes/shortcodes/porto_ultimate_heading.php:58
+#: shortcodes/shortcodes/porto_ultimate_heading.php:134
+msgid "Font family"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:307
+msgid "Select text color for counter title."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:313
+msgid "Counter Value settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:349
+msgid "Select text color for counter digits."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:355
+msgid "Counter suffix-prefix Value settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_stat_counter.php:391
+msgid "Select text color for counter prefix and suffix."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky.php:21
+msgid "Sticky"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky.php:33
+msgid "Container Selector"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky.php:39
+#: shortcodes/shortcodes/porto_sticky_nav.php:39
+msgid "Min Width (unit: px)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky.php:41
+#: shortcodes/shortcodes/porto_sticky_nav.php:41
+msgid "Wll be disable sticky if window width is smaller than min width"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky.php:46
+msgid "Top (unit: px)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky.php:48
+msgid "Top position when active"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky.php:53
+msgid "Bottom (unit: px)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky.php:55
+msgid "Bottom position when active"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky.php:60
+msgid "Active Class"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky_nav.php:21
+msgid "Sticky Nav"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky_nav.php:58
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:85
+msgid "Link Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky_nav.php:64
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:91
+msgid "Link Background Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky_nav.php:70
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:97
+msgid "Link Active Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky_nav.php:76
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:103
+msgid "Link Active Background Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_sticky_nav_link.php:18
+msgid "Sticky Nav Link"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:17
+msgid "Testimonial"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:24
+msgid "Name"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:29
+msgid "Name Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:34
+msgid "Role"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:44
+msgid "Role & Company Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:49
+msgid "Author Link"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:75
+msgid "Quote Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:85
+msgid "Advance"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:86
+msgid "With Quotes"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:91
+msgid "Style Type"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:108
+msgid "Remove Background"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:118
+msgid "Show with Alternative Font"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_testimonial.php:143
+msgid "White"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_toggles.php:21
+msgid "Toggles"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_toggles.php:45
+msgid "One toggle open at a time"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_tooltip.php:21
+msgid "Tooltip"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_tooltip.php:90
+msgid "Tooltip Text"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_tooltip.php:96
+msgid "Tooltip Position"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:26
+msgid "Porto Advanced Carousel"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:35
+msgid "Carousel anything."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:40
+msgid "Slides to Scroll"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:49
+msgid "On Desktop"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:61
+msgid "On Tabs"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:73
+msgid "On Mobile"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:84
+msgid "Infinite loop"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:95
+msgid "Autoplay Slides‏"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:106
+msgid "Autoplay Speed"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:120
+msgid "Navigation Arrows"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:121
+msgid "Display next / previous navigation arrows"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:132
+msgid "Arrow Style"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:159
+msgid "Arrow Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:168
+msgid "Arrow Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:193
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:211
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:237
+msgid "Select icon for 'Next Arrow'"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:202
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:224
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:250
+msgid "Select icon for 'Previous Arrow'"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:263
+msgid "Dots Navigation"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:264
+msgid "Display dot navigation"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:275
+msgid "Color of dots"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:283
+msgid "Icon library for 'Navigation Dots'"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:296
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:305
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:317
+msgid "Select icon for 'Navigation Dots'"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:330
+msgid "RTL Mode"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:342
+msgid "Adaptive Height"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_carousel.php:354
+msgid "Space between two items"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:21
+msgid "Porto Content Box"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:29
+msgid "Content Box."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:38
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:49
+msgid "Background Image"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:51
+msgid "Set background image for content box."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:65
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:127
+msgid "Box Shadow"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:69
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:131
+msgid "Horizontal"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:70
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:132
+msgid "Vertical"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:71
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:133
+msgid "Blur"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:72
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:134
+msgid "Spread"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:77
+msgid "Content Box Link"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:82
+msgid "Min Height"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:92
+msgid "Background Image Repeat"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:95
+msgid "Repeat"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:96
+msgid "Repeat X"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:97
+msgid "Repeat Y"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:98
+msgid "No Repeat"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:105
+msgid "Background Image Size"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:108
+msgid "Cover - Image to be as large as possible"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:109
+msgid "Contain - Image will try to fit inside the container area"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:110
+msgid "Initial"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:117
+msgid "Background Image Position"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:119
+msgid "You can use any number with px, em, %, etc. Example- 100px 100px."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_content_box.php:136
+msgid "Shadow Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:33
+msgid "Porto Headings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:38
+msgid "Awesome heading styles."
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:81
+#: shortcodes/shortcodes/porto_ultimate_heading.php:157
+msgid "Font Color"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:97
+msgid "Heading Margin Bottom"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:105
+msgid "Sub Heading (Optional)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:121
+msgid "Default is H2"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:125
+msgid "Sub Heading Settings"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:191
+msgid "Seperator"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:194
+msgid "No Seperator"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:195
+msgid "Line"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:198
+msgid "Horizontal line, icon or image to divide sections"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:203
+msgid "Seperator Position"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:207
+msgid "Between Heading & Sub-Heading"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:215
+msgid "Line Width (optional)"
+msgstr ""
+
+#: shortcodes/shortcodes/porto_ultimate_heading.php:234
+msgid "Line Color"
+msgstr ""
+
+#: shortcodes/templates/porto_blog.php:115
+#: shortcodes/templates/porto_faqs.php:139
+#: shortcodes/templates/porto_members.php:172
+#: shortcodes/templates/porto_portfolios.php:260
+#: widgets/recent_portfolios.php:97
+msgid "View More"
+msgstr ""
+
+#: shortcodes/templates/porto_faqs.php:112
+#: shortcodes/templates/porto_members.php:145
+#: shortcodes/templates/porto_portfolios.php:157
+msgid "Show All"
+msgstr ""
+
+#: shortcodes/templates/porto_members.php:137
+#: shortcodes/templates/porto_recent_members.php:119
+#, php-format
+msgid "More %s:"
+msgstr ""
+
+#: shortcodes/templates/porto_portfolios_category.php:108
+#: shortcodes/templates/porto_portfolios_category.php:167
+#, php-format
+msgid "%d Portfolio"
+msgid_plural "%d Portfolios"
+msgstr[0] ""
+msgstr[1] ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:23
+msgid "Best Selling Products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:26
+#: shortcodes/woo_shortcodes/porto_featured_products.php:28
+#: shortcodes/woo_shortcodes/porto_product.php:24
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:34
+#: shortcodes/woo_shortcodes/porto_product_categories.php:28
+#: shortcodes/woo_shortcodes/porto_product_category.php:48
+#: shortcodes/woo_shortcodes/porto_products.php:28
+#: shortcodes/woo_shortcodes/porto_recent_products.php:28
+#: shortcodes/woo_shortcodes/porto_sale_products.php:28
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:28
+msgid "WooCommerce"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:27
+msgid "Show best selling products on sale"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:37
+#: shortcodes/woo_shortcodes/porto_featured_products.php:39
+#: shortcodes/woo_shortcodes/porto_product.php:35
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:45
+#: shortcodes/woo_shortcodes/porto_product_categories.php:39
+#: shortcodes/woo_shortcodes/porto_product_category.php:59
+#: shortcodes/woo_shortcodes/porto_products.php:39
+#: shortcodes/woo_shortcodes/porto_recent_products.php:39
+#: shortcodes/woo_shortcodes/porto_sale_products.php:39
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:39
+msgid "View mode"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:44
+#: shortcodes/woo_shortcodes/porto_featured_products.php:46
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:52
+#: shortcodes/woo_shortcodes/porto_product_category.php:66
+#: shortcodes/woo_shortcodes/porto_recent_products.php:46
+#: shortcodes/woo_shortcodes/porto_sale_products.php:46
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:46
+msgid "Per page"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:47
+#: shortcodes/woo_shortcodes/porto_featured_products.php:49
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:55
+#: shortcodes/woo_shortcodes/porto_product_category.php:69
+#: shortcodes/woo_shortcodes/porto_recent_products.php:49
+#: shortcodes/woo_shortcodes/porto_sale_products.php:49
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:49
+msgid ""
+"The \"per_page\" shortcode determines how many products to show on the page"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:59
+#: shortcodes/woo_shortcodes/porto_featured_products.php:61
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:67
+#: shortcodes/woo_shortcodes/porto_product_categories.php:63
+#: shortcodes/woo_shortcodes/porto_product_category.php:81
+#: shortcodes/woo_shortcodes/porto_products.php:54
+#: shortcodes/woo_shortcodes/porto_recent_products.php:61
+#: shortcodes/woo_shortcodes/porto_sale_products.php:61
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:61
+msgid "Columns on mobile ( <= 480px )"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:72
+#: shortcodes/woo_shortcodes/porto_featured_products.php:74
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:80
+#: shortcodes/woo_shortcodes/porto_product_categories.php:76
+#: shortcodes/woo_shortcodes/porto_product_category.php:94
+#: shortcodes/woo_shortcodes/porto_products.php:67
+#: shortcodes/woo_shortcodes/porto_recent_products.php:74
+#: shortcodes/woo_shortcodes/porto_sale_products.php:74
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:74
+msgid "Column Width"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:79
+#: shortcodes/woo_shortcodes/porto_featured_products.php:95
+#: shortcodes/woo_shortcodes/porto_product.php:61
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:120
+#: shortcodes/woo_shortcodes/porto_product_category.php:123
+#: shortcodes/woo_shortcodes/porto_products.php:105
+#: shortcodes/woo_shortcodes/porto_recent_products.php:95
+#: shortcodes/woo_shortcodes/porto_sale_products.php:95
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:95
+msgid "Add Links Position"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:80
+#: shortcodes/woo_shortcodes/porto_featured_products.php:96
+#: shortcodes/woo_shortcodes/porto_product.php:62
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:121
+#: shortcodes/woo_shortcodes/porto_product_category.php:124
+#: shortcodes/woo_shortcodes/porto_products.php:106
+#: shortcodes/woo_shortcodes/porto_recent_products.php:96
+#: shortcodes/woo_shortcodes/porto_sale_products.php:96
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:96
+msgid "Select position of add to cart, add to wishlist, quickview."
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:86
+#: shortcodes/woo_shortcodes/porto_featured_products.php:102
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:127
+#: shortcodes/woo_shortcodes/porto_product_categories.php:124
+#: shortcodes/woo_shortcodes/porto_product_category.php:130
+#: shortcodes/woo_shortcodes/porto_products.php:112
+#: shortcodes/woo_shortcodes/porto_recent_products.php:102
+#: shortcodes/woo_shortcodes/porto_sale_products.php:102
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:102
+msgid "Show Slider Navigation"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_best_selling_products.php:94
+#: shortcodes/woo_shortcodes/porto_featured_products.php:110
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:135
+#: shortcodes/woo_shortcodes/porto_product_categories.php:132
+#: shortcodes/woo_shortcodes/porto_product_category.php:138
+#: shortcodes/woo_shortcodes/porto_products.php:120
+#: shortcodes/woo_shortcodes/porto_recent_products.php:110
+#: shortcodes/woo_shortcodes/porto_sale_products.php:110
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:110
+msgid "Show Slider Pagination"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_featured_products.php:25
+msgid "Featured products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_featured_products.php:29
+msgid "Display products set as \"featured\""
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_featured_products.php:81
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:87
+#: shortcodes/woo_shortcodes/porto_product_categories.php:83
+#: shortcodes/woo_shortcodes/porto_product_category.php:101
+#: shortcodes/woo_shortcodes/porto_products.php:74
+#: shortcodes/woo_shortcodes/porto_recent_products.php:81
+#: shortcodes/woo_shortcodes/porto_sale_products.php:81
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:81
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:55
+msgid "Order by"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_featured_products.php:84
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:90
+#: shortcodes/woo_shortcodes/porto_product_categories.php:86
+#: shortcodes/woo_shortcodes/porto_product_category.php:104
+#: shortcodes/woo_shortcodes/porto_products.php:77
+#: shortcodes/woo_shortcodes/porto_recent_products.php:84
+#: shortcodes/woo_shortcodes/porto_sale_products.php:84
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:84
+#, php-format
+msgid "Select how to sort retrieved products. More at %s."
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_featured_products.php:88
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:94
+#: shortcodes/woo_shortcodes/porto_product_categories.php:90
+#: shortcodes/woo_shortcodes/porto_product_category.php:108
+#: shortcodes/woo_shortcodes/porto_products.php:81
+#: shortcodes/woo_shortcodes/porto_recent_products.php:88
+#: shortcodes/woo_shortcodes/porto_sale_products.php:88
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:88
+msgid "Order way"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_featured_products.php:91
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:97
+#: shortcodes/woo_shortcodes/porto_product_categories.php:93
+#: shortcodes/woo_shortcodes/porto_product_category.php:111
+#: shortcodes/woo_shortcodes/porto_products.php:84
+#: shortcodes/woo_shortcodes/porto_recent_products.php:91
+#: shortcodes/woo_shortcodes/porto_sale_products.php:91
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:91
+#, php-format
+msgid "Designates the ascending or descending order. More at %s."
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product.php:21
+msgid "Product"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product.php:25
+msgid "Show a single product by ID or SKU"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product.php:49
+msgid "Select identificator"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product.php:51
+msgid "Input product ID or product SKU or product title to see suggestions"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:31
+msgid "Product Attribute"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:35
+msgid "Show products with an attribute shortcode"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:101
+msgid "Attribute"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:104
+msgid "List of product taxonomy attribute"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:108
+msgid "Filter"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_attribute.php:111
+msgid "Taxonomy values"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_categories.php:25
+msgid "Product Categories"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_categories.php:29
+msgid "Display product categories loop"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_categories.php:49
+#: shortcodes/woo_shortcodes/porto_product_categories.php:97
+msgid "Number"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_categories.php:51
+msgid "The `number` field is used to display the number of products."
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_categories.php:99
+msgid "Hide empty"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_categories.php:103
+msgid "Parent Category ID"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_categories.php:114
+msgid "List of product categories"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_categories.php:118
+msgid "Hide products count"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_category.php:45
+msgid "Product category"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_category.php:49
+msgid "Show multiple products in a category"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_product_category.php:118
+msgid "Product category list"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_products.php:25
+#: shortcodes/woo_shortcodes/porto_products.php:88
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:23
+msgid "Products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_products.php:29
+msgid "Show multiple products by ID or SKU."
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_products.php:96
+msgid "Enter List of Products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_recent_products.php:25
+msgid "Recent products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_recent_products.php:29
+msgid "Show recent products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_sale_products.php:25
+msgid "Sale products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_sale_products.php:29
+msgid "Show all products on sale"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:25
+msgid "Top Rated products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_top_rated_products.php:29
+msgid "Show top rated products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_product_tags.php:23
+msgid "Product Tags"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_product_tags.php:23
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:23
+#: shortcodes/woo_shortcodes/porto_widget_woo_recent_reviews.php:23
+#: shortcodes/woo_shortcodes/porto_widget_woo_recently_viewed.php:23
+#: shortcodes/woo_shortcodes/porto_widget_woo_top_rated_products.php:23
+msgid "Widget"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_product_tags.php:26
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:26
+#: shortcodes/woo_shortcodes/porto_widget_woo_recent_reviews.php:26
+#: shortcodes/woo_shortcodes/porto_widget_woo_recently_viewed.php:26
+#: shortcodes/woo_shortcodes/porto_widget_woo_top_rated_products.php:26
+msgid "WooCommerce Widgets"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_product_tags.php:28
+msgid "Your most used product tags in cloud format."
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:28
+msgid "Display a list of your products on your site."
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:38
+#: shortcodes/woo_shortcodes/porto_widget_woo_recent_reviews.php:38
+#: shortcodes/woo_shortcodes/porto_widget_woo_recently_viewed.php:38
+#: shortcodes/woo_shortcodes/porto_widget_woo_top_rated_products.php:38
+msgid "Number of products to show"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:47
+msgid "All Products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:48
+msgid "Featured Products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:49
+msgid "On-sale Products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:61
+msgid "Sales"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:67
+msgctxt "Sorting order"
+msgid "Order"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:70
+msgid "DESC"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:71
+msgid "ASC"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:76
+msgid "Hide free products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_products.php:82
+msgid "Show hidden products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_recent_reviews.php:23
+msgid "Recent Reviews"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_recent_reviews.php:28
+msgid "Display a list of your most recent reviews on your site."
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_recently_viewed.php:23
+msgid "Recently Viewed"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_recently_viewed.php:28
+msgid "Display a list of recently viewed products."
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_top_rated_products.php:23
+msgid "Top Rated Products"
+msgstr ""
+
+#: shortcodes/woo_shortcodes/porto_widget_woo_top_rated_products.php:28
+msgid "Display a list of your top rated products on your site."
+msgstr ""
+
+#: widgets/block.php:12
+msgid "Show block."
+msgstr ""
+
+#: widgets/block.php:16
+msgid "Porto: Block"
+msgstr ""
+
+#: widgets/contact_info.php:12
+msgid "Add contact information."
+msgstr ""
+
+#: widgets/contact_info.php:16
+msgid "Porto: Contact Info"
+msgstr ""
+
+#: widgets/contact_info.php:23 widgets/contact_info.php:97
+#: widgets/contact_info.php:103
+msgid "Address"
+msgstr ""
+
+#: widgets/contact_info.php:24 widgets/contact_info.php:111
+#: widgets/contact_info.php:117
+msgid "Phone"
+msgstr ""
+
+#: widgets/contact_info.php:25 widgets/contact_info.php:125
+#: widgets/contact_info.php:131
+msgid "Email"
+msgstr ""
+
+#: widgets/contact_info.php:26 widgets/contact_info.php:139
+#: widgets/contact_info.php:145
+msgid "Working Days/Hours"
+msgstr ""
+
+#: widgets/contact_info.php:77
+msgid "Contact Us"
+msgstr ""
+
+#: widgets/contact_info.php:89 widgets/follow_us.php:212
+msgid "Before Description"
+msgstr ""
+
+#: widgets/contact_info.php:96
+msgid "Address Label"
+msgstr ""
+
+#: widgets/contact_info.php:110
+msgid "Phone Label"
+msgstr ""
+
+#: widgets/contact_info.php:124
+msgid "Email Label"
+msgstr ""
+
+#: widgets/contact_info.php:138
+msgid "Working Days/Hours Label"
+msgstr ""
+
+#: widgets/contact_info.php:152 widgets/follow_us.php:345
+msgid "After Description"
+msgstr ""
+
+#: widgets/contact_info.php:159
+msgid "Highlight Icons"
+msgstr ""
+
+#: widgets/contact_info.php:167
+msgid "Separate"
+msgstr ""
+
+#: widgets/follow_us.php:12
+msgid "Add Social Links."
+msgstr ""
+
+#: widgets/follow_us.php:16
+msgid "Porto: Follow Us"
+msgstr ""
+
+#: widgets/follow_us.php:69 widgets/follow_us.php:219
+msgid "Facebook"
+msgstr ""
+
+#: widgets/follow_us.php:73 widgets/follow_us.php:226
+msgid "Twitter"
+msgstr ""
+
+#: widgets/follow_us.php:77 widgets/follow_us.php:233
+msgid "RSS"
+msgstr ""
+
+#: widgets/follow_us.php:81 widgets/follow_us.php:240
+msgid "Pinterest"
+msgstr ""
+
+#: widgets/follow_us.php:85 widgets/follow_us.php:247
+msgid "Youtube"
+msgstr ""
+
+#: widgets/follow_us.php:89 widgets/follow_us.php:254
+msgid "Instagram"
+msgstr ""
+
+#: widgets/follow_us.php:93 widgets/follow_us.php:261
+msgid "Skype"
+msgstr ""
+
+#: widgets/follow_us.php:97 widgets/follow_us.php:268
+msgid "Linkedin"
+msgstr ""
+
+#: widgets/follow_us.php:101 widgets/follow_us.php:275
+msgid "Google +"
+msgstr ""
+
+#: widgets/follow_us.php:105 widgets/follow_us.php:282
+msgid "VK"
+msgstr ""
+
+#: widgets/follow_us.php:109 widgets/follow_us.php:289
+msgid "Xing"
+msgstr ""
+
+#: widgets/follow_us.php:113 widgets/follow_us.php:296
+msgid "Tumblr"
+msgstr ""
+
+#: widgets/follow_us.php:117 widgets/follow_us.php:303
+msgid "Reddit"
+msgstr ""
+
+#: widgets/follow_us.php:121 widgets/follow_us.php:310
+msgid "Vimeo"
+msgstr ""
+
+#: widgets/follow_us.php:125 widgets/follow_us.php:317
+msgid "Telegram"
+msgstr ""
+
+#: widgets/follow_us.php:129 widgets/follow_us.php:324
+msgid "Yelp"
+msgstr ""
+
+#: widgets/follow_us.php:133 widgets/follow_us.php:331
+msgid "Flickr"
+msgstr ""
+
+#: widgets/follow_us.php:137 widgets/follow_us.php:338
+msgid "WhatsApp"
+msgstr ""
+
+#: widgets/follow_us.php:180
+msgid "Follow Us"
+msgstr ""
+
+#: widgets/follow_us.php:192
+msgid "Add rel=\"nofollow\" to links"
+msgstr ""
+
+#: widgets/follow_us.php:197
+msgid "Disable border radius"
+msgstr ""
+
+#: widgets/follow_us.php:202
+msgid "Disable tooltip"
+msgstr ""
+
+#: widgets/follow_us.php:207
+msgid "Use default skin"
+msgstr ""
+
+#: widgets/recent_portfolios.php:13
+msgid "Show recent portfolios."
+msgstr ""
+
+#: widgets/recent_portfolios.php:17
+msgid "Porto: Recent Portfolios"
+msgstr ""
+
+#: widgets/recent_portfolios.php:131
+msgid "Number of portfolios to show"
+msgstr ""
+
+#: widgets/recent_portfolios.php:146 widgets/recent_posts.php:137
+msgid "Number of items per slide"
+msgstr ""
+
+#: widgets/recent_posts.php:13
+msgid "Show recent posts."
+msgstr ""
+
+#: widgets/recent_posts.php:17
+msgid "Porto: Recent Posts"
+msgstr ""
+
+#: widgets/recent_posts.php:122
+msgid "Number of posts to show"
+msgstr ""
+
+#: widgets/twitter_tweets.php:51
+msgid "Oops, our twitter feed is unavailable right now."
+msgstr ""
+
+#: widgets/twitter_tweets.php:52
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: widgets/twitter_tweets.php:64
+msgid "The most recent tweets from twitter."
+msgstr ""
+
+#: widgets/twitter_tweets.php:68
+msgid "Porto: Twitter Tweets"
+msgstr ""
+
+#: widgets/twitter_tweets.php:90
+msgid "Please wait..."
+msgstr ""
+
+#: widgets/twitter_tweets.php:118
+msgid "Please configure widget options."
+msgstr ""
+
+#: widgets/twitter_tweets.php:139
+msgid "Latest Tweets"
+msgstr ""
+
+#: widgets/twitter_tweets.php:151
+msgid "Consumer Key"
+msgstr ""
+
+#: widgets/twitter_tweets.php:158
+msgid "Consumer Secret"
+msgstr ""
+
+#: widgets/twitter_tweets.php:165
+msgid "Access Token"
+msgstr ""
+
+#: widgets/twitter_tweets.php:172
+msgid "Access Token Secret"
+msgstr ""
+
+#: widgets/twitter_tweets.php:179
+msgid "Twitter Screen Name"
+msgstr ""
+
+#: widgets/twitter_tweets.php:186
+msgid "Number of Tweets"
+msgstr ""
+
+#: widgets/twitter_tweets.php:191
+msgid ""
+"You can find or create <a href=\"http://dev.twitter.com/apps\" target="
+"\"_blank\">Twitter App here</a>."
+msgstr ""

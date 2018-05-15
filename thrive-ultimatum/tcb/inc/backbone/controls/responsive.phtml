@@ -1,0 +1,49 @@
+<?php
+/**
+ * Thrive Themes - https://thrivethemes.com
+ *
+ * @package thrive-visual-editor
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Silence is golden!
+}
+?>
+<div class="responsive-options action-group">
+	<div class="dropdown-header" data-prop="docked">
+		<span>
+			<?php echo __( 'Responsive', 'thrive-cb' ); ?>
+		</span>
+		<i></i>
+	</div>
+	<div class="dropdown-content">
+		<div class="row padding-top-10 button-group-holder">
+			<div class="group-label">
+				<span class="title"><?php echo __( 'Element visible on', 'thrive-cb' ); ?></span>
+			</div>
+			<div class="tve-btn-group">
+				<div class="tve-control tve-btn" data-device="desktop"></div>
+				<div class="tve-control tve-btn" data-device="tablet"></div>
+				<div class="tve-control tve-btn" data-device="mobile"></div>
+			</div>
+		</div>
+		<div class="responsive-text">
+			<span class="initial"><?php echo __( 'All devices', 'thrive-cb' ) ?></span>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-xs-12 tcb-checkbox">
+				<input type="checkbox" class="change" data-fn="show_all_hidden" id="tcb-show-all-hidden"/>
+				<label for="tcb-show-all-hidden"><?php echo __( 'Show all hidden elements', 'thrive-cb' ); ?></label>
+			</div>
+		</div>
+		<div class="row padding-top-10">
+			<div class="col-xs-12">
+				<a href="https://thrivethemes.com/tkb_item/how-to-use-the-responsive-element-setting/" target="_blank">
+					<span class="blue-text"><?php tcb_icon( 'info' ); ?></span>
+					<span class="info-text"><?php echo __( 'Learn more about responsive modify', 'thrive-cb' ); ?></span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

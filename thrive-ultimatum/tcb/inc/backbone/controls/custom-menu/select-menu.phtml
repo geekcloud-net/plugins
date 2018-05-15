@@ -1,0 +1,15 @@
+<?php
+	$menus = tve_get_custom_menus();
+?>
+<div class="row">
+	<div class="col-xs-5 group-label grey-text margin-top-5">
+		<?php echo __( 'Select Menu', 'thrive-cb' ); ?>
+	</div>
+	<div class="col-xs-7 ">
+		<select class="tve-select change" data-fn="changeMenu">
+			<?php foreach ( $menus as $item ) : ?>
+				<option value="<?php echo $item['id'] ?>"><?php echo $item['name'] ?></option>
+			<?php endforeach ?>
+		</select>
+	</div>
+</div>

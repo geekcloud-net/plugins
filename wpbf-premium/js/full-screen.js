@@ -1,0 +1,1 @@
+!function(e){e(".wpbf-menu-toggle").click(function(){e(".wpbf-menu-full-screen").addClass("active"),e(".wpbf-menu-full-screen").fadeIn(150)}),e(".wpbf-menu-full-screen .wpbf-close").click(function(){e(".wpbf-menu-full-screen").removeClass("active"),e(".wpbf-menu-full-screen").fadeOut(150)})}(jQuery);

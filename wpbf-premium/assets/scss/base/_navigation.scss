@@ -1,0 +1,440 @@
+/* ========================================================================
+Component: Navigation
+========================================================================== */
+
+// Transparent Header
+.#{$prefix}-transparent-header {
+	.#{$prefix}-navigation {
+		position: 				absolute;
+		background: 			transparent;
+	}
+	.#{$prefix}-menu-stacked-advanced-wrapper {
+		background: 			transparent;
+	}
+	.#{$prefix}-mobile-nav-wrapper {
+		background: 			transparent;
+	}
+}
+
+// Active State Defaults
+.#{$prefix}-navigation-active,
+.#{$prefix}-transparent-header .wpbf-navigation-active {
+	background-color: $base-color-alt;
+	.#{$prefix}-menu-stacked-advanced-wrapper {
+		background: #fff;
+	}
+}
+
+.#{$prefix}-navigation-active .#{$prefix}-logo img {
+	height: 48px;
+}
+
+.#{$prefix}-navigation-active .#{$prefix}-nav-wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Stacked Advanced
+========================================================================== */
+
+.#{$prefix}-menu-stacked-advanced-wrapper {
+	padding-top: $padding;
+	padding-bottom: $padding;
+	background: #fff;
+	.#{$prefix}-container {
+		width: 100%;
+		display: 				flex;
+		align-items:			center;
+	}
+	.#{$prefix}-3-4 {
+		text-align: right;
+	}
+}
+
+// Alignment Modifier (center)
+.#{$prefix}-menu-stacked-advanced.menu-align-center {
+	.#{$prefix}-1-4 {
+		text-align: center;
+		width: 100%;
+	}
+	.#{$prefix}-3-4 {
+		display: none;
+	}
+	.#{$prefix}-menu {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+// Alignment Modifier (right)
+.#{$prefix}-menu-stacked-advanced.menu-align-right {
+	.#{$prefix}-1-4 {
+		order: 2;
+		text-align: right;
+	}
+	.#{$prefix}-3-4 {
+		order: 1;
+		text-align: left;
+	}
+	.#{$prefix}-menu {
+		float: right;
+	}
+}
+
+/* Sub Menu
+========================================================================== */
+
+// WooCommerce Menu Item
+.#{$prefix}-sub-menu {
+	> .menu-item-has-children {
+		> .woo-sub-menu {
+			display: none;
+			position: absolute;
+			z-index: 111;
+			background: #fff;
+			@include box-shadow(0px 0px 10px 0px rgba(0,0,0,0.15));
+		}
+	}
+}
+
+// Sub Menu Animation Down
+.#{$prefix}-sub-menu-animation-down {
+	> .menu-item-has-children {
+		> .sub-menu {
+			margin-top: -10px;
+			opacity: 0;
+		}
+	}
+}
+
+// Sub Menu Animation Up
+.#{$prefix}-sub-menu-animation-up {
+	> .menu-item-has-children {
+		> .sub-menu {
+			margin-top: 10px;
+			opacity: 0;
+		}
+	}
+}
+
+// Sub Menu Zoom In
+.#{$prefix}-sub-menu-animation-zoom-in {
+	> .menu-item-has-children {
+		> .sub-menu {
+			opacity: 0;
+			@include scale(.95);
+		}
+	}
+}
+
+// Sub Menu Zoom Out
+.#{$prefix}-sub-menu-animation-zoom-out {
+	> .menu-item-has-children {
+		> .sub-menu {
+			opacity: 0;
+			@include scale(1.05);
+		}
+	}
+}
+
+/* Mega Menu
+========================================================================== */
+
+.#{$prefix}-mega-menu {
+	// mega menu container
+	> .sub-menu {
+		right: 0;
+		padding: $padding 0;
+	}
+	// rows
+	> .sub-menu > .menu-item {
+		padding: 0 $padding;
+		float: left;
+		// all links
+		a {
+			padding: 0;
+			margin-bottom: $margin-small;
+		}
+		// headlines
+		a[href="#"] {
+			color: $brand-color;
+			font-weight: $bold;
+			margin-bottom: $margin;
+			cursor: default;
+			display: inline-block;
+		}
+	}
+}
+
+.#{$prefix}-mega-menu {
+	.wpbf-menu-description {
+		margin-bottom: $margin-small;
+		p {
+			margin-bottom: $margin-small;
+			font-weight: 400;
+			font-size: $small-fontsize;
+		}
+		img {
+			width: 100%;
+			height: auto;
+			margin-bottom: $margin-small;
+		}
+	}
+}
+
+.#{$prefix}-mega-menu.wpbf-mega-menu-4 > .sub-menu {
+	width: 100%;
+	> .menu-item {
+		width: 25%;
+	}
+}
+.#{$prefix}-mega-menu.wpbf-mega-menu-3 > .sub-menu {
+	width: 75%;
+	> .menu-item {
+		width: 33.3333%;
+	}
+}
+.#{$prefix}-mega-menu.wpbf-mega-menu-2 > .sub-menu {
+	width: 50%;
+	> .menu-item {
+		width: 50%;
+	}
+}
+.#{$prefix}-mega-menu.wpbf-mega-menu-1 > .sub-menu {
+	width: 25%;
+	> .menu-item {
+		width: 100%;
+	}
+}
+
+// Sub Menu Alignment modifiers
+.#{$prefix}-sub-menu-align-right {
+	// Mega Menu
+	.#{$prefix}-mega-menu {
+		// mega menu container
+		> .sub-menu {
+			left: auto;
+			right: 0;
+		}
+	}
+}
+
+// Hide Mega Menu from Off-Canvas Menu
+.#{$prefix}-menu-off-canvas {
+	.#{$prefix}-mega-menu {
+		display: none;
+	}
+}
+
+/* Navigation Modifier
+========================================================================== */
+
+// Left Navigation
+.#{$prefix}-menu-left,
+.#{$prefix}-menu-stacked-advanced.menu-align-left {
+	.#{$prefix}-mega-menu {
+		> .sub-menu {
+			right: auto;
+			left: 0;
+		}
+	}
+}
+
+/* Menu Mobile
+========================================================================== */
+
+// Mobile Mega Menu
+.#{$prefix}-mobile-mega-menu {
+	.sub-menu .sub-menu {
+		display: block;
+	}
+	.menu-item {
+		border-width: 0;
+	}
+	.sub-menu .menu-item {
+		.wpbf-submenu-toggle {
+			display: none;
+		}
+		a[href="#"] {
+			color: $brand-color;
+			font-weight: $bold;
+			cursor: default;
+		}
+		a[href="#"]:after {
+			display: none;
+		}
+	}
+}
+
+// Off Canvas
+.#{$prefix}-mobile-menu-off-canvas {
+	.#{$prefix}-mobile-menu-container {
+		display: block;
+		position: fixed;
+		top: 0;
+		width: 320px;
+		right: -320px;
+		height: 100%;
+		padding-top: 60px;
+		@include transition(right 0.6s cubic-bezier(0.000, 0.085, 0.000, 0.990));
+	}
+	.#{$prefix}-mobile-menu-container.active {
+		right: 0;
+	}
+	// close icon
+	.wpbf-close {
+		position: absolute;
+		left: 0;
+		top: 0;
+		padding: $padding;
+		cursor: pointer;
+		@include transition(opacity .2s);
+	}
+	.wpbf-close:hover {
+		opacity: .5;
+	}
+}
+
+/* Off Canvas
+========================================================================== */
+
+.#{$prefix}-menu-off-canvas {
+	background: #fff;
+	z-index: 777;
+	width: 400px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	padding: $padding 0 $padding $padding;
+	.#{$prefix}-menu {
+		a {
+			padding: $padding-small 0;
+		}
+	}
+	.#{$prefix}-menu .menu-item-has-children {
+		position: relative;
+		.#{$prefix}-submenu-toggle {
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: $padding-small $padding;
+			cursor: pointer;
+		}
+		.sub-menu {
+			display: none;
+			a {
+				padding: $padding-small 0 $padding-small $padding-small;
+			}
+		}
+	}
+	// close icon
+	.wpbf-close {
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: $padding;
+		cursor: pointer;
+		@include transition(opacity .2s);
+	}
+	.wpbf-close:hover {
+		opacity: .5;
+	}
+}
+
+// Off Canvas Right
+.#{$prefix}-menu-off-canvas-right {
+	@include transition(right 0.6s cubic-bezier(0.000, 0.085, 0.000, 0.990));
+	right: -400px;
+}
+
+.#{$prefix}-menu-off-canvas-right.active {
+	right: 0;
+}
+
+// Push Menu Right
+.#{$prefix}-push-menu-right {
+	left: 0;
+	position: relative;
+	overflow-x: hidden;
+	@include transition(left 0.6s cubic-bezier(0.000, 0.085, 0.000, 0.990));
+	.wpbf-navigation-active {
+		@include transition(left 0.6s cubic-bezier(0.000, 0.085, 0.000, 0.990));
+	}
+}
+
+.#{$prefix}-push-menu-right.active {
+	left: -400px;
+	.wpbf-navigation-active {
+		left: -400px !important;
+	}
+}
+
+// Off Canvas Left
+.#{$prefix}-menu-off-canvas-left {
+	@include transition(left 0.6s cubic-bezier(0.000, 0.085, 0.000, 0.990));
+	left: -400px;
+}
+
+.#{$prefix}-menu-off-canvas-left.active {
+	left: 0;
+}
+
+// Push Menu Left
+.#{$prefix}-push-menu-left {
+	left: 0;
+	position: relative;
+	overflow-x: hidden;
+	@include transition(left 0.6s cubic-bezier(0.000, 0.085, 0.000, 0.990));
+	.wpbf-navigation-active {
+		@include transition(left 0.6s cubic-bezier(0.000, 0.085, 0.000, 0.990));
+	}
+}
+
+.#{$prefix}-push-menu-left.active {
+	left: 400px;
+	.wpbf-navigation-active {
+		left: 400px !important;
+	}
+}
+
+/* Full Screen
+========================================================================== */
+.#{$prefix}-menu-full-screen {
+	background: #fff;
+	display: none;
+	z-index: 777;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: $padding;
+	.#{$prefix}-menu {
+		text-align: center;
+		@include center-align();
+	}
+	// close icon
+	.wpbf-close {
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: $padding;
+		cursor: pointer;
+		@include transition(opacity .2s);
+	}
+	.wpbf-close:hover {
+		opacity: .5;
+	}
+	.#{$prefix}-menu > .menu-item-has-children > a:after {
+		display: none;
+	}
+}
+
+/* Navigation Effects
+========================================================================== */
+
+ul[class*="wpbf-menu-effect-"] > .menu-item > a {
+	position: relative;
+	z-index: 1;
+}

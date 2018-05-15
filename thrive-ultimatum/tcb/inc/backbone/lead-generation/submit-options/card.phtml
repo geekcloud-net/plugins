@@ -1,0 +1,10 @@
+<div class="col-sm-3">
+	<div class="tcb-optin-option-card <#= item.get('css_class') #> <#= selected ? 'tcb-card-selected' : '' #>" data-key="<#= item.get('key') #>">
+		<div class="tcb-card-image">
+			<#= icon ? TVE.icon( icon ): '' #>
+		</div>
+		<div class="tcb-card-label">
+			<#= item.get('label') #>
+		</div>
+	</div>
+</div>

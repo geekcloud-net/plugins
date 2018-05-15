@@ -1,0 +1,18 @@
+<p><strong><?php echo __( 'Timer (duration after page load) Settings', 'thrive-cb' ) ?></strong></p>
+
+<p><?php echo __( 'How many seconds after page load should the event be triggered ?', 'thrive-cb' ) ?></p>
+<div class="row middle-xs">
+	<div class="col-xs-9">
+		<input type="range" value="<#=m.config.t_delay||10#>" min="1" max="300" id="exit-timer-slider" class="input change" data-fn-input="slider_update" data-fn-change="config" data-config="t_delay" data-target="#exit-timer">
+	</div>
+	<div class="col-xs-3">
+		<div class="row middle-xs">
+			<div class="col-xs-5">
+				<input type="text" value="<#=m.config.t_delay||10#>" id="exit-timer" class="input tcb-text-center change slider-input" data-fn-input="slider_update" data-fn-change="config" data-config="t_delay" data-target="#exit-timer-slider">
+			</div>
+			<div class="col-xs-7">
+				<span class="slider-input-label"><?php echo __( 'Seconds', 'thrive-cb' ) ?></span>
+			</div>
+		</div>
+	</div>
+</div>

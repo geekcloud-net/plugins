@@ -1,0 +1,25 @@
+<div class="state-section tcb-hidden state-default">
+	<button class="tcb-text-center selector click" data-fn="toggle_dropdown">
+		<span class="state-label"><?php echo __( 'State:', 'thrive-cb' ) ?></span>
+		<strong class="state-action"><?php echo __( 'Default', 'thrive-cb' ) ?></strong>
+	</button>
+	<ul class="drop-content">
+		<li class="selected" data-state="default">
+			<button class="click" data-state="default" data-fn="state_select"><?php echo __( 'Default', 'thrive-cb' ) ?></button>
+		</li>
+		<li data-state="hover">
+			<button class="click" data-state="hover" data-fn="state_select"><?php echo __( 'Hover', 'thrive-cb' ) ?></button>
+		</li>
+	</ul>
+</div>
+
+<div class="state-section tcb-hidden state-edit tcb-text-center">
+	<button class="click tve-button blue" data-fn="done"><?php echo __( 'Exit state', 'thrive-cb' ) ?></button>
+	<?php /*
+	<div class="row middle-xs">
+		<div class="col-xs-5"><strong class="current-state"></strong></div>
+		<div class="col-xs-7">
+			<button class="click tve-button blue" data-fn="done"><?php echo __( 'Done', 'thrive-cb' ) ?></button>
+		</div>
+	</div> */ ?>
+</div>

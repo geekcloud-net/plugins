@@ -1,0 +1,21 @@
+<div class="row">
+	<div class="col-xs-5 decoration-boxes">
+		<div class="tve-decoration-side click top" data-fn="decorationSide" data-value="top"></div>
+		<div class="tve-decoration-side click left" data-fn="decorationSide" data-value="left"></div>
+		<div class="tve-decoration-side click right" data-fn="decorationSide" data-value="right"></div>
+		<div class="tve-decoration-side click active bottom" data-fn="decorationSide" data-value="bottom"></div>
+		<div class="tve-decoration-side disabled center" data-value=""></div>
+	</div>
+	<div class="col-xs-7 decoration-type">
+		<select class="tve-select change" data-fn="chooseType">
+			<option value="none"><?php echo __( 'None', 'thrive-cb' ) ?></option>
+			<option value="slanted"><?php echo __( 'Slanted Edge', 'thrive-cb' ) ?></option>
+			<option value="pointer"><?php echo __( 'Pointer', 'thrive-cb' ) ?></option>
+			<option value="divider"><?php echo __( 'Divider', 'thrive-cb' ) ?></option>
+		</select>
+	</div>
+</div>
+
+<div class="tve-control tve-sub-control tve-slanted-control" style="display:none"></div>
+<div class="tve-control tve-sub-control tve-pointer-control" style="display:none"></div>
+<div class="tve-control tve-sub-control tve-divider-control" style="display:none"></div>

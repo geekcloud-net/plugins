@@ -1,0 +1,48 @@
+<div class="tvd-card tvd-white tvd-large tvd-slim-card">
+	<div class="tvu-campaign-controls">
+		<# if ( item.get( 'type' ) ) { #>
+            <span
+	            class="tvu-campaign-type-<#= item.get('type') #> tvu-campaign-type tvd-badge tvd-inline-block">
+                <#= ThriveUlt.util.upperFirst( item.get('type'))  #>
+            </span>
+			<# } #>
+	</div>
+	<div class="tvd-card-content">
+		<span class="tvd-icon-pencil tvd-pointer tvu-edit-campaign-title tvu-btn-icon-small tvd-right tvu-lightgray tvd-right-align"></span>
+		<h3 class="tvd-card-title tvd-truncate">
+			<#= item.get('post_title') #>
+		</h3>
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s12">
+				<h4><?php echo __( 'Archived on', TVE_Ult_Const::T ) ?></h4>
+				<span class="tvu-log-label">
+					<#= item.get('post_modified') #>
+				</span>
+			</div>
+		</div>
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s12">
+				<h4><?php echo __( 'Last registered results', TVE_Ult_Const::T ) ?></h4>
+			</div>
+			<div class="tvd-col tvd-s6">
+				<span class="tvu-log-count tvu-log-count-impressions tvd-block"><#= item.get( 'impressions' ) #></span>
+				<span class="tvu-log-label"><?php echo __( 'Impressions', TVE_Ult_Const::T ) ?></span>
+			</div>
+			<div class="tvd-col tvd-s6">
+				<# if ( ! item.get( 'has_event_logs' ) || item.get( 'conversions' ) ) { #>
+					<span class="tvu-log-count tvu-log-count-conversions tvd-block"><#= item.get( 'conversion_rate' ) #><span class="tvu-log-count-percent">%</span></span>
+					<span class="tvu-log-label"><?php echo __( 'Conversion rate', TVE_Ult_Const::T ) ?></span>
+					<# } #>
+			</div>
+		</div>
+		<div class="tvd-card-action">
+			<div class="tvd-row tvd-no-margin">
+				<div class="tvd-col tvd-s10 tvd-offset-s1">
+					<a href="javascript:void(0)" class="tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-green tvd-full-btn tvu-archive-campaign">
+						<?php echo __( 'Reactivate Campaign', TVE_Ult_Const::T ) ?>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

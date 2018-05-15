@@ -1,0 +1,23 @@
+/* TEAM */
+	Developer: Barry
+	Contact:
+	Twitter: @caffeinatedwp
+	Location:
+
+	Developer: Marko Miljus
+	Location: Novi Sad, Serbia
+	Contact: marko [at] incsub [dot] com
+	Twitter: @markomiljus
+
+	Developer: Ve Bailovity
+	Contact: ve [at] incsub [dot] com
+	Twitter: @vebailovity
+	Location: Zrenjanin, Serbia
+
+	Developer: Philipp Stracker
+	Contact: philipp [at] incsub [dot] com
+	Twitter:
+	Location: Götzis, Austria
+
+
+576836-1504873608-ai

@@ -1,0 +1,329 @@
+/*-------------------------------*\
+ * Editor
+\*-------------------------------*/
+
+#php-settings-page #editor-wrapper {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#php-settings-page .ace_editor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+
+/*-------------------------------*\
+ * Buttons
+\*-------------------------------*/
+
+.controls {
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+}
+
+.button.process-button.success,
+.button.process-button.success:hover,
+.button.process-button.success:focus {
+    background: #3ED48F;
+    border-color: #37C584 #289E68 #289E68;
+    -webkit-box-shadow: 0 1px 0 #289E68;
+    box-shadow: 0 1px 0 #289E68;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #289E68,1px 0 1px #289E68;
+}
+
+.button.process-button.loading,
+.button.process-button.loading:hover,
+.button.process-button.loading:focus {
+    background: white;
+    color: #208391;
+    border-color: #D7DFE2 #BBCED8 #BBCED8;
+    -webkit-box-shadow: 0 1px 0 #C0CCD2;
+    box-shadow: 0 1px 0 #C0CCD2;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #D1DBE0,1px 0 1px #D1DBE0;
+}
+
+.process-button .loader {
+    background-image: url('../img/hourglass.svg');
+    width: 26px;
+    height: 26px;
+    background-size: 26px;
+    margin-top: -4px;
+    margin-left: -4px;
+    vertical-align: middle;
+}
+
+.process-button .dashicons {
+    vertical-align: middle;
+    line-height: 16px;
+    margin-left: -4px;
+}
+
+.button.button-danger {
+    background: #F15E5E;
+    border-color: #E83B3B;
+    -webkit-box-shadow: 0 1px 0 #821818;
+    box-shadow: 0 1px 0 #821818;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #821818,1px 0 1px #821818, 1px 1px #821818,-1px 0 1px #821818;
+}
+
+.button.button-danger:hover,
+.button.button-danger:focus {
+    background: #EF7979;
+    border-color: #E83B3B;
+    color: white;
+}
+
+/*-------------------------------*\
+ * Tabbed content
+\*-------------------------------*/
+
+.nav-tab:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.nav-tab .dashicons {
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.nav-tab-notifications {
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    overflow: auto;
+    padding: 0 15px 0;
+}
+
+.nav-tab-notification {
+    position: relative;
+    padding: 5px 15px 5px 55px;
+    margin-top: 15px;
+}
+
+.nav-tab-notification p {
+    margin: 10px;
+}
+
+.nav-tab-notification.nav-tab-error {
+    background-color: #FF9B9B;
+    border: 1px solid #E05252;
+}
+
+.nav-tab-notification .dashicons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2em;
+    width: 45px;
+    text-align: center;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    height: auto;
+}
+
+.nav-tab-notification .dashicons-no {
+    background-color: #E05252;
+    color: #FF9B9B;
+}
+
+.tab {
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    display: none;
+}
+
+.tab-wrapper {
+    display: table;
+    width: 100%;
+}
+
+.tab-content {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 15px;
+}
+
+.tab-description {
+    display: table-cell;
+    vertical-align: top;
+    width: 350px;
+    background-color: white;
+    padding: 0 15px;
+    border: 1px solid #cccccc;
+}
+
+/*-------------------------------*\
+ * PHP Info Table
+\*-------------------------------*/
+
+#phpinfo {
+    background-color: #CCCCCC;
+    width: 100%;
+    display: table;
+    margin:0;
+    padding:0;
+    border-spacing: 1px;
+}
+
+#phpinfo li {
+    display: table-row;
+}
+
+#phpinfo li.local-override .list-checkbox,
+#phpinfo li.local-override .list-key,
+#phpinfo li.local-override .list-value
+{
+    background-color: #6AFDB2;
+    vertical-align: middle;
+}
+
+#phpinfo li.local-override .highlight {
+    background-color: #FFEA56;
+    padding: 2px 6px;
+    border-radius: 4px;
+    float: right;
+}
+
+#phpinfo li:not(.local-override):hover .list-checkbox,
+#phpinfo li:not(.local-override):hover .list-key,
+#phpinfo li:not(.local-override):hover .list-value {
+    background-color: white;
+    cursor: pointer;
+}
+
+#phpinfo .list-checkbox {
+    display: table-cell;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+#phpinfo .list-key {
+    background-color: #F1F1F1;
+    padding: 3px 6px;
+    text-align: left;
+    display: table-cell;
+}
+
+#phpinfo .list-value {
+    background-color: #F1F1F1;
+    padding: 3px 6px;
+    display: table-cell;
+}
+
+#phpinfo .list-checkbox input {
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+#phpinfo-wrapper {
+    height: 500px;
+    margin-bottom: 15px;
+    overflow-y: auto;
+    border: 1px solid #CCCCCC;
+}
+
+input.search {
+    background-color: white;
+    margin: 0 0 15px;
+    padding: 7px 10px;
+    width: 50%;
+    outline: none;
+    border: 1px solid #CCCCCC;
+}
+
+#copy-directives {
+    padding: 2px 11px;
+    height: auto;
+    margin-left: 10px;
+}
+
+#copy-directives .dashicons {
+    vertical-align: middle;
+    line-height: 16px;
+    margin-left: -4px;
+}
+
+#directive-counter {
+    display: inline;
+    margin-left: 10px;
+    color: gray;
+}
+
+#search-wrapper {
+    display: inline;
+    position: relative;
+}
+
+#search-wrapper .dashicons-dismiss {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    color: #CCCCCC;
+    cursor: pointer;
+    display: none;
+}
+
+#search-wrapper .dashicons-dismiss:hover {
+    color: #888;
+}
+
+/*-------------------------------*\
+ * Misc
+\*-------------------------------*/
+
+.askupa-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.plugin-banner {
+    background-color: white;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    border: 1px solid #CCCCCC;
+    margin-top: 25px;
+}
+
+.plugin-banner img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.plugin-banner h1 {
+    display: inline-block;
+    vertical-align: middle;
+    color: #485254;
+    border-left: 8px solid #ED7964;
+    padding: 10px 0 10px 25px;
+    line-height: 0.9em;
+}
+
+.plugin-banner h1 span {
+    color: #AFAFAF;
+    font-size: 0.6em;
+}
+
+.social-buttons {
+    display: inline-block;
+    margin: 10px 0 0;
+    height: 21px;
+}

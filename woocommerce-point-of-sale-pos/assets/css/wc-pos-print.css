@@ -1,0 +1,47 @@
+.wc-setup-content p, .wc-setup-content table{
+    font-size: 13px;
+}
+
+#sale_report_popup_inner table{
+    width: 100%;
+}
+
+#sale_report_popup_inner table td.first-col{
+    width: 9em;
+}
+
+#sale_report_popup_inner table.wp-list-table{
+    border: 1px solid #e5e5e5;
+}
+.widefat thead tr th, .widefat thead tr td, .widefat tfoot tr th, .widefat tfoot tr td {
+    color: #32373c;
+}
+.widefat thead th, .widefat thead td {
+    border-bottom: 1px solid #e1e1e1;
+}
+.widefat th, .widefat thead td, .widefat tfoot td {
+    font-size: 14px;
+    line-height: 1.3em;
+    text-align: left;
+}
+.widefat td, .widefat th {
+    padding: 8px 10px;
+}
+
+@media print {
+   
+   html, body {
+       height: 100%;
+       width: 100%;
+       background-color: #fff;
+       margin: 0;
+       padding: 0;
+   }
+   .wc-setup-content{
+    box-shadow: none;
+    padding: 0;
+   }
+   .widefat thead th, .widefat thead td {
+    border-bottom: 1px solid #e1e1e1;
+}
+}

@@ -1,0 +1,249 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Infinite Scrolling\n"
+"POT-Creation-Date: 2016-12-14 15:40+0100\n"
+"PO-Revision-Date: 2015-03-18 14:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: YITHEMES <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-KeywordsList: __ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/class.yith-infs-admin-premium.php:89
+#: includes/class.yith-infs-admin.php:201
+#: includes/class.yith-infs-admin.php:202
+msgid "Infinite Scrolling"
+msgstr ""
+
+#: includes/class.yith-infs-admin-premium.php:90
+msgid "Load More Button"
+msgstr ""
+
+#: includes/class.yith-infs-admin-premium.php:91
+msgid "Ajax Pagination"
+msgstr ""
+
+#: includes/class.yith-infs-admin-premium.php:95
+msgid "Zoom in"
+msgstr ""
+
+#: includes/class.yith-infs-admin-premium.php:96
+msgid "Bounce in"
+msgstr ""
+
+#: includes/class.yith-infs-admin-premium.php:97
+msgid "Fade in"
+msgstr ""
+
+#: includes/class.yith-infs-admin-premium.php:98
+msgid "Fade in from top to down"
+msgstr ""
+
+#: includes/class.yith-infs-admin-premium.php:99
+msgid "Fade in from right to left"
+msgstr ""
+
+#: includes/class.yith-infs-admin-premium.php:100
+msgid "Fade in from left to right"
+msgstr ""
+
+#: includes/class.yith-infs-admin-premium.php:101
+msgid "Fade in from down to top"
+msgstr ""
+
+#: includes/class.yith-infs-admin-premium.php:144
+msgid "Please insert a name for the section"
+msgstr ""
+
+#: includes/class.yith-infs-admin-premium.php:145
+msgid "Do you really want to delete this section?"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:168
+#: includes/class.yith-infs-admin.php:191
+msgid "Settings"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:170
+#: includes/class.yith-infs-admin.php:195
+msgid "Premium Version"
+msgstr ""
+
+#: includes/class.yith-infs-admin.php:255
+msgid "Plugin Documentation"
+msgstr ""
+
+#: plugin-options/general-options.php:10
+msgid "General Settings"
+msgstr ""
+
+#: plugin-options/general-options.php:24
+msgid "Enable Infinite Scrolling"
+msgstr ""
+
+#: plugin-options/general-options.php:32
+msgid "Enable Infinite Scrolling on mobile device"
+msgstr ""
+
+#: plugin-options/general-options.php:44
+msgid "Change the URL of the page whenever new items are loaded"
+msgstr ""
+
+#: plugin-options/general-options.php:56
+msgid "Add section and set options"
+msgstr ""
+
+#: plugin-options/general-options.php:69
+msgid "Custom JavaScript"
+msgstr ""
+
+#: plugin-options/general-options.php:70
+#, php-format
+msgid ""
+"Add here your custom javascript code. You can use two plugin triggers: %s "
+"triggered before the new elements be appended to current content, and %s "
+"triggered at the end of ajax call"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:4
+#: templates/admin/options-section.php:27
+msgid "Options for "
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:13
+#: templates/admin/options-section.php:36
+msgid "Navigation Selector"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:17
+#: templates/admin/options-section.php:40
+msgid ""
+"The selector that contains the navigation of this section. Selectors can be "
+"class or ID names: the first ones must have a dot in front (.class-name), "
+"while the second must have a hash (#id-name)."
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:23
+#: templates/admin/options-section.php:46
+msgid "Next Selector"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:27
+#: templates/admin/options-section.php:50
+msgid ""
+"The selector of the link that redirects to the next page of this section. "
+"Selectors can be class or ID names: the first ones must have a dot in front "
+"(.class-name), while the second must have a hash (#id-name)."
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:33
+#: templates/admin/options-section.php:56
+msgid "Item Selector"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:37
+#: templates/admin/options-section.php:60
+msgid ""
+"The selector of the single item in the page. Selectors can be class or ID "
+"names: the first ones must have a dot in front (.class-name), while the "
+"second must have a hash (#id-name)."
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:43
+#: templates/admin/options-section.php:66
+msgid "Content Selector"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:47
+#: templates/admin/options-section.php:70
+msgid ""
+"The selector that contains your section content. Selectors can be class or "
+"ID names: the first ones must have a dot in front (.class-name), while the "
+"second must have a hash (#id-name)."
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:53
+#: templates/admin/options-section.php:76
+msgid "Event Type"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:63
+#: templates/admin/options-section.php:86
+msgid "Select the type of pagination"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:69
+#: templates/admin/options-section.php:92
+msgid "Button Label"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:72
+#: templates/admin/options-section.php:95
+msgid "Load More"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:73
+#: templates/admin/options-section.php:96
+msgid "Set button label"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:79
+#: templates/admin/options-section.php:102
+msgid "Extra Class of the Button"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:83
+#: templates/admin/options-section.php:106
+msgid ""
+"Add a custom class to customize the button style. Use space for multiple "
+"classes."
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:89
+#: templates/admin/options-section.php:112
+msgid "Choose a Loader"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:99
+#: templates/admin/options-section.php:122
+msgid "Choose a preset loader to use."
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:106
+#: templates/admin/options-section.php:129
+msgid "Custom Loader"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:110
+#: templates/admin/options-section.php:133
+msgid "Upload"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:111
+#: templates/admin/options-section.php:134
+msgid "Upload a custom loading image. This option overrides the previous one."
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:117
+#: templates/admin/options-section.php:140
+msgid "Load Effect"
+msgstr ""
+
+#: templates/admin/options-section-stamp.php:127
+#: templates/admin/options-section.php:150
+msgid "Type of animation for the loading of new contents."
+msgstr ""
+
+#: templates/admin/options-section.php:14
+msgid "Add section"
+msgstr ""

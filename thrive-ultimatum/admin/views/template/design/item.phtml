@@ -1,0 +1,40 @@
+<div class="tvd-card tvd-white tvd-medium-xxsmall">
+	<# if ( item.get('tpl')=='' ){ #>
+		<div class="tvu-card-text">
+			<span class="tvu-required-design"><#=item.thumb()#></span>
+		</div>
+	<# }else{ #>
+		<div class="tvd-card-image" style="background-image: url('<#=item.thumb()#>');background-size:cover;">
+			<img src="<#=item.thumb()#>" alt="">
+		</div>
+	<# } #>
+	<div class="tvd-badge tvu-<#=item.get('post_type')#>"><#=item.get('type_nice_name')#></div>
+	<div class="tvd-card-action">
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<h4>
+					<#= item.get('post_title') #>
+				</h4>
+			</div>
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<div class="tvu-campaign-actions <#= item.get('tpl')? '':'tvu-design-card-without-template' #> tvd-right">
+					<# if ( item.get('tpl')=='' ) { #>
+						<div class="tvd-tooltip-visible tvd-fixed-bottom tvu-adjust-under-edit"><span><?php echo __( 'Choose a template for this design', TVE_Ult_Const::T ) ?></span></div>
+					<# } #>
+					<# if( item.get( 'post_type' ) === 'shortcode' ) { #>
+						<a class="tvu-get-shortcode tvu-icon-gray tvu-btn-icon-small">
+							<i class="tvu-icon-code"></i>
+						</a>
+					<# } #>
+					<a class="tvu-edit-design tvu-icon-gray tvu-btn-icon-small"
+					   href="<#= item.get('tcb_edit_url') #>" target="_blank">
+						<i class="tvd-icon-pencil"></i>
+					</a>
+					<a class="tvu-delete-design tvu-icon-gray tvu-btn-icon-small">
+						<i class="tvd-icon-trash-o"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

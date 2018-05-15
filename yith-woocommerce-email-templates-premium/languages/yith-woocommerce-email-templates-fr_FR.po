@@ -1,0 +1,784 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Email Templates\n"
+"POT-Creation-Date: 2016-05-17 12:45+0200\n"
+"PO-Revision-Date: 2017-12-01 23:52+0100\n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: Pierre-Yves QUEMENER <contact@py-conseil.bzh>\n"
+"Language: fr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: class.yith-wcet-admin-premium.php:82
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: class.yith-wcet-admin-premium.php:107
+msgid "Copy"
+msgstr "Copier"
+
+#: class.yith-wcet-admin-premium.php:135 class.yith-wcet-admin.php:144
+#: functions.yith-wcet-premium.php:41
+msgid "Default"
+msgstr "Défaut"
+
+#: class.yith-wcet-admin-premium.php:159 functions.yith-wcet-premium.php:362
+msgid "Social Network"
+msgstr "Réseaux Sociaux"
+
+#: class.yith-wcet-admin.php:154
+#: includes/class.yith-wcet-email-template-helper-premium.php:77
+msgid "YITH WooCommerce Email Settings"
+msgstr "YITH Réglages des Courriels WooCommerce"
+
+#: class.yith-wcet-admin.php:156
+#: includes/class.yith-wcet-email-template-helper-premium.php:79
+msgid "Select templates for email"
+msgstr "Sélectionner le modèle pour le courriel"
+
+#: class.yith-wcet-admin.php:162 class.yith-wcet-admin.php:188
+msgid "Email Template"
+msgstr "Modèle de courriel"
+
+#: class.yith-wcet-admin.php:164
+msgid "Select the email template that you want to use for your emails!"
+msgstr ""
+"Sélectionnez le modèle d’email que vous souhaitez utiliser pour vos "
+"courriels !"
+
+#: class.yith-wcet-admin.php:187 class.yith-wcet-admin.php:340
+#: class.yith-wcet-admin.php:341
+msgid "Email Templates"
+msgstr "Modèles de courriels"
+
+#: class.yith-wcet-admin.php:189
+msgid "Add Email Template"
+msgstr "Ajouter un modèle de courriel"
+
+#: class.yith-wcet-admin.php:190
+msgid "Add New Email Template"
+msgstr "Ajouter un nouveau modèle de courriel"
+
+#: class.yith-wcet-admin.php:191
+msgid "Edit Email Template"
+msgstr "Editer le modèle de courriel"
+
+#: class.yith-wcet-admin.php:192
+msgid "View Email Template"
+msgstr "Afficher le modèle de courriel"
+
+#: class.yith-wcet-admin.php:193
+msgid "Email template not found"
+msgstr "Modèle de courriel non trouvé"
+
+#: class.yith-wcet-admin.php:194
+msgid "Email template not found in trash"
+msgstr "Modèle de courriel pas trouvé dans la corbeille"
+
+#: class.yith-wcet-admin.php:222
+msgid "Template Options"
+msgstr "Options du modèle"
+
+#: class.yith-wcet-admin.php:287 class.yith-wcet-admin.php:331
+msgid "Settings"
+msgstr "Réglages"
+
+#: class.yith-wcet-admin.php:309
+msgid "Plugin Documentation"
+msgstr "Documentation du plugin"
+
+#: class.yith-wcet-admin.php:332
+msgid "Premium Version"
+msgstr "Version Premium"
+
+#: functions.yith-wcet-premium.php:33 functions.yith-wcet-premium.php:37
+msgid "Advanced Style"
+msgstr "Style avancé"
+
+#: functions.yith-wcet-premium.php:43
+msgid "Informal"
+msgstr "Informel"
+
+#: functions.yith-wcet-premium.php:45
+msgid "Elegant"
+msgstr "Elégant"
+
+#: functions.yith-wcet-premium.php:47
+msgid "Casual"
+msgstr "Casual"
+
+#: functions.yith-wcet-premium.php:62
+msgid "Header"
+msgstr "Entête"
+
+#: functions.yith-wcet-premium.php:66 functions.yith-wcet.php:64
+msgid "Logo"
+msgstr "Logo"
+
+#: functions.yith-wcet-premium.php:81 functions.yith-wcet.php:79
+msgid "[Upload a new logo, or select the default logo you have set in \""
+msgstr ""
+"(Téléverser un nouveau logo ou sélectionnez le logo que vous avez défini par "
+"défaut)"
+
+#: functions.yith-wcet-premium.php:81 functions.yith-wcet.php:79
+msgid "Email Templates Settings"
+msgstr "Réglages du modèle de courriel"
+
+#: functions.yith-wcet-premium.php:86
+msgid "Position"
+msgstr "Position"
+
+#: functions.yith-wcet-premium.php:90 functions.yith-wcet-premium.php:123
+msgid "Left"
+msgstr "Gauche"
+
+#: functions.yith-wcet-premium.php:92 functions.yith-wcet-premium.php:121
+msgid "Right"
+msgstr "Droite"
+
+#: functions.yith-wcet-premium.php:94
+msgid "Center"
+msgstr "Centré"
+
+#: functions.yith-wcet-premium.php:101
+msgid "Logo Height"
+msgstr "Hauteur du logo"
+
+#: functions.yith-wcet-premium.php:109
+msgid "Header Padding"
+msgstr "Marge interne de l’entête (padding)"
+
+#: functions.yith-wcet-premium.php:120
+msgid "Top"
+msgstr "Haut"
+
+#: functions.yith-wcet-premium.php:122
+msgid "Bottom"
+msgstr "Bas"
+
+#: functions.yith-wcet-premium.php:132
+msgid "Appearance"
+msgstr "Apparence"
+
+#: functions.yith-wcet-premium.php:136
+msgid "Page Width"
+msgstr "Largeur de la page"
+
+#: functions.yith-wcet-premium.php:144
+msgid "Page Border Radius"
+msgstr "Arrondi de la bordure de page"
+
+#: functions.yith-wcet-premium.php:152 functions.yith-wcet.php:90
+msgid "Base Color"
+msgstr "Couleur de base"
+
+#: functions.yith-wcet-premium.php:161 functions.yith-wcet.php:99
+msgid "Body Color"
+msgstr "Couleur du corps de page"
+
+#: functions.yith-wcet-premium.php:170 functions.yith-wcet-premium.php:333
+#: functions.yith-wcet.php:108
+msgid "Background Color"
+msgstr "Couleur de fond"
+
+#: functions.yith-wcet-premium.php:179 functions.yith-wcet.php:117
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: functions.yith-wcet-premium.php:188
+msgid "Header Color"
+msgstr "Couleur de l’entête"
+
+#: functions.yith-wcet-premium.php:197
+msgid "Footer Text Color"
+msgstr "Couleur du texte de pied de page"
+
+#: functions.yith-wcet-premium.php:208
+msgid "Typography"
+msgstr "Typographie"
+
+#: functions.yith-wcet-premium.php:212
+msgid "Heading 1 Font Size"
+msgstr "Taille de police Titre 1"
+
+#: functions.yith-wcet-premium.php:220
+msgid "Heading 2 Font Size"
+msgstr "Taille de police Titre 2"
+
+#: functions.yith-wcet-premium.php:228
+msgid "Heading 3 Font Size"
+msgstr "Taille de police Titre 3"
+
+#: functions.yith-wcet-premium.php:236
+msgid "Body Font Size"
+msgstr "Taille de police du corps du courriel"
+
+#: functions.yith-wcet-premium.php:244
+msgid "Body Line Height"
+msgstr "Hauteur de ligne du corps du courriel"
+
+#: functions.yith-wcet-premium.php:254
+msgid "Custom Links"
+msgstr "Liens customisés"
+
+#: functions.yith-wcet-premium.php:258
+msgctxt "Text for Add Custom Link button"
+msgid "Add Custom Link"
+msgstr "Ajouté un lien personnalisé"
+
+#: functions.yith-wcet-premium.php:264 functions.yith-wcet-premium.php:287
+msgctxt "Text for the custom link"
+msgid "Link Text"
+msgstr "Texte du lien"
+
+#: functions.yith-wcet-premium.php:270 functions.yith-wcet-premium.php:293
+msgctxt "Url for the custom link"
+msgid "Link URL"
+msgstr "Url du lien"
+
+#: functions.yith-wcet-premium.php:276 functions.yith-wcet-premium.php:300
+msgctxt "Text for Remove Custom Link button"
+msgid "Remove"
+msgstr "Supprimer"
+
+#: functions.yith-wcet-premium.php:312
+msgid "Order detail table"
+msgstr "Tableau du détail de la commande"
+
+#: functions.yith-wcet-premium.php:316
+msgid "Border Width"
+msgstr "Largeur de bordure"
+
+#: functions.yith-wcet-premium.php:324
+msgid "Border Color"
+msgstr "Couleur de bordure"
+
+#: functions.yith-wcet-premium.php:342
+msgid "Price Title Background Color"
+msgstr "Couleur de fond du titre prix"
+
+#: functions.yith-wcet-premium.php:351
+msgid "Show product thumbnails"
+msgstr "Afficher les vignettes des produits"
+
+#: functions.yith-wcet-premium.php:366
+msgid "You can set your social network links in "
+msgstr "Vous pouvez définir les liens vers vos réseaux sociaux dans "
+
+#: functions.yith-wcet-premium.php:367
+msgid "YIT Plugins -> Email Templates -> Social Network"
+msgstr "YIT Plugins -> Modèles de courriels -> Réseaux sociaux"
+
+#: functions.yith-wcet-premium.php:374
+msgid "Social network buttons in the header"
+msgstr "Boutons des Réseaux Sociaux dans l’entête"
+
+#: functions.yith-wcet-premium.php:382
+msgid "Social network buttons in the footer"
+msgstr "Boutons des Réseaux Sociaux dans le pied de page"
+
+#: functions.yith-wcet-premium.php:390
+msgid "Social network buttons color"
+msgstr "Couleur des boutons Réseaux Sociaux"
+
+#: functions.yith-wcet-premium.php:394
+msgctxt "Black color for Socials Icons"
+msgid "Black"
+msgstr "Noir"
+
+#: functions.yith-wcet-premium.php:395
+msgctxt "White color for Socials Icons"
+msgid "White"
+msgstr "Blanc"
+
+#: functions.yith-wcet-premium.php:403 templates/premium.php:317
+msgid "Footer"
+msgstr "Pied de page"
+
+#: functions.yith-wcet-premium.php:407
+msgid "Left Logo"
+msgstr "Logo gauche"
+
+#: functions.yith-wcet-premium.php:421
+msgid ""
+"[Upload a new logo, or select the default logo you have set in \"Email "
+"Templates Settings\"]"
+msgstr ""
+"[Téléchargez un nouveau logo ou utilisez le logo par défaut que vous avez "
+"défini dans les « YITH plugin -> modèles de courriel »]"
+
+#: functions.yith-wcet-premium.php:426
+msgid "Footer Text"
+msgstr "Texte du pied de page"
+
+#: functions.yith-wcet-premium.php:436 functions.yith-wcet-premium.php:440
+#: functions.yith-wcet.php:127 functions.yith-wcet.php:131
+msgid "Preview"
+msgstr "Prévisualiser"
+
+#: functions.yith-wcet-premium.php:444 functions.yith-wcet.php:135
+msgid "Preview Template"
+msgstr "Prévisualiser le modèle"
+
+#: functions.yith-wcet-premium.php:447 functions.yith-wcet.php:138
+msgid ""
+"[You need to publish or update the template before displaying the correct "
+"preview]"
+msgstr ""
+"[Vous devez publier ou mettre à jour le modèle afin de pouvoir le "
+"prévisualiser]"
+
+#: functions.yith-wcet-premium.php:474 functions.yith-wcet.php:161
+msgid "Upload"
+msgstr "Téléverser"
+
+#: functions.yith-wcet-premium.php:475 functions.yith-wcet.php:162
+msgid "My Default Logo"
+msgstr "Mon logo par défaut"
+
+#: functions.yith-wcet-premium.php:479
+msgid "Use Header Logo"
+msgstr "Utiliser le logo de l’entête"
+
+#: functions.yith-wcet.php:60
+msgid "Header Logo"
+msgstr "Logo de l’entête"
+
+#: functions.yith-wcet.php:86
+msgid "Style Options"
+msgstr "Options de style"
+
+#: includes/class.yith-wcet-email-template-helper-premium.php:92
+msgid "Template"
+msgstr "Modèle"
+
+#: includes/class.yith-wcet-email-template-helper-premium.php:94
+#, php-format
+msgid "Select the email template that you want to use for the %s email"
+msgstr ""
+"Sélectionnez le modèle de courriel que vous souhaitez utiliser pour le "
+"courriel %s"
+
+#: includes/class.yith-wcet-email-template-helper.php:184
+msgid "HTML Email Template"
+msgstr "Modèle de courriel HTML"
+
+#: init.php:50
+msgid ""
+"YITH WooCommerce Email Templates Premium is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Email Templates Premium est activé mais pas opérationnel. "
+"WooCommerce doit être installé."
+
+#: plugin-options/settings-options.php:8
+msgid "General Options"
+msgstr "Options générales"
+
+#: plugin-options/settings-options.php:16
+msgid "Default Logo"
+msgstr "Logo par défaut"
+
+#: plugin-options/settings-options.php:18
+msgid "Upload your custom default logo"
+msgstr "Téléverser votre logo par défaut personnalisé"
+
+#: plugin-options/settings-options.php:23
+msgid "Use social mini-icons"
+msgstr "Utiliser les mini icones pour les Réseaux Sociaux"
+
+#: plugin-options/settings-options.php:25
+msgid "Use always social mini-icons (30x30 px) in all email templates"
+msgstr ""
+"Toujours utiliser une mini icône pour les réseaux sociaux le modèle de "
+"courriel (30x30px)"
+
+#: plugin-options/socials-options.php:8
+msgid "Social Network Sites Options"
+msgstr "Options pour vos Réseaux Sociaux"
+
+#: plugin-options/socials-options.php:16
+msgid "Facebook Page Url"
+msgstr "URL de votre page Facebook"
+
+#: plugin-options/socials-options.php:18
+msgid "Enter your Facebook page URL without http://"
+msgstr "Saisissez l’URL de votre page Facebook sans http://"
+
+#: plugin-options/socials-options.php:23
+msgid "Twitter Profile Url"
+msgstr "URL de votre profil Twitter"
+
+#: plugin-options/socials-options.php:25
+msgid "Enter your Twitter profile URL without http://"
+msgstr "Saisissez l’URL de votre profil Twitter sans http://"
+
+#: plugin-options/socials-options.php:30
+msgid "Google+ Profile Url"
+msgstr "URL de votre profil Google+"
+
+#: plugin-options/socials-options.php:32
+msgid "Enter your Google+ profile URL without http://"
+msgstr "Saisissez l’URL de votre profil Google+ sans http://"
+
+#: plugin-options/socials-options.php:37
+msgid "LinkedIn Profile Url"
+msgstr "URL de votre profil Linkedin"
+
+#: plugin-options/socials-options.php:39
+msgid "Enter your LinkedIn profile URL without http://"
+msgstr "Saisissez l’URL de votre profil Linkedin sans http://"
+
+#: plugin-options/socials-options.php:44
+msgid "Instagram Profile Url"
+msgstr "URL de votre profil Instagram"
+
+#: plugin-options/socials-options.php:46
+msgid "Enter your Instagram profile URL without http://"
+msgstr "Saisissez l’URL de votre profil Instagram sans http://"
+
+#: plugin-options/socials-options.php:51
+msgid "Flickr Profile Url"
+msgstr "URL de votre profil Flickr"
+
+#: plugin-options/socials-options.php:53
+msgid "Enter your Flickr profile URL without http://"
+msgstr "Saisissez l’URL de votre profil Flickr sans http://"
+
+#: plugin-options/socials-options.php:58
+msgid "Pinterest Profile Url"
+msgstr "URL de votre profil Pinterest"
+
+#: plugin-options/socials-options.php:60
+msgid "Enter your Pinterest profile URL without http://"
+msgstr "Saisissez l’URL de votre profil Pinterest sans http://"
+
+#: templates/emails/woocommerce2.4/emails/admin-cancelled-order.php:25
+#, php-format
+msgid "The order #%d from %s has been cancelled. The order was as follows:"
+msgstr "La commande #%d de %s a été annulée. La commande était la suivante :"
+
+#: templates/emails/woocommerce2.4/emails/admin-cancelled-order.php:29
+#, php-format
+msgid "Order: %s"
+msgstr "Commande : %s"
+
+#: templates/emails/woocommerce2.4/emails/admin-cancelled-order.php:34
+#: templates/emails/woocommerce2.4/emails/admin-new-order.php:40
+#: templates/emails/woocommerce2.4/emails/customer-completed-order.php:39
+#: templates/emails/woocommerce2.4/emails/customer-invoice.php:43
+#: templates/emails/woocommerce2.4/emails/customer-note.php:43
+#: templates/emails/woocommerce2.4/emails/customer-processing-order.php:39
+#: templates/emails/woocommerce2.5/emails/email-order-details.php:40
+#: templates/views/html-email-template-preview.php:35
+msgid "Product"
+msgstr "Produit"
+
+#: templates/emails/woocommerce2.4/emails/admin-cancelled-order.php:35
+#: templates/emails/woocommerce2.4/emails/admin-new-order.php:41
+#: templates/emails/woocommerce2.4/emails/customer-completed-order.php:40
+#: templates/emails/woocommerce2.4/emails/customer-invoice.php:44
+#: templates/emails/woocommerce2.4/emails/customer-note.php:44
+#: templates/emails/woocommerce2.4/emails/customer-processing-order.php:40
+#: templates/emails/woocommerce2.5/emails/email-order-details.php:41
+#: templates/views/html-email-template-preview.php:36
+msgid "Quantity"
+msgstr "Quantité"
+
+#: templates/emails/woocommerce2.4/emails/admin-cancelled-order.php:36
+#: templates/emails/woocommerce2.4/emails/admin-new-order.php:42
+#: templates/emails/woocommerce2.4/emails/customer-completed-order.php:41
+#: templates/emails/woocommerce2.4/emails/customer-invoice.php:45
+#: templates/emails/woocommerce2.4/emails/customer-note.php:45
+#: templates/emails/woocommerce2.4/emails/customer-processing-order.php:41
+#: templates/emails/woocommerce2.5/emails/email-order-details.php:42
+#: templates/views/html-email-template-preview.php:37
+msgid "Price"
+msgstr "Prix"
+
+#: templates/emails/woocommerce2.4/emails/admin-new-order.php:31
+#: templates/views/html-email-template-preview.php:26
+#, php-format
+msgid "You have received an order from %s. The order is as follows:"
+msgstr "Vous avez reçu une commande de %s. La commande est la suivante :"
+
+#: templates/emails/woocommerce2.4/emails/admin-new-order.php:35
+#: templates/emails/woocommerce2.4/emails/customer-completed-order.php:34
+#: templates/emails/woocommerce2.4/emails/customer-invoice.php:38
+#: templates/emails/woocommerce2.4/emails/customer-note.php:38
+#: templates/emails/woocommerce2.4/emails/customer-processing-order.php:34
+#: templates/emails/woocommerce2.5/emails/email-order-details.php:31
+#: templates/emails/woocommerce2.5/emails/email-order-details.php:33
+#: templates/views/html-email-template-preview.php:30
+#, php-format
+msgid "Order #%s"
+msgstr "Commande #%s"
+
+#: templates/emails/woocommerce2.4/emails/customer-completed-order.php:30
+#, php-format
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+"Bonjour. Votre récente commande chez %s a été validée. Les détails de votre "
+"commande sont indiqués ci-dessous pour votre information :"
+
+#: templates/emails/woocommerce2.4/emails/customer-invoice.php:32
+#, php-format
+msgid ""
+"An order has been created for you on %s. In order to purchase this order, "
+"please use the following link: %s"
+msgstr ""
+"Une commande a été crée pour vous sur %s. In order to purchase this order, "
+"please use the following link: %s"
+
+#: templates/emails/woocommerce2.4/emails/customer-invoice.php:32
+msgid "pay"
+msgstr "payer"
+
+#: templates/emails/woocommerce2.4/emails/customer-new-account.php:21
+#, php-format
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+"Merci d’avoir crée un compte sur %s. Votre nom d’utilisateur est <strong>%s</"
+"strong>."
+
+#: templates/emails/woocommerce2.4/emails/customer-new-account.php:25
+#, php-format
+msgid "Your password has been automatically generated: <strong>%s</strong>"
+msgstr "Votre mot de passe a été généré automatiquement : <strong>%s</strong>"
+
+#: templates/emails/woocommerce2.4/emails/customer-new-account.php:29
+#, php-format
+msgid ""
+"You can access your account area to view your orders and change your "
+"password here: %s."
+msgstr ""
+"Vous pouvez accéder à votre compte pour visualiser vos commandes et modifier "
+"votre mot de passe ici : %s"
+
+#: templates/emails/woocommerce2.4/emails/customer-note.php:30
+msgid "Hi, a note has just been added to your order:"
+msgstr "Bonjour, un message vient d’être ajouté à votre commande :"
+
+#: templates/emails/woocommerce2.4/emails/customer-note.php:34
+msgid "For your reference, your order details are shown below."
+msgstr ""
+"Pour votre informations les détails de votre commande sont affichés ci "
+"dessous."
+
+#: templates/emails/woocommerce2.4/emails/customer-processing-order.php:30
+msgid ""
+"Your order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+"Votre commande a bien été réceptionnée es est en cours de traitement. Les "
+"détails de cette commande sont repris ci-dessous pour votre information."
+
+#: templates/emails/woocommerce2.4/emails/customer-reset-password.php:21
+msgid "Someone requested a password reset for the following account:"
+msgstr ""
+"Une personne a demandé la réinitialisation du mot de passe pour le compte "
+"suivant :"
+
+#: templates/emails/woocommerce2.4/emails/customer-reset-password.php:22
+#, php-format
+msgid "Username: %s"
+msgstr "Nom d’utilisateur : %s"
+
+#: templates/emails/woocommerce2.4/emails/customer-reset-password.php:23
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Si c’ était par erreur, ignorez ce message et rien ne sera fait."
+
+#: templates/emails/woocommerce2.4/emails/customer-reset-password.php:24
+msgid "To reset your password, visit the following address:"
+msgstr "Pour réinitialiser votre mot de passe suivez le lien suivant :"
+
+#: templates/emails/woocommerce2.4/emails/customer-reset-password.php:27
+msgid "Click here to reset your password"
+msgstr "Cliquez ici pour réinitialiser votre mot de passe"
+
+#: templates/emails/woocommerce2.4/emails/email-addresses.php:20
+msgid "Billing address"
+msgstr "Adresse de facturation"
+
+#: templates/emails/woocommerce2.4/emails/email-addresses.php:30
+msgid "Shipping address"
+msgstr "Adresse d’expédition"
+
+#: templates/emails/woocommerce2.4/emails/email-items-list.php:49
+msgid "Your Vote"
+msgstr "Votre Vote"
+
+#: templates/emails/woocommerce2.4/emails/email-order-items.php:25
+#: templates/views/html-email-template-preview.php:69
+msgid "Product Image"
+msgstr "Image du produit"
+
+#: templates/emails/woocommerce2.4/emails/email-order-items.php:54
+#, php-format
+msgid "Download %d"
+msgstr "Télécharger %d"
+
+#: templates/emails/woocommerce2.4/emails/email-order-items.php:56
+msgid "Download"
+msgstr "Télécharger"
+
+#: templates/premium.php:222 templates/premium.php:332
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Email Templates"
+"%2$s to benefit from all features!"
+msgstr ""
+"Mettez à jour vers la %1$sVersion Premium%2$s de %1$sYITH WooCommerce Email "
+"Templates%2$s pour bénéficier de toutes les fonctionnalités !"
+
+#: templates/premium.php:225 templates/premium.php:335
+msgid "UPGRADE"
+msgstr "METTRE A JOUR"
+
+#: templates/premium.php:226 templates/premium.php:336
+msgid "to the premium version"
+msgstr "vers la Version Premium"
+
+#: templates/premium.php:232
+msgid "Premium Features"
+msgstr "Fonctionnalités de la Version Premium"
+
+#: templates/premium.php:240
+msgid "A template for each kind of email "
+msgstr "Un modèle pour chaque type de courriel "
+
+#: templates/premium.php:243
+#, php-format
+msgid ""
+"With the premium version of the plugin you can assign a different template "
+"to each kind of email, customizing freely %1$stexts%2$s and %1$scolors%2$s."
+"%3$sA vital feature for your shop! "
+msgstr ""
+"Avec la version premium du plugin vous pouvez assigner un modèle à chaque "
+"type de courriel et personnaliser librement %1$stextes%2$s et %1$scouleurs"
+"%2$s.%3$s. "
+
+#: templates/premium.php:253
+msgid "4 different layouts"
+msgstr "4 modèles différents"
+
+#: templates/premium.php:256
+#, php-format
+msgid ""
+"Four detailed layouts you can use to create your %1$semail templates%2$s."
+"%3$sFour different choices to please everyone's taste and have the right "
+"solution for each email type at hand."
+msgstr ""
+"Four detailed layouts you can use to create your %1$semail templates%2$s."
+"%3$sFour different choices to please everyone’s taste and have the right "
+"solution for each email type at hand."
+
+#: templates/premium.php:272
+msgid "Customizable style "
+msgstr "Style personnalisable  "
+
+#: templates/premium.php:275
+#, php-format
+msgid ""
+"Give your personal touch to each email template, changing %1$scolors%2$s and "
+"%1$scontent%2$s. A rich option panel is available to help you get the result "
+"you want with few clicks.%3$s Thanks to the preview, you will be able to "
+"check immediately if the final template is the way you need, or if you have "
+"to change something more."
+msgstr ""
+"Give your personal touch to each email template, changing %1$scolors%2$s and "
+"%1$scontent%2$s. A rich option panel is available to help you get the result "
+"you want with few clicks.%3$s Thanks to the preview, you will be able to "
+"check immediately if the final template is the way you need, or if you have "
+"to change something more."
+
+#: templates/premium.php:285
+msgid "Customized links "
+msgstr "Liens personnalisés "
+
+#: templates/premium.php:288
+#, php-format
+msgid ""
+"Do you want to add a small menu ahead of the body of your email? With the "
+"premium version of YITH WooCommerce Email Templates plugin you can!%3$sAdd "
+"one or more entries and assign them a link: %1$sa rapid way to get easily "
+"where you want!%2$s"
+msgstr ""
+"Four detailed layouts you can use to create your %1$semail templates%2$s."
+"%3$sFour different choices to please everyone’s taste and have the right "
+"solution for each email type at hand."
+
+#: templates/premium.php:304
+msgid "Social network sites"
+msgstr "Sites des Réseaux Sociaux"
+
+#: templates/premium.php:307
+#, php-format
+msgid ""
+"Live the social network even in your emails. Add links to the most famous "
+"%1$ssocial network sites%2$s, and give your users the freedom to access them "
+"with a simple click from the received email. "
+msgstr ""
+"Live the social network even in your emails. Add links to the most famous "
+"%1$ssocial network sites%2$s, and give your users the freedom to access them "
+"with a simple click from the received email. "
+
+#: templates/premium.php:320
+#, php-format
+msgid ""
+"An additional section of your WooCommerce email that you can now customize. "
+"Add the %1$stext%2$s you want to add in the footer and a %1$slogo%2$s: it "
+"can even be different from the one you used in the top part of the email."
+"%3$sNow the template is truly complete in every part! "
+msgstr ""
+"An additional section of your WooCommerce email that you can now customize. "
+"Add the %1$stext%2$s you want to add in the footer and a %1$slogo%2$s: it "
+"can even be different from the one you used in the top part of the email."
+"%3$sNow the template is truly complete in every part! "
+
+#: templates/views/html-email-template-preview.php:26
+msgid "User"
+msgstr "Ytilisateur"
+
+#: templates/views/html-email-template-preview.php:84
+#: templates/views/html-email-template-preview.php:127
+msgid "Subtotal"
+msgstr "Sous-total"
+
+#: templates/views/html-email-template-preview.php:88
+#: templates/views/html-email-template-preview.php:131
+msgid "Shipping"
+msgstr "Port"
+
+#: templates/views/html-email-template-preview.php:89
+#: templates/views/html-email-template-preview.php:132
+msgid "Free Shipping"
+msgstr "Livraison gratuite"
+
+#: templates/views/html-email-template-preview.php:92
+#: templates/views/html-email-template-preview.php:135
+msgid "Payment"
+msgstr "Paiement"
+
+#: templates/views/html-email-template-preview.php:93
+#: templates/views/html-email-template-preview.php:136
+msgid "Paypal"
+msgstr "Paypal"
+
+#: templates/views/html-email-template-preview.php:96
+#: templates/views/html-email-template-preview.php:139
+msgid "Total"
+msgstr "Total"

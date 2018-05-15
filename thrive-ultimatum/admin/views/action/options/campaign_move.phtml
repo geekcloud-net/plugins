@@ -1,0 +1,27 @@
+<p><?php echo $action['description'] ?></p>
+
+<div class="tvd-row tvd-collapse">
+	<div class="tvd-col tvd-s6">
+		<div class="tvd-input-field">
+			<select name="campaign" id="tvu-campaign" data-name="">
+				<option value="0"><?php echo __( "Choose campaign", TVE_Ult_Const::T ) ?></option>
+				<?php foreach ( $campaigns as $c ) : ?>
+					<?php $selected = ( ! empty( $action['campaign'] && $c->ID == $action['campaign'] ) ? 'selected="selected"' : '' ); ?>
+					<option <?php echo $selected ?> value="<?php echo $c->ID ?>"><?php echo $c->post_title ?></option>
+				<?php endforeach; ?>
+			</select>
+			<label for="tvu-campaign"><?php echo __( "Choose campaign", TVE_Ult_Const::T ) ?></label>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	(
+		function ( $ ) {
+			ThriveUlt.util.ajax_done = function () {
+				var $campaign = $( "#tvu-campaign" );
+				$campaign.trigger( 'change' );
+				TVE_Dash.materialize( $( "#tvu-campaign" ).parent() );
+			};
+		}
+	)( jQuery )
+</script>

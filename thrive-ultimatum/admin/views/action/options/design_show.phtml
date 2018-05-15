@@ -1,0 +1,95 @@
+<?php if ( $all_used ) : ?>
+	<p class="tvd-text-red"><?php echo __( 'All designs are already used', TVE_Ult_Const::T ) ?></p>
+	<?php return; ?>
+<?php endif; ?>
+
+<?php if ( empty( $designs ) ) : ?>
+	<p class="tvd-text-red"><?php echo __( 'No design available', TVE_Ult_Const::T ) ?></p>
+	<?php return; ?>
+<?php endif; ?>
+
+<div class="tvd-card tvd-white">
+	<div class="tvd-card-content">
+		<div class="tvd-row tvd-collapse tvd-no-margin-bottom">
+			<div class="tvd-col tvd-s5">
+				<div class="tvd-input-field tvd-no-margin">
+					<select name="design" id="tvu-design" data-name="" data-field="design">
+						<option disabled selected value="0"><?php echo __( 'Choose design to show', TVE_Ult_Const::T ) ?></option>
+						<?php foreach ( $designs as $d ) : ?>
+							<?php $selected = ( ! empty( $action['design'] ) && $d['id'] == $action['design'] ? 'selected="selected"' : '' ); ?>
+							<option <?php echo $selected ?>
+								value="<?php echo $d['id'] ?>"><?php echo $d['post_title'] ?></option>
+						<?php endforeach; ?>
+					</select>
+					<label for="tvu-design">&nbsp;</label>
+				</div>
+			</div>
+			<div class="tvd-col tvd-s1">
+				&nbsp;
+			</div>
+			<div id="tvu-states-wrapper" class="tvd-col tvd-s5" style="display: none;">
+				<div class="tvd-input-field tvd-no-margin">
+					<select id="tvu-state" name="state" data-name="" data-field="state">
+						<option disabled selected value="0"><?php echo __( 'Choose design state', TVE_Ult_Const::T ) ?></option>
+					</select>
+					<label for="tvu-state">&nbsp;</label>
+				</div>
+			</div>
+			<div class="tvd-col tvd-s1">
+				&nbsp;
+			</div>
+		</div>
+		<div class="tvu-addtimeline-actions">
+			<a id="tvu-add-event-action" href="javascript:void(0)" class="tvd-icon-check tvd-text-green tvd-pointer tvu-btn-icon-small  tvd-margin-right-small"></a>
+			<a id="tvu-cancel-edit-event-action" class="tvd-icon-close tvu-bluegray-text tvd-pointer tvu-btn-icon-small"></a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	(function ( $ ) {
+		var designs = <?php echo $states ?>,
+			action = <?php echo json_encode( $action )?>,
+
+			$design = $( "#tvu-design" ),
+			$state = $( "#tvu-state" ),
+			$states_wrapper = $( "#tvu-states-wrapper" );
+
+		$design.change( function () {
+			var $this = $( this ),
+				id = $this.val(),
+				$options = $state.find( 'option' ),
+				length = 1 - $options.length;
+
+			if ( $options.length > 1 ) {
+				$options.slice( length ).remove();
+			}
+
+			if ( designs[id] === undefined ) {
+				return TVE_Dash.materialize( $state.parent() );
+			}
+
+			for ( var i = 0; i < designs[id].length; i ++ ) {
+				var state = designs[id][i];
+				$state.append( '<option value="' + state.id + '">' + state.post_title + '</option>' );
+			}
+
+			TVE_Dash.materialize( $state.parent() );
+
+			$states_wrapper[designs[id].length > 1 ? 'show' : 'hide']();
+			if ( designs[id].length === 1 ) {
+				$state.val( designs[id][0]['id'] );
+				$state.trigger( 'change' );
+			}
+			$state.trigger( 'tvdclear' );
+		} );
+
+		ThriveUlt.util.ajax_done = function () {
+			$design.trigger( 'change' );
+			if ( action.state ) {
+				$state.val( action.state );
+				$state.trigger( 'change' );
+			}
+			TVE_Dash.materialize( $state.parent() );
+		}
+	})( jQuery )
+</script>

@@ -1,0 +1,415 @@
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: table;
+    transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-container {
+    width: 300px;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+}
+
+.modal-body {
+    margin: 20px 0;
+}
+
+.modal-default-button {
+    float: right;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-leave-active {
+    opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+label {
+    color: #51575D;
+    padding-left: 2%;
+    font-weight: 800 !important;
+}
+
+.panel-heading h3 {
+    text-align: center !important;
+    padding: 6%;
+    font-size: x-large;
+    font-family: Arial;
+    background-color: #d3d3d3;
+    margin: 0;
+    margin-top: 15px !important;
+}
+
+.panel-body p {
+    padding-top: 4%;
+    margin: 0;
+}
+
+.form_inp_control {
+    margin: 5px;
+    padding: 5px;
+}
+
+.top-heading {
+    color: #555;
+    margin-top: 10px;
+}
+
+/**************************************** Product Table Styles *****************************************/
+
+
+.product_name {
+  //  color: #1f6377;
+}
+
+.product_type {
+
+}
+
+.product_qty {
+
+}
+
+.product_tax_class {
+
+}
+
+.product_line_tax {
+
+}
+
+.product_line_total {
+
+}
+/* ********* Email cutomizer Bgcolor panel ******* */
+#email_customizer button, input, select, textarea{
+    font-weight: normal;
+    border-radius: 0;
+}
+.wp-toolbar .wp-admin.woocommerce_page_woo_mail_builder #wpwrap #wpcontent{
+    margin-left: 0px;
+}
+.woo-mb-admin-page{
+    display: inline-flex;
+    width: 100%;
+}
+
+.woocommerce_page_woo_mail_builder .left-column{
+    border: 1px solid #eeeeee;
+    padding: 15px;
+    width: 30%;
+    height: auto;
+    background: #fff;
+}
+
+@media(max-width: 919px){
+  #email_customizer .main-panel {
+    width: 100% !important;
+    display: block !important;
+    overflow-y: hidden;
+}
+  .woocommerce_page_woo_mail_builder .left-column{
+    display: block;
+    margin: 0 auto 20px;
+    width: 85%;;
+  }
+
+}
+.left-column .main-controls-top-button-row{
+    padding: 15px 0;
+}
+#email_customizer .main-panel {
+    width: 66%;
+    height: auto;
+}
+
+
+/* ******** left Bar ********** */
+.woo-mb-admin-panel-controls .main-controls{
+    //overflow-y: scroll;
+}
+.main-tabs{
+    padding: 10px 0;
+}
+.main-controls-element{
+    padding-bottom: 10px;
+}
+.main-controls-element .button.btn_lang_switch{
+  margin-bottom: 5px;
+  
+}
+hr{
+    margin-bottom: 18px;
+}
+
+
+/* ****** Center Blog * ********/
+.main-panel .main-body .header .logo-img{
+    height: auto;
+    margin: 0 auto;
+    max-width: 150px;
+    width: 100%;
+}
+.main-panel .main-body .header{
+    text-align:center;
+}
+.main-panel .main-body .panel-content{
+  box-shadow: 1px 0px 1px 1px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+.main-panel .main-body .header .panel_header{
+    padding: 8px;
+}
+.main-panel .main-body .panel-body h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.main-panel .main-body .panel_body{
+    padding: 15px 20px 0px;
+}
+.main-panel .main-body .panel_body .table-responsive{
+  width: 100%;
+  overflow-x: hidden;
+}
+@media(max-width: 450px){
+  .main-panel .main-body .panel_body .table-responsive{
+    overflow-x: scroll;
+  }
+}
+.main-panel .main-body .panel_body .table-responsive .table{
+  margin-bottom: 10px;
+}
+.main-panel .main-body .panel_body .table-responsive .table thead tr td{
+        font-weight: bold;
+}
+.main-panel .main-body .panel_body h4{
+    margin: 15px 0;
+    color: #555;
+    text-align: center;
+    font-size: 18px;
+}
+.main-panel .main-body .panel_body p.lead{
+    color: #555;
+    line-height: 2.5;
+    margin: 0;
+}
+.main-panel .main-body .panel_body p.lead h2{
+  font-size: 24px;
+  margin-top: 10px;
+}
+.main-panel .main-body .panel_body p.lead table td,th{
+  padding-left: 10px;
+}
+.main-panel .main-body .footer-wrap p{
+    text-align: center;
+    margin-top: 0;
+}
+#woo_mb_email_order{
+    margin-bottom: 10px;
+}
+
+/* ******** COLORS ******* */
+.email_content .color-label{
+    margin-bottom: 12px;
+}
+.email_content input[type="color"]{
+  width: 100px;
+  height: 40px;
+}
+.woo-mb-admin-panel textarea{
+  height: 300px;
+  border: 3px solid #ddd;
+  background-color: #fbfff4;
+  padding: 5px;
+}
+/* ******** TABS * **********/
+  /** Start: to style navigation tab **/
+    .main-controls.nav {
+      margin-bottom: 18px;
+      margin-left: 0;
+      list-style: none;
+    }
+
+    .main-controls .nav-tabs{
+      *zoom: 1;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .main-controls .nav-tabs:before,
+    .main-controls .nav-tabs:after {
+      display: table;
+      content: "";
+    }
+
+    .main-controls .nav-tabs:after {
+      clear: both;
+    }
+
+   .main-controls .nav-tabs > li {
+      margin-bottom: -1px;
+      margin-left: 0;
+    }
+
+    .main-controls .nav-tabs > li > a {
+      display: block;
+      float: left;
+      padding: 10px;
+      border: 1px solid #eee;
+      text-decoration: none;
+      background-color: #fff;
+      color: #555;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 12px;
+    }
+    .main-controls .nav-tabs > li > .active, .main-controls .nav-tabs > li a:hover, .main-controls .nav-tabs > li a:focus{
+        background-color: #555;
+        color: #fff;
+    }
+    .main-controls .nav-tabs > li > a:focus {
+     box-shadow: none;
+    }
+    .main-controls .nav-tabs > .active > a,
+    .main-controls .nav-tabs > .active > a:hover {
+      color: #fff;
+      cursor: default;
+      background-color: #555;
+    }
+
+
+    .main-controls .tab-content.active{
+        display: block;
+    }
+
+    .main-controls .tab-content.hide{
+        display: none;
+    }
+
+    /* ***** MODAL WINDOW ****** */
+    .open-modal{
+        position: relative;
+        bottom: -12px;
+        right: -27px;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #1DA1F3;
+        font-weight:  bold;
+        outline: none;
+        background: rgba(0, 0, 0, 0) url("../images/pop_up2.png") no-repeat scroll 0 0;
+        background-position: right;
+        padding-right: 20px;
+    }
+    @media(max-width: 450px){
+      .open-modal{
+          position: absolute;
+          right: 40px;
+          bottom: 0;
+          top:0;
+          width: 68px;
+          height: 25px;
+      }
+    }
+    .open-modal:hover, .open-modal:focus, .open-modal:active{
+        color: #555;
+        outline: none;
+        box-shadow: none;
+        background: rgba(0, 0, 0, 0) url("../images/pop_up1.png") no-repeat scroll 0 0;
+        background-position: right;
+    }
+
+ .modalDialog {
+      position: fixed;
+      font-family: Arial, Helvetica, sans-serif;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(0,0,0,0.4);
+      z-index: 99999;
+      opacity:0;
+      -webkit-transition: opacity 400ms ease-in;
+      -moz-transition: opacity 400ms ease-in;
+      transition: opacity 400ms ease-in;
+      pointer-events: none;
+    }
+    .modalDialog h3{
+        text-align: center;
+        color: #555;
+        font-weight: bold;
+    }
+    .modalDialog div .close{
+        text-decoration: none;
+        color: #fff;
+        position: fixed;
+        background: #555;
+        border: 2px solid;
+        padding: 4px 10px;
+        border-radius: 50%;
+    }
+    .modalDialog div .close :hover{
+      color: #fff;
+    }
+    .modalDialog:target {
+      opacity:1;
+      pointer-events: auto;
+    }
+
+    .modalDialog > div {
+      background: #ffffff none repeat scroll 0 0;
+      border: 5px solid #1da1f3;
+      border-radius: 0;
+      height: 400px;
+      margin: 7% auto;
+      overflow-y: scroll;
+      padding: 5px 20px 13px;
+      position: relative;
+      width: 500px;
+       }
+    .modalDialog > div table tr td{
+      padding: 7px 0;
+    }
+    .modalDialog .codes-title{
+      color: #555;
+      font-weight: bold;
+      font-size: 18px;
+    }

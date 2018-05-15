@@ -1,0 +1,16 @@
+{
+  "name": "woocommerce/woocommerce-shipping-royalmail",
+  "description": "A Royal Mail shipping integration for WooCommerce.",
+  "homepage": "https://docs.woocommerce.com/document/royal-mail/",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "require": {
+    "composer/installers": "~1.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.7.19",
+    "satooshi/php-coveralls": "dev-master",
+    "antecedent/patchwork": "2.0.9",
+    "sirbrillig/spies": "^1.6"
+  }
+}

@@ -1,0 +1,92 @@
+<div class="tvd-modal-content">
+	<h3 class="tvd-modal-title">
+		<?php echo sprintf( __( '%s - display settings', TVE_Ult_Const::T ), "<#= model.get( 'post_title' ) #>" ) ?>
+		<?php tve_ult_video( 's9oswlnv4i' ) ?>
+	</h3>
+	<div id="tvu-leads-options-container">
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s0 tvd-m4 tvd-l6">&nbsp;</div>
+			<div class="tvd-col tvd-s12 tvd-m8 tvd-l6">
+				<div class="tvd-row tvd-collapse tvd-no-margin">
+					<div class="tvd-col tvd-l6 tvd-m5 tvd-s12">
+						<div class="tvd-input-field">
+							<select class="tvu_leads_saved_options tvd-select2" id="tvu_load_template" data-field="load_template" data-placeholder="<?php echo __( 'Current selection', TVE_Ult_Const::T ) ?>">
+								<option value=""></option>
+							</select>
+							<label for="tvu_load_template"></label>
+						</div>
+					</div>
+					<div class="tvd-col tvd-l6 tvd-m7 tvd-s12">
+						<button
+							class="tvu_leads_load_saved_options tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-green tvd-full-btn"><?php echo __( 'Load Saved Options', TVE_Ult_Const::T ) ?></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="tve-message-container" style="">
+			<div class="error">
+				<?php
+				$cache_plugin = tve_dash_detect_cache_plugin();
+
+				$message = $cache_plugin
+					? sprintf( __( 'After saving these settings, the cache data from %s plugin will be automatically cleared (this is required each time you make a change to these settings)', TVE_Ult_Const::T ), '<strong>' . $cache_plugin . '</strong>' )
+					: sprintf( __( 'If you have a caching plugin installed (such as %1$sW3 Total Cache%2$s or %1$sWP Super Cache%2$s), please clear the cache after modifying these settings', TVE_Ult_Const::T ), '<strong>', '</strong>' );
+				?>
+				<p><?php echo $message ?></p>
+			</div>
+		</div>
+		<div class="tvd-v-spacer vs-2"></div>
+		<h4>
+			<?php echo __( 'Display Logic', TVE_Ult_Const::T ); ?>
+			<span class="inclusions-count">(0)</span>
+		</h4>
+		<p><?php echo __( 'Use these settings to configure where the campaign should be displayed:', TVE_Ult_Const::T ) ?></p>
+		<div id="show_options"></div>
+		<div class="tvd-v-spacer vs-3"></div>
+		<h4 data-target="#exclusions_wrapper" class="tl-clickable tl-toggle-tab-display collapsed tvd-pointer">
+			<span><?php echo __( "Exclusions", TVE_Ult_Const::T ); ?></span>
+			<span class="exclusions-count">(0)</span>
+		</h4>
+		<div class="tvd-relative">
+			<div id="exclusions_wrapper" class="tvd-not-visible">
+				<p><?php echo __( 'Use these settings to configure where the campaign should be HIDDEN. Attention! This will override the display logic above', TVE_Ult_Const::T ) ?></p>
+				<div id="hide_options"></div>
+			</div>
+		</div>
+		<div class="tvd-v-spacer vs-3"></div>
+		<div class="tvu_leads_tabs_content tvu_leads_clearfix" style="display: block">
+			<div class="tvd-row tvd-collapse">
+				<div class="tvd-col tvd-s12">
+					<h4><?php echo __( 'Save as Template', TVE_Ult_Const::T ); ?></h4>
+					<p><?php echo __( "You can save the display configuration that you've created if you'd like a template to re-use with other campaigns.", TVE_Ult_Const::T ); ?></p>
+				</div>
+			</div>
+			<div class="tvd-row tvd-collapse">
+				<div class="tvd-col tvd-l3 tvd-s4">
+					<div class="tvd-input-field">
+						<input class="tvu_leads_left tvd-skip-modal-save" type="text" name="tvu_leads_new_template_name" id="tvu_leads_new_template_name"/>
+						<label for="tvu_leads_new_template_name"
+						       data-error="<?php echo __( 'Template name is required', TVE_Ult_Const::T ) ?>"><?php echo __( 'Template name', TVE_Ult_Const::T ); ?></label>
+					</div>
+				</div>
+				<div class="tvd-col tvd-l3 tvd-s4">
+					<button
+						class="tvu_leads_add_new_template tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-green"><?php echo __( 'Save Display Template', TVE_Ult_Const::T ); ?></button>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="tvd-modal-footer">
+	<div class="tvd-row">
+		<div class="tvd-col tvd-s6">
+			<button class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-modal-close tvd-waves-effect"><?php echo __( 'Cancel', TVE_Ult_Const::T ); ?></button>
+		</div>
+		<div class="tvd-col tvd-s6">
+			<button
+				class="tvu_leads_save_widget_options tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-green tvd-right"><?php echo __( 'Save & close', TVE_Ult_Const::T ); ?></button>
+		</div>
+	</div>
+</div>
+<a href="javascript:void(0)" class="tvd-modal-action tvd-modal-close tvd-modal-close-x"><i class="tvd-icon-close2"></i></a>

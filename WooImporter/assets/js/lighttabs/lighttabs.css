@@ -1,0 +1,10 @@
+/* 
+    Created on : Mar 25, 2016, 5:50:55 PM
+    Author     : Geometrix
+*/
+
+.light-tabs a:focus, .light-tabs a:focus .media-icon img {
+    color: #124964;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

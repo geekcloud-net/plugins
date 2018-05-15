@@ -1,0 +1,28 @@
+<#= this.model.config.label #>
+<div >
+	<input class="tve-input" type="text" >
+	<button type="button" class="tve-button click"  data-fn-click="openOptions"><#= this.model.config.button_label #></button>
+</div>
+<div class="tve-style-options" style="display: none;">
+	<span class="tve-style-close click" data-fn-click="closeOptions">x</span>
+	<div class="tve-icons-settings">
+		<div class="row">
+			<div class="col-xs-6 tve-position">
+
+			</div>
+			<div class="col-xs-6 tve-background">
+			</div>
+		</div>
+	</div>
+	<div class="tve-icons">
+		<div class="tve-filter">
+			<input class="tve-quick-search" type="text" value="" >
+		</div>
+		<# _.each(this.model.config.options.items, function(option) { #>
+			<div class="tve-select-item click" data-value="<#= option.identifier #>" data-fn-click="selectItem"><#= option.label #></div>
+		<# }); #>
+	</div>
+
+
+	<button type="button" class="tve-button click" data-fn-click="onInput"><?php echo __( 'Apply', 'thrive-cb' ); ?></button>
+</div>

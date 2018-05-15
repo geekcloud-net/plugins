@@ -1,0 +1,1145 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Mailchimp\n"
+"POT-Creation-Date: 2018-02-01 11:44+0100\n"
+"PO-Revision-Date: 2015-04-20 10:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;__ngettext_noop:1,2;_n_noop:1,2;"
+"_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/class.yith-wcmc-admin-premium.php:206
+msgid "Export Users"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:207
+#: plugin-options/export-options.php:186
+msgid "Download CSV"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:223
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:224
+msgid "Widget"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:225
+#: plugin-options/export-options.php:40
+msgid "Export"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:242
+msgid "eCommerce 360"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:249
+msgid "Enable eCommerce 360 integration"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:252
+msgid ""
+"When you check this option, data of the orders made by users coming from a "
+"campaign will be collected and sent to MailChimp servers, for segmentation "
+"purpose"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:257
+msgid "eCommerce 360 cookie lifetime"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:260
+msgid "Seconds that have to pass before eCommerce 360 cookies expire"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:290
+#: plugin-options/shortcode-options.php:94 plugin-options/widget-options.php:94
+msgid "Replace interests"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:293
+msgid ""
+"When you check this option, interest group of an already registered user "
+"will be replaced by the one selected in the new subscription"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:306
+msgid "Integration mode"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:308
+msgid ""
+"Select whether to use a basic set of options or add integration settings"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:311
+msgid "Simple"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:312
+msgid "Advanced"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:325
+#: templates/admin/types/advanced-integration-item.php:30
+msgid "Interest groups"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:327
+msgid "Select an interest group for the new user"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:338
+msgid "Advanced options"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:483
+msgid "Shipping method name"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:484
+msgid "Payment method name"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:485
+msgid "User ID"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:495
+#: templates/admin/types/advanced-integration-condition.php:9
+msgid "Custom"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:759
+msgid "Email added: "
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:762
+msgid "Email updated: "
+msgstr ""
+
+#: includes/class.yith-wcmc-admin-premium.php:765
+msgid "Error encountered: "
+msgstr ""
+
+#: includes/class.yith-wcmc-admin.php:86
+msgid "Integration"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin.php:87
+msgid "Checkout"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin.php:88 includes/class.yith-wcmc-admin.php:223
+msgid "Premium Version"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin.php:135
+#: templates/admin/types/advanced-integration-item.php:24
+msgid "Update Lists"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin.php:136
+#: templates/admin/types/advanced-integration-item.php:40
+msgid "Update Groups"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin.php:137
+msgid "Update Fields"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin.php:157
+#: includes/class.yith-wcmc-admin.php:158
+msgid "Mailchimp"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin.php:219
+msgid "Settings"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin.php:224
+msgid "Live Demo"
+msgstr ""
+
+#: includes/class.yith-wcmc-admin.php:242
+msgid "Plugin Documentation"
+msgstr ""
+
+#: includes/class.yith-wcmc-premium.php:975
+msgid "Required arguments missing"
+msgstr ""
+
+#: includes/class.yith-wcmc-premium.php:984
+msgid "Ops! It seems you are not allowed to do this"
+msgstr ""
+
+#: includes/class.yith-wcmc-premium.php:995
+#: plugin-options/shortcode-options.php:53 plugin-options/widget-options.php:53
+msgid "Great! You're now subscribed to our newsletter"
+msgstr ""
+
+#: includes/class.yith-wcmc-widget.php:31
+msgid "Display a Mailchimp subscription form in sidebars"
+msgstr ""
+
+#: includes/class.yith-wcmc-widget.php:33
+msgid "YITH Mailchimp Subscription Form"
+msgstr ""
+
+#: includes/class.yith-wcmc-widget.php:47
+#, php-format
+msgid ""
+"You can customize options for <b>Mailchimp Subscription Form</b> widget from "
+"YITH WooCommerce Mailchimp <a href=\"%s\">admin page</a>"
+msgstr ""
+
+#: includes/class.yith-wcmc.php:546
+#, php-format
+msgid "MAILCHIMP ERROR: (%s) %s"
+msgstr ""
+
+#: includes/functions.yith-wcmc.php:18
+msgctxt "Mailchimp error translation (-50)"
+msgid "You have made too many connections on the MailChimp server."
+msgstr ""
+
+#: includes/functions.yith-wcmc.php:19
+msgctxt "MailChimp error translation (101)"
+msgid ""
+"You cannot use your APIs, because your user profile has been deactivated."
+msgstr ""
+
+#: includes/functions.yith-wcmc.php:20
+msgctxt "MailChimp error translation (104)"
+msgid ""
+"Your API key may be invalid, or you've attempted to access the wrong "
+"datacenter."
+msgstr ""
+
+#: includes/functions.yith-wcmc.php:21
+msgctxt "MailChimp error translation (105)"
+msgid ""
+"You cannot use your APIs, because your user profile is under maintenance."
+msgstr ""
+
+#: includes/functions.yith-wcmc.php:22
+msgctxt "MailChimp error translation (109)"
+msgid ""
+"You cannot complete your operation, because you don't have the necessary "
+"authorization."
+msgstr ""
+
+#: includes/functions.yith-wcmc.php:23
+msgctxt "MailChimp error translation (120)"
+msgid "You have requested an invalid operation."
+msgstr ""
+
+#: includes/functions.yith-wcmc.php:24
+msgctxt "MailChimp error translation (232)"
+msgid "The email you have written is not valid, please try to write it again."
+msgstr ""
+
+#: includes/functions.yith-wcmc.php:25
+msgctxt "MailChimp error translation (500)"
+msgid "The sent information are not valid, please double check them."
+msgstr ""
+
+#: includes/functions.yith-wcmc.php:28
+msgctxt "MailChimp error translation (-99)"
+msgid "You submitted an invalid email address that cannot be imported."
+msgstr ""
+
+#: includes/functions.yith-wcmc.php:29
+msgctxt "MailChimp error translation (200)"
+msgid "Invalid MailChimp List ID."
+msgstr ""
+
+#: includes/functions.yith-wcmc.php:30
+msgctxt "MailChimp error translation (214)"
+msgid "You submitted an email address that is already subscribed to the list."
+msgstr ""
+
+#: init.php:145
+msgid ""
+"YITH WooCommerce MailChimp is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: init.php:155
+msgid ""
+"You can't activate the free version of YITH WooCommerce MailChimp while you "
+"are using the premium one."
+msgstr ""
+
+#: plugin-options/checkout-options.php:21
+msgid "Mailchimp Options"
+msgstr ""
+
+#: plugin-options/checkout-options.php:28
+msgid "Register after"
+msgstr ""
+
+#: plugin-options/checkout-options.php:30
+msgid "Select when the user should be added to the list"
+msgstr ""
+
+#: plugin-options/checkout-options.php:33
+msgid "Never"
+msgstr ""
+
+#: plugin-options/checkout-options.php:34
+msgid "Order completed"
+msgstr ""
+
+#: plugin-options/checkout-options.php:35
+msgid "Order placed"
+msgstr ""
+
+#: plugin-options/checkout-options.php:41
+msgid "Show \"Newsletter subscription\" checkbox"
+msgstr ""
+
+#: plugin-options/checkout-options.php:44
+msgid ""
+"When you select this option, a checkbox will be added to the checkout form, "
+"inviting users to subscribe to the newsletter; otherwise, users will be "
+"subscribed automatically"
+msgstr ""
+
+#: plugin-options/checkout-options.php:49
+msgid "\"Newsletter subscription\" label"
+msgstr ""
+
+#: plugin-options/checkout-options.php:51
+msgid ""
+"Enter here the label you want to use for the \"Newsletter subscription\" "
+"checkbox"
+msgstr ""
+
+#: plugin-options/checkout-options.php:53
+msgid "Subscribe to our cool newsletter"
+msgstr ""
+
+#: plugin-options/checkout-options.php:58
+msgid "Position for \"Newsletter subscription\""
+msgstr ""
+
+#: plugin-options/checkout-options.php:60
+msgid "Select position for \"Newsletter subscription\" checkbox in the page"
+msgstr ""
+
+#: plugin-options/checkout-options.php:63
+msgid "Above customer details"
+msgstr ""
+
+#: plugin-options/checkout-options.php:64
+msgid "Below customer details"
+msgstr ""
+
+#: plugin-options/checkout-options.php:65
+msgid "Above \"Place order\" button"
+msgstr ""
+
+#: plugin-options/checkout-options.php:66
+msgid "Below \"Place order\" button"
+msgstr ""
+
+#: plugin-options/checkout-options.php:67
+msgid "Above \"Review order\" total"
+msgstr ""
+
+#: plugin-options/checkout-options.php:68
+msgid "Above billing details"
+msgstr ""
+
+#: plugin-options/checkout-options.php:69
+msgid "Below billing details"
+msgstr ""
+
+#: plugin-options/checkout-options.php:70
+msgid "Above shipping details"
+msgstr ""
+
+#: plugin-options/checkout-options.php:77
+msgid "Show \"Newsletter subscription\" checked"
+msgstr ""
+
+#: plugin-options/checkout-options.php:80
+msgid ""
+"When you check this option, \"Newsletter subscription\" checkbox will be "
+"printed as already checked"
+msgstr ""
+
+#: plugin-options/checkout-options.php:85 plugin-options/export-options.php:60
+#: plugin-options/shortcode-options.php:66 plugin-options/widget-options.php:66
+msgid "Email type"
+msgstr ""
+
+#: plugin-options/checkout-options.php:88
+msgid "User's preferential email type (HTML or plain text)"
+msgstr ""
+
+#: plugin-options/checkout-options.php:90 plugin-options/export-options.php:65
+#: plugin-options/shortcode-options.php:71 plugin-options/widget-options.php:71
+msgid "HTML"
+msgstr ""
+
+#: plugin-options/checkout-options.php:91 plugin-options/export-options.php:66
+#: plugin-options/shortcode-options.php:72 plugin-options/widget-options.php:72
+msgid "Text"
+msgstr ""
+
+#: plugin-options/checkout-options.php:97 plugin-options/export-options.php:72
+#: plugin-options/shortcode-options.php:78 plugin-options/widget-options.php:78
+msgid "Double Opt-in"
+msgstr ""
+
+#: plugin-options/checkout-options.php:100 plugin-options/export-options.php:75
+#: plugin-options/shortcode-options.php:81 plugin-options/widget-options.php:81
+msgid ""
+"When you check this option, MailChimp will send a confirmation email before "
+"adding the user to the list"
+msgstr ""
+
+#: plugin-options/checkout-options.php:105 plugin-options/export-options.php:80
+#: plugin-options/shortcode-options.php:86 plugin-options/widget-options.php:86
+msgid "Update existing"
+msgstr ""
+
+#: plugin-options/checkout-options.php:108 plugin-options/export-options.php:83
+#: plugin-options/widget-options.php:89
+msgid ""
+"When you check this option, existing users will be updated and MailChimp "
+"servers will not show errors"
+msgstr ""
+
+#: plugin-options/checkout-options.php:113
+#: plugin-options/shortcode-options.php:102
+#: plugin-options/widget-options.php:102
+msgid "Send welcome email"
+msgstr ""
+
+#: plugin-options/checkout-options.php:116
+#: plugin-options/shortcode-options.php:105
+#: plugin-options/widget-options.php:105
+msgid ""
+"Send a welcome email to the user (only available when double opt-in is "
+"disabled)"
+msgstr ""
+
+#: plugin-options/checkout-options.php:126
+#: plugin-options/shortcode-options.php:115
+#: plugin-options/widget-options.php:115
+msgid "List Options"
+msgstr ""
+
+#: plugin-options/checkout-options.php:133 plugin-options/export-options.php:47
+#: plugin-options/shortcode-options.php:122
+#: plugin-options/widget-options.php:122
+#: templates/admin/types/advanced-integration-item.php:14
+msgid "MailChimp list"
+msgstr ""
+
+#: plugin-options/checkout-options.php:135 plugin-options/export-options.php:49
+#: plugin-options/shortcode-options.php:124
+#: plugin-options/widget-options.php:124
+#: templates/admin/types/advanced-integration-item.php:25
+msgid "Select a list for the new user"
+msgstr ""
+
+#: plugin-options/export-options.php:42
+msgid "Export a set of users from your store to one of your MailChimp lists"
+msgstr ""
+
+#: plugin-options/export-options.php:63 plugin-options/shortcode-options.php:69
+#: plugin-options/widget-options.php:69
+msgid "User preferential email type (HTML or plain text)"
+msgstr ""
+
+#: plugin-options/export-options.php:88 plugin-options/export-options.php:193
+msgid "Users set"
+msgstr ""
+
+#: plugin-options/export-options.php:90 plugin-options/export-options.php:195
+msgid "Select a set of users to export"
+msgstr ""
+
+#: plugin-options/export-options.php:94 plugin-options/export-options.php:199
+msgid "All Users"
+msgstr ""
+
+#: plugin-options/export-options.php:95 plugin-options/export-options.php:200
+msgid "All Customers"
+msgstr ""
+
+#: plugin-options/export-options.php:96 plugin-options/export-options.php:201
+msgid "Select manually a set of users"
+msgstr ""
+
+#: plugin-options/export-options.php:97 plugin-options/export-options.php:202
+msgid "Filter users using custom conditions"
+msgstr ""
+
+#: plugin-options/export-options.php:100 plugin-options/export-options.php:205
+msgid "Waiting Lists"
+msgstr ""
+
+#: plugin-options/export-options.php:107
+msgid "Customers to export"
+msgstr ""
+
+#: plugin-options/export-options.php:109
+msgid "Select customers to export"
+msgstr ""
+
+#: plugin-options/export-options.php:114
+msgid "Select customers"
+msgstr ""
+
+#: plugin-options/export-options.php:120 plugin-options/export-options.php:225
+msgid "Filter by product"
+msgstr ""
+
+#: plugin-options/export-options.php:122
+msgid "Export users that bought at least one of the selected products"
+msgstr ""
+
+#: plugin-options/export-options.php:127 plugin-options/export-options.php:232
+msgid "Select products"
+msgstr ""
+
+#: plugin-options/export-options.php:133 plugin-options/export-options.php:238
+msgid "Filter by categories"
+msgstr ""
+
+#: plugin-options/export-options.php:135
+msgid ""
+"Export users that bought a product belonging at least to one of the selected "
+"categories"
+msgstr ""
+
+#: plugin-options/export-options.php:140 plugin-options/export-options.php:245
+msgid "Select categories"
+msgstr ""
+
+#: plugin-options/export-options.php:147
+msgid "Filter by tags"
+msgstr ""
+
+#: plugin-options/export-options.php:149
+msgid ""
+"Export users that bought a product with at least one of the selected tags"
+msgstr ""
+
+#: plugin-options/export-options.php:154 plugin-options/export-options.php:259
+msgid "Select tags"
+msgstr ""
+
+#: plugin-options/export-options.php:161 plugin-options/export-options.php:266
+msgid "Filter by date"
+msgstr ""
+
+#: plugin-options/export-options.php:163 plugin-options/export-options.php:268
+msgid "Export users that purchased within this date range"
+msgstr ""
+
+#: plugin-options/export-options.php:168
+msgid "Waiting products"
+msgstr ""
+
+#: plugin-options/export-options.php:170
+msgid "MailChimp field where all products users are waiting for appear"
+msgstr ""
+
+#: plugin-options/export-options.php:188
+msgid "Export a set of users from your store to a CVS file"
+msgstr ""
+
+#: plugin-options/export-options.php:212
+msgid "Users to export"
+msgstr ""
+
+#: plugin-options/export-options.php:214
+msgid "Select users to export"
+msgstr ""
+
+#: plugin-options/export-options.php:219
+msgid "Select users"
+msgstr ""
+
+#: plugin-options/export-options.php:227
+msgid "Export users that bought a specific product"
+msgstr ""
+
+#: plugin-options/export-options.php:240
+msgid "Export users that bought a product belonging to a specific category"
+msgstr ""
+
+#: plugin-options/export-options.php:252
+msgid "Filter by tag"
+msgstr ""
+
+#: plugin-options/export-options.php:254
+msgid "Export users that bought a product with a specific tag"
+msgstr ""
+
+#: plugin-options/integration-options.php:17
+msgid "Upgrade to the PREMIUM VERSION"
+msgstr ""
+
+#: plugin-options/integration-options.php:20
+msgid "YITH WooCommerce Mailchimp"
+msgstr ""
+
+#: plugin-options/integration-options.php:21
+msgid "Discover the Advanced Features"
+msgstr ""
+
+#: plugin-options/integration-options.php:22
+msgid ""
+"Upgrade to the PREMIUM VERSION of YITH WOOCOMMERCE MAILCHIMP to benefit from "
+"all features!"
+msgstr ""
+
+#: plugin-options/integration-options.php:28
+msgid "Get Support and Pro Features"
+msgstr ""
+
+#: plugin-options/integration-options.php:29
+msgid ""
+"By purchasing the premium version of the plugin, you will take advantage of "
+"the advanced features of the product and you will get one year of free "
+"updates and support through our platform available 24h/24."
+msgstr ""
+
+#: plugin-options/integration-options.php:39
+msgid "MailChimp Options"
+msgstr ""
+
+#: plugin-options/integration-options.php:46
+msgid "MailChimp API Key"
+msgstr ""
+
+#: plugin-options/integration-options.php:49
+msgid ""
+"API key used to access MailChimp account; you can get one <a href=\"//admin."
+"mailchimp.com/account/api/\">here</a>"
+msgstr ""
+
+#: plugin-options/integration-options.php:55
+msgid "Integration status"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:24
+msgid "Shortcode Options"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:26
+msgid ""
+"Insert <b>[yith_wcmc_subscription_form]</b> shortcode in your pages, to "
+"print a subscription form; set here the options for your form"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:31 plugin-options/widget-options.php:31
+msgid "Form title"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:34 plugin-options/widget-options.php:34
+msgid "Select a title for the newsletter subscription form"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:35 plugin-options/widget-options.php:35
+msgid "Newsletter"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:40 plugin-options/widget-options.php:40
+msgid "\"Submit\" button label"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:43 plugin-options/widget-options.php:43
+msgid "Select a label for the \"Submit\" button found in the form"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:44 plugin-options/widget-options.php:44
+msgid "SUBMIT"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:49 plugin-options/widget-options.php:49
+msgid "\"Successfully Registered\" message"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:52 plugin-options/widget-options.php:52
+msgid ""
+"Select a message to display to users when registration has been completed "
+"successfully"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:58 plugin-options/widget-options.php:58
+msgid "Hide form after registration"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:61 plugin-options/widget-options.php:61
+msgid ""
+"When you select this option, the registration form will be hidden after a "
+"successful registration"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:89
+msgid ""
+"When you check this option, existing users will be updated, and MailChimp "
+"servers will not show errors"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:97
+msgid ""
+"When you check this option, interest group of an already registered user "
+"will be replaced with the one in the new subscription"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:135
+#: plugin-options/widget-options.php:135
+msgid "Auto-subscribe interest groups"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:137
+#: plugin-options/widget-options.php:137
+msgid "Select an interest group to which new users are automatically added"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:148
+#: plugin-options/widget-options.php:148
+msgid "Show the following interest groups"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:150
+#: plugin-options/widget-options.php:150
+msgid "Select interests groups that user can choose among"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:166
+#: plugin-options/widget-options.php:166
+msgid "Field Options"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:173
+#: plugin-options/widget-options.php:173
+#: templates/admin/types/advanced-integration-item.php:48
+msgid "Fields"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:184
+#: plugin-options/widget-options.php:184
+msgid "Style Options"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:191
+#: plugin-options/widget-options.php:191
+msgid "Enable custom CSS"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:193
+#: plugin-options/widget-options.php:193
+msgid "Check this option to enable custom CSS handling"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:199
+#: plugin-options/widget-options.php:199
+msgid "Round Corners for \"Subscribe\" Button"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:201
+#: plugin-options/widget-options.php:201
+msgid "Check this option  to make button corners round"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:207
+#: plugin-options/widget-options.php:207
+msgid "\"Subscribe\" Button Background Color"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:215
+#: plugin-options/widget-options.php:215
+msgid "\"Subscribe\" Button Text Color"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:223
+#: plugin-options/widget-options.php:223
+msgid "\"Subscribe\" Button Border Color"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:231
+#: plugin-options/widget-options.php:231
+msgid "\"Subscribe\" Button Hover Background Color"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:239
+#: plugin-options/widget-options.php:239
+msgid "\"Subscribe\" Button Hover Text Color"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:247
+#: plugin-options/widget-options.php:247
+msgid "\"Subscribe\" Button Hover Border Color"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:255
+msgid "Custom CSS"
+msgstr ""
+
+#: plugin-options/shortcode-options.php:257
+msgid "Insert here your custom CSS that has to be applied to the shortcode"
+msgstr ""
+
+#: plugin-options/widget-options.php:24
+msgid "Widget Options"
+msgstr ""
+
+#: plugin-options/widget-options.php:26
+#, php-format
+msgid ""
+"Set here the options for <b>YITH MailChimp Subscription Form</b> widget; use "
+"the widget in you sidebars, by selecting it from <a href=\"%s\">Appearance > "
+"Widgets</a>"
+msgstr ""
+
+#: plugin-options/widget-options.php:97
+msgid ""
+"When you check this option, interest group of an already registered user "
+"will be replaced with the one selected in the new subscription"
+msgstr ""
+
+#: plugin-options/widget-options.php:255
+msgid "Custom css"
+msgstr ""
+
+#: plugin-options/widget-options.php:257
+msgid "Insert here your custom CSS for the widget"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:13
+#: templates/admin/types/integration-status.php:17
+msgid "MailChimp user"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:13
+#: templates/admin/types/integration-status.php:17
+msgid "No user can be found with this API key"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:14
+#: templates/admin/mailchimp-dashboard-widget.php:31
+#: templates/admin/mailchimp-dashboard-widget.php:37
+#: templates/admin/types/integration-status.php:18
+#: templates/admin/types/integration-status.php:35
+#: templates/admin/types/integration-status.php:41
+msgid "&lt; Not Found &gt;"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:19
+#: templates/admin/types/integration-status.php:23
+msgid "Status:"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:22
+#: templates/admin/types/integration-status.php:26
+msgid "Correctly synchronized"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:22
+#: templates/admin/types/integration-status.php:26
+msgid "OK"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:24
+#: templates/admin/types/integration-status.php:28
+msgid "Wrong API key"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:24
+#: templates/admin/types/integration-status.php:28
+msgid "KO"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:29
+#: templates/admin/types/integration-status.php:33
+msgid "Name:"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:35
+#: templates/admin/types/integration-status.php:39
+msgid "Email:"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:47
+msgid "Prev"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:48
+msgid "Next"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:56
+msgid "Member count"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:59
+msgid "total"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:63
+msgid "Avg sub rate"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:66
+#: templates/admin/mailchimp-dashboard-widget.php:73
+msgid "per month"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:70
+msgid "Avg unsub rate"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:77
+msgid "Open rate"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:80
+#: templates/admin/mailchimp-dashboard-widget.php:87
+msgid "per campaign"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:84
+msgid "Click rate"
+msgstr ""
+
+#: templates/admin/mailchimp-dashboard-widget.php:96
+msgid "Refresh stats"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:4
+msgid "Condition"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:6
+msgid "Product in cart"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:7
+msgid "Product category in cart"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:8
+msgid "Order total"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:13
+msgid "Details"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:17
+msgid "Contains at least one of"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:18
+msgid "Contains all of"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:19
+#: templates/admin/types/advanced-integration-condition.php:70
+msgid "Does not contain"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:24
+#: templates/admin/types/advanced-integration-condition.php:73
+msgid "Less than"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:25
+#: templates/admin/types/advanced-integration-condition.php:74
+msgid "Less than or equal to"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:26
+msgid "Equals to"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:27
+#: templates/admin/types/advanced-integration-condition.php:76
+msgid "Greater than or equal to"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:28
+#: templates/admin/types/advanced-integration-condition.php:77
+msgid "Greater than"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:38
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:44
+msgid "Select a category"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:59
+msgid "Threshold"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:62
+msgid "Field name in checkout page"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:66
+msgid "String operator"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:67
+msgid "Is"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:68
+msgid "Is not"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:69
+msgid "Contains"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:72
+msgid "Number"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:75
+msgid "Equal to"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:82
+msgid "Field value in checkout page"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-condition.php:84
+#: templates/admin/types/advanced-integration-field.php:36
+#: templates/admin/types/custom-fields-item.php:31
+msgid "Remove"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-field.php:4
+msgid "Checkout field"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-field.php:22
+msgid "MailChimp field"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-field.php:34
+#: templates/admin/types/custom-fields-item.php:26
+msgid "Update fields"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-item.php:3
+msgid "toggle"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-item.php:4
+msgid "remove"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-item.php:5
+msgid "Options Set #"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-item.php:10
+msgid "Lists & Groups"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-item.php:41
+msgid "Select an interest group for the user"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-item.php:50
+#: templates/admin/types/custom-fields.php:4
+msgid "+ Add New Field"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-item.php:53
+msgid "Select the checkout field to connect with the MailChimp list merge var"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-item.php:76
+msgid "Conditions"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-item.php:78
+msgid "+ Add New Condition"
+msgstr ""
+
+#: templates/admin/types/advanced-integration-item.php:80
+msgid ""
+"Select order matching conditions for user's subscription; all conditions "
+"selected must be matched in order to complete subscription"
+msgstr ""
+
+#: templates/admin/types/advanced-integration.php:4
+msgid "+ Add option set"
+msgstr ""
+
+#: templates/admin/types/advanced-integration.php:5
+msgid ""
+"Click \"Add option set\" button to add a bunch of options; don't forget to "
+"save, when you're done"
+msgstr ""
+
+#: templates/admin/types/custom-fields-item.php:4
+msgid "Field name"
+msgstr ""
+
+#: templates/admin/types/custom-fields-item.php:8
+msgid "Merge var"
+msgstr ""
+
+#: templates/admin/types/custom-fields.php:5
+msgid ""
+"Select the checkout field that will be connected to MailChimp's list merge "
+"var"
+msgstr ""
+
+#: templates/admin/types/date-range.php:6
+#: templates/admin/types/date-range.php:7
+msgid "From"
+msgstr ""
+
+#: templates/admin/types/date-range.php:8
+#: templates/admin/types/date-range.php:9
+msgid "To"
+msgstr ""
+
+#: templates/types/address.php:11
+msgid "Street Address"
+msgstr ""
+
+#: templates/types/address.php:13
+msgid "Address Line 2"
+msgstr ""
+
+#: templates/types/address.php:15
+msgid "City"
+msgstr ""
+
+#: templates/types/address.php:17
+msgid "State/Province"
+msgstr ""
+
+#: templates/types/address.php:19
+msgid "Zip"
+msgstr ""

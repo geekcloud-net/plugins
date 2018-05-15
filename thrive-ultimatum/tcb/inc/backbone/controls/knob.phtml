@@ -1,0 +1,19 @@
+<div class="row middle-xs tve-knob-wrapper">
+	<div class="col-xs-2 knob-label">
+		<div class="grey-text">
+			<#= this.model.config.label #>
+		</div>
+	</div>
+	<div class="col-xs-6">
+		<div class="tve-knob"></div>
+	</div>
+
+	<div class="col-xs-4 slider-input">
+		<span class="input-um degree"><#= this.model.config.um.length === 1 ? this.model.config.um[0]:'' #></span>
+		<div data-dir="top" class="handle reverse">
+			<div class="up click" data-fn="up"></div>
+			<div class="down click" data-fn="down"></div>
+		</div>
+		<input type="text" class="tve-input change width-input <#= this.model.config.um.length === 1 ? 'has-um':'' #>" data-fn="onChange" data-fn-input="onInput" value="<#= this.model.config.default #>">
+	</div>
+</div>

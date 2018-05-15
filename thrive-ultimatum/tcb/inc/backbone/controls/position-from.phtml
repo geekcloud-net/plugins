@@ -1,0 +1,45 @@
+<?php
+/**
+ * Thrive Themes - https://thrivethemes.com
+ *
+ * @package thrive-visual-editor
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Silence is golden
+}
+?>
+<div class="state" data-state="default">
+	<button class="tve-button click blue" data-fn="edit"><?php echo __( 'Edit Position', 'thrive-cb' ); ?></button>
+</div>
+<div class="state" data-state="edit">
+	<div class="button-group-holder">
+		<span class="group-label">
+			<?php echo __( 'Edit Position', 'thrive-cb' ); ?>
+		</span>
+
+		<div class="tve-btn-group">
+			<span class="position click tve-btn" data-fn="positionChange" data-value="top|left"><#= TVE.icon('pos_top_left') #></span>
+			<span class="position click tve-btn" data-fn="positionChange" data-value="top|right"><#= TVE.icon('pos_top_right') #></span>
+			<span class="position click tve-btn" data-fn="positionChange" data-value="bottom|right"><#= TVE.icon('pos_bot_right') #></span>
+			<span class="position click tve-btn" data-fn="positionChange" data-value="bottom|left"><#= TVE.icon('pos_bot_left') #></span>
+		</div>
+	</div>
+
+	<div class="row toggle-position">
+		<div class="col-xs-6 vertical">
+			<div class="tve-control"></div>
+		</div>
+		<div class="col-xs-6 horizontal">
+			<div class="tve-control"></div>
+		</div>
+	</div>
+	<div class="row around-xs margin-top-20">
+		<div class="col-xs-4">
+			<button class="tve-button click grey" data-fn="cancel"><?php echo __( 'Cancel', 'thrive-cb' ); ?></button>
+		</div>
+		<div class="col-xs-6">
+			<button class="tve-button click green" data-fn="save"><?php echo __( 'Save Position', 'thrive-cb' ); ?></button>
+		</div>
+	</div>
+</div>

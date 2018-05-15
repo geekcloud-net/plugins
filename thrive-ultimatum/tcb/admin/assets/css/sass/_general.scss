@@ -1,0 +1,74 @@
+/* SVG Icons */
+.tcb-admin-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  vertical-align: middle;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.tcb-header {
+  background: #468a30;
+  margin-left: -20px;
+  padding: 14px 20px;
+  #tcb-nav {
+    background: #468a30;
+    a {
+      float: left;
+      margin-bottom: -20px;
+      img {
+        width: 250px;
+        margin-top: 10px;
+      }
+    }
+  }
+  .tvd-right {
+    color: #fff;
+    li {
+      margin: 0;
+      a {
+        color: #fff !important;
+        font-size: 14px;
+        &:first-child {
+          height: 65px;
+        }
+        &#tvd-share-modal {
+          position: relative;
+          top: 22px;
+        }
+      }
+      &:last-child {
+        height: 65px;
+      }
+    }
+  }
+}
+
+.tcb-admin-red {
+  color: red;
+}
+
+#tcb-admin-breadcrumbs-wrapper {
+  background: #f8f8f8;
+  padding: 0 35px;
+  margin-left: -20px;
+  .clearfix {
+    clear: both;
+    margin-top: 0;
+  }
+}
+
+body.tcb-hide-wp-editor #postdivrich {
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+@media not screen and (-moz-windows-theme) {
+  :-moz-ui-valid, .tve-tabs-content {
+    overflow: hidden;
+  }
+}

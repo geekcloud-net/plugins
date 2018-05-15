@@ -1,0 +1,18 @@
+<div class="tvd-row tvd-collapse">
+    <div class="tvd-col tvd-s12 tvd-m4">
+        <div class="tvd-input-field">
+            <input id="tvu-rolling-year-duration" maxlength="4" class="tvd-no-margin-bottom" type="text" value="<#= item.duration ? item.duration : 1 #>" data-field="duration">
+            <label class="tvd-active" for="tvu-rolling-year-duration"><?php echo __('Duration (days)', TVE_Ult_Const::T) ?></label>
+        </div>
+    </div>
+    <div class="tvd-col tvd-s12 tvd-m4">
+        <div class="tvd-input-field tvu-no-margin-select">
+            <select class="tvu-rolling-repeat" id="tvu-rolling-repeat-year">
+                <# _.times( 5, function ( index ) { var i = index + 1 #>
+                    <option<#= ( item.repeat == i ? ' selected' : '' ) #> value="<#= i #>"><#= i #></option>
+                <# } ) #>
+            </select>
+            <label for="tvu-rolling-repeat-year"><?php echo __('Repeat every (years)', TVE_Ult_Const::T) ?> </label>
+        </div>
+    </div>
+</div>

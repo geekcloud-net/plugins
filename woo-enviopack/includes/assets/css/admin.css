@@ -1,0 +1,10 @@
+#woocommerce-shipment-tracking input {
+	width: 100%;
+}
+#woocommerce-shipment-tracking .preview_tracking_link {
+	display: none;
+}
+#woocommerce-shipment-tracking .preview_tracking_link a {
+	padding: 0 16px 0 0;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVQYV2NkIBIwoqtTLJn9H13sfk8qI4ZCkCJ0xTgVoisGK0TWDRKAKQKxYXJwhTAFyIpg7gQpRlGIrBtbQICNR7cGJoasAa4QWRCnQmxWIbsbJA8AqXxEC1jaCvYAAAAASUVORK5CYII=) no-repeat right;
+}

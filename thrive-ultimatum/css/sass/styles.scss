@@ -1,0 +1,22 @@
+
+.tvu-admin-bar-button {
+  .ab-item {
+    .tvd-tooltipped {
+      display: block;
+      position: relative;
+      padding-left: 25px;
+      height: 100%;
+    }
+  }
+}
+
+.thrive-adminbar-icon-ultimatum {
+  background: url('img/ultimatum-admin-logo.png') no-repeat center center;
+  padding-left: 25px!important;
+  height: 20px!important;
+  width: 20px!important;
+}
+
+@import "prefixer";
+
+@import "tooltip";

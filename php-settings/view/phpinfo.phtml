@@ -1,0 +1,14 @@
+<ul id="phpinfo" class="list">
+    <?php $i=0;foreach( $phpinfo_section as $key => $val ): ?>
+        <li <?php echo (is_array($val)?'class="local-override"':'')?>>
+            <p class="list-checkbox"><input type="checkbox" value="<?php echo $i ?>"/></p>
+            <p class="list-key"><?php echo $key ?></p>
+            <p class="list-value">
+                <span class="value"><?php echo is_array($val)?$val[0]:$val; ?></span>
+                <?php if(is_array($val)): ?>
+                    <span class="highlight">Locally Overridden</span>
+                <?php endif ?>
+            </p>
+        </li>
+    <?php $i++;endforeach; ?>
+</ul>

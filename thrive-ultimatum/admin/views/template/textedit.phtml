@@ -1,0 +1,2 @@
+<input id="tvu-edit-text" data-bind="value" type="text" value="<#= item.get('value') #>">
+<label for="tvu-edit-text" <# if ( item.get( 'required' ) ) { #> data-error="<?php echo sprintf( __( '%s is required', TVE_Ult_Const::T ), "<#= item.get( 'label' ) #>" ) ?>" <# } #> class="tvd-active"><#= ( item.get('show_label') ? item.get('label') : '&nbsp;' ) #></label>

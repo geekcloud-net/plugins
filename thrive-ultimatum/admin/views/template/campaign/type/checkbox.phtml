@@ -1,0 +1,7 @@
+<input type="checkbox" id="tve-rolling-repeat-<#= item.get('ID') #>" name="repeat-on-<#= item.get('ID') #>" class="tvu-rolling-repeat-check" <#= item.get('checked') === true ? checked="checked" : ''  #> <#= item.get('disabled') === true ? disabled="disabled" : ''  #> />
+<label for="tve-rolling-repeat-<#= item.get('ID') #>">
+    <?php echo __("<#= item.get('label') #>", TVE_Ult_Const::T); ?>
+</label>
+
+
+

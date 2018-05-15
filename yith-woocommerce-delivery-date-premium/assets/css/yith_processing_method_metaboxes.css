@@ -1,0 +1,28 @@
+.ywcdd_list_day{
+    width: 40%;
+}
+
+.ywcdd_list_day li .ywcdd_item{
+    display: inline-block;
+    height: 20px;
+}
+
+.ywcdd_list_day .ywcdd_timelimit{
+    float: right;
+    width: 60%;
+}
+.ywcdd_list_day .ywcdd_day{
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    margin: 1px;
+}
+
+.ywcdd_hide{
+    display:none;
+}
+.ywcdd_block{
+    pointer-events: none;
+    opacity: 0.3;
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<ruleset name="Yoast WooCommerce SEO">
+	<description>Yoast WooCommerce SEO rules for PHP_CodeSniffer</description>
+
+	<!--
+	#############################################################################
+	COMMAND LINE ARGUMENTS
+	https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-ruleset.xml
+	#############################################################################
+	-->
+
+	<file>.</file>
+
+	<exclude-pattern>vendor/*</exclude-pattern>
+	<exclude-pattern>node_modules/*</exclude-pattern>
+	<exclude-pattern>languages/*</exclude-pattern>
+
+	<!-- Only check PHP files. -->
+	<arg name="extensions" value="php"/>
+
+	<!-- Show progress, show the error codes for each message (source). -->
+	<arg value="sp"/>
+
+	<!-- Strip the filepaths down to the relevant bit. -->
+	<arg name="basepath" value="./"/>
+
+	<!-- Check 20 files simultanously. -->
+	<arg name="parallel" value="20"/>
+
+
+	<!--
+	#############################################################################
+	USE THE YoastCS RULESET
+	#############################################################################
+	-->
+
+	<rule ref="Yoast"/>
+
+
+	<!--
+	#############################################################################
+	SNIFF SPECIFIC CONFIGURATION
+	#############################################################################
+	-->
+
+	<!-- Set the minimum supported WP version. This is used by several sniffs. -->
+	<config name="minimum_supported_wp_version" value="4.8"/>
+
+	<!-- Verify that all gettext calls use the correct text domain. -->
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array" value="yoast-woo-seo"/>
+		</properties>
+	</rule>
+
+	<rule ref="Yoast.Files.FileName">
+		<properties>
+			<!-- Don't trigger on the main file as renaming it would deactivate the plugin. -->
+			<property name="exclude" type="array" value="wpseo-woocommerce.php"/>
+			<!-- Remove the following prefixes from the names of object structures. -->
+			<property name="prefixes" type="array" value="wpseo,yoast"/>
+		</properties>
+	</rule>
+
+	<!-- Verify that everything in the global namespace is prefixed with a plugin specific prefix. -->
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<!-- Provide the prefixes to look for. -->
+			<property name="prefixes" type="array" value="wpseo,yoast,initialize_yoast"/>
+			<!-- Test classes do not need to be prefixed as they won't go into production. -->
+			<property name="custom_test_class_whitelist" type="array" value="WPSEO_UnitTestCase,WPSEO_WooCommerce_UnitTestCase"/>
+		</properties>
+
+		<!-- Valid usage: For testing purposes, some non-prefixed globals are being created. -->
+		<exclude-pattern>/tests/bootstrap\.php$</exclude-pattern>
+	</rule>
+
+	<!-- Overwriting WP globals can be perfectly valid in test situations. -->
+	<rule ref="WordPress.Variables.GlobalVariables">
+		<properties>
+			<!-- To that end, make the sniff aware of the WPSEO unit test base class. -->
+			<property name="custom_test_class_whitelist" type="array" value="WPSEO_UnitTestCase,WPSEO_WooCommerce_UnitTestCase"/>
+		</properties>
+	</rule>
+
+
+	<!--
+	#############################################################################
+	SELECTIVE EXCLUSIONS
+	Exclude specific files for specific sniffs and/or exclude sub-groups in sniffs.
+	#############################################################################
+	-->
+
+	<!-- Allow for the double/mock classes to override methods just to change the visibility. -->
+	<rule ref="Generic.CodeAnalysis.UselessOverridingMethod.Found">
+		<exclude-pattern>/tests/doubles/*\.php$</exclude-pattern>
+	</rule>
+
+	<!-- Allow for the unit test case file to make changes to the superglobals. -->
+	<rule ref="WordPress.VIP.SuperGlobalInputUsage">
+		<exclude-pattern>/tests/framework/woocommerce-unittestcase\.php$</exclude-pattern>
+	</rule>
+	<rule ref="WordPress.CSRF.NonceVerification">
+		<exclude-pattern>/tests/framework/woocommerce-unittestcase\.php$</exclude-pattern>
+	</rule>
+	<rule ref="WordPress.VIP.ValidatedSanitizedInput">
+		<exclude-pattern>/tests/framework/woocommerce-unittestcase\.php$</exclude-pattern>
+	</rule>
+
+
+	<!--
+	#############################################################################
+	TEMPORARY ADJUSTMENTS
+	Adjustments which should be removed once the associated issue has been resolved.
+	#############################################################################
+	-->
+
+	<!-- Temporarily excluded due to a bug in WPCS.
+		 The bug has been addressed and will be fixed in WPCS 1.0.0.
+		 WPCS PR: https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/pull/1293
+	-->
+	<rule ref="WordPress.XSS.EscapeOutput.OutputNotEscaped">
+		<exclude-pattern>/tests/bootstrap\.php$</exclude-pattern>
+	</rule>
+
+</ruleset>

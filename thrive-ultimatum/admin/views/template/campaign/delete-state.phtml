@@ -1,0 +1,24 @@
+<div class="tvd-card tvd-red tvd-large tvd-valign-wrapper tvd-slim-card tve-delete-campaign-card" tabindex="-1" >
+	<div class="tvd-card-content tvd-center-align tvd-valign">
+		<h4 class="tvd-margin-top">
+			<?php echo __( "Are you sure you want to delete this campaign?", TVE_Ult_Const::T ) ?>
+		</h4>
+		<# if(item.get('type') === ThriveUlt.util.campaignType.evergreen) { #>
+			<p><?php echo __( 'When deleting it, any relation between another campaign and this one will be lost', TVE_Ult_Const::T ) ?></p>
+		<# } #>
+	</div>
+	<div class="tvd-card-action">
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-light tvd-left tvu-delete-yes" >
+					<?php echo __( "Yes, delete", TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a class="tvd-btn-flat tvd-btn-flat-primary tvd-btn-flat-light tvd-right tvu-delete-no">
+					<?php echo __( "No, keep it", TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

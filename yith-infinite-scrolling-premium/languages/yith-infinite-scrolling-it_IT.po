@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Infinite Scrolling\n"
+"POT-Creation-Date: 2016-12-15 11:36+0100\n"
+"PO-Revision-Date: 2016-12-15 11:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: YITHEMES <plugins@yithemes.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-KeywordsList: __ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/class.yith-infs-admin-premium.php:89
+#: includes/class.yith-infs-admin.php:201
+#: includes/class.yith-infs-admin.php:202
+msgid "Infinite Scrolling"
+msgstr "Infinite Scrolling"
+
+#: includes/class.yith-infs-admin-premium.php:90
+msgid "Load More Button"
+msgstr "Carica più bottoni"
+
+#: includes/class.yith-infs-admin-premium.php:91
+msgid "Ajax Pagination"
+msgstr "Impaginazione Ajax"
+
+#: includes/class.yith-infs-admin-premium.php:95
+msgid "Zoom in"
+msgstr "Zoom +"
+
+#: includes/class.yith-infs-admin-premium.php:96
+msgid "Bounce in"
+msgstr "Rimbalzo"
+
+#: includes/class.yith-infs-admin-premium.php:97
+msgid "Fade in"
+msgstr "Dissolvenza in entrata"
+
+#: includes/class.yith-infs-admin-premium.php:98
+msgid "Fade in from top to down"
+msgstr "Sfuma dall'alto verso il basso"
+
+#: includes/class.yith-infs-admin-premium.php:99
+msgid "Fade in from right to left"
+msgstr "Sfuma da destra a sinistra"
+
+#: includes/class.yith-infs-admin-premium.php:100
+msgid "Fade in from left to right"
+msgstr "Sfuma da Sinistra a destra"
+
+#: includes/class.yith-infs-admin-premium.php:101
+msgid "Fade in from down to top"
+msgstr "Sfuma dal basso verso l'alto"
+
+#: includes/class.yith-infs-admin-premium.php:144
+msgid "Please insert a name for the section"
+msgstr "Inserire qui il nome della sezione"
+
+#: includes/class.yith-infs-admin-premium.php:145
+msgid "Do you really want to delete this section?"
+msgstr "Vuoi davvero cancellare questa sezione"
+
+#: includes/class.yith-infs-admin.php:168
+#: includes/class.yith-infs-admin.php:191
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/class.yith-infs-admin.php:170
+#: includes/class.yith-infs-admin.php:195
+msgid "Premium Version"
+msgstr "Versione Premium"
+
+#: includes/class.yith-infs-admin.php:255
+msgid "Plugin Documentation"
+msgstr "Documentazione del plugin"
+
+#: plugin-options/general-options.php:10
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: plugin-options/general-options.php:24
+msgid "Enable Infinite Scrolling"
+msgstr "Abilita Infinite Scrolling"
+
+#: plugin-options/general-options.php:32
+msgid "Enable Infinite Scrolling on mobile device"
+msgstr "Abilita Infinite Scrolling su dispositivo mobile"
+
+#: plugin-options/general-options.php:44
+msgid "Change the URL of the page whenever new items are loaded"
+msgstr "Aggiorna l'URL della pagina ad ogni caricamento"
+
+#: plugin-options/general-options.php:56
+msgid "Add section and set options"
+msgstr "Aggiungi sezione e definisci le opzioni"
+
+#: plugin-options/general-options.php:69
+msgid "Custom JavaScript"
+msgstr "Custom JavaScript"
+
+#: plugin-options/general-options.php:70
+#, php-format
+msgid ""
+"Add here your custom JavaScript code. You can use two plugin triggers: %s is "
+"triggered before the new elements are appended to the current content, and "
+"%s is triggered after the AJAX call ends"
+msgstr ""
+"Aggiungi qui il tuo codice JavaScript personalizzato. Puoi utilizzare due "
+"trigger: %s scatta prima vengano aggiunti i nuovi elementi al contenuto "
+"corrente e %s viene avviato al termine della chiamata AJAX"
+
+#: templates/admin/options-section-stamp.php:4
+#: templates/admin/options-section.php:27
+msgid "Options for "
+msgstr "Opzioni per"
+
+#: templates/admin/options-section-stamp.php:13
+#: templates/admin/options-section.php:36
+msgid "Navigation Selector"
+msgstr "Selettore di navicazione"
+
+#: templates/admin/options-section-stamp.php:17
+#: templates/admin/options-section.php:40
+msgid ""
+"The selector that contains the navigation of this section. Selectors can be "
+"class or ID names: the first ones must have a dot in front (.class-name), "
+"while the second must have a hash (#id-name)."
+msgstr ""
+"Il selettore che contiene la navigazione di questa sezione. I selettori "
+"possono essere nomi di classi oppure nomi ID: i primi devono essere "
+"preceduti da un punto (.class-name) mentre i secondi da un hash (#id-name)"
+
+#: templates/admin/options-section-stamp.php:23
+#: templates/admin/options-section.php:46
+msgid "Next Selector"
+msgstr "Prossimo selettore"
+
+#: templates/admin/options-section-stamp.php:27
+#: templates/admin/options-section.php:50
+msgid ""
+"The selector of the link that redirects to the next page of this section. "
+"Selectors can be class or ID names: the first ones must have a dot in front "
+"(.class-name), while the second must have a hash (#id-name)."
+msgstr ""
+"Il selettore del link redireziona alla prossima pagina di questa sezione. I "
+"selettori posso essere nomi di classi o nomi ID: i primi devono essere "
+"preceduti da un punto (.class-name), mentre i secondi devono avere un hash "
+"(#id-name)."
+
+#: templates/admin/options-section-stamp.php:33
+#: templates/admin/options-section.php:56
+msgid "Item Selector"
+msgstr "Selettore Oggetto"
+
+#: templates/admin/options-section-stamp.php:37
+#: templates/admin/options-section.php:60
+msgid ""
+"The selector of the single item in the page. Selectors can be class or ID "
+"names: the first ones must have a dot in front (.class-name), while the "
+"second must have a hash (#id-name)."
+msgstr ""
+"Il selettore del singolo oggetto nella pagina.  I selettori posso essere "
+"nomi di classi o nomi ID: i primi devono essere preceduti da un punto (."
+"class-name), mentre i secondi devono avere un hash (#id-name)."
+
+#: templates/admin/options-section-stamp.php:43
+#: templates/admin/options-section.php:66
+msgid "Content Selector"
+msgstr "Selettore del contenuto"
+
+#: templates/admin/options-section-stamp.php:47
+#: templates/admin/options-section.php:70
+msgid ""
+"The selector that contains your section content. Selectors can be class or "
+"ID names: the first ones must have a dot in front (.class-name), while the "
+"second must have a hash (#id-name)."
+msgstr ""
+"Il selettore che comprende i tuoi contenuti. I selettori posso essere nomi "
+"di classi o nomi ID: i primi devono essere preceduti da un punto (.class-"
+"name), mentre i secondi devono avere un hash (#id-name)."
+
+#: templates/admin/options-section-stamp.php:53
+#: templates/admin/options-section.php:76
+msgid "Event Type"
+msgstr "Tipo di evento"
+
+#: templates/admin/options-section-stamp.php:63
+#: templates/admin/options-section.php:86
+msgid "Select the type of pagination"
+msgstr "Seleziona il tipo di paginatura"
+
+#: templates/admin/options-section-stamp.php:69
+#: templates/admin/options-section.php:92
+msgid "Button Label"
+msgstr "Etichetta del tasto"
+
+#: templates/admin/options-section-stamp.php:72
+#: templates/admin/options-section.php:95
+msgid "Load More"
+msgstr "Carica altro"
+
+#: templates/admin/options-section-stamp.php:73
+#: templates/admin/options-section.php:96
+msgid "Set button label"
+msgstr "Configura etichetta del tasto"
+
+#: templates/admin/options-section-stamp.php:79
+#: templates/admin/options-section.php:102
+msgid "Extra Class of the Button"
+msgstr "Classe extra del tasto"
+
+#: templates/admin/options-section-stamp.php:83
+#: templates/admin/options-section.php:106
+msgid ""
+"Add a custom class to customize the button style. Use space for multiple "
+"classes."
+msgstr ""
+"Aggiungi una classe su misura per personalizzare lo stile del tasto. Usa "
+"spazio per classi multiple."
+
+#: templates/admin/options-section-stamp.php:89
+#: templates/admin/options-section.php:112
+msgid "Choose a Loader"
+msgstr "Scegli un Loader"
+
+#: templates/admin/options-section-stamp.php:99
+#: templates/admin/options-section.php:122
+msgid "Choose a preset loader to use."
+msgstr "Scegli un preset per il loader da usare"
+
+#: templates/admin/options-section-stamp.php:106
+#: templates/admin/options-section.php:129
+msgid "Custom Loader"
+msgstr "Loader personalizzato"
+
+#: templates/admin/options-section-stamp.php:110
+#: templates/admin/options-section.php:133
+msgid "Upload"
+msgstr "Carica"
+
+#: templates/admin/options-section-stamp.php:111
+#: templates/admin/options-section.php:134
+msgid "Upload a custom loading image. This option overrides the previous one."
+msgstr ""
+"Carica una pagina di caricamento personalizzata. Questa opzione bypassa la "
+"precedente."
+
+#: templates/admin/options-section-stamp.php:117
+#: templates/admin/options-section.php:140
+msgid "Load Effect"
+msgstr "Carica effetto"
+
+#: templates/admin/options-section-stamp.php:127
+#: templates/admin/options-section.php:150
+msgid "Type of animation for the loading of new contents."
+msgstr "Tipo di animazione per il caricamento di nuovi contenuti."
+
+#: templates/admin/options-section.php:14
+msgid "Add section"
+msgstr "Aggiungi sezione"
+
+# Va bene?
+#~ msgid "Change browser page url on products load event"
+#~ msgstr "Cambia l'url della pagina nel browser dopo aver caricato l'evento"
+
+# Non sono sicuro di aver capito bene
+#~ msgid ""
+#~ "The selector that contains the navigation of this section. Selectors can "
+#~ "be class od ID names: the first ones must have a dot in front (.class-"
+#~ "name), while the second must have a hash (#id-name)."
+#~ msgstr ""
+#~ "Il selettore che contiene la navigazione di questa sezione. I selettori "
+#~ "possono essere classi di nomi ID: i primi devono essere preceduti da un "
+#~ "punto (.class-name) mentre i secondi da un hash (#id-name)"
+
+# Come sopra, mi trae in inganno quell' "od"
+#~ msgid ""
+#~ "The selector of the link that redirects to the next page of this section. "
+#~ "Selectors can be class od ID names: the first ones must have a dot in "
+#~ "front (.class-name), while the second must have a hash (#id-name)."
+#~ msgstr ""
+#~ "Il selettore del link redireziona alla prossima pagina di questa sezione. "
+#~ "I selettori posso essere classi nomi ID: i primi devono essere preceduti "
+#~ "da un punto (.class-name), mentre i secondi devono avere un hash (#id-"
+#~ "name)."
+
+# Come sopra
+#~ msgid ""
+#~ "The selector of the single item in the page. Selectors can be class od ID "
+#~ "names: the first ones must have a dot in front (.class-name), while the "
+#~ "second must have a hash (#id-name)."
+#~ msgstr ""
+#~ "Il selettore del singolo oggetto nella pagina.  I selettori posso essere "
+#~ "classi nomi ID: i primi devono essere preceduti da un punto (.class-"
+#~ "name), mentre i secondi devono avere un hash (#id-name)."
+
+# Come sopra
+#~ msgid ""
+#~ "The selector that contains your section content. Selectors can be class "
+#~ "od ID names: the first ones must have a dot in front (.class-name), while "
+#~ "the second must have a hash (#id-name)."
+#~ msgstr ""
+#~ "Il selettore che comprende i tuoi contenuti. I selettori posso essere "
+#~ "classi nomi ID: i primi devono essere preceduti da un punto (.class-"
+#~ "name), mentre i secondi devono avere un hash (#id-name)."

@@ -1,0 +1,56 @@
+<div class="tvu-modal-step">
+	<div class="tvd-modal-content">
+		<h3 class="tvd-modal-title"><?php echo __( 'Create campaign from scratch or customize a template', TVE_Ult_Const::T ) ?></h3>
+
+		<p><?php echo __( 'Choose a template', TVE_Ult_Const::T ) ?></p>
+
+		<div class="tvu-new-campaign-templates tvd-row tvd-collapse"></div>
+		<div class="tvu-new-campaign-description tvd-row tvd-collapse"></div>
+	</div>
+	<div class="tvd-modal-footer">
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a href="javascript:void(0)"
+				   class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-waves-effect tvd-modal-close">
+					<?php echo __( 'Cancel', TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a href="javascript:void(0)"
+				   class="tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-green tvd-right tvu-modal-next-step">
+					<?php echo __( 'Continue', TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="tvu-modal-step">
+	<div class="tvd-modal-content">
+		<h3 class="tvd-modal-title"><?php echo __( 'Name your campaign', TVE_Ult_Const::T ) ?></h3>
+
+		<p><?php echo __( 'Enter a name for your campaign. This is for internal use only - your website visitors will not see this name.', TVE_Ult_Const::T ) ?></p>
+
+		<div class="tvd-input-field">
+			<input id="tvu-new-campaign-name" type="text" name="new-campaign-name" data-bind="post_title">
+			<label for="tvu-new-campaign-name"
+			       data-error="<?php echo __( 'Campaign name is required', TVE_Ult_Const::T ) ?>"><?php echo __( 'Campaign name', TVE_Ult_Const::T ) ?></label>
+		</div>
+	</div>
+	<div class="tvd-modal-footer">
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a href="javascript:void(0)"
+				   class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-waves-effect tvu-modal-prev-step">
+					<?php echo __( 'Back', TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+			<div class="tvd-col tvd-s12 tvd-m6">
+				<a href="javascript:void(0)"
+				   class="tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-green tvd-right tvd-modal-submit">
+					<?php echo __( 'Continue', TVE_Ult_Const::T ) ?>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

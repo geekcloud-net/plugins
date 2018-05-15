@@ -1,0 +1,21 @@
+<div class="tvu-timeline-col tvu-timeline-col-first">
+	<div class="tvu-timeline-date">
+		<#= item.getLabel() #>
+	</div>
+</div>
+
+<div class="tvu-timeline-col tvu-timeline-col-second">
+	<div class="tvu-timeline-box">
+		<#= item.get('name') #>
+		<div class="tvu-timeline-action-btns" style="<#= item.get('is_end') ? 'display:none;': '' #>">
+			<a class="tvu-bluegray-text tvu-btn-icon-small tvu-event-edit" href="javascript:void(0)">
+				<i class="tvd-icon-pencil"></i>
+			</a>
+			<a class="tvu-bluegray-text tvu-btn-icon-small tvu-event-delete" href="javascript:void(0)"
+			   style="<#= item.get('type') ==='start' ? 'display:none;' : '' #>">
+				<i class="tvd-icon-trash-o tvd-left"></i>
+			</a>
+		</div>
+		<div class="tvu-event-actions"></div>
+	</div>
+</div>

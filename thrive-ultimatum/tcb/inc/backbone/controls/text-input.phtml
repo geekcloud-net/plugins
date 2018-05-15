@@ -1,0 +1,8 @@
+<div class="row middle-xs">
+	<div class="col-xs-<#= model.get('label_col_x') #> margin-bottom-5">
+		<span class="grey-text"><#= model.get('label') #></span>
+	</div>
+	<div class="col-xs-<#= 12 - model.get('label_col_x')? 12 - model.get('label_col_x'): 12  #>">
+		<textarea cols="<#= model.get('cols')? model.get('cols'): 40 #>" rows="<#= model.get('rows')? model.get('rows'): 5 #>" placeholder="<#= model.get('placeholder') #>" class="tve-input-control change" data-fn="changed" <#= model.get('extra_attrs') #>/>
+	</div>
+</div>

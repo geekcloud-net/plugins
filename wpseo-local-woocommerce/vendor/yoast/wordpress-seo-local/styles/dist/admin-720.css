@@ -1,0 +1,93 @@
+#hide-opening-hours h3 {
+	margin: 1.33em 0;
+	font-size: 1em;
+}
+
+#hide-opening-hours .opening-hours,
+#hide-opening-hours .opening-hours-second {
+	clear: both;
+}
+
+#opening-hours-container .opening-hours,
+#opening-hours-container .opening-hours-second {
+	clear: both;
+}
+
+#wpseo-local-metabox legend.textinput,
+#wpseo-local-metabox label.textinput {
+	float: left;
+	width: 150px;
+	line-height: 1.5em;
+}
+
+#wpseo-local-metabox legend.textinput {
+	padding: 0;
+	line-height: 28px;
+}
+
+#wpseo-local-metabox .opening-hours fieldset {
+	padding-bottom: 10px;
+}
+
+#wpseo-local-metabox .opening-hours-second {
+	padding-top: 5px;
+}
+
+#wpseo-local-metabox .opening-hours-second select {
+	margin: 0 0.5em;
+}
+
+#wpseo-local-metabox .yoast-local-seo-field-desc {
+	margin-left: 150px;
+}
+
+#wpseo-local-metabox select {
+	margin: 0;
+	padding: 0;
+}
+
+.opening-hours-second {
+	padding-left: 150px;
+}
+
+.wpseo_media_icon {
+	display: inline-block;
+	width: 20px;
+	height: 18px;
+	margin: 0 3px 0 0;
+	background: url(../../images/sprite-buttons.png) no-repeat;
+	vertical-align: text-top;
+}
+
+.wpseo_icon_map {
+	width: 12px;
+	background-position: 0 0;
+}
+
+.wpseo_icon_address {
+	width: 18px;
+	background-position: 0 -25px;
+}
+
+.wpseo_icon_opening_hours {
+	width: 17px;
+	background-position: 0 -50px;
+}
+
+.wpseo_icon_storelocator {
+	width: 18px;
+	background-position: 0 -75px;
+}
+
+@media screen and (max-width: 782px) {
+	.wpseo_media_icon {
+		margin-left: -3px;
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+	.wpseo_media_icon {
+		background-image: url(../../images/sprite-buttons@2x.png);
+		background-size: 18px 92px;
+	}
+}

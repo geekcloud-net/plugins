@@ -1,0 +1,77 @@
+#woocommerce-product-data li.product-tab-woomelly-attributes_tab a::before{
+	font-family: 'Dashicons';
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	content: '\f180' !important;
+	text-decoration: none;
+}
+#woocommerce-product-data li.product-tab-woomelly-product_tab a::before{
+	font-family: 'Dashicons';
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	content: '\f497' !important;
+	text-decoration: none;
+}
+#woocommerce-product-data li.product-tab-woomelly-detail_tab a::before{
+	font-family: 'Dashicons';
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	content: '\f115' !important;
+	text-decoration: none;
+}
+i.woomelly-icon {
+    background-image: url('images/meli.png');
+}
+a.woomelly-reset-product {
+	color: #a00 !important;
+}
+a.woomelly-reset-product:hover {
+	color: #E43832 !important;
+}
+.column-woomelly_template_sync {
+	text-align: center;
+}
+.woomelly_variation_extra_img {
+	margin: 5px 2px 5px 2px;
+	width: 64px;
+	display: block;
+	height: 64px;
+	float: left;
+	position: relative;
+	cursor: pointer !important;
+}
+.woomelly_variation_extra_img img {
+	height: 64px !important;
+	width: 64px !important;
+}
+.woomelly_alert_dont_connect, .woomelly_alert_not_templatesync {
+	position: relative;
+	padding: 15px 29px 15px 15px;
+}
+.woomelly_alert_dont_connect {
+	background: #fef4f6;
+	color: #f0506e;
+}
+.woomelly_alert_not_templatesync {
+	background: #fff6ee;
+	color: #faa05a;
+}
+.woomelly_alert_dont_connect p, .woomelly_alert_not_templatesync p {
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;
+}
+

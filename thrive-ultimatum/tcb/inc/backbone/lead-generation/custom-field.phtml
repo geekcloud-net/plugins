@@ -1,0 +1,24 @@
+<div class="row middle-xs api-form-field margin-bottom-20 api-<#= id #>-field">
+	<div class="form-field col-xs-11">
+		<div class="tvd-input-field">
+			<input type="text" id="<#= id #>-field" required="" value="<#= value #>" class="change" data-fn="placeholderChange" data-id="<#= id #>">
+			<label for="<#= id #>-field"><#= value.trim().length === 0 ? placeholder:id #></label>
+		</div>
+	</div>
+
+	<div class="col-xs-1 tcb-text-center">
+		<button class="tcb-no-style click" data-fn="removeField" data-id="<#= id #>">
+			<?php tcb_icon( 'trash-o' ); ?>
+		</button>
+	</div>
+
+	<div class="col-xs-12">
+		<label class="tcb-checkbox">
+			<input class="tve-checkbox change"
+			<#= required?'checked':'' #> data-fn="requiredChange" value="required" type="checkbox" data-id="<#= id #>">
+			<span>
+				<?php echo __( 'Required', 'thrive-cb' ); ?>
+			</span>
+		</label>
+	</div>
+</div>

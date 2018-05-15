@@ -1,0 +1,69 @@
+<div class="tcb-link-component tcb-edit mce-comp">
+	<div class="panel-text"><?php esc_html_e( 'Typefocus Animation', 'thrive-cb' ) ?></div>
+	<div class="row middle-xs margin-bottom-5">
+		<div class="col-xs-3">
+			<label for="tf-default"><?php echo __( 'Default', 'thrive-cb' ) ?></label>
+		</div>
+		<div class="col-xs-9">
+			<input type="text" data-fn="default_changed" class="tcb-inline-text change tcb-dark" value="<#=this.model.get('text')#>">
+		</div>
+	</div>
+	<# _.each( this.model.get( 'variations' ), function( item, i ) { #>
+		<div class="row middle-xs margin-bottom-5">
+			<div class="col-xs-3">
+				<label><?php echo __( 'Text', 'thrive-cb' ) ?>
+					<#=(i-0+1)#>
+				</label>
+			</div>
+			<div class="col-xs-9 tcb-relative">
+				<input type="text" class="tcb-inline-text tcb-dark keyup variation-item" data-fn="edit_variation" data-index="<#=i#>" value="<#=item#>" tabindex="<#=i#>">
+				<a style="color: #ef3c3c" href="javascript:void(0)" class="click tcb-absolute tcb-delete input-remove" data-fn="remove_variation" data-index="<#=i#>">
+					<?php tcb_icon( 'exit' ) ?>
+				</a>
+			</div>
+		</div>
+	<#});#>
+	<div class="row">
+		<div class="col-xs-12 tcb-text-right">
+			<button class="click tf-add-variation tve-button" data-fn="add_variation"><?php echo __( 'Add new', 'thrive-cb' ) ?></button>
+		</div>
+	</div>
+	<div style="border-top:1px solid #828a91;height: 0;margin:8px 0;"></div>
+
+	<div class="panel-text"><?php echo __( 'Pause between animations', 'thrive-cb' ) ?> <span id="timer-ms"><#=this.model.get('speed')#></span>ms</div>
+	<div class="row middle-xs">
+		<div class="col-xs-2">
+			<label class="tve-slider-label label-left"><?php echo __( 'Short', 'thrive-cb' ) ?></label>
+		</div>
+		<div class="col-xs-8">
+			<input class="tve-slider input" type="range" data-fn="speed" min="500" max="10000" step="10" value="<#=this.model.get('speed')#>">
+		</div>
+		<div class="col-xs-2">
+			<label class="tve-slider-label label-right"><?php echo __( 'Long', 'thrive-cb' ) ?></label>
+		</div>
+	</div>
+	<div style="border-top:1px solid #828a91;height: 0;margin:8px 0;"></div>
+	<div class="row middle-xs">
+		<div class="col-xs-7">
+			<label class="tcb-checkbox">
+				<input type="checkbox" <#=this.model.get('blink')?' checked' : ''#> class="change" data-fn="attr" data-field="blink">
+				<span><?php echo __( 'Blink cursor effect', 'thrive-cb' ) ?></span>
+			</label>
+		</div>
+		<div class="col-xs-5 tcb-text-right">
+			<label class="tcb-checkbox">
+				<input type="checkbox" <#=this.model.get('highlight')?' checked' : ''#> class="change" data-fn="attr" data-field="highlight">
+				<span><?php echo __( 'Highlight', 'thrive-cb' ) ?></span>
+			</label>
+		</div>
+	</div>
+	<# if(this.model.get('highlight')) { #>
+		<div style="border-top:1px solid #828a91;height: 0;margin:8px 0;"></div>
+		<div class="row middle-xs between-xs">
+			<div class="col col-xs-8">
+				<?php echo __( 'Highlight color', 'thrive-cb' ) ?>
+			</div>
+			<div class="col-xs-4 tcb-text-right highlight-color"></div>
+		</div>
+	<# } #>
+</div>

@@ -1,0 +1,27 @@
+<h3	class="subtitle"><?php echo __( 'Existing Events', 'thrive-cb' ) ?></h3>
+<div class="event-collection">
+	<# _.each( dataStore.events, function( evt, index ) { #>
+		<div class="evt-row">
+			<div class="row">
+				<div class="col-xs-3">
+					<div class="evt-trigger tcb-text-center item-box">
+						<#= TVE.icon( dataStore.triggers[ evt.t ].icon ) #>
+						<div class="trigger-name"><#= dataStore.triggers[ evt.t ].label #></div>
+					</div>
+				</div>
+				<div class="col-xs-1 trigger-sep"></div>
+				<div class="col-xs-5">
+					<div class="item-box evt-action">
+						<#= view.render_action_preview( evt ) #>
+					</div>
+				</div>
+				<div class="col-xs-3 tcb-text-right tcb-relative">
+					<div class="event-row-actions">
+						<span class="click" title="<?php echo __( 'Edit', 'thrive-cb' ) ?>" data-fn="edit_event" data-index="<#=index#>"><?php tcb_icon( 'edit' ) ?></span>
+						<span class="click" title="<?php echo __( 'Delete', 'thrive-cb' ) ?>" data-fn="delete_event" data-index="<#=index#>"><?php tcb_icon( 'trash' ) ?></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	<# }, view ) #>
+</div>

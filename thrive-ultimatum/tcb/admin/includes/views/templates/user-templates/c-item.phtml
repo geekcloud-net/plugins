@@ -1,0 +1,23 @@
+<div class="tvd-row">
+	<div class="tvd-col tvd-s4">
+		<span class="tvd-card-title">
+			<#= model.get('name') #>
+		</span>
+		<# if(_.isNumber( model.get( 'id' ) )){ #>
+			<span class="tvd-icon-pencil tvd-pointer tcb-admin-edit-category-name" style="margin-left: 20px"></span>
+			<# } #>
+	</div>
+	<div class="tvd-col tvd-s8">
+		<# if(_.isNumber( model.get( 'id' ) )){ #>
+			<span class="tvd-icon-trash-o tvd-pointer tcb-admin-delete-category-item tvd-right tcb-admin-red"></span>
+			<# } #>
+	</div>
+</div>
+<div class="tvd-row tcb-admin-template-t-item"></div>
+
+
+<div class="tvd-row tcb-admin-show-more-less hidden">
+	<div class="tvd-col tvd-s12 tvd-center">
+		<span class="tvd-pointer tcb-admin-show-more-less-btn"><?php echo __( '  Show more templates', 'thrive-cb' ) ?></span>
+	</div>
+</div>

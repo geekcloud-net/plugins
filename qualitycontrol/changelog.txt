@@ -1,0 +1,99 @@
+0.8.1 (2015-08-27)
+fixes:
+	- Duplicate field showing on registration form after WP 4.3
+
+changes:
+	- There's now only one password field in registration, profile and reset password pages (WP 4.3 or later)
+
+0.8 (2014-04-16)
+fixes:
+	- fixed permission on singular ticket page with contributor user role and protected permission
+	- fixed admin menu icons for tickets and changesets on WP 3.8
+	- fixed strict standards errors
+	- fixed display issues with viewing theme on devices with smaller screen
+	- fixed issues with setting static page as homepage
+	- fixed updating tickets when mysql in strict mode
+	- fixed login form URLs when FORCE_SSL_LOGIN defined
+	- fixed ajax calls when FORCE_SSL_ADMIN defined
+
+changes:
+	- added support for Bitbucket repositories
+	- added Blog Component
+	- added admin option to lock site from visitors
+	- added admin option to enable/disable modules
+	- added support for footer and header menu
+	- added color picker for status color options
+	- added toggling ticket meta on mobile devices
+	- added TinyNav menu for mobile devices
+	- added snapshot and forum feed to Admin Dashboard page
+	- added System Info page
+	- added Importer and sample .CSV file
+	- changed admin settings page
+	- introduced functions to obtain class instances
+	- added compatibility with Twitter Pro Widget plugin
+	- added compatibility with OneAll Social Login plugin
+	- added password strength meter to edit profile page
+	- added pre installing widgets in sidebars on theme installation
+	- added tickets count to admin users page
+	- added quick tags for description field in update and create ticket forms
+	- changed title on single ticket page to include ticket ID and blog name
+	- added recent posts, categories, calendar, and recent tickets updates widgets
+	- moved jQuery Validation library to Framework
+	- updated jQuery Timeago to 1.4.0
+	- added sidebars for blog and pages
+
+
+0.7 (2013-05-13)
+fixes:
+	- fixed styling of ticket paragraphs
+	- fixed assigning user and taxonomies while creating ticket
+	- fixed incorrect redirect after deleting ticket
+	- fixed undefined index notice after deactivating repository plugin
+	- fixed undefined variable notice in the sidebar call
+	- fixed undefined method QC_Ticket_Status::update_ticket() error
+	- fixed xml parse error for beanstalk repository
+	- fixed visibility of tickets per Permissions settings
+	- fixed quick editing ticket
+
+changes:
+	- improved parsing commit messages, see: http://docs.appthemes.com/?p=5056
+	- added recent tickets widget
+	- added 'assigned to' link in project team widget
+	- added filtering by 'assigned to' all tickets pages
+	- added creating default milestones and ticket on theme installation
+	- added changeset url metabox to add/edit changeset page
+	- added css class to tickets with priority taxonomy, can easy highlight important tickets
+	- reverted showing ticket details on archives pages
+
+
+0.6 (2012-10-23)
+fixes:
+	- tag archives work again
+	- many fixes related to capabilities
+
+changes:
+	- themed login pages
+	- archives don't show ticket descriptions anymore
+	- compatibility with WordPress 3.4
+	- compatibility with Subscribe To Comments Reloaded
+
+
+0.5.2 (2011-12-15)
+fixes:
+	- permissions for contributors
+	- ticket visibility
+	- child themes not able to overwrite header and footer
+	- styling issue with admin bar
+
+changes:
+	- basic HTML layout moved to wrapper.php template file
+
+
+0.5.1
+fixes:
+	- user can see titles of tickets that he can't view
+	- sub-categories not displayed correctly in the main menu
+
+
+0.5 (2011-10-21)
+	- initial release

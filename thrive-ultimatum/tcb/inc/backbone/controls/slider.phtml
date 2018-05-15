@@ -1,0 +1,24 @@
+<div class="grey-text">
+	<#= this.model.config.label #>
+</div>
+<div class="row middle-xs">
+	<div class="col-xs-<#=this.model.config.hide_input ? '12' : '8'#>">
+		<input type="range" class="tve-slider input change" data-fn="onChange" data-fn-input="onInput" min="<#= this.model.config.min #>" max="<#= this.model.config.max #>" value="<#= this.model.config.default #>"/>
+	</div>
+	<# if (!this.model.config.hide_input) { #>
+	<div class="col-xs-4 slider-input">
+		<div class="um-wrapper">
+			<# if(this.model.config.um.length>1) { _.each(this.model.config.um, function(um, index) { #>
+			<span class="tve-input-um click <#= index==0?'active':'' #>" data-fn="umChange" data-value="<#= um #>"><#= um #></span>
+			<# }); } #>
+		</div>
+		<span class="input-um"><#= this.model.config.um.length === 1 ? this.model.config.um[0]:'' #></span>
+		<div data-dir="top" class="handle reverse">
+			<div class="up click" data-fn="up"></div>
+			<div class="down click" data-fn="down"></div>
+		</div>
+		<input type="text" class="tve-input input change width-input <#= this.model.config.um.length === 1 ? 'has-um':'' #>" data-fn="onChange" data-fn-input="onInput" value="<#= this.model.config.default #>">
+	</div>
+	<# } #>
+</div>
+

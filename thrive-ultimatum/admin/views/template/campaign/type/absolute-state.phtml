@@ -1,0 +1,36 @@
+<div class="tvu-campaign-option tvu-campaign-absolute">
+	<h4><?php echo __('Fixed Dates Campaign', TVE_Ult_Const::T) ?></h4>
+	<p><?php echo __('Tell us when you would like the new offer to start and end', TVE_Ult_Const::T) ?></p>
+	<div class="tvd-row tvd-collapse">
+		<div class="tvd-col tvd-s6 tvd-m3">
+			<div class="tvd-input-field tvd-timepicker-left">
+				<input id="tvu-start-date" type="text" class="tvd-no-focus tvd-no-margin-bottom" value="<#= item.start && item.start.date ? item.start.date : '' #>" data-field="start_date">
+				<label <#= item.start && item.start.date ? 'class="tvd-active"' : '' #> for="tvu-start-date"><?php echo __('Start Date', TVE_Ult_Const::T) ?></label>
+			</div>
+		</div>
+		<div class="tvd-col tvd-s6 tvd-m3">
+			<div class="tvd-input-field timepicker-append-to">
+				<input id="tvu-start-hour" type="text" class="tvd-no-focus tvd-no-margin-bottom" value="<#= item.start && item.start.time ? item.start.time : '' #>" data-field="start_time">
+				<label <#= item.start && item.start.time ? 'class="tvd-active"' : '' #> for="tvu-start-hour"><?php echo __('Start Hour', TVE_Ult_Const::T) ?></label>
+			</div>
+		</div>
+		<div class="tvd-col tvd-s6 tvd-m3">
+			<div class="tvd-input-field tvd-timepicker-left">
+				<input id="tvu-end-date" type="text"  class="tvd-no-focus tvd-no-margin-bottom" value="<#= item.end && item.end.time ? item.end.date : '' #>" data-field="end_date">
+				<label <#= item.end && item.end.date ? 'class="tvd-active"' : '' #> for="tvu-end-date"><?php echo __('End Date', TVE_Ult_Const::T) ?></label>
+			</div>
+		</div>
+		<div class="tvd-col tvd-s6 tvd-m3">
+			<div class="tvd-input-field timepicker-append-to">
+				<input id="tvu-end-hour" type="text" class="tvd-no-focus tvd-no-margin-bottom" value="<#= item.end && item.end.time ? item.end.time : '' #>" data-field="end_time">
+				<label <#= item.end && item.end.time ? 'class="tvd-active"' : '' #> for="tvu-end-hour"><?php echo __('End Hour', TVE_Ult_Const::T) ?></label>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="tvd-row tvd-collapse">
+	<div class="tvd-col tvd-s12">
+		<p><?php echo __('Your current timezone settings are: ', TVE_Ult_Const::T) ?> <strong><#= ThriveUlt.globals.settings.get('offset') ? ThriveUlt.globals.settings.get('offset') : '<?php __( 'Not Set', TVE_Ult_Const::T ) ?>' #></strong>. <?php echo __('Local time is ', TVE_Ult_Const::T) ?> <strong><?php echo tve_ult_current_time( 'Y-m-d H:i' ); ?></strong>,  <?php echo __('see ', TVE_Ult_Const::T) ?><?php echo __(' Date & Time Settings', TVE_Ult_Const::T) ?></p>
+	</div>
+</div>

@@ -1,0 +1,126 @@
+<?php
+$tzstring = get_option( TVE_Ult_Const::SETTINGS_TIME_ZONE );
+?>
+<div class="tvd-modal-content">
+	<h3 class="tvd-modal-title"><?php echo __( 'Set General Date & Time', TVE_Ult_Const::T ) ?></h3>
+	<div class="tvd-v-spacer"></div>
+	<div class="tvd-row tvd-collapse">
+		<div class="tvd-col tvd-m6 tvd-s12">
+			<h4><?php echo __( 'Date Format', TVE_Ult_Const::T ) ?></h4>
+			<p><?php echo __( 'Current date format:', TVE_Ult_Const::T ) ?>
+				<span class="tvu-gray-text">
+						<#= ThriveUlt.globals.date_formats.get(model.get('date_format')).date #><span>(<#= ThriveUlt.globals.date_formats.get(model.get('date_format')).description #>
+									)</span>
+					</span>
+			</p>
+			<div class="tvu-gray-box">
+				<div class="tvd-row tvd-collapse tvd-no-mb">
+					<div class="tvd-col tvd-l6 tvd-m7 tvd-s12">
+						<p class="tvd-no-margin tvd-vertical-align">
+							<?php echo __( 'Change default date format:', TVE_Ult_Const::T ) ?>
+						</p>
+					</div>
+					<div class="tvd-col tvd-l6 tvd-m5 tvd-s12">
+						<div class="tvd-input-field tvd-no-margin">
+							<select id="tvu-date-format-setting">
+								<option disabled selected value="0"><?php echo __( 'Select Date Format', TVE_Ult_Const::T ) ?></option>
+								<?php foreach ( TVE_Ult_Const::date_format_details( 'all' ) as $k => $v ) : ?>
+								<option
+								<#= model.get('date_format') == '<?php echo $k ?>' ? 'selected' : '' #> value="<?php echo $k; ?>"><?php echo $v['description']; ?></option>
+									<?php endforeach; ?>
+							</select>
+							<label for="tvu-date-format-setting">
+								<?php echo __( 'Set default format date', TVE_Ult_Const::T ) ?>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="tvd-col tvd-m6 tvd-s12">
+			<h4><?php echo __( 'Time Format', TVE_Ult_Const::T ) ?></h4>
+			<?php
+			$timezone = TVE_Ult_Const::get_timezone($tzstring);
+			$full_time = gmdate( 'H:i', time() + 3600 * ( $timezone + date( "I" ) ) );
+			$part_time = gmdate( 'h:i A', time() + 3600 * ( $timezone + date( "I" ) ) );
+			?>
+			<p><?php echo __( 'Current time format:', TVE_Ult_Const::T ) ?>
+				<span class="tvu-gray-text">
+						<#= model.get('time_format') == 12 ? '<?php echo $part_time ?>' : '<?php echo $full_time ?>'#>
+							<span>(<#= model.get('time_format') #> <?php echo __( 'hours', TVE_Ult_Const::T ) ?>)</span>
+					</span>
+			</p>
+			<div class="tvu-gray-box">
+				<div class="tvd-row tvd-collapse tvd-no-mb">
+					<div class="tvd-col tvd-l6 tvd-m7 tvd-s12">
+						<p class="tvd-no-margin tvd-vertical-align">
+							<?php echo __( 'Change default time format:', TVE_Ult_Const::T ) ?>
+						</p>
+					</div>
+					<div class="tvd-col tvd-l6 tvd-m5 tvd-s12">
+						<div class="tvd-input-field tvd-no-margin">
+							<select id="tvu-time-format-setting">
+								<option disabled selected value="0"><?php echo __( 'Select Time Format', TVE_Ult_Const::T ) ?></option>
+								<option
+								<#= model.get('time_format') == 24 ? 'selected' : '' #>
+									value="24"><?php echo __( '24 hours', TVE_Ult_Const::T ) ?> (<?php echo $full_time; ?>)</option>
+									<option
+									<#= model.get('time_format') == 12 ? 'selected' : '' #>
+										value="12"><?php echo __( '12 hours', TVE_Ult_Const::T ) ?> (<?php echo $part_time; ?>)</option>
+							</select>
+							<label for="tvu-time-format-setting">
+								<?php echo __( 'Set default time format', TVE_Ult_Const::T ) ?>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tvd-v-spacer vs-2"></div>
+	<div class="tvd-row tvd-collapse">
+		<div class="tvd-col tvd-m6 tvd-s12">
+			<h4><?php echo __( 'Time Zone Format', TVE_Ult_Const::T ) ?></h4>
+			<p>
+				<?php echo __( 'Current time zone:', TVE_Ult_Const::T ) ?>
+				<span class="tvu-gray-text">
+						<#= model.get('offset') ? model.get('offset') : '<?php __( 'Not Set', TVE_Ult_Const::T ) ?>' #>
+					</span>
+			</p>
+			<div class="tvu-gray-box">
+				<div class="tvd-row tvd-collapse tvd-no-mb">
+					<div class="tvd-col tvd-l6 tvd-m7 tvd-s12">
+						<p class="tvd-no-margin tvd-vertical-align">
+							<?php echo __( 'Change default timezone:', TVE_Ult_Const::T ) ?>
+						</p>
+					</div>
+					<div class="tvd-col tvd-l6 tvd-m5 tvd-s12">
+						<div class="tvd-input-field tvd-no-margin">
+							<select id="tvu-timezone-setting">
+								<?php echo wp_timezone_choice( $tzstring ); ?>
+							</select>
+							<label
+								for="tvu-timezone-setting"><?php echo __( 'Set default time zone', TVE_Ult_Const::T ) ?></label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="tvd-modal-footer">
+	<div class="tvd-row">
+		<div class="tvd-col tvd-s12 tvd-m6 tvd-no-padding">
+			<a href="javascript:void(0)"
+			   class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-waves-effect tvd-modal-close">
+				<?php echo __( "Cancel", TVE_Ult_Const::T ) ?>
+			</a>
+		</div>
+		<div class="tvd-col tvd-s12 tvd-m6 tvd-no-padding">
+			<a href="javascript:void(0)"
+			   class="tvd-btn tvd-btn-green tvd-waves-light tvd-right tvu-save-date-settings tvd-modal-submit">
+				<?php echo __( "Save Changes", TVE_Ult_Const::T ) ?>
+			</a>
+		</div>
+	</div>
+</div>

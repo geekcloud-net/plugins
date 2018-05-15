@@ -1,0 +1,176 @@
+Plugin Name: PopUp Pro
+Author: Philipp Stracker (Incsub), Barry (Incsub), Marko Miljus (Incsub)
+
+Change Log:
+----------------------------------------------------------------------
+
+4.8.1
+----------------------------------------------------------------------
+- Fix issue with submitting forms.
+- Fix undefined constant error PO_LANG.
+- Remove editor role's ability to see UI for popup editing (role requirements can be changed manually).
+- Defer Ninja Forms scripts to prevent JS errors when placed within popups.
+
+4.8.0.0
+----------------------------------------------------------------------
+- Improve the popup javascript to display popups.
+- Fix issue, that prevented users from deleting popups.
+- Fix issue with extra "\" slashes in admin preview.
+- Fix permissions of the Popup custom post type.
+- Fix issues with twentysixteen theme.
+- Many small bugfixes, clean up code, improve plugin behind the scenes.kground.
+
+4.7.1.1
+----------------------------------------------------------------------
+- Fix compatibility issues caused by WordPress 4.3 changes
+- Fix a PHP notice about invalid foreach value
+- Fix bug that removed backslashs "\" from popup contents upon saving
+- Remove debug output when saving a PopUp
+
+4.7.1.0
+----------------------------------------------------------------------
+- Add new rules: Show on date, Hide on date
+- Fix incompatibility with ACF Pro plugin
+- Fix issue that made rules inaccessible (not clickable in editor)
+- Fix several PHP warnings and notices
+
+4.7.0.9
+----------------------------------------------------------------------
+- Fix bug with Display Animation field in PopUp editor
+- Small code improvements to avoid PHP notices
+
+4.7.0.8
+----------------------------------------------------------------------
+- Add integration for Membership2
+- Fix issues with WPML integration
+
+4.7.0.7
+----------------------------------------------------------------------
+- Add a link target option for CTA Button (use _blank to open CTA in new tab)
+- Add JS hook 'popup-submit-process' to allow manual updating of popup contents after form submit
+- Simplify PopUp template structure to encourage creation of custom templates
+- Fix XSS vulnerability (add_query_arg/remove_query_arg)
+- Fix several small issues with different rules
+
+4.7.0.6
+----------------------------------------------------------------------
+- Fix typo in the XProfile condition
+
+4.7.0.5
+----------------------------------------------------------------------
+- Add new "Protected Content" rule
+- Fix bug with XProfile rule that did not save field-value correctly
+- Fix behavior "Show on Click" when event is attached to a link/button
+
+4.7.0.4
+----------------------------------------------------------------------
+- Fix variable-name collission with CoursePress
+
+4.7.0.3
+----------------------------------------------------------------------
+- Fix several small bugs
+- Fix URL rules that check for https:// protocol
+- Improve "Full URL rule" to check all protocols
+
+4.7.0.2
+----------------------------------------------------------------------
+- Fix incompatibility with Custom Sidebars plugin
+
+4.7.0.1
+----------------------------------------------------------------------
+- Fix small JavaScript error
+
+4.7.0
+----------------------------------------------------------------------
+- Add PopUp Animations
+- Add Behavior option: Form submit behavior
+- Add new meta box: Custom CSS for individual PopUps
+- Add validation of PopUp shortcodes for the current loading method
+- Fix an issue where the PopUp closes when Gravity Forms is submitted
+- Fix the on-URL rules in Ajax loading methods
+- Fix the Ajax loading methods when Strict-Mime-Check is enabled
+
+4.6.1.5
+----------------------------------------------------------------------
+- Fix error on servers that run older php version than 5.3
+
+4.6.1.4
+----------------------------------------------------------------------
+- New: Not-From-Referrer rule
+- Better: Improved handling of forms inside PopUps
+- Better: Ajax calls improved to prevent security errors by iThemes, etc.
+
+4.6.1.3
+----------------------------------------------------------------------
+- New: Allow page to be scrolled while PopUp is open.
+- Fix: Prevent PopUps from staying open after submitting a form to external URL.
+- Fix: PopUps without content can be displayed now.
+
+4.6.1.2
+----------------------------------------------------------------------
+- New: Two new WordPress filters allow custom positioning and styling of PopUps.
+- Fix: Correctly display Meta-boxes of other plugins in the popup-editor.
+- Fix: Plugins that use custom URL rewriting are working now (e.g. NextGen Gallery)
+- Fix: PopUps can be edited even on servers with memcache/similar caching extensions.
+- Fix: Resolve "Strict Standards" notes in PHP 5.4
+- Fix: Rule "Not internal link" now works correctly when opening page directly.
+- Fix: Rule "Specific Referrer" handles empty referrers correctly.
+- Better: Forms inside PopUps will only refresh the PopUp and not reload the page.
+- Better: Detection of theme compatibility for loading method "Page Footer" improved.
+
+4.6.1.1
+----------------------------------------------------------------------
+- New: Alternative Country Lookup services added to Settings page.
+- New: Added Contextual Help to the PopUp editor to show supported shortcodes.
+- Fix: Logic of rule "[Not] On specific URL" corrected.
+- Fix: Close forever now works also via click on background layer.
+- Fix: Behaviour "mouse leaves the browser" is not triggered when using the scrollbar.
+- Fix: Bug in Membership rule was fixed that did cause an php error.
+- Fix: Appointments+ shortcodes now work inside PopUps.
+- Better: Improved info on supported shortcodes.
+
+4.6.1
+----------------------------------------------------------------------
+- Fix: For some users the plugin was not loading after update to 4.6
+- Fix: Old Popups will now replace shortcodes correctly.
+
+4.6 - 2014-08-22
+----------------------------------------------------------------------
+- Completely re-build the UI from ground up!
+- Migrated PopUps to a much more flexible data structure.
+- Merged sections "Add-Ons" and "Settings" to a single page.
+- Removed old legacy code; plugin is cleaner and faster.
+- New feature: Preview PopUp inside the Editor!
+- Three new, modern PopUp styles added.
+- Featured Image support for new PopUp styles.
+- A single page can display multiple PopUps.
+
+4.5.3 - 2013-11-15
+----------------------------------------------------------------------
+- Fix for argument passing issue.
+- Fix for popup pending inital state.
+
+4.5.2 - 2013-11-05
+----------------------------------------------------------------------
+- Fix for display issue with absolute sizes/positioning.
+- Added the XProfile fields value matching add-on.
+
+4.5.1 - 2013-10-30
+----------------------------------------------------------------------
+- Sizing calculus update.
+- Performance update.
+
+4.5 - 2013-10-16
+----------------------------------------------------------------------
+- Javascript update.
+- Separated size and positioning javascript.
+- Added new expiry options and updated existing ones.
+- Added anonymous loading method add-on.
+- Added advanced URL rules add-on.
+- Added maximum width rule add-on.
+- Added post types rules add-on.
+- Added show on click rule add-on.
+- Added show on exit rule add-on.
+
+
+576836-1504873608-ai

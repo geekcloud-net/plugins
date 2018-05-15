@@ -1,0 +1,4 @@
+<input <#= ids && typeof ids !== 'number' && ids.indexOf(item.get('ID')) > -1 ? 'checked' : '' #> type="checkbox" id="tvu-lead-conversion-<#= item.get('ID') #>" value="<#= item.get('ID') #>" class="tvu-lead-conversion" />
+<label for="tvu-lead-conversion-<#= item.get('ID') #>" class="tvd-truncate">
+	<#= item.get('post_title') #>
+</label>

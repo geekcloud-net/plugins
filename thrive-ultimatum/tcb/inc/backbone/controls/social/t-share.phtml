@@ -1,0 +1,23 @@
+<div class="padding-top-5">
+	<?php echo __( 'Tweet text:', 'thrive-cb' ) ?>
+	<textarea rows="3" data-setting="tweet" class="keyup tweet" data-fn="char_count"><#=this.data.tweet#></textarea>
+	<div class="row middle-xs">
+		<div class="col-xs-9">
+			<div class="t-message inline-message" style="padding:0"></div>
+		</div>
+		<div class="col-xs-3">
+			<div id="t-counter" class="tcb-text-right"></div>
+		</div>
+	</div>
+</div>
+<div class="padding-top-10">
+	<div class="row middle-xs">
+		<div class="col-xs-1">
+			via:
+		</div>
+		<div class="col-xs-1" style="padding-left:.8rem">@</div>
+		<div class="col-xs-10">
+			<input data-setting="via" class="keyup via" data-fn="char_count" value="<#=this.data.via#>">
+		</div>
+	</div>
+</div>

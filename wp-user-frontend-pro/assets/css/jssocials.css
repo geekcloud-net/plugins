@@ -1,0 +1,98 @@
+.jssocials-shares {
+  width: 100%;
+  text-align: center; }
+
+.jssocials-shares * {
+  box-sizing: border-box; }
+
+.jssocials-share {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0.3em 0.6em 0.3em 0; }
+
+.jssocials-share:last-child {
+  margin-right: 0; }
+
+.jssocials-share-logo {
+  width: 1em;
+  vertical-align: middle;
+  font-size: 1.5em; }
+
+img.jssocials-share-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px; }
+
+.jssocials-shares .jssocials-share a img{
+  box-shadow: none;
+}
+
+.jssocials-share-link {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1; 
+  border-bottom: 0 !important;
+}
+  .jssocials-share-link.jssocials-share-link-count {
+    padding-top: .2em; }
+    .jssocials-share-link.jssocials-share-link-count .jssocials-share-count {
+      display: block;
+      font-size: .6em;
+      margin: 0 -.5em -.8em -.5em; }
+  .jssocials-share-link.jssocials-share-no-count {
+    padding-top: .5em; }
+    .jssocials-share-link.jssocials-share-no-count .jssocials-share-count {
+      height: 1em; }
+
+.jssocials-share-label {
+  padding-left: 0.3em;
+  vertical-align: middle; }
+
+.jssocials-share-count-box {
+  display: inline-block;
+  height: 1.5em;
+  padding: 0 0.3em;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: default; }
+  .jssocials-share-count-box.jssocials-share-no-count {
+    display: none; }
+
+.jssocials-share-count {
+  line-height: 1.5em;
+  vertical-align: middle; }
+
+ul.jssocials-shares li.jssocials-share {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+ul.jssocials-shares li a {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+ul.jssocials-shares li img {
+  display: inline-block;
+}
+
+.jssocials-share-facebook {
+  background-color: #3d5997;
+}
+
+.jssocials-share-google {
+  background-color: #dc4c3c;
+}
+
+.jssocials-share-linkedin {
+  background-color: #1675a7;
+}
+
+.jssocials-share-twitter {
+  background-color: #00abee;
+}

@@ -1,0 +1,120 @@
+$font-family: 'Ubuntu', sans-serif;
+$font-family2: 'Cookie', cursive;
+/*heading*/
+$heading-color: #ffffff;
+$heading-font-weight: 500;
+$heading-font-size: 26px;
+$heading-line-height: 1em;
+/*paragraph*/
+$paragraph-color: #fff;
+$paragraph-font-size: 17px;
+$paragraph-font-weight: 300;
+$paragraph-line-height: 1.333em;
+$paragraph-margin-bottom: 20px;
+$paragraph-bold-weight: 500;
+
+/*close button*/
+$close-btn-bg: #4c85b1;
+$close-btn-color: #0d5a96;
+$close-btn-no-border: true;
+$close-btn-size: 17px;
+$close-btn-font-size: 15px;
+$close-btn-line-height: 13px;
+
+/*buttons*/
+$button-border-radius: 5px;
+$button-box-shadow: none;
+$button-text-shadow: none;
+$button-font-size: 22px;
+$button-font-weight: 500;
+$button-line-height: 34px;
+$button-padding: 15px 30px;
+
+$transparent-bg: true;
+
+//if buttons have the same color on default state
+$same-colors-for-btns: false;
+$button-default-color: #fff;
+
+//if white button has a different color than the rest
+$different-btn-white: true;
+$button-white-color: #333;
+
+//if orange button has a different color than the rest
+$different-btn-orange: true;
+$button-orange-color: #000;
+
+$button-color-hover: #fff;
+
+//if white button has a different color on hover
+$different-btn-white-h: true;
+$button-white-color-h: #333;
+
+//if orange button has a different color on hover
+$different-btn-orange-h: true;
+$button-orange-color-h: #000;
+
+//if white button has a different color active
+$different-btn-white-a: true;
+$button-white-color-a: #000;
+
+//if orange button has a different color active
+$different-btn-orange-a: true;
+$button-orange-color-a: #333;
+
+//if same bg as active
+$same-active-bg: false;
+$button-active-bg: #fff;
+$button-active-border: #fff;
+
+/*countdown*/
+//has background
+$countdown-no-background: true;
+
+//has border
+$countdown-no-border: true;
+
+//if same color items
+$countdown-same-color-items: false;
+$countdown-item-bg: #fff;
+
+$countdown-item-border-radius: 0;
+$item-color: inherit;
+$item-color-dark: inherit;
+$item-font-size: 33px;
+$item-font-weight: 700;
+$item-font-style: normal;
+$item-line-height: 40px;
+$item-height: 40px; //numbers height, not the whole item
+$item-min-width: 40px; //numbers width (without padding)
+$item-spacing: 8px; //space from the outer margin to the first number
+$item-padding: $item-spacing;
+$item2-spacing: $item-spacing + ($item-min-width/2);
+$item3-spacing: $item2-spacing + ($item-min-width/2);
+$item4-spacing: $item3-spacing + ($item-min-width/2);
+//countdown responsive size
+$item-font-size-r: 20px;
+$item-line-height-r: 36px;
+$item-height-r: 36px; //numbers height, not the whole item
+$item-min-width-r: 30px; //numbers width (without padding)
+$item-spacing-r: 5px; //space from the outer margin to the first number
+$item-padding-r: $item-spacing-r;
+$item2-spacing-r: $item-spacing-r + ($item-min-width-r/2);
+$item3-spacing-r: $item2-spacing-r + ($item-min-width-r/2);
+$item4-spacing-r: $item3-spacing-r + ($item-min-width-r/2);
+//caption
+$caption-color: #fff;
+$caption-color-dark: #333;
+$caption-font-weight: 300;
+$caption-font-size: 10px;
+
+
+$color-pallete:
+'blue' #217ec6 #1a629b #4d98d1 #3c77a3 #144c77 #0d5a96 #0b4c7e,
+'black' #525252 #404040 #757575 #5b5b5b #313131 #525252 #404040,
+'green' #38ba38 #2c912c #60c860 #4b9c4b #227022 #38ba38 #2c912c,
+'white' #f4f4f4 #d0d0d0 #ffffff #d9d9d9 #b7b7b7 #f4f4f4 #d0d0d0,
+'orange' #ffcc00 #c79f00 #ffd633 #c7a728 #997a00 #ffcc00 #c79f00,
+'purple' #7961ad #5e4c87 #9481bd #736593 #493a68 #7961ad #5e4c87,
+'red' #e43838 #b22c2c #e96060 #b64b4b #892222 #e43838 #b22c2c,
+'teal' #48d2b3 #38a48c #6ddbc2 #55ab97 #2b7e6b #48d2b3 #38a48c;

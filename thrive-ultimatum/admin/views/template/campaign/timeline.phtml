@@ -1,0 +1,14 @@
+<div class="tvd-row tvd-collapse tvu-timeline-heading-row">
+	<div class="tvd-col tvd-s12">
+		<div class="tvd-inline-block tvd-relative">
+			<h3>
+				<?php echo __( 'Timeline', TVE_Ult_Const::T ) ?>
+				<?php tve_ult_video( 'nx6cmnhaqs' ) ?>
+			</h3>
+			<# if ( item.get_settings_step() === 'timeline' ) { #>
+				<div class="tvd-tooltip-visible tvd-fixed-right" style="min-width: 280px;"><span><?php echo __( 'Next step: setup timeline events', TVE_Ult_Const::T ) ?></span></div>
+				<# } #>
+		</div>
+	</div>
+</div>
+<div id="tvu-timeline" class="tvu-timeline-el"></div>

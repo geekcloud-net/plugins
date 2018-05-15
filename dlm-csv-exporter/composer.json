@@ -1,0 +1,30 @@
+{
+  "name": "download-monitor/csv-exporter",
+  "description": "CSV Exporter extension for Download Monitor",
+  "keywords": [
+    "wordpress",
+    "download monitor"
+  ],
+  "homepage": "https://www.download-monitor.com/",
+  "license": "GPL-2.0+",
+  "author": "Barry Kooij",
+  "require": {
+    "xrstf/composer-php52": "1.*"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "xrstf\\Composer52\\Generator::onPostInstallCmd"
+    ],
+    "post-update-cmd": [
+      "xrstf\\Composer52\\Generator::onPostInstallCmd"
+    ],
+    "post-autoload-dump": [
+      "xrstf\\Composer52\\Generator::onPostInstallCmd"
+    ]
+  },
+  "autoload": {
+    "classmap": [
+      "classes/"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+.wpeae_variation_set {line-height: 40px;}
+
+.wpeae_variation_set .wpeae_variation_select {line-height: initial; background:#eae7e3; border-radius: 5px; margin:0 2px 5px; min-width: 17px; text-align: center; border: 2px solid rgba(0,0,0,0); display: inline-block;box-shadow: none;}
+.wpeae_variation_set .wpeae_variation_select.selected {border: 2px solid rgba(221, 116, 11, .8);line-height:29px}
+
+.wpeae_variation_set .wpeae_variation_select img {border-radius: 5px; max-height:50px;}
+.wpeae_variation_set .wpeae_variation_select span {padding: 0 5px 0 5px;}
+.wpeae_variation_set .wpeae_variation_select span.color {border-radius: 5px;vertical-align: middle;width: 30px;height: 30px;overflow: hidden;display: inline-block;}

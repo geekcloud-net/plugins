@@ -1,0 +1,135 @@
+*** UPS Shipping ***
+
+2018-01-24 - version 3.2.9
+* Fix   - Packing things into boxes doesn't work in EU.
+* Fix   - Better error handling for failed remote request.
+* Fix   - Delivery confirmation under Package level is invalid from GB to GB.
+* Tweak - Added filters to allow processing and conversion of UPS rates.
+* Tweak - Generated rate IDs are non-canonical.
+
+2018-01-18 - version 3.2.8
+* Tweak - Allow automatic measurement system settings.
+
+2017-12-13 - version 3.2.7
+* Update - WC tested up to version.
+
+2017-10-04 - version 3.2.6
+* Add - WC minimum requirement to header.
+* Fix - Update the UPS XML service URL.
+
+2017-08-18 - version 3.2.5
+* Fix - Put delivery confirmation in the API request if enabled and removed the hard coded fee.
+* Fix - Issue where returned rates with currency != store's currency still presented to the customers.
+* Tweak - Added customer classification option to match rates from the UPS calculator.
+* Tweak - Shorten the transient of UPS API response from 1 year to 1 month.
+
+2017-06-29 - version 3.2.4
+* Fix - Fatal error on deprecated class.
+
+2017-05-08 - version 3.2.3
+* Fix - Fatal error on plugin activation.
+
+2017-05-04 - version 3.2.2
+* Fix - Signature fees needs to be added per package.
+* Fix - When dimensions have decimals, sometimes no rates return.
+* Fix - Properly handle wp object errors.
+
+2016-10-31 - version 3.2.1
+* Fix - Notice not dismissing on main setting page.
+
+2016-10-07 - version 3.2.0
+* Add - Support for WooCommerce 2.6+ shipping zones.
+* Update - Change plugin main file name to woocommerce-shipping-ups.
+
+2016-06-20 - version 3.1.3
+* Fix - Remove check for postal code from calculate shipping as it is not needed.
+* Fix - Update Delivery Confirmation fee
+* Fix - Strict standard noticed introduced by WooCommerce 2.6 signature change
+
+2015-08-26 - version 3.1.2
+* Fix - Never hide save button.
+* Fix - Correct KG box weights.
+* Fix - Corrected use of default boxes.
+
+2015-06-03 - version 3.1.1
+* Tweak - Change fallback to price input.
+* Fix - Sanitize XML responses.
+
+2015-06-03 - version 3.1.0
+* Tweak - Update box packer.
+* Tweak - Classes->includes.
+* Tweak - Tweak UI.
+
+2015-03-17 - version 3.0.0
+* Settings organised + improved
+* Better error reporting
+* Rate calculations improved
+* Optionally use Origin Address
+* Signature / Delivery Confirmation option
+
+2014-10-13 - version 2.0.18
+* Update box packer
+
+2014-10-08 - version 2.0.17
+* Updated box packer.
+
+2014-06-03 - version 2.0.16
+* Prevent autoloading of transients by setting expirey.
+
+2014-04-24 - version 2.0.15
+* Remove weight rounding up to 1 when sending to UPS
+* Add declared value for insurance
+* Add EU services
+
+2014-03-24 - version 2.0.14
+* Send full shippers address to UPS for greater accuracy
+
+2014-01-16 - version 2.0.13
+* 2.1 Compatibility
+
+2013-11-07 - version 2.0.12
+* Changed the way transients (cache) are used to store requests from UPS.
+
+2013-10-16 - version 2.0.11
+* Fix for errant merge conflict
+
+2013-10-02 - version 2.0.10
+* Fix Puerto Rico requests - using "PR" as country when state is "PR"
+* Fix for "&" in passwords.  Now encoded to &amp;.
+
+2013-08-08 - version 2.0.9
+* Fix weight rounding issue. Was rounding down for weights that were greater than 1 lbs and less than 2 lbs.
+
+2013-07-14 - version 2.0.8
+* Set debug default to no
+
+2013-07-11 - version 2.0.7
+* Removed state check from calculate_shipping() for countries that do not have state field. Will use country and post code now.
+
+2013-05-22 - version 2.0.6
+* Change: Packing items individually no longer requires length/width/height to be defined. Can quote with weight only.
+
+2013-04-04 - version 2.0.5
+* Add check for country, state and zip before requesting rates to reduce number of debug errors displayed on empty cart
+* Fix for: Invalid argument supplied for foreach()
+
+2013-03-22 - version 2.0.4
+* Use origin country setting for requests
+* Option for using metric measurements
+
+2013-03-04 - version 2.0.3
+* Add Origin Country/State field for use with Negotiated rates
+* Negotiated rates fixes
+* Fix for compatibility with Shipping Multiple Addresses extension (http://www.woothemes.com/products/shipping-multiple-addresses/)
+
+2013-02-05 - version 2.0.2
+* Updated WC_Boxpack classes to be in sync with other shipping methods.
+
+2013-02-01 - version 2.0.1
+* Added environment check for no credentials, no packaging chosen or defined, and no services chosen.
+* If packing method is set to "pack boxes" and no UPS packaging nor custom boxes defined will default to individual packing.
+* Fixed weight calculation. Round up to nearest 1lb for package.
+* Added better debug reporting when no rates returned.  This could be caused by requesting international rate when shipping domestically.
+
+2013-01-14 - version 2.0.0
+* Complete rewrite using UPS's latest API

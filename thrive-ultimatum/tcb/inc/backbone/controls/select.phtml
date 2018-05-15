@@ -1,0 +1,22 @@
+<#
+	var sel_input_col_width =  12 - this.model.config.label_col_x;
+	if(sel_input_col_width === 0){
+		sel_input_col_width = 12;
+	}
+#>
+<div class="layout-options-holder tve-layout-<#= this.model.config.name #>">
+	<div class="row middle-xs">
+		<div class="layout-label col-xs-<#= this.model.config.label_col_x #>">
+			<span class="grey-text"><#= this.model.config.name #></span>
+		</div>
+		<div class="col-xs-<#= sel_input_col_width #> <#= this.model.config.extra_class #>" >
+			<select class="tve-select change" data-fn="changed">
+				<# _.each(this.model.config.options, function(option) { #>
+					<option class="tve-option" value="<#= option.value #>" <#= option.default? 'selected':'' #>>
+						<#= option.name #>
+					</option>
+				<# }); #>
+			</select>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,896 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooImporter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-17 03:27+0000\n"
+"PO-Revision-Date: 2017-01-17 03:27+0000\n"
+"Last-Translator: test <andx81@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/api/ebay/view/settings.php:24
+msgctxt "Setting desc"
+msgid ""
+"You can define an affiliate customId if you want an ID to monitor your "
+"marketing efforts. Chose an ID up to up to 256 characters in length. If you "
+"are using the eBay Partner Network, and you provide a customId, the tracking "
+"URL returned by the eBay Partner Network will contain your customId value."
+msgstr ""
+"You can define an affiliate customId if you want an ID to monitor your "
+"marketing efforts. Chose an ID up to up to 256 characters in length. If you "
+"are using the eBay Partner Network, and you provide a customId, the tracking "
+"URL returned by the eBay Partner Network will contain your customId value."
+
+#: includes/api/ebay/view/settings.php:29
+msgctxt "Setting desc"
+msgid ""
+"The geoTargeting parameter will be used for geographical targeting your "
+"affiliate programs. The geo-targeting feature works for English speaking "
+"countries (US, UK, CA, AU, and IE) only."
+msgstr ""
+"The geoTargeting parameter will be used for geographical targeting your "
+"affiliate programs. The geo-targeting feature works for English speaking "
+"countries (US, UK, CA, AU, and IE) only."
+
+#. Name of the plugin
+msgid "WooImporter"
+msgstr ""
+
+#. Author of the plugin
+msgid "Geometrix"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://gmetrixteam.com"
+msgstr ""
+
+#: schedule.php:6 _build/build/plugins/ebay_ali/WooImporter/schedule.php:6
+msgid "Every 5 Minutes"
+msgstr "Every 5 Minutes"
+
+#: schedule.php:7 _build/build/plugins/ebay_ali/WooImporter/schedule.php:7
+msgid "Every 15 Minutes"
+msgstr "Every 15 Minutes"
+
+#: WooImporter.php:92
+#: _build/build/plugins/ebay_ali/WooImporter/WooImporter.php:92
+msgctxt "error"
+msgid "WooImporter notice! Please install the Woocommerce plugin first."
+msgstr "WooImporter notice! Please install the Woocommerce plugin first."
+
+#: WooImporter.php:112
+#: _build/build/plugins/ebay_ali/WooImporter/WooImporter.php:112
+msgctxt "Field validation"
+msgid "Value is required"
+msgstr "Value is required"
+
+#: WooImporter.php:113
+#: _build/build/plugins/ebay_ali/WooImporter/WooImporter.php:113
+msgctxt "Field validation"
+msgid "Min price or Max price is required"
+msgstr "Min price or Max price is required"
+
+#: WooImporter.php:139 WooImporter.php:139
+#: _build/build/plugins/ebay_ali/WooImporter/WooImporter.php:139
+#: _build/build/plugins/ebay_ali/WooImporter/WooImporter.php:139
+msgid " Add-ons"
+msgstr " Add-ons"
+
+#: WooImporter.php:145
+#: _build/build/plugins/ebay_ali/WooImporter/WooImporter.php:145
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/WPEAE_WooCommerce_OrderList.php:28
+#: includes/WPEAE_WooCommerce_ProductList.php:61
+#: _build/build/plugins/ebay_ali/WooImporter/includes/WPEAE_WooCommerce_OrderList.php:28
+#: _build/build/plugins/ebay_ali/WooImporter/includes/WPEAE_WooCommerce_ProductList.php:61
+msgctxt "Status"
+msgid "Please wait, data loads.."
+msgstr "Please wait, data loads.."
+
+#: includes/WPEAE_WooCommerce_ProductList.php:62
+#: _build/build/plugins/ebay_ali/WooImporter/includes/WPEAE_WooCommerce_ProductList.php:62
+#, php-format
+msgctxt "Status"
+msgid "Process update %d of %d. Errors: %d."
+msgstr "Process update %d of %d. Errors: %d."
+
+#: includes/WPEAE_WooCommerce_ProductList.php:63
+#: _build/build/plugins/ebay_ali/WooImporter/includes/WPEAE_WooCommerce_ProductList.php:63
+#, php-format
+msgctxt "Status"
+msgid "Complete! Result updated: %d; errors: %d."
+msgstr "Complete! Result updated: %d; errors: %d."
+
+#: view/addons.php:2
+#: _build/build/plugins/ebay_ali/WooImporter/view/addons.php:2
+msgid "WooCommerce Importer Add-ons/Extensions"
+msgstr "WooCommerce Importer Add-ons/Extensions"
+
+#: view/dashboard.php:15
+#: _build/build/plugins/ebay_ali/WooImporter/view/dashboard.php:15
+msgid "Search Filter"
+msgstr "Search Filter"
+
+#: view/dashboard.php:105
+#: _build/build/plugins/ebay_ali/WooImporter/view/dashboard.php:105
+msgid "Link to category"
+msgstr "Link to category"
+
+#: view/dashboard.php:111
+#: _build/build/plugins/ebay_ali/WooImporter/view/dashboard.php:111
+msgid "Category:"
+msgstr "Category:"
+
+#: view/dashboard.php:133
+#: _build/build/plugins/ebay_ali/WooImporter/view/dashboard.php:133
+msgid "Search"
+msgstr "Search"
+
+#: view/dashboard.php:134
+#: _build/build/plugins/ebay_ali/WooImporter/view/dashboard.php:134
+msgid "Products list"
+msgstr "Products list"
+
+#: view/promo_page.php:8
+#: _build/build/plugins/ebay_ali/WooImporter/view/promo_page.php:8
+msgid "Get it right now"
+msgstr "Get it right now"
+
+#: view/promo_page.php:10
+#: _build/build/plugins/ebay_ali/WooImporter/view/promo_page.php:10
+#, php-format
+msgid "This is the extension of the %s plugins"
+msgstr "This is the extension of the %s plugins"
+
+#: view/promo_page.php:13
+#: _build/build/plugins/ebay_ali/WooImporter/view/promo_page.php:13
+msgid "WordPress Plugins Development Team"
+msgstr "WordPress Plugins Development Team"
+
+#: view/settings.php:3
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:3
+msgctxt "setting tab name"
+msgid "common"
+msgstr "common"
+
+#: view/settings.php:8
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:8
+#, php-format
+msgid "%s settings"
+msgstr "%s settings"
+
+#: view/settings.php:11
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:11
+msgctxt "Setting tab"
+msgid "Common settings"
+msgstr "Common settings"
+
+#: view/settings.php:12
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:12
+msgctxt "Setting tab"
+msgid "Price Rules"
+msgstr "Price Rules"
+
+#: view/settings.php:14
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:14
+#, php-format
+msgctxt "Setting tab"
+msgid "%s settings"
+msgstr "%s settings"
+
+#: view/settings.php:21 includes/api/aliexpress/view/settings.php:2
+#: includes/api/amazon/view/settings.php:2
+#: includes/api/ebay/view/settings.php:3
+#: includes/api/envato/view/settings.php:2
+#: includes/api/walmart/view/settings.php:2
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:21
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:2
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:3
+msgctxt "Setting section"
+msgid "Common settings"
+msgstr "Common settings"
+
+#: view/settings.php:24
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:24
+msgctxt "Setting title"
+msgid "Currency conversion factor"
+msgstr "Currency conversion factor"
+
+#: view/settings.php:30
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:30
+msgctxt "Setting title"
+msgid "Default Product Type"
+msgstr "Default Product Type"
+
+#: view/settings.php:35
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:35
+msgctxt "Setting option"
+msgid "Simple Product"
+msgstr "Simple Product"
+
+#: view/settings.php:36
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:36
+msgctxt "Setting option"
+msgid "External/Affiliate Product"
+msgstr "External/Affiliate Product"
+
+#: view/settings.php:45
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:45
+msgctxt "Setting title"
+msgid "Default Product Status"
+msgstr "Default Product Status"
+
+#: view/settings.php:50
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:50
+msgctxt "Setting option"
+msgid "publish"
+msgstr "publish"
+
+#: view/settings.php:57 includes/api/aliexpress/view/settings.php:35
+#: includes/api/amazon/view/settings.php:24
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:57
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:35
+msgctxt "Setting section"
+msgid "Import setting"
+msgstr "Import setting"
+
+#: view/settings.php:60
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:60
+msgctxt "Setting title"
+msgid "Remove links from description"
+msgstr "Remove links from description"
+
+#: view/settings.php:64
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:64
+msgctxt "Setting title"
+msgid "Remove images from description"
+msgstr "Remove images from description"
+
+#: view/settings.php:68
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:68
+msgctxt "Setting title"
+msgid "Import product images limit"
+msgstr "Import product images limit"
+
+#: view/settings.php:72
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:72
+msgctxt "Setting title"
+msgid "Default product quantity"
+msgstr "Default product quantity"
+
+#: view/settings.php:74
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:74
+msgctxt "Setting desc"
+msgid "from"
+msgstr "Default product quantity"
+
+#: view/settings.php:75
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:75
+msgctxt "Setting desc"
+msgid "to"
+msgstr "to"
+
+#: view/settings.php:80
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:80
+msgctxt "Setting section"
+msgid "Schedule setting"
+msgstr "Schedule setting"
+
+#: view/settings.php:83
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:83
+msgctxt "Setting title"
+msgid "Auto Update (stock avail. only)"
+msgstr "Auto Update (stock avail. only)"
+
+#: view/settings.php:88
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:88
+msgctxt "Setting title"
+msgid "Auto Update Price"
+msgstr "Auto Update Price"
+
+#: view/settings.php:94
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:94
+msgctxt "Setting title"
+msgid "Not available product status"
+msgstr "Not available product status"
+
+#: view/settings.php:99
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:99
+msgctxt "Setting option"
+msgid "Trash"
+msgstr "Trash"
+
+#: view/settings.php:100
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:100
+msgctxt "Setting option"
+msgid "Out of stock"
+msgstr "Out of stock"
+
+#: view/settings.php:101
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:101
+msgctxt "Setting option"
+msgid "In stock"
+msgstr "In stock"
+
+#: view/settings.php:108
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:108
+msgctxt "Setting title"
+msgid "Update Schedule"
+msgstr "Update Schedule"
+
+#: view/settings.php:113
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:113
+msgctxt "Setting option"
+msgid "Every 5 Minutes"
+msgstr "Every 5 Minutes"
+
+#: view/settings.php:115
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:115
+msgctxt "Setting option"
+msgid "hourly"
+msgstr "hourly"
+
+#: view/settings.php:116
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:116
+msgctxt "Setting option"
+msgid "twicedaily"
+msgstr "twicedaily"
+
+#: view/settings.php:117
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:117
+msgctxt "Setting title"
+msgid "daily"
+msgstr "daily"
+
+#: view/settings.php:122
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:122
+msgctxt "Setting title"
+msgid "The number of products update per schedule"
+msgstr "The number of products update per schedule"
+
+#: view/settings.php:126
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:126
+msgctxt "Setting section"
+msgid "Proxy settings"
+msgstr "Proxy settings"
+
+#: view/settings.php:129
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:129
+msgctxt "Setting title"
+msgid "Use proxy"
+msgstr "Use proxy"
+
+#: view/settings.php:133
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:133
+msgctxt "Setting title"
+msgid "Proxy list"
+msgstr "Proxy list"
+
+#: view/settings.php:139
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:139
+msgctxt "Setting \"Proxy\" desc 1"
+msgid "Proxy example:"
+msgstr "Proxy example:"
+
+#: view/settings.php:140
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:140
+msgctxt "Setting \"Proxy\" desc 2"
+msgid "You can buy proxies "
+msgstr "You can buy proxies "
+
+#: view/settings.php:140
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:140
+msgctxt "Setting \"Proxy\" desc 3"
+msgid "here "
+msgstr "here "
+
+#: view/settings.php:145
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:145
+msgctxt "Setting title"
+msgid "Test proxy"
+msgstr "Test proxy"
+
+#: view/settings.php:156
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:156
+msgid "Save settings"
+msgstr "Save settings"
+
+#: view/settings.php:196
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:196
+msgctxt "Setting section"
+msgid "Add price rule"
+msgstr "Add price rule"
+
+#: view/settings.php:202
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:202
+msgctxt "Setting option"
+msgid "Any module"
+msgstr "Any module"
+
+#: view/settings.php:211
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:211
+msgctxt "Setting option"
+msgid "Any category"
+msgstr "Any category"
+
+#: view/settings.php:222 view/settings.php:306 view/settings.php:307
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:222
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:306
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:307
+msgctxt "Setting formula argument"
+msgid "PRICE"
+msgstr "PRICE"
+
+#: view/settings.php:234 view/settings.php:258
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:234
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:258
+msgctxt "Setting option"
+msgid "source"
+msgstr "source"
+
+#: view/settings.php:281
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:281
+msgctxt "Setting button"
+msgid "Add"
+msgstr "Add"
+
+#: view/settings.php:284
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:284
+msgctxt "Setting desc"
+msgid "Here you can configure your price modification algorithm."
+msgstr "Here you can configure your price modification algorithm."
+
+#: view/settings.php:286
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:286
+msgctxt "Setting section"
+msgid "Price rules list"
+msgstr "Price rules list"
+
+#: view/settings.php:292
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:292
+msgctxt "Setting column"
+msgid "Module"
+msgstr "Module"
+
+#: view/settings.php:293
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:293
+msgctxt "Setting column"
+msgid "Category"
+msgstr "Category"
+
+#: view/settings.php:294
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:294
+msgctxt "Setting column"
+msgid "Price"
+msgstr "Price"
+
+#: view/settings.php:295
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:295
+msgctxt "Setting column"
+msgid "New Price"
+msgstr "New Price"
+
+#: view/settings.php:296
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:296
+msgctxt "Setting column"
+msgid "Discount"
+msgstr "Discount"
+
+#: view/settings.php:319
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:319
+msgctxt "Setting formula argument"
+msgid "source"
+msgstr "source"
+
+#: view/settings.php:324
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:324
+msgctxt "Setting button"
+msgid "Edit"
+msgstr "Edit"
+
+#: view/settings.php:325
+#: _build/build/plugins/ebay_ali/WooImporter/view/settings.php:325
+msgctxt "Setting button"
+msgid "Delete"
+msgstr "Delete"
+
+#: includes/api/WPEAE_AbstractAccount.php:39
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/WPEAE_AbstractAccount.php:39
+msgctxt "Setting desc"
+msgid "Using Default "
+msgstr "Using Default"
+
+#: includes/api/WPEAE_AbstractAccount.php:39
+#: includes/api/WPEAE_AbstractAccount.php:41
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/WPEAE_AbstractAccount.php:39
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/WPEAE_AbstractAccount.php:41
+msgctxt "Setting button"
+msgid "[Change]"
+msgstr "[Change]"
+
+#: includes/api/WPEAE_AbstractAccount.php:41
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/WPEAE_AbstractAccount.php:41
+msgctxt "Setting desc"
+msgid "Using Custom "
+msgstr "Using Custom "
+
+#: includes/api/aliexpress/view/settings.php:5
+#: includes/api/ebay/view/settings.php:6
+#: includes/api/envato/view/settings.php:5
+#: includes/api/walmart/view/settings.php:5
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:5
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:6
+msgctxt "Setting title"
+msgid "Products per page"
+msgstr "Products per page"
+
+#: includes/api/aliexpress/view/settings.php:8
+#: includes/api/ebay/view/settings.php:9
+#: includes/api/envato/view/settings.php:8
+#: includes/api/walmart/view/settings.php:8
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:8
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:9
+#, php-format
+msgctxt "Setting desc"
+msgid "the maximum number of items is %d"
+msgstr "the maximum number of items is %d"
+
+#: includes/api/aliexpress/view/settings.php:12
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:12
+msgctxt "Setting title"
+msgid "Local Currency"
+msgstr "Local Currency"
+
+#: includes/api/aliexpress/view/settings.php:17
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:17
+msgctxt "Setting option"
+msgid "usd"
+msgstr "usd"
+
+#: includes/api/aliexpress/view/settings.php:18
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:18
+msgctxt "Setting option"
+msgid "rub"
+msgstr "rub"
+
+#: includes/api/aliexpress/view/settings.php:19
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:19
+msgctxt "Setting option"
+msgid "gbp"
+msgstr "gbp"
+
+#: includes/api/aliexpress/view/settings.php:20
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:20
+msgctxt "Aliexpress setting option"
+msgid "brl"
+msgstr "brl"
+
+#: includes/api/aliexpress/view/settings.php:21
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:21
+msgctxt "Setting option"
+msgid "cad"
+msgstr "cad"
+
+#: includes/api/aliexpress/view/settings.php:22
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:22
+msgctxt "Setting option"
+msgid "aud"
+msgstr "aud"
+
+#: includes/api/aliexpress/view/settings.php:23
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:23
+msgctxt "Setting option"
+msgid "eur"
+msgstr "eur"
+
+#: includes/api/aliexpress/view/settings.php:24
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:24
+msgctxt "Setting option"
+msgid "inr"
+msgstr "inr"
+
+#: includes/api/aliexpress/view/settings.php:25
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:25
+msgctxt "Setting option"
+msgid "uah"
+msgstr "uah"
+
+#: includes/api/aliexpress/view/settings.php:26
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:26
+msgctxt "Setting option"
+msgid "jpy"
+msgstr "jpy"
+
+#: includes/api/aliexpress/view/settings.php:27
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:27
+msgctxt "Setting option"
+msgid "mxn"
+msgstr "mxn"
+
+#: includes/api/aliexpress/view/settings.php:28
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:28
+msgctxt "Setting option"
+msgid "idr"
+msgstr "idr"
+
+#: includes/api/aliexpress/view/settings.php:29
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:29
+msgctxt "Setting option"
+msgid "try"
+msgstr "try"
+
+#: includes/api/aliexpress/view/settings.php:30
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:30
+msgctxt "Setting option"
+msgid "sek"
+msgstr "sek"
+
+#: includes/api/aliexpress/view/settings.php:38
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:38
+msgctxt "Setting title"
+msgid "Forbidden phrases"
+msgstr "Forbidden phrases"
+
+#: includes/api/aliexpress/view/settings.php:44
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:44
+msgctxt "Setting \"Forbidden Word\" desc 1"
+msgid "Example:"
+msgstr "Example:"
+
+#: includes/api/aliexpress/view/settings.php:45
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:45
+msgctxt "Setting \"Forbidden Word\" desc 2"
+msgid " aliexpress, china, shipping method"
+msgstr " aliexpress, china, shipping method"
+
+#: includes/api/aliexpress/view/settings.php:46
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:46
+msgctxt "Setting \"Forbidden Word\" desc 3"
+msgid "Please note, word is case-insensative."
+msgstr "Please note, word is case-insensative."
+
+#: includes/api/aliexpress/view/settings.php:47
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:47
+msgctxt "Setting \"Forbidden Word\" desc 4"
+msgid "It checks Product title and description, review`s text"
+msgstr "It checks Product title and description, review`s text"
+
+#: includes/api/aliexpress/view/settings.php:48
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:48
+msgctxt "Setting \"Forbidden Word\" desc 5"
+msgid "if Review Add-on installed"
+msgstr "if Review Add-on installed"
+
+#: includes/api/aliexpress/view/settings.php:49
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:49
+msgctxt "Setting \"Forbidden Word\" desc 6"
+msgid " and shipping method name "
+msgstr " and shipping method name "
+
+#: includes/api/aliexpress/view/settings.php:50
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:50
+msgctxt "Setting \"Forbidden Word\" desc 7"
+msgid "Shipping Add-on installed"
+msgstr "Shipping Add-on installed"
+
+#: includes/api/aliexpress/view/settings.php:58
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:58
+msgctxt "Setting title"
+msgid "Convert all links from description to affiliate links"
+msgstr "Convert all links from description to affiliate links"
+
+#: includes/api/aliexpress/view/settings.php:62
+#: includes/api/amazon/view/settings.php:27
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:62
+msgctxt "Setting title"
+msgid "Import Description"
+msgstr "Import Description"
+
+#: includes/api/aliexpress/view/settings.php:66
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/aliexpress/view/settings.php:66
+msgctxt "Setting title"
+msgid "Https image url"
+msgstr "Https image url"
+
+#: includes/api/amazon/view/settings.php:5
+msgctxt "Setting title"
+msgid "Default site"
+msgstr "Default site"
+
+#: includes/api/amazon/view/settings.php:9
+msgctxt "Setting option"
+msgid "com"
+msgstr "com"
+
+#: includes/api/amazon/view/settings.php:10
+msgctxt "Setting option"
+msgid "de"
+msgstr "de"
+
+#: includes/api/amazon/view/settings.php:11
+msgctxt "Setting option"
+msgid "co.uk"
+msgstr "co.uk"
+
+#: includes/api/amazon/view/settings.php:12
+msgctxt "Setting option"
+msgid "ca"
+msgstr "ca"
+
+#: includes/api/amazon/view/settings.php:13
+msgctxt "Setting option"
+msgid "fr"
+msgstr "fr"
+
+#: includes/api/amazon/view/settings.php:14
+msgctxt "Setting option"
+msgid "co.jp"
+msgstr "co.jp"
+
+#: includes/api/amazon/view/settings.php:15
+msgctxt "Setting option"
+msgid "it"
+msgstr "it"
+
+#: includes/api/amazon/view/settings.php:16
+msgctxt "Setting option"
+msgid "cn"
+msgstr "cn"
+
+#: includes/api/amazon/view/settings.php:17
+msgctxt "Setting option"
+msgid "es"
+msgstr "es"
+
+#: includes/api/amazon/view/settings.php:18
+msgctxt "Setting option"
+msgid "in"
+msgstr "in"
+
+#: includes/api/amazon/view/settings.php:31
+msgctxt "Setting title"
+msgid "Default condition"
+msgstr "Default condition"
+
+#: includes/api/amazon/view/settings.php:36
+msgctxt "Setting option"
+msgid "New"
+msgstr "New"
+
+#: includes/api/amazon/view/settings.php:37
+msgctxt "Setting option"
+msgid "Used"
+msgstr "Used"
+
+#: includes/api/amazon/view/settings.php:38
+msgctxt "Setting option"
+msgid "Collectible"
+msgstr "Collectible"
+
+#: includes/api/amazon/view/settings.php:39
+msgctxt "Setting option"
+msgid "Refurbished"
+msgstr "Refurbished"
+
+#: includes/api/amazon/view/settings.php:40
+msgctxt "Setting option"
+msgid "All"
+msgstr "All"
+
+#: includes/api/ebay/view/settings.php:14
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:14
+msgctxt "Setting title"
+msgid "Use sub categories"
+msgstr "Use sub categories"
+
+#: includes/api/ebay/view/settings.php:19
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:19
+msgctxt "Setting section"
+msgid "Affiliate setting"
+msgstr "Affiliate setting"
+
+#: includes/api/ebay/view/settings.php:22
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:22
+msgctxt "Setting title"
+msgid "CustomId"
+msgstr "CustomId"
+
+#: includes/api/ebay/view/settings.php:28
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:26
+msgctxt "Setting title"
+msgid "geoTargeting"
+msgstr "geoTargeting"
+
+#: includes/api/ebay/view/settings.php:32
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:30
+msgctxt "Setting title"
+msgid "Network_id"
+msgstr "Network_id"
+
+#: includes/api/ebay/view/settings.php:36
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:34
+msgctxt "Setting option"
+msgid "Be Free"
+msgstr "Be Free"
+
+#: includes/api/ebay/view/settings.php:37
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:35
+msgctxt "Setting option"
+msgid "Affilinet"
+msgstr "Affilinet"
+
+#: includes/api/ebay/view/settings.php:38
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:36
+msgctxt "Setting option"
+msgid "TradeDoubler"
+msgstr "TradeDoubler"
+
+#: includes/api/ebay/view/settings.php:39
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:37
+msgctxt "Setting option"
+msgid "Mediaplex"
+msgstr "Mediaplex"
+
+#: includes/api/ebay/view/settings.php:40
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:38
+msgctxt "Setting option"
+msgid "DoubleClick"
+msgstr "DoubleClick"
+
+#: includes/api/ebay/view/settings.php:41
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:39
+msgctxt "Setting option"
+msgid "Allyes"
+msgstr "Allyes"
+
+#: includes/api/ebay/view/settings.php:42
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:40
+msgctxt "Setting option"
+msgid "BJMT"
+msgstr "BJMT"
+
+#: includes/api/ebay/view/settings.php:43
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:41
+msgctxt "Setting option"
+msgid "eBay Partner Network"
+msgstr "eBay Partner Network"
+
+#: includes/api/ebay/view/settings.php:48
+#: _build/build/plugins/ebay_ali/WooImporter/includes/api/ebay/view/settings.php:46
+msgctxt "Setting title"
+msgid "TrackingId"
+msgstr "TrackingId"
+
+#: includes/api/ebay/view/settings.php:49
+msgctxt "Setting desc"
+msgid ""
+"Specify the affiliate value obtained from your tracking partner. For the "
+"eBay Partner Network, the tracking ID is the provided Campaign ID "
+"(\"campid\"). A Campaign ID is a unique 10-digit number used for associating "
+"traffic and is valid across all programs to which you have been accepted. "
+"Another example of this value is the Affiliate ID given to you by "
+"TradeDoubler."
+msgstr ""
+"Specify the affiliate value obtained from your tracking partner. For the "
+"eBay Partner Network, the tracking ID is the provided Campaign ID "
+"(\"campid\"). A Campaign ID is a unique 10-digit number used for associating "
+"traffic and is valid across all programs to which you have been accepted. "
+"Another example of this value is the Affiliate ID given to you by "
+"TradeDoubler."
+
+#. Description of the plugin
+msgid ""
+"It`s a plugin that used to import products from eBay, Aliexpress, Amazon, "
+"Walmart into Wordpress website. The plugin is helpful to create a store with "
+"specific products and use affiliate URLs."
+msgstr ""
+"It`s a plugin that used to import products from eBay, Aliexpress, Amazon, "
+"Walmart into Wordpress website. The plugin is helpful to create a store with "
+"specific products and use affiliate URLs."

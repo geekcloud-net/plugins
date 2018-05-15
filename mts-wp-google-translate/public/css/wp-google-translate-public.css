@@ -1,0 +1,30 @@
+
+body #mts_google_translate { display: none; height: 1px; width: 1px; }
+aside #mts_google_translate, sidebar #mts_google_translate, .sidebar #mts_google_translate, footer #mts_google_translate, .footer #mts_google_translate, #footer #mts_google_translate { height: auto; width: auto; }
+#site-content #mts_google_translate { display: none }
+aside#sidebar #mts_google_translate, footer #mts_google_translate, header #mts_google_translate { display: block }
+#mts_google_translate { background-color: transparent }
+#mts_google_translate select.goog-te-combo { width: 100% }
+/**Hide the actual Google Translate Item**/
+#google_translate_element { display: none }
+/**Style the select button**/
+#mts-language-btn { position: fixed; right: 5px; top: 5px; width: 175px; text-align: center; left: inherit; background: #f1f1f1; padding: 4px 10px; font-weight: bold; cursor: pointer; z-index: 500000; box-sizing: border-box;}
+#mts-language-btn.inactive { display: none }
+.mts-languages.active { display: block }
+/**Style the new language list**/
+.mts-languages { display: none; position: fixed; width: 175px; background: #f1f1f1; /*    overflow-y: scroll;*/ height: 100%; z-index: 500000; }
+.mts-languages ol { margin: 0; padding: 0; list-style: none; }
+.mts-languages ol li a { display: block; text-decoration: none; padding: 5px 0px; padding-left: 15px; border-bottom: solid 1px #ccc; color: #666; }
+.mts-languages span { width: 22px; height: 16px; display: block; float: left; margin-right: 10px; margin-top: 2px; }
+.mts-languages .viewport .overview{ position: absolute; }
+/* Tiny Scrollbar */
+#scrollbar1 { width: 520px; margin: 20px 0 10px; }
+#scrollbar1 .viewport { width: 500px; height: 200px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+#scrollbar1 .scrollbar { background: transparent url(images/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+#scrollbar1 .track { background: transparent url(images/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width: 13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { background: transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+#scrollbar1 .thumb .end { background: transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+#scrollbar1 .disable { display: none }
+.noSelect { -ms-user-select: none; user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+body .widget #mts_google_translate { display: block; }

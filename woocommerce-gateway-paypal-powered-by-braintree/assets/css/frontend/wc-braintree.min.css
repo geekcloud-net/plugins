@@ -1,0 +1,189 @@
+/*
+WooCommerce Braintree SCSS
+Version 2.0.0
+
+Copyright (c) 2016-2018, Automattic, Inc.
+Licensed under the GNU General Public License v3.0
+http://www.gnu.org/licenses/gpl-3.0.html
+*/
+.woocommerce #wc_braintree_paypal_container button,
+.woocommerce #wc_braintree_paypal_container #braintree-paypal-button {
+  box-shadow: none;
+  margin-bottom: 10px;
+  background: none;
+  border: none; }
+
+.woocommerce #wc_braintree_paypal_container img {
+  float: none !important;
+  max-height: 100% !important; }
+
+.woocommerce #wc_braintree_paypal_container .wc-braintree-paypal-account {
+  padding: 1em 0;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb; }
+  .woocommerce #wc_braintree_paypal_container .wc-braintree-paypal-account .name {
+    display: inline-block;
+    margin-right: 0.5em;
+    font-weight: bold; }
+  .woocommerce #wc_braintree_paypal_container .wc-braintree-paypal-account .email {
+    opacity: 0.5; }
+  .woocommerce #wc_braintree_paypal_container .wc-braintree-paypal-account .cancel {
+    float: right; }
+
+.woocommerce #payment div.payment_method_braintree_credit_card label.sv-wc-payment-gateway-payment-form-saved-payment-method,
+.woocommerce #payment div.payment_method_braintree_credit_card label[for="wc-braintree-credit-card-use-new-payment-method"],
+.woocommerce #payment div.payment_method_braintree_credit_card label[for="wc-braintree-paypal-use-new-payment-method"],
+.woocommerce #payment div.payment_method_braintree_paypal label.sv-wc-payment-gateway-payment-form-saved-payment-method,
+.woocommerce #payment div.payment_method_braintree_paypal label[for="wc-braintree-credit-card-use-new-payment-method"],
+.woocommerce #payment div.payment_method_braintree_paypal label[for="wc-braintree-paypal-use-new-payment-method"] {
+  margin-left: 3px; }
+
+.woocommerce #payment div.payment_method_braintree_credit_card iframe {
+  margin: 0 0 0 6px; }
+
+.woocommerce #payment div.payment_method_braintree_credit_card div.form-row {
+  padding: 3px; }
+
+.woocommerce #payment div.payment_method_braintree_credit_card .wc-braintree-hosted-field {
+  height: 3em;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: border-color 160ms;
+  -webkit-transition: border-color 160ms;
+  background-color: white; }
+
+.woocommerce #payment div.payment_method_braintree_credit_card .wc-braintree-hosted-field-card-number {
+  background-image: url("../../../lib/skyverge/woocommerce/payment-gateway/assets/images/card-cc-plain.svg");
+  background-repeat: no-repeat;
+  background-position: 99%;
+  background-size: 50px 31px; }
+  .woocommerce #payment div.payment_method_braintree_credit_card .wc-braintree-hosted-field-card-number.card-type-visa {
+    background-image: url("../../../lib/skyverge/woocommerce/payment-gateway/assets/images/card-visa.svg"); }
+  .woocommerce #payment div.payment_method_braintree_credit_card .wc-braintree-hosted-field-card-number.card-type-master-card {
+    background-image: url("../../../lib/skyverge/woocommerce/payment-gateway/assets/images/card-mastercard.svg"); }
+  .woocommerce #payment div.payment_method_braintree_credit_card .wc-braintree-hosted-field-card-number.card-type-american-express {
+    background-image: url("../../../lib/skyverge/woocommerce/payment-gateway/assets/images/card-amex.svg"); }
+  .woocommerce #payment div.payment_method_braintree_credit_card .wc-braintree-hosted-field-card-number.card-type-diners-club {
+    background-image: url("../../../lib/skyverge/woocommerce/payment-gateway/assets/images/card-dinersclub.svg"); }
+  .woocommerce #payment div.payment_method_braintree_credit_card .wc-braintree-hosted-field-card-number.card-type-maestro {
+    background-image: url("../../../lib/skyverge/woocommerce/payment-gateway/assets/images/card-maestro.svg"); }
+  .woocommerce #payment div.payment_method_braintree_credit_card .wc-braintree-hosted-field-card-number.card-type-jcb {
+    background-image: url("../../../lib/skyverge/woocommerce/payment-gateway/assets/images/card-jcb.svg"); }
+  .woocommerce #payment div.payment_method_braintree_credit_card .wc-braintree-hosted-field-card-number.card-type-discover {
+    background-image: url("../../../lib/skyverge/woocommerce/payment-gateway/assets/images/card-discover.svg"); }
+  .woocommerce #payment div.payment_method_braintree_credit_card .wc-braintree-hosted-field-card-number.card-type-invalid {
+    background-image: url("../../../lib/skyverge/woocommerce/payment-gateway/assets/images/card-cc-invalid.svg"); }
+  @media only screen and (max-width: 320px) {
+    .woocommerce #payment div.payment_method_braintree_credit_card .wc-braintree-hosted-field-card-number {
+      background-image: none; } }
+
+.woocommerce #payment div.payment_method_braintree_credit_card .braintree-hosted-fields-focused {
+  box-shadow: 0 0 .1875em #3498db; }
+  .woocommerce #payment div.payment_method_braintree_credit_card .braintree-hosted-fields-focused.braintree-hosted-fields-valid {
+    box-shadow: 0 0 .1875em #69bf29; }
+  .woocommerce #payment div.payment_method_braintree_credit_card .braintree-hosted-fields-focused.braintree-hosted-fields-invalid {
+    box-shadow: 0 0 .1875em #69bf29; }
+
+.woocommerce #payment div.payment_method_braintree_credit_card .braintree-hosted-fields-valid {
+  border-color: #69bf29; }
+
+.woocommerce #payment div.payment_method_braintree_credit_card .braintree-hosted-fields-invalid {
+  border-color: #a00; }
+
+#wc-braintree-credit-card-3dsecure-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 3000;
+  cursor: pointer; }
+  #wc-braintree-credit-card-3dsecure-container iframe {
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: white;
+    padding: 1em;
+    box-sizing: content-box;
+    border-radius: 5px; }
+
+#add_payment_method ul.payment_methods li {
+  list-style-type: none; }
+  #add_payment_method ul.payment_methods li label[for="payment_method_braintree_credit_card"],
+  #add_payment_method ul.payment_methods li label[for="payment_method_braintree_paypal"] {
+    line-height: 2.3em; }
+  #add_payment_method ul.payment_methods li input[type="radio"]#payment_method_braintree_credit_card,
+  #add_payment_method ul.payment_methods li input[type="radio"]#payment_method_braintree_paypal {
+    margin-left: 5px; }
+  #add_payment_method ul.payment_methods li img {
+    vertical-align: middle;
+    margin: 3px 0 0 .5em;
+    padding: 0;
+    position: relative;
+    box-shadow: none; }
+    #add_payment_method ul.payment_methods li img + img {
+      margin-left: 2px; }
+  #add_payment_method ul.payment_methods li #braintree-paypal-loggedout img {
+    max-height: none;
+    margin: 0; }
+
+.sv-wc-payment-gateway-my-payment-methods-table-title {
+  clear: both;
+  margin: 1.5em 0; }
+  .sv-wc-payment-gateway-my-payment-methods-table-title h2 {
+    display: inline; }
+  .sv-wc-payment-gateway-my-payment-methods-table-title a.button {
+    float: right;
+    line-height: 1.5;
+    padding-left: .8em;
+    padding-right: .8em; }
+    .sv-wc-payment-gateway-my-payment-methods-table-title a.button:before {
+      margin-right: 5px; }
+
+table.sv-wc-payment-gateway-my-payment-methods-table {
+  font-size: 0.85em; }
+  table.sv-wc-payment-gateway-my-payment-methods-table th, table.sv-wc-payment-gateway-my-payment-methods-table td {
+    vertical-align: middle; }
+  table.sv-wc-payment-gateway-my-payment-methods-table .button {
+    white-space: nowrap; }
+  table.sv-wc-payment-gateway-my-payment-methods-table .sv-wc-payment-gateway-payment-method-title img {
+    width: 40px;
+    height: 25px;
+    vertical-align: middle;
+    margin: 0;
+    display: inline !important; }
+  table.sv-wc-payment-gateway-my-payment-methods-table td.sv-wc-payment-gateway-payment-method-actions {
+    text-align: right; }
+    table.sv-wc-payment-gateway-my-payment-methods-table td.sv-wc-payment-gateway-payment-method-actions .button {
+      margin: .125em 0 .125em .25em; }
+  table.sv-wc-payment-gateway-my-payment-methods-table tr.sv-wc-payment-gateway-my-payment-methods-type-divider td {
+    font-weight: 700; }
+
+@media screen and (min-width: 768px) {
+  table.sv-wc-payment-gateway-my-payment-methods-table .wc-braintree-payment-method-icon {
+    width: 60px;
+    padding: 0 0 0 0.7415em; }
+  table.sv-wc-payment-gateway-my-payment-methods-table th.wc-braintree-payment-method-icon span {
+    display: none; }
+  table.sv-wc-payment-gateway-my-payment-methods-table .wc-braintree-payment-method-title {
+    padding-left: 0; } }
+
+@media screen and (max-width: 768px) {
+  table.sv-wc-payment-gateway-my-payment-methods-table td.wc-braintree-payment-method-icon img {
+    float: right; }
+  table.sv-wc-payment-gateway-my-payment-methods-table td.sv-wc-payment-gateway-payment-method-actions {
+    text-align: left; }
+    table.sv-wc-payment-gateway-my-payment-methods-table td.sv-wc-payment-gateway-payment-method-actions:before {
+      display: none; }
+    table.sv-wc-payment-gateway-my-payment-methods-table td.sv-wc-payment-gateway-payment-method-actions .button {
+      float: none;
+      margin: .125em .25em .125em 0; }
+  table.sv-wc-payment-gateway-my-payment-methods-table tr.sv-wc-payment-gateway-my-payment-methods-type-divider td:before {
+    display: none; } }

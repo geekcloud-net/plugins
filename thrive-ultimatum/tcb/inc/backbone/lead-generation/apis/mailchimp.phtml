@@ -1,0 +1,50 @@
+<div class="api-field">
+	<div class="field-description">
+		<?php echo __( 'Choose your mailing list', 'thrive-cb' ); ?>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-9">
+			<select class="api-list mailchimp-api-list">
+				<# _.each(api.get('lists'), function(item) { #>
+				<#= TVE.tpl( 'util/option', {value:item.id, selected: (api.getConfig('list') == item.id), text: item.name}) #>
+				<# } ) #>
+			</select>
+		</div>
+
+		<div class="col-xs-3">
+			<button type="button" class="button-link blue tcb-right click" data-fn="forceGet">
+				<?php echo __( 'Reload Lists', 'thrive-cb' ); ?>
+			</button>
+		</div>
+	</div>
+</div>
+
+<div id="thrive-api-groups" class="api-field" style="position: relative;">
+	<# var groupin = api.get('groupin') #>
+	<div class="field-description margin-top-10 margin-bottom-10 "><?php echo __( 'Choose your grouping:', 'thrive-cb' ) ?></div>
+	<select class="tve-api-extra" id="thrive-api-groupin-select" name="groupin"></select>
+</div>
+
+<div class="tve-groups-wrapper api-field"></div>
+
+<div class="api-field">
+	<div class="field-description margin-top-10 margin-bottom-10">
+		<?php echo __( 'Choose the type of optin you would like for the Mailchimp integration', 'thrive-cb' ) ?>
+	</div>
+
+	<select class="tve-api-extra tl-api-connection-list" name="optin">
+		<#= TVE.tpl( 'util/option', {value:'s', selected: (api.getConfig('optin') === 's'), text: '<?php echo __( 'Single optin', 'thrive-cb' ) ?>'}) #>
+		<#= TVE.tpl( 'util/option', {value:'d', selected: (api.getConfig('optin') === 'd'), text: '<?php echo __( 'Double optin', 'thrive-cb' ) ?>'}) #>
+	</select>
+
+	<div class="field-description margin-top-10 margin-bottom-10">
+		<?php echo __( '(Double optin means your subscribers will need to confirm their email address before being added to your list)', 'thrive-cb' ) ?>
+	</div>
+
+</div>
+
+
+
+
+

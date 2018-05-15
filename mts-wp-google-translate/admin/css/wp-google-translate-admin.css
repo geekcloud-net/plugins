@@ -1,0 +1,38 @@
+#color-options th { font-size: 14px }
+#color-options td { line-height: 37px }
+#color-options td label { font-size: 12px }
+.form-row { float: left; width: 100%; clear: both; }
+.mtsnb-colors-loader { margin-bottom: 12px }
+.mtsnb-tabs *, .mtsnb-tabs *:before, .mtsnb-tabs *:after { box-sizing: border-box }
+.select2-container { width: 100%!important }
+.select2-container .select2-choice { display: block; height: 26px; padding: 0 0 0 8px; overflow: hidden; position: relative; border: 1px solid #aaa; white-space: nowrap; line-height: 26px; color: #444; text-decoration: none; border-radius: 4px; background-clip: padding-box; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; background-color: #fff; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#eeeeee', GradientType = 0); background-image: linear-gradient(to top, #eee 0%, #fff 50%); }
+.select2-container.select2-allowclear .select2-choice .select2-chosen { margin-right: 42px }
+.select2-container .select2-choice > .select2-chosen { margin-right: 26px; display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; float: none; width: auto; }
+.select2-container.select2-allowclear .select2-choice abbr { display: inline-block }
+.select2-container .select2-choice abbr { display: none; nowhitespace: afterproperty; width: 12px; height: 12px; position: absolute; right: 24px; top: 8px; font-size: 1px; text-decoration: none; border: 0; /*background: url('../img/select2.png') right top no-repeat;*/ cursor: pointer; outline: 0; ; }
+.mtsnb-tabs input[type="text"]:not(.wp-color-picker), .mtsnb-tabs input[type="number"], .mtsnb-tabs select, .mtsnb-tabs textarea { font-size: 15px; color: #aaaaaa; line-height: 22px; padding: 9px 20px; background: #ffffff; margin: 0; border: 1px solid #eaebec; outline: none!important; box-shadow: none!important; }
+.select2-offscreen, .select2-offscreen:focus { clip: rect(0 0 0 0) !important; width: 1px !important; height: 1px !important; border: 0 !important; margin: 0 !important; padding: 0 !important; overflow: hidden !important; position: absolute !important; outline: 0 !important; left: 0px !important; top: 0px !important; }
+.select2-container { width: 100%!important }
+.select2-hidden-accessible { width: 0!important }
+.select2-container--default .select2-selection--multiple .select2-selection__choice { color: #666666 }
+.select2-container--default .select2-search--inline .select2-search__field { box-shadow: none; padding-top: 0; padding-bottom: 0; }
+.text-center { text-align: center }
+.mtsnb-move { cursor: move; padding: 5px; }
+.mtsnb-social-div { margin-left: 30px!important }
+.mtsnb-colors-loader { margin-bottom: 12px }
+.mtsnb-palettes { display: none }
+.mtsnb-colors-loader .color-palette { max-width: 300px; height: 40px; margin-top: 12px; border: 1px solid #ccc; }
+.single-palette { position: relative; clear: both; }
+.single-palette .mtsnb-load-palette { display: none }
+.single-palette:hover .mtsnb-load-palette { display: block; position: absolute; top: 6px; left: 6px; }
+.select2-results .color-palette { margin: 10px 0 5px; border: 1px solid #ccc; }
+.form-table, .form-table td, .form-table td p, .form-table th, .form-wrap label { font-size: 13px }
+.wp-picker-holder { position: absolute; z-index: 100; }
+span.wp-picker-input-wrap { position: absolute }
+.wp-picker-clear { position: relative; top: 7px; }
+#translate_preview_button { cursor: pointer }
+.ui-tabs-nav { margin-bottom: -10px; float: left; width: 100%; z-index: 100; position: relative; }
+.ui-tabs-nav li { display: inline-block; float: left; margin: 0; }
+.ui-tabs-nav li a { border: 0; width: 100%; background: #555; color: #FFF; padding: 15px 20px; font-size: 15px; text-decoration: none; box-sizing: border-box; float: left; outline: 0; box-shadow: none; }
+.ui-tabs-nav li.ui-state-active a { background: #45BBE6;}
+.postbox .inside { padding: 0 20px; margin-bottom: 20px; }

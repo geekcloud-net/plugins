@@ -1,0 +1,25 @@
+<div class="tvd-row tvd-collapse tvd-no-mb">
+	<div class="tvd-col tvd-s4">
+		<span class="tvu-vertical-align">
+			<#=design.get( 'post_title' )#>
+		</span>
+	</div>
+	<div class="tvd-col tvd-s2 tvd-center-align">
+		<span class="tvu-vertical-align">
+			<input id="event-design-<#=design.get('ID')#>" type="checkbox" class="tvu-event-design-display" value="1"<#=design.get( 'event_display' ) ? ' checked' : ''#>>
+			<label style="padding-left: 20px;" for="event-design-<#=design.get('ID')#>"></label>
+		</span>
+	</div>
+	<div class="tvd-col tvd-s6">
+		<div class="tvd-no-margin tvu-event-design-state-container"<#=design.get( 'event_display' ) ? '' : ' style="display:none"'#>>
+			<select class="tvu-event-design-state">
+				<option value="<#=design.get( 'ID' )#>" <#=design.get( 'event_state_selected' ) ? ' selected' : ''#>> [ <?php echo __( 'Main State', TVE_Ult_Const::T ) ?> ]</option>
+					<# if ( design.get( 'children' ) ) { #>
+						<# design.get( 'children' ).each( function ( state ) { #>
+							<option value="<#=state.get( 'ID' )#>" <#=design.get( 'event_state' ) === state.get( 'ID' ) ? ' selected' : ''#>><#=state.get( 'post_title' ) #></option>
+									<# } ); #>
+										<# } #>
+			</select>
+		</div>
+	</div>
+</div>

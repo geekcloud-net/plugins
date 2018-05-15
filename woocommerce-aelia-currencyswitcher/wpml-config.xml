@@ -1,0 +1,9 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">_regular_currency_prices</custom-field>
+		<custom-field action="copy">_sale_currency_prices</custom-field>
+		<custom-field action="copy">variable_regular_currency_prices</custom-field>
+		<custom-field action="copy">variable_sale_currency_prices</custom-field>
+		<custom-field action="copy">_product_base_currency</custom-field>
+	</custom-fields>
+</wpml-config>

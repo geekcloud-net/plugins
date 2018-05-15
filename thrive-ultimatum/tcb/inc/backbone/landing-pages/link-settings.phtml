@@ -1,0 +1,14 @@
+<div class="tve-control" data-view="ButtonGroup" data-key="LinkStates"></div>
+<# _.each( LINK_STATES, function( config ) { #>
+<div class="link-state link-state-<#=config.value#>"<#=config.value === 'default' ? '' : ' style="display: none"' #>>
+<hr style="margin: 0 0 10px 0">
+<div class="tve-control" data-key="ColorPicker-<#=config.value#>" data-view="ColorPicker"></div>
+<hr>
+<div class="row">
+	<div class="col-xs-6">
+		<div class="tve-control" data-key="TextStyle-<#=config.value#>" data-view="ButtonGroup"></div>
+	</div>
+	<div class="col-xs-6"></div>
+</div>
+</div>
+<# } ); #>

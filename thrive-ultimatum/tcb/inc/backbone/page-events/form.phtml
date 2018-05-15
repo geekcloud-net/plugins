@@ -1,0 +1,54 @@
+<# if ( this.can_add_events() ) { #>
+<div class="form-state state-default tcb-text-right" style="display: none">
+	<button type="button" class="tve-button continue medium green click" data-fn="add_event">
+		<?php echo __( 'Add event', 'thrive-cb' ) ?>
+	</button>
+</div>
+<# } #>
+<# if ( this.model ) { #>
+	<div class="form-state state-trigger" style="display: none">
+		<h3 class="subtitle"><?php echo __( 'Step 1: Select your Trigger', 'thrive-cb' ) ?></h3>
+		<div class="row margin-top-20" id="form-triggers">
+			<# _.each( this.get_triggers(), function( trigger, key ) { #>
+				<div class="col-xs-3">
+					<div class="evt-trigger tcb-text-center item-box click form-select-item<#=this.model.t == key ? ' selected' : ''#>" data-fn="item_select" data-field="t" data-item="<#=key#>">
+						<#= TVE.icon( trigger.icon ) #>
+						<div class="trigger-name"><#= trigger.label #></div>
+					</div>
+				</div>
+			<# }, this ) #>
+		</div>
+		<div id="trigger-settings" class="margin-top-30"></div>
+		<div class="row form-step-action">
+			<div class="col-xs-6">
+				<button type="button" class="tcb-left tve-button medium text-only grey click" data-fn="trigger_cancel"><?php echo __( 'Cancel', 'thrive-cb' ) ?></button>
+			</div>
+			<div class="col-xs-6">
+				<button type="button" style="display: none" class="tcb-right tve-button continue medium green click" data-fn="trigger_continue"><?php echo __( 'Continue', 'thrive-cb' ) ?></button>
+			</div>
+		</div>
+
+	</div>
+	<div class="form-state state-action" style="display: none">
+		<h3 class="subtitle"><?php echo __( 'Step 2: Set the action for the trigger', 'thrive-cb' ) ?></h3>
+		<div class="row middle-xs" id="form-actions">
+			<# _.each( this.get_actions(), function( action, key ) { #>
+				<div class="col-xs-3">
+					<div class="item-box evt-trigger click tcb-text-center form-select-item<#=this.model.a == key ? ' selected' : ''#><#= action.disabled ? ' tve-disabled' : '' #>" data-fn="item_select" data-field="a" data-item="<#=key#>"<#= action.disabled ? ' title="<?php echo __( 'This is only available if you have Thrive Leads installed and activated', 'thrive-cb' ) ?>"' : ''#>>
+						<#= TVE.icon( action.icon ) #>
+						<div class="trigger-name"><#= action.label #></div>
+					</div>
+				</div>
+			<# }, this ) #>
+		</div>
+		<div id="action-settings" class="margin-top-30"></div>
+		<div class="row form-step-action">
+			<div class="col-xs-6">
+				<button type="button" class="tcb-left tve-button medium grey text-only click" data-fn="action_cancel"><?php echo __( 'Back', 'thrive-cb' ) ?></button>
+			</div>
+			<div class="col-xs-6">
+				<button type="button" style="display: none" class="tcb-right tve-button continue medium green click" data-fn="action_continue"><?php echo __( 'Save', 'thrive-cb' ) ?></button>
+			</div>
+		</div>
+	</div>
+<# } #>

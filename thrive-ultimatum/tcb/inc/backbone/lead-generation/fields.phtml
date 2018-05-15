@@ -1,0 +1,46 @@
+<h3>
+	<?php echo __( 'Form Fields', 'thrive-cb' ); ?>
+</h3>
+
+<div class="row middle-xs api-form-field margin-bottom-20">
+	<div class="form-field col-xs-12">
+		<div class="tvd-input-field">
+			<input type="text" id="email-field" required="" class="change" data-fn="placeholderChange" data-id="email">
+			<label for="email-field"><?php echo __( 'Email', 'thrive-cb' ); ?></label>
+		</div>
+	</div>
+	<div class="col-xs-12">
+		<label class="tcb-checkbox disabled">
+			<input class="tve-checkbox" type="checkbox" value="required" checked="checked" disabled="disabled"/>
+			<span>
+				<?php echo __( 'Required', 'thrive-cb' ); ?>
+			</span>
+		</label>
+	</div>
+</div>
+
+<div class="custom-fields">
+
+</div>
+
+<div class="api-fields-add">
+
+</div>
+
+<h4 class="connections-notification margin-top-20">
+	<?php echo __( "Warning! You're about to connect more than one api to the form. Only email, name and phone fields will be available.", 'thrive-cb' ); ?>
+</h4>
+
+<div class="tcb-modal-footer clearfix padding-top-20 row end-xs">
+	<div class="col col-xs-6">
+		<button type="button" class="tcb-left tve-button grey click" data-fn="step" data-template="edit" data-next="0" data-api="<#= this.currentApi #>">
+			<?php echo __( 'Back', 'thrive-cb' ); ?>
+		</button>
+	</div>
+
+	<div class="col col-xs-6">
+		<button type="button" class="tcb-right tve-button green click" data-fn="step" data-template="submit" data-next="1">
+			<?php echo __( 'Next', 'thrive-cb' ); ?>
+		</button>
+	</div>
+</div>

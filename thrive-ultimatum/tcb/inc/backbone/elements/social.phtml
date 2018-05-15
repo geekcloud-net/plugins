@@ -1,0 +1,8 @@
+<# if( config.show_count ) { #>
+<div class="tve_s_share_count tve-force-show"><span class="tve_s_cnt"><#=counts.total.formatted#></span> <?php echo __( 'shares', 'thrive-cb' ); ?></div>
+<# } #>
+<div class="tve_social_items tve_social_custom <#=config.style#> <#=config.button_type#>">
+<# _.each( config.selected, function( network ) { #><div class="tve_s_item tve_s_<#=network#>" data-s="<#=network#>" data-href="<#=config.share_url#>" data-label="<#=r.label(network)#>">
+	<a href="javascript:void(0)" class="tve_s_link"><span class="tve_s_icon"></span><span class="tve_s_text"><#=r.label(network)#></span><span class="tve_s_count"><#=counts[network] || '0' #></span></a>
+</div><# } ) #>
+</div>

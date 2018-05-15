@@ -1,0 +1,35 @@
+<h3><?php echo __( 'Post Opt-In Action', 'thrive-cb' ) ?></h3>
+
+<div id="tcb-lg-submit-options-wrapper" class="row"></div>
+<div class="autofill_inputs" style="display: none;"></div>
+<div id="tcb-lg-submit-options-form-wrapper" class="padding-top-40"></div>
+
+<div id="tcb-lg-success-message-editor" class="padding-top-40" style="display: none">
+
+	<div class="row">
+		<div class="col col-xs-11">
+			<div class="tvd-input-field">
+				<input type="text" id="tcb-success-message-input"/>
+			</div>
+		</div>
+		<div class="col col-xs-1">
+			<a href="javascript:void(0);" class="click" id="tcb-preview-success-message-icon" data-fn="preview_success_message"><?php tcb_icon( 'preview2' ); ?></a>
+		</div>
+	</div>
+
+	<!--	<textarea id="tcb-success-message-tinymce"></textarea>-->
+</div>
+
+<div class="tcb-modal-footer clearfix padding-top-20 row end-xs">
+	<div class="col col-xs-6">
+		<button type="button" class="tcb-left tve-button grey click" data-fn="step" data-template="fields" data-next="0">
+			<?php echo __( 'Back', 'thrive-cb' ); ?>
+		</button>
+	</div>
+
+	<div class="col col-xs-6">
+		<button type="button" class="tcb-right tve-button green click" data-fn="save">
+			<?php echo __( 'Save', 'thrive-cb' ); ?>
+		</button>
+	</div>
+</div>

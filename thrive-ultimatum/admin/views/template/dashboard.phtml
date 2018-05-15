@@ -1,0 +1,30 @@
+<h3 class="tvd-title"><?php echo __( 'Multi Page Campaigns', TVE_Ult_Const::T ) ?></h3>
+
+<div class="" id="tvu-no-campaign-text">
+	<p>
+		<?php echo sprintf(
+			__( "You don't have any campaigns set up yet. Click %s below to start setting up your first one or %s.", TVE_Ult_Const::T ),
+			'<strong>' . __( 'New Campaign', TVE_Ult_Const::T ) . '</strong>',
+			tve_ult_video( '7uxhxdhypn', __( 'watch a Quick Start Tutorial', TVE_Ult_Const::T ), '', false )
+		) ?>
+	</p>
+
+</div>
+
+<div class="tvd-v-spacer"></div>
+<div class="tvd-row" id="tvu-campaigns-list">
+	<div class="tvd-col tvd-s6 tvd-ms6 tvd-m4 tvd-l3 tvu-add-campaign tvd-pointer">
+		<div class="tvd-card tvd-large tvd-card-new tvd-valign-wrapper">
+			<div class="tvd-card-content tvd-valign tvd-center-align">
+				<i class="tvd-icon-plus tvd-icon-rounded tvd-icon-medium"></i>
+				<h4><?php echo __( 'New Campaign', TVE_Ult_Const::T ) ?></h4>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="tvd-row">
+	<a href="#dashboard/archived-campaigns" id="tvu-add-conversion-event"
+	   class="tvu-add-conversion-event tvd-btn tvd-btn-blue tvd-waves-effect tvd-waves-light tvd-margin-left">
+		<?php echo __( 'Archived campaigns', TVE_Ult_Const::T ) ?>
+	</a>
+</div>

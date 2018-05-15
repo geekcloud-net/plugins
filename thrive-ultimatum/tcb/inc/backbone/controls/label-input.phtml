@@ -1,0 +1,14 @@
+<#
+	var input_col_width =  12 - model.get('label_col_x');
+	if(input_col_width === 0){
+		input_col_width = 12;
+	}
+#>
+<div class="row middle-xs">
+	<div class="col-xs-<#= model.get('label_col_x') #>">
+		<span class="grey-text"><#= model.get('label') #></span>
+	</div>
+	<div class="col-xs-<#= input_col_width #>">
+		<input type="text" class="tve-input-control change" placeholder="<#= model.get('placeholder') #>" data-fn="changed" <#= model.get('extra_attrs') #>/>
+	</div>
+</div>

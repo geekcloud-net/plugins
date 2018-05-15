@@ -1,0 +1,37 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-24 18:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Name of the plugin
+msgid "Aelia Currency Switcher for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WooCommerce Currency Switcher. Allows to switch currency on the fly and "
+"perform all transactions in such currency."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://aelia.co/shop/currency-switcher-woocommerce/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Aelia"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://aelia.co"
+msgstr ""

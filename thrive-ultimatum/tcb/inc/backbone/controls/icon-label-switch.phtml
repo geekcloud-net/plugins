@@ -1,0 +1,21 @@
+<div class="row middle-xs">
+	<# if ( model.get( 'icon' ) ) { #>
+		<div class="col-xs-2">
+			<span class="click" data-fn="trigger_click"><#= model.get('icon') #></span>
+		</div>
+	<# } #>
+	<div class="col-xs-<#=model.get('icon') ? '4' : '8'#>">
+		<span class="click switch-label" data-fn="trigger_click"><#= model.get('device') #></span>
+	</div>
+	<div class="col-xs-<#=model.get('icon') ? '6' : '4'#>">
+		<div class="tcb-switch">
+			<label>
+				<# if ( model.get('switch_label') ) { #>
+					<span class="tcb-device-switch-label"><?php echo __( 'Visible', 'thrive-cb' ); ?></span>
+				<# } #>
+				<input class="change" data-fn="clicked" type="checkbox" checked>
+				<span class="tcb-lever"></span>
+			</label>
+		</div>
+	</div>
+</div>

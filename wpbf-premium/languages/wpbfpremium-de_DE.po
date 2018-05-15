@@ -1,0 +1,884 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Page Builder Framework Premium Addon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-09 07:36+0000\n"
+"PO-Revision-Date: 2018-04-09 07:47+0000\n"
+"Last-Translator: davidv <connect@mapsteps.com>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: wpbf-premium.php:131
+msgid "Page Builder Framework Premium Add-On."
+msgstr "Page Builder Framework Premium Add-On."
+
+#: wpbf-premium.php:132
+#, php-format
+msgid ""
+"Your License expires in <strong>%1s</strong>. <a href=\"%2s\" "
+"target=\"_blank\">Renew your license</a> to keep getting feature updates & "
+"premium support."
+msgstr ""
+"Deine Lizenz erlischt in <strong>%1s</strong>. <a href=\"%2s\" "
+"target=\"_blank\">Erneuere deine Lizenz</a> um weiterhin Updates & Support "
+"zu erhalten."
+
+#: wpbf-premium.php:143
+msgid ""
+"You need to activate the Page Builder Framework Theme for the Premium Addon "
+"to work!"
+msgstr ""
+"Das Page Builder Framework Theme muss aktiviert sein, damit das Premium "
+"Addon funktionieren kann!"
+
+#: wpbf-premium.php:152
+msgid ""
+"<span style=\"text-transform:uppercase; background: #dc3232; border-radius:"
+"3px; color: #fff; padding: 10px 15px; font-size: 12px; margin-right: 5px; "
+"display: inline-block;\">Caution!</span> Action required! Please update Page "
+"Builder Framework to the latest version. For help, please have a look at the "
+"<a href=\"https://wp-pagebuilderframework.com/docs/migration-guide/\" "
+"target=\"_blank\">migration guide</a>."
+msgstr ""
+"<span style=\"text-transform:uppercase; background: #dc3232; border-radius:"
+"3px; color: #fff; padding: 10px 15px; font-size: 12px; margin-right: 5px; "
+"display: inline-block;\">Achtung!</span> Update notwendig! Du nutzt eine "
+"ältere Version von Page Builder Framework. Bitte wirf einen Blick auf den <a "
+"href=\"https://wp-pagebuilderframework.com/docs/migration-guide/\" "
+"target=\"_blank\">Migration Guide</a>."
+
+#: wpbf-premium.php:163
+msgid ""
+"\">activate your license key</a> to receive updates for <strong>Page Builder "
+"Framework Premium Add-On.</strong> <a href=\"https://wp-pagebuilderframework."
+"com/docs/installation/\" target=\"_blank\">Help</a>"
+msgstr ""
+
+#: wpbf-premium.php:252
+msgid "Theme Settings"
+msgstr "Theme Einstellungen"
+
+#: inc/woocommerce.php:42
+msgid "Cart "
+msgstr "Warenkorb"
+
+#: inc/woocommerce.php:57
+msgid "Product/s"
+msgstr "Produkt/e"
+
+#: inc/woocommerce.php:58
+msgid "Quantity"
+msgstr "Anzahl"
+
+#: inc/woocommerce.php:91
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+#: inc/woocommerce.php:97
+msgid "Cart"
+msgstr "Warenkorb"
+
+#: inc/woocommerce.php:98
+msgid "Checkout"
+msgstr "Kasse"
+
+#: inc/settings/options.php:30 inc/settings/options.php:55
+#: inc/customizer/wpbf-kirki.php:91
+msgid "Transparent Header"
+msgstr "Transparenter Header"
+
+#: inc/settings/wpbf-global-settings.php:20
+msgid ""
+"Global Template Settings <a href=\"https://wp-pagebuilderframework."
+"com/docs/theme-settings/\" target=\"_blank\" title=\"Documentation\" "
+"class=\"dashicons dashicons-editor-help\"></a>"
+msgstr "Globale Template Einstellungen"
+
+#: inc/settings/wpbf-global-settings.php:21
+msgid ""
+"Performance Settings <a href=\"https://wp-pagebuilderframework."
+"com/docs/theme-settings/#performance\" target=\"_blank\" "
+"title=\"Documentation\" class=\"dashicons dashicons-editor-help\"></a>"
+msgstr ""
+"Performance Einstellungen <a href=\"https://wp-pagebuilderframework."
+"com/docs/theme-settings/#performance\" target=\"_blank\" "
+"title=\"Dokumentation\" class=\"dashicons dashicons-editor-help\"></a>"
+
+#: inc/settings/wpbf-global-settings.php:22
+msgid "Responsive Breakpoints"
+msgstr "Responsive Breakpoints"
+
+#: inc/settings/wpbf-global-settings.php:23
+msgid ""
+"White Label <a href=\"https://wp-pagebuilderframework.com/docs/theme-"
+"settings/#whitelabel\" target=\"_blank\" title=\"Documentation\" "
+"class=\"dashicons dashicons-editor-help\"></a> <p class=\"description\">For "
+"a white labeled child theme, check out the <a href=\"https://wp-"
+"pagebuilderframework.com/child-theme-generator/\" target=\"_blank\">Child "
+"Theme Generator</a>.</p>"
+msgstr ""
+
+#: inc/settings/wpbf-global-settings.php:26
+msgid "Full Width"
+msgstr "Volle Breite"
+
+#: inc/settings/wpbf-global-settings.php:27
+msgid "Remove Title"
+msgstr "Überschrift entfernen"
+
+#: inc/settings/wpbf-global-settings.php:28
+msgid "Performance Settings"
+msgstr "Performance Einstellungen"
+
+#: inc/settings/wpbf-global-settings.php:29
+msgid "Medium Devices"
+msgstr "Medium Devices"
+
+#: inc/settings/wpbf-global-settings.php:30 inc/customizer/wpbf-kirki.php:2193
+#: inc/customizer/wpbf-kirki.php:2241 inc/customizer/wpbf-kirki.php:2289
+#: inc/customizer/wpbf-kirki.php:2337 inc/customizer/wpbf-kirki.php:2385
+#: inc/customizer/wpbf-kirki.php:2433 inc/customizer/wpbf-kirki.php:2481
+msgid "Desktop"
+msgstr "Desktop"
+
+#: inc/settings/wpbf-global-settings.php:32
+msgid "Theme Name"
+msgstr "Theme Name"
+
+#: inc/settings/wpbf-global-settings.php:33
+msgid "Theme Description"
+msgstr "Theme Beschreibung"
+
+#: inc/settings/wpbf-global-settings.php:34
+msgid "Tags"
+msgstr "Tags"
+
+#: inc/settings/wpbf-global-settings.php:35
+msgid "Company Name"
+msgstr "Firmenname"
+
+#: inc/settings/wpbf-global-settings.php:36
+msgid "Company URL"
+msgstr "Firmen URL"
+
+#: inc/settings/wpbf-global-settings.php:37
+msgid "Screenshot"
+msgstr "Screenshot"
+
+#: inc/settings/wpbf-global-settings.php:160
+msgid "Remove Feed Links"
+msgstr "Entferne Feed Links"
+
+#: inc/settings/wpbf-global-settings.php:164
+msgid "Remove RSD"
+msgstr "RSD entfernen"
+
+#: inc/settings/wpbf-global-settings.php:168
+msgid "Remove wlwmanifest"
+msgstr "wlwmanifest entfernen"
+
+#: inc/settings/wpbf-global-settings.php:172
+msgid "Remove Generator"
+msgstr "Entferne Generator"
+
+#: inc/settings/wpbf-global-settings.php:176
+msgid "Remove Shortlink"
+msgstr "Entferne Shortlink"
+
+#: inc/settings/wpbf-global-settings.php:180
+msgid "Disable Emojis"
+msgstr "Emojis abschalten"
+
+#: inc/settings/wpbf-global-settings.php:184
+msgid "Disable Embeds"
+msgstr "Embeds abschalten"
+
+#: inc/settings/wpbf-global-settings.php:188
+msgid "Remove jQuery Migrate"
+msgstr "jQuery Migrate entfernen"
+
+#: inc/settings/wpbf-global-settings.php:192
+msgid "Disable RSS Feed"
+msgstr "RSS Feed abschalten"
+
+#: inc/settings/wpbf-global-settings.php:196
+msgid "Load Google Fonts asynchronously"
+msgstr "Google Fonts asynchron laden"
+
+#: inc/settings/wpbf-global-settings.php:215
+msgid "Default: above 768px for tablets."
+msgstr "Standard: über 768px for tablets."
+
+#: inc/settings/wpbf-global-settings.php:232
+msgid "Default: above 1024px for desktops."
+msgstr "Standard: über 1024px für desktops."
+
+#: inc/settings/wpbf-global-settings.php:355
+msgid "Recommended image size: 1200px x 900px"
+msgstr "Empfohlene Bildgröße: 1200px x 900px"
+
+#: inc/settings/wpbf-settings-template.php:53
+msgid "License Key"
+msgstr "Linzenzschlüssel"
+
+#: inc/settings/wpbf-settings-template.php:57
+msgid "Enter your Premium Add-On license key."
+msgstr "Trage deinen Premium Add-On Lizenzschlüssel ein."
+
+#: inc/settings/wpbf-settings-template.php:63
+#: inc/settings/wpbf-settings-template.php:72
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: inc/settings/wpbf-settings-template.php:67
+msgid "active"
+msgstr "aktiv"
+
+#: inc/settings/wpbf-settings-template.php:69
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: inc/integration/elementor.php:27
+msgid "Before Header"
+msgstr "Vor Header"
+
+#: inc/integration/elementor.php:36
+msgid "Pre Header"
+msgstr "Pre Header"
+
+#: inc/integration/elementor.php:46
+msgid "After Header"
+msgstr "Nach Header"
+
+#: inc/integration/elementor.php:64
+msgid "Before Footer"
+msgstr "Vor Footer"
+
+#: inc/integration/elementor.php:73
+msgid "After Footer"
+msgstr "Nach Footer"
+
+#: inc/integration/elementor.php:83
+msgid "Before Post"
+msgstr "Vor Post"
+
+#: inc/integration/elementor.php:92
+msgid "After Post"
+msgstr "Nach Post"
+
+#: inc/integration/elementor.php:102
+msgid "Before Sidebar"
+msgstr "Vor Sidebar"
+
+#: inc/integration/elementor.php:111
+msgid "After Sidebar"
+msgstr "Nach Sidebar"
+
+#: inc/customizer/customizer-functions.php:31
+msgid "Stacked (advanced)"
+msgstr "Gestapelt (fortgeschritten)"
+
+#: inc/customizer/customizer-functions.php:32
+msgid "Off Canvas (right)"
+msgstr "Off Canvas (rechts)"
+
+#: inc/customizer/customizer-functions.php:33
+msgid "Off Canvas (left)"
+msgstr "Off Canvas (links)"
+
+#: inc/customizer/customizer-functions.php:34
+msgid "Full Screen"
+msgstr "Full Screen"
+
+#: inc/customizer/customizer-functions.php:37
+#: inc/customizer/customizer-functions.php:48
+#: inc/customizer/wpbf-kirki.php:1461
+msgid "Custom Menu"
+msgstr "Eigenes Menü"
+
+#: inc/customizer/customizer-functions.php:45
+msgid "Off Canvas"
+msgstr "Off Canvas"
+
+#: inc/customizer/wpbf-kirki.php:29
+msgid "Header"
+msgstr "Header"
+
+#: inc/customizer/wpbf-kirki.php:36 inc/customizer/wpbf-kirki.php:1848
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/customizer/wpbf-kirki.php:45
+msgid "Typekit (beta)"
+msgstr "Typekit (beta)"
+
+#: inc/customizer/wpbf-kirki.php:54
+msgid "404 Layout"
+msgstr "404 Layout"
+
+#: inc/customizer/wpbf-kirki.php:61
+msgid "Social Media Links"
+msgstr "Social Media Links"
+
+#: inc/customizer/wpbf-kirki.php:68 inc/customizer/wpbf-kirki.php:127
+msgid "Social Media Icons"
+msgstr "Social Media Icons"
+
+#: inc/customizer/wpbf-kirki.php:77 inc/customizer/wpbf-kirki.php:945
+msgid "Sticky Navigation"
+msgstr "Sticky Navigation"
+
+#: inc/customizer/wpbf-kirki.php:84
+msgid "Navigation Hover Effects"
+msgstr "Navigation Hover Effekte"
+
+#: inc/customizer/wpbf-kirki.php:116
+msgid "Custom 404 Page"
+msgstr "Eigene 404 Seite"
+
+#: inc/customizer/wpbf-kirki.php:117
+msgid ""
+"Replace the default 404 page with your custom layout. <br><br>Example:<br>"
+"[elementor-template id=\"xxx\"]<br>[fl_builder_insert_layout id=\"xxx\"]"
+msgstr ""
+"Ersetze die standard 404 Seite mit deinem eigenen Layout. <br><br>Beispiel:"
+"<br>[elementor-template id=\"xxx\"]<br>[fl_builder_insert_layout id=\"xxx\"]"
+
+#: inc/customizer/wpbf-kirki.php:128
+msgid ""
+"Display social media icons in your pre-header, footer or template file by "
+"using the [social] shortcode."
+msgstr ""
+"Nutze den [social] Shortcode und zeige die Social Media Icons in deinem Pre-"
+"Header, Footer oder Template an."
+
+#: inc/customizer/wpbf-kirki.php:131 inc/customizer/wpbf-kirki.php:214
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/wpbf-kirki.php:132 inc/customizer/wpbf-kirki.php:224
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/wpbf-kirki.php:133 inc/customizer/wpbf-kirki.php:234
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/customizer/wpbf-kirki.php:134 inc/customizer/wpbf-kirki.php:244
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer/wpbf-kirki.php:135 inc/customizer/wpbf-kirki.php:254
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/customizer/wpbf-kirki.php:136 inc/customizer/wpbf-kirki.php:264
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer/wpbf-kirki.php:137 inc/customizer/wpbf-kirki.php:274
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/customizer/wpbf-kirki.php:138 inc/customizer/wpbf-kirki.php:284
+msgid "Soundcloud"
+msgstr "Soundcloud"
+
+#: inc/customizer/wpbf-kirki.php:139 inc/customizer/wpbf-kirki.php:294
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/customizer/wpbf-kirki.php:140 inc/customizer/wpbf-kirki.php:304
+msgid "Yelp"
+msgstr "Yelp"
+
+#: inc/customizer/wpbf-kirki.php:149
+msgid "Style"
+msgstr "Style"
+
+#: inc/customizer/wpbf-kirki.php:155
+msgid "Plain"
+msgstr "Ohne"
+
+#: inc/customizer/wpbf-kirki.php:156
+msgid "Rounded"
+msgstr "Abgerundet"
+
+#: inc/customizer/wpbf-kirki.php:157
+msgid "Boxed"
+msgstr "Box"
+
+#: inc/customizer/wpbf-kirki.php:165 inc/customizer/wpbf-kirki.php:315
+#: inc/customizer/wpbf-kirki.php:398 inc/customizer/wpbf-kirki.php:457
+#: inc/customizer/wpbf-kirki.php:537 inc/customizer/wpbf-kirki.php:617
+#: inc/customizer/wpbf-kirki.php:697 inc/customizer/wpbf-kirki.php:777
+#: inc/customizer/wpbf-kirki.php:1261 inc/customizer/wpbf-kirki.php:1762
+msgid "Color"
+msgstr "Farbe"
+
+#: inc/customizer/wpbf-kirki.php:171
+msgid "Default"
+msgstr "Standard"
+
+#: inc/customizer/wpbf-kirki.php:172
+msgid "Grey"
+msgstr "Grau"
+
+#: inc/customizer/wpbf-kirki.php:173
+msgid "Brand Colors"
+msgstr "Markenfarben"
+
+#: inc/customizer/wpbf-kirki.php:174
+msgid "Filled"
+msgstr "Gefüllt"
+
+#: inc/customizer/wpbf-kirki.php:182 inc/customizer/wpbf-kirki.php:1780
+msgid "Size"
+msgstr "Größe"
+
+#: inc/customizer/wpbf-kirki.php:188
+msgid "Small"
+msgstr "Klein"
+
+#: inc/customizer/wpbf-kirki.php:189
+msgid "Large"
+msgstr "Groß"
+
+#: inc/customizer/wpbf-kirki.php:197 inc/customizer/wpbf-kirki.php:353
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+#: inc/customizer/wpbf-kirki.php:326
+msgid "Bold Text Color"
+msgstr "Textfarbe (Fett)"
+
+#: inc/customizer/wpbf-kirki.php:336 inc/customizer/wpbf-kirki.php:408
+#: inc/customizer/wpbf-kirki.php:467 inc/customizer/wpbf-kirki.php:547
+#: inc/customizer/wpbf-kirki.php:627 inc/customizer/wpbf-kirki.php:707
+#: inc/customizer/wpbf-kirki.php:786
+msgid "Line Height"
+msgstr "Zeilenhöhe"
+
+#: inc/customizer/wpbf-kirki.php:365 inc/customizer/wpbf-kirki.php:424
+#: inc/customizer/wpbf-kirki.php:490 inc/customizer/wpbf-kirki.php:570
+#: inc/customizer/wpbf-kirki.php:650 inc/customizer/wpbf-kirki.php:730
+#: inc/customizer/wpbf-kirki.php:809
+msgid "Letter Spacing"
+msgstr "Laufweite"
+
+#: inc/customizer/wpbf-kirki.php:381 inc/customizer/wpbf-kirki.php:440
+#: inc/customizer/wpbf-kirki.php:513 inc/customizer/wpbf-kirki.php:593
+#: inc/customizer/wpbf-kirki.php:673 inc/customizer/wpbf-kirki.php:753
+#: inc/customizer/wpbf-kirki.php:832
+msgid "Text transform"
+msgstr "Text Transformierung"
+
+#: inc/customizer/wpbf-kirki.php:387 inc/customizer/wpbf-kirki.php:446
+#: inc/customizer/wpbf-kirki.php:519 inc/customizer/wpbf-kirki.php:599
+#: inc/customizer/wpbf-kirki.php:679 inc/customizer/wpbf-kirki.php:759
+#: inc/customizer/wpbf-kirki.php:838 inc/customizer/wpbf-kirki.php:1200
+#: inc/customizer/wpbf-kirki.php:1693 inc/customizer/wpbf-kirki.php:1853
+msgid "None"
+msgstr "Keine"
+
+#: inc/customizer/wpbf-kirki.php:388 inc/customizer/wpbf-kirki.php:447
+#: inc/customizer/wpbf-kirki.php:520 inc/customizer/wpbf-kirki.php:600
+#: inc/customizer/wpbf-kirki.php:680 inc/customizer/wpbf-kirki.php:760
+#: inc/customizer/wpbf-kirki.php:839
+msgid "Uppercase"
+msgstr "Uppercase"
+
+#: inc/customizer/wpbf-kirki.php:855
+msgid "Enable Typekit"
+msgstr "Typekit aktivieren"
+
+#: inc/customizer/wpbf-kirki.php:864
+msgid "Typekit ID"
+msgstr "Typekit ID"
+
+#: inc/customizer/wpbf-kirki.php:879
+msgid "Typekit Fonts"
+msgstr "Typekit Schriften"
+
+#: inc/customizer/wpbf-kirki.php:880
+msgid "Here you can add typekit fonts"
+msgstr "Füge hier deine Typekit Schriften hinzu"
+
+#: inc/customizer/wpbf-kirki.php:886
+msgid "Typekit Font"
+msgstr "Typekit Schrift"
+
+#: inc/customizer/wpbf-kirki.php:898
+msgid "Name"
+msgstr "Name"
+
+#: inc/customizer/wpbf-kirki.php:902
+msgid "Font Family"
+msgstr "Font Family"
+
+#: inc/customizer/wpbf-kirki.php:906
+msgid "Variants"
+msgstr "Variants"
+
+#: inc/customizer/wpbf-kirki.php:909
+msgid "100"
+msgstr "100"
+
+#: inc/customizer/wpbf-kirki.php:910
+msgid "100italic"
+msgstr "100italic"
+
+#: inc/customizer/wpbf-kirki.php:911
+msgid "200"
+msgstr "200"
+
+#: inc/customizer/wpbf-kirki.php:912
+msgid "200italic"
+msgstr "200italic"
+
+#: inc/customizer/wpbf-kirki.php:913
+msgid "300"
+msgstr "300"
+
+#: inc/customizer/wpbf-kirki.php:914
+msgid "300italic"
+msgstr "300italic"
+
+#: inc/customizer/wpbf-kirki.php:915
+msgid "regular"
+msgstr "regular"
+
+#: inc/customizer/wpbf-kirki.php:916
+msgid "italic"
+msgstr "italic"
+
+#: inc/customizer/wpbf-kirki.php:917
+msgid "500"
+msgstr "500"
+
+#: inc/customizer/wpbf-kirki.php:918
+msgid "500italic"
+msgstr "500italic"
+
+#: inc/customizer/wpbf-kirki.php:919
+msgid "600"
+msgstr "600"
+
+#: inc/customizer/wpbf-kirki.php:920
+msgid "600italic"
+msgstr "600italic"
+
+#: inc/customizer/wpbf-kirki.php:921
+msgid "700"
+msgstr "700"
+
+#: inc/customizer/wpbf-kirki.php:922
+msgid "700italic"
+msgstr "700italic"
+
+#: inc/customizer/wpbf-kirki.php:923
+msgid "800"
+msgstr "800"
+
+#: inc/customizer/wpbf-kirki.php:924
+msgid "800italic"
+msgstr "800italic"
+
+#: inc/customizer/wpbf-kirki.php:925
+msgid "900"
+msgstr "900"
+
+#: inc/customizer/wpbf-kirki.php:926
+msgid "900italic"
+msgstr "900italic"
+
+#: inc/customizer/wpbf-kirki.php:954 inc/customizer/wpbf-kirki.php:1314
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer/wpbf-kirki.php:974
+msgid "Hide Logo"
+msgstr "Logo verstecken"
+
+#: inc/customizer/wpbf-kirki.php:975
+msgid "Hides the logo from the sticky navigation."
+msgstr "Enfternt das Logo von der Sticky Navigation"
+
+#: inc/customizer/wpbf-kirki.php:997
+msgid "Logo Size"
+msgstr "Logo Größe"
+
+#: inc/customizer/wpbf-kirki.php:1023
+msgid "Menu Height"
+msgstr "Menü Höhe"
+
+#: inc/customizer/wpbf-kirki.php:1045
+msgid "Delay"
+msgstr "Verzögerung"
+
+#: inc/customizer/wpbf-kirki.php:1050
+msgid "Set a delay after the sticky navigation should appear. Default: 300px"
+msgstr ""
+"Verzögerung, nach der die Sticky Navigation angezeigt werden soll. "
+"Standardwert: 300px"
+
+#: inc/customizer/wpbf-kirki.php:1064 inc/customizer/wpbf-kirki.php:1532
+msgid "Logo Area Background Color"
+msgstr "Logobereich Hintergrundfarbe"
+
+#: inc/customizer/wpbf-kirki.php:1089 inc/customizer/wpbf-kirki.php:1330
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: inc/customizer/wpbf-kirki.php:1109 inc/customizer/wpbf-kirki.php:1343
+msgid "Font Color"
+msgstr "Schriftfarbe"
+
+#: inc/customizer/wpbf-kirki.php:1128 inc/customizer/wpbf-kirki.php:1171
+#: inc/customizer/wpbf-kirki.php:1356
+msgid "Hover"
+msgstr "Hover"
+
+#: inc/customizer/wpbf-kirki.php:1147
+msgid "Logo Color"
+msgstr "Logo Farbe"
+
+#: inc/customizer/wpbf-kirki.php:1195 inc/customizer/wpbf-kirki.php:1703
+msgid "Animation"
+msgstr "Animation"
+
+#: inc/customizer/wpbf-kirki.php:1201
+msgid "Fade In"
+msgstr "Fade In"
+
+#: inc/customizer/wpbf-kirki.php:1202
+msgid "Slide Down"
+msgstr "Slide Down"
+
+#: inc/customizer/wpbf-kirki.php:1216
+msgid "Animation Duration"
+msgstr "Animation Dauer"
+
+#: inc/customizer/wpbf-kirki.php:1244
+msgid "Box Shadow"
+msgstr "Box Shadow"
+
+#: inc/customizer/wpbf-kirki.php:1286
+msgid "Blur"
+msgstr "Blur"
+
+#: inc/customizer/wpbf-kirki.php:1371
+msgid "Sub Menu Animation"
+msgstr "Submenu Anordnung"
+
+#: inc/customizer/wpbf-kirki.php:1377 inc/customizer/wpbf-kirki.php:1709
+msgid "Fade"
+msgstr "Fade"
+
+#: inc/customizer/wpbf-kirki.php:1378
+msgid "Down"
+msgstr "Runter"
+
+#: inc/customizer/wpbf-kirki.php:1379
+msgid "Up"
+msgstr "Hoch"
+
+#: inc/customizer/wpbf-kirki.php:1380
+msgid "Zoom In"
+msgstr "Hereinzoomen"
+
+#: inc/customizer/wpbf-kirki.php:1381
+msgid "Zoom Out"
+msgstr "Herauszoomen"
+
+#: inc/customizer/wpbf-kirki.php:1439 inc/customizer/wpbf-kirki.php:1622
+msgid "Menu Width"
+msgstr "Menü Breite"
+
+#: inc/customizer/wpbf-kirki.php:1440
+msgid "Default: 320px"
+msgstr "Standard: 320px"
+
+#: inc/customizer/wpbf-kirki.php:1462
+msgid ""
+"Paste your shortcode to replace the default menu with your Custom Menu. <br>"
+"<br>Example:<br>[elementor-template id=\"xxx\"]<br>[fl_builder_insert_layout "
+"id=\"xxx\"]"
+msgstr ""
+"Füge deinen Shortcode ein um das Menü mit deinem eigenen Menü Widget (Beaver "
+"Builder oder Elementor) zu ersetzen. <br><br>Beispiel:<br>[elementor-"
+"template id=\"xxx\"]<br>[fl_builder_insert_layout id=\"xxx\"]"
+
+#: inc/customizer/wpbf-kirki.php:1476
+msgid "Stacked Advanced Settings"
+msgstr "Stacked Erweitert Einstellungen"
+
+#: inc/customizer/wpbf-kirki.php:1491
+msgid "Menu Alignment"
+msgstr "Menü Ausrichtung"
+
+#: inc/customizer/wpbf-kirki.php:1514
+msgid "Content beside Logo"
+msgstr "Inhalt neben Logo"
+
+#: inc/customizer/wpbf-kirki.php:1577
+msgid "Off Canvas Settings"
+msgstr "Off Canvas Einstellungen"
+
+#: inc/customizer/wpbf-kirki.php:1592
+msgid "Full Screen Menu Settings"
+msgstr "Full Screen Menu Einstellungen"
+
+#: inc/customizer/wpbf-kirki.php:1607
+msgid "Push Menu"
+msgstr "Push Menü"
+
+#: inc/customizer/wpbf-kirki.php:1645
+msgid "Off Canvas Menu Background Color"
+msgstr "Off Canvas Menü Hintergrundfarbe"
+
+#: inc/customizer/wpbf-kirki.php:1665
+msgid "Hamburger Icon Color"
+msgstr "Hamburger Icon Farbe"
+
+#: inc/customizer/wpbf-kirki.php:1687
+msgid "Hover Effect"
+msgstr "Hover Effekt"
+
+#: inc/customizer/wpbf-kirki.php:1694
+msgid "Underline"
+msgstr "Unterstrichen"
+
+#: inc/customizer/wpbf-kirki.php:1695
+msgid "Box"
+msgstr "Box"
+
+#: inc/customizer/wpbf-kirki.php:1696
+msgid "Modern"
+msgstr "Modern"
+
+#: inc/customizer/wpbf-kirki.php:1710
+msgid "Slide"
+msgstr "Slide"
+
+#: inc/customizer/wpbf-kirki.php:1711
+msgid "Grow"
+msgstr "Grow"
+
+#: inc/customizer/wpbf-kirki.php:1731
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: inc/customizer/wpbf-kirki.php:1802
+msgid "Border Radius"
+msgstr "Border Radius"
+
+#: inc/customizer/wpbf-kirki.php:1831
+msgid "Sticky Footer"
+msgstr "Sticky Footer"
+
+#: inc/customizer/wpbf-kirki.php:1854
+msgid "One Column"
+msgstr "Eine Spalte"
+
+#: inc/customizer/wpbf-kirki.php:1855
+msgid "Two Columns"
+msgstr "Zwei Spalten"
+
+#: inc/customizer/wpbf-kirki.php:1863
+msgid "Column 1"
+msgstr "Spalte 1"
+
+#: inc/customizer/wpbf-kirki.php:1865
+msgid "&copy; [year] - [blogname] | All rights reserved"
+msgstr "&copy; [year] - [blogname] | Alle Rechte vorbehalten"
+
+#: inc/customizer/wpbf-kirki.php:1881
+msgid "Column 2"
+msgstr "Spalte 2"
+
+#: inc/customizer/wpbf-kirki.php:1883
+msgid ""
+"Powered by [credit url=\"https://wp-pagebuilderframework.com\" name=\"Page "
+"Builder Framework\"]"
+msgstr ""
+"Powered by [credit url=\"https://wp-pagebuilderframework.com\" name=\"Page "
+"Builder Framework\"]"
+
+#: inc/customizer/wpbf-kirki.php:1900
+msgid "Custom Footer"
+msgstr "Eigener Footer"
+
+#: inc/customizer/wpbf-kirki.php:1901
+msgid ""
+"Paste your shortcode to populate a saved row/template throughout your "
+"website. <br><br>Examples:<br>[elementor-template id=\"xxx\"]<br>"
+"[fl_builder_insert_layout id=\"xxx\"]"
+msgstr ""
+"Füge hier deinen Shortcode ein um dein gespeichertes Element (Reihe/Layout) "
+"Seitenweit anzuzeigen. <br><br>Beispiele:<br>[elementor-template id=\"xxx\"]"
+"<br>[fl_builder_insert_layout id=\"xxx\"]"
+
+#: inc/customizer/wpbf-kirki.php:1916
+msgid "Head Code"
+msgstr "Head Code"
+
+#: inc/customizer/wpbf-kirki.php:1917
+msgid "Runs inside the head tag."
+msgstr "Wird im head tag ausgeführt."
+
+#: inc/customizer/wpbf-kirki.php:1926
+msgid "Header Code"
+msgstr "Header Code"
+
+#: inc/customizer/wpbf-kirki.php:1927
+msgid "Runs after the opening body tag."
+msgstr "Wird direkt nach öffnen des body tags ausgeführt."
+
+#: inc/customizer/wpbf-kirki.php:1936
+msgid "Footer Code"
+msgstr "Footer Code"
+
+#: inc/customizer/wpbf-kirki.php:1937
+msgid ""
+"Add Scripts (Google Analytics, etc.) here. Runs before the closing body tag "
+"(wp_footer)."
+msgstr ""
+"Füge Skripte (Google Analytics, etc.) hier ein. Wird vor dem schließenden "
+"body tag ausgeführt."
+
+#: inc/customizer/wpbf-kirki.php:2204 inc/customizer/wpbf-kirki.php:2252
+#: inc/customizer/wpbf-kirki.php:2300 inc/customizer/wpbf-kirki.php:2348
+#: inc/customizer/wpbf-kirki.php:2396 inc/customizer/wpbf-kirki.php:2444
+#: inc/customizer/wpbf-kirki.php:2492
+msgid "Tablet"
+msgstr "Tablet"
+
+#: inc/customizer/wpbf-kirki.php:2215 inc/customizer/wpbf-kirki.php:2263
+#: inc/customizer/wpbf-kirki.php:2311 inc/customizer/wpbf-kirki.php:2359
+#: inc/customizer/wpbf-kirki.php:2407 inc/customizer/wpbf-kirki.php:2455
+#: inc/customizer/wpbf-kirki.php:2503
+msgid "Mobile"
+msgstr "Mobil"
+
+#. Name of the plugin
+#. Description of the plugin
+msgid "Page Builder Framework Premium Addon"
+msgstr "Page Builder Framework Premium Addon"
+
+#. URI of the plugin
+msgid "https://wp-pagebuilderframework.com/premium/"
+msgstr "https://wp-pagebuilderframework.com/premium/"
+
+#. Author of the plugin
+msgid "MapSteps"
+msgstr "MapSteps"
+
+#. Author URI of the plugin
+msgid "https://mapsteps.com"
+msgstr "https://mapsteps.com"

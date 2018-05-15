@@ -1,0 +1,1369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Questions and Answers\n"
+"POT-Creation-Date: 2017-06-05 13:54+0200\n"
+"PO-Revision-Date: 2017-06-05 13:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../functions.php:94
+msgid ""
+"YITH WooCommerce Questions and Answers is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Questions and Answers está activado pero no es efectivo. "
+"Requiere WooCommerce para funcionar."
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:602
+msgid "Search for a product&hellip;"
+msgstr "Buscar un producto&hellip;"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:653
+msgid "Unanswered questions"
+msgstr "Preguntas sin contestar"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:659
+msgid "Questions"
+msgstr "Preguntas"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:665
+msgid "Answers"
+msgstr "Respuestas"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:776
+msgid "Set appropriate"
+msgstr "Marcar como apropiado"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:778
+msgid "Set inappropriate"
+msgstr "Marcar como inapropiado"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:782
+#: ../lib/class.yith-woocommerce-question-answer.php:336
+msgid "Approve"
+msgstr "Aprobar"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:784
+#: ../lib/class.yith-woocommerce-question-answer.php:340
+msgid "Unapprove"
+msgstr "Rechazar"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:808
+msgctxt "yith-woocommerce-questions-and-answers"
+msgid "Inappropriate"
+msgstr "Inapropiado"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:813
+#, php-format
+msgid "Inappropriate content <span class=\"count\">(%s)</span>"
+msgid_plural "Inappropriate content <span class=\"count\">(%s)</span>"
+msgstr[0] "Contenido inapropiado <span class=\"count\">(%s)</span>"
+msgstr[1] "Contenidos inapropiados <span class=\"count\">(%s)</span>"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:819
+msgctxt "yith-woocommerce-questions-and-answers"
+msgid "Unapproved"
+msgstr "Sin aprobar"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:824
+#, php-format
+msgid "Content not approved <span class=\"count\">(%s)</span>"
+msgid_plural "Content not approved <span class=\"count\">(%s)</span>"
+msgstr[0] "Contenido sin aprobar <span class=\"count\">(%s)</span>"
+msgstr[1] "Contenidos sin aprobar <span class=\"count\">(%s)</span>"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:849
+msgid ""
+"An error occurred. The requested resource does not exist or the content is "
+"deprecated."
+msgstr ""
+"Ha ocurrido un error. El recurso solicitado no existe o el contenido está "
+"obsoleto."
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:867
+msgid "The email address is not valid."
+msgstr "La dirección de email no es válida."
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:895
+msgid ""
+"Unsubscription completed. You will not receive any more answering requests "
+"for the selected products."
+msgstr ""
+"Desuscripción completada. No recibirás más solicitudes de respuestas para "
+"los productos seleccionados."
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:903
+msgid ""
+"Please, confirm your email address to stop receiving answering requests for "
+"the questions about products you have bought:"
+msgstr ""
+"Por favor, confirma tu dirección email para dejar de recibir solicitudes "
+"para las preguntas sobre productos que has comprado:"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:908
+msgid "Email address"
+msgstr "Dirección email"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:917
+msgid "Unsubscribe"
+msgstr "Desuscribirte"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:947
+msgctxt "Page slug"
+msgid "questions_and_answers_unsubscription"
+msgstr "questions_and_answers_unsubscription"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:949
+msgctxt "Page title"
+msgid "Questions & Answers unsubscription"
+msgstr "Anulación de suscripción de Preguntas y Respuestas"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1373
+msgid "Product not found!"
+msgstr "¡Producto no encontrado!"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1382
+msgid "Product: "
+msgstr "Producto: "
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1394
+msgid "Response to: "
+msgstr "Responder a: "
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1410
+#: ../lib/class.yith-woocommerce-question-answer.php:497
+msgid "Author"
+msgstr "Autor"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1411
+msgid "Upvotes"
+msgstr "Votos positivos"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1412
+msgid "Downvotes"
+msgstr "Votos negativos"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1413
+msgid "Abuse reports"
+msgstr "Informe de abuso"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1455
+msgid "Thanks"
+msgstr "Gracias"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1456
+msgid "Your content has been sent correctly."
+msgstr "Tu contenido se ha enviado correctamente."
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1457
+msgid "An error has occurred, your content has not been added correctly."
+msgstr "Ha ocurrido un error, tu contenido no se ha añadido correctamente."
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1458
+msgid "Please write your text before submitting it."
+msgstr "Por favor, escribe tu texto antes de enviarlo."
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1459
+msgid "Please enter your name"
+msgstr "Por favor introduce tu nombre"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1460
+msgid "Please enter your e-mail"
+msgstr "Por favor introduce tu email"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1462
+msgid "Please confirm you are human solving the reCaptcha."
+msgstr "Por favor, confirma que eres humano resolviendo el reCaptcha."
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1571
+#, php-format
+msgid "%d vote"
+msgid_plural "%d votes"
+msgstr[0] "%d voto"
+msgstr[1] "%d votos"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1590
+#, php-format
+msgid "%d on %d found it useful. What do you think?"
+msgstr "%d de %d la han encontrado útil. ¿Tú qué crees?"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1593
+msgid "Do you think this answer is useful?"
+msgstr "¿Crees que esta respuesta es útil?"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1609
+msgid "Upvote this question"
+msgstr "Votar positivo esta pregunta"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1615
+msgid "Downvote this question"
+msgstr "Votar negativo esta pregunta"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1871
+msgid ""
+"An error occurred during the reCaptcha validation. Recaptcha token not set."
+msgstr ""
+"Ha ocurrido un error durante la validación reCaptcha. Token reCaptcha no "
+"enviado."
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1882
+msgid ""
+"An error occurred during the reCaptcha validation. The token is not valid."
+msgstr ""
+"Ha ocurrido un error durante la validación reCaptcha. El token no es válido."
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1921
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:2119
+#: ../lib/class.yith-woocommerce-question-answer.php:225
+#: ../lib/class.yith-woocommerce-question-answer.php:841
+#: ../lib/class.yith-woocommerce-question-answer.php:907
+#: ../lib/class.ywqa-discussion.php:97
+msgid "Anonymous user"
+msgstr "Usuario anónimo"
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:1950
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:2144
+msgid ""
+"Thanks for your post. It has been sent to site administrator for approval."
+msgstr ""
+"Gracias por tu post. Ha sido enviado al administrador de la página para su "
+"aprobación."
+
+#: ../lib/class.yith-woocommerce-question-answer-premium.php:2214
+msgid "Thanks!"
+msgstr "¡Gracias!"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:174
+#: ../lib/class.yith-woocommerce-question-answer.php:175
+msgid "Content updated."
+msgstr "Contenido actualizado."
+
+#: ../lib/class.yith-woocommerce-question-answer.php:176
+msgid "Content published."
+msgstr "Contenido publicado."
+
+#: ../lib/class.yith-woocommerce-question-answer.php:177
+msgid "Content saved."
+msgstr "Contenido guardado."
+
+#: ../lib/class.yith-woocommerce-question-answer.php:178
+msgid "Content submitted."
+msgstr "Contenido enviado."
+
+#: ../lib/class.yith-woocommerce-question-answer.php:276
+msgid "Questions & Answers - Manage answers for this question"
+msgstr "Questions & Answers - Adminsitrar respuestas para esta pregunta"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:278
+msgid "Questions & Answers - Question information"
+msgstr "Questions & Answers - Información de pregunta"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:300
+msgid "UNAPPROVED"
+msgstr "SIN APROBAR"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:303
+msgid "INAPPROPRIATE"
+msgstr "INAPROPIADO"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:310
+#: ../templates/single-product/ywqa-single-answer.php:33
+#, php-format
+msgid "%s answered on %s"
+msgstr "%s contestado el %s"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:325
+msgid "Are you sure you want to delete it?"
+msgstr "¿Estás seguro de que quieres borrarla?"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:329
+msgid "Edit"
+msgstr "Editar"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:331
+msgid "Delete"
+msgstr "Borrar"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:360
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:362
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:376
+msgid "Answers for this question"
+msgstr "Respuestas para esta pregunta"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:386
+msgid "There are no answers for this question yet"
+msgstr "Todavía no hay respuestas para esta pregunta."
+
+#: ../lib/class.yith-woocommerce-question-answer.php:406
+msgid "Select product"
+msgstr "Seleccionar producto"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:461
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:488
+#: ../lib/class.yith-woocommerce-question-answer.php:542
+msgid "Product"
+msgstr "Producto"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:508
+#: ../templates/single-product/ywqa-product-answers.php:70
+msgid "Your answer"
+msgstr "Tu respuesta"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:524
+#: ../templates/single-product/ywqa-product-answers.php:116
+msgid "Answer"
+msgstr "Respuesta"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:551
+msgid "Question"
+msgstr "Pregunta"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:555
+msgid "Go to question"
+msgstr "Ir a pregunta"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:755
+msgctxt "Post Type General Name"
+msgid "Questions & Answers"
+msgstr "Questions & Answers"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:756
+msgctxt "Post Type Singular Name"
+msgid "Question"
+msgstr "Pregunta"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:757
+#: ../lib/class.yith-woocommerce-question-answer.php:772
+#: ../lib/class.yith-woocommerce-question-answer.php:1007
+msgid "Questions & Answers"
+msgstr "Preguntas y respuestas"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:758
+msgid "Parent discussion"
+msgstr "Discusión principal"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:759
+msgid "All discussion"
+msgstr "Todas las discusiones"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:760
+msgid "View discussions"
+msgstr "Ver discusiones"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:761
+msgid "Add new question"
+msgstr "Añadir nueva pregunta"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:762
+msgid "Add new"
+msgstr "Añadir nueva"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:763
+msgid "Edit discussion"
+msgstr "Editar discusión"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:764
+msgid "Update discussion"
+msgstr "Actualizar discusión"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:765
+msgid "Search discussion"
+msgstr "Buscar discusión"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:766
+msgid "Not found"
+msgstr "No encontrado"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:767
+msgid "Not found in the bin"
+msgstr "No encontrado en la papelera"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:773
+msgid "YITH Questions and Answers"
+msgstr "YITH Questions and Answers"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:822
+#: ../lib/class.yith-woocommerce-question-answer.php:895
+msgid "Please retry submitting your question or answer."
+msgstr "Por favor, vuelve a intentar enviar tu pregunta o respuesta."
+
+#: ../lib/class.yith-woocommerce-question-answer.php:829
+msgid "No product ID selected, the question will not be created."
+msgstr "Ninguna ID de producto seleccionada, no se creará la pregunta."
+
+#: ../lib/class.yith-woocommerce-question-answer.php:987
+msgid "You need to write something!"
+msgstr "¡Tienes que escribir algo!"
+
+#: ../lib/class.yith-woocommerce-question-answer.php:988
+msgid "Answer correctly sent."
+msgstr "Respuesta enviada correctamente."
+
+#: ../lib/class.yith-woocommerce-question-answer.php:989
+msgid "An error occurred, your answer has not been added."
+msgstr "Ha ocurrido un error, no se ha añadido tu pregunta."
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:124
+msgid "General"
+msgstr "General"
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:125
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:128
+#: ../lib/class.ywqa-plugin-fw-loader.php:187
+msgid "Premium Version"
+msgstr "Versión Premium"
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:184
+msgid "Settings"
+msgstr "Ajustes"
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:212
+msgid "Plugin Documentation"
+msgstr "Documentación del Plugin"
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:225
+msgid ""
+"YITH WooCommerce Questions and Answers is available in an outstanding "
+"PREMIUM version with many new options, discover it now."
+msgstr ""
+"YITH WooCommerce Questions and Answers está disponible ahora en una "
+"espectacular versión PREMIUM con muchas nuevas opciones, descúbrela ahora."
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:226
+msgid "Premium version"
+msgstr "Versión premium"
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:233
+msgid "YITH WooCommerce Questions and Answers"
+msgstr "YITH WooCommerce Questions and Answers"
+
+#: ../lib/class.ywqa-plugin-fw-loader.php:234
+msgid ""
+"In YIT Plugins tab you can find YITH WooCommerce Questions and Answers "
+"options.<br> From this menu you can access all settings of YITH plugins "
+"activated."
+msgstr ""
+"En la pestaña de YITH Plugins puedes encontrar las opciones de YITH "
+"WooCommerce Questions and Answers. <br> Desde este manú puedes acceder a "
+"todos los ajustes de los plugins YITH activados."
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:28
+msgid "YITH Q&A - ask answer to customers"
+msgstr "YITH Q&A - pedir respuesta a los clientes"
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:31
+msgid ""
+"When a new question is submitted for a product, ask a feedback to the "
+"customers that purchased the same product"
+msgstr ""
+"Cuando se envía una nueva pregunta a un producto, pide feedback a los "
+"clientes que han comprado el mismo producto"
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:34
+msgid "Give your feedback"
+msgstr "Da tu feedback"
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:36
+msgid "[{site_title}] A user need your feedback for [{product_title}]"
+msgstr "[{site_title}] Un usuario necesita tu feedback para [{product_title}]"
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:131
+#: ../lib/emails/class.ywqa-email-notify-answer.php:132
+#: ../lib/emails/class.ywqa-email-notify-question.php:128
+msgid "Enable/Disable"
+msgstr "Habilitar/Deshabilitar"
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:133
+#: ../lib/emails/class.ywqa-email-notify-answer.php:134
+#: ../lib/emails/class.ywqa-email-notify-question.php:130
+msgid "Enable this email notification"
+msgstr "Habilitar esta notificación email"
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:137
+#: ../lib/emails/class.ywqa-email-notify-answer.php:138
+#: ../lib/emails/class.ywqa-email-notify-question.php:142
+msgid "Subject"
+msgstr "Asunto"
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:139
+#: ../lib/emails/class.ywqa-email-notify-answer.php:140
+#: ../lib/emails/class.ywqa-email-notify-question.php:144
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Esto controla la línea de asunto del email. Déjalo en blanco para usar el "
+"asunto por defecto: <code>%s</code>."
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:145
+#: ../lib/emails/class.ywqa-email-notify-answer.php:146
+#: ../lib/emails/class.ywqa-email-notify-question.php:150
+msgid "Email Heading"
+msgstr "Encabezado del email"
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:147
+#: ../lib/emails/class.ywqa-email-notify-answer.php:148
+#: ../lib/emails/class.ywqa-email-notify-question.php:152
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Esto controla el encabezado principal contenido en la notificación del "
+"email. Déjalo en blanco para usar el encabezado por defecto: <code>%s</code>."
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:153
+#: ../lib/emails/class.ywqa-email-notify-answer.php:154
+#: ../lib/emails/class.ywqa-email-notify-question.php:158
+msgid "Email type"
+msgstr "Tipo de email"
+
+#: ../lib/emails/class.ywqa-email-ask-customers-answer.php:155
+#: ../lib/emails/class.ywqa-email-notify-answer.php:156
+#: ../lib/emails/class.ywqa-email-notify-question.php:160
+msgid "Choose which format of email to send."
+msgstr "Elige qué formato de email enviar."
+
+#: ../lib/emails/class.ywqa-email-notify-answer.php:29
+msgid "YITH Q&A - New answer notification"
+msgstr "YITH Q&A - Notificación de nueva respuesta"
+
+#: ../lib/emails/class.ywqa-email-notify-answer.php:32
+msgid ""
+"When an answer is submitted, sent a notification to the user who submitted "
+"the question"
+msgstr ""
+"Cuando se envía una respuesta, se envía una notificación al usuario que "
+"envió la pregunta"
+
+#: ../lib/emails/class.ywqa-email-notify-answer.php:35
+msgid "You have a new answer for [{product_title}]"
+msgstr "Tienes una nueva respuesta para [{product_title}]"
+
+#: ../lib/emails/class.ywqa-email-notify-answer.php:36
+msgid "[{site_title}] You have a new answer for [{product_title}]"
+msgstr "[{site_title}] Tienes una nueva respuesta para [{product_title}]"
+
+#: ../lib/emails/class.ywqa-email-notify-question.php:29
+msgid "YITH Q&A - New question notification"
+msgstr "YITH Q&A - Notificación de nueva pregunta"
+
+#: ../lib/emails/class.ywqa-email-notify-question.php:32
+msgid ""
+"New question emails are sent to chosen recipient(s) when a new question is "
+"submitted for some product."
+msgstr ""
+"Se enviarán nuevos emails de pregunta a receptor(es) elegidos cuando se "
+"envíe una nueva pregunta para algún producto."
+
+#: ../lib/emails/class.ywqa-email-notify-question.php:35
+msgid "You have a new question for [{product_title}]"
+msgstr "Tienes una nueva pregunta para [{product_title}]"
+
+#: ../lib/emails/class.ywqa-email-notify-question.php:36
+msgid "[{site_title}] You have a new question for [{product_title}]"
+msgstr "[{site_title}] Tienes una nueva pregunta para [{product_title}]"
+
+#: ../lib/emails/class.ywqa-email-notify-question.php:134
+msgid "Recipient(s)"
+msgstr "Destinatario(s)"
+
+#: ../lib/emails/class.ywqa-email-notify-question.php:136
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Introduce los receptores (separados por comas) para este email. Por defecto "
+"para <code>%s</code>."
+
+#: ../plugin-options/advanced-options.php:19
+msgid "Advanced settings"
+msgstr "Ajustes avanzados"
+
+#: ../plugin-options/advanced-options.php:25
+msgid "Vote question"
+msgstr "Votar pregunta"
+
+#: ../plugin-options/advanced-options.php:27
+msgid "Allow users to vote product questions."
+msgstr "Permitir que los usuarios voten las preguntas de los productos."
+
+#: ../plugin-options/advanced-options.php:32
+msgid "New question notification"
+msgstr "Notificación de nueva pregunta"
+
+#: ../plugin-options/advanced-options.php:33
+msgid ""
+"Send a notification email to the administrator when new questions are "
+"available."
+msgstr ""
+"Enviar notificación email al administrador cuando haya nuevas preguntas "
+"disponibles."
+
+#: ../plugin-options/advanced-options.php:36
+#: ../plugin-options/advanced-options.php:49
+msgid "Do not send notifications"
+msgstr "No enviar noticaciones"
+
+#: ../plugin-options/advanced-options.php:38
+#: ../plugin-options/advanced-options.php:51
+msgid "Notification in HTML email"
+msgstr "Notificación en email HTML"
+
+#: ../plugin-options/advanced-options.php:45
+msgid "New answer notification"
+msgstr "Notificación de nueva respuesta"
+
+#: ../plugin-options/advanced-options.php:46
+msgid ""
+"Send a notification email to the administrator when new answers are "
+"available."
+msgstr ""
+"Enviar notificación email al administrador cuando haya nuevas respuestas "
+"disponibles."
+
+#: ../plugin-options/advanced-options.php:58
+msgid "User notification"
+msgstr "Notificación de usuario"
+
+#: ../plugin-options/advanced-options.php:59
+msgid ""
+"Allow users to receive a notification when their questions receive an answer."
+msgstr ""
+"Permitir que los usuarios reciban una notificación cuando sus preguntas "
+"reciban una respuesta."
+
+#: ../plugin-options/advanced-options.php:66
+msgid "Vote answers"
+msgstr "Votar respuestas"
+
+#: ../plugin-options/advanced-options.php:68
+msgid "Allow users to vote answers."
+msgstr "Permitir que los usuarios voten las respuestas."
+
+#: ../plugin-options/advanced-options.php:73
+msgid "Inappropriate content"
+msgstr "Contenido inapropiado"
+
+#: ../plugin-options/advanced-options.php:75
+msgid "Let users report an answer as inappropriate content."
+msgstr ""
+"Permitir que los usuarios reporten una respuesta como contenido inapropiado."
+
+#: ../plugin-options/advanced-options.php:78
+msgid "Not enabled"
+msgstr "No habilitado"
+
+#: ../plugin-options/advanced-options.php:79
+msgid "Only registered users can report an inappropriate content"
+msgstr "Sólo los usuarios registrados pueden reportar contenido inapropiado"
+
+#: ../plugin-options/advanced-options.php:80
+msgid "Everyone can report an inappropriate content"
+msgstr "Todos pueden reportar un contenido inapropiado"
+
+#: ../plugin-options/advanced-options.php:85
+msgid "Hiding threshold"
+msgstr "Umbral para ocultar"
+
+#: ../plugin-options/advanced-options.php:87
+msgid ""
+"Hide temporarily an answer when a specific number of users has flagged it as "
+"inappropriate. Set this value to 0 to never hide automatically the reviews."
+msgstr ""
+"Ocultar temporalmente una respuesta cuando un número específico de usuarios "
+"la ha marcado como inapropiada. Establece este valor en 0 para no ocultarlas "
+"nunca automáticamente."
+
+#: ../plugin-options/advanced-options.php:97
+msgid "Answer excerpt"
+msgstr "Resumen de respuesta"
+
+#: ../plugin-options/advanced-options.php:99
+msgid ""
+"Set max length for answers and show a \"Read more\" text for showing all "
+"content."
+msgstr ""
+"Establece el largo máximo de las respuestas y muestra un texto de \"Leer más"
+"\" para mostrar todo el contenido"
+
+#: ../plugin-options/advanced-options.php:109
+msgid "Anonymous mode"
+msgstr "Modo anónimo"
+
+#: ../plugin-options/advanced-options.php:111
+msgid ""
+"Do not show the name of the users that have added a question or an answer."
+msgstr ""
+"No mostrar el nombre de los usuarios que han añadido una pregunta o "
+"respuesta."
+
+#: ../plugin-options/advanced-options.php:116
+msgid "Ask customers for an answer"
+msgstr "Pedir una respuesta a los clientes"
+
+#: ../plugin-options/advanced-options.php:117
+msgid ""
+"Send an email to whoever purchased a product when a new question is "
+"available."
+msgstr ""
+"Enviar un email a cualquiera que haya comprado un producto cuando una nueva "
+"pregunta esté disponible"
+
+#: ../plugin-options/advanced-options.php:120
+msgid "Do not send requests"
+msgstr "No enviar solicitudes"
+
+#: ../plugin-options/advanced-options.php:121
+msgid "Send an email to all customers"
+msgstr "Enviar un email a todos los clientes"
+
+#: ../plugin-options/advanced-options.php:122
+msgid "Send an email to a sample of customers"
+msgstr "Enviar un email a una muestra de clientes."
+
+#: ../plugin-options/advanced-options.php:129
+msgid "Survey sample size"
+msgstr "Tamaño de muestra de la encuesta"
+
+#: ../plugin-options/advanced-options.php:131
+msgid ""
+"(%) Set the percentage of customers that have bought the product that you "
+"want to contact to ask for an answer."
+msgstr ""
+"(%) Establece el porcentaje de clientes que han comprado el producto que "
+"quieres contactar para pedirles una respuesta."
+
+#: ../plugin-options/advanced-options.php:142
+msgid "reCaptcha"
+msgstr "reCaptcha"
+
+#: ../plugin-options/advanced-options.php:144
+msgid "Enable reCaptcha on plugin forms."
+msgstr "Habilitar reCaptcha en formularios de plugin."
+
+#: ../plugin-options/advanced-options.php:149
+msgid "reCaptcha site key"
+msgstr "clave de sitio reCaptcha"
+
+#: ../plugin-options/advanced-options.php:151
+msgid "Insert your reCaptcha site key."
+msgstr "Inserta tu clave de sitio reCaptcha."
+
+#: ../plugin-options/advanced-options.php:157
+msgid "reCaptcha secret key"
+msgstr "clave secret reCaptcha"
+
+#: ../plugin-options/advanced-options.php:159
+msgid "Insert your reCaptcha secret key."
+msgstr "Introduce tu clave secreta reCaptcha."
+
+#: ../plugin-options/advanced-options.php:164
+msgid "Enable search"
+msgstr ""
+
+#: ../plugin-options/advanced-options.php:166
+msgid "Show a search bar for filtering questions and answers."
+msgstr ""
+
+#: ../plugin-options/advanced-options.php:171
+msgid "Search result items"
+msgstr ""
+
+#: ../plugin-options/advanced-options.php:173
+msgid "Choose the number of results matching the search string to shown."
+msgstr ""
+
+#: ../plugin-options/general-options.php:19
+msgid "General settings"
+msgstr "Ajustes generales"
+
+#: ../plugin-options/general-options.php:24
+msgid "Shop name"
+msgstr "Nombre de la tienda"
+
+#: ../plugin-options/general-options.php:25
+msgid "The reference name for email notifications."
+msgstr "El nombre de referencia para las notificaciones email."
+
+#: ../plugin-options/general-options.php:30
+msgid "Question paging"
+msgstr "Paginado de preguntas"
+
+#: ../plugin-options/general-options.php:32
+msgid ""
+"Set how many questions you want to show for each product (set 0 to display "
+"all)."
+msgstr ""
+"Establece cuántas preguntas quieres mostrar para cada producto (0 para "
+"mostrarlas todas)."
+
+#: ../plugin-options/general-options.php:42
+msgid "Answer paging"
+msgstr "Paginado de respuestas"
+
+#: ../plugin-options/general-options.php:44
+msgid ""
+"Set how many answers you want to show for each question (set 0 to display "
+"all)."
+msgstr ""
+"Establece cuántas respuestas quieres mostrar para cada producto (0 para "
+"mostrarlas todas)."
+
+#: ../plugin-options/general-options.php:54
+msgid "Question approval"
+msgstr "Aprobación de preguntas"
+
+#: ../plugin-options/general-options.php:56
+msgid "The entered question has to be approved before it may be shown."
+msgstr "La pregunta introducida debe aprobarse antes de mostrarse."
+
+#: ../plugin-options/general-options.php:61
+msgid "Answer approval"
+msgstr "Aprobación de respuestas"
+
+#: ../plugin-options/general-options.php:63
+msgid "The entered answer has to be approved before it may be shown."
+msgstr "La respuesta introducida debe aprobarse antes de mostrarse."
+
+#: ../plugin-options/general-options.php:68
+msgid "Allow guest users"
+msgstr "Permitir usuarios invitados"
+
+#: ../plugin-options/general-options.php:70
+msgid "Let guest user to enter questions or answers"
+msgstr ""
+"Permitir que los usuarios invitados puedan enviar preguntas o respuestas"
+
+#: ../plugin-options/general-options.php:75
+msgid "Mandatory data for guest users"
+msgstr "Dato obligatorio para usuarios invitados"
+
+#: ../plugin-options/general-options.php:77
+msgid ""
+"Guest user that want to submit a question or answers must fill his name and "
+"email"
+msgstr ""
+"Los usuarios invitados que quieran enviar preguntas o respuestas deberán "
+"introducir su nombre y email"
+
+#: ../plugin-options/general-options.php:82
+msgid "FAQ mode"
+msgstr "Modo FAQ"
+
+#: ../plugin-options/general-options.php:84
+msgid ""
+"Don't allow users to add questions and answers, but let them read them in "
+"FAQ mode."
+msgstr ""
+"No permitir a los usuarios añadir preguntas y respuestas, sino dejarles "
+"leerlas en el modo FAQ."
+
+#: ../plugin-options/general-options.php:89
+msgid "Show on product tabs"
+msgstr "Mostrar en las pestañas de producto"
+
+#: ../plugin-options/general-options.php:91
+msgid ""
+"Choose if the plugin output should be shown as a tab in the product tabs. "
+"Uncheck it if you want to use the shortcode [ywqa_questions] in a custom "
+"position"
+msgstr ""
+"Marca esta casilla si el resultado del plugin debe mostrarse como una "
+"pestaña en las pestañas de producto. Desmárcala si quieres usar el shortcode "
+"[ywqa_questions] en una posición personalizada"
+
+#: ../templates/emails/ywqa-ask-customers.php:22
+#, php-format
+msgid ""
+"A user submitted a question about the product <b>%s</b> that you have bought "
+"recently."
+msgstr ""
+"Un usuario ha enviado una pregunta sobre el producto <b>%s</b> que has "
+"comprado recientemente."
+
+#: ../templates/emails/ywqa-ask-customers.php:29
+msgid "The question"
+msgstr "La pregunta"
+
+#: ../templates/emails/ywqa-ask-customers.php:33
+msgid "Do you want to answer to the question?"
+msgstr "¿Quieres responder a la pregunta?"
+
+#: ../templates/emails/ywqa-ask-customers.php:35
+msgid "Go to the question"
+msgstr "Ir a la pregunta"
+
+#: ../templates/emails/ywqa-ask-customers.php:45
+msgid "Don't receive any more requests for this product"
+msgstr "No recibir más preguntas para este producto"
+
+#: ../templates/emails/ywqa-ask-customers.php:51
+msgid "Don't receive any more requests for any products"
+msgstr "No recibir más solicitudes para ningún producto"
+
+#: ../templates/emails/ywqa-notify-answer.php:24
+msgid "There is a new answer for the question: "
+msgstr "Hay una nueva respuesta sobre la pregunta: "
+
+#: ../templates/emails/ywqa-notify-answer.php:32
+msgid "The answer"
+msgstr "La respuesta"
+
+#: ../templates/emails/ywqa-notify-answer.php:38
+#: ../templates/emails/ywqa-notify-question.php:35
+msgid "View product"
+msgstr "Ver producto"
+
+#: ../templates/emails/ywqa-notify-question.php:23
+#, php-format
+msgid "There is a new question submitted about the product <b>%s</b>."
+msgstr "Hay una nueva pregunta sobre el producto  <b>%s</b>."
+
+#: ../templates/emails/ywqa-notify-question.php:29
+msgid "The question "
+msgstr "La pregunta"
+
+#: ../templates/single-product/ywqa-product-answers.php:27
+#: ../templates/single-product/ywqa-single-question.php:42
+msgid "Q"
+msgstr "P"
+
+#: ../templates/single-product/ywqa-product-answers.php:34
+msgid "Back to questions"
+msgstr "Volver a las preguntas"
+
+#: ../templates/single-product/ywqa-product-answers.php:34
+msgid "<<< Back to questions"
+msgstr "<<< Volver a las preguntas"
+
+#: ../templates/single-product/ywqa-product-answers.php:40
+#, php-format
+msgid "Asked on %s"
+msgstr "Preguntado el %s"
+
+#: ../templates/single-product/ywqa-product-answers.php:45
+#, php-format
+msgid "Asked by %s on %s"
+msgstr "Preguntado por %s el %s"
+
+#: ../templates/single-product/ywqa-product-answers.php:53
+msgid "There are no answers for this question, be the first to respond."
+msgstr ""
+"Todavía no hay respuestas para esta pregunta, sé el primero en responder."
+
+#: ../templates/single-product/ywqa-product-answers.php:76
+msgid "Type your answer here"
+msgstr "Escribe aquí tu respuesta"
+
+#: ../templates/single-product/ywqa-product-answers.php:85
+#: ../templates/single-product/ywqa-product-questions.php:92
+msgid "Name"
+msgstr "Nombre"
+
+#: ../templates/single-product/ywqa-product-answers.php:92
+#: ../templates/single-product/ywqa-product-questions.php:99
+msgid "Enter your name"
+msgstr "Introduce tu nombre"
+
+#: ../templates/single-product/ywqa-product-answers.php:97
+#: ../templates/single-product/ywqa-product-questions.php:104
+msgid "Email"
+msgstr "Email"
+
+#: ../templates/single-product/ywqa-product-answers.php:105
+#: ../templates/single-product/ywqa-product-questions.php:112
+msgid "Enter your email"
+msgstr "Introduce tu email"
+
+#: ../templates/single-product/ywqa-product-answers.php:117
+msgid "Answer now to the question"
+msgstr "Responde ahora a esta pregunta"
+
+#: ../templates/single-product/ywqa-product-answers.php:123
+msgid "Only registered users are eligible to enter answers"
+msgstr "Sólo los usuarios registrados pueden introducir respuestas"
+
+#: ../templates/single-product/ywqa-product-answers.php:134
+#, php-format
+msgid "%s answer shown"
+msgid_plural "%s answers shown"
+msgstr[0] "%s respuesta mostrada"
+msgstr[1] "%s respuestas mostradas"
+
+#: ../templates/single-product/ywqa-product-answers.php:137
+msgid "Sort by:"
+msgstr "Ordenar por:"
+
+#: ../templates/single-product/ywqa-product-answers.php:141
+msgid "Most useful"
+msgstr "Más útiles"
+
+#: ../templates/single-product/ywqa-product-answers.php:146
+msgid "Most recent"
+msgstr "Más recientes"
+
+#: ../templates/single-product/ywqa-product-answers.php:151
+msgid "Oldest"
+msgstr "Más antiguas"
+
+#: ../templates/single-product/ywqa-product-questions.php:26
+msgid "Questions and answers of the customers"
+msgstr "Preguntas y respuestas de los clientes"
+
+#: ../templates/single-product/ywqa-product-questions.php:44
+msgid "No question has still received an answer."
+msgstr "Todavía ninguna pregunta ha recibido respuesta."
+
+#: ../templates/single-product/ywqa-product-questions.php:59
+#, php-format
+msgid "Show all %d questions"
+msgstr "Mostrar las %d preguntas"
+
+#: ../templates/single-product/ywqa-product-questions.php:59
+#, php-format
+msgid "Show all %d questions %s"
+msgstr "Mostrar las %d preguntas %s"
+
+#: ../templates/single-product/ywqa-product-questions.php:59
+#, php-format
+msgid "(%d without an answer)"
+msgstr "(%d sin respuesta)"
+
+#: ../templates/single-product/ywqa-product-questions.php:63
+msgid ""
+"There are no questions yet, be the first to ask something for this product."
+msgstr ""
+"Todavía no hay preguntas, sé el primero en preguntar algo sobre este "
+"producto."
+
+#: ../templates/single-product/ywqa-product-questions.php:82
+msgid "Your question"
+msgstr "Tu pregunta"
+
+#: ../templates/single-product/ywqa-product-questions.php:85
+msgid "Do you have any questions? Ask now!"
+msgstr "¿Tienes más dudas? ¡Pregunta ahora!"
+
+#: ../templates/single-product/ywqa-product-questions.php:125
+msgid "Send me a notification for each new answer."
+msgstr "Enviarme una notificación por cada nueva respuesta"
+
+#: ../templates/single-product/ywqa-product-questions.php:128
+msgid "Ask"
+msgstr "Pregunta"
+
+#: ../templates/single-product/ywqa-product-questions.php:129
+msgid "Ask your question"
+msgstr "Haz tu pregunta"
+
+#: ../templates/single-product/ywqa-product-questions.php:136
+msgid "Only registered users are eligible to enter questions"
+msgstr "Sólo los usuarios registrados pueden introducir preguntas"
+
+#: ../templates/single-product/ywqa-search-bar.php:16
+msgid "Type here the text to search"
+msgstr ""
+
+#: ../templates/single-product/ywqa-single-answer.php:19
+#: ../templates/single-product/ywqa-single-question.php:68
+msgid "Read more"
+msgstr "Leer más"
+
+#: ../templates/single-product/ywqa-single-answer.php:31
+#, php-format
+msgid "Answered on %s"
+msgstr "Respondido el %s"
+
+#: ../templates/single-product/ywqa-single-answer.php:55
+msgid "YES"
+msgstr "SÍ"
+
+#: ../templates/single-product/ywqa-single-answer.php:57
+msgid "NO"
+msgstr "NO"
+
+#: ../templates/single-product/ywqa-single-answer.php:64
+msgid "Report an inappropriate content"
+msgstr "Reportar por contenido inapropiado"
+
+#: ../templates/single-product/ywqa-single-answer.php:65
+msgid "Report"
+msgstr "Reportar"
+
+#: ../templates/single-product/ywqa-single-question.php:45
+msgid "answer now"
+msgstr "responde ahora"
+
+#: ../templates/single-product/ywqa-single-question.php:59
+msgid "Answered by the admin"
+msgstr "Respondido por el admin"
+
+#: ../templates/single-product/ywqa-single-question.php:62
+msgid "A"
+msgstr "R"
+
+#: ../templates/single-product/ywqa-single-question.php:76
+msgid "There are no answers for this question yet."
+msgstr "Todavía no hay respuestas para esta pregunta."
+
+#: ../templates/single-product/ywqa-single-question.php:84
+msgid "Answer now"
+msgstr "Responde ahora"
+
+#: ../templates/single-product/ywqa-single-question.php:96
+#, php-format
+msgid "Show all %s answers"
+msgstr "Mostrar las %s respuestas"
+
+#~ msgid "Reset"
+#~ msgstr "Reiniciar"
+
+#~ msgid "This review is closed for replies"
+#~ msgstr "This review is closed to replies"
+
+#~ msgid "This review is closed for comments"
+#~ msgstr "This review is closed to comments"
+
+#~ msgid "Product id is in invalid format"
+#~ msgstr "Product id is an invalid format"
+
+#~ msgid "Voting/Reviews settings"
+#~ msgstr "Voting/Review settings"
+
+#~ msgid ""
+#~ "In the YIT Plugins tab you can find the YITH WooCommerce Advanced Reviews "
+#~ "options. With this menu, you can access to all the settings of our "
+#~ "plugins that you have activated."
+#~ msgstr ""
+#~ "In YIT Plugins tab you can find YITH WooCommerce Advanced Reviews "
+#~ "options. From this menu you can access all settings of YITH plugins "
+#~ "activated."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of YITH WooCommerce Advanced "
+#~ "Reviews under YIT Plugin -> Advanced Reviews instead of WooCommerce -> "
+#~ "Settings -> Advanced Reviews, as in the previous version. When one of our "
+#~ "plugins updates, a new voice will be added to this menu."
+#~ msgstr ""
+#~ "From now on, you can find all YITH WooCommerce Advanced Reviews options "
+#~ "in YIT Plugin -> Advanced Reviews instead of WooCommerce -> Settings -> "
+#~ "Advanced Reviews, as in the previous version. Any time one of our plugins "
+#~ "is updated, a new entry will be added to this menu."
+
+#~ msgid "The layout for this "
+#~ msgstr "Layout for this "
+
+#~ msgid ""
+#~ "The word used for the URL of each project (the slug of post if empty)"
+#~ msgstr ""
+#~ "Univocal identification name in the URL for each product (slug from post "
+#~ "if empty)"
+
+#~ msgid "Label Singular"
+#~ msgstr "Label in Singular"
+
+#~ msgid ""
+#~ "Set the label in singular to use for each label (the title of portfolio "
+#~ "if empty)"
+#~ msgstr "Set a label in singular (title of portfolio if empty)"
+
+#~ msgid "Label Plural"
+#~ msgstr "Label in Plural"
+
+#~ msgid ""
+#~ "Set the label in plural to use for each label (the title of portfolio if "
+#~ "empty)"
+#~ msgstr "Set a label in plural (title of portfolio if empty)"
+
+#~ msgid ""
+#~ "If you want to use a category section for the portfolio, set the name of "
+#~ "taxonomy. Name should be in slug form (must not contain capital letters "
+#~ "or spaces) and not more than 32 characters long (database structure "
+#~ "restriction)."
+#~ msgstr ""
+#~ "If you want to use categories in the portfolio, set a name for taxonomy. "
+#~ "Name should be a slug (must not contain capital letters nor spaces) and "
+#~ "must not be more than 32 characters long (database structure restriction)."
+
+#~ msgid "Set the word to use in the URL for each category page."
+#~ msgstr "Set the word for each category page URL."
+
+#~ msgid "The layout for single page of this portfolio"
+#~ msgstr "Layout for single page of this portfolio"
+
+#~ msgid "Show the frontend of the %s"
+#~ msgstr "Show frontend of the %s"
+
+#~ msgid ""
+#~ "The changes you made will be lost if you navigate away from this page."
+#~ msgstr "The changes you made will be lost if you leave this page."
+
+#~ msgid ""
+#~ "If you continue with this action, you will reset all options are in this "
+#~ "page."
+#~ msgstr ""
+#~ "If you go on with this action, you will reset all options in this page."
+
+#~ msgid ""
+#~ "The element you have written is already exists. Please, add another name."
+#~ msgstr "This element already exists. Please, enter a different name."
+
+#~ msgid "An error encoured during during import. Please try again."
+#~ msgstr "An error has occurred during import. Please try again."
+
+#~ msgid "The file you have insert doesn't valid."
+#~ msgstr "The file inserted is not valid."
+
+#~ msgid "I'm sorry, the import featured is disabled."
+#~ msgstr "Sorry, import is disabled."
+
+#~ msgid "Sorting done correctly."
+#~ msgstr "Sorting successful."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                     For every installation of our new "
+#~ "plugins, a new voice will be added to access to the customization "
+#~ "settings."
+#~ msgstr ""
+#~ "From now on, you can find all plugin options in YIT Plugin menu.\n"
+#~ "                                     For each plugin installed, "
+#~ "customization settings will be available as a new entry in YIT Plugin "
+#~ "menu."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                    When one of our plugins updates, a "
+#~ "new voice will be added to this menu.\n"
+#~ "                                    For example, after the update, the "
+#~ "options from the plugins (YITH WooCommerce Wishlist, YITH WooCommerce "
+#~ "Ajax Search, etc.)\n"
+#~ "                                    will be removed from the previous "
+#~ "location and moved under the YIT Plugin tab."
+#~ msgstr ""
+#~ "From now on, you can find all the options of your plugins in YIT Plugin "
+#~ "menu.\n"
+#~ "                                    Any time one of our plugins is "
+#~ "updated, a new entry will be added to this menu.\n"
+#~ "                                    For example, after update, plugin "
+#~ "options (such for YITH WooCommerce Wishlist, YITH WooCommerce Ajax "
+#~ "Search, etc.)\n"
+#~ "                                    will be moved from previous location "
+#~ "to YIT Plugin tab."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s "
+#~ "details</a>. <em>You have to activate the plugin on a single site of the "
+#~ "network to benefit from the automatic updates.</em>"
+#~ msgstr ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s "
+#~ "details</a>. <em>You have to activate the plugin on a single site of the "
+#~ "network to benefit from automatic updates.</em>"
+
+#~ msgid "%field% field can not be empty"
+#~ msgstr "%field% field cannot be empty"
+
+#~ msgid "%field_1% and %field_2% fields can not be empty"
+#~ msgstr "%field_1% and %field_2% fields cannot be empty"
+
+#~ msgid "Software has been deactive"
+#~ msgstr "Software has been deactivated"
+
+#~ msgid "Licence key has be banned"
+#~ msgstr "Licence key has been banned"
+
+#~ msgid "To Active"
+#~ msgstr "Activation"
+
+#~ msgid "Insert the title of field."
+#~ msgstr "Insert title for the field."
+
+#~ msgid ""
+#~ "REQUIRED: The identification name of this field, that you can insert into "
+#~ "body email configuration. <strong>Note:</strong>Use only lowercase "
+#~ "characters and underscores."
+#~ msgstr ""
+#~ "REQUIRED: Field identification name to be entered into email body. "
+#~ "<strong>Note:</strong>Use only lowercase characters and underscores."
+
+#~ msgid "Select the type of this field."
+#~ msgstr "Select type for this field."
+
+#~ msgid "Select this if it's the email where you can reply."
+#~ msgstr "Select this if it is the email you can reply to."
+
+#~ msgid ""
+#~ "Insert an additional class(es) (separateb by comma) for more "
+#~ "personalization."
+#~ msgstr ""
+#~ "Insert additional class(es) (separated by commas) for more "
+#~ "personalization."
+
+#~ msgid "Choose how much long will be the field."
+#~ msgstr "Set field length."
+
+#~ msgid "The content of the tab. (HTML is supported)"
+#~ msgstr "Content of the tab. (HTML is supported)"
+
+#~ msgid "Sidebar Left"
+#~ msgstr "Left sidebar"
+
+#~ msgid "Sidebar Right"
+#~ msgstr "Right sidebar"
+
+#~ msgid "Add a title field on reviews."
+#~ msgstr "Add a title field to reviews."
+
+#~ msgid "Set maximum number of attachments selectable (0 = no limit)."
+#~ msgstr ""
+#~ "Set maximum number of attachments that can be selected (0 = no limit)."
+
+#~ msgid "Reviews summary options"
+#~ msgstr "Review summary options"
+
+#~ msgid "Fixed bars color"
+#~ msgstr "Fixed bar color"
+
+#~ msgid "Percentage bars color"
+#~ msgstr "Percentage bar color"
+
+#~ msgid "Show people's votes"
+#~ msgstr "Show review votes"
+
+#~ msgid "Add a string stating how many people's found the review useful."
+#~ msgstr "Add a string stating how many people found the review useful."
+
+#~ msgid "Customers reviews"
+#~ msgstr "Customers' reviews"

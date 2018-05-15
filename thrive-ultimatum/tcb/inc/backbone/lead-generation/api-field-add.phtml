@@ -1,0 +1,15 @@
+<div class="view-state add-state">
+	<button type="button" class="button-link blue click" data-fn="toggleAddFields">
+		<?php echo __( 'Add a new field', 'thrive-cb' ); ?>
+	</button>
+</div>
+
+<div class="view-state fields-state" style="display: none;">
+	<select class="api-fields change" data-fn="addFields">
+		<option disabled value="0"><?php echo __( 'Select Field', 'thrive-cb' ); ?></option>
+		<# _.each(fields, function(field) { #>
+		<option value="<#= field.id #>"><#= field.placeholder #></option>
+		<# }); #>
+	</select>
+</div>
+

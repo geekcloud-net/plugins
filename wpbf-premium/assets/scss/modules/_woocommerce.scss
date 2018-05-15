@@ -1,0 +1,71 @@
+// Main Menu Cart Item
+.wpbf-menu-item-cart {
+	a:after {
+		display: none;
+	}
+	.woo-sub-menu {
+		border-radius: 4px;
+		font-size: $small-fontsize;
+		padding: $padding-small;
+		left: auto;
+		right: 0;
+		width: 280px !important;
+		text-align: right;
+	}
+	.woo-sub-menu:before {
+		content: "\f10a";
+		font-family: "page-builder-framework";
+		position: absolute;
+		right: 20px;
+		top: -14px;
+		line-height: 1;
+		font-size: $big-fontsize;
+		color: #fff;
+
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	table {
+		text-align: left;
+		border: none !important;
+		margin-bottom: $margin-small !important;
+		tr:last-child {
+			border-bottom: none;
+		}
+		th:nth-child(2), td:nth-child(2) {
+			text-align: right;
+		}
+		a {
+			padding: 0 !important;
+		}
+	}
+	.count {
+		position: relative;
+		.number {
+			position: absolute;
+			top: -21px;
+			right: -21px;
+			height: 22px;
+			width: 22px;
+			line-height: 22px;
+			border-radius: 22px;
+			font-size: $tiny-fontsize;
+			text-align: center;
+			background: $accent-color;
+			color: #fff;
+		}
+	}
+	img {
+		width: 32px;
+		margin-right: $margin-small;
+	}
+	.wpbf-button {
+		display: inline-block;
+		margin-left: 5px;
+	}
+}

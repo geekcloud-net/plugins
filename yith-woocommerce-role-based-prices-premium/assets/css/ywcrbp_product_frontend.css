@@ -1,0 +1,8 @@
+.ywcrbp_regular_price, .ywcrbp_sale_price, .ywcrbp_your_price{
+
+    display: block;
+}
+
+.products .ywcrbp_regular_price, .products .ywcrbp_sale_price, .products .ywcrbp_your_price{
+    font-size: 11px;
+}

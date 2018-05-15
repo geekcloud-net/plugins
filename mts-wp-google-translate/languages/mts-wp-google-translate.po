@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Google Translate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-13 20:23+0530\n"
+"PO-Revision-Date: 2015-05-13 20:23+0530\n"
+"Last-Translator: MyThemeShop <support-team@mythemeshop.com>\n"
+"Language-Team: MyThemeShop\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/class-wp-google-translate.php:162
+msgid "Top Left"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:163
+msgid "Top Right"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:164
+msgid "Bottom Left"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:165
+msgid "Bottom Right"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:196
+msgid "WP Google Translate"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:217
+msgid "Default"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:232
+msgid "Dark"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:247
+msgid "Orange"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:262
+msgid "Turquoise"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:277
+msgid "Peter River"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:292
+msgid "Amethyst"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:365
+msgid "Select Image"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:367
+msgid "Remove Image"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:395
+msgid "No Icon"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:414
+msgid "Get Authorization Code"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:414
+msgid "Reconnect Account"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:469
+msgid "WP Google Translate Settings"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:473
+msgid "General Options"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:474
+#: ../includes/class-wp-google-translate.php:577
+msgid "Styling Options"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:485
+msgid "General Settings"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:488
+msgid "Default Language"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:496
+msgid "Set the default langauge or let the plugin pick it by it's own"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:502
+msgid "Google Analytics Tracking"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:506
+msgid "Track translation statistics with Google Analytics"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:511
+msgid "Tracking ID"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:515
+msgid "Tracking ID for Google Analytics."
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:520
+msgid "Exclude Mobile Browsers"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:524
+msgid "Don't show the language changing options on mobile browsers"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:530
+msgid "Show Button"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:534
+msgid ""
+"Show the translate button on your site. You can also use the widget or the "
+"menu item instead."
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:540
+msgid "Button Position"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:548
+msgid "Set the default position to show the language switch button"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:556
+msgid "Menu Item"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:560
+msgid "Add translate button as list menu on top "
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:565
+msgid "Menu Button Text"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:569
+msgid "Menu button text. Default is <strong>Select Language</strong>."
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:580
+msgid "Predefined Color Schemes"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:603
+msgid "Button Background Color"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:607
+#: ../includes/class-wp-google-translate.php:616
+msgid "Background color for the translate button"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:612
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:621
+msgid "Button Font Color"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:625
+#: ../includes/class-wp-google-translate.php:634
+msgid "Font color for the translate button"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:630
+msgid "Button Hover Font Color"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:639
+msgid "Button Border Color"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:643
+msgid "Border color for the translate button"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:648
+msgid "Language List Background Color"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:652
+#: ../includes/class-wp-google-translate.php:661
+msgid "Background color for the Language List"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:657
+msgid "List Hover Background Color"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:666
+msgid "Language List Font Color"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:670
+#: ../includes/class-wp-google-translate.php:679
+msgid "Font color for the Language List"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:675
+msgid "List Hover Font Color"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:684
+msgid "Language List Border Color"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:688
+msgid "Border color for the Language List"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:777
+msgid "Save Settings"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:1166
+msgid "WP Google Translate Widget"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:1166
+msgid ""
+"Creates a simple drop down list of languages to translate content and hides "
+"tool bar from header"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:1187
+msgid "Translate"
+msgstr ""
+
+#: ../includes/class-wp-google-translate.php:1190
+msgid "Title:"
+msgstr ""

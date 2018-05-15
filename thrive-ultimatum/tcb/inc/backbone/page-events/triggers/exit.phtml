@@ -1,0 +1,23 @@
+<p><strong><?php echo __( 'Exit Intent Settings', 'thrive-cb' ) ?></strong></p>
+
+<p><label class="tcb-checkbox"><input type="checkbox" class="change"<#=m.config && m.config.e_mobile ? ' checked' : ''#> data-fn="enable_mobile"> <span><?php echo __( 'Perform action on mobile devices', 'thrive-cb' ) ?></span></label>
+</p>
+
+<# if ( m.config && m.config.e_mobile ) { #>
+	<p><?php echo __( 'It is not possible to detect exit intent on a mobile device, so instead the selected action will be performed after a time delay. How long after page load before the action is performed on mobile devices ?', 'thrive-cb' ) ?></p>
+	<div class="row middle-xs">
+		<div class="col-xs-9">
+			<input type="range" value="<#=m.config.e_delay||10#>" min="1" max="300" id="exit-timer-slider" class="input change" data-fn-input="slider_update" data-fn-change="config" data-config="e_delay" data-target="#exit-timer">
+		</div>
+		<div class="col-xs-3">
+			<div class="row middle-xs">
+				<div class="col-xs-5">
+					<input type="text" value="<#=m.config.e_delay||10#>" id="exit-timer" class="input tcb-text-center change slider-input" data-fn-input="slider_update" data-fn-change="config" data-config="e_delay" data-target="#exit-timer-slider">
+				</div>
+				<div class="col-xs-7">
+					<span class="slider-input-label"><?php echo __( 'Seconds', 'thrive-cb' ) ?></span>
+				</div>
+			</div>
+		</div>
+	</div>
+<# } #>

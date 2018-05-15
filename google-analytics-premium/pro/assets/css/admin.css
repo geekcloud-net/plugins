@@ -1,0 +1,30 @@
+.monsterinsights-pro-report-date-control-group .btn.btn-default{background-color: #FFF;border: 1px solid #ccc;color: #4c9ce4;font-size: 14px;font-weight: 400;background-image:none;box-shadow:none;text-shadow:none;padding: 6px 20px;opacity:1;}
+.monsterinsights-pro-report-7-days{border-radius: 4px 0px 0px 4px !important;}
+.monsterinsights-pro-report-30-days{border-radius: 0px 4px 4px 0px !important; margin-right: 20px !important;}
+.monsterinsights-pro-report-date-control-group .btn.btn-default.active{background-color: #4c9ce4;border: 1px solid #6db0e9;color: #f7f7f7;box-shadow:none;text-shadow:none;}
+
+.monsterinsights-pro-report-date-control-group .monsterinsights-pro-datepicker {background-color: white;border: 1px solid #ccc;border-radius: 4px;color: #4c9ce4;padding: 6px 20px;font-size: 14px;font-weight: 400;background-image:none;box-shadow:none;text-shadow:none;width: 230px;height:34px;}
+
+.monsterinsights-pro-report-date-control-group .monsterinsights-pro-datepicker.monsterinsights-datepicker-active {background-color: #4c9ce4;border: 1px solid #6db0e9;color: #f7f7f7;box-shadow:none;text-shadow:none;}
+
+.monsterinsights-pro-report-date-control-group .monsterinsights-pro-datepicker::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	 color: #4c9ce4;font-size: 14px;font-weight: 400;
+}
+.monsterinsights-pro-report-date-control-group .monsterinsights-pro-datepicker:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #4c9ce4;font-size: 14px;font-weight: 400;
+   opacity:  1;
+}
+.monsterinsights-pro-report-date-control-group .monsterinsights-pro-datepicker::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #4c9ce4;font-size: 14px;font-weight: 400;
+   opacity:  1;
+}
+.monsterinsights-pro-report-date-control-group .monsterinsights-pro-datepicker:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #4c9ce4;font-size: 14px;font-weight: 400;
+}
+.monsterinsights-pro-report-date-control-group .monsterinsights-pro-datepicker::-ms-input-placeholder { /* Microsoft Edge */
+	color: #4c9ce4;font-size: 14px;font-weight: 400;
+}
+
+.monsterinsights-pro-report-date-control-group .monsterinsights-pro-datepicker::placeholder { /* Most modern browsers support this now. */
+	color: #4c9ce4;font-size: 14px;font-weight: 400;
+}

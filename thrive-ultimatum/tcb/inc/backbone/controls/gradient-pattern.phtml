@@ -1,0 +1,22 @@
+<label><?php echo __( 'Select pattern', 'thrive-cb' ) ?></label>
+<div class="dark-box">
+	<div class="row">
+		<# _.each( this.patterns, function( item, i ) {#>
+			<div class="col-xs-3">
+				<div class="pattern-item click" data-fn="select" data-index="<#=i#>"><div class="inner" style="background-image:<#=item.css#>;background-size:<#=item.size#>"></div></div>
+			</div>
+		<# } ) #>
+	</div>
+</div>
+
+<div class="row bottom-xs padding-top-10">
+	<div class="col-xs-2">
+		<label><?php echo __( 'Color', 'thrive-cb' ) ?></label>
+	</div>
+	<div class="col-xs-3">
+		<span class="color1 picker-small tcb-left"></span>
+	</div>
+	<div class="col-xs-7">
+		<div class="opacity-input"></div>
+	</div>
+</div>

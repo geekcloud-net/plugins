@@ -1,0 +1,53 @@
+$font-family: 'Poppins', sans-serif;
+
+/*countdown*/
+//has background
+$countdown-no-background: true;
+
+//has border
+$countdown-no-border: true;
+
+//if same color items
+$countdown-same-color-items: false;
+$countdown-item-bg: #fff;
+
+$countdown-item-border-radius: 0;
+$item-color: #333333;
+$item-color-dark: #fff;
+$item-font-size: 40px;
+$item-font-weight: 500;
+$item-font-style: normal;
+$item-line-height: 50px;
+$item-height: 50px; //numbers height, not the whole item
+$item-min-width: 52px; //numbers width (without padding)
+$item-spacing: 12px; //space from the outer margin to the first number
+$item-padding: $item-spacing;
+$item2-spacing: $item-spacing + ($item-min-width/2);
+$item3-spacing: $item2-spacing + ($item-min-width/2);
+$item4-spacing: $item3-spacing + ($item-min-width/2);
+//countdown responsive size
+$item-font-size-r: 18px;
+$item-line-height-r: 25px;
+$item-height-r: 20px; //numbers height, not the whole item
+$item-min-width-r: 36px; //numbers width (without padding)
+$item-spacing-r: 10px; //space from the outer margin to the first number
+$item-padding-r: $item-spacing-r;
+$item2-spacing-r: $item-spacing-r + ($item-min-width-r/2);
+$item3-spacing-r: $item2-spacing-r + ($item-min-width-r/2);
+$item4-spacing-r: $item3-spacing-r + ($item-min-width-r/2);
+//caption
+$caption-color: #666;
+$caption-color-dark: #ccc;
+$caption-font-weight: 400;
+$caption-font-size: 13px;
+
+$color-pallete:
+'blue' #0099ff,
+'black' #333333,
+'green' #669933,
+'white' #c1c1c1,
+'orange' #ffcc00,
+'purple' #996699,
+'red' #cc6666,
+'teal' #009999;
+

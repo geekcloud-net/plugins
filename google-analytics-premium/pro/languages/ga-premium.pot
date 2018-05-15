@@ -1,0 +1,957 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: MonsterInsights Pro\n"
+"Report-Msgid-Bugs-To: https://github.com/awesomemotive/monsterinsights/"
+"issues\n"
+"POT-Creation-Date: 2018-04-09 07:20-0400\n"
+"PO-Revision-Date: 2016-07-21 17:01-0400\n"
+"Last-Translator: Chris Christoff <support@monsterinsights.com>\n"
+"Language-Team: Chris Christoff <support@monsterinsights.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-WPHeader: googleanalytics-premium.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: .roboci\n"
+"X-Poedit-SearchPathExcluded-2: assets\n"
+"X-Poedit-SearchPathExcluded-3: bin\n"
+"X-Poedit-SearchPathExcluded-4: build\n"
+"X-Poedit-SearchPathExcluded-5: docs\n"
+"X-Poedit-SearchPathExcluded-6: phpdox\n"
+"X-Poedit-SearchPathExcluded-7: tests\n"
+"X-Poedit-SearchPathExcluded-8: tmp\n"
+"X-Poedit-SearchPathExcluded-9: vendor\n"
+"X-Poedit-SearchPathExcluded-10: wordpress\n"
+"X-Poedit-SearchPathExcluded-11: lite\n"
+"X-Poedit-SearchPathExcluded-12: *.css\n"
+"X-Poedit-SearchPathExcluded-13: googleanalytics.php\n"
+"X-Poedit-SearchPathExcluded-14: languages\n"
+"X-Poedit-SearchPathExcluded-15: includes\n"
+
+#: googleanalytics-premium.php:267 googleanalytics-premium.php:281
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: googleanalytics-premium.php:460
+msgid ""
+"The version of MonsterInsights eCommerce addon you have is not compatible "
+"with the version of MonsterInsights installed. Please update the eCommerce "
+"addon as soon as possible"
+msgstr ""
+
+#: googleanalytics-premium.php:482
+#, php-format
+msgid ""
+"Sorry, but your version of WordPress does not meet MonsterInsights's "
+"required version of %1$s3.8%2$s to run properly. The plugin not been "
+"activated. %3$sClick here to return to the Dashboard%4$s."
+msgstr ""
+
+#: googleanalytics-premium.php:504
+#, php-format
+msgid ""
+"Please %1$suninstall%2$s the MonsterInsights Lite Plugin. Your premium "
+"version of MonsterInsights may not work as expected until the Lite version "
+"is uninstalled."
+msgstr ""
+
+#: googleanalytics-premium.php:689
+#, php-format
+msgid ""
+"Sorry, but your version of WordPress does not meet MonsterInsight's required "
+"version of %1$s3.8%2$s to run properly. The plugin has not been activated. "
+"%3$sClick here to return to the Dashboard%4$s."
+msgstr ""
+
+#: googleanalytics-premium.php:694
+#, php-format
+msgid ""
+"Please uninstall and remove MonsterInsights Lite before activating "
+"MonsterInsights Pro. The Pro version has not been activated. %1$sClick here "
+"to return to the Dashboard%2$s."
+msgstr ""
+
+#: pro/includes/admin/reports.php:75
+msgid "MonsterInsights Pro Report Date Controls"
+msgstr ""
+
+#: pro/includes/admin/reports.php:76
+msgid "Last 7 days"
+msgstr ""
+
+#: pro/includes/admin/reports.php:77
+msgid "Last 30 days"
+msgstr ""
+
+#: pro/includes/admin/reports.php:78
+msgid "Select Custom Date Range"
+msgstr ""
+
+#: pro/includes/admin/reports/report-dimensions.php:34
+msgid "Dimensions"
+msgstr ""
+
+#: pro/includes/admin/reports/report-dimensions.php:44
+msgid "Please activate the custom dimensions addon."
+msgstr ""
+
+#: pro/includes/admin/reports/report-dimensions.php:48
+msgid "Please update the dimensions addon."
+msgstr ""
+
+#: pro/includes/admin/reports/report-dimensions.php:53
+msgid "Please enable at least 1 dimension to use this report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-dimensions.php:86
+msgid "Pageviews"
+msgstr ""
+
+#: pro/includes/admin/reports/report-dimensions.php:88
+#: pro/includes/admin/reports/report-ecommerce.php:406
+msgid "Sessions"
+msgstr ""
+
+#: pro/includes/admin/reports/report-dimensions.php:101
+msgid "Logged In"
+msgstr ""
+
+#: pro/includes/admin/reports/report-dimensions.php:103
+msgid "Logged Out"
+msgstr ""
+
+#: pro/includes/admin/reports/report-dimensions.php:125
+#: pro/includes/admin/reports/report-ecommerce.php:373
+#: pro/includes/admin/reports/report-ecommerce.php:424
+msgid "No data for this time period."
+msgstr ""
+
+#: pro/includes/admin/reports/report-dimensions.php:144
+#, php-format
+msgid "View %s Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:34
+msgid "eCommerce"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:44
+msgid "Please activate the ecommerce addon."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:50
+msgid ""
+"Please enable enhanced eCommerce in the MonsterInsights eCommerce settings "
+"to use the eCommerce report."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:64
+#: pro/includes/admin/reports/report-ecommerce.php:284
+msgid "Up"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:65
+#: pro/includes/admin/reports/report-ecommerce.php:285
+msgid "Down"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:70
+#: pro/includes/admin/reports/report-ecommerce.php:72
+#: pro/includes/admin/reports/report-forms.php:71
+msgid "Conversion Rate"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:72
+msgid "The percentage of website sessions resulting in a transaction."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:78
+#: pro/includes/admin/reports/report-ecommerce.php:105
+#: pro/includes/admin/reports/report-ecommerce.php:132
+#: pro/includes/admin/reports/report-ecommerce.php:159
+#: pro/includes/admin/reports/report-ecommerce.php:298
+#: pro/includes/admin/reports/report-ecommerce.php:325
+msgid "No change"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:92
+#: pro/includes/admin/reports/report-ecommerce.php:119
+#: pro/includes/admin/reports/report-ecommerce.php:146
+#: pro/includes/admin/reports/report-ecommerce.php:173
+#: pro/includes/admin/reports/report-ecommerce.php:312
+#: pro/includes/admin/reports/report-ecommerce.php:339
+#, php-format
+msgid "vs. Previous %s Days"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:97
+#: pro/includes/admin/reports/report-ecommerce.php:99
+#: pro/includes/admin/reports/report-ecommerce.php:356
+#: pro/includes/admin/reports/report-ecommerce.php:407
+msgid "Transactions"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:99
+msgid "The number of orders on your website."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:124
+#: pro/includes/admin/reports/report-ecommerce.php:126
+#: pro/includes/admin/reports/report-ecommerce.php:245
+msgid "Revenue"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:126
+msgid "The total of the orders placed."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:151
+#: pro/includes/admin/reports/report-ecommerce.php:153
+msgid "Avg. Order Value"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:153
+msgid "The average amount of the orders placed on your website."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:180
+#: pro/includes/admin/reports/report-ecommerce.php:183
+msgid "Top Products"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:183
+msgid "This list shows the top selling products on your website."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:188
+msgid "Product Name"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:189
+msgid "Quantity"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:190
+#, php-format
+msgid "% of Sales"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:191
+msgid "Total Revenue"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:212
+msgid "No product sales tracked during this time period."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:223
+#: pro/includes/admin/reports/report-publisher.php:86
+#: pro/includes/admin/reports/report-publisher.php:141
+msgid "Show"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:224
+#: pro/includes/admin/reports/report-publisher.php:87
+#: pro/includes/admin/reports/report-publisher.php:142
+msgid "How many to show"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:229
+msgid "View Full Top Products Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:234
+#: pro/includes/admin/reports/report-ecommerce.php:237
+msgid "Top Conversion Sources"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:237
+msgid "This list shows the top referral websites in terms of product revenue."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:242
+msgid "Sources"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:243
+#: pro/includes/admin/reports/report-publisher.php:52
+msgid "Visits"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:244
+#, php-format
+msgid "% of Visits"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:265
+msgid "No conversion sources tracked during this time period."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:276
+msgid "View Top Conversions Sources Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:290
+#: pro/includes/admin/reports/report-ecommerce.php:292
+msgid "Total Add to Carts"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:292
+msgid "The number of times products on your site were added to the cart."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:317
+#: pro/includes/admin/reports/report-ecommerce.php:319
+msgid "Total Removed from Cart"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:319
+msgid "The number of times products on your site were removed from the cart."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:348
+#: pro/includes/admin/reports/report-ecommerce.php:350
+msgid "Time to Purchase"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:350
+msgid ""
+"This list shows how many days from first visit it took users to purchase "
+"products from your site."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:355
+msgid "Days"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:357
+#: pro/includes/admin/reports/report-ecommerce.php:408
+#, php-format
+msgid "% of Total"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:392
+msgid "View Time to Purchase Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:399
+#: pro/includes/admin/reports/report-ecommerce.php:401
+msgid "Sessions to Purchase"
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:401
+msgid ""
+"This list shows the number of sessions it took users before they purchased a "
+"product from your website."
+msgstr ""
+
+#: pro/includes/admin/reports/report-ecommerce.php:443
+msgid "View Session to Purchase Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-forms.php:34
+#: pro/includes/admin/reports/report-forms.php:60
+#: pro/includes/admin/reports/report-forms.php:63
+msgid "Forms"
+msgstr ""
+
+#: pro/includes/admin/reports/report-forms.php:44
+msgid "Please activate the forms addon."
+msgstr ""
+
+#: pro/includes/admin/reports/report-forms.php:48
+msgid "Please update the forms addon."
+msgstr ""
+
+#: pro/includes/admin/reports/report-forms.php:63
+msgid ""
+"This list shows the number of conversions, impressions and conversion rate "
+"for each form on your website with at least 1 impression during the selected "
+"time range."
+msgstr ""
+
+#: pro/includes/admin/reports/report-forms.php:68
+msgid "Form Name or ID"
+msgstr ""
+
+#: pro/includes/admin/reports/report-forms.php:69
+#: pro/includes/admin/reports/report-queries.php:54
+msgid "Impressions"
+msgstr ""
+
+#: pro/includes/admin/reports/report-forms.php:70
+msgid "Conversions"
+msgstr ""
+
+#: pro/includes/admin/reports/report-forms.php:121
+msgid "View Full Forms Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:34
+msgid "Publishers"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:43
+#: pro/includes/admin/reports/report-publisher.php:46
+msgid "Top Landing Pages"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:46
+msgid ""
+"This list shows the top pages users first land on when visiting your website."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:51
+#: pro/includes/admin/reports/report-publisher.php:105
+#: pro/includes/admin/reports/report-publisher.php:162
+#: pro/includes/admin/reports/report-publisher.php:211
+msgid "Links"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:53
+msgid "Avg. Duration"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:54
+msgid "Bounce Rate"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:75
+msgid "No landing pages tracked during this time period"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:92
+msgid "View Full Top Landing Pages Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:97
+#: pro/includes/admin/reports/report-publisher.php:100
+msgid "Top Exit Pages"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:100
+msgid "This list shows the top pages users exit your website from."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:106
+msgid "Exits"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:107
+msgid "Page Views"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:108
+#, php-format
+msgid "% of Exits"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:130
+msgid "No exit pages tracked during this time period"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:147
+msgid "View Full Top Exit Pages Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:155
+#: pro/includes/admin/reports/report-publisher.php:157
+msgid "Top Outbound Links"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:157
+msgid ""
+"This list shows the top links clicked on your website that go to another "
+"website."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:163
+#: pro/includes/admin/reports/report-publisher.php:212
+msgid "Total Clicks"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:178
+msgid "No outbound link clicks detected for this time period."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:197
+msgid "View All Outbound Links Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:204
+#: pro/includes/admin/reports/report-publisher.php:206
+msgid "Top Affiliate Links"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:206
+msgid "This list shows the top affiliate links your visitors clicked on."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:227
+msgid "No affiliate link clicks detected for this time period."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:246
+msgid "View All Affiliate Links Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:254
+#: pro/includes/admin/reports/report-publisher.php:257
+msgid "Top Download Links"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:257
+msgid "This list shows the download links your visitors clicked the most."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:262
+msgid "Link Label"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:263
+#: pro/includes/admin/reports/report-queries.php:53
+msgid "Clicks"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:280
+msgid "No download link clicks detected for this time period."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:290
+msgid "View All Download Links Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:298
+#: pro/includes/admin/reports/report-publisher.php:300
+msgid "Age"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:300
+msgid ""
+"This graph shows what percent of your users are in a particular age group."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:444
+#: pro/includes/admin/reports/report-publisher.php:446
+msgid "Gender"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:446
+msgid "This graph shows the gender breakdown of your website visitors."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:586
+#: pro/includes/admin/reports/report-publisher.php:589
+msgid "Interests"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:589
+msgid "This list shows the interest groups your visitors belong to."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:594
+msgid "Categories"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:595
+#, php-format
+msgid "% of Interest"
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:614
+msgid "No interest groups detected for this time period."
+msgstr ""
+
+#: pro/includes/admin/reports/report-publisher.php:624
+msgid "View Full Interests Report"
+msgstr ""
+
+#: pro/includes/admin/reports/report-queries.php:34
+msgid "Search Console"
+msgstr ""
+
+#: pro/includes/admin/reports/report-queries.php:44
+msgid "Top 50 Google Search Terms"
+msgstr ""
+
+#: pro/includes/admin/reports/report-queries.php:47
+msgid "Top 50 Queries"
+msgstr ""
+
+#: pro/includes/admin/reports/report-queries.php:47
+msgid "This list shows the top 50 Google search queries for your website."
+msgstr ""
+
+#: pro/includes/admin/reports/report-queries.php:52
+msgid "Terms"
+msgstr ""
+
+#: pro/includes/admin/reports/report-queries.php:55
+msgid "CTR"
+msgstr ""
+
+#: pro/includes/admin/reports/report-queries.php:56
+msgid "Avg. Position"
+msgstr ""
+
+#: pro/includes/admin/reports/report-queries.php:74
+msgid "Click to learn more about your competitors with SEMRush"
+msgstr ""
+
+#: pro/includes/admin/reports/report-queries.php:88
+msgid "View Full Queries Report"
+msgstr ""
+
+#: pro/includes/admin/settings.php:17
+#, php-format
+msgid ""
+"In order to use the social tracking features, please %1$sinstall and activate"
+"%2$s the social addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:22
+#, php-format
+msgid ""
+"In order to use the ads tracking features, please %1$sinstall and activate"
+"%2$s the ads addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:27
+#, php-format
+msgid ""
+"In order to use the forms tracking features, please %1$sinstall and activate"
+"%2$s the forms addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:32
+#, php-format
+msgid ""
+"In order to use the ecommerce tracking features, please %1$sinstall and "
+"activate%2$s the ecommerce addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:37
+#, php-format
+msgid ""
+"In order to use the media tracking features, please %1$sinstall and activate"
+"%2$s the media addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:42
+#, php-format
+msgid ""
+"In order to use the membership tracking features, please %1$sinstall and "
+"activate%2$s the membership addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:47
+#, php-format
+msgid ""
+"In order to use the dimensions tracking features, please %1$sinstall and "
+"activate%2$s the dimensions addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:52
+#, php-format
+msgid ""
+"In order to use the performance tracking features, please %1$sinstall and "
+"activate%2$s the performance addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:57
+#, php-format
+msgid ""
+"In order to use the AMP integration, please %1$sinstall and activate%2$s the "
+"AMP addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:62
+#, php-format
+msgid ""
+"In order to use the Google Optimize integration, please %1$sinstall and "
+"activate%2$s the Google Optimize addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:67
+#, php-format
+msgid ""
+"In order to use the Facebook Instant Articles integration features, please "
+"%1$sinstall and activate%2$s the Facebook Instant Articles addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:72
+#, php-format
+msgid ""
+"In order to use the Bounce Reduction addon features, please %1$sinstall and "
+"activate%2$s the Bounce Reduction addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:77
+#, php-format
+msgid ""
+"In order to use the reporting features, please %1$sinstall and activate%2$s "
+"the reporting addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:82
+#, php-format
+msgid ""
+"In order to use the notifications features, please %1$sinstall and activate"
+"%2$s the notifications addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:89 pro/includes/admin/settings.php:94
+#: pro/includes/admin/settings.php:99 pro/includes/admin/settings.php:104
+#: pro/includes/admin/settings.php:109 pro/includes/admin/settings.php:114
+#: pro/includes/admin/settings.php:119 pro/includes/admin/settings.php:124
+#: pro/includes/admin/settings.php:129 pro/includes/admin/settings.php:134
+#: pro/includes/admin/settings.php:139 pro/includes/admin/settings.php:144
+#: pro/includes/admin/settings.php:149 pro/includes/admin/settings.php:154
+msgid "In order to use these pro features, please enter your license key."
+msgstr ""
+
+#: pro/includes/admin/settings.php:162 pro/includes/admin/settings.php:167
+#: pro/includes/admin/settings.php:172 pro/includes/admin/settings.php:177
+#: pro/includes/admin/settings.php:182 pro/includes/admin/settings.php:187
+#: pro/includes/admin/settings.php:192 pro/includes/admin/settings.php:197
+#: pro/includes/admin/settings.php:202 pro/includes/admin/settings.php:207
+#: pro/includes/admin/settings.php:212 pro/includes/admin/settings.php:217
+#: pro/includes/admin/settings.php:222 pro/includes/admin/settings.php:227
+msgid ""
+"In order to use these pro features, please ask your webmaster to install the "
+"necessary addon."
+msgstr ""
+
+#: pro/includes/admin/settings.php:240
+msgid "Enable User ID tracking"
+msgstr ""
+
+#: pro/includes/admin/settings.php:241
+#, php-format
+msgid ""
+"To the extent that Google allows webmasters to discern single users, this "
+"setting allows you to identify users by their WordPress user ID if logged "
+"in. To use this feature, you will need to turn this feature on in Google "
+"Analytics. %1$sClick here%2$s for step by step directions."
+msgstr ""
+
+#: pro/includes/admin/settings.php:247
+msgid "Enable _gaTracker Compatibility"
+msgstr ""
+
+#: pro/includes/admin/settings.php:248
+#, php-format
+msgid ""
+"This enables MonsterInsights to work with plugins that use ga() and don't "
+"support %s"
+msgstr ""
+
+#: pro/includes/admin/tab-support.php:69
+msgid "Support ticket sent successfully."
+msgstr ""
+
+#: pro/includes/admin/tools.php:19
+msgid "Generate custom campaign parameters for your advertising URLS."
+msgstr ""
+
+#: pro/includes/admin/tools.php:20
+msgid ""
+"The URL builder helps you add parameters to your URLs you use in custom web-"
+"based or email ad campaigns. A custom campaign is any ad campaign not using "
+"the AdWords auto-tagging feature. When users click one of the custom links, "
+"the unique parameters are sent to your Analytics account, so you can "
+"identify the urls that are the most effective in attracting users to your "
+"content."
+msgstr ""
+
+#: pro/includes/admin/tools.php:21
+msgid ""
+"Fill out the required fields (marked with *) in the form below, and as you "
+"make changes the full campaign URL will be generated for you."
+msgstr ""
+
+#: pro/includes/admin/tools.php:29
+msgid "Website URL"
+msgstr ""
+
+#: pro/includes/admin/tools.php:34
+#, php-format
+msgid "The full website URL (e.g. %1$s)"
+msgstr ""
+
+#: pro/includes/admin/tools.php:40 pro/includes/admin/tools.php:128
+msgid "Campaign Source"
+msgstr ""
+
+#: pro/includes/admin/tools.php:45
+#, php-format
+msgid "Enter a referrer (e.g. %1$s, %2$s, %3$s)"
+msgstr ""
+
+#: pro/includes/admin/tools.php:51 pro/includes/admin/tools.php:139
+msgid "Campaign Medium"
+msgstr ""
+
+#: pro/includes/admin/tools.php:56
+#, php-format
+msgid "Enter a marketing medium (e.g. %1$s, %2$s, %3$s)"
+msgstr ""
+
+#: pro/includes/admin/tools.php:62 pro/includes/admin/tools.php:149
+msgid "Campaign Name"
+msgstr ""
+
+#: pro/includes/admin/tools.php:67
+#, php-format
+msgid "Enter a name to identify the campaign (e.g. %1$s)"
+msgstr ""
+
+#: pro/includes/admin/tools.php:73 pro/includes/admin/tools.php:159
+msgid "Campaign Term"
+msgstr ""
+
+#: pro/includes/admin/tools.php:78
+msgid "Enter the paid keyword"
+msgstr ""
+
+#: pro/includes/admin/tools.php:84 pro/includes/admin/tools.php:169
+msgid "Campaign Content"
+msgstr ""
+
+#: pro/includes/admin/tools.php:89
+msgid "Enter something to differentiate ads"
+msgstr ""
+
+#: pro/includes/admin/tools.php:95
+msgid "Use Fragment"
+msgstr ""
+
+#: pro/includes/admin/tools.php:100
+msgid ""
+"Set the parameters in the fragment portion of the URL (not recommended)."
+msgstr ""
+
+#: pro/includes/admin/tools.php:106
+msgid "URL to use (updates automatically):"
+msgstr ""
+
+#: pro/includes/admin/tools.php:113
+msgid "Copy to clipboard"
+msgstr ""
+
+#: pro/includes/admin/tools.php:122
+msgid "More information and examples for each option"
+msgstr ""
+
+#: pro/includes/admin/tools.php:123
+msgid ""
+"The following table gives a detailed explanation and example of each of the "
+"campaign parameters."
+msgstr ""
+
+#: pro/includes/admin/tools.php:132
+msgid "Required."
+msgstr ""
+
+#: pro/includes/admin/tools.php:133
+#, php-format
+msgid "Use %1$s to identify a search engine, newsletter name, or other source."
+msgstr ""
+
+#: pro/includes/admin/tools.php:134 pro/includes/admin/tools.php:144
+#: pro/includes/admin/tools.php:154 pro/includes/admin/tools.php:164
+msgid "Example:"
+msgstr ""
+
+#: pro/includes/admin/tools.php:143
+#, php-format
+msgid "Use %1$s to identify a medium such as email or cost-per-click."
+msgstr ""
+
+#: pro/includes/admin/tools.php:153
+#, php-format
+msgid ""
+"Used for keyword analysis. Use %1$s to identify a specific product promotion "
+"or strategic campaign."
+msgstr ""
+
+#: pro/includes/admin/tools.php:163
+#, php-format
+msgid "Used for paid search. Use %1$s to note the keywords for this ad."
+msgstr ""
+
+#: pro/includes/admin/tools.php:173
+#, php-format
+msgid ""
+"Used for A/B testing and content-targeted ads. Use %1$s to differentiate ads "
+"or links that point to the same URL."
+msgstr ""
+
+#: pro/includes/admin/tools.php:174
+msgid "Examples:"
+msgstr ""
+
+#: pro/includes/admin/tools.php:174
+msgid "or"
+msgstr ""
+
+#: pro/includes/admin/tools.php:180
+msgid "More information:"
+msgstr ""
+
+#: pro/includes/admin/tools.php:183
+msgid "About Campaigns"
+msgstr ""
+
+#: pro/includes/admin/tools.php:184
+msgid "About Custom Campaigns"
+msgstr ""
+
+#: pro/includes/admin/tools.php:185
+msgid "Best practices for creating Custom Campaigns"
+msgstr ""
+
+#: pro/includes/admin/tools.php:186
+msgid "About the Referral Traffic report"
+msgstr ""
+
+#: pro/includes/admin/tools.php:187
+msgid "About traffic source dimensions"
+msgstr ""
+
+#: pro/includes/admin/tools.php:188
+msgid "AdWords Auto-Tagging"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MonsterInsights Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.monsterinsights.com/?"
+"utm_source=wordpress&utm_medium=plugin&utm_campaign=wpmipluginpro&utm_content=v700"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The best Google Analytics plugin for WordPress. See how visitors find and "
+"use your website, so you can keep them coming back."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MonsterInsights"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.monsterinsights.com/"
+msgstr ""

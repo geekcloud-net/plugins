@@ -1,0 +1,1165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Database Cleaner Pro 2.0.0\n"
+"POT-Creation-Date: 2016-03-16 00:34+0000\n"
+"PO-Revision-Date: 2016-03-16 00:35+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: advanced-db-cleaner.php:156
+msgid "Once weekly"
+msgstr ""
+
+#: advanced-db-cleaner.php:161
+msgid "Once monthly"
+msgstr ""
+
+#: advanced-db-cleaner.php:283
+msgid ""
+"Please activate your license key to get lifetime automatic updates and "
+"support."
+msgstr ""
+
+#: advanced-db-cleaner.php:283
+msgid "Activate now"
+msgstr ""
+
+#: advanced-db-cleaner.php:288
+msgid "Welcome!"
+msgstr ""
+
+#: advanced-db-cleaner.php:290
+msgid ""
+"Before doing any clean-up, please make sure to always backup your database "
+"first."
+msgstr ""
+
+#: advanced-db-cleaner.php:292 includes/class_clean_tables.php:230
+msgid ""
+"Once you read and understand this message, you can disable it from settings "
+"Tab."
+msgstr ""
+
+#: advanced-db-cleaner.php:301
+msgid "General clean-up"
+msgstr ""
+
+#: advanced-db-cleaner.php:302 includes/class_optimize_tables.php:179
+msgid "Optimize"
+msgstr ""
+
+#: advanced-db-cleaner.php:303 includes/class_clean_tables.php:23
+#: includes/class_optimize_tables.php:18
+msgid "Tables"
+msgstr ""
+
+#: advanced-db-cleaner.php:304 includes/class_clean_options.php:23
+msgid "Options"
+msgstr ""
+
+#: advanced-db-cleaner.php:305
+msgid "Scheduled tasks"
+msgstr ""
+
+#: advanced-db-cleaner.php:306
+msgid "Overview & Settings"
+msgstr ""
+
+#: advanced-db-cleaner.php:307
+msgid "License"
+msgstr ""
+
+#: includes/class_clean_cron.php:22
+msgid "Task"
+msgstr ""
+
+#: includes/class_clean_cron.php:23
+msgid "Tasks"
+msgstr ""
+
+#: includes/class_clean_cron.php:83
+msgid ""
+"Indicates the creator of the scheduled task: either a plugin, a theme or "
+"WordPress itself. If not sure about the creator, an estimation (%) will be "
+"displayed and it is up to you to decide what to do"
+msgstr ""
+
+#: includes/class_clean_cron.php:87
+msgid "Hook name"
+msgstr ""
+
+#: includes/class_clean_cron.php:88
+msgid "Next run - Frequency"
+msgstr ""
+
+#: includes/class_clean_cron.php:89 includes/class_clean_options.php:243
+#: includes/class_clean_tables.php:110 includes/class_optimize_tables.php:124
+#: includes/custom-clean-view/class_clean_comment.php:88
+#: includes/custom-clean-view/class_clean_commentmeta.php:69
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:69
+#: includes/custom-clean-view/class_clean_draft_trash.php:89
+#: includes/custom-clean-view/class_clean_postmeta.php:69
+#: includes/custom-clean-view/class_clean_relationships.php:69
+#: includes/custom-clean-view/class_clean_revision.php:69
+msgid "Site id"
+msgstr ""
+
+#: includes/class_clean_cron.php:90 includes/class_clean_options.php:244
+#: includes/class_clean_tables.php:111
+msgid "Belongs to"
+msgstr ""
+
+#: includes/class_clean_cron.php:143 includes/class_clean_options.php:298
+#: includes/class_clean_tables.php:166
+msgid "Delete"
+msgstr ""
+
+#: includes/class_clean_cron.php:150
+msgid "No tasks found!"
+msgstr ""
+
+#: includes/class_clean_cron.php:198
+msgid "Selected scheduled tasks cleaned successfully!"
+msgstr ""
+
+#: includes/class_clean_cron.php:246
+msgid "Detect orphan tasks"
+msgstr ""
+
+#: includes/class_clean_cron.php:249 includes/class_clean_options.php:404
+#: includes/class_clean_tables.php:273
+msgid "Continue searching"
+msgstr ""
+
+#: includes/class_clean_cron.php:258 includes/class_clean_options.php:413
+#: includes/class_clean_tables.php:282
+msgid "Please wait!"
+msgstr ""
+
+#: includes/class_clean_cron.php:268
+msgid ""
+"Below the list of all your scheduled tasks. Please do not delete any task "
+"unless you really know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_cron.php:270
+msgid ""
+"The scheduled tasks below seem to be orphan. However, please delete only "
+"those you are sure to be orphan."
+msgstr ""
+
+#: includes/class_clean_cron.php:272
+msgid ""
+"The scheduled tasks below belong to your plugins. DO NOT delete them unless "
+"you really know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_cron.php:274
+msgid ""
+"The scheduled tasks below belong to your themes. DO NOT delete them unless "
+"you really know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_cron.php:276
+msgid ""
+"The scheduled tasks below belong to WordPress core. DO NOT delete them "
+"unless you really know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_cron.php:285 includes/class_clean_options.php:440
+#: includes/class_clean_tables.php:309 includes/class_general_cleanup.php:224
+#: includes/custom-clean-view/class_clean_comment.php:221
+#: includes/custom-clean-view/class_clean_commentmeta.php:201
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:201
+#: includes/custom-clean-view/class_clean_draft_trash.php:221
+#: includes/custom-clean-view/class_clean_postmeta.php:201
+#: includes/custom-clean-view/class_clean_relationships.php:201
+#: includes/custom-clean-view/class_clean_revision.php:201
+msgid "Cleaning..."
+msgstr ""
+
+#: includes/class_clean_cron.php:287
+msgid ""
+"You are about to clean some of your scheduled tasks. This operation is "
+"irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/class_clean_cron.php:290 includes/class_clean_options.php:445
+#: includes/class_clean_tables.php:314 includes/class_general_cleanup.php:229
+#: includes/custom-clean-view/class_clean_comment.php:234
+#: includes/custom-clean-view/class_clean_commentmeta.php:206
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:206
+#: includes/custom-clean-view/class_clean_draft_trash.php:234
+#: includes/custom-clean-view/class_clean_postmeta.php:206
+#: includes/custom-clean-view/class_clean_relationships.php:206
+#: includes/custom-clean-view/class_clean_revision.php:206
+msgid "Are you sure to continue?"
+msgstr ""
+
+#: includes/class_clean_cron.php:293 includes/class_clean_options.php:448
+#: includes/class_clean_tables.php:317 includes/class_general_cleanup.php:232
+#: includes/class_optimize_tables.php:283
+#: includes/custom-clean-view/class_clean_comment.php:237
+#: includes/custom-clean-view/class_clean_commentmeta.php:209
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:209
+#: includes/custom-clean-view/class_clean_draft_trash.php:237
+#: includes/custom-clean-view/class_clean_postmeta.php:209
+#: includes/custom-clean-view/class_clean_relationships.php:209
+#: includes/custom-clean-view/class_clean_revision.php:209
+msgid "Action required"
+msgstr ""
+
+#: includes/class_clean_cron.php:295 includes/class_clean_options.php:450
+#: includes/class_clean_tables.php:319 includes/class_general_cleanup.php:234
+#: includes/class_optimize_tables.php:285
+#: includes/custom-clean-view/class_clean_comment.php:239
+#: includes/custom-clean-view/class_clean_commentmeta.php:211
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:211
+#: includes/custom-clean-view/class_clean_draft_trash.php:239
+#: includes/custom-clean-view/class_clean_postmeta.php:211
+#: includes/custom-clean-view/class_clean_relationships.php:211
+#: includes/custom-clean-view/class_clean_revision.php:211
+msgid "Please select an action!"
+msgstr ""
+
+#: includes/class_clean_options.php:22
+msgid "Option"
+msgstr ""
+
+#: includes/class_clean_options.php:236
+msgid ""
+"Indicates the creator of the option: either a plugin, a theme or WordPress "
+"itself. If not sure about the creator, an estimation (%) will be displayed "
+"and it is up to you to decide what to do"
+msgstr ""
+
+#: includes/class_clean_options.php:240
+msgid "Option name"
+msgstr ""
+
+#: includes/class_clean_options.php:241
+msgid "Value"
+msgstr ""
+
+#: includes/class_clean_options.php:242
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:68
+msgid "Autoload"
+msgstr ""
+
+#: includes/class_clean_options.php:305
+msgid "No options found!"
+msgstr ""
+
+#: includes/class_clean_options.php:353
+msgid "Selected options cleaned successfully!"
+msgstr ""
+
+#: includes/class_clean_options.php:401
+msgid "Detect orphan options"
+msgstr ""
+
+#: includes/class_clean_options.php:423
+msgid ""
+"Below the list of all your options. Please do not delete any option unless "
+"you really know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_options.php:425
+msgid ""
+"The options below seem to be orphan. However, please delete only those you "
+"are sure to be orphan."
+msgstr ""
+
+#: includes/class_clean_options.php:427
+msgid ""
+"The options below belong to your plugins. DO NOT delete them unless you "
+"really know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_options.php:429
+msgid ""
+"The options below belong to your themes. DO NOT delete them unless you "
+"really know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_options.php:431
+msgid ""
+"The options below belong to WordPress core. DO NOT delete them unless you "
+"really know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_options.php:442
+msgid ""
+"You are about to clean some of your options. This operation is irreversible. "
+"Don't forget to make a backup first."
+msgstr ""
+
+#: includes/class_clean_tables.php:22 includes/class_optimize_tables.php:17
+msgid "Table"
+msgstr ""
+
+#: includes/class_clean_tables.php:102
+msgid ""
+"Indicates the creator of the table: either a plugin, a theme or WordPress "
+"itself. If not sure about the creator, an estimation (%) will be displayed "
+"and it is up to you to decide what to do"
+msgstr ""
+
+#: includes/class_clean_tables.php:106 includes/class_optimize_tables.php:122
+msgid "Prefix"
+msgstr ""
+
+#: includes/class_clean_tables.php:107 includes/class_optimize_tables.php:123
+msgid "Table name"
+msgstr ""
+
+#: includes/class_clean_tables.php:108
+msgid "Rows"
+msgstr ""
+
+#: includes/class_clean_tables.php:109
+msgid "Size"
+msgstr ""
+
+#: includes/class_clean_tables.php:173
+msgid "No tables found!"
+msgstr ""
+
+#: includes/class_clean_tables.php:209
+msgid "Selected tables cleaned successfully!"
+msgstr ""
+
+#: includes/class_clean_tables.php:226
+msgid "Warning!"
+msgstr ""
+
+#: includes/class_clean_tables.php:228
+msgid ""
+"If your database is shared by separated WordPress installation, the plugin "
+"will detect as orphan all other tables not belonging to the current site! "
+"Use this feature only if you have one WordPress installation in your "
+"database or one Multisite installation, but not multiple separated "
+"installations!"
+msgstr ""
+
+#: includes/class_clean_tables.php:270
+msgid "Detect orphan tables"
+msgstr ""
+
+#: includes/class_clean_tables.php:292
+msgid ""
+"Below the list of all your tables. Please do not delete any table unless you "
+"really know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_tables.php:294
+msgid ""
+"The tables below seem to be orphan. However, please delete only those you "
+"are sure to be orphan."
+msgstr ""
+
+#: includes/class_clean_tables.php:296
+msgid ""
+"The tables below belong to your plugins. DO NOT delete them unless you "
+"really know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_tables.php:298
+msgid ""
+"The tables below belong to your themes. DO NOT delete them unless you really "
+"know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_tables.php:300
+msgid ""
+"The tables below belong to WordPress core. DO NOT delete them unless you "
+"really know what you are doing!"
+msgstr ""
+
+#: includes/class_clean_tables.php:311
+msgid ""
+"You are about to clean some of your tables. This operation is irreversible. "
+"Don't forget to make a backup first."
+msgstr ""
+
+#: includes/class_general_cleanup.php:15
+msgid "Element"
+msgstr ""
+
+#: includes/class_general_cleanup.php:16
+msgid "Elements"
+msgstr ""
+
+#: includes/class_general_cleanup.php:28
+msgid "The clean-up schedule saved successfully!"
+msgstr ""
+
+#: includes/class_general_cleanup.php:70
+msgid "Element to clean"
+msgstr ""
+
+#: includes/class_general_cleanup.php:71
+msgid "Count"
+msgstr ""
+
+#: includes/class_general_cleanup.php:72
+msgid "View"
+msgstr ""
+
+#: includes/class_general_cleanup.php:121
+#: includes/custom-clean-view/class_clean_comment.php:142
+#: includes/custom-clean-view/class_clean_commentmeta.php:122
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:122
+#: includes/custom-clean-view/class_clean_draft_trash.php:142
+#: includes/custom-clean-view/class_clean_postmeta.php:122
+#: includes/custom-clean-view/class_clean_relationships.php:122
+#: includes/custom-clean-view/class_clean_revision.php:122
+msgid "Clean"
+msgstr ""
+
+#: includes/class_general_cleanup.php:128
+#: includes/class_general_cleanup.php:174
+msgid "Your database is clean!"
+msgstr ""
+
+#: includes/class_general_cleanup.php:149
+#: includes/custom-clean-view/class_clean_draft_trash.php:191
+msgid "Selected elements successfully cleaned!"
+msgstr ""
+
+#: includes/class_general_cleanup.php:177
+msgid "element(s) should be cleaned!"
+msgstr ""
+
+#: includes/class_general_cleanup.php:181
+#: includes/class_optimize_tables.php:240
+msgid "Schedule"
+msgstr ""
+
+#: includes/class_general_cleanup.php:188
+#: includes/class_optimize_tables.php:247
+msgid "Not scheduled"
+msgstr ""
+
+#: includes/class_general_cleanup.php:191
+msgid "Run clean-up hourly"
+msgstr ""
+
+#: includes/class_general_cleanup.php:194
+msgid "Run clean-up twice a day"
+msgstr ""
+
+#: includes/class_general_cleanup.php:197
+msgid "Run clean-up daily"
+msgstr ""
+
+#: includes/class_general_cleanup.php:200
+msgid "Run clean-up weekly"
+msgstr ""
+
+#: includes/class_general_cleanup.php:203
+msgid "Run clean-up monthly"
+msgstr ""
+
+#: includes/class_general_cleanup.php:206
+#: includes/class_optimize_tables.php:265
+msgid "Save"
+msgstr ""
+
+#: includes/class_general_cleanup.php:209
+#: includes/class_optimize_tables.php:268
+msgid "Next run:"
+msgstr ""
+
+#: includes/class_general_cleanup.php:215
+#: includes/class_optimize_tables.php:274
+msgid "not set"
+msgstr ""
+
+#: includes/class_general_cleanup.php:226
+msgid ""
+"You are about to clean some of your unused data. This operation is "
+"irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/class_optimize_tables.php:30
+msgid "The optimization schedule saved successfully!"
+msgstr ""
+
+#: includes/class_optimize_tables.php:118
+msgid "Indicates the total lost space in the table"
+msgstr ""
+
+#: includes/class_optimize_tables.php:125
+msgid "Lost"
+msgstr ""
+
+#: includes/class_optimize_tables.php:186
+msgid "All tables are optimized!"
+msgstr ""
+
+#: includes/class_optimize_tables.php:207
+msgid "Selected tables successfully optimized!"
+msgstr ""
+
+#: includes/class_optimize_tables.php:232
+msgid "Your database is optimized!"
+msgstr ""
+
+#: includes/class_optimize_tables.php:235
+msgid "table(s) should be optimized!"
+msgstr ""
+
+#: includes/class_optimize_tables.php:250
+msgid "Run optimization hourly"
+msgstr ""
+
+#: includes/class_optimize_tables.php:253
+msgid "Run optimization twice a day"
+msgstr ""
+
+#: includes/class_optimize_tables.php:256
+msgid "Run optimization daily"
+msgstr ""
+
+#: includes/class_optimize_tables.php:259
+msgid "Run optimization weekly"
+msgstr ""
+
+#: includes/class_optimize_tables.php:262
+msgid "Run optimization monthly"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:18
+msgid "Pending comment"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:19
+#: includes/functions.php:96
+msgid "Pending comments"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:22
+msgid "Spam comment"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:23
+msgid "Spam comments"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:26
+msgid "Trash comment"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:27
+#: includes/functions.php:98
+msgid "Trash comments"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:84
+#: includes/custom-clean-view/class_clean_draft_trash.php:86
+#: includes/custom-clean-view/class_clean_revision.php:66
+msgid "ID"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:85
+msgid "Author"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:86
+msgid "Content"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:87
+#: includes/custom-clean-view/class_clean_draft_trash.php:88
+#: includes/custom-clean-view/class_clean_revision.php:68
+msgid "Date"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:149
+msgid "No comments found!"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:191
+msgid "Selected comments successfully cleaned!"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:210
+#: includes/custom-clean-view/class_clean_draft_trash.php:210
+msgid "Custom cleaning : "
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:225
+msgid ""
+"You are about to clean some of your pending comments. This operation is "
+"irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:227
+msgid ""
+"You are about to clean some of your spam comments. This operation is "
+"irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_comment.php:229
+msgid ""
+"You are about to clean some of your trash comments. This operation is "
+"irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_commentmeta.php:15
+msgid "Comment meta"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_commentmeta.php:16
+msgid "Comments meta"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_commentmeta.php:66
+#: includes/custom-clean-view/class_clean_postmeta.php:66
+msgid "Meta id"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_commentmeta.php:67
+msgid "Comment meta key"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_commentmeta.php:68
+#: includes/custom-clean-view/class_clean_postmeta.php:68
+msgid "Meta value"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_commentmeta.php:129
+msgid "No comment meta found!"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_commentmeta.php:171
+msgid "Selected orphan commentmeta successfully cleaned!"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_commentmeta.php:190
+msgid "Custom cleaning : <b>Orphan commentmeta</b>"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_commentmeta.php:203
+msgid ""
+"You are about to clean some of your orphan commentmeta. This operation is "
+"irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:15
+msgid "Dashboard transient feed"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:16
+msgid "Dashboard transients feed"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:66
+msgid "Feed id"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:67
+msgid "Feed name"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:129
+#: includes/custom-clean-view/class_clean_draft_trash.php:149
+#: includes/custom-clean-view/class_clean_relationships.php:129
+#: includes/custom-clean-view/class_clean_revision.php:129
+msgid "No elements found!"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:171
+msgid "Selected dashboard transient feeds successfully cleaned!"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:190
+msgid "Custom cleaning : <b>Dashboard transient feed</b>"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_dashboard_transient_feed.php:203
+msgid ""
+"You are about to clean some of your dashboard transient feed. This operation "
+"is irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:19
+msgid "Draft"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:20
+#: includes/functions.php:93
+msgid "Drafts"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:21
+msgid "Draft title"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:24
+msgid "Auto draft"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:25
+msgid "Auto drafts"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:26
+msgid "Auto draft title"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:29
+msgid "Trash post"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:30
+#: includes/functions.php:95
+msgid "Trash posts"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:31
+msgid "Trash post title"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:225
+msgid ""
+"You are about to clean some of your drafts. This operation is irreversible. "
+"Don't forget to make a backup first."
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:227
+msgid ""
+"You are about to clean some of your auto-drafts. This operation is "
+"irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_draft_trash.php:229
+msgid ""
+"You are about to clean some of your trash posts. This operation is "
+"irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_postmeta.php:15
+msgid "Post meta"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_postmeta.php:16
+msgid "Posts meta"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_postmeta.php:67
+msgid "Post meta key"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_postmeta.php:129
+msgid "No post meta found!"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_postmeta.php:171
+msgid "Selected orphan postmeta successfully cleaned!"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_postmeta.php:190
+msgid "Custom cleaning : <b>Orphan postmeta</b>"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_postmeta.php:203
+msgid ""
+"You are about to clean some of your orphan postmeta. This operation is "
+"irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_relationships.php:15
+msgid "Relationship"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_relationships.php:16
+msgid "Relationships"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_relationships.php:66
+msgid "Object id"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_relationships.php:67
+msgid "Term taxonomy id"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_relationships.php:68
+msgid "Term order"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_relationships.php:171
+msgid "Selected orphan relationships successfully cleaned!"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_relationships.php:190
+msgid "Custom cleaning : <b>Orphan relationships</b>"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_relationships.php:203
+msgid ""
+"You are about to clean some of your orphan relationships. This operation is "
+"irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_revision.php:15
+msgid "Revision"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_revision.php:16
+#: includes/functions.php:92
+msgid "Revisions"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_revision.php:67
+msgid "Revision title"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_revision.php:171
+msgid "Selected revisions successfully cleaned!"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_revision.php:190
+msgid "Custom cleaning : <b>Revisions</b>"
+msgstr ""
+
+#: includes/custom-clean-view/class_clean_revision.php:203
+msgid ""
+"You are about to clean some of your revisions. This operation is "
+"irreversible. Don't forget to make a backup first."
+msgstr ""
+
+#: includes/functions.php:94
+msgid "Auto Drafts"
+msgstr ""
+
+#: includes/functions.php:97
+msgid "Spam Comments"
+msgstr ""
+
+#: includes/functions.php:99
+msgid "Orphan Postmeta"
+msgstr ""
+
+#: includes/functions.php:100
+msgid "Orphan Commentmeta"
+msgstr ""
+
+#: includes/functions.php:101
+msgid "Orphan Relationships"
+msgstr ""
+
+#: includes/functions.php:102
+msgid "Dashboard Transient Feed"
+msgstr ""
+
+#: includes/functions.php:169
+msgid "All tasks"
+msgstr ""
+
+#: includes/functions.php:170
+msgid "Orphan tasks"
+msgstr ""
+
+#: includes/functions.php:171
+msgid "Plugins tasks"
+msgstr ""
+
+#: includes/functions.php:172
+msgid "Themes tasks"
+msgstr ""
+
+#: includes/functions.php:173
+msgid "WP tasks"
+msgstr ""
+
+#: includes/functions.php:180
+msgid "All options"
+msgstr ""
+
+#: includes/functions.php:181
+msgid "Orphan options"
+msgstr ""
+
+#: includes/functions.php:182
+msgid "Plugins options"
+msgstr ""
+
+#: includes/functions.php:183
+msgid "Themes options"
+msgstr ""
+
+#: includes/functions.php:184
+msgid "WP options"
+msgstr ""
+
+#: includes/functions.php:191
+msgid "All tables"
+msgstr ""
+
+#: includes/functions.php:192
+msgid "Orphan tables"
+msgstr ""
+
+#: includes/functions.php:193
+msgid "Plugins tables"
+msgstr ""
+
+#: includes/functions.php:194
+msgid "Themes tables"
+msgstr ""
+
+#: includes/functions.php:195
+msgid "WP tables"
+msgstr ""
+
+#: includes/functions.php:239
+msgid "Uncategorised!"
+msgstr ""
+
+#: includes/functions.php:242
+msgid "Orphan!"
+msgstr ""
+
+#: includes/functions.php:245
+msgid "Wordpress core"
+msgstr ""
+
+#: includes/functions.php:310
+msgid ""
+"Your last search for orphan tasks has been stopped due to your server timeout"
+msgstr ""
+
+#: includes/functions.php:311
+msgid "Remaining uncategorised tasks:"
+msgstr ""
+
+#: includes/functions.php:314
+msgid ""
+"Your last search for orphan options has been stopped due to your server "
+"timeout"
+msgstr ""
+
+#: includes/functions.php:315
+msgid "Remaining uncategorised options:"
+msgstr ""
+
+#: includes/functions.php:318
+msgid ""
+"Your last search for orphan tables has been stopped due to your server "
+"timeout"
+msgstr ""
+
+#: includes/functions.php:319
+msgid "Remaining uncategorised tables:"
+msgstr ""
+
+#: includes/functions.php:325
+msgid "Please click \"continue searching\" button to continue your search."
+msgstr ""
+
+#: includes/functions.php:352
+msgid "Searching for tasks was performed successfully!"
+msgstr ""
+
+#: includes/functions.php:357
+msgid "Searching for options was performed successfully!"
+msgstr ""
+
+#: includes/functions.php:363
+msgid "Searching for tables was performed successfully!"
+msgstr ""
+
+#: includes/functions.php:1006
+msgid "Unknown!"
+msgstr ""
+
+#: includes/functions.php:1009
+msgid "One-off event"
+msgstr ""
+
+#: includes/license/EDD_SL_Plugin_Updater.php:186
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: includes/license/EDD_SL_Plugin_Updater.php:193
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: includes/license/EDD_SL_Plugin_Updater.php:334
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/license/EDD_SL_Plugin_Updater.php:334
+msgid "Error"
+msgstr ""
+
+#: includes/license/edd-sample-plugin.php:48
+msgid "License Key"
+msgstr ""
+
+#: includes/license/edd-sample-plugin.php:60
+msgid "License status"
+msgstr ""
+
+#: includes/license/edd-sample-plugin.php:64
+msgid "Active"
+msgstr ""
+
+#: includes/license/edd-sample-plugin.php:66
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/license/edd-sample-plugin.php:68
+msgid "Inactive"
+msgstr ""
+
+#: includes/license/edd-sample-plugin.php:70
+msgid "Activate License"
+msgstr ""
+
+#: includes/overview_settings.php:22
+msgid ""
+"Indicates the total number of rows in your option tables of all your network "
+"sites, including transients..."
+msgstr ""
+
+#: includes/overview_settings.php:27
+msgid ""
+"Indicates the total number of rows in your option table, including "
+"transients..."
+msgstr ""
+
+#: includes/overview_settings.php:51
+msgid "Yes"
+msgstr ""
+
+#: includes/overview_settings.php:54
+msgid "No"
+msgstr ""
+
+#: includes/overview_settings.php:61
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: includes/overview_settings.php:67
+msgid "Overview"
+msgstr ""
+
+#: includes/overview_settings.php:70
+msgid "WP Version"
+msgstr ""
+
+#: includes/overview_settings.php:74
+msgid "Database size"
+msgstr ""
+
+#: includes/overview_settings.php:78
+msgid "Total unused data"
+msgstr ""
+
+#: includes/overview_settings.php:82
+msgid "Total tables"
+msgstr ""
+
+#: includes/overview_settings.php:86
+msgid "Tables to optimize"
+msgstr ""
+
+#: includes/overview_settings.php:90
+msgid "Total options"
+msgstr ""
+
+#: includes/overview_settings.php:94
+msgid "Total cron tasks"
+msgstr ""
+
+#: includes/overview_settings.php:98
+msgid "WP multisite Enabled ?"
+msgstr ""
+
+#: includes/overview_settings.php:102
+msgid "Number of sites"
+msgstr ""
+
+#: includes/overview_settings.php:106
+msgid "Script Max timeout"
+msgstr ""
+
+#: includes/overview_settings.php:107
+msgid "seconds"
+msgstr ""
+
+#: includes/overview_settings.php:110
+msgid "Local time"
+msgstr ""
+
+#: includes/overview_settings.php:117
+msgid "Settings"
+msgstr ""
+
+#: includes/overview_settings.php:122
+msgid "Show plugin left menu"
+msgstr ""
+
+#: includes/overview_settings.php:124
+msgid "Displays a menu at the left bar of your WP admin"
+msgstr ""
+
+#: includes/overview_settings.php:129
+msgid "Show welcome message"
+msgstr ""
+
+#: includes/overview_settings.php:131
+msgid "Reminds you to make a backup of your database"
+msgstr ""
+
+#: includes/overview_settings.php:136
+msgid "Show tables clean-up warning"
+msgstr ""
+
+#: includes/overview_settings.php:138
+msgid "Show a warning for shared database by multiple WP installations"
+msgstr ""
+
+#: includes/overview_settings.php:142
+msgid "Save settings"
+msgstr ""
+
+#: includes/sidebar.php:3
+msgid "Plugin version"
+msgstr ""
+
+#: includes/sidebar.php:10
+msgid "Please rate us"
+msgstr ""
+
+#: includes/sidebar.php:21
+msgid "Having issues?"
+msgstr ""
+
+#: includes/sidebar.php:25
+msgid "Send us email"
+msgstr ""
+
+#: includes/sidebar.php:32
+msgid "Developed by"
+msgstr ""

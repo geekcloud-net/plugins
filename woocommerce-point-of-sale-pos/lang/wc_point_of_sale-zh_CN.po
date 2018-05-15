@@ -1,0 +1,5630 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Point of Sale\n"
+"POT-Creation-Date: 2017-12-06 11:50+0000\n"
+"PO-Revision-Date: 2017-12-06 11:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-point-of-sale.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: i18n/app.php:14
+msgid "Product doesn't exist"
+msgstr "产品不存在"
+
+#: i18n/app.php:15
+#, php-format
+msgid "You cannot add another &quot;%s&quot; to your cart."
+msgstr "您不能添加另一个&quot;%s&quot; 到你的购物车。"
+
+#: i18n/app.php:16
+msgid "Sorry, this product cannot be purchased."
+msgstr "对不起，此产品无法购买。"
+
+#: i18n/app.php:17
+#, php-format
+msgid ""
+"You cannot add &quot;%s&quot; to the cart because the product is out of "
+"stock."
+msgstr "您不能添加 &quot;%s&quot; 到购物车，此产品已经缺货。"
+
+#: i18n/app.php:18
+#, php-format
+msgid ""
+"You cannot add that amount of &quot;%s&quot; to the cart because there is "
+"not enough stock (%s remaining)."
+msgstr "您不能添加该数量的&quot;%s&quot;，因为没有足够的库存（%s剩余）。"
+
+#: i18n/app.php:19
+#, php-format
+msgid ""
+"You cannot add that amount to the cart &mdash; we have %s in stock and you "
+"already have %s in your cart."
+msgstr "您不能添加该数量到购物车 &mdash; 库存 %s 并且已有 %s 在您的购物车。"
+
+#: i18n/app.php:20
+msgid "Product added successfully"
+msgstr "产品已成功添加。"
+
+#: i18n/app.php:21
+msgid "Please choose product options&hellip;"
+msgstr "请选择产品选项&hellip;"
+
+#: i18n/app.php:22 includes/views/templates/modal.php:505
+msgid "Are you sure you want to clear all fields and start from scratch?"
+msgstr "你确定你想清除所有字段，然后从头开始吗?"
+
+#: i18n/app.php:23
+msgid "Please add products."
+msgstr "请添加产品。"
+
+#: i18n/app.php:24
+msgid "Please select Payment method."
+msgstr "请选择付款方式"
+
+#: i18n/app.php:25
+msgid "Please enter correct amount."
+msgstr "请输入正确的金额。"
+
+#: i18n/app.php:26
+msgid "Order successful."
+msgstr "订单成功。"
+
+#: i18n/app.php:27
+msgid "Successfully voided."
+msgstr "已成功作废。"
+
+#: i18n/app.php:28
+msgid "Order successfully saved."
+msgstr "订单已成功保存。"
+
+#: i18n/app.php:29
+msgid "Please fill Billing Details."
+msgstr "请填写账单明细。"
+
+#: i18n/app.php:30
+msgid "Please fill Shipping Details."
+msgstr "请填写送货详情。"
+
+#: i18n/app.php:31
+msgid "Please fill Additional Information."
+msgstr "请填写附加信息。"
+
+#: i18n/app.php:32
+msgid "Shipping title is required."
+msgstr "送货标题是必须的。"
+
+#: i18n/app.php:33
+msgid "Shipping price is required."
+msgstr "送货价格是必须的。"
+
+#: i18n/app.php:34
+msgid "Product title is required."
+msgstr "产品标题是必须的。"
+
+#: i18n/app.php:35
+msgid "Product price is required."
+msgstr "产品价格是必须的。"
+
+#: i18n/app.php:36
+msgid "Quantity is required."
+msgstr "数量是必需的。"
+
+#: i18n/app.php:37
+msgid "Free shipping coupon"
+msgstr "免运费优惠券"
+
+#: i18n/app.php:38
+msgid "Can't load order"
+msgstr "不能加载订单"
+
+#: i18n/app.php:40
+msgid "item"
+msgstr "产品"
+
+#: i18n/app.php:41
+msgid "items"
+msgstr "项目"
+
+#: i18n/app.php:43 includes/views/modal/html-modal-retrieve-sales.php:3
+#: includes/views/modal/html-modal-retrieve-sales.php:11
+msgid "All"
+msgstr "所有"
+
+#: i18n/app.php:44
+msgid "Please enter the password."
+msgstr "请输入密码。"
+
+#: i18n/app.php:45
+msgid "Incorrect password."
+msgstr "密码错误。"
+
+#: i18n/app.php:46
+msgid "Free!"
+msgstr "免费！"
+
+#: i18n/app.php:47
+msgid "Note successfully added."
+msgstr "备注已成功添加。"
+
+#: i18n/app.php:48
+msgid "Note successfully updated."
+msgstr "备注已成功更新。"
+
+#: i18n/app.php:49
+msgid "Note deleted."
+msgstr "备注已删除。"
+
+#: i18n/app.php:50
+msgid "Card not recognized."
+msgstr ""
+
+#: i18n/app.php:51
+msgid "Please enter correct data."
+msgstr "请输入正确的数据。"
+
+#: i18n/app.php:52
+msgid "Please fill Custom Fields."
+msgstr ""
+
+#: i18n/app.php:53
+msgid "Invalid Barcode Scan"
+msgstr ""
+
+#: i18n/app.php:54
+msgid "You have logged in successfully."
+msgstr "您已成功登录。"
+
+#: i18n/app.php:55
+msgid "In Stock"
+msgstr "现在有货"
+
+#: i18n/app.php:56 includes/admin/settings/wc-pos-settings-register.php:79
+msgid "Out of Stock"
+msgstr "缺货"
+
+#: i18n/app.php:57
+msgid "Back-order"
+msgstr ""
+
+#: i18n/app.php:58
+msgid "Passwords don't match"
+msgstr "密码不匹配"
+
+#: i18n/app.php:59
+msgid "Please choose a customer."
+msgstr "请选择一个客户。"
+
+#: i18n/app.php:60
+msgid "Offline order successful."
+msgstr ""
+
+#: i18n/app.php:61
+msgid "Please enter Fee Name"
+msgstr ""
+
+#: i18n/booking.php:14
+#, php-format
+msgid "&times; %s Months"
+msgstr "&times; %s 月"
+
+#: i18n/booking.php:15
+msgid "Month(s)"
+msgstr "月"
+
+#: i18n/booking.php:16
+#, php-format
+msgid "&times; %s weeks"
+msgstr "&时间; %s 星期"
+
+#: i18n/booking.php:17
+msgid "Week(s)"
+msgstr "周"
+
+#: i18n/booking.php:18
+#, php-format
+msgid "&times; %s days"
+msgstr "&时间; %s 天数"
+
+#: i18n/booking.php:19
+msgid "Day(s)"
+msgstr "日"
+
+#: i18n/booking.php:20
+#, php-format
+msgid "&times; %s nights"
+msgstr "&范围; %s 晚"
+
+#: i18n/booking.php:21
+msgid "Nights(s)"
+msgstr "晚(s)"
+
+#: i18n/booking.php:22
+#, php-format
+msgid "&times; %s hours"
+msgstr "&times; %s 时"
+
+#: i18n/booking.php:23
+msgid "Hour(s)"
+msgstr "小时"
+
+#: i18n/booking.php:24
+#, php-format
+msgid "&times; %s minutes"
+msgstr "&times; %s 分"
+
+#: i18n/booking.php:25
+msgid "Minute(s)"
+msgstr "分钟"
+
+#: i18n/booking.php:26 includes/class-wc-pos-booking.php:67
+msgid "Duration"
+msgstr "有效期間"
+
+#: i18n/booking.php:27 includes/class-wc-pos-booking.php:86
+msgid "Persons"
+msgstr "人数"
+
+#: i18n/booking.php:28
+#, php-format
+msgid "+%s per month"
+msgstr "+%s 每個月"
+
+#: i18n/booking.php:29
+#, php-format
+msgid "+%s per day"
+msgstr "+%s 每天"
+
+#: i18n/booking.php:30
+#, php-format
+msgid "+%s per night"
+msgstr "+%s 每晚"
+
+#: i18n/booking.php:31
+#, php-format
+msgid "+%s per block"
+msgstr "+%s 每个板块"
+
+#: i18n/booking.php:32
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:11
+#: includes/views/html-admin-barcode-options.php:18
+#: includes/views/html-admin-registers-sale_report_overlay.php:354
+#: includes/views/html-admin-registers-sale_report_overlay.php:380
+#: includes/views/html-sale-report-email.php:342
+#: includes/views/html-sale-report-email.php:365
+#: includes/views/modal/html-modal-custom-product.php:19
+msgid "Type"
+msgstr "介质类型强制删除"
+
+#: i18n/booking.php:33
+#, php-format
+msgid "Start %s"
+msgstr "开始%s"
+
+#: i18n/booking.php:34
+msgid "Month"
+msgstr "月"
+
+#: i18n/coupon.php:14
+msgid "Coupon is not valid."
+msgstr "无效的进班码。"
+
+#: i18n/coupon.php:15
+#, php-format
+msgid ""
+"Sorry, it seems the coupon \"%s\" is invalid - it has now been removed from "
+"your order."
+msgstr "对不起， 优惠券 “%s” 无效 - 它已从您的订单中删除。"
+
+#: i18n/coupon.php:16
+#, php-format
+msgid ""
+"Sorry, it seems the coupon \"%s\" is not yours - it has now been removed "
+"from your order."
+msgstr "对不起， 优惠券 “%s” 不是您的 - 它已从您的订单中删除。"
+
+#: i18n/coupon.php:17
+msgid "Coupon code already applied!"
+msgstr "优惠券代码已应用！"
+
+#: i18n/coupon.php:18
+#, php-format
+msgid ""
+"Sorry, coupon \"%s\" has already been applied and cannot be used in "
+"conjunction with other coupons."
+msgstr "抱歉， 优惠码 \"%s\" 已经被使用，并且不能和其它优惠码一起使用。"
+
+#: i18n/coupon.php:19
+#, php-format
+msgid "Coupon \"%s\" does not exist!"
+msgstr "优惠劵 \"%s\" 不存在！"
+
+#: i18n/coupon.php:20
+msgid "Coupon usage limit has been reached."
+msgstr "优惠码已到达使用限制。"
+
+#: i18n/coupon.php:21
+msgid "This coupon has expired."
+msgstr "这个优惠券已经过期。"
+
+#: i18n/coupon.php:22
+#, php-format
+msgid "The minimum spend for this coupon is %s."
+msgstr "这个优惠券的最小花费是 %s。"
+
+#: i18n/coupon.php:23
+msgid "Sorry, this coupon is not applicable to your cart contents."
+msgstr "对不起，这张优惠券不适用于您购物车中内容。"
+
+#: i18n/coupon.php:24
+msgid "Sorry, this coupon is not valid for sale items."
+msgstr "对不起，这张优惠劵对于销售项目是无效的。"
+
+#: i18n/coupon.php:25
+msgid "Please enter a coupon code."
+msgstr "请输入优惠券代码。"
+
+#: i18n/coupon.php:26
+#, php-format
+msgid "The maximum spend for this coupon is %s."
+msgstr "这个优惠券的最大花费是 %s。"
+
+#: i18n/coupon.php:27
+#, php-format
+msgid "Sorry, this coupon is not applicable to the products: %s."
+msgstr "对不起，这张优惠券不适用于该产品：%s。"
+
+#: i18n/coupon.php:28
+#, php-format
+msgid "Sorry, this coupon is not applicable to the categories: %s."
+msgstr "对不起，这张优惠券不适用于该分类：%s。"
+
+#: i18n/coupon.php:29
+msgid "Coupon code applied successfully."
+msgstr "优惠码加载成功."
+
+#: i18n/coupon.php:30
+msgid "Coupon code removed successfully."
+msgstr "进班码取消成功。"
+
+#: i18n/coupon.php:31
+msgid "Discount added successfully."
+msgstr "折扣已添加成功。"
+
+#: i18n/coupon.php:32
+msgid "Discount updated successfully."
+msgstr ""
+
+#: i18n/product-addons.php:14
+msgid "Options total"
+msgstr ""
+
+#: i18n/product-addons.php:15
+msgid "Grand total"
+msgstr "總計"
+
+#: i18n/product-addons.php:16
+msgid "characters remaining"
+msgstr "个字符可输入"
+
+#: i18n/product-addons.php:17
+#, php-format
+msgid "The minimum allowed length for \"%s - %s\" is %s."
+msgstr "對於最小允許長度 “%s  - %s” 為 ％s。"
+
+#: i18n/product-addons.php:18
+#, php-format
+msgid "The maximum allowed length for \"%s - %s\" is %s."
+msgstr "對於允許的最大長度 “%s  - %s” 為 ％s。"
+
+#: i18n/product-addons.php:19
+#, php-format
+msgid "The minimum allowed amount for \"%s - %s\" is %s."
+msgstr "對於最小允許數量 “%s  - %s” 為 ％s。"
+
+#: i18n/product-addons.php:20
+#, php-format
+msgid "The maximum allowed amount for \"%s - %s\" is %s."
+msgstr "對於最大允許數量 “%s  - %s” 為 ％s。"
+
+#: i18n/product-addons.php:21
+#, php-format
+msgid "Please enter a value greater than 0 for \"%s - %s\"."
+msgstr "請輸入為大於0的值給 “%s  - %s”。"
+
+#: i18n/product-addons.php:22
+#, php-format
+msgid "Only letters are allowed for \"%s - %s\"."
+msgstr "只有字母允許\"%s-%s\"。"
+
+#: i18n/product-addons.php:23
+#, php-format
+msgid "Only digits are allowed for \"%s - %s\"."
+msgstr "只有數位允許\"%s-%s\"。"
+
+#: i18n/product-addons.php:24
+#, php-format
+msgid "Only letters and digits are allowed for \"%s - %s\"."
+msgstr "只有數位允許 \"%s-%s\"。"
+
+#: i18n/product-addons.php:25
+#, php-format
+msgid "A valid email address is required for \"%s - %s\"."
+msgstr "一個有效的電子郵件地址是必需的 \"%s - %s\"。"
+
+#: i18n/subscriptions.php:14
+msgid ""
+"A subscription renewal has been removed from your cart. Multiple "
+"subscriptions can not be purchased at the same time."
+msgstr "订阅续订已从您的购物车中删除。 多个订阅不能同时购买。"
+
+#: i18n/subscriptions.php:15
+msgid ""
+"A subscription has been removed from your cart. Due to payment gateway "
+"restrictions, different subscription products can not be purchased at the "
+"same time."
+msgstr ""
+"订阅已从您的购物车中删除。 由于支付网关的限制，不同的订购产品不能同时购买。"
+
+#: i18n/subscriptions.php:16
+msgid ""
+"A subscription has been removed from your cart. Products and subscriptions "
+"can not be purchased at the same time."
+msgstr "订阅已从您的购物车中删除。 产品和订阅不能同时购买。"
+
+#: i18n/subscriptions.php:17
+#, php-format
+msgid "%1$s every %2$s"
+msgstr "%1$s 每 %2$s"
+
+#: i18n/subscriptions.php:18
+#, php-format
+msgid "%1$s every %2$s on %3$s"
+msgstr "%1$s 每 %2$s on %3$s"
+
+#: i18n/subscriptions.php:19
+#, php-format
+msgid "%s on the last day of each month"
+msgstr "％s在每个月的最后一天"
+
+#: i18n/subscriptions.php:20
+#, php-format
+msgid "%1$s on the %2$s of each month"
+msgstr ""
+
+#: i18n/subscriptions.php:21
+#, php-format
+msgid "%1$s on the last day of every %2$s month"
+msgstr ""
+
+#: i18n/subscriptions.php:22
+#, php-format
+msgid "%1$s on the %2$s day of every %3$s month"
+msgstr "％1 $上的％2 $ s的每一天的％3 $ S一月的"
+
+#: i18n/subscriptions.php:23
+#, php-format
+msgid "%1$s on %2$s %3$s each year"
+msgstr ""
+
+#: i18n/subscriptions.php:24
+#, php-format
+msgid "%1$s on %2$s %3$s every %4$s year"
+msgstr ""
+
+#: i18n/subscriptions.php:26
+msgid "day"
+msgstr "日"
+
+#: i18n/subscriptions.php:27
+#, php-format
+msgid "%s days"
+msgstr "％s 天"
+
+#: i18n/subscriptions.php:28
+msgid "week"
+msgstr "周"
+
+#: i18n/subscriptions.php:29
+#, php-format
+msgid "%s weeks"
+msgstr "%s 个星期"
+
+#: i18n/subscriptions.php:30
+msgid "month"
+msgstr "月"
+
+#: i18n/subscriptions.php:31
+#, php-format
+msgid "%s months"
+msgstr "%s 个月"
+
+#: i18n/subscriptions.php:32
+msgid "year"
+msgstr "年"
+
+#: i18n/subscriptions.php:33
+#, php-format
+msgid "%s years"
+msgstr "%s 年"
+
+#: i18n/subscriptions.php:36
+#, php-format
+msgid "%sth"
+msgstr "%s个"
+
+#: i18n/subscriptions.php:37
+#, php-format
+msgid "%sst"
+msgstr "%s个"
+
+#: i18n/subscriptions.php:38
+#, php-format
+msgid "%snd"
+msgstr "%s个"
+
+#: i18n/subscriptions.php:39
+#, php-format
+msgid "%srd"
+msgstr "%s个"
+
+#: i18n/subscriptions.php:42
+#, php-format
+msgid "%1$s / %2$s"
+msgstr "%1$s (%2$s)"
+
+#: i18n/subscriptions.php:43
+#, php-format
+msgid " %1$s every %2$s"
+msgstr "%1$s 每 %2$s"
+
+#: i18n/subscriptions.php:45
+#, php-format
+msgid "%1$s for %2$s"
+msgstr "%2$s 的%1$s"
+
+#: i18n/subscriptions.php:46
+#, php-format
+msgid "%1$s with %2$s free trial"
+msgstr "%1$s with %2$s 免费试用"
+
+#: i18n/subscriptions.php:48
+#, php-format
+msgid "%s day"
+msgstr "%s 天"
+
+#: i18n/subscriptions.php:49
+#, php-format
+msgid "a %s-day"
+msgstr ""
+
+#: i18n/subscriptions.php:50
+#, php-format
+msgid "%s week"
+msgstr "%s 周"
+
+#: i18n/subscriptions.php:51
+#, php-format
+msgid "a %s-week"
+msgstr ""
+
+#: i18n/subscriptions.php:52
+#, php-format
+msgid "%s month"
+msgstr "%s 个月"
+
+#: i18n/subscriptions.php:53
+#, php-format
+msgid "a %s-month"
+msgstr ""
+
+#: i18n/subscriptions.php:54
+#, php-format
+msgid "%s year"
+msgstr "%s 年"
+
+#: i18n/subscriptions.php:55
+#, php-format
+msgid "a %s-year"
+msgstr ""
+
+#: i18n/subscriptions.php:57
+#, php-format
+msgid "%1$s and a %2$s sign-up fee"
+msgstr "%1$s and a %2$s 报名费"
+
+#: includes/admin/class-wc-pos-admin-menus.php:47
+#: includes/admin/class-wc-pos-admin-menus.php:48
+#: includes/admin/class-wc-pos-admin.php:408 includes/views/header.php:12
+msgid "Point of Sale"
+msgstr "门店POS"
+
+#: includes/admin/class-wc-pos-admin-menus.php:55
+#: includes/admin/class-wc-pos-admin-menus.php:56
+#: includes/admin/class-wc-pos-admin-menus.php:234
+#: includes/admin/settings/wc-pos-settings-general.php:93
+#: includes/tables/class-wc-pos-table-outlets.php:57
+msgid "Registers"
+msgstr "寄存器"
+
+#: includes/admin/class-wc-pos-admin-menus.php:62
+#: includes/admin/class-wc-pos-admin-menus.php:63
+#: includes/admin/class-wc-pos-admin-menus.php:246
+#: includes/admin/settings/wc-pos-settings-general.php:94
+msgid "Outlets"
+msgstr "经销店"
+
+#: includes/admin/class-wc-pos-admin-menus.php:69
+#: includes/admin/class-wc-pos-admin-menus.php:70
+#: includes/admin/settings/wc-pos-settings-layout.php:162
+#: includes/class-wc-pos-grids.php:438
+msgid "Product Grids"
+msgstr "产品网格"
+
+#: includes/admin/class-wc-pos-admin-menus.php:84
+#: includes/admin/class-wc-pos-admin-menus.php:85
+#, php-format
+msgid "Tiles - %s"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-menus.php:91
+#: includes/admin/class-wc-pos-admin-menus.php:92
+#: includes/admin/class-wc-pos-admin-menus.php:285
+msgid "Receipts"
+msgstr "入库单"
+
+#: includes/admin/class-wc-pos-admin-menus.php:98
+#: includes/admin/class-wc-pos-admin-menus.php:99
+#: includes/admin/class-wc-pos-admin-menus.php:297
+msgid "Cashiers"
+msgstr "收银员"
+
+#: includes/admin/class-wc-pos-admin-menus.php:106
+#: includes/admin/class-wc-pos-admin-menus.php:107
+#: includes/class-wc-pos-registers.php:150
+#: includes/tables/class-wc-pos-table-registers.php:79
+#: includes/views/html-float-cash-management.php:6
+#: includes/views/html-registers.php:62
+msgid "Cash Management"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-menus.php:114
+#: includes/admin/class-wc-pos-admin-menus.php:115
+msgid "Sales by sessions"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-menus.php:122
+#: includes/admin/class-wc-pos-admin-menus.php:123
+#: includes/class-wc-pos-barcodes.php:73 includes/class-wc-pos-barcodes.php:118
+msgid "Barcode"
+msgstr "条形码"
+
+#: includes/admin/class-wc-pos-admin-menus.php:129
+#: includes/admin/class-wc-pos-admin-menus.php:130
+#: includes/class-wc-pos-stocks.php:108 includes/views/footer.php:41
+msgid "Stock"
+msgstr "库存"
+
+#: includes/admin/class-wc-pos-admin-menus.php:137
+#: includes/admin/class-wc-pos-admin-menus.php:138
+#: includes/admin/class-wc-pos-admin-welcome.php:80
+#: includes/admin/class-wc-pos-admin.php:440
+#: includes/views/html-registers.php:43
+msgid "Settings"
+msgstr "设置"
+
+#: includes/admin/class-wc-pos-admin-menus.php:145
+#: includes/admin/class-wc-pos-admin-menus.php:146
+msgid "Update log"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-menus.php:259
+msgid "Layouts"
+msgstr "布局"
+
+#: includes/admin/class-wc-pos-admin-menus.php:272
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:713
+#: includes/admin/settings/wc-pos-settings-tiles.php:27
+#: includes/admin/settings/wc-pos-settings-tiles.php:135
+#: includes/tables/class-wc-pos-table-grids.php:76
+msgid "Tiles"
+msgstr "图块"
+
+#: includes/admin/class-wc-pos-admin-notices-v2.5.5.php:77
+#: includes/admin/class-wc-pos-admin-notices.php:77
+#: includes/admin/class-wc-pos-admin-settings.php:58
+msgid "Action failed. Please refresh the page and retry."
+msgstr "操作失败，请刷新页面并重试。"
+
+#: includes/admin/class-wc-pos-admin-notices-v2.5.5.php:81
+#: includes/admin/class-wc-pos-admin-notices.php:81
+#: includes/class-wc-pos-acf-fields.php:214
+#: includes/class-wc-pos-acf-fields.php:223
+#: includes/class-wc-pos-barcodes.php:48 includes/class-wc-pos-barcodes.php:57
+#: includes/class-wc-pos-booking.php:118 includes/class-wc-pos-booking.php:128
+#: includes/class-wc-pos-grids.php:48 includes/class-wc-pos-grids.php:57
+#: includes/class-wc-pos-outlets.php:49 includes/class-wc-pos-outlets.php:58
+#: includes/class-wc-pos-product-addons.php:112
+#: includes/class-wc-pos-product-addons.php:121
+#: includes/class-wc-pos-receipts.php:51 includes/class-wc-pos-receipts.php:61
+#: includes/class-wc-pos-registers.php:51
+#: includes/class-wc-pos-registers.php:61 includes/class-wc-pos-sell.php:1490
+#: includes/class-wc-pos-sell.php:1500
+#: includes/class-wc-pos-session-reports.php:34
+#: includes/class-wc-pos-session-reports.php:39
+#: includes/class-wc-pos-stocks.php:48 includes/class-wc-pos-stocks.php:57
+#: includes/class-wc-pos-subscriptions.php:171
+#: includes/class-wc-pos-subscriptions.php:180
+#: includes/class-wc-pos-tiles.php:51 includes/class-wc-pos-tiles.php:61
+#: includes/class-wc-pos-users.php:48 includes/class-wc-pos-users.php:57
+#: includes/class-wc-pos.php:513 includes/class-wc-pos.php:522
+msgid "Cheatin&#8217; huh?"
+msgstr "有疑问&#8217;?"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:61
+msgid ""
+"<span class=\"order-type tips\" data-tip=\"Order Type\">Order Type</span>"
+msgstr "<span class=“order-type tips” data-tip=“订单类型”>订单类型</span>"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:77
+msgid ""
+"<span class=\"order-type-web tips\" data-tip=\"Website Order\">web<span>"
+msgstr "<span class=“order-type-web tips” data-tip=“网站订单”>网络<span>"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:79
+msgid ""
+"<span class=\"order-type-staff tips\" data-tip=\"Manual Order\">man<span>"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:82
+msgid ""
+"<span class=\"order-type-pos tips\" data-tip=\"Point of Sale Order"
+"\">pos<span>"
+msgstr "<span class=“order-type-pos tips” data-tip=“销售点r”>pos<span>"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:98
+msgid "All types"
+msgstr "所有类型"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:99
+msgid "Online"
+msgstr "在线"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:100
+#: includes/admin/class-wc-pos-admin.php:258
+msgid "POS"
+msgstr "快捷下单"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:112
+msgid "All registers"
+msgstr "所有登记"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:127
+msgid "All outlets"
+msgstr "所有经销店"
+
+#: includes/admin/class-wc-pos-admin-print-report.php:56
+msgid "Print Report"
+msgstr "打印报告"
+
+#: includes/admin/class-wc-pos-admin-print-report.php:90
+#, php-format
+msgid "WooCommerce Point of Sale &rsaquo; %s"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-settings.php:65
+msgid "Your settings have been saved."
+msgstr "设置已保存。"
+
+#: includes/admin/class-wc-pos-admin-settings.php:136
+msgid ""
+"Good news, the tax configuration of WooCommerce is set up, you can use "
+"automated tax calculation for the POS system."
+msgstr "好消息，已设置电子商务税务配置，你可以使用POS系统的自动税收计算。"
+
+#: includes/admin/class-wc-pos-admin-settings.php:138
+msgid ""
+"Unfortunately, the tax configuration of WooCommerce is not set up/enabled, "
+"tax calculation features are limited."
+msgstr "不幸的是，电子商务的税务不是==还未设置/启用，税务计算功能是有限的。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:59
+msgid "Introduction"
+msgstr "介绍"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:64
+#: includes/admin/settings/wc-pos-settings-general.php:54
+msgid "General Options"
+msgstr "常规选项"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:69
+msgid "Tax & Payment"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:74
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:275
+msgid "Outlet Setup"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:79
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:573
+msgid "Register Setup"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:84
+msgid "Finished!"
+msgstr "已完成！"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:120
+#: includes/class-wc-pos-sell.php:1132
+msgid "Select an option&hellip;"
+msgstr "选择一个选项&hellip；"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:121
+#: includes/class-wc-pos-sell.php:1133 includes/class-wc-pos-sell.php:1152
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr "有一个结果可用，按输入键选择它。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:122
+#: includes/class-wc-pos-sell.php:1134 includes/class-wc-pos-sell.php:1153
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr "%qty%的结果可用，使用向上和向下箭头键进行导航。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:123
+#: includes/class-wc-pos-sell.php:1135 includes/class-wc-pos-sell.php:1154
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "没有找到匹配的"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:124
+#: includes/class-wc-pos-sell.php:1136 includes/class-wc-pos-sell.php:1155
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr "载入失败"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:125
+#: includes/class-wc-pos-sell.php:1137 includes/class-wc-pos-sell.php:1156
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "请输入 1 或者更多字符"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:126
+#: includes/class-wc-pos-sell.php:1138 includes/class-wc-pos-sell.php:1157
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "请输入 %qty% 或者更多字符"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:127
+#: includes/class-wc-pos-sell.php:1139 includes/class-wc-pos-sell.php:1158
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr "请删除1个字符"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:128
+#: includes/class-wc-pos-sell.php:1140 includes/class-wc-pos-sell.php:1159
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr "请删除 %qty% 个字符"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:129
+#: includes/class-wc-pos-sell.php:1141 includes/class-wc-pos-sell.php:1160
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr "你只能选择 1 个项"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:130
+#: includes/class-wc-pos-sell.php:1142 includes/class-wc-pos-sell.php:1161
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr "你只能选择 %qty% 项"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:131
+#: includes/class-wc-pos-sell.php:1143 includes/class-wc-pos-sell.php:1162
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr "载入更多结果;"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:132
+#: includes/class-wc-pos-sell.php:1144 includes/class-wc-pos-sell.php:1163
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr "搜索中;"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:171
+msgid "WooCommerce Point of Sale &rsaquo; Setup Wizard"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:192
+msgid "Return to the WordPress Dashboard"
+msgstr "返回到WordPress仪表盘"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:238
+msgid "Welcome to WooCommerce Point of Sale!"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:239
+msgid ""
+"Thank you for choosing WooCommerce Point of Sale to sell your products in-"
+"store! This quick setup wizard will help you configure the basic settings."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:240
+msgid "It's completely optional and shouldn't take longer than five minutes."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:242
+msgid ""
+"No time right now? If you don’t want to go through the wizard, you can skip "
+"and return to the WordPress dashboard. Come back anytime if you change your "
+"mind!"
+msgstr ""
+"现在没有时间吗?如果你不想浏览这个向导，你可以跳过并返回到WordPress面板。如果"
+"你改变主意，随时回来！"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:245
+msgid "Let's Go!"
+msgstr "开始吧！"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:247
+msgid "Not right now"
+msgstr "不是现在"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:260
+msgid "Default Receipt"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:277
+msgid ""
+"Your store needs an outlet set up before you can load and use the registers "
+"to sell your products in-store. Outlets are also considered to be like your "
+"physical store."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:280
+#: includes/class-wc-pos-grids.php:391 includes/class-wc-pos-grids.php:415
+#: includes/class-wc-pos-grids.php:461 includes/class-wc-pos-grids.php:475
+#: includes/class-wc-pos-outlets.php:205 includes/class-wc-pos-outlets.php:380
+#: includes/class-wc-pos-registers.php:90 includes/class-wc-pos-stocks.php:106
+#: includes/tables/class-wc-pos-table-grids.php:74
+msgid "Name"
+msgstr "姓名"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:285
+#: includes/class-wc-pos-outlets.php:213 includes/class-wc-pos-outlets.php:386
+msgid "The name of the outlet as it appears when opening a register."
+msgstr "当打开一个登记时，作为该渠道显示的名称。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:334
+#: includes/class-wc-pos-outlets.php:254 includes/class-wc-pos-outlets.php:412
+msgid "Contact Details"
+msgstr "联系方式"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:336
+#: includes/class-wc-pos-outlets.php:255 includes/class-wc-pos-outlets.php:413
+msgid ""
+"Enter the contact details of the outlet as this will appear on receipts that "
+"are printed from registers at this outlet."
+msgstr "输入该出口的联系人详情，因为这将出现在该出口的登记册上的收据上。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:374
+#: includes/class-wc-pos-outlets.php:293 includes/class-wc-pos-outlets.php:433
+msgid "Social Details"
+msgstr "社交详情"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:375
+#: includes/class-wc-pos-outlets.php:294 includes/class-wc-pos-outlets.php:434
+msgid ""
+"Enter the social details of the outlet as this will appear on receipts that "
+"are printed from registers at this outlet."
+msgstr "输入该出口的社交详情，因为这将出现在该出口的登记册上的收据上。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:399
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:533
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:634
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:810
+#: includes/views/modal/html-modal-offline.php:23
+msgid "Continue"
+msgstr "继续"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:436
+msgid "Tax Setup"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:443
+#: includes/admin/settings/wc-pos-settings-tax.php:49
+msgid "Tax Calculation"
+msgstr "计算税金"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:446
+#: includes/admin/settings/wc-pos-settings-tax.php:57
+msgid "Enabled (using WooCommerce configurations)"
+msgstr "启用（使用电子商务配置）"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:447
+#: includes/admin/settings/wc-pos-settings-tax.php:58
+msgid "Disabled"
+msgstr "禁用"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:450
+#: includes/admin/settings/wc-pos-settings-tax.php:52
+msgid "Enables the calculation of tax using the WooCommerce configurations."
+msgstr "启用使用电子商务配置计算税收。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:456
+#: includes/admin/settings/wc-pos-settings-tax.php:62
+msgid "Calculate Tax Based On"
+msgstr "计算纳税基于"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:459
+#: includes/admin/settings/wc-pos-settings-tax.php:71
+msgid "Default WooCommerce"
+msgstr "默认电子商务"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:460
+#: includes/admin/settings/wc-pos-settings-tax.php:72
+msgid "Customer shipping address"
+msgstr "خېرىدار يەتكۇزۇش ئادرىسى"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:461
+#: includes/admin/settings/wc-pos-settings-tax.php:73
+msgid "Customer billing address"
+msgstr "خېرىدار زاكاس ئادرىسى"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:462
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:476
+#: includes/admin/settings/wc-pos-settings-tax.php:74
+#: includes/admin/settings/wc-pos-settings-tax.php:88
+msgid "Shop base address"
+msgstr "دۇكان ئاساسىي ئادرېسى"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:463
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:477
+#: includes/admin/settings/wc-pos-settings-tax.php:75
+#: includes/admin/settings/wc-pos-settings-tax.php:89
+msgid "Outlet address"
+msgstr "出口地址"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:466
+#: includes/admin/settings/wc-pos-settings-tax.php:67
+msgid "This option determines which address used to calculate tax."
+msgstr "这个选项决定使用哪个地址来计税"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:472
+#: includes/admin/settings/wc-pos-settings-tax.php:80
+msgid "Default Customer Address"
+msgstr "默认收货地址"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:475
+#: includes/admin/settings/wc-pos-settings-tax.php:87
+msgid "No address"
+msgstr "没有地址。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:480
+#: includes/admin/settings/wc-pos-settings-tax.php:84
+msgid ""
+"This option determines which address used to calculate tax for the default "
+"customer such as Guest."
+msgstr "这个选项决定了对于默认客户，哪些地址用来计算税收，例如如客人"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:487
+#: includes/admin/settings/wc-pos-settings-payment_methods.php:27
+msgid "Payment Methods"
+msgstr "支付方法"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:497
+#: includes/admin/settings/wc-pos-settings-checkout.php:95
+msgid "Email Options"
+msgstr "电子邮件选项"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:498
+#: includes/admin/settings/wc-pos-settings-checkout.php:95
+msgid ""
+"The following options affect the email notifications when orders are placed "
+"and accounts are created."
+msgstr "以下选项影响当下订单和创建账户时，电子邮件通知。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:503
+#: includes/admin/settings/wc-pos-settings-checkout.php:98
+msgid "New Order"
+msgstr "新订单"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:509
+#: includes/admin/settings/wc-pos-settings-checkout.php:101
+msgid "Enable new order notification"
+msgstr "启用新订单通知"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:510
+msgid ""
+"New order emails are sent to the recipient list when an order is received as "
+"shown "
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:512
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:525
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:802
+msgid "here"
+msgstr "这里"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:517
+#: includes/admin/settings/wc-pos-settings-checkout.php:109
+msgid "Account Creation"
+msgstr "创建帐户"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:522
+#: includes/admin/settings/wc-pos-settings-checkout.php:112
+msgid "Enable account creation notification"
+msgstr "启用账户创建通知"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:523
+msgid ""
+"Customer emails are sent to the customer when a customer signs up via "
+"checkout or account pages as shown "
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:681
+msgid ""
+"The following wizard will help you configure your POS and get you started "
+"quickly."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:687
+#: includes/admin/settings/wc-pos-settings-tiles.php:45
+msgid "Tile Options"
+msgstr "平铺选项"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:688
+msgid ""
+"Select the options that affect how the tiles appear on the product grid."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:694
+msgid "Tile Layout"
+msgstr "平铺布局"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:697
+#: includes/admin/settings/wc-pos-settings-tiles.php:102
+msgid "Product image"
+msgstr "产品主图"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:698
+#: includes/admin/settings/wc-pos-settings-tiles.php:103
+msgid "Product image and title"
+msgstr "产品图片和标题"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:699
+#: includes/admin/settings/wc-pos-settings-tiles.php:104
+msgid "Product image, title and price"
+msgstr "产品图片，标题和价格"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:702
+#: includes/admin/settings/wc-pos-settings-tiles.php:95
+msgid "This controls the layout of the tile on the product grid."
+msgstr "这个控制了产品网格上的平铺布局。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:709
+msgid "Variables"
+msgstr "变量"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:712
+#: includes/admin/settings/wc-pos-settings-tiles.php:134
+msgid "Overlay"
+msgstr "覆盖"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:716
+#: includes/admin/settings/wc-pos-settings-tiles.php:127
+msgid "Settings to choose how variables can be shown."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:724
+#: includes/admin/settings/wc-pos-settings-general.php:186
+msgid "Status Options"
+msgstr "状态选项"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:725
+msgid "Select the status of the orders processed through the register."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:731
+#: includes/admin/settings/wc-pos-settings-general.php:189
+msgid "Complete Order"
+msgstr "已完成的订单"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:735
+#: includes/admin/settings/wc-pos-settings-general.php:190
+msgid "Select the order status of completed orders when using the register."
+msgstr "在使用该登记时，选择已完成的订单状态的订单。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:742
+#: includes/admin/settings/wc-pos-settings-general.php:201
+msgid "Save Order"
+msgstr "保存排序"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:746
+#: includes/admin/settings/wc-pos-settings-general.php:202
+msgid "Select the order status of saved orders when using the register."
+msgstr "在使用该登记时，选择保存订单的订单状态。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:752
+#: includes/admin/settings/wc-pos-settings-general.php:211
+msgid "Load Order "
+msgstr "加载订单"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:757
+#: includes/admin/settings/wc-pos-settings-general.php:212
+msgid "Select the order status of loaded orders when using the register."
+msgstr "在使用登记时，选择加载订单的订单状态。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:764
+msgid "Load Web Orders"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:769
+#: includes/admin/settings/wc-pos-settings-general.php:235
+msgid "Load web orders"
+msgstr "加载网络订单"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:770
+#: includes/admin/settings/wc-pos-settings-general.php:236
+msgid "Check this box to load orders placed through the web store."
+msgstr "勾选这个框以通过网络商店加载订单。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:775
+#: includes/admin/settings/wc-pos-settings-scanning.php:61
+msgid "Scanning Options"
+msgstr "正在扫描选项"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:776
+#: includes/admin/settings/wc-pos-settings-scanning.php:61
+msgid ""
+"The following options affect the use of scanning hardware such as barcode "
+"scanners and magnetic card readers."
+msgstr "以下选项影响使用扫描硬件，如条形码扫描仪和磁读卡器。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:781
+#: includes/admin/settings/wc-pos-settings-scanning.php:64
+msgid "Barcode Scanning"
+msgstr "扫描条码"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:787
+#: includes/admin/settings/wc-pos-settings-scanning.php:68
+msgid "Enable barcode scanning"
+msgstr "启用条码扫描"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:788
+#: includes/admin/settings/wc-pos-settings-scanning.php:69
+msgid ""
+"Listens to barcode scanners and adds item to basket. Carriage return in "
+"scanner recommended."
+msgstr "听条码扫描仪和增加项目到购物车。推荐扫描仪的回车。"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:793
+#: includes/admin/settings/wc-pos-settings-scanning.php:89
+msgid "Credit/Debit Card Scanning"
+msgstr "信用卡/借记卡扫描"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:799
+#: includes/admin/settings/wc-pos-settings-scanning.php:93
+msgid "Enable credit/debit card scanning"
+msgstr "启用信用卡/借记卡扫描"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:800
+msgid ""
+"Allows magnetic card readers to parse scanned output into checkout fields. "
+"Supported payment gateways can be found"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:860
+msgid "WooCommerce Point of Sale is Ready!"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:864
+msgid "Next Steps"
+msgstr "下一步"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:867
+msgid "View and manage your registers!"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:872
+msgid "Learn More"
+msgstr "了解更多"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:875
+msgid "Subscribe to our newlsetter"
+msgstr "订阅我们的快报"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:878
+msgid "Read more about getting started"
+msgstr "阅读更多关于入门"
+
+#: includes/admin/class-wc-pos-admin-setup-wizard.php:881
+msgid "Explore our other powerful extensions"
+msgstr "探索我们的其他强大扩展"
+
+#: includes/admin/class-wc-pos-admin-welcome.php:35
+#: includes/admin/class-wc-pos-admin-welcome.php:36
+msgid "About Point of Sale"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-welcome.php:63
+#, php-format
+msgid "Welcome to WooCommerce POS %s"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-welcome.php:68
+msgid "Thanks, all done!"
+msgstr "谢谢，全部完成！"
+
+#: includes/admin/class-wc-pos-admin-welcome.php:70
+msgid "Thank you for updating to the latest version!"
+msgstr "感谢您更新到最新版本！"
+
+#: includes/admin/class-wc-pos-admin-welcome.php:72
+msgid "Thanks for installing!"
+msgstr "感谢您的安装!"
+
+#: includes/admin/class-wc-pos-admin-welcome.php:75
+#, php-format
+msgid ""
+"%s WooCommerce Point of Sale %s allows you to place orders through a POS "
+"interface swiftly using the WooCommerce products and orders database."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-welcome.php:79
+#, php-format
+msgid "Version %s"
+msgstr "版本 %s"
+
+#: includes/admin/class-wc-pos-admin-welcome.php:81
+#: includes/admin/class-wc-pos-admin.php:457
+msgid "Docs"
+msgstr "文档"
+
+#: includes/admin/class-wc-pos-admin-welcome.php:97
+msgid "Go to Point of Sale → Registers"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:93
+msgid "POS & Online"
+msgstr "POS 與 線上購物"
+
+#: includes/admin/class-wc-pos-admin.php:94 includes/class-wc-pos.php:343
+msgid "POS Only"
+msgstr "僅限POS"
+
+#: includes/admin/class-wc-pos-admin.php:95 includes/class-wc-pos.php:350
+msgid "Online Only"
+msgstr "僅線上購物"
+
+#: includes/admin/class-wc-pos-admin.php:98
+msgid "POS visibility:"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:103
+#: includes/views/templates/cart.php:12
+msgid "Edit"
+msgstr "(编辑)"
+
+#: includes/admin/class-wc-pos-admin.php:116
+#: includes/admin/settings/wc-pos-settings-system-status.php:57
+msgid "OK"
+msgstr "好"
+
+#: includes/admin/class-wc-pos-admin.php:118 includes/views/footer.php:51
+#: includes/views/footer.php:69 includes/views/footer.php:89
+#: includes/views/html-admin-barcode-options.php:60
+#: includes/views/templates/modal.php:494
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/admin/class-wc-pos-admin.php:216
+msgid "POS temp orders"
+msgstr "POS临时订单"
+
+#: includes/admin/class-wc-pos-admin.php:236
+msgid "POS custom product"
+msgstr "POS 自定义产品"
+
+#: includes/admin/class-wc-pos-admin.php:261
+msgid "Sales by register"
+msgstr "按登记的销售"
+
+#: includes/admin/class-wc-pos-admin.php:267
+msgid "Sales by outlet"
+msgstr "按渠道的销售"
+
+#: includes/admin/class-wc-pos-admin.php:273
+msgid "Sales by cashier"
+msgstr "按收银员的销售"
+
+#: includes/admin/class-wc-pos-admin.php:279
+msgid "Sales by session"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:359
+msgid "No Outlet"
+msgstr "没有渠道"
+
+#: includes/admin/class-wc-pos-admin.php:411
+#: includes/class-wc-pos-registers.php:122
+#: includes/tables/class-wc-pos-table-outlets.php:55
+#: includes/tables/class-wc-pos-table-sessions.php:74
+#: includes/tables/class-wc-pos-table-users.php:86
+msgid "Outlet"
+msgstr "渠道"
+
+#: includes/admin/class-wc-pos-admin.php:414
+msgid "Ensure the user is logged out before changing the outlet."
+msgstr "确保用户在更改经销店之前已被记录。"
+
+#: includes/admin/class-wc-pos-admin.php:417
+#: includes/views/html-print-receipt.php:466
+#: includes/views/html-print-receipt.php:937
+#: includes/views/html-registers.php:114
+#: includes/views/modal/html-modal-discount.php:4
+#: includes/views/modal/html-modal-discount.php:14
+#: includes/views/templates/cart.php:186
+msgid "Discount"
+msgstr "折扣"
+
+#: includes/admin/class-wc-pos-admin.php:440
+msgid "View Settings"
+msgstr "视图设置"
+
+#: includes/admin/class-wc-pos-admin.php:457
+msgid "View Documentation"
+msgstr "查看文档"
+
+#: includes/admin/class-wc-pos-admin.php:458
+msgid "Visit Support"
+msgstr "访问支持"
+
+#: includes/admin/class-wc-pos-admin.php:458 updater/pages/index.php:125
+msgid "Support"
+msgstr "支持"
+
+#: includes/admin/class-wc-pos-admin.php:602
+msgid "Show all cashiers "
+msgstr "显示所有收银员"
+
+#: includes/admin/class-wc-pos-admin.php:635
+msgid "Show all outlets"
+msgstr "显示所有经销店"
+
+#: includes/admin/class-wc-pos-admin.php:655
+msgid "Show all cashiers"
+msgstr "显示所有收银员"
+
+#: includes/admin/class-wc-pos-admin.php:677
+#: includes/class-wc-pos-registers.php:97
+msgid "Product Grid"
+msgstr "产品网格"
+
+#: includes/admin/class-wc-pos-admin.php:713
+#: includes/admin/class-wc-pos-admin.php:715
+#, php-format
+msgid "Add to %s"
+msgstr "添加到 %s"
+
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:3
+msgid "Custom fee"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:8
+msgid "Fee label"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:14
+msgid "Value"
+msgstr "值"
+
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:17
+#: includes/views/modal/html-modal-add-custom-fee.php:10
+#: includes/views/modal/html-modal-product-custom-meta.php:14
+msgid "Taxable"
+msgstr "应纳税"
+
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:20
+#: includes/views/modal/html-modal-retrieve-sales.php:46
+#: includes/views/modal/html-modal-retrieve-sales.php:71
+msgid "Actions"
+msgstr "操作"
+
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:45
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:90
+#: includes/api/class-wc-pos-api.php:451 includes/api/class-wc-pos-api.php:474
+#: includes/api/class-wc-pos-api.php:476 includes/api/class-wc-pos-api.php:478
+msgid "Yes"
+msgstr "是"
+
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:46
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:91
+msgid "No"
+msgstr "不"
+
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:51
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:64
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:95
+msgid "Add new"
+msgstr "添加"
+
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:53
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:65
+#: includes/admin/settings/wc-pos-setting-register-fee-table.php:96
+#: includes/class-wc-pos-receipts.php:434
+#: includes/class-wc-pos-receipts.php:435
+#: includes/views/html-admin-registers-customer.php:31
+#: includes/views/html-admin-registers-customer.php:47
+#: includes/views/html-admin-registers-product-item.php:3
+#: includes/views/templates/cart.php:10 includes/views/templates/cart.php:70
+#: includes/views/templates/cart.php:108 includes/views/templates/cart.php:121
+#: includes/views/templates/cart.php:136 includes/views/templates/cart.php:143
+#: includes/views/templates/cart.php:159 includes/views/templates/cart.php:166
+#: includes/views/templates/cart.php:178 includes/views/templates/cart.php:187
+#: includes/views/templates/modal.php:174
+msgid "Remove"
+msgstr "去掉"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:27
+msgid "Checkout"
+msgstr "结帐"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:45
+msgid "Checkout Options"
+msgstr "结帐选项"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:47
+msgid "Default Country"
+msgstr "默认国家"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:48
+msgid "Sets the default country for shipping and customer accounts."
+msgstr "设置配送的默认国家和客户账户。"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:55
+msgid "SSL Options"
+msgstr "SSL选项"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:56
+msgid "Force secure checkout"
+msgstr "مەجبۇرىي بىخەتەرلىك ھېساب بوغۇش"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:61
+msgid "Force SSL (HTTPS) on the POS page (an SSL Certificate is required)."
+msgstr "在 POS 页面强制使用 SSL(HTTPS)，这需要一个 SSL (HTTPS)。"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:66
+msgid "Account Options"
+msgstr "帐户选项"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:66
+msgid ""
+"The following options affect the account creation process when creating "
+"customers."
+msgstr "下列选项会影响当创建客户时的帐户创建过程。"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:70
+#: includes/class-wc-pos-receipts.php:744
+#: includes/tables/class-wc-pos-table-users.php:85
+msgid "Username"
+msgstr "用户名"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:71
+msgid "Choose what the username should be when customer is created."
+msgstr "选择客户创建时的用户名。"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:76
+msgid "First & Last Name e.g. johnsmith"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:77
+msgid "First & Last Name With Hyphen e.g. john-smith"
+msgstr "名字 & 姓氏 使用连字符，例如 john-smith"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:78
+msgid "Email address"
+msgstr "邮箱"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:84
+#: includes/views/modal/html-modal-add-new-customer.php:15
+msgid "Customer Details"
+msgstr "客户详细信息"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:87
+msgid "Load customer details after customer selection"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:88
+msgid ""
+"Automatically displays the customer details screen when searching and "
+"selecting a customer."
+msgstr "当搜索和选择一个客户时自动显示该客户的详情屏幕。"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:102
+#, php-format
+msgid ""
+"New order emails are sent to the recipient list when an order is received as "
+"shown %shere%s."
+msgstr "当收到订单时，新订单的电子邮件被发送到收件人列表，如%s这里%s所示。"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:113
+#, php-format
+msgid ""
+"Customer emails are sent to the customer when a customer signs up via "
+"checkout or account pages as shown %shere%s."
+msgstr ""
+"当一个客户通过结账或账户页面注册时，客户电子邮件是发送到客户的，如%s这里%s显"
+"示。"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:120
+msgid "Guest Checkout"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:123
+msgid "Enable guest checkout"
+msgstr "زىيارەتچىلەر پۇل تۆلەش رۇخسەت"
+
+#: includes/admin/settings/wc-pos-settings-checkout.php:124
+msgid ""
+"Allows register cashiers to process and fulfil an order without choosing a "
+"customer."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-css.php:29
+#: includes/admin/settings/wc-pos-settings-css.php:79
+#: includes/class-wc-pos-receipts.php:936
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/admin/settings/wc-pos-settings-css.php:47
+#: includes/admin/settings/wc-pos-settings-css.php:49
+msgid "Insert code here"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-css.php:52
+msgid ""
+"Customise the look and feel of your registers using custom CSS. This will "
+"only apply to the registers loaded through this plugin."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:29
+msgid "General"
+msgstr "常规"
+
+#: includes/admin/settings/wc-pos-settings-general.php:56
+msgid "Discount Presets"
+msgstr "折扣预设"
+
+#: includes/admin/settings/wc-pos-settings-general.php:57
+msgid "Define the preset discount buttons when applying discount to the order."
+msgstr "在订单中使用折扣时，定义预设的折扣按钮。"
+
+#: includes/admin/settings/wc-pos-settings-general.php:62
+msgid "5%"
+msgstr "5%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:63
+msgid "10%"
+msgstr "10%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:64
+msgid "15%"
+msgstr "15%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:65
+msgid "20%"
+msgstr "文章类型名的长度必须在1至20个字符间。"
+
+#: includes/admin/settings/wc-pos-settings-general.php:66
+msgid "25%"
+msgstr "25%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:67
+msgid "30%"
+msgstr "30%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:68
+msgid "35%"
+msgstr "35%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:69
+msgid "40%"
+msgstr "40%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:70
+msgid "45%"
+msgstr "45%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:71
+msgid "50%"
+msgstr "昵称不能长于50个字符。"
+
+#: includes/admin/settings/wc-pos-settings-general.php:72
+msgid "55%"
+msgstr "55%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:73
+msgid "60%"
+msgstr "用户名不能超过60个字符。"
+
+#: includes/admin/settings/wc-pos-settings-general.php:74
+msgid "65%"
+msgstr "65%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:75
+msgid "70%"
+msgstr "70%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:76
+msgid "75%"
+msgstr "75%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:77
+msgid "80%"
+msgstr "80%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:78
+msgid "85%"
+msgstr "85%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:79
+msgid "90%"
+msgstr "90%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:80
+msgid "95%"
+msgstr "95%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:81
+msgid "100%"
+msgstr "100%"
+
+#: includes/admin/settings/wc-pos-settings-general.php:86
+msgid "Order Filters"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:87
+msgid "Select which filters appear on the Orders page."
+msgstr "选择过滤器出现在订单页面。"
+
+#: includes/admin/settings/wc-pos-settings-general.php:99
+msgid "Sound Notifications"
+msgstr "声音通知"
+
+#: includes/admin/settings/wc-pos-settings-general.php:100
+msgid "Disable sound notifications"
+msgstr "禁用声音通知"
+
+#: includes/admin/settings/wc-pos-settings-general.php:101
+msgid "Mutes the sound notifications when using the register."
+msgstr "使用登记时的声音通知。"
+
+#: includes/admin/settings/wc-pos-settings-general.php:108
+msgid "Connection Status"
+msgstr "链接状态"
+
+#: includes/admin/settings/wc-pos-settings-general.php:109
+msgid "Disable connection status"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:110
+msgid ""
+"Deactivates the connection status from loading in the register. Enabling the "
+"connection status may affect the performance of your shop and Point of Sale "
+"register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:117
+#: includes/admin/views/html-about-news.php:74
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#: includes/admin/settings/wc-pos-settings-general.php:118
+msgid "Enable keyboard shortcuts"
+msgstr "启用键盘快捷键"
+
+#: includes/admin/settings/wc-pos-settings-general.php:119
+#, php-format
+msgid ""
+"Allows you to use keyboard shortcuts to execute popular and frequent "
+"actions. Click %shere%s for the list of keyboard shortcuts."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:127
+msgid "Currency Rounding"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:128
+msgid "Enable currency rounding"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:129
+msgid ""
+"Rounds the total to the nearest value defined below. Used by some countries "
+"where not all denominations are available."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:137
+msgid "Rounding Value"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:138
+msgid ""
+"Select the rounding value which you want the register to round nearest to."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:144
+msgid "0.01"
+msgstr "0.01"
+
+#: includes/admin/settings/wc-pos-settings-general.php:145
+msgid "0.05"
+msgstr "0.05"
+
+#: includes/admin/settings/wc-pos-settings-general.php:146
+msgid "0.10"
+msgstr "0.10"
+
+#: includes/admin/settings/wc-pos-settings-general.php:147
+msgid "0.50"
+msgstr "0.50"
+
+#: includes/admin/settings/wc-pos-settings-general.php:148
+msgid "1.00"
+msgstr "1.00"
+
+#: includes/admin/settings/wc-pos-settings-general.php:149
+msgid "5.00"
+msgstr "5.00"
+
+#: includes/admin/settings/wc-pos-settings-general.php:155
+msgid "Report Options"
+msgstr "報表選項"
+
+#: includes/admin/settings/wc-pos-settings-general.php:155
+msgid ""
+"The following options affect the reports that are displayed when closing the "
+"register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:159
+msgid "Closing Reports"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:160
+msgid "Display end of day report when closing register"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:161
+msgid "End of day report displayed with total sales when register closes."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:168
+msgid "Email Closing Reports"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:169
+msgid "Email the closing reports to recipients"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:170
+msgid ""
+"The end of day report displaying total sales will be sent to email "
+"recipients below."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:177
+msgid "Report Recipients"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:178
+msgid "Enter each email address per line."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:186
+msgid ""
+"The following options affect the status of the orders when using the "
+"register."
+msgstr "下列选项会影响使用登记时的订单状态。"
+
+#: includes/admin/settings/wc-pos-settings-general.php:221
+msgid "Cash Management "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:222
+msgid "Select the order statuses to be included to the cash management."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:231
+msgid "Web Orders "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-layout.php:29
+#: includes/tiles-functions.php:158
+msgid "Layout"
+msgstr "布局"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:50
+msgid "Company Logo"
+msgstr "公司logo"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:82
+msgid "Register Layout"
+msgstr "登记布局"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:87
+msgid "Select the layout for the register."
+msgstr "选择有关登记的布局"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:90
+msgid "One Column"
+msgstr "一行显示"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:91
+msgid "Two columns"
+msgstr "两列"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:97
+msgid "Column Size"
+msgstr "列大小"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:102
+msgid "Select the size for the register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-layout.php:105
+msgid "60:40"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-layout.php:106
+msgid "50:50"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-layout.php:112
+msgid "Register Position"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-layout.php:117
+msgid "Switch register position"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-layout.php:118
+msgid ""
+"Choose whether to switch the grid to the left and the register to the right."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-layout.php:123
+msgid "Branding"
+msgstr "绑定"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:128
+msgid "Remove branding of the register on page"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-layout.php:129
+msgid ""
+"Choose whether to display the Actuality Extensions logo in the top left "
+"corner."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-layout.php:134
+msgid "Base Colour"
+msgstr "背景颜色"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:135
+msgid "Rebrand the colour of the register to suit your shops colour scheme."
+msgstr ""
+
+#. Author of the plugin/theme
+#: includes/admin/settings/wc-pos-settings-layout.php:143
+msgid "Actuality Extensions"
+msgstr "FROSTNT Extensions"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:144
+msgid "WooCommerce"
+msgstr "WO 商城"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:145
+msgid "Red"
+msgstr "红色"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:146
+msgid "Blue"
+msgstr "蓝色"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:147
+msgid "Teal"
+msgstr "蓝绿"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:148
+msgid "Green"
+msgstr "绿色"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:149
+msgid "Orange"
+msgstr "橙色"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:150
+msgid "Grey"
+msgstr "灰色"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:154
+msgid "Second Column Layout"
+msgstr "两列布局"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:159
+msgid "Select the layout for the second column."
+msgstr "选择二列的布局。"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:163
+msgid "Company Image"
+msgstr "公司图片"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:164
+#: includes/admin/settings/wc-pos-settings-layout.php:172
+msgid "Text"
+msgstr "文本"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:165
+msgid "Company Image + Text"
+msgstr "公司图片+文本"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:179
+msgid "WordPress Admin Bar"
+msgstr "WordPress管理欄"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:184
+msgid "Hide"
+msgstr "隐藏"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:185
+msgid ""
+"Choose whether to show or hide the WordPress admin bar when the Registers "
+"are open."
+msgstr "选择当注册是开放时，是否显示或隐藏WordPress的管理栏。"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:192
+msgid "Lock Screen"
+msgstr "锁定屏幕"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:193
+msgid "Enable lock screen"
+msgstr "启用锁定屏幕"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:194
+msgid "Allow cashiers to lock the register with a password set below."
+msgstr "允许收银员用密码设置下面的登记锁。"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:201
+msgid "Password"
+msgstr "密码"
+
+#: includes/admin/settings/wc-pos-settings-layout.php:204
+msgid ""
+"Enter the password to be used to unlock the register when it is locked.."
+msgstr "当它是锁定的时，输入要使用的密码来解锁登记。"
+
+#: includes/admin/settings/wc-pos-settings-nominal.php:29
+#: includes/admin/settings/wc-pos-settings-nominal.php:49
+msgid "Denominations"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-nominal.php:62
+msgid "Denomination Options"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-nominal.php:71
+msgid "Add Denomination"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-payment_methods.php:56
+msgid "Enabled"
+msgstr "启用"
+
+#: includes/admin/settings/wc-pos-settings-payment_methods.php:57
+msgid "Gateway"
+msgstr "支付方式"
+
+#: includes/admin/settings/wc-pos-settings-payment_methods.php:75
+#: includes/core-functions.php:880
+msgid "Chip & PIN"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-payment_methods.php:130
+msgid ""
+"To configure each payment gateway, please go to the Checkout tab under "
+"WooCommerce > Settings or click <a href=\"admin.php?page=wc-"
+"settings&tab=checkout\">here</a>"
+msgstr ""
+"配置每个支付网关，请到付款选项卡下 电子商务 > 设置或单击<a href=“admin.php?"
+"page=wc-settings&tab=checkout”>这里</a>"
+
+#: includes/admin/settings/wc-pos-settings-payment_methods.php:145
+msgid "Payment Gateways"
+msgstr "支付网关"
+
+#: includes/admin/settings/wc-pos-settings-register.php:29
+#: includes/tables/class-wc-pos-table-registers.php:72
+#: includes/tables/class-wc-pos-table-sessions.php:73
+msgid "Register"
+msgstr "注册"
+
+#: includes/admin/settings/wc-pos-settings-register.php:48
+msgid "Register Options"
+msgstr "注册选项"
+
+#: includes/admin/settings/wc-pos-settings-register.php:48
+msgid ""
+"The following options affect the settings that are applied when loading all "
+"registers."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:51
+msgid "Auto Update Stock"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:54
+msgid "Enable update stock automatically "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:55
+msgid ""
+"Updates the stock inventories for products automatically whilst running the "
+"register. Enabling this may hinder server performance. "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:60
+msgid "Update Interval"
+msgstr "更新间隔"
+
+#: includes/admin/settings/wc-pos-settings-register.php:63
+msgid "Enter the interval for auto-update in seconds."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:64
+msgid "seconds"
+msgstr "秒"
+
+#: includes/admin/settings/wc-pos-settings-register.php:70
+msgid "Stock Quantity"
+msgstr "货物数量"
+
+#: includes/admin/settings/wc-pos-settings-register.php:73
+msgid "Enable stock quantity identifier"
+msgstr "启用库存数量标识符"
+
+#: includes/admin/settings/wc-pos-settings-register.php:74
+msgid "Shows the remaining stock when adding products to the basket."
+msgstr "在向购物车中添加产品时显示剩余的库存。"
+
+#: includes/admin/settings/wc-pos-settings-register.php:82
+msgid "Enable out of stock products"
+msgstr "启用缺货产品"
+
+#: includes/admin/settings/wc-pos-settings-register.php:83
+msgid "Shows out of stock products in the product grid."
+msgstr "在产品网格中显示缺货产品。"
+
+#: includes/admin/settings/wc-pos-settings-register.php:88
+#: includes/admin/views/html-about-news.php:38
+msgid "Bill Screen"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:89
+msgid "Display bill screen"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:90
+msgid ""
+"Allows you to display the order on a separate display i.e. pole display."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:97
+msgid "Product Visiblity"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:98
+msgid "Enable product visibility control"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:99
+msgid ""
+"Allows you to show and hide products from either the POS, web or both shops."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:106
+msgid "Custom Fee"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:107
+msgid "Enable custom fee "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:108
+msgid "Allows you to add a fixed or percentage based value to the order."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-scanning.php:27
+msgid "Scanning"
+msgstr "扫描"
+
+#: includes/admin/settings/wc-pos-settings-scanning.php:44
+msgid "WooCommerce SKU"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-scanning.php:75
+msgid "Scanning Field"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-scanning.php:76
+msgid ""
+"Control what field is used when using the scanner on the register. Default "
+"is SKU."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-scanning.php:94
+#, php-format
+msgid ""
+"Allows magnetic card readers to parse scanned output into checkout fields. "
+"Supported payment gateways can be found here %shere%s."
+msgstr ""
+"允许磁性读卡器将扫描输出解析为校验字段。支持的支付网关，可以在这里找到 %shere"
+"%s。"
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:40
+msgid "Advanced"
+msgstr "先进的"
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:65
+msgid "WordPress Environment"
+msgstr "WordPress 环境"
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:72
+msgid "Site URL:"
+msgstr "站点访问URL地址："
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:80
+msgid "WooCommerce Version:"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:88
+msgid "WordPress Version:"
+msgstr "WordPress 版本："
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:96
+msgid "Language:"
+msgstr "语言："
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:107
+msgid "Server Environment"
+msgstr "服务器环境"
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:114
+msgid "Server Info:"
+msgstr "服务器信息："
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:122
+msgid "PHP Version:"
+msgstr "PHP 版本"
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:130
+msgid "PHP Post Max Size:"
+msgstr "PHP 文件最大值："
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:138
+msgid "PHP Time Limit:"
+msgstr "PHP执行时间："
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:146
+msgid "PHP Max Input Vars:"
+msgstr "PHP最大输入值:"
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:154
+msgid "Max Upload Size:"
+msgstr "最大上传大小："
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:165
+msgid "Database"
+msgstr "写入数据库"
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:172
+msgid "Last Forced Update: "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:184
+msgid "POS Database Version: "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:193
+msgid "Updated"
+msgstr "已更新"
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:200
+msgid "Result:"
+msgstr "合计："
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:211
+msgid "Database Update: "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:215
+msgid "Force Update"
+msgstr "强制性升级"
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:216
+msgid ""
+"Use with caution: this tool will update the database to the latest version - "
+"useful when settings are not being applied as per configured in settings, "
+"registers, receipts and outlets."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:224
+msgid "API"
+msgstr "API"
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:231
+msgid "API Enabled:"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:242
+msgid "Setup"
+msgstr "安装"
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:249
+msgid "Setup Wizard:"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:253
+msgid "Run Setup Wizard"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-system-status.php:256
+msgid ""
+"This tool will update the database to the latest version - useful when "
+"settings are not being applied as per configured in settings, registers, "
+"receipts and outlets."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tax.php:27
+#: includes/class-wc-pos-receipts.php:129
+#: includes/views/html-print-receipt-preview.php:274
+#: includes/views/html-print-receipt-preview.php:325
+#: includes/views/html-print-receipt-preview.php:329
+#: includes/views/html-print-receipt-preview.php:332
+#: includes/views/html-print-receipt-preview.php:334
+#: includes/views/html-registers.php:332 includes/views/html-registers.php:344
+msgid "Tax"
+msgstr "税"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:95
+msgid "Tax Options"
+msgstr "税务选项"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:45
+msgid "The following options affect how the tiles appear on the product grid."
+msgstr "以下选项影响在产品网格中的平铺显示。"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:48
+msgid "Quantity Increment"
+msgstr "数量增加"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:52
+msgid "Enable quantity increment"
+msgstr "启用数量增加"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:53
+msgid "Shows a quantity increment button when adding products to the basket."
+msgstr "在向购物车中添加产品时，显示增加数量按钮。"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:58
+msgid "Quantity Keypad"
+msgstr "数量键盘"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:62
+msgid "Enable quantity keypad"
+msgstr "启用数量键盘"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:63
+msgid ""
+"Shows a quantity increment button and a keypad when adding products to the "
+"basket."
+msgstr "当添加产品到购物车时，显示一个增加数量按钮和一个键盘。"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:69
+msgid "Decimal Quantity"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:72
+msgid "Enable decimal quantity"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:73
+msgid "Allow to enter decimal quantity from the register and from backend."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:79
+msgid "Tile Quantity Value"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:80
+msgid ""
+"This sets the quantity at which tiles are reduced at when Decimal Quantity "
+"is set."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:94
+msgid "Tile Layout "
+msgstr "平铺布局"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:111
+msgid "Product Image Size"
+msgstr "产品图片大小"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:114
+msgid ""
+"These settings affect the display and dimensions of product images in "
+"register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:120
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:121
+msgid "Full size"
+msgstr "全尺寸"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:126
+msgid "Variables "
+msgstr "变量"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:140
+msgid "Default Tile Sorting"
+msgstr "默认平铺排序"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:141
+msgid "This controls the default sort order of the tile."
+msgstr "这控制了平铺的默认排序顺序。"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:148
+msgid "Default sorting (custom ordering + name)"
+msgstr "默认排序(自定义顺序 + 名称)"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:149
+msgid "Popularity (sales)"
+msgstr "人气(活动)"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:150
+msgid "Average Rating"
+msgstr "平均评级"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:151
+msgid "Sort by most recent"
+msgstr "最新"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:152
+msgid "Sort by price (asc)"
+msgstr "价格(由低到高)"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:153
+msgid "Sort by price (desc)"
+msgstr "价格(由高到低)"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:154
+msgid "Name (asc)"
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:17
+msgid ""
+"This update brings together our features while revamping our design. Cash "
+"float management, bill screen display, inline product discount, keyboard "
+"shortcuts and many more."
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:21
+msgid "Cash Float Management"
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:23
+msgid ""
+"Manage the cash in and out of your register with our easy to use cash "
+"management feature. Simply enable it for the register you want to open, an "
+"initial float is then set and from the Cash Management button, you can "
+"simply add or remove. When closing the register, you can set how many of "
+"each currency denomination is left."
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:26
+msgid "Revamped Design"
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:28
+msgid ""
+"Our design team has worked hard in cleaning the CSS code and making it more "
+"in line with the industry POS systems. While doing this, our register is now "
+"more adaptable with different desktop screen sizes. "
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:33
+msgid "Multiple Receipt Copies"
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:35
+msgid ""
+"Having to print multiple copies of the receipt? Perhaps a customer copy and "
+"a merchant copy? You can now easily define how many prints to print. This "
+"will also apply to those receipt printers that require a tear off. Each copy "
+"is a tear off."
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:40
+msgid ""
+"Displaying the order to your customers has never been easier. Simply open "
+"another tab on an external pole display, you can display what is currently "
+"in your register, total and tax. Making the experience even more "
+"professional to your liking."
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:45
+msgid "Product Inline % Discount"
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:47
+msgid ""
+"We have added the ability to define a custom fixed discount or a percentage "
+"discount to each product.  You can also reset to the original price of the "
+"product at any time. Pre-defined discount presets can also be configured "
+"from the Point of Sale > Settings page."
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:50
+msgid "Grid Position"
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:52
+msgid ""
+"Switch the product grid with the basket to make the interface more familiar "
+"to the other POS systems out there. Simply go to Point of Sale > Settings > "
+"Layout and chose the switch register position from there."
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:57
+msgid "Guest Checkout Compulsory"
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:59
+msgid ""
+"Make the guest checkout compulsory for those guests you want to book in or "
+"products that require custom information. Uncheck this box to make the guest "
+"checkout no longer compulsory and a customers information has to be saved."
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:62
+msgid "Gift Receipts"
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:64
+msgid ""
+"Print gift receipts for your customers during the festive seasons. With this "
+"feature, the receipt will print without any price values. You can also "
+"toggle this from the payment screen at any time."
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:69
+msgid "Product Add-ons Integration"
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:71
+msgid ""
+"For the shops that sell customised products like pizza, clothes, etc. We "
+"have listened and we have integrated our powerful plugin with a powerful "
+"product add-on plugin. You can purchase this plugin from WooCommerce.com, "
+"this only supports the official product add-ons plugin."
+msgstr ""
+
+#: includes/admin/views/html-about-news.php:76
+msgid ""
+"We have made it easier for our users to action common commands using the "
+"keyboard shortcuts available. You can visit the page for keyboard shortcuts "
+"from Point of Sale > Settings. We hope this makes the process of selling in "
+"your store even quicker. "
+msgstr ""
+
+#: includes/admin/views/html-admin-settings.php:20
+msgid "Save changes"
+msgstr "保存更改"
+
+#: includes/admin/views/html-notice-install.php:11
+msgid ""
+"<strong>Welcome to WooCommerce Point of Sale</strong> &#8211; You&lsquo;re "
+"almost ready to start"
+msgstr ""
+
+#: includes/admin/views/html-notice-install.php:12
+msgid "Run the Setup Wizard"
+msgstr "运行安装向导"
+
+#: includes/admin/views/html-notice-update.php:12
+msgid ""
+"<strong>WooCommerce POS Data Update Required</strong> &#8211; We just need "
+"to update your install to the latest version"
+msgstr ""
+
+#: includes/admin/views/html-notice-update.php:13
+msgid "Run the updater"
+msgstr "运行更新程序"
+
+#: includes/admin/views/html-notice-update.php:17
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr "强烈建议您在继续之前备份您的数据库。 你确定你想要现在运行更新吗？"
+
+#: includes/api/class-wc-pos-api-orders.php:70
+#, php-format
+msgid "No %1$s data specified to edit %1$s"
+msgstr "没有编辑%1$s所指定的%1$s数据"
+
+#: includes/api/class-wc-pos-api-orders.php:79
+#: includes/api/class-wc-pos-api-orders.php:561
+msgid "You do not have permission to create orders"
+msgstr "你没有权限创建订单"
+
+#: includes/api/class-wc-pos-api-orders.php:87
+msgid "Order ID is invalid"
+msgstr "为网格排序输入自定义栏目名称。"
+
+#: includes/api/class-wc-pos-api-orders.php:128
+#: includes/api/class-wc-pos-api-orders.php:577
+msgid "Customer ID is invalid"
+msgstr "客户ID是无效的"
+
+#: includes/api/class-wc-pos-api-orders.php:292
+#, php-format
+msgid "%d %s redeemed for a %s discount."
+msgstr "使用%d %s 來兑换 %s 折扣"
+
+#: includes/api/class-wc-pos-api-orders.php:357
+#: includes/api/class-wc-pos-api-orders.php:707
+msgid "Provided order currency is invalid"
+msgstr "提供的订单币种是无效的"
+
+#: includes/api/class-wc-pos-api-orders.php:417
+#: includes/api/class-wc-pos-api-orders.php:419
+msgid "Point of Sale transaction completed."
+msgstr ""
+
+#: includes/api/class-wc-pos-api-orders.php:554
+#, php-format
+msgid "No %1$s data specified to create %1$s"
+msgstr "没有创建%1$s所指定的%1$s数据"
+
+#: includes/api/class-wc-pos-api-orders.php:646
+#, php-format
+msgid "Cannot create order: %s"
+msgstr "%s 删除！"
+
+#: includes/api/class-wc-pos-api-orders.php:691
+msgid "Payment method ID and title are required"
+msgstr "付款方式ID及标题必填的"
+
+#: includes/api/class-wc-pos-api-orders.php:765
+msgid "Product ID or SKU is required"
+msgstr "产品ID或SKU必须的"
+
+#: includes/api/class-wc-pos-api-orders.php:775
+msgid "Product ID provided does not match this line item"
+msgstr "提供的产品ID不匹配这个行项目"
+
+#: includes/api/class-wc-pos-api-orders.php:792
+msgid "The product variation is invalid"
+msgstr "产品变更无效"
+
+#: includes/api/class-wc-pos-api-orders.php:805
+msgid "Product is invalid"
+msgstr "产品是无效的"
+
+#: includes/api/class-wc-pos-api-orders.php:810
+msgid "Product quantity must be a positive float"
+msgstr "产品质量必须是一个正浮点型"
+
+#: includes/api/class-wc-pos-api-orders.php:815
+msgid "Product quantity is required"
+msgstr "产品数量是必需的"
+
+#: includes/api/class-wc-pos-api-orders.php:902
+msgid "Booking ID"
+msgstr "预订 ID"
+
+#: includes/api/class-wc-pos-api-orders.php:912
+msgid "Cannot create line item, try again"
+msgstr "无法创建行项目，再试一次"
+
+#: includes/api/class-wc-pos-api-orders.php:921
+msgid "Cannot update line item, try again"
+msgstr "无法更新行项目，再试一次"
+
+#: includes/api/class-wc-pos-api-orders.php:942
+msgid "Shipping total must be a positive amount"
+msgstr "航运总必须是一个正数"
+
+#: includes/api/class-wc-pos-api-orders.php:949
+#: includes/views/html-admin-cart-shipping.php:60
+#: includes/views/html-print-receipt.php:469
+#: includes/views/html-print-receipt.php:939
+#: includes/views/html-registers.php:104
+#: includes/views/modal/html-modal-add-shipping.php:3
+msgid "Shipping"
+msgstr "运输"
+
+#: includes/api/class-wc-pos-api-orders.php:954
+msgid "Cannot create shipping method, try again"
+msgstr "不能创建送货方式，再试一次"
+
+#: includes/api/class-wc-pos-api-orders.php:987
+msgid "Cannot update shipping method, try again"
+msgstr "不能更新的运输方法，再试一次"
+
+#: includes/api/class-wc-pos-api-orders.php:1278
+#, php-format
+msgid "Order &ndash; %s"
+msgstr "订单 &ndash; %s"
+
+#: includes/api/class-wc-pos-api-orders.php:1278
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: includes/api/class-wc-pos-api-orders.php:1283
+msgid "Invalid order status"
+msgstr "没有分配的用户"
+
+#: includes/api/class-wc-pos-api-orders.php:1441
+msgid "There was an error processing the payment"
+msgstr "在处理付款时发生一个错误"
+
+#: includes/api/class-wc-pos-api-orders.php:1472
+msgid "You are now being redirected offsite to complete the payment. "
+msgstr "你将被重定向到线下完成付款。"
+
+#: includes/api/class-wc-pos-api-orders.php:1473
+#, php-format
+msgid "<a href=\"%s\">Click here</a> if you are not redirected automatically. "
+msgstr "<a href=“%s”>点击这里</a>，如果你不自动重定向。"
+
+#: includes/api/class-wc-pos-api-removed-items.php:88
+msgid "You do not have permission to read the orders"
+msgstr ""
+
+#: includes/api/class-wc-pos-api.php:70
+msgid "User not authorized to access WooCommerce POS"
+msgstr "用户未授权访问电子商务销售点"
+
+#: includes/api/class-wc-pos-api.php:436 includes/api/class-wc-pos-api.php:486
+msgid "Via"
+msgstr "通过"
+
+#: includes/api/class-wc-pos-api.php:442
+msgid "Unpublished"
+msgstr "未发布"
+
+#: includes/api/class-wc-pos-api.php:444
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: includes/api/class-wc-pos-api.php:445
+msgid "Y/m/d"
+msgstr "年/月/日"
+
+#: includes/api/class-wc-pos-api.php:476
+#, php-format
+msgid "plus %d other note"
+msgid_plural "plus %d other notes"
+msgstr[0] ""
+
+#: includes/api/class-wc-pos-api.php:478
+#, php-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] ""
+
+#: includes/class-wc-pos-acf-fields.php:179
+#: includes/class-wc-pos-booking.php:31
+msgid "Clear"
+msgstr "清除"
+
+#: includes/class-wc-pos-acf-fields.php:180
+#: includes/class-wc-pos-booking.php:32
+msgid "Default"
+msgstr "默认排插电压"
+
+#: includes/class-wc-pos-acf-fields.php:181
+#: includes/class-wc-pos-booking.php:33
+msgid "Select Color"
+msgstr "选择颜色"
+
+#: includes/class-wc-pos-acf-fields.php:182
+#: includes/class-wc-pos-booking.php:34
+msgid "Current Color"
+msgstr "当前颜色"
+
+#: includes/class-wc-pos-ajax.php:225
+msgid "User already exists."
+msgstr "用户已存在。"
+
+#: includes/class-wc-pos-ajax.php:741 includes/class-wc-pos-registers.php:138
+#: includes/views/html-admin-registers-customer.php:41
+#: includes/views/html-admin-registers-sale_report_overlay.php:108
+#: includes/views/html-admin-registers-sale_report_overlay.php:203
+#: includes/views/html-admin-registers-sale_report_overlay.php:296
+#: includes/views/html-sale-report-email.php:105
+#: includes/views/html-sale-report-email.php:198
+#: includes/views/html-sale-report-email.php:287
+#: includes/views/templates/cart.php:116 includes/views/templates/cart.php:131
+msgid "Guest"
+msgstr "访客"
+
+#: includes/class-wc-pos-ajax.php:843 includes/class-wc-pos-ajax.php:969
+#: includes/views/html-admin-registers-product-item.php:6
+msgid "Product ID:"
+msgstr "产品ID："
+
+#: includes/class-wc-pos-ajax.php:844
+#: includes/views/html-admin-barcode-item.php:35
+#: includes/views/html-admin-registers-product-item.php:9
+msgid "Variation ID:"
+msgstr ":سىIDمىقدار ئۆزگىرىش"
+
+#: includes/class-wc-pos-ajax.php:848 includes/class-wc-pos-ajax.php:973
+#: includes/views/html-admin-registers-product-item.php:12
+msgid "Product SKU:"
+msgstr "产品的SKU："
+
+#: includes/class-wc-pos-ajax.php:1030 includes/class-wc-pos-ajax.php:1039
+msgid "No default"
+msgstr "没有默认的"
+
+#: includes/class-wc-pos-ajax.php:1316
+msgid "is a required field."
+msgstr "是一个必填项"
+
+#: includes/class-wc-pos-ajax.php:1632 includes/class-wc-pos-ajax.php:1647
+msgid "In stock"
+msgstr "现货"
+
+#: includes/class-wc-pos-ajax.php:1634 includes/class-wc-pos-ajax.php:1649
+msgid "Out of stock"
+msgstr "缺货"
+
+#: includes/class-wc-pos-ajax.php:1739 includes/class-wc-pos-sell.php:570
+#, php-format
+msgid "This register is currently opened by %s."
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:1862 includes/class-wc-pos-float-cash.php:104
+#: includes/views/html-admin-registers-sale_report_overlay.php:406
+#: includes/views/html-sale-report-email.php:391
+msgid "Cash in"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:1865 includes/class-wc-pos-float-cash.php:108
+#: includes/views/html-admin-registers-sale_report_overlay.php:410
+#: includes/views/html-sale-report-email.php:395
+msgid "Cash out"
+msgstr "兑现"
+
+#: includes/class-wc-pos-ajax.php:1896
+msgid "This Register Is Closed"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:76 includes/class-wc-pos-receipts.php:194
+#: includes/class-wc-pos-receipts.php:1075 includes/class-wc-pos-users.php:101
+msgid ""
+"<strong>Connection lost.</strong> Saving has been disabled until you&#8217;"
+"re reconnected."
+msgstr "<strong>连接丢失。</strong> 节能已被禁用，直到你重新连接。"
+
+#: includes/class-wc-pos-barcodes.php:77 includes/class-wc-pos-receipts.php:195
+#: includes/class-wc-pos-receipts.php:1076 includes/class-wc-pos-users.php:102
+msgid "We&#8217;re backing up this post in your browser, just in case."
+msgstr "我们正在您的浏览器中备份这篇文章，以防不测。"
+
+#: includes/class-wc-pos-barcodes.php:94
+msgid "Print Settings"
+msgstr "打印设置"
+
+#: includes/class-wc-pos-barcodes.php:98
+msgid "Number of Labels"
+msgstr "标签数量"
+
+#: includes/class-wc-pos-barcodes.php:102
+msgid "Label Type"
+msgstr "标签类型"
+
+#: includes/class-wc-pos-barcodes.php:104
+msgid "Continuous Feed"
+msgstr "连续流入"
+
+#: includes/class-wc-pos-barcodes.php:105
+msgid "A4 (2 x 7)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:106
+msgid "A4 (3 x 7)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:107
+msgid "Letter (4 x 5)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:108
+msgid "Letter (3 x 10)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:109
+msgid "Letter (4 x 20)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:110
+msgid "Continuous Feed (4cm x 3cm)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:111
+msgid "Continuous Feed (40mm x 20mm)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:112
+msgid "Jewellery Tag (50mm x 10mm)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:117
+msgid "Choose which fields to print"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:119
+#: includes/class-wc-pos-receipts.php:782 includes/class-wc-pos-stocks.php:92
+#: includes/class-wc-pos-stocks.php:107 includes/views/footer.php:34
+#: includes/views/html-admin-barcode-options.php:14
+msgid "SKU"
+msgstr "库存"
+
+#: includes/class-wc-pos-barcodes.php:120 includes/class-wc-pos-stocks.php:109
+#: includes/views/footer.php:46
+msgid "Price"
+msgstr "价钱"
+
+#: includes/class-wc-pos-barcodes.php:121
+msgid "Product Name"
+msgstr "产品名称"
+
+#: includes/class-wc-pos-barcodes.php:124
+msgid ""
+"Note: be sure to set your paper size to the corresponding paper size and the "
+"margins to none to ensure printing is accurate."
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:152 includes/class-wc-pos-stocks.php:311
+msgid "Barcode Template created."
+msgstr "条码模板已创建。"
+
+#: includes/class-wc-pos-barcodes.php:153 includes/class-wc-pos-stocks.php:312
+msgid "Barcode Template updated."
+msgstr "条码模板已更新。"
+
+#: includes/class-wc-pos-booking.php:50 includes/class-wc-pos-sell.php:592
+msgid "Close"
+msgstr "关闭"
+
+#: includes/class-wc-pos-booking.php:51
+msgid "Today"
+msgstr "今天"
+
+#: includes/class-wc-pos-booking.php:52 includes/class-wc-pos-tiles.php:587
+msgid "Previous"
+msgstr "上一个"
+
+#: includes/class-wc-pos-booking.php:53 includes/class-wc-pos-tiles.php:590
+msgid "Next"
+msgstr "下一个"
+
+#: includes/class-wc-pos-booking.php:64
+msgid "Booking Type"
+msgstr "预约类型"
+
+#: includes/class-wc-pos-booking.php:65
+msgid "Booking Date"
+msgstr "预订日期"
+
+#: includes/class-wc-pos-booking.php:66
+msgid "Booking Time"
+msgstr "预订时间"
+
+#: includes/class-wc-pos-booking.php:68
+msgid "Person(s)"
+msgstr "人数"
+
+#: includes/class-wc-pos-booking.php:78
+msgid "This date is unavailable"
+msgstr "此日期不可用"
+
+#: includes/class-wc-pos-booking.php:79
+msgid "This date is fully booked and unavailable"
+msgstr "此日期预定满额，不可用"
+
+#: includes/class-wc-pos-booking.php:80
+msgid "This date is partially booked - but bookings still remain"
+msgstr "这个日期是部分预定的-但仍保留"
+
+#: includes/class-wc-pos-booking.php:81
+msgid "This date is available"
+msgstr "此日期可用"
+
+#: includes/class-wc-pos-booking.php:82
+msgid "Choose a Start Date"
+msgstr "选择一个起始日"
+
+#: includes/class-wc-pos-booking.php:83
+msgid "Choose an End Date"
+msgstr "选择一个终止日"
+
+#: includes/class-wc-pos-booking.php:84
+msgid "Dates"
+msgstr "日期"
+
+#: includes/class-wc-pos-booking.php:85
+msgid "Please select the options for your booking above first"
+msgstr "请选定日期"
+
+#: includes/class-wc-pos-float-cash.php:67
+#: includes/views/html-admin-registers-sale_report_overlay.php:390
+#: includes/views/html-sale-report-email.php:375
+msgid "Opening cash amount"
+msgstr ""
+
+#: includes/class-wc-pos-float-cash.php:88
+msgid "Order #"
+msgstr "定货合同 #"
+
+#: includes/class-wc-pos-grids.php:72
+msgid "Product grid"
+msgstr ""
+
+#: includes/class-wc-pos-grids.php:185 includes/class-wc-pos-grids.php:190
+msgid "Add new product grid "
+msgstr ""
+
+#: includes/class-wc-pos-grids.php:188
+msgid "Add New Product Grid "
+msgstr "添加新的产品网格"
+
+#: includes/class-wc-pos-grids.php:255
+msgid "Please, provide an grid name, slug and type."
+msgstr "请提供一个网格名称，别名以及类型。"
+
+#: includes/class-wc-pos-grids.php:257
+#, php-format
+msgid "Slug “%s” is too long (28 characters max). Shorten it, please."
+msgstr "别名：\"%s\"太长(系统最多只允许28个字符)请删减掉一些字符。"
+
+#: includes/class-wc-pos-grids.php:259
+#, php-format
+msgid ""
+"Slug “%s” is not allowed because it is a reserved term. Change it, please."
+msgstr "别名“%s”是不允许的，因为它已被使用，请使用其他的别名。"
+
+#: includes/class-wc-pos-grids.php:264 includes/class-wc-pos-grids.php:270
+#, php-format
+msgid "Slug “%s” is already in use. Change it, please."
+msgstr "别名“%s”已被使用，请使用其他的别名。"
+
+#: includes/class-wc-pos-grids.php:385
+msgid "Edit Product Grid"
+msgstr "编辑产品网格"
+
+#: includes/class-wc-pos-grids.php:395
+msgid "Name for the grid (shown on the front-end)."
+msgstr "网格名称（在前端显示）。"
+
+#: includes/class-wc-pos-grids.php:401 includes/class-wc-pos-grids.php:467
+#: includes/tables/class-wc-pos-table-grids.php:75
+msgid "Slug"
+msgstr "固定链接地"
+
+#: includes/class-wc-pos-grids.php:405 includes/class-wc-pos-grids.php:469
+msgid "Unique slug/reference for the grid; must be shorter than 28 characters."
+msgstr "用于网格的独特别名/参考；必须少于28个字符。"
+
+#: includes/class-wc-pos-grids.php:411 includes/class-wc-pos-grids.php:473
+msgid "Default sort order"
+msgstr "يېڭى زاكاس قوشۇش"
+
+#: includes/class-wc-pos-grids.php:416 includes/class-wc-pos-grids.php:476
+msgid "Custom ordering"
+msgstr "ئۆزىڭىز رەتلەش"
+
+#: includes/class-wc-pos-grids.php:418 includes/class-wc-pos-grids.php:478
+msgid ""
+"Determines the sort order of the products on the POS page. If using custom "
+"ordering, you can drag and drop the products in this grid."
+msgstr ""
+"决定了产品在POS页面排序。如果使用自定义排序，您可以拖放该网格中的产品。"
+
+#: includes/class-wc-pos-grids.php:423 includes/class-wc-pos-outlets.php:320
+#: includes/class-wc-pos-registers.php:377 includes/class-wc-pos-tiles.php:296
+msgid "Update"
+msgstr "更新"
+
+#: includes/class-wc-pos-grids.php:457
+msgid "Add New Product Grid"
+msgstr "添加新的产品网格"
+
+#: includes/class-wc-pos-grids.php:458
+msgid ""
+"Product grids lets you define the products that you want to show on each "
+"register. Using tiles which represent a produce, you can customise the "
+"product grid layout."
+msgstr ""
+"产品网格让您定义您想在每个登记上显示的产品。用平铺描绘一个产品，你可以定制产"
+"品的网格布局。"
+
+#: includes/class-wc-pos-grids.php:463
+msgid "Name for the grid (shown when configuring and viewing the register)"
+msgstr "网格的名称（在配置和查看登记时）"
+
+#: includes/class-wc-pos-grids.php:481
+msgid "Add Product Grid"
+msgstr "添加产品网格"
+
+#: includes/class-wc-pos-grids.php:492
+msgid "Are you sure you want to delete this grid?"
+msgstr "你确定要删除这个网格吗？"
+
+#: includes/class-wc-pos-grids.php:543 includes/tiles-functions.php:62
+#: includes/views/html-registers.php:137
+msgid "All Products"
+msgstr "所有产品"
+
+#: includes/class-wc-pos-grids.php:544
+msgid "Category Taxonomy"
+msgstr "类别分类"
+
+#: includes/class-wc-pos-install.php:402
+#: includes/tables/class-wc-pos-table-sessions.php:77
+msgid "Cashier"
+msgstr "收银员"
+
+#: includes/class-wc-pos-install.php:410
+msgid "POS Manager"
+msgstr "POS管理"
+
+#: includes/class-wc-pos-outlets.php:80
+msgid "Select a country…"
+msgstr "选择一个国家..."
+
+#: includes/class-wc-pos-outlets.php:86
+msgid "Select a state…"
+msgstr "选择一个省份..."
+
+#: includes/class-wc-pos-outlets.php:98 includes/class-wc-pos-receipts.php:119
+msgid "Email"
+msgstr "邮箱"
+
+#: includes/class-wc-pos-outlets.php:102
+msgid "Phone"
+msgstr "电话"
+
+#: includes/class-wc-pos-outlets.php:105 includes/class-wc-pos-receipts.php:118
+msgid "Fax"
+msgstr "传真"
+
+#: includes/class-wc-pos-outlets.php:108 includes/class-wc-pos-receipts.php:120
+msgid "Website"
+msgstr "网站"
+
+#: includes/class-wc-pos-outlets.php:114
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/class-wc-pos-outlets.php:116
+msgid ""
+"The Twitter name of the outlet e.g. for twitter.com/acme enter just \"acme\"."
+msgstr "出口的Twitter名称，例如：twitter.com/acme 只许输入“acme”。"
+
+#: includes/class-wc-pos-outlets.php:119
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/class-wc-pos-outlets.php:121
+msgid ""
+"The Facebook page of the outlet e.g. for facebook.com/acme enter just \"acme"
+"\"."
+msgstr "出口的Facebook页面，例如：facebook.com/acme 只许输入“acme”。"
+
+#: includes/class-wc-pos-outlets.php:146 includes/class-wc-pos-outlets.php:149
+msgid "Search Outlets"
+msgstr "搜索经销店"
+
+#: includes/class-wc-pos-outlets.php:194
+msgid "Edit Outlet"
+msgstr "编辑渠道"
+
+#: includes/class-wc-pos-outlets.php:371
+msgid ""
+"Outlets for your store can be managed here. Outlets can be added using the "
+"form below. To edit an outlet, simply hover over the outlet and click on "
+"Edit."
+msgstr ""
+"您的经销店的商店可以在这里进行管理。经销店可以使用下面的表格来添加。编辑一个"
+"经销店，只需在经销店上悬停，然后点击编辑。"
+
+#: includes/class-wc-pos-outlets.php:373
+msgid "Outlet Details"
+msgstr "渠道详情"
+
+#: includes/class-wc-pos-outlets.php:410
+msgid "The address of the outlet at which the register will be located."
+msgstr "登记该经销店将位于的地址。"
+
+#: includes/class-wc-pos-outlets.php:456
+msgid "Add New Outlet"
+msgstr "添加新的渠道"
+
+#: includes/class-wc-pos-outlets.php:530
+msgid "Outlet added."
+msgstr "渠道已添加。"
+
+#: includes/class-wc-pos-outlets.php:534
+msgid "Outlet updated."
+msgstr "出口已更新。"
+
+#: includes/class-wc-pos-outlets.php:538
+msgid "Outlet deleted."
+msgstr "经销店已删除。"
+
+#: includes/class-wc-pos-receipts.php:117
+msgid "Tel"
+msgstr "电话"
+
+#: includes/class-wc-pos-receipts.php:121
+#: includes/tables/class-wc-pos-table-receipts.php:53
+#: includes/views/html-print-receipt.php:4
+msgid "Receipt"
+msgstr "收据"
+
+#: includes/class-wc-pos-receipts.php:122
+#: includes/views/modal/html-modal-payments.php:93
+msgid "Order Number"
+msgstr "订单号"
+
+#: includes/class-wc-pos-receipts.php:123
+#: includes/class-wc-pos-receipts.php:593
+msgid "Order Date"
+msgstr "订单日期"
+
+#: includes/class-wc-pos-receipts.php:127
+msgid "Served by"
+msgstr "送达"
+
+#: includes/class-wc-pos-receipts.php:130
+#: includes/views/html-admin-registers-sale_report_overlay.php:45
+#: includes/views/html-admin-registers-sale_report_overlay.php:169
+#: includes/views/html-admin-registers-sale_report_overlay.php:262
+#: includes/views/html-bill-screen-content.php:29
+#: includes/views/html-print-receipt-preview.php:245
+#: includes/views/html-print-receipt-preview.php:289
+#: includes/views/html-print-receipt.php:334
+#: includes/views/html-print-receipt.php:462
+#: includes/views/html-print-receipt.php:807
+#: includes/views/html-print-receipt.php:934
+#: includes/views/html-registers.php:262 includes/views/html-registers.php:363
+#: includes/views/html-sale-report-email.php:43
+#: includes/views/html-sale-report-email.php:163
+#: includes/views/html-sale-report-email.php:253
+#: includes/views/modal/html-modal-retrieve-sales.php:45
+#: includes/views/modal/html-modal-retrieve-sales.php:70
+msgid "Total"
+msgstr "总价"
+
+#: includes/class-wc-pos-receipts.php:131
+#: includes/tables/class-wc-pos-table-users.php:87
+#: includes/views/html-admin-registers-sale_report_overlay.php:31
+#: includes/views/html-print-receipt-preview.php:282
+#: includes/views/html-sale-report-email.php:29
+msgid "Sales"
+msgstr "销售"
+
+#: includes/class-wc-pos-receipts.php:133
+#: includes/class-wc-pos-receipts.php:825
+#: includes/views/html-print-receipt-preview.php:303
+msgid "Number of Items"
+msgstr "项目数量"
+
+#: includes/class-wc-pos-receipts.php:137
+#: includes/class-wc-pos-receipts.php:548
+#: includes/class-wc-pos-registers.php:131
+msgid "Tax Number"
+msgstr "税务号码"
+
+#: includes/class-wc-pos-receipts.php:148 includes/views/html-registers.php:108
+#: includes/views/modal/html-modal-cash-management.php:10
+#: includes/views/modal/html-modal-comments.php:3
+#: includes/views/modal/html-modal-opening-cash-amount.php:22
+msgid "Note"
+msgstr "备注"
+
+#: includes/class-wc-pos-receipts.php:150
+#: includes/class-wc-pos-receipts.php:641
+msgid "Customer Name"
+msgstr "用户名"
+
+#: includes/class-wc-pos-receipts.php:152
+#: includes/class-wc-pos-receipts.php:663
+msgid "Customer Email"
+msgstr "客户电子邮箱"
+
+#: includes/class-wc-pos-receipts.php:154
+#: includes/class-wc-pos-receipts.php:685
+#: includes/views/modal/html-modal-add-shipping.php:35
+msgid "Shipping Address"
+msgstr "邮寄地址"
+
+#: includes/class-wc-pos-receipts.php:159
+#: includes/class-wc-pos-registers.php:190
+#: includes/tables/class-wc-pos-table-registers.php:76
+msgid "Gift Receipt"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:185
+msgid "Edit Receipt Template"
+msgstr "编辑收据模板"
+
+#: includes/class-wc-pos-receipts.php:186
+#: includes/class-wc-pos-receipts.php:1067
+msgid "Add New"
+msgstr "增加"
+
+#: includes/class-wc-pos-receipts.php:188
+msgid "Add New Receipt Template"
+msgstr "添加新的收据模板"
+
+#: includes/class-wc-pos-receipts.php:212
+#: includes/class-wc-pos-receipts.php:312
+#: includes/class-wc-pos-receipts.php:411
+#: includes/class-wc-pos-receipts.php:449
+#: includes/class-wc-pos-receipts.php:571
+#: includes/class-wc-pos-receipts.php:760
+#: includes/class-wc-pos-receipts.php:881
+#: includes/class-wc-pos-receipts.php:906
+#: includes/class-wc-pos-receipts.php:931
+msgid "Click to toggle"
+msgstr "点击展开"
+
+#: includes/class-wc-pos-receipts.php:216
+msgid "General Details"
+msgstr "常规细节"
+
+#: includes/class-wc-pos-receipts.php:223
+msgid "Template Name"
+msgstr "模板"
+
+#: includes/class-wc-pos-receipts.php:233
+msgid "Receipt Title"
+msgstr "收据标题"
+
+#: includes/class-wc-pos-receipts.php:244
+msgid "Gift Receipt Title"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:255
+msgid "Number of Copies"
+msgstr "复制个数:"
+
+#: includes/class-wc-pos-receipts.php:281
+msgid "Receipt Width"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:285
+msgid "0mm = Dynamic Width"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:291
+msgid "Include Tax Summary"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:316
+msgid "Style Details"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:323
+msgid "Text Size"
+msgstr "文本尺寸"
+
+#: includes/class-wc-pos-receipts.php:328
+#: includes/class-wc-pos-receipts.php:356
+msgid "Normal"
+msgstr "正常"
+
+#: includes/class-wc-pos-receipts.php:329
+#: includes/class-wc-pos-receipts.php:357
+msgid "Small"
+msgstr "小"
+
+#: includes/class-wc-pos-receipts.php:330
+#: includes/class-wc-pos-receipts.php:358
+msgid "Large"
+msgstr "大"
+
+#: includes/class-wc-pos-receipts.php:337
+msgid "Title Position"
+msgstr "标题的位置"
+
+#: includes/class-wc-pos-receipts.php:342
+#: includes/class-wc-pos-receipts.php:370
+#: includes/class-wc-pos-receipts.php:384
+#: includes/class-wc-pos-receipts.php:398
+msgid "Left"
+msgstr "左"
+
+#: includes/class-wc-pos-receipts.php:343
+#: includes/class-wc-pos-receipts.php:371
+#: includes/class-wc-pos-receipts.php:385
+#: includes/class-wc-pos-receipts.php:399
+msgid "Center"
+msgstr "Center"
+
+#: includes/class-wc-pos-receipts.php:344
+#: includes/class-wc-pos-receipts.php:372
+#: includes/class-wc-pos-receipts.php:386
+#: includes/class-wc-pos-receipts.php:400
+msgid "Right"
+msgstr "Right"
+
+#: includes/class-wc-pos-receipts.php:351
+msgid "Logo Size"
+msgstr "LOGO大小"
+
+#: includes/class-wc-pos-receipts.php:365
+msgid "Logo Position"
+msgstr "Logo位置"
+
+#: includes/class-wc-pos-receipts.php:379
+msgid "Address & Contact Position"
+msgstr "地址&联系人位置"
+
+#: includes/class-wc-pos-receipts.php:393
+msgid "Tax Number Position"
+msgstr "税务号码位置"
+
+#: includes/class-wc-pos-receipts.php:416
+msgid "Receipt Logo"
+msgstr "收据Logo"
+
+#: includes/class-wc-pos-receipts.php:423
+msgid "No logo selected"
+msgstr "未選擇 logo"
+
+#: includes/class-wc-pos-receipts.php:438
+#: includes/class-wc-pos-receipts.php:439
+msgid "Select Logo"
+msgstr "选择Logo"
+
+#: includes/class-wc-pos-receipts.php:442
+msgid ""
+"Recommend logo height to width ratio is 1:4 i.e. 70px height and 280px "
+"width.."
+msgstr "推荐标志的高宽比是1:4，即70px高度和280px宽度。"
+
+#: includes/class-wc-pos-receipts.php:453
+msgid "Header Details"
+msgstr "头部细节"
+
+#: includes/class-wc-pos-receipts.php:460
+msgid "Shop Name"
+msgstr "店鋪名稱"
+
+#: includes/class-wc-pos-receipts.php:471
+#: includes/views/html-print-receipt-preview.php:150
+msgid "Outlet Name"
+msgstr "经销店名称"
+
+#: includes/class-wc-pos-receipts.php:482
+msgid "Outlet Address"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:493
+msgid "Outlet Contact Details"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:504
+msgid "Telephone Label"
+msgstr "电话标签："
+
+#: includes/class-wc-pos-receipts.php:515
+msgid "Fax Label"
+msgstr "传真标签"
+
+#: includes/class-wc-pos-receipts.php:526
+msgid "Email Label"
+msgstr "电子邮件标签"
+
+#: includes/class-wc-pos-receipts.php:537
+msgid "Website Label"
+msgstr "网站标签"
+
+#: includes/class-wc-pos-receipts.php:558
+msgid "Tax Number Label"
+msgstr "税务号码标签"
+
+#: includes/class-wc-pos-receipts.php:575
+msgid "Order Details"
+msgstr "订单详细信息"
+
+#: includes/class-wc-pos-receipts.php:582
+msgid "Order Number Label"
+msgstr "订单号码标签"
+
+#: includes/class-wc-pos-receipts.php:603
+msgid "Order Date Label"
+msgstr "订单日期标签"
+
+#: includes/class-wc-pos-receipts.php:614
+msgid "Order Date Format"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:618
+msgid "F j, Y"
+msgstr "F Y"
+
+#: includes/class-wc-pos-receipts.php:633
+msgid "Custom:"
+msgstr "自定义："
+
+#: includes/class-wc-pos-receipts.php:633
+msgid "enter a custom date format in the following field"
+msgstr "在下列字段中输入自定义日期格式"
+
+#: includes/class-wc-pos-receipts.php:634
+msgid "Custom date format:"
+msgstr "自訂日期格式︰"
+
+#: includes/class-wc-pos-receipts.php:634
+msgid "example:"
+msgstr "範例"
+
+#: includes/class-wc-pos-receipts.php:652
+msgid "Customer Name Label"
+msgstr "客户名称标签"
+
+#: includes/class-wc-pos-receipts.php:674
+msgid "Customer Email Label"
+msgstr "客户电子邮件标签"
+
+#: includes/class-wc-pos-receipts.php:696
+msgid "Shipping Address Label"
+msgstr "送货地址标签"
+
+#: includes/class-wc-pos-receipts.php:707
+msgid "Cashier Name"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:717
+msgid "Register Name"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:727
+msgid "Served By Label"
+msgstr "标签服务"
+
+#: includes/class-wc-pos-receipts.php:738
+msgid "Served By Type"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:747
+#: includes/tables/class-wc-pos-table-users.php:84
+msgid "Display Name"
+msgstr "显示名字"
+
+#: includes/class-wc-pos-receipts.php:750
+msgid "Nickname"
+msgstr "昵称"
+
+#: includes/class-wc-pos-receipts.php:764
+msgid "Product Details"
+msgstr "产品细节"
+
+#: includes/class-wc-pos-receipts.php:771
+msgid "Product Image"
+msgstr "商品图像"
+
+#: includes/class-wc-pos-receipts.php:792
+msgid "Tax Label"
+msgstr "税收标签"
+
+#: includes/class-wc-pos-receipts.php:803
+msgid "Total Label"
+msgstr "总计标签"
+
+#: includes/class-wc-pos-receipts.php:814
+msgid "Payment Label"
+msgstr "付款标签"
+
+#: includes/class-wc-pos-receipts.php:836
+msgid "Number of Items Label"
+msgstr "项目数量标签"
+
+#: includes/class-wc-pos-receipts.php:847
+#: includes/views/modal/html-modal-retrieve-sales.php:42
+#: includes/views/modal/html-modal-retrieve-sales.php:67
+msgid "Order Notes"
+msgstr "订单备注"
+
+#: includes/class-wc-pos-receipts.php:858
+msgid "Order Notes Label"
+msgstr "订单备注标签"
+
+#: includes/class-wc-pos-receipts.php:869
+msgid "Order Barcode"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:886
+msgid "Header Text"
+msgstr "页眉文本"
+
+#: includes/class-wc-pos-receipts.php:911
+msgid "Footer Text"
+msgstr "脚文本"
+
+#: includes/class-wc-pos-receipts.php:940
+msgid ""
+"Customise the look and feel of your receipts using custom CSS. This will "
+"only applied when the receipt is being printed."
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:952
+msgid "Receipt Preview"
+msgstr ""
+
+#: includes/class-wc-pos-receipts.php:977
+msgid "Receipt Template created."
+msgstr "接收模板已创建。"
+
+#: includes/class-wc-pos-receipts.php:978
+msgid "Receipt Template updated."
+msgstr "收据模板已更新。"
+
+#: includes/class-wc-pos-receipts.php:979
+msgid "Receipt Template deleted."
+msgstr "收据模板已删除。"
+
+#: includes/class-wc-pos-receipts.php:1066
+msgid "Receipt Templates"
+msgstr "收据模板"
+
+#: includes/class-wc-pos-receipts.php:1069
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "关于&#8220;%s&#8221;的搜索结果"
+
+#: includes/class-wc-pos-registers.php:84
+#: includes/views/html-admin-cart-shipping.php:23
+#: includes/views/html-registers.php:312
+msgid "No Shipping"
+msgstr "不包邮"
+
+#: includes/class-wc-pos-registers.php:91
+msgid "The name of the register that will appear when opening it."
+msgstr "打开时会出现的登记名称。"
+
+#: includes/class-wc-pos-registers.php:101
+msgid "Select the product grid that this register will use."
+msgstr "选择这个登记将使用的产品网格。"
+
+#: includes/class-wc-pos-registers.php:105
+msgid "Receipt Template"
+msgstr "收据模板"
+
+#: includes/class-wc-pos-registers.php:108
+msgid "Select the receipt template that this register will use."
+msgstr "选择这个将使用的收据模板。"
+
+#: includes/class-wc-pos-registers.php:112
+msgid "Prefix"
+msgstr "前缀"
+
+#: includes/class-wc-pos-registers.php:113
+msgid "Enter the prefix of the orders from this register."
+msgstr "输入这个登记的订单前缀。"
+
+#: includes/class-wc-pos-registers.php:117
+msgid "Suffix"
+msgstr "后缀"
+
+#: includes/class-wc-pos-registers.php:118
+msgid "Enter the suffix of the orders from this register."
+msgstr "输入这个登记的订单后缀。"
+
+#: includes/class-wc-pos-registers.php:125
+msgid "Select the outlet that this register is assigned to."
+msgstr "选择分配给这个登记的渠道。"
+
+#: includes/class-wc-pos-registers.php:132
+msgid ""
+"Enter the tax number which is applied to this particular register. This will "
+"be printed on receipts if tax number is enabled on receipt template."
+msgstr ""
+"输入适用于该特定登记的税务号码。如果在收据模板上启用了，这将在收据上打印。"
+
+#: includes/class-wc-pos-registers.php:136
+msgid "Default Customer"
+msgstr "默认客户"
+
+#: includes/class-wc-pos-registers.php:139
+msgid ""
+"Select what you want the default customer to be when register is opened."
+msgstr "选择当开启登记时，你想要的默认客户。"
+
+#: includes/class-wc-pos-registers.php:143
+msgid "Default Shipping Method"
+msgstr "配送送货方式"
+
+#: includes/class-wc-pos-registers.php:146
+msgid ""
+"Select what you want the default shipping method to be when shipping methods "
+"are loaded."
+msgstr "选择当配送方式被加载时，你想要的默认配送方法。"
+
+#: includes/class-wc-pos-registers.php:153
+msgid "Select whether you want to manage the float of cash in the register."
+msgstr ""
+
+#: includes/class-wc-pos-registers.php:157
+msgid "Disable Sale Prices"
+msgstr ""
+
+#: includes/class-wc-pos-registers.php:160
+msgid ""
+"Select whether you want the regular price to be displayed and used instead "
+"of sale price."
+msgstr ""
+
+#: includes/class-wc-pos-registers.php:166
+msgid "Change User"
+msgstr "更改用户"
+
+#: includes/class-wc-pos-registers.php:170
+msgid "Select whether user to be changed at end of sale."
+msgstr "选择用户是否在销售结束时更改。"
+
+#: includes/class-wc-pos-registers.php:174
+#: includes/tables/class-wc-pos-table-registers.php:75
+msgid "Email Receipt"
+msgstr "电子邮件收据"
+
+#: includes/class-wc-pos-registers.php:178
+msgid "Select whether to email receipt at end of sale."
+msgstr "选择是否在销售结束时发送电子邮件。"
+
+#: includes/class-wc-pos-registers.php:182
+#: includes/tables/class-wc-pos-table-registers.php:77
+msgid "Print Receipt"
+msgstr "打印小票"
+
+#: includes/class-wc-pos-registers.php:186
+msgid "Select whether to print receipt at end of sale."
+msgstr "选择是否在销售结束时打印收据。"
+
+#: includes/class-wc-pos-registers.php:194
+msgid "Select whether to print gift receipt at end of sale."
+msgstr ""
+
+#: includes/class-wc-pos-registers.php:198
+#: includes/tables/class-wc-pos-table-registers.php:78
+msgid "Note Request"
+msgstr "注意请求"
+
+#: includes/class-wc-pos-registers.php:201
+msgid "Select whether to add a note at end of sale."
+msgstr "选择是否在销售结束时添加备注。"
+
+#: includes/class-wc-pos-registers.php:239
+#: includes/class-wc-pos-registers.php:242
+msgid "Search Registers"
+msgstr "搜索登记"
+
+#: includes/class-wc-pos-registers.php:273
+#: includes/views/html-sale-report-email.php:1
+msgid "Report"
+msgstr "举报"
+
+#: includes/class-wc-pos-registers.php:312 includes/class-wc-pos-sell.php:509
+msgid "Edit Register"
+msgstr "编辑登记"
+
+#: includes/class-wc-pos-registers.php:351
+#: includes/class-wc-pos-registers.php:430
+msgid "End Of Sale"
+msgstr "销售结束"
+
+#: includes/class-wc-pos-registers.php:403
+msgid ""
+"Registers for your store can be managed here. Registers can be added using "
+"the form below. To edit an register, simply hover over the register and "
+"click on Edit."
+msgstr ""
+"您的商店的登记可以在这里进行管理。登记可以从下面的表格添加。要编辑登记，只需"
+"将鼠标悬停在登记上，然后单击“编辑”。"
+
+#: includes/class-wc-pos-registers.php:405
+msgid "Register Details"
+msgstr "登记详情"
+
+#: includes/class-wc-pos-registers.php:452
+msgid "Add New Register"
+msgstr "新建登记"
+
+#: includes/class-wc-pos-registers.php:588
+msgid "New register added."
+msgstr "新登记已添加。"
+
+#: includes/class-wc-pos-registers.php:592
+msgid "Register updated."
+msgstr "登记已更新。"
+
+#: includes/class-wc-pos-registers.php:596
+msgid "Register deleted."
+msgstr "登记已删除。"
+
+#: includes/class-wc-pos-sell.php:461
+msgid "This register does not exist."
+msgstr "这个登记不存在。"
+
+#: includes/class-wc-pos-sell.php:465
+msgid "Add Register"
+msgstr "添加登记"
+
+#: includes/class-wc-pos-sell.php:528 includes/class-wc-pos.php:627
+#: includes/tables/class-wc-pos-table-registers.php:333
+msgid "The WooCommerce API is disabled on this site."
+msgstr "在这个站点上的电子商务 API 是禁用的。"
+
+#: includes/class-wc-pos-sell.php:531 includes/class-wc-pos.php:628
+msgid "Enable the REST API"
+msgstr "نى قوزغۈتغش REST API"
+
+#: includes/class-wc-pos-sell.php:533 includes/class-wc-pos-sell.php:553
+#: includes/class-wc-pos-sell.php:573
+#: includes/views/modal/html-modal-clone-window.php:7
+#: includes/views/modal/html-modal-permission-denied.php:8
+#: includes/views/templates/cart.php:215
+msgid "All Registers"
+msgstr "所有登记"
+
+#: includes/class-wc-pos-sell.php:550
+#: includes/views/modal/html-modal-permission-denied.php:7
+msgid "You do not have permission to access this register."
+msgstr "您没有权限访问这个登记。"
+
+#: includes/class-wc-pos-sell.php:583
+msgid "Loading"
+msgstr "载入中"
+
+#: includes/class-wc-pos-sell.php:963
+msgid ""
+"Your session has expired. You can log in again from this page or go to the "
+"login page."
+msgstr "您的登陆会话已过期，请重新登陆。"
+
+#: includes/class-wc-pos-sell.php:1261
+msgid ""
+"Complete your order and earn <strong>{points}</strong> {points_label} for a "
+"discount on a future purchase"
+msgstr ""
+
+#: includes/class-wc-pos-sell.php:1420
+msgid "Please accept the terms and conditions first"
+msgstr "请先接受条款和条件"
+
+#: includes/class-wc-pos-sell.php:1429
+msgid "Card Number"
+msgstr "卡号"
+
+#: includes/class-wc-pos-sell.php:1430
+msgid "Expiry Month"
+msgstr "到期月份"
+
+#: includes/class-wc-pos-sell.php:1431
+msgid "Expiry Year"
+msgstr "到期年份"
+
+#: includes/class-wc-pos-sell.php:1432
+msgid "is invalid"
+msgstr "无效"
+
+#: includes/class-wc-pos-stocks.php:82
+msgid "Stock Controller"
+msgstr "库存控制器"
+
+#: includes/class-wc-pos-stocks.php:83
+msgid ""
+"This page is for users who want to manage their inventory or stock. Simple "
+"scan the SKU and the product will load below with the option to enter value "
+"and whether this is an increase or decrease in the inventory."
+msgstr ""
+"这个页面是用户想要管理自己的存货或库存。简单的扫描SKU和产品，将加载在下面输入"
+"的选项值，无论是增加或减少库存。"
+
+#: includes/class-wc-pos-stocks.php:94
+msgid "Find"
+msgstr "查找"
+
+#: includes/class-wc-pos-stocks.php:105 includes/class-wc-pos-tiles.php:181
+#: includes/class-wc-pos-tiles.php:680
+#: includes/tables/class-wc-pos-table-tiles.php:55
+msgid "Image"
+msgstr "图像"
+
+#: includes/class-wc-pos-stocks.php:110
+msgid "Update Stock"
+msgstr "更新库存"
+
+#: includes/class-wc-pos-subscriptions.php:28
+#: includes/class-wc-pos-subscriptions.php:109
+msgid "Subscription"
+msgstr "订阅"
+
+#: includes/class-wc-pos-subscriptions.php:85
+#: includes/views/html-registers.php:120
+#: includes/views/modal/html-modal-add-custom-fee.php:3
+msgid "Fee"
+msgstr "چىقىم"
+
+#: includes/class-wc-pos-subscriptions.php:113
+#, php-format
+msgid "Sign-up Fee (%s)"
+msgstr "注册费 (%s)"
+
+#: includes/class-wc-pos-subscriptions.php:114
+msgid "Interval"
+msgstr "间隔"
+
+#: includes/class-wc-pos-subscriptions.php:115
+msgid "Period"
+msgstr "周期"
+
+#: includes/class-wc-pos-subscriptions.php:116
+msgid "Length"
+msgstr "长度"
+
+#: includes/class-wc-pos-tiles.php:121
+msgid "Edit Tile"
+msgstr "编辑平铺"
+
+#: includes/class-wc-pos-tiles.php:136 includes/class-wc-pos-tiles.php:622
+#: includes/class-wc-pos-tiles.php:665
+#: includes/tables/class-wc-pos-table-tiles.php:56
+#: includes/views/html-print-receipt-preview.php:243
+#: includes/views/html-print-receipt.php:332
+#: includes/views/html-print-receipt.php:804
+#: includes/views/html-registers.php:100 includes/views/html-registers.php:258
+#: includes/views/modal/html-modal-custom-product.php:6
+#: updater/pages/index.php:80
+msgid "Product"
+msgstr "产品"
+
+#: includes/class-wc-pos-tiles.php:164 includes/class-wc-pos-tiles.php:669
+#: includes/views/html-admin-barcode-options.php:82
+#: includes/views/html-admin-barcode-options.php:87
+msgid "Search for a product&hellip;"
+msgstr "搜索产品 &hellip;"
+
+#: includes/class-wc-pos-tiles.php:166 includes/class-wc-pos-tiles.php:209
+#: includes/class-wc-pos-tiles.php:670
+msgid "Select the product which this tile will represent."
+msgstr "选择这个平铺将代表的产品。"
+
+#: includes/class-wc-pos-tiles.php:172 includes/class-wc-pos-tiles.php:673
+msgid "Style"
+msgstr "样式"
+
+#: includes/class-wc-pos-tiles.php:189 includes/class-wc-pos-tiles.php:688
+msgid "Colour"
+msgstr "颜色"
+
+#: includes/class-wc-pos-tiles.php:193 includes/class-wc-pos-tiles.php:692
+msgid "The style and appearance of the tile."
+msgstr "样式和平铺外观。"
+
+#: includes/class-wc-pos-tiles.php:198 includes/class-wc-pos-tiles.php:695
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: includes/class-wc-pos-tiles.php:214 includes/class-wc-pos-tiles.php:701
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: includes/class-wc-pos-tiles.php:224 includes/class-wc-pos-tiles.php:704
+msgid "Select the text colour for this tile."
+msgstr "选择这个平铺的文本颜色"
+
+#: includes/class-wc-pos-tiles.php:230 includes/class-wc-pos-tiles.php:707
+msgid "Dafault Selection"
+msgstr "默认选择"
+
+#: includes/class-wc-pos-tiles.php:234
+#: includes/tables/class-wc-pos-table-tiles.php:155
+#: includes/tables/class-wc-pos-table-tiles.php:158
+msgid "No Default Selection"
+msgstr "没有默认选择"
+
+#: includes/class-wc-pos-tiles.php:274 includes/class-wc-pos-tiles.php:710
+msgid "Selection the Default Section for this using variations."
+msgstr "选择这种使用的变化的默认部分。"
+
+#: includes/class-wc-pos-tiles.php:279 includes/class-wc-pos-tiles.php:714
+#: includes/tables/class-wc-pos-table-tiles.php:57
+msgid "Preview"
+msgstr "预览"
+
+#: includes/class-wc-pos-tiles.php:361
+msgid "Please select category."
+msgstr "请选择分类。"
+
+#: includes/class-wc-pos-tiles.php:418
+msgid "Please select product."
+msgstr "请选择产品。"
+
+#: includes/class-wc-pos-tiles.php:424
+msgid "Selected product is already added. Change it, please."
+msgstr "选定的产品已经添加。请改变它。"
+
+#: includes/class-wc-pos-tiles.php:467 includes/class-wc-pos-tiles.php:500
+#: includes/views/html-registers.php:154
+msgid " Layout"
+msgstr "编排"
+
+#: includes/class-wc-pos-tiles.php:497
+msgid "Grid Preview "
+msgstr "网格预览"
+
+#: includes/class-wc-pos-tiles.php:613
+msgid "Add New "
+msgstr "新增 "
+
+#: includes/class-wc-pos-tiles.php:616
+msgid "Origin"
+msgstr "起源"
+
+#: includes/class-wc-pos-tiles.php:629 includes/class-wc-pos-tiles.php:638
+msgid "Category"
+msgstr "类别"
+
+#: includes/class-wc-pos-tiles.php:634
+msgid "The origin for where these tiles will populate from."
+msgstr "这些平铺将在哪里开始填充。"
+
+#: includes/class-wc-pos-tiles.php:650
+msgid "Select category"
+msgstr "选择分类目录"
+
+#: includes/class-wc-pos-tiles.php:660
+msgid ""
+"Select the product category which contains the products you want to add."
+msgstr "选择您想要添加到产品分类中包含的产品。"
+
+#: includes/class-wc-pos-tiles.php:698
+msgid "Select the background colour for this tile."
+msgstr "选择这个平铺的背景色。"
+
+#: includes/class-wc-pos-tiles.php:729
+msgid "Add New Tile"
+msgstr "添加新的平铺"
+
+#: includes/class-wc-pos-tiles.php:743
+msgid "Tile updated."
+msgstr "平铺已更新。"
+
+#: includes/class-wc-pos-tiles.php:746
+msgid "Selected product is already a tile."
+msgstr "选定的产品已经是一个瓷砖。"
+
+#: includes/class-wc-pos-tiles.php:749
+msgid "Tile added successfully."
+msgstr "平铺已成功添加。"
+
+#: includes/class-wc-pos-tiles.php:752
+msgid "Tile deleted successfully."
+msgstr "平铺已成功删除。"
+
+#: includes/class-wc-pos-users.php:106
+msgid ""
+"The table below shows cashier who have an outlet assigned to them and their "
+"activity. To add a user to an outlet, go to the users profile and assign an "
+"outlet from there."
+msgstr ""
+"下面的表格显示收银员有一个分配给他们的渠道和他们的活动。要将用户添加到一个输"
+"经销店，前往用户个人资料，然后在那里指定一个经销店。"
+
+#: includes/class-wc-pos.php:436 includes/core-functions.php:963
+msgid "Are you sure you want to remove the selected items?"
+msgstr "你确定要删除选定的项目吗？"
+
+#: includes/class-wc-pos.php:437
+msgid "Search for a category&hellip;"
+msgstr "搜索分类&hellip;"
+
+#: includes/class-wc-pos.php:636
+msgid "Incorrect Permalinks Structure."
+msgstr "不正确的固定链接结构。"
+
+#: includes/class-wc-pos.php:637
+msgid "Change Permalinks"
+msgstr "更改固定连接"
+
+#: includes/class-wc-pos.php:725
+msgid "Reprint receipts"
+msgstr "重新打印收据"
+
+#: includes/core-functions.php:1124
+msgid "required"
+msgstr "必要的"
+
+#: includes/core-functions.php:1141
+msgid "Select a state&hellip;"
+msgstr "选择一个国家&hellip;"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:463
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:450
+#: includes/reports/class-wc-pos-report-sales-by-register.php:442
+#, php-format
+msgid "%s average daily sales"
+msgstr "%s 日均銷售"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:467
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:454
+#: includes/reports/class-wc-pos-report-sales-by-register.php:446
+#, php-format
+msgid "%s average monthly sales"
+msgstr "%s 月均销量"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:472
+#, php-format
+msgid "%s gross sales"
+msgstr "%s 销售总额"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:473
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:460
+#: includes/reports/class-wc-pos-report-sales-by-register.php:452
+msgid ""
+"This is the sum of the order totals after any refunds and including shipping "
+"and taxes."
+msgstr "这是在任何退款后的订单总数的总和，包括配送和税收。"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:478
+#, php-format
+msgid "%s net sales"
+msgstr "%s 净销售额"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:479
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:466
+#: includes/reports/class-wc-pos-report-sales-by-register.php:458
+msgid ""
+"This is the sum of the order totals after any refunds and excluding shipping "
+"and taxes."
+msgstr "这是在任何退款后的订单总数的总和，其中不包括运费和税费。"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:489
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:476
+#: includes/reports/class-wc-pos-report-sales-by-register.php:468
+#, php-format
+msgid "%s sales from this register for saved orders"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:490
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:477
+#: includes/reports/class-wc-pos-report-sales-by-register.php:469
+msgid ""
+"This is the sum of the saved order totals after any refunds and including "
+"shipping and taxes."
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:495
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:482
+#: includes/reports/class-wc-pos-report-sales-by-register.php:474
+#, php-format
+msgid "%s orders placed"
+msgstr "%s orders placed"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:501
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:488
+#: includes/reports/class-wc-pos-report-sales-by-register.php:480
+#, php-format
+msgid "%s items purchased"
+msgstr "%s 销售商品数量 "
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:507
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:494
+#: includes/reports/class-wc-pos-report-sales-by-register.php:486
+#, php-format
+msgid "%s charged for shipping"
+msgstr "يەتكۈزۈش كىرىمى سوممىسى %s"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:512
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:499
+#: includes/reports/class-wc-pos-report-sales-by-register.php:491
+#, php-format
+msgid "%s in refunds"
+msgstr "%s 在退款"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:517
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:504
+#: includes/reports/class-wc-pos-report-sales-by-register.php:496
+#, php-format
+msgid "%s worth of coupons used"
+msgstr "ئېتىبار چېكى كېمەيتىلمە سوممىسى%s"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:531
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:518
+#: includes/reports/class-wc-pos-report-sales-by-register.php:510
+msgid "Year"
+msgstr "年"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:532
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:519
+#: includes/reports/class-wc-pos-report-sales-by-register.php:511
+msgid "Last Month"
+msgstr "上个月"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:533
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:520
+#: includes/reports/class-wc-pos-report-sales-by-register.php:512
+msgid "This Month"
+msgstr "本月"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:534
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:521
+#: includes/reports/class-wc-pos-report-sales-by-register.php:513
+msgid "Last 7 Days"
+msgstr "最近一周"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:570
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:557
+#: includes/reports/class-wc-pos-report-sales-by-register.php:549
+msgid "Showing reports for:"
+msgstr ":مەلۇمات جەدۋىلى كۆرسۈتۈش"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:607
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:591
+#: includes/reports/class-wc-pos-report-sales-by-register.php:583
+msgid "Reset"
+msgstr "重置"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:615
+msgid "Search Cashier"
+msgstr "搜索收银员"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:619
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:603
+#: includes/reports/class-wc-pos-report-sales-by-register.php:595
+msgid "Search for a register&hellip;"
+msgstr "搜索一个登记&hellip;"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:620
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:604
+#: includes/reports/class-wc-pos-report-sales-by-register.php:596
+msgid "Show"
+msgstr "显示"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:630
+msgid "Top cashiers"
+msgstr "顶级收银员"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:686
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:745
+msgid "No cashiers found in range"
+msgstr "此范围内没有找到收银员"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:691
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:668
+#: includes/reports/class-wc-pos-report-sales-by-register.php:660
+msgid "Top Earners"
+msgstr "最高收入者"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:885
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:856
+#: includes/reports/class-wc-pos-report-sales-by-register.php:843
+#, php-format
+msgid "Sold %s worth in the last %d days"
+msgstr "在过去 %d 天中销售的 %s 金额"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:887
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:858
+#: includes/reports/class-wc-pos-report-sales-by-register.php:845
+#, php-format
+msgid "1 order placed in the last %d days"
+msgid_plural "%d orders placed in the last %d days"
+msgstr[0] ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:907
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:878
+#: includes/reports/class-wc-pos-report-sales-by-register.php:865
+#: includes/views/html-admin-registers-sale_report_overlay.php:39
+#: includes/views/html-admin-registers-sale_report_overlay.php:163
+#: includes/views/html-admin-registers-sale_report_overlay.php:256
+#: includes/views/html-sale-report-email.php:37
+#: includes/views/html-sale-report-email.php:157
+#: includes/views/html-sale-report-email.php:247
+#: includes/views/modal/html-modal-retrieve-sales.php:44
+#: includes/views/modal/html-modal-retrieve-sales.php:69
+msgid "Date"
+msgstr "日期"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:910
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:881
+#: includes/reports/class-wc-pos-report-sales-by-register.php:868
+msgid "Export CSV"
+msgstr "导出CSV文件"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:939
+msgid "&larr; Choose a cashier to view stats"
+msgstr "&larr; 选择一个收银员来查看统计"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:985
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:956
+#: includes/reports/class-wc-pos-report-sales-by-register.php:944
+msgid "Number of items sold"
+msgstr "سېتىلغان مەھسۇلات سانى"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:993
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:964
+#: includes/reports/class-wc-pos-report-sales-by-register.php:952
+msgid "Number of orders"
+msgstr "订单数量"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1001
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:972
+#: includes/reports/class-wc-pos-report-sales-by-register.php:960
+msgid "Average sales amount"
+msgstr "平均销售金额"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1011
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:982
+#: includes/reports/class-wc-pos-report-sales-by-register.php:970
+msgid "Coupon amount"
+msgstr "优惠券金额"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1021
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:992
+#: includes/reports/class-wc-pos-report-sales-by-register.php:980
+msgid "Refund amount"
+msgstr "按数量循环"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1031
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1002
+#: includes/reports/class-wc-pos-report-sales-by-register.php:990
+msgid "Shipping amount"
+msgstr "يەتكۈزۈش سوممىسى"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1041
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1012
+#: includes/reports/class-wc-pos-report-sales-by-register.php:1000
+msgid "Gross Sales amount"
+msgstr "总销售额"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1051
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1022
+#: includes/reports/class-wc-pos-report-sales-by-register.php:1010
+msgid "Net Sales amount"
+msgstr "净销售额"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1061
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1032
+#: includes/reports/class-wc-pos-report-sales-by-register.php:1020
+msgid "Sales amount for saved orders"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:459
+#, php-format
+msgid "%s gross sales from this outlet"
+msgstr "这个经销店销售总额%s"
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:465
+#, php-format
+msgid "%s net sales from this outlet"
+msgstr "这个经销店的净销售额 %s "
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:599
+msgid "Outlet Search"
+msgstr "渠道搜索"
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:614
+msgid "Top Outlets"
+msgstr "最高的销售店"
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:663
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:717
+msgid "No outlets found in range"
+msgstr "此范围内末找到经销店"
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:910
+msgid "&larr; Choose outlet to view stats"
+msgstr "&larr; 选择渠道来查看统计"
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:451
+#, php-format
+msgid "%s gross sales from this register"
+msgstr "这个登记的销售总额%s"
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:457
+#, php-format
+msgid "%s net sales from this register"
+msgstr "这个登记的净销售额 %s"
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:591
+msgid "Register Search"
+msgstr "登记搜索"
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:605
+msgid "Top Registers"
+msgstr "最高的登记"
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:655
+#: includes/reports/class-wc-pos-report-sales-by-register.php:709
+msgid "No registers found in range"
+msgstr "此范围内没有找到登记"
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:897
+msgid "&larr; Choose a register to view stats"
+msgstr "&larr; 选择登记来查看统计"
+
+#: includes/tables/class-wc-pos-table-grids.php:53
+msgid "No Product Grids currently exist."
+msgstr "当前没有产品网格存在。"
+
+#: includes/tables/class-wc-pos-table-grids.php:98
+#: includes/tables/class-wc-pos-table-outlets.php:78
+#: includes/tables/class-wc-pos-table-receipts.php:74
+#: includes/tables/class-wc-pos-table-registers.php:109
+#: includes/tables/class-wc-pos-table-sessions.php:93
+#: includes/tables/class-wc-pos-table-tiles.php:65
+msgid "Delete"
+msgstr "删除"
+
+#: includes/tables/class-wc-pos-table-grids.php:139
+msgid "Configure Tiles"
+msgstr "配置平铺"
+
+#: includes/tables/class-wc-pos-table-outlets.php:33
+msgid "Outlets not found. Try to adjust the filter."
+msgstr "未找到任何经销店，尝试调整过滤器。"
+
+#: includes/tables/class-wc-pos-table-outlets.php:56
+msgid "Contact & Social Details"
+msgstr "联系&社交详情"
+
+#: includes/tables/class-wc-pos-table-receipts.php:34
+msgid "Receipts not found. Try to adjust the filter."
+msgstr "未找到任何收据。尝试调整过滤器。"
+
+#: includes/tables/class-wc-pos-table-registers.php:37
+msgid "Registers not found. Try to adjust the filter."
+msgstr "未找到任何登记，尝试调整过滤器。"
+
+#: includes/tables/class-wc-pos-table-registers.php:73
+#: includes/views/modal/html-modal-retrieve-sales.php:33
+#: includes/views/modal/html-modal-retrieve-sales.php:58
+msgid "Status"
+msgstr "身份"
+
+#: includes/tables/class-wc-pos-table-registers.php:74
+msgid "User Change"
+msgstr "用户更改"
+
+#: includes/tables/class-wc-pos-table-registers.php:80
+msgid "Access"
+msgstr "访问"
+
+#: includes/tables/class-wc-pos-table-registers.php:191
+msgid "located in"
+msgstr "位于"
+
+#: includes/tables/class-wc-pos-table-registers.php:200
+msgid "User Changes After Sale"
+msgstr "在出售后更改用户"
+
+#: includes/tables/class-wc-pos-table-registers.php:202
+msgid "User Does Not Change After Sale"
+msgstr "不改变用户售后服务"
+
+#: includes/tables/class-wc-pos-table-registers.php:216
+msgid "Receipt Is Emailed To All Customers"
+msgstr ""
+
+#: includes/tables/class-wc-pos-table-registers.php:219
+msgid "Receipt Is Emailed To Non-guest Customers Only"
+msgstr ""
+
+#: includes/tables/class-wc-pos-table-registers.php:222
+msgid "Receipt Is Not Emailed"
+msgstr "收据不通过电子邮件发送"
+
+#: includes/tables/class-wc-pos-table-registers.php:237
+msgid "Gift Receipt Is Printed"
+msgstr ""
+
+#: includes/tables/class-wc-pos-table-registers.php:241
+msgid "Gift Receipt Is Not Printed"
+msgstr ""
+
+#: includes/tables/class-wc-pos-table-registers.php:255
+msgid "Receipt Is Printed"
+msgstr "收据已打印"
+
+#: includes/tables/class-wc-pos-table-registers.php:259
+msgid "Receipt Is Not Printed"
+msgstr "收据未打印"
+
+#: includes/tables/class-wc-pos-table-registers.php:272
+msgid "Note Is Not Taken"
+msgstr "没有备注"
+
+#: includes/tables/class-wc-pos-table-registers.php:274
+msgid "Note Is Taken On Save"
+msgstr "请注意保存"
+
+#: includes/tables/class-wc-pos-table-registers.php:276
+msgid "Note Is Taken On All Sales"
+msgstr "注意所有销售"
+
+#: includes/tables/class-wc-pos-table-registers.php:307
+#: includes/tables/class-wc-pos-table-registers.php:332
+#: includes/tables/class-wc-pos-table-registers.php:337
+#: includes/tables/class-wc-pos-table-registers.php:373
+msgid "Open"
+msgstr "打开"
+
+#: includes/tables/class-wc-pos-table-registers.php:309
+msgid "Enter"
+msgstr "输入"
+
+#: includes/tables/class-wc-pos-table-registers.php:359
+msgid "Cash Is Managed"
+msgstr ""
+
+#: includes/tables/class-wc-pos-table-registers.php:363
+msgid "Cash Is Not Managed"
+msgstr ""
+
+#: includes/tables/class-wc-pos-table-registers.php:376
+#: includes/tables/class-wc-pos-table-sessions.php:76
+msgid "Closed"
+msgstr "结束"
+
+#: includes/tables/class-wc-pos-table-sessions.php:37
+msgid "Session reports not found."
+msgstr ""
+
+#: includes/tables/class-wc-pos-table-sessions.php:75
+msgid "Opened"
+msgstr "已打开"
+
+#: includes/tables/class-wc-pos-table-sessions.php:78
+msgid "Total Sales"
+msgstr "总销售额"
+
+#: includes/tables/class-wc-pos-table-sessions.php:79
+#: includes/tables/class-wc-pos-table-sessions.php:114
+msgid "Print"
+msgstr "打印"
+
+#: includes/tables/class-wc-pos-table-tiles.php:36
+msgid "Tiles not found."
+msgstr "未找到任何平铺。"
+
+#: includes/tables/class-wc-pos-table-users.php:35
+msgid "Cashiers not found."
+msgstr "未找到任何收银员。"
+
+#: includes/tables/class-wc-pos-table-users.php:88
+#: includes/views/html-registers.php:57
+msgid "Orders"
+msgstr "订单"
+
+#: includes/tables/class-wc-pos-table-users.php:89
+msgid "Last Login"
+msgstr "上次登录"
+
+#: includes/tables/class-wc-pos-table-users.php:90
+msgid "Logged In"
+msgstr "登录"
+
+#: includes/views/footer.php:27
+msgid "Select Variation"
+msgstr "选择变量"
+
+#: includes/views/footer.php:52
+msgid "Reset Variation"
+msgstr ""
+
+#: includes/views/footer.php:53 includes/views/footer.php:71
+#: includes/views/footer.php:90
+#: includes/views/modal/html-modal-custom-product.php:79
+msgid "Add Product"
+msgstr "添加产品"
+
+#: includes/views/footer.php:60
+msgid "Booking Data"
+msgstr "预订数据"
+
+#: includes/views/footer.php:81
+msgid "Enter Quantity"
+msgstr "输入数量"
+
+#: includes/views/header.php:183
+msgid "Skip to main content"
+msgstr "跳转到住内容"
+
+#: includes/views/header.php:203
+msgid "Main content"
+msgstr "主要内容"
+
+#: includes/views/html-admin-barcode-item.php:39
+msgid "No longer exists"
+msgstr "不存在"
+
+#: includes/views/html-admin-barcode-item.php:83
+msgid "Grouped"
+msgstr "رەت"
+
+#: includes/views/html-admin-barcode-item.php:85
+msgid "External/Affiliate"
+msgstr "سىرتقى / ئىتتىپاق تۈزگەن"
+
+#: includes/views/html-admin-barcode-item.php:89
+msgid "Virtual"
+msgstr "虛擬"
+
+#: includes/views/html-admin-barcode-item.php:91
+msgid "Downloadable"
+msgstr "چۇشۇررگىلى بولدىغان"
+
+#: includes/views/html-admin-barcode-item.php:93
+#: includes/views/modal/html-modal-custom-product.php:40
+msgid "Simple"
+msgstr "简单"
+
+#: includes/views/html-admin-barcode-item.php:97
+msgid "Variable"
+msgstr "变量"
+
+#: includes/views/html-admin-barcode-item.php:130
+msgid "Edit item"
+msgstr "编辑项目"
+
+#: includes/views/html-admin-barcode-item.php:131
+msgid "Delete item"
+msgstr "删除项目"
+
+#: includes/views/html-admin-barcode-options.php:16
+msgid "Item"
+msgstr "项"
+
+#: includes/views/html-admin-barcode-options.php:17
+#: includes/views/html-print-receipt-preview.php:244
+#: includes/views/html-print-receipt.php:333
+#: includes/views/html-print-receipt.php:806
+#: includes/views/html-registers.php:260
+msgid "Cost"
+msgstr "价格"
+
+#: includes/views/html-admin-barcode-options.php:20
+msgid "Barcode Preview"
+msgstr "条形码预览"
+
+#: includes/views/html-admin-barcode-options.php:21
+#: includes/views/html-print-receipt-preview.php:241
+#: includes/views/html-print-receipt.php:328
+#: includes/views/html-print-receipt.php:800
+#: includes/views/html-registers.php:259
+msgid "Qty"
+msgstr "数量"
+
+#: includes/views/html-admin-barcode-options.php:30
+#: includes/views/html-admin-barcode-options.php:106
+msgid "Add products to generate barcodes"
+msgstr ""
+
+#: includes/views/html-admin-barcode-options.php:46
+#: includes/views/html-admin-barcode-options.php:51
+msgid "Delete selected row(s)"
+msgstr "删除选定的行"
+
+#: includes/views/html-admin-barcode-options.php:47
+#: includes/views/html-admin-barcode-options.php:53
+msgid "Add all variations"
+msgstr ""
+
+#: includes/views/html-admin-barcode-options.php:54
+msgid "Add product(s)"
+msgstr "مەھسۇلات قوشۇش"
+
+#: includes/views/html-admin-barcode-options.php:56
+msgid "Add category"
+msgstr "添加分类"
+
+#: includes/views/html-admin-barcode-options.php:61
+#: includes/views/html-registers.php:383
+msgid "Save"
+msgstr "保存"
+
+#: includes/views/html-admin-barcode-options.php:72
+msgid "Add products"
+msgstr "添加产品"
+
+#: includes/views/html-admin-barcode-options.php:95
+msgid "Add"
+msgstr "添加"
+
+#: includes/views/html-admin-cart-shipping.php:6
+#, php-format
+msgid "Shipping #%d"
+msgstr "运送 #%d"
+
+#: includes/views/html-admin-cart-shipping.php:8
+#: includes/views/html-registers.php:299
+msgid "Shipping and Handling"
+msgstr "运输和处理"
+
+#: includes/views/html-admin-cart-shipping.php:36
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr "请使用装运计算器查看可用的装运方法。"
+
+#: includes/views/html-admin-cart-shipping.php:40
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr "请继续结账，输入您的完整地址，以查看是否有可用的装运方法。"
+
+#: includes/views/html-admin-cart-shipping.php:47
+msgid ""
+"There doesn&lsquo;t seem to be any available shipping methods. Please double "
+"check your address, or contact us if you need any help."
+msgstr ""
+"没有&lsquo;t 任何可用的运输方式。请仔细检查您的地址，或者如果您需要任何帮助，"
+"请联系我们。"
+
+#: includes/views/html-admin-registers-product-item.php:4
+#: includes/views/modal/html-modal-product-custom-meta.php:3
+msgid "Edit Product"
+msgstr "编辑产品"
+
+#: includes/views/html-admin-registers-product-item.php:19
+msgid "Custom product"
+msgstr "自定义产品"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:7
+#: includes/views/html-sale-report-email.php:5
+msgid "Register:"
+msgstr "注册："
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:11
+#: includes/views/html-float-cash-management.php:12
+#: includes/views/html-sale-report-email.php:9
+msgid "Outlet:"
+msgstr ""
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:15
+#: includes/views/html-sale-report-email.php:13
+msgid "Opened:"
+msgstr "已开放："
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:17
+#: includes/views/html-admin-registers-sale_report_overlay.php:25
+#: includes/views/html-admin-registers-sale_report_overlay.php:123
+#: includes/views/html-admin-registers-sale_report_overlay.php:218
+#: includes/views/html-admin-registers-sale_report_overlay.php:311
+#: includes/views/html-float-cash-management-table-row.php:3
+#: includes/views/html-sale-report-email.php:15
+#: includes/views/html-sale-report-email.php:23
+#: includes/views/html-sale-report-email.php:120
+#: includes/views/html-sale-report-email.php:213
+#: includes/views/html-sale-report-email.php:302
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:18
+#: includes/views/html-admin-registers-sale_report_overlay.php:26
+#: includes/views/html-sale-report-email.php:16
+#: includes/views/html-sale-report-email.php:24
+msgid " at "
+msgstr "在"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:19
+#: includes/views/html-admin-registers-sale_report_overlay.php:27
+#: includes/views/html-admin-registers-sale_report_overlay.php:128
+#: includes/views/html-admin-registers-sale_report_overlay.php:223
+#: includes/views/html-admin-registers-sale_report_overlay.php:316
+#: includes/views/html-float-cash-management-table-row.php:5
+#: includes/views/html-sale-report-email.php:17
+#: includes/views/html-sale-report-email.php:25
+#: includes/views/html-sale-report-email.php:125
+#: includes/views/html-sale-report-email.php:218
+#: includes/views/html-sale-report-email.php:307
+msgid "g:i:s A"
+msgstr ""
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:23
+#: includes/views/html-sale-report-email.php:21
+msgid "Closed:"
+msgstr "已关闭:"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:36
+#: includes/views/html-admin-registers-sale_report_overlay.php:160
+#: includes/views/html-admin-registers-sale_report_overlay.php:253
+#: includes/views/html-sale-report-email.php:34
+#: includes/views/html-sale-report-email.php:154
+#: includes/views/html-sale-report-email.php:244
+#: includes/views/modal/html-modal-retrieve-sales.php:35
+#: includes/views/modal/html-modal-retrieve-sales.php:60
+msgid "Order"
+msgstr "排序"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:42
+#: includes/views/html-admin-registers-sale_report_overlay.php:166
+#: includes/views/html-admin-registers-sale_report_overlay.php:259
+#: includes/views/html-float-cash-management.php:17
+#: includes/views/html-float-cash-management.php:31
+#: includes/views/html-sale-report-email.php:40
+#: includes/views/html-sale-report-email.php:160
+#: includes/views/html-sale-report-email.php:250
+#: includes/views/templates/modal.php:684
+msgid "Time"
+msgstr "时间"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:112
+#: includes/views/html-admin-registers-sale_report_overlay.php:207
+#: includes/views/html-admin-registers-sale_report_overlay.php:300
+#: includes/views/html-sale-report-email.php:109
+#: includes/views/html-sale-report-email.php:202
+#: includes/views/html-sale-report-email.php:291
+#, php-format
+msgid "%s by %s"
+msgstr "%s 来自 %s"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:155
+#: includes/views/html-sale-report-email.php:149
+msgid "Cancelled"
+msgstr "已取消"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:248
+#: includes/views/html-sale-report-email.php:239
+msgid "Saved"
+msgstr "保留"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:349
+#: includes/views/html-sale-report-email.php:337
+msgid "Payments"
+msgstr "支付"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:357
+#: includes/views/html-admin-registers-sale_report_overlay.php:383
+#: includes/views/html-sale-report-email.php:345
+#: includes/views/html-sale-report-email.php:368
+#: includes/views/modal/html-modal-cash-management.php:6
+#: includes/views/modal/html-modal-opening-cash-amount.php:18
+msgid "Amount"
+msgstr "量"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:375
+#: includes/views/html-sale-report-email.php:360
+msgid "Cash Summary"
+msgstr ""
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:417
+#: includes/views/html-sale-report-email.php:401
+msgid "Cash"
+msgstr "现金"
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:424
+msgid "Cash Totals"
+msgstr ""
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:428
+msgid "Drawer Cash:"
+msgstr ""
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:433
+msgid "Actual Cash:"
+msgstr ""
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:435
+msgid "Enter Remaining Cash"
+msgstr ""
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:441
+msgid ""
+"Enter the remaining cash found in the cash drawer. Use the denominations "
+"setup under Point of Sale > Settings > Denominations to enter these values:"
+msgstr ""
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:457
+msgid "Enter Cash Values"
+msgstr ""
+
+#: includes/views/html-admin-registers-sale_report_overlay.php:461
+msgid "Difference:"
+msgstr "差异："
+
+#: includes/views/html-bill-screen-content.php:2
+msgid "Your Order"
+msgstr "你的订单"
+
+#: includes/views/html-bill-screen-content.php:21
+#: includes/views/html-print-receipt-preview.php:267
+#: includes/views/html-print-receipt.php:459
+#: includes/views/html-print-receipt.php:932
+#: includes/views/html-registers.php:281
+msgid "Subtotal"
+msgstr "小计"
+
+#: includes/views/html-bill-screen-content.php:25
+msgid "VAT"
+msgstr "加值稅"
+
+#: includes/views/html-bill-screen-content.php:35
+msgid "Next Customer Please"
+msgstr ""
+
+#: includes/views/html-float-cash-management-table-row.php:4
+msgid "at"
+msgstr "在"
+
+#: includes/views/html-float-cash-management.php:8
+msgid "Remove Cash"
+msgstr ""
+
+#: includes/views/html-float-cash-management.php:10
+msgid "Add Cash"
+msgstr ""
+
+#: includes/views/html-float-cash-management.php:11
+msgid "Register: #"
+msgstr ""
+
+#: includes/views/html-float-cash-management.php:13
+msgid ""
+"This is used to record your cash movement for the day. Current cash balance "
+"(including sales): "
+msgstr ""
+
+#: includes/views/html-float-cash-management.php:18
+#: includes/views/html-float-cash-management.php:32
+msgid "User"
+msgstr "用户"
+
+#: includes/views/html-float-cash-management.php:19
+msgid "Reason"
+msgstr "原因"
+
+#: includes/views/html-float-cash-management.php:20
+#: includes/views/html-float-cash-management.php:34
+msgid "Transaction"
+msgstr "交易"
+
+#: includes/views/html-float-cash-management.php:33
+msgid "Reasons"
+msgstr "原因"
+
+#: includes/views/html-float-cash-management.php:40
+msgid "Register is closed."
+msgstr ""
+
+#: includes/views/html-print-receipt-preview.php:231
+msgid "Main Register"
+msgstr ""
+
+#: includes/views/html-print-receipt-preview.php:254
+msgid "SKU123"
+msgstr ""
+
+#: includes/views/html-print-receipt-preview.php:255
+msgid "Mobile Phone"
+msgstr "手机"
+
+#: includes/views/html-print-receipt-preview.php:256
+msgid "Size: 32GB"
+msgstr ""
+
+#: includes/views/html-print-receipt-preview.php:257
+msgid "Colour: Silver"
+msgstr ""
+
+#: includes/views/html-print-receipt-preview.php:281
+msgid "Payment Type"
+msgstr "结算类型"
+
+#: includes/views/html-print-receipt-preview.php:296
+#: includes/views/html-print-receipt.php:558
+#: includes/views/html-print-receipt.php:1023
+msgid "Change"
+msgstr "变化"
+
+#: includes/views/html-print-receipt-preview.php:315
+msgid "Please deliver this tomorrow at 12pm. Thanks!"
+msgstr ""
+
+#: includes/views/html-print-receipt-preview.php:325
+#: includes/views/html-print-receipt.php:610
+msgid "Summary"
+msgstr "总结"
+
+#: includes/views/html-print-receipt-preview.php:329
+#: includes/views/html-print-receipt.php:612
+msgid " Name"
+msgstr "姓名"
+
+#: includes/views/html-print-receipt-preview.php:332
+#: includes/views/html-print-receipt.php:613
+msgid " Rate"
+msgstr "比率"
+
+#: includes/views/html-print-receipt-preview.php:339
+msgid "GB-VAT-20"
+msgstr ""
+
+#: includes/views/html-print-receipt-preview.php:340
+msgid "20.00"
+msgstr "20.00"
+
+#: includes/views/html-print-receipt-preview.php:341
+msgid "£23.60"
+msgstr ""
+
+#: includes/views/html-print-receipt.php:290
+#: includes/views/html-print-receipt.php:762
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/views/html-registers.php:31
+msgid "Full Screen"
+msgstr "全屏"
+
+#: includes/views/html-registers.php:34
+msgid "Lock Register"
+msgstr ""
+
+#: includes/views/html-registers.php:38
+msgid "View Bill Screen"
+msgstr ""
+
+#: includes/views/html-registers.php:54
+#: includes/views/modal/html-modal-retrieve-sales.php:20
+msgid "Load"
+msgstr "打开"
+
+#: includes/views/html-registers.php:72
+msgid "Show Tiles"
+msgstr ""
+
+#: includes/views/html-registers.php:88 includes/views/html-registers.php:92
+msgid "Search Products"
+msgstr "搜索产品"
+
+#: includes/views/html-registers.php:125
+msgid "Sync"
+msgstr "同步"
+
+#: includes/views/html-registers.php:145
+msgid "Categories"
+msgstr "类别"
+
+#: includes/views/html-registers.php:218 includes/views/html-registers.php:222
+msgid "Search Customers"
+msgstr "搜索用户"
+
+#: includes/views/html-registers.php:227
+#: includes/views/modal/html-modal-search-customer.php:4
+msgid "Search Customer"
+msgstr "搜尋顧客"
+
+#: includes/views/html-registers.php:230
+msgid "Add Customer"
+msgstr "添加客户"
+
+#: includes/views/html-registers.php:351
+msgid "Order Discount"
+msgstr "訂單折扣"
+
+#: includes/views/html-registers.php:381
+msgid "Void"
+msgstr "无效"
+
+#: includes/views/html-registers.php:385
+#: includes/views/modal/html-modal-payments.php:134
+msgid "Pay"
+msgstr "支付"
+
+#: includes/views/modal/html-modal-add-custom-fee.php:8
+msgid "Fee Name"
+msgstr "費用名稱"
+
+#: includes/views/modal/html-modal-add-custom-fee.php:24
+msgid "Add Fee"
+msgstr "添加费用"
+
+#: includes/views/modal/html-modal-add-new-customer.php:18
+msgid "Billing Details"
+msgstr "账单明细"
+
+#: includes/views/modal/html-modal-add-new-customer.php:19
+msgid "Shipping Details"
+msgstr "运送详情"
+
+#: includes/views/modal/html-modal-add-new-customer.php:21
+msgid "Additional Fields"
+msgstr "附加字段"
+
+#: includes/views/modal/html-modal-add-new-customer.php:23
+msgid "Custom Fields"
+msgstr "自定义项"
+
+#: includes/views/modal/html-modal-add-new-customer.php:25
+msgid "Custom Order Fields"
+msgstr ""
+
+#: includes/views/modal/html-modal-add-new-customer.php:31
+#: includes/views/modal/html-modal-cash-management.php:16
+msgid "Save Customer"
+msgstr "保存客户"
+
+#: includes/views/modal/html-modal-add-new-customer.php:36
+msgid "Create an account?"
+msgstr "创建一个帐户？"
+
+#: includes/views/modal/html-modal-add-shipping.php:11
+msgid "Shipping Method"
+msgstr "物流方式"
+
+#: includes/views/modal/html-modal-add-shipping.php:14
+msgid "Price ("
+msgstr ""
+
+#: includes/views/modal/html-modal-add-shipping.php:32
+msgid "Add shipping details"
+msgstr "添加送货详情"
+
+#: includes/views/modal/html-modal-add-shipping.php:45
+msgid "Add Shipping"
+msgstr "添加配送"
+
+#: includes/views/modal/html-modal-cash-management.php:7
+msgid "Amount e.g, 50.00"
+msgstr ""
+
+#: includes/views/modal/html-modal-cash-management.php:11
+#: includes/views/modal/html-modal-opening-cash-amount.php:23
+msgid "Type to add a note"
+msgstr ""
+
+#: includes/views/modal/html-modal-clone-window.php:7
+msgid ""
+"This register is currently open in another tab. If you take over, the other "
+"tab will be locked."
+msgstr ""
+
+#: includes/views/modal/html-modal-clone-window.php:8
+msgid "Take Over"
+msgstr "接管"
+
+#: includes/views/modal/html-modal-comments.php:8
+msgid "Add Note"
+msgstr "添加注"
+
+#: includes/views/modal/html-modal-custom-product.php:13
+#: includes/views/modal/html-modal-product-custom-meta.php:11
+msgid "Product Title"
+msgstr "产品名称"
+
+#: includes/views/modal/html-modal-custom-product.php:25
+#, php-format
+msgid "Price (%s)"
+msgstr "價格 (%s)"
+
+#: includes/views/modal/html-modal-custom-product.php:28
+msgid "Quantity"
+msgstr "数量"
+
+#: includes/views/modal/html-modal-custom-product.php:64
+#: includes/views/modal/html-modal-product-custom-meta.php:53
+msgid "Product Attribute"
+msgstr "产品属性"
+
+#: includes/views/modal/html-modal-custom-product.php:67
+#: includes/views/modal/html-modal-product-custom-meta.php:56
+msgid "Meta Value"
+msgstr "Meta 值"
+
+#: includes/views/modal/html-modal-custom-product.php:78
+#: includes/views/modal/html-modal-product-custom-meta.php:68
+msgid "Add Meta"
+msgstr "添加Meta"
+
+#: includes/views/modal/html-modal-discount.php:5
+#: includes/views/modal/html-modal-discount.php:31
+#: includes/views/templates/cart.php:165
+msgid "Coupon"
+msgstr "优惠券"
+
+#: includes/views/modal/html-modal-discount.php:8
+msgid "Points"
+msgstr "点"
+
+#: includes/views/modal/html-modal-discount.php:27
+msgid "Add Discount"
+msgstr "添加优惠"
+
+#: includes/views/modal/html-modal-discount.php:34
+msgid "Coupon code"
+msgstr "优惠券代码"
+
+#: includes/views/modal/html-modal-discount.php:39
+msgid "Apply Coupon"
+msgstr "使用优惠券"
+
+#: includes/views/modal/html-modal-discount.php:45
+msgid "Points & Rewards"
+msgstr "积分和奖励"
+
+#: includes/views/modal/html-modal-discount.php:66
+msgid "Apply Discount"
+msgstr "应用折扣"
+
+#: includes/views/modal/html-modal-lock-screen.php:7
+msgid "Enter password to unlock"
+msgstr "输入密码以便解锁"
+
+#: includes/views/modal/html-modal-lock-screen.php:9
+msgid "Unlock"
+msgstr "解锁"
+
+#: includes/views/modal/html-modal-offline.php:7
+msgid "Connection interrupted. Attempting to restore connection"
+msgstr ""
+
+#: includes/views/modal/html-modal-offline.php:21
+msgid "Connected"
+msgstr "连接的"
+
+#: includes/views/modal/html-modal-opening-cash-amount.php:15
+msgid "Opening Cash"
+msgstr "期初现金"
+
+#: includes/views/modal/html-modal-opening-cash-amount.php:28
+msgid "Set Amount"
+msgstr ""
+
+#: includes/views/modal/html-modal-payments.php:33
+#: includes/views/modal/html-modal-payments.php:37
+msgid "No available gateways"
+msgstr ""
+
+#: includes/views/modal/html-modal-payments.php:67
+msgid ""
+"Tendered amount is <b>less</b> then amount due. <span class=\"approve-less-"
+"amount\">Approve?</span> "
+msgstr ""
+
+#: includes/views/modal/html-modal-payments.php:71
+msgid "Amount Tendered"
+msgstr "付款总金额"
+
+#: includes/views/modal/html-modal-payments.php:77
+msgid "Issue Change"
+msgstr ""
+
+#: includes/views/modal/html-modal-payments.php:90
+msgid ""
+"Please process the payment using your chip & PIN device. The reference/order "
+"number for this order is below."
+msgstr "请使用您的 chip & PIN 设备处理付款。此订单的参考/订单号码如下。"
+
+#: includes/views/modal/html-modal-payments.php:132
+msgid "Back"
+msgstr "返回"
+
+#: includes/views/modal/html-modal-printing-receipt.php:7
+msgid "The receipt is being generated for printing."
+msgstr ""
+
+#: includes/views/modal/html-modal-process-offline-orders.php:4
+msgid "Offline orders processing now. Please wait."
+msgstr ""
+
+#: includes/views/modal/html-modal-product-custom-meta.php:17
+msgid "Tax Class"
+msgstr "税务分类"
+
+#: includes/views/modal/html-modal-product-custom-meta.php:29
+msgid "Standard"
+msgstr "标准"
+
+#: includes/views/modal/html-modal-product-custom-meta.php:69
+msgid "Update Product"
+msgstr "產品更新"
+
+#: includes/views/modal/html-modal-retrieve-sales.php:3
+msgid "Retrieve Sales"
+msgstr "检索销售"
+
+#: includes/views/modal/html-modal-retrieve-sales.php:12
+msgid "This Register"
+msgstr "这个登记"
+
+#: includes/views/modal/html-modal-retrieve-sales.php:24
+#: includes/views/modal/html-modal-retrieve-sales.php:26
+msgid "Search Orders"
+msgstr "搜索订单"
+
+#: includes/views/modal/html-modal-retrieve-sales.php:36
+#: includes/views/modal/html-modal-retrieve-sales.php:61
+msgid "Purchased"
+msgstr "购买"
+
+#: includes/views/modal/html-modal-retrieve-sales.php:37
+#: includes/views/modal/html-modal-retrieve-sales.php:62
+msgid "Ship to"
+msgstr "تەقسىملەش"
+
+#: includes/views/modal/html-modal-retrieve-sales.php:39
+#: includes/views/modal/html-modal-retrieve-sales.php:64
+msgid "Customer Message"
+msgstr "客户留言"
+
+#: includes/views/modal/html-modal-search-customer.php:6
+msgid "Enter customer name"
+msgstr ""
+
+#: includes/views/templates/cart.php:222
+msgid "Recurring Totals"
+msgstr ""
+
+#: includes/views/templates/cart.php:228
+msgid "First renewal"
+msgstr ""
+
+#: includes/views/templates/modal.php:15
+msgid "Choose an option"
+msgstr "选择一个选项"
+
+#: includes/views/templates/modal.php:132
+msgid "This must be a number!"
+msgstr "這必須是一個數字！"
+
+#: includes/views/templates/modal.php:139
+msgid "Choose an option..."
+msgstr ""
+
+#: includes/views/templates/modal.php:209
+msgid "Password confirm"
+msgstr ""
+
+#: includes/views/templates/modal.php:240
+msgid "Copy billing address"
+msgstr "复制收件地址"
+
+#: includes/views/templates/modal.php:412
+msgid "Load Order"
+msgstr "加载顺序"
+
+#: includes/views/templates/modal.php:424
+msgid "No Orders found"
+msgstr "找不到订单"
+
+#: includes/views/templates/modal.php:497
+msgid "Ok"
+msgstr "确定"
+
+#: includes/views/templates/modal.php:511
+msgid "Do you want to email the receipt? If so, enter customer email."
+msgstr ""
+
+#: includes/views/templates/modal.php:528
+#: includes/views/templates/modal.php:542
+#: includes/views/templates/modal.php:571
+#: includes/views/templates/modal.php:585
+#: includes/views/templates/modal.php:604
+#: includes/views/templates/modal.php:618
+msgid "mm"
+msgstr "毫米"
+
+#: includes/views/templates/modal.php:532
+#: includes/views/templates/modal.php:538
+#: includes/views/templates/modal.php:575
+#: includes/views/templates/modal.php:581
+#: includes/views/templates/modal.php:608
+#: includes/views/templates/modal.php:614
+msgid "dd"
+msgstr "日"
+
+#: includes/views/templates/modal.php:548
+#: includes/views/templates/modal.php:591
+#: includes/views/templates/modal.php:624
+msgid "YYYY"
+msgstr "YYYY"
+
+#: includes/views/templates/modal.php:552
+#: includes/views/templates/modal.php:629
+msgid "Choose Date"
+msgstr ""
+
+#: includes/views/templates/modal.php:564
+msgid "Start"
+msgstr "开始"
+
+#: includes/views/templates/modal.php:597
+msgid "End"
+msgstr "结束"
+
+#: includes/views/templates/modal.php:687
+msgid "Choose a date above to see available times."
+msgstr "选择上面的日期来查看可用时间。"
+
+#: updater/lib/github-checker.php:119
+msgid "There is no changelog available."
+msgstr "没有可用的更新日志。"
+
+#: updater/lib/plugin-update-checker.php:637
+msgid "Register for Updates"
+msgstr ""
+
+#: updater/lib/plugin-update-checker.php:637
+#, php-format
+msgid "<em><a href=\"%s\">Register here</a> to get this update</em>"
+msgstr ""
+
+#: updater/lib/plugin-update-checker.php:655
+msgid "Check for updates"
+msgstr "检查更新"
+
+#: updater/lib/plugin-update-checker.php:703
+msgid "This plugin is up to date."
+msgstr "这个插件是最新的。"
+
+#: updater/lib/plugin-update-checker.php:705
+msgid "A new version of this plugin is available."
+msgstr "这个插件的新版本是可用的。"
+
+#: updater/lib/plugin-update-checker.php:707
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "未知更新检查状态 \"%s\""
+
+#: updater/pages/index.php:41
+msgid "Welcome"
+msgstr "欢迎"
+
+#: updater/pages/index.php:42
+msgid ""
+"Thank you for purchasing from Actuality Extensions! To ensure you get the "
+"latest updates for bugs, features and tweaks, please enter the license "
+"details for your purchased in the table below."
+msgstr ""
+
+#: updater/pages/index.php:46
+msgid "Step 1 - Subscribe"
+msgstr ""
+
+#: updater/pages/index.php:47
+msgid ""
+"Join and subscribe to our newsletter to get the latest updates on new "
+"features and notices. Only special product announcements and updates will be "
+"sent, no spam."
+msgstr ""
+
+#: updater/pages/index.php:48
+msgid "Subscribe"
+msgstr "订阅"
+
+#: updater/pages/index.php:51
+msgid "Step 2 - CodeCanyon"
+msgstr ""
+
+#: updater/pages/index.php:52
+msgid "Locate your purchase code through logging into "
+msgstr ""
+
+#: updater/pages/index.php:52
+msgid "CodeCanyon.net"
+msgstr ""
+
+#: updater/pages/index.php:52
+msgid ""
+", then go to Downloads > Plugin Name > Download > License certificate & "
+"purchase code. "
+msgstr ""
+
+#: updater/pages/index.php:53
+msgid "Retrieve Purchase Code"
+msgstr ""
+
+#: updater/pages/index.php:56
+msgid "Step 3 - Installed Products"
+msgstr ""
+
+#: updater/pages/index.php:65
+msgid "Invalid request."
+msgstr "无效的请求."
+
+#: updater/pages/index.php:81
+msgid "Purchase Code"
+msgstr "激活码"
+
+#: updater/pages/index.php:95
+msgid "Place your purchase code here"
+msgstr ""
+
+#: updater/pages/index.php:120
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: updater/pages/index.php:128
+msgid "Submit A Ticket"
+msgstr "提交申请"
+
+#: updater/pages/index.php:129
+msgid ""
+"We offer our support through our advanced ticket system. Use our contact "
+"form to filter through your query so your ticket can be allocated to the "
+"right department. "
+msgstr ""
+
+#: updater/pages/index.php:130
+msgid "Submit a ticket"
+msgstr "提交支持问题反馈"
+
+#: updater/pages/index.php:133 updater/pages/index.php:135
+msgid "Documentation"
+msgstr "文件"
+
+#: updater/pages/index.php:134
+msgid ""
+"This is the place to go to reference different aspects of the plugin. Our "
+"online documentation is a useful resource for learning the ins and outs of "
+"using our plugins."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Point of Sale"
+msgstr "电子商务销售点"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://codecanyon.net/item/woocommerce-point-of-sale-"
+"pos/7869665&ref=actualityextensions/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WooCommerce Point of Sale is an extension which allows you to place orders "
+"through a Point of Sale interface swiftly using the WooCommerce products and "
+"orders database. This extension is most suitable for retailers who have both "
+"an online and offline store."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://actualityextensions.com/"
+msgstr ""

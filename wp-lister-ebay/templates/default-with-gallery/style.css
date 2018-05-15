@@ -1,0 +1,226 @@
+/* 
+Template: Default
+Description: 
+Version: 1.3
+*/
+/* user colors */
+#wpl_store_header .hotline {
+    color: $hotline_color;
+    background-color: $hotline_bgcolor;
+    display: $display_hotline;
+    float: right;
+}
+
+#wpl_wrapper .wpl_description h2 {
+    color: $title_color;
+}
+
+#wpl_wrapper h3.bar {
+    color: $section_head_color;
+    background-color: $section_head_bgcolor_top;
+    background-image: -webkit-gradient(linear, left top, left bottom, from($section_head_bgcolor_top), to($section_head_bgcolor_bottom));
+    background-image: -webkit-linear-gradient(top, $section_head_bgcolor_top, $section_head_bgcolor_bottom);
+    background-image:    -moz-linear-gradient(top, $section_head_bgcolor_top, $section_head_bgcolor_bottom);
+    background-image:     -ms-linear-gradient(top, $section_head_bgcolor_top, $section_head_bgcolor_bottom);
+    background-image:      -o-linear-gradient(top, $section_head_bgcolor_top, $section_head_bgcolor_bottom);
+    background-image:         linear-gradient(to bottom, $section_head_bgcolor_top, $section_head_bgcolor_bottom);
+}
+
+/* layout */
+#wpl_wrapper {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+#wpl_wrapper h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#wpl_wrapper h3.bar {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-border-radius: $border_radius;
+    -moz-border-radius: $border_radius;
+    border-radius: $border_radius;
+}
+
+#wpl_store_header {
+    width:100%;
+    overflow: hidden;
+}
+
+#wpl_store_header .logo {
+    float: left;
+}
+#wpl_store_header .hotline {
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 7px;
+    -webkit-border-radius: $border_radius;
+    -moz-border-radius: $border_radius;
+    border-radius: $border_radius;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #713803;
+    filter: dropshadow(color=#713803, offx=0, offy=1);
+}
+
+#wpl_wrapper .clearfix {
+    clear:both;
+}
+
+#wpl_list_images a {
+    border: 1px solid #ccc;
+    display: block;
+    float: left;
+    height: 75px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px;
+    width: 75px;
+}
+
+#wpl_wrapper .alignleft {
+    float: left;
+}
+#wpl_wrapper .alignright {
+    float: right;
+}
+
+#wpl_wrapper .section p {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* fix for firefox: */
+    line-height: 1.2em;
+    margin: 1em 0;
+}
+
+#wpl_wrapper .section big {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.primary_image, .wpl_product_image {
+    width: 100%;
+}
+
+#gallery a {
+    text-decoration: none;
+}
+
+/* these only apply in preview to override default styles from wp-admin */
+body.wp-admin #wpl_wrapper ul {
+    list-style: disc inside none;
+}
+body.wp-admin #wpl_wrapper ul li {
+    padding-left: 2em;
+}
+
+/** Media queries **/
+@media (min-width: 320px) {
+    #wpl_wrapper {
+        width: 95%;
+    }
+
+    #wpl_store_header .hotline {
+        float: left;
+    }
+
+    #gallery {
+        display: none;
+    }
+}
+@media (min-width: 481px) {
+    #wpl_wrapper {
+        width: 95%;
+    }
+
+    #wpl_store_header .hotline {
+        float: right;
+        display: inline-block;
+    }
+
+    #gallery {
+        display: block;
+        width: 48%;
+        float: left;
+    }
+
+    #description {
+        width: 48%;
+        float: right;
+    }
+
+    #gallery #wpl_main_image {
+        max-width: 220px;
+        max-height: 225px;
+    }
+
+    #wpl_list_images {
+        display: block;
+    }
+
+    #wpl_list_images a {
+        width: 80px;
+        height: 80px;
+    }
+
+    #wpl_list_images a img.wpl_thumb {
+        width: 100%;
+    }
+}
+@media (min-width: 641px) {
+    #wpl_wrapper {
+        width: 95%;
+    }
+
+    #wpl_store_header .hotline {
+        float: right;
+    }
+
+    #gallery {
+        display: block;
+        width: 45%;
+        float: left;
+    }
+
+    #description {
+        width: 48%;
+        float: right;
+    }
+
+    #gallery #wpl_main_image {
+        width: 100%;
+        height: 100%;
+        max-height: 370px;
+        max-width: 370px;
+    }
+
+    #wpl_list_images {
+        display: block;
+    }
+
+    #gallery #wpl_list_images a {
+        width: 80px;
+        height: 80px;
+    }
+
+    #wpl_list_images a img.wpl_thumb {
+        width: 80px;
+    }
+}

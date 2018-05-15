@@ -1,0 +1,24 @@
+/* State colors table */
+#state-colors {
+	width: auto;
+}
+
+#state-colors th {
+	padding: 7px 7px 8px;
+}
+
+#state-colors td {
+	padding: 4px 7px 2px;
+}
+
+
+#icon-edit.icon32-posts-ticket {
+	background-image: url("../../images/admin-icon-tickets-32.png");
+	background-position: 5px center;
+}
+
+.users .column-tickets {
+	text-align: center;
+	width: 10%;
+}
+

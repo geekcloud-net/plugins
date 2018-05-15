@@ -1,0 +1,215 @@
+# Copyright (C) 2015 WooCommerce PagSeguro Gateway
+# This file is distributed under the same license as the WooCommerce PagSeguro Gateway package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce PagSeguro Gateway 1.3.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/woocommerce-"
+"gateway-pagseguro\n"
+"POT-Creation-Date: 2015-08-05 19:27:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: woocommerce-gateway-pagseguro.php:87
+msgid "Enable/Disable"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:89
+msgid "Enable PagSeguro standard"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:93
+msgid "Title"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:95
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:96
+msgid "PagSeguro"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:99
+msgid "Description"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:101
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:102
+msgid "Pay securely via PagSeguro using your Credit Card or bank account."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:105
+msgid "PagSeguro Email"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:107
+msgid ""
+"Please enter your PagSeguro email address; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:111
+msgid "PagSeguro Token"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:113
+msgid ""
+"Please enter your PagSeguro token; this is needed in order to take payment. "
+"See <a href=\"https://pagseguro.uol.com.br/integracao/token-de-seguranca."
+"jhtml\" target=\"_blank\">Token of security</a>"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:117
+msgid "Use HTML integration"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:119
+msgid "If your host plan no have support to cURL library, check this."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:123
+msgid "What is your transaction code?"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:125
+msgid ""
+"This is used in redirect page and return of data. Change only if you change "
+"in your PagSeguro account. See <a href=\"https://pagseguro.uol.com.br/"
+"integracao/pagina-de-redirecionamento.jhtml\" target=\"_blank\">Transaction "
+"code</a>"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:129
+msgid "Enable/Disable Log"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:149
+msgid "PagSeguro Gateway (API v2)"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:150
+msgid ""
+"PagSeguro works by sending the user to PagSeguro Gateway to enter their "
+"payment information. This Payment Gateway works only API v2 and you need "
+"make changes in <a href=\"https://pagseguro.uol.com.br/integracao/"
+"notificacao-de-transacoes.jhtml\" target=\"_blank\">Notifications of "
+"Transactions</a>"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:154 woocommerce-gateway-pagseguro.php:160
+msgid "Gateway Disabled"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:154
+msgid ""
+"PagSeguro does not support your store's currency. You need to select the "
+"currency of Brazil Real."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:160
+msgid "You must give the token of your account email."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:221
+msgid "Redirecting..."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:221 woocommerce-gateway-pagseguro.php:314
+msgid ""
+"Thank you for your order. We are now redirecting you to PagSeguro to make "
+"payment."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:271 woocommerce-gateway-pagseguro.php:341
+msgid "Pay via PagSeguro"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:271 woocommerce-gateway-pagseguro.php:341
+msgid "Cancel order &amp; restore cart"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:301
+msgid "Sorry, an error has occurred"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:302
+msgid ""
+"Try again, if the problem persists try to choose another payment method or "
+"contact the service."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:384
+msgid ""
+"Thank you for your order, please click the button below to pay with "
+"PagSeguro."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:412 woocommerce-gateway-pagseguro.php:476
+msgid "Payment pending, Waiting payment confirmation"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:421
+msgid "Payment in analysis, Waiting payment confirmation"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:430
+msgid "Manual confirmation of payment, Check payment confirmation"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:439
+msgid "Payment completed"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:448
+msgid "Failed on process of negociation (dispute)"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:457
+msgid "Payment refunded"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:466
+msgid "Order cancelled"
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:558
+msgid "There was an error during the payment process, please try again."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:606
+msgid "There was an error during the payment process, this order no exists."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:691
+msgid "There was an error during the payment process, unauthorized."
+msgstr ""
+
+#: woocommerce-gateway-pagseguro.php:705
+msgid "There was an error during the payment process, error on request token."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce PagSeguro Gateway"
+msgstr ""
+
+#. #-#-#-#-#  woocommerce-gateway-pagseguro-pt_BR.pot (WooCommerce PagSeguro Gateway 1.3.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  woocommerce-gateway-pagseguro-pt_BR.pot (WooCommerce PagSeguro Gateway 1.3.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "PagSeguro integration for WooCommerce"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr ""

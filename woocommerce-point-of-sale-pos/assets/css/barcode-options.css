@@ -1,0 +1,49 @@
+#edit_wc_pos_barcode .products_list .inside{
+	margin: 0;
+	padding: 0;
+}
+
+.wrong_sku{
+  float: right;
+  line-height: 30px;
+  padding-left: 30px;
+  position: relative;
+}
+.wrong_sku:before{
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  font-family: 'aepos' !important;
+  font-size: 1.3em !important;
+  content: "\e013";
+  color: #a00;
+}
+.line_cost .barcode_border{
+	max-width: 200px;
+	float: right;
+  text-align: center;
+}
+.barcode_border img{
+	width: 100%;
+}
+.barcode-edit-item{
+  display: none;
+  float: left;
+}
+#printable_barcode{
+  display: none;
+}
+.variation_row{
+  background: #fcfcfc;
+}
+
+#woocommerce-order-items .woocommerce_order_items_wrapper table.woocommerce_order_items .item.selected td{
+  border-color: #e6cce1;
+  opacity: 0.8;
+}
+
+table.wp-list-table .variation_row span.product-type {
+  display: none;
+}

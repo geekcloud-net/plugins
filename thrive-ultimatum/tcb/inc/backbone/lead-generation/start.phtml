@@ -1,0 +1,22 @@
+<h2><?php echo __( '1. Choose a Connection', 'thrive-cb' ); ?></h2>
+<p><?php echo __( 'You have no connections set yet. Please create a new connection using one of the options below.', 'thrive-cb' ); ?></p>
+
+<div class="row around-xs margin-top-15">
+	<div class="col-xs-2"></div>
+	<div class="click connection-card col-xs-3" data-fn="step" data-template="apis" data-next="1">
+		<?php tcb_icon( 'api' ); ?>
+		<div class="connection-type">
+			<?php echo __( 'New Api connection', 'thrive-cb' ); ?>
+		</div>
+	</div>
+
+	<div class="col-xs-2"></div>
+
+	<div class="click connection-card col-xs-3" data-fn="step" data-template="form" data-next="1">
+		<?php tcb_icon( 'html' ); ?>
+		<div class="connection-type">
+			<?php echo __( 'HTML Form Connection', 'thrive-cb' ); ?>
+		</div>
+	</div>
+	<div class="col-xs-2"></div>
+</div>

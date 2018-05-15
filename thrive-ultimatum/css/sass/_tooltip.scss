@@ -1,0 +1,71 @@
+
+.tvd-material-tooltip, .tvd-tooltip-visible {
+  padding: 10px 8px;
+  font-size: 16px;
+  z-index: 999999;
+  background-color: transparent;
+  border-radius: 2px;
+  color: #fff;
+  min-height: 36px;
+  line-height: 120%;
+  opacity: 0;
+  display: none;
+  position: absolute;
+  text-align: center;
+  max-width: 500px;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  will-change: top, left;
+}
+
+
+.tvd-tooltip-visible {
+  min-height: 40px;
+  display: block;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  min-width: 200px;
+  background-color: #323232;
+  z-index: 10;
+  &.tvd-fixed-bottom {
+    top: 100%;
+    margin-top: 25px;
+    @include translate(-50%, 0);
+  }
+  &.tvd-fixed-top {
+    margin-top: -25px;
+    @include translate(-50%, -100%);
+  }
+  &.tvd-fixed-right {
+    left: 100%;
+    top: 50%;
+    margin-left: 25px;
+    @include translate(0, -50%);
+  }
+  &.tvd-fixed-left {
+    left: -25px;
+    top: 50%;
+    @include translate(-100%, -50%);
+  }
+}
+
+.tvd-backdrop {
+  position: absolute;
+  opacity: 0;
+  display: none;
+  height: 12px;
+  width: 14px;
+  border-radius: 0 0 14px 14px;
+  background-color: #323232;
+  z-index: -1;
+  @include transform-origin(50% 10%);
+
+  will-change: transform, opacity;
+}
+
+.tvd-tooltip-wrapper {
+  padding: 20px;
+}

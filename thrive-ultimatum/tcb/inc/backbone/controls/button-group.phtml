@@ -1,0 +1,14 @@
+<div class="button-group-holder tve-group-<#= (this.model.config.name || '').replace(/ /g,'-') #>">
+	<# if(this.model.config.name) { #><span class="button-group-name grey-text"><#= this.model.config.name #></span> <# } #>
+	<div class="tve-btn-group">
+		<# _.each(this.model.config.buttons, function(button) { #>
+			<div class="tve-btn click <#= button.default? 'active default':'' #> <#= button.text=='' || !button.text ?'':'btn-text' #>"
+			<# button.data && _.each(button.data, function(v,k) { #> data-<#= k #>="<#= v #>" <# }); #>
+				 data-fn="_click"
+				 data-value="<#= button.value #>">
+				<#= button.text #>
+				<#= button.icon?TVE.icon(button.icon):'' #>
+			</div>
+		<# }); #>
+	</div>
+</div>

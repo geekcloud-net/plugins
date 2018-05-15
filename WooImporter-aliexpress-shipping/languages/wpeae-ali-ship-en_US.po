@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooImporter Aliexpress Shipping\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-13 11:04+0000\n"
+"PO-Revision-Date: 2016-12-13 11:08+0000\n"
+"Last-Translator: test <andx81@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/WPEAE_AliexpressShippingFrontend.php:157
+msgid "Shipping"
+msgstr "Shipping"
+
+#: includes/WPEAE_AliexpressShippingFrontend.php:232
+msgid "Country"
+msgstr "Country"
+
+#: index.php:73
+msgid "Search for free-shipping items..."
+msgstr "Search for free-shipping items..."
+
+#: index.php:74
+msgid "Search for ePacket items..."
+msgstr "Search for ePacket items..."
+
+#: index.php:75
+msgid "Build product list to import:"
+msgstr "Build product list to import:"
+
+#: index.php:76
+msgid "Build product list to import: 100%"
+msgstr "Build product list to import: 100%"
+
+#: index.php:85
+msgid "Post Free shipping items"
+msgstr "Post Free shipping items"
+
+#: index.php:86
+msgid "Post ePacket items"
+msgstr "Post ePacket items"
+
+#. Name of the column in Aliexpress search results in the backend
+#: index.php:96
+msgid "Ship to"
+msgstr "Ship to"
+
+#: index.php:106
+msgid "Need to load more details"
+msgstr "Need to load more details"
+
+#: includes/WPEAE_AliexpressShippingFrontend.php:174
+msgid "Select a Shipping method..."
+msgstr "Select a Shipping method..."
+
+#: includes/WPEAE_AliexpressShippingFrontend.php:175
+msgid ""
+"Shipping country should be the same for all items in your order. You can "
+"reset it, if clear your shopping cart."
+msgstr ""
+"Shipping country should be the same for all items in your order. You can "
+"reset it, if clear your shopping cart."
+
+#: includes/WPEAE_AliexpressShippingFrontend.php:233
+#: view/product_shipping_html.php:7
+msgid "Select a Country"
+msgstr "Select a Country"
+
+#: includes/WPEAE_AliexpressShippingFrontend.php:277
+#: includes/WPEAE_AliexpressShippingImportAjax.php:40
+#: includes/WPEAE_AliexpressShippingLoader.php:99
+msgid "days"
+msgstr "days"
+
+#: includes/WPEAE_AliexpressShippingFrontend.php:277
+#: includes/WPEAE_AliexpressShippingImportAjax.php:40
+msgid "free shipping"
+msgstr "free shipping"
+
+#: includes/WPEAE_AliexpressShippingImportAjax.php:44
+msgid ""
+"The product can`t be delivered to this country or too large quantity was set."
+msgstr ""
+"The product can`t be delivered to this country or too large quantity was set."
+
+#: includes/WPEAE_AliexpressShippingImportAjax.php:68
+msgid "Shipping to"
+msgstr "Shipping to"
+
+#: includes/WPEAE_AliexpressShippingLoader.php:95
+msgid "free"
+msgstr "free"
+
+#: view/product_shipping_html.php:6
+msgid "Ship To Country"
+msgstr "Ship To Country"
+
+#: view/product_shipping_html.php:18
+msgid "Shipping method"
+msgstr "Shipping method"
+
+#: view/product_shipping_html.php:19
+msgid "Select a Shipping method"
+msgstr "Select a Shipping method"
+
+#: view/settings.php:2
+msgid "Shipping Setting"
+msgstr "Shipping Setting"
+
+#: view/settings.php:6
+msgid "Default Ship-to Country"
+msgstr "Default Ship-to Country"
+
+#: view/settings.php:25
+msgid "Show on Frontend"
+msgstr "Show on Frontend"
+
+#. Name of the plugin
+msgid "WooImporter Aliexpress Shipping"
+msgstr "WooImporter Aliexpress Shipping"
+
+#. Description of the plugin
+msgid ""
+"Add-on for WooImporter getting the shipping information of Aliexpress "
+"products ergards with chosen country. Shipping data is attached to "
+"Woocommerce product and update pereodically. Also the add-on highlights e-"
+"Packet and free-shipping products in the search results in the backend."
+msgstr ""
+"Add-on for WooImporter getting the shipping information of Aliexpress "
+"products ergards with chosen country. Shipping data is attached to "
+"Woocommerce product and update pereodically. Also the add-on highlights e-"
+"Packet and free-shipping products in the search results in the backend."
+
+#. Author of the plugin
+msgid "Geometrix"
+msgstr "Geometrix"
+
+#. Author URI of the plugin
+msgid "http://gmetrixteam.com"
+msgstr "http://gmetrixteam.com"

@@ -1,0 +1,148 @@
+<div class="api-field">
+	<div class="field-description">
+		<?php echo __( 'Choose what should happen in Drip when this form is submitted:', 'thrive-cb' ); ?>
+	</div>
+	<# var type = api.getConfig('type') #>
+	<div class="row ">
+		<div class="col-xs-12">
+			<div class="tvd-input-field">
+				<select class="tve-api-extra drip-connection-type" name="type">
+					<#= TVE.tpl( 'util/option', {value:'list', selected: (type && type == 'list'), text: '<?php echo __( 'Add to Campaign', 'thrive-cb' ) ?>'}) #>
+					<#= TVE.tpl( 'util/option', {value:'automation', selected: (type && type == 'automation'), text: '<?php echo __( 'Record Custom Event', 'thrive-cb' ) ?>'}) #>
+				</select>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="api-field tve-api-option-group tve-api-option-group-list"
+<#= ( ! type || type == 'list' ) ? '' : 'style="display: none;"' #>>
+<div class="field-description margin-top-10">
+	<?php echo __( '(You can add new subscribers to an existing Drip campaign or record a custom event. Custom events are used for Drip Automations.)', 'thrive-cb' ) ?>
+</div>
+
+<div class="field-description margin-top-10">
+	<?php echo __( 'Choose campaign: ', 'thrive-cb' ) ?>
+</div>
+<div class="row margin-top-10">
+	<div class="col-xs-9">
+		<select class="api-list" name="list">
+			<# _.each(api.get('lists'), function(item) { #>
+			<#= TVE.tpl( 'util/option', {value:item.id, selected: (api.getConfig('list')==item.id), text: item.name}) #>
+			<# } ) #>
+		</select>
+	</div>
+
+	<div class="col-xs-3">
+		<button type="button" class="button-link blue tcb-right click" data-fn="forceGet">
+			<?php echo __( 'Reload Lists', 'thrive-cb' ); ?>
+		</button>
+	</div>
+</div>
+</div>
+
+<div class="api-field tve-api-option-group tve-api-option-group-list"
+<#= ( ! type || type == 'list' ) ? '' : 'style="display: none;"' #>>
+<div class="tve-custom-proprieties-container">
+	<div class="row">
+		<div class="col-xs-6">
+			<div class="field-description margin-top-10" style="margin: 0;">
+				<?php echo __( 'First Name field label:', 'thrive-cb' ) ?>
+			</div>
+			<div class="tvd-input-field">
+				<input type="text" name="first_name_field" value="<#= api.getConfig('first_name_field') || 'thrive_first_name' #>" placeholder="thrive_first_name" style="margin-top: 0;margin-bottom: 5px;" />
+			</div>
+		</div>
+		<div class="col-xs-6">
+			<div class="field-description margin-top-10" style="margin: 0;">
+				<?php echo __( 'Last Name field label:', 'thrive-cb' ) ?>
+			</div>
+			<div class="tvd-input-field">
+				<input type="text" name="last_name_field" value="<#= api.getConfig('last_name_field') || 'thrive_last_name' #>" placeholder="thrive_last_name" style="margin-top: 0;" />
+			</div>
+		</div>
+	</div>
+	<div class="field-description"><?php echo __( 'If you use a name field in your form, these are the labels under which collected names are passed on to Drip.', 'thrive-cb' ) ?></div>
+	<div class="field-description margin-top-10">
+		<?php echo __( 'Choose opt-in type:', 'thrive-cb' ) ?>
+	</div>
+	<div class="tvd-input-field">
+		<select class="tve-api-extra tl-api-connection-list" name="optin">
+			<option value="s"
+			<#= api.getConfig('optin') === 's' ? 'selected="selected"' : '' #> ><?php echo __( 'Single optin', 'thrive-cb' ) ?></option>
+			<option value="d"
+			<#= api.getConfig('optin') === 'd' ? 'selected="selected"' : '' #> ><?php echo __( 'Double optin', 'thrive-cb' ) ?></option>
+		</select>
+	</div>
+	<div class="field-description margin-top-10">
+		<?php echo __( '(Single opt-in adds new subscribers to the campaign immediately. Double opt-in only starts the campaign after the new subscriber has confirmed their email address.).', 'thrive-cb' ) ?>
+	</div>
+</div>
+</div>
+
+<div class="api-field tve-api-option-group tve-api-option-group-automation"
+<#= ( ! type || type == 'list' ) ? 'style="display: none;"' : '' #>>
+<div class="field-description margin-top-10">
+	<?php echo __( 'Set custom event parameters:', 'thrive-cb' ) ?>
+</div>
+<div class="tve-custom-fields-container">
+	<# var properties = api.get('custom_properties')? api.get('custom_properties'): [], no = 1 #>
+	<# if ( Object.keys(properties).length ) { #>
+	<# _.each(properties, function(item, index) { #>
+	<div class="row tve-field-pair middle-xs">
+		<div class="col-xs-5">
+			<div class="tvd-input-field">
+				<div class="field-description margin-top-10"><?php echo __( 'Custom Field', 'thrive-cb' ) ?></div>
+				<input type="text" placeholder="thrive_custom_field" class="drip-custom-field index-custom-field tve-api-extra-excluded" name="field" value="<#= index #>"/>
+			</div>
+		</div>
+
+		<div class="col-xs-5">
+			<div class="tvd-input-field">
+				<div class="field-description margin-top-10"><?php echo __( 'Custom Field Value', 'thrive-cb' ) ?></div>
+				<input type="text" placeholder="<?php echo __( 'Custom Field Value', 'thrive-cb' ) ?>"
+					   class="drip-custom-field-value tve-api-extra" name="field[<#= index #>]" value="<#= item #>"/>
+			</div>
+		</div>
+		<# if(no++ > 1) { #>
+		<div class="col-xs-2 tve-remove-action">
+			<button class="button-link red tve-remove-added-field click"><?php echo __( 'Remove', 'thrive-cb' ) ?></button>
+		</div>
+		<# } #>
+	</div>
+	<# } ) #>
+	<# } else {#>
+
+	<div class="row tve-field-pair middle-xs">
+		<div class="col-xs-5">
+			<div class="tvd-input-field">
+				<div class="field-description margin-top-10"><?php echo __( 'Custom Field', 'thrive-cb' ) ?> *</div>
+				<input type="text" class="index-custom-field drip-custom-field" name="field" placeholder="thrive_custom_field"/>
+			</div>
+		</div>
+
+		<div class="col-xs-5">
+			<div class="tvd-input-field">
+				<div class="field-description margin-top-10"><?php echo __( 'Custom Field Value', 'thrive-cb' ) ?></div>
+				<input type="text" placeholder="<?php echo __( 'Custom Field Value', 'thrive-cb' ) ?>"
+					   class="drip-custom-field-value tve-api-extra" name="field[thrive_custom_field]"/>
+			</div>
+		</div>
+		<div class="col-xs-2 tve-remove-action" style="display:none">
+			<button class="button-link red tve-remove-added-field click"><?php echo __( 'Remove', 'thrive-cb' ) ?></button>
+		</div>
+	</div>
+
+	<# } #>
+</div>
+<div class="row">
+	<div class="col-xs-6">
+		<button class="button-link blue tve-add-new-field click">
+			<?php echo __( 'Add a new custom field', 'thrive-cb' ) ?>
+		</button>
+	</div>
+	<div class="col-xs-12 field-description margin-top-10">
+		* <?php echo __( 'Custom field value must be without spaces (use dashes or underscores, instead).', 'thrive-cb' ); ?>
+	</div>
+</div>
+</div>

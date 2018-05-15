@@ -1,0 +1,134 @@
+<div class="tvd-v-spacer"></div>
+<div class="tvd-row">
+	<div class="tvd-col tvd-s8">
+		<div class="tvu-edit-title-align">
+			<span><?php echo __( 'Campaign name:', TVE_Ult_Const::T ) ?></span>
+			<div class="tvu-edit-title-container">
+				<h3 class="tvu-campaign-title">
+					<#= item.get('post_title') #>
+				</h3>
+				<span class="tvd-icon-pencil tvd-pointer tvu-edit-campaign-title tvd-inline-block"></span>
+			</div>
+		</div>
+	</div>
+	<div class="tvd-col tvd-s3 tvd-offset-s1">
+		<div class="tvd-right">
+			<span class="tvd-inline-block tvu-campaign-status-label">
+				<?php echo __( 'Campaign status:', TVE_Ult_Const::T ) ?>
+			</span>
+			<span class="tvu-campaign-status-<#= item.get('status') #> tvd-pointer tvu-campaign-status tvd-inline-block tvu-campaign-status-list">
+				<#= item.get('status') #>
+			</span>
+		</div>
+	</div>
+</div>
+
+<div class="tvd-row" id="tvu-campaign-settings">
+	<div class="tvd-col tvd-s12 tvd-m4 tvd-l4">
+		<div class="tvd-card tvd-white tvu-small-card">
+			<div class="tvd-card-content">
+				<div class="tvd-row tvd-no-margin tvd-valign-wrapper">
+					<div class="tvd-col tvd-s12 tvd-m3 tvd-hide-on-meds-and-down tvd-l2 tvd-center-align tvd-valign tvu-campaign-icon">
+						<i class="tvu-icon-list tvu-gray-text tvu-large-icon"></i>
+					</div>
+					<div class="tvd-col tvd-s12 tvd-ms12 tvd-m9 tvd-l10 tvd-valign">
+						<h3 class="tvu-campaign-type-title tvd-truncate"><?php echo __( 'Campaign Type', TVE_Ult_Const::T ) ?></h3>
+						<p class="tvu-campaign-type tvu-campaign-card-summary"><?php echo __( 'Not set', TVE_Ult_Const::T ) ?></p>
+					</div>
+				</div>
+			</div>
+			<div class="tvd-card-action">
+				<div class="tvd-row tvd-no-margin tvd-valign-wrapper">
+					<div class="tvd-col tvd-s12 tvd-m1 tvd-hide-on-meds-and-down tvd-l2 tvd-center-align tvd-valign">
+						<p>&nbsp;</p>
+					</div>
+					<div class="tvd-col tvd-s12 tvd-m11 tvd-ms12 tvd-l10 tvd-valign tvd-relative">
+						<hr class="tvu-lightgray-line">
+						<a class="tvd-btn-flat tvu-btn-flat tvu-btn-flat-blue tvu-edit-campaign" href="javascript:void(0)">
+							<?php echo __( 'Edit', TVE_Ult_Const::T ) ?>
+							<# if ( item.get_settings_step() === 'type' ) { #>
+								<div class="tvd-tooltip-visible tvd-fixed-bottom tvd-normalize">
+									<span><?php echo __( 'Next step: select a campaign type', TVE_Ult_Const::T ) ?></span>
+								</div>
+							<# } #>
+						</a>
+						<# if ( item.get_settings_step() === 'lockdown_type' ) { #>
+							<div class="tvd-tooltip-visible tvd-fixed-bottom tvd-normalize tvu-edit-campaign" style="cursor: pointer;">
+								<span><?php echo __( 'Next step: select a campaign trigger for open campaigns', TVE_Ult_Const::T ) ?></span>
+							</div>
+						<# } #>
+						<# if ( item.get_settings_step() === 'leads_missing' ) { #>
+							<div class="tvd-tooltip-visible tvd-fixed-bottom tvd-normalize tvu-edit-campaign" style="cursor: pointer;">
+								<span><?php echo __( 'Next step: Thrive Leads was deactivated, change trigger', TVE_Ult_Const::T ) ?></span>
+							</div>
+						<# } #>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tvd-col tvd-s12 tvd-m4 tvd-l4">
+		<div class="tvd-card tvd-white tvu-small-card">
+			<div class="tvd-card-content">
+				<div class="tvd-row tvd-no-margin tvd-valign-wrapper">
+					<div class="tvd-col tvd-s12 tvd-hide-on-meds-and-down tvd-m3 tvd-l2 tvd-center-align tvd-valign">
+						<i class="tvu-icon-eye tvu-gray-text tvu-large-icon"></i>
+					</div>
+					<div class="tvd-col tvd-s12 tvd-m9 tvd-ms12 tvd-l10 tvd-valign">
+						<h3><?php echo __( 'Display', TVE_Ult_Const::T ) ?></h3>
+						<p id="tvu-display-summary" class="tvu-campaign-card-summary">
+							<#= item.get( 'display_settings_summary' ) || <?php echo wp_json_encode( __( 'Not set', TVE_Ult_Const::T ) ) ?> #>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="tvd-card-action">
+				<div class="tvd-row tvd-no-margin tvd-valign-wrapper">
+					<div class="tvd-col tvd-m1 tvd-hide-on-meds-and-down tvd-l2 tvd-center-align tvd-valign">
+						<p>&nbsp;</p>
+					</div>
+					<div class="tvd-col tvd-s12 tvd-m11 tvd-ms12 tvd-l10 tvd-valign tvd-relative">
+						<hr class="tvu-lightgray-line">
+						<a class="tvd-btn-flat tvu-btn-flat tvu-btn-flat-blue tvu-display-settings tvd-relative"
+						   href="javascript:void(0)"> <?php echo __( 'Edit', TVE_Ult_Const::T ) ?>
+							<# if ( item.get_settings_step() === 'display' ) { #>
+								<div class="tvd-tooltip-visible tvd-fixed-bottom tvd-normalize">
+									<span><?php echo __( 'Next step: select a display mode', TVE_Ult_Const::T ) ?></span></div>
+							<# } #>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="tvd-lockdown-wrapper" class="tvd-col tvd-s12 tvd-m4 tvd-l4"></div>
+</div>
+
+<h3><?php echo __( 'Designs', TVE_Ult_Const::T ) ?></h3>
+<div class="tvd-row" id="tvu-designs-list">
+	<div class="tvd-col tvd-s12 tvd-ms6 tvd-m4 tvd-l3 tvu-add-design tvd-pointer">
+		<div class="tvd-card tvd-medium-xxsmall tvd-card-new tvd-valign-wrapper tvd-relative">
+			<div class="tvd-card-content tvd-valign tvd-center-align">
+				<i class="tvd-icon-plus tvd-icon-rounded tvd-icon-medium"></i>
+				<h4><?php echo __( 'New Design', TVE_Ult_Const::T ) ?></h4>
+			</div>
+			<# if ( item.get_settings_step() === 'design' ) { #>
+				<div class="tvd-tooltip-visible tvd-fixed-right"><span><?php echo __( 'Next step: create a countdown timer design', TVE_Ult_Const::T ) ?></span></div>
+			<# } #>
+		</div>
+	</div>
+</div>
+<# if ( item.can_set_events() ) { #>
+	<div class="tvd-row">
+		<div class="tvd-col tvd-s12 tvd-m6" id="tvu-timeline-wrapper"></div>
+		<div class="tvd-col tvd-s12 tvd-m6" id="tvu-conversion-wrapper"></div>
+	</div>
+<# } #>
+<div class="tvd-v-spacer vs-2"></div>
+<div class="tvd-row">
+	<div class="tvd-col tvd-s6">
+		<a href="#purge-cache" class="tvd-btn-flat tvd-btn-flat-primary tvd-btn-flat-dark tvd-waves-effect">
+			&laquo; <?php echo __( 'Back to Dashboard', TVE_Ult_Const::T ) ?>
+		</a>
+	</div>
+</div>

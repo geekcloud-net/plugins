@@ -1,0 +1,19 @@
+<div class="tvd-row">
+	<div class="tvd-col tvd-s12">
+		<h3>
+			<#= model.get('name') #>
+		</h3>
+	</div>
+</div>
+<div class="tvd-row">
+	<div class="tvd-col tvd-s12 tcb-admin-template-preview">
+		<img src="<#= model.get('image_url') #>" alt="Template Image">
+	</div>
+</div>
+<div class="tvd-row">
+	<div class="tvd-col tvd-s12">
+		<a href="#templates" class="tvd-btn-flat tvd-btn-flat-primary tvd-btn-flat-dark tvd-waves-effect">
+			&laquo; <?php echo __( 'Back to templates', 'thrive-cb' ); ?>
+		</a>
+	</div>
+</div>

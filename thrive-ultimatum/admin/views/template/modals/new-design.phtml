@@ -1,0 +1,40 @@
+<div class="tvd-modal-content">
+	<h3 class="tvd-modal-title"><?php echo __( 'Choose a Design Type', TVE_Ult_Const::T ) ?></h3>
+
+	<div class="tvd-row tvd-collapse" id="tvu-design-types">
+		<?php $index = 1; ?>
+		<?php foreach ( TVE_Ult_Const::design_types_details() as $type => $prop_type ) : ?>
+			<?php $index ++; ?>
+			<div class="tvd-col tvd-s12 tvd-m3 tvu-campaign-selector <?php echo $type ?>" data-type="<?php echo $type ?>"
+			     tabindex="<?php echo $index ?>"
+			     style="<#= model.has_design_type('<?php echo $type ?>') ? 'display: none;' : '' #>">
+				<div class="tvd-card tvd-white tvd-pointer tvd-center-align">
+					<img width="200" src="<?php echo TVE_Ult_Const::plugin_url( 'admin/img/' . $prop_type['image'] ); ?>"/>
+				</div>
+				<p class="tvd-center-align"><?php echo $prop_type['name'] ?> - <?php echo $prop_type['description'] ?> </p>
+			</div>
+		<?php endforeach; ?>
+	</div>
+	<div class="tvd-row" id="tu-design-name-wrapper" style="display: none;">
+		<div class="tvd-input-field tvd-col tvd-s12">
+			<input id="tu-design-name" type="text" class="tvd-validate" data-bind="post_title" value="Shortcode">
+			<label for="tu-design-name""><?php echo __( 'Name' ) ?></label>
+		</div>
+	</div>
+</div>
+<div class="tvd-modal-footer">
+	<div class="tvd-row">
+		<div class="tvd-col tvd-s12 tvd-m6">
+			<a href="javascript:void(0)"
+			   class="tvd-btn-flat tvd-btn-flat-secondary tvd-btn-flat-dark tvd-waves-effect tvd-modal-close">
+				<?php echo __( 'Cancel', TVE_Ult_Const::T ) ?>
+			</a>
+		</div>
+		<div class="tvd-col tvd-s12 tvd-m6">
+			<a href="javascript:void(0)"
+			   class="tvd-btn tvd-btn-green tvd-waves-light tvd-right tvu-save-new-design tvd-modal-submit">
+				<?php echo __( 'Continue', TVE_Ult_Const::T ) ?>
+			</a>
+		</div>
+	</div>
+</div>

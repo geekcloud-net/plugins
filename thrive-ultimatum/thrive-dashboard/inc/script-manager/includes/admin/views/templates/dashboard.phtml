@@ -1,0 +1,44 @@
+<div class="tvd-section-title">
+	<h3><?php echo __( 'Landing Pages Analytics & Scripts', TVE_DASH_TRANSLATE_DOMAIN ) ?>
+		<a class="tvd-add-modal tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-blue"><?php echo __( 'ADD NEW', TVE_DASH_TRANSLATE_DOMAIN ) ?></a>
+	</h3>
+	<?php if ( wp_get_theme()->get( 'Author' ) == 'Thrive Themes' ): ?>
+		<h5 id="tvd-sm-theme-link">
+			<?php echo __( 'To add scripts in your Thrive Themes posts and pages', TVE_DASH_TRANSLATE_DOMAIN ) ?>
+			<a href=<?php echo( admin_url( 'admin.php?page=thrive_admin_options' ) ); ?>>
+				<?php echo __( 'click here.', TVE_DASH_TRANSLATE_DOMAIN ) ?>
+			</a>
+		</h5>
+	<?php endif; ?>
+</div>
+
+<div id="tve-dash-scripts">
+
+	<h4 class="tvd-sm-row">
+		<span class="tvd-sm-row-elem-placement"><?php echo __( 'Before ', TVE_DASH_TRANSLATE_DOMAIN ) ?><?php echo htmlentities( '</head>' ); ?> </span>
+		<span class="tvd-sm-enabled"><?php echo __( 'Inserted in Landing Pages', TVE_DASH_TRANSLATE_DOMAIN ) ?></span>
+		<span class="tvd-sm-empty"></span>
+	</h4>
+	<div id="tvd-sm-container-head" class="tvd-sm-script-group">
+	</div>
+
+	<h4 class="tvd-sm-row">
+		<span class="tvd-sm-row-elem tvd-sm-row-elem-placement"><?php echo __( 'After ', TVE_DASH_TRANSLATE_DOMAIN ) ?><?php echo htmlentities( '<body>' ); ?> </span>
+	</h4>
+	<div id="tvd-sm-container-body-open" class="tvd-sm-script-group">
+	</div>
+
+	<h4 class="tvd-sm-row">
+		<span class="tvd-sm-row-elem tvd-sm-row-elem-placement"><?php echo __( 'Before ', TVE_DASH_TRANSLATE_DOMAIN ) ?><?php echo htmlentities( '</body>' ); ?> </span>
+	</h4>
+	<div id="tvd-sm-container-body-close" class="tvd-sm-script-group">
+
+	</div>
+
+</div>
+
+<div id="tvd-back-td" class="tvd-col tvd-m6">
+	<a href="<?php echo admin_url( 'admin.php?page=tve_dash_section' ); ?>" class="tvd-waves-effect tvd-waves-light tvd-btn-small tvd-btn-gray">
+		<?php echo __( 'Back To Dashboard', TVE_DASH_TRANSLATE_DOMAIN ); ?>
+	</a>
+</div>

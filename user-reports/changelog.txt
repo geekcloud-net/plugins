@@ -1,0 +1,39 @@
+Plugin Name: User Reports
+Author: WPMU DEV
+
+1.1 - 2015-07-17
+----------------------------------------------------------------------
+- Reports can now display all users reports.
+- Fixed: CSV report was wrong when filtering by user.
+- Other minor fixes.
+
+1.0.3.2 - 2014-04-26
+----------------------------------------------------------------------
+- Corrected reported issue where date filtering was not working.
+- WordPress 3.9 testing 
+
+1.0.3.1 - 2013-12-13
+----------------------------------------------------------------------
+- Update WPMU DEV Dashboard library
+- Test for WordPress 3.8
+
+1.0.3 - 2013-04-04
+----------------------------------------------------------------------
+- Fixed debug output bug. 
+
+1.0.2 - 2012-11-13
+----------------------------------------------------------------------
+- Added support for upcoming Post Indexer 3
+- Modified reporting to allow install on single WordPress installation or on Multisite where Post Indexer and Comment Indexer plugins are not installed. In those cases User Reports will use local blog tables.
+- When using local blog tables all post types are supported not just Posts. 
+
+1.0.1 - 2012-10-16
+----------------------------------------------------------------------
+- Corrected Warning on user login tracking when user registers http://premium.wpmudev.org/forums/topic/error-after-register#post-290594
+
+1.0.0 - 2012-07-04
+----------------------------------------------------------------------
+- Initial stable release
+
+
+

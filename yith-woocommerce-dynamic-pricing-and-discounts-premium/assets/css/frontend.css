@@ -1,0 +1,12 @@
+#ywdpd-table-discounts th{font-weight:bold;font-size:.8em;}
+#ywdpd-table-discounts td,
+#ywdpd-table-discounts th{text-align:center;}
+.ywdpd-table-discounts-note{font-style:italic;}
+.ywdpd-table-discounts-label span{display:block;font-size:.8em;}
+.show_note_on_apply_products{font-weight:bold;}
+table#ywdpd-table-discounts{border:1px solid #efefef;}
+#ywdpd-table-discounts th{border-right:1px solid #efefef;padding:5px}
+#ywdpd-table-discounts tr{border-bottom:1px solid #efefef;}
+#ywdpd-table-discounts td{border-right:1px solid #efefef;padding:5px;}
+#ywdpd-action-discount div#publishing-action{width:100% !important;}
+.show_note_on_apply_products, .show_note_on_adjustment_products{margin:20px 0px;}

@@ -1,0 +1,205 @@
+// Panel: Form Fields
+// --------------------------------------------------
+#form-preview-stage {
+
+    .form-field-step_start {
+        background-color: #6b6b6b;
+        margin: 0 -25px 10px;
+        padding: 0;
+
+        &.current-editing {
+            background-color: #6b6b6b;
+        }
+
+        .step-start-indicator {
+            position: relative;
+            padding: 10px;
+            text-align: center;
+
+            .hr-line {
+                display: block;
+                min-height: 1px;
+                background-color: #fff;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 100%;
+                z-index: 1;
+            }
+
+            .step-label {
+                position: relative;
+                z-index: 2;
+                color: #fff;
+                background: #6b6b6b;
+                padding: 0 15px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+// Panel: Field Options
+// --------------------------------------------------
+.panel-field-opt-address {
+
+    .address-fields {
+
+        .address-title-header {
+
+            label {
+                margin: 0 0 8px;
+            }
+
+            .button-dropdown {
+                line-height: 1;
+                height: 20px;
+                width: 18px;
+                margin-left: 6px;
+            }
+        }
+
+        .address-input-fields {
+            margin-bottom: 10px;
+            border-bottom: 1px dashed #afafaf;
+            padding-bottom: 10px;
+
+            p {
+                width: 33.333333%;
+                margin: 0;
+                padding-right: 8px;
+                overflow: hidden;
+                color: #989898;
+                font-size: 11px;
+
+                input {
+                    max-width: 100%;
+                    display: block;
+                    line-height: 1.75;
+                }
+
+                &:last-child {
+                    padding-right: 1px;
+                }
+            }
+
+            &.country-label {
+                padding: 0;
+                border: 0;
+
+                p {
+                    width: 100%;
+
+                    input {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .country-list-selector-container {
+            margin-top: 10px;
+        }
+    }
+}
+
+// Builder Stage
+// --------------------------------------------------
+.wpuf-form {
+
+    .form-field-action_hook {
+        border: 1px dashed #ddd;
+    }
+}
+
+// Google Map
+// --------------------------------------------------
+.wpuf-field-google-map {
+    height: 300px;
+    width: 100%;
+}
+
+.wpuf-form-google-map {
+    height: 300px;
+    width: 100%;
+}
+
+input[type="text"].wpuf-google-map-search {
+    margin-top: 10px !important;
+    border: 1px solid transparent !important;
+    border-radius: 2px 0 0 2px !important;
+    box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    height: 32px !important;
+    outline: none !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3) !important;
+    background-color: #fff !important;
+    text-overflow: ellipsis !important;
+    width: 170px !important;
+    font-family: Roboto !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    padding: 0 11px 0 13px !important;
+    display: none;
+
+    .gm-style & {
+        display: block;
+    }
+}
+
+.wpuf-form-google-map-container {
+
+    input[type="text"].wpuf-google-map-search {
+        width: 230px !important;
+    }
+
+    &.hide-search-box {
+
+        .gm-style input[type="text"].wpuf-google-map-search {
+            display: none;
+        }
+    }
+}
+
+.pac-container {
+    font-family: Roboto;
+}
+
+// Conditional Logic
+// --------------------------------------------------
+.condiotional-logic-repeater {
+
+    li {
+
+        & > div {
+            float: left;
+            margin-right: 8px;
+
+            select {
+                width: 100%;
+            }
+        }
+    }
+
+    .cond-field {
+        width: 95px;
+    }
+
+    .cond-operator {
+        width: 65px;
+    }
+
+    .cond-option {
+        width: 100px;
+    }
+
+    .cond-action-btns {
+        width: 35px;
+
+        i {
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 6px;
+        }
+    }
+}

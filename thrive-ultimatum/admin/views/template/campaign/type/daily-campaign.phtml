@@ -1,0 +1,20 @@
+<div class="tvd-row tvd-collapse">
+	<div class="tvd-col tvd-s12 tvd-m4">
+		<div class="tvd-input-field">
+			<input id="tvu-rolling-day-duration" class="tvd-no-margin-bottom tvd-no-focus" type="text" value="<#= item.duration ? item.duration : 1 #>" data-field="duration" maxlength="2">
+			<label class="tvd-active" for="tvu-rolling-day-duration">
+				<?php echo __( 'Duration (hours)', TVE_Ult_Const::T ) ?>
+			</label>
+		</div>
+	</div>
+	<div class="tvd-col tvd-s12 tvd-m4">
+		<div class="tvd-input-field tvu-no-margin-select">
+			<select class="tvu-rolling-repeat" id="tvu-rolling-repeat" data-max-height="450px">
+				<# _.times( 31, function ( index ) { var i = index + 1 #>
+					<option<#= ( item.repeat == i ? ' selected' : '' ) #> value="<#= i #>"><#= i #></option>
+				<# } ) #>
+			</select>
+			<label for="tvu-rolling-repeat"><?php echo __( 'Repeat every (days)', TVE_Ult_Const::T ) ?></label>
+		</div>
+	</div>
+</div>

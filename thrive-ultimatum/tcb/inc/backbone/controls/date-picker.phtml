@@ -1,0 +1,13 @@
+<div class="row middle-xs">
+	<div class="col-xs-12 grey-text">
+		<#= this.model.config.label #>
+	</div>
+</div>
+<div class="row middle-xs tcb-relative">
+	<div class="col-xs-12">
+		<input type="text" class="tve-input-control tve-datepicker-input change" data-fn="changed" <#= this.model.extra_attrs #> />
+		<div class="thrv-datepicker-icon click" data-fn="date_trigger_click">
+			<?php tcb_icon( 'calendar' ); ?>
+		</div>
+	</div>
+</div>

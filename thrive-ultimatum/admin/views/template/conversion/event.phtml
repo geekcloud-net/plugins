@@ -1,0 +1,38 @@
+<div class="tvd-card tvd-white ">
+
+	<ul class="tvd-collection tvd-with-header tvd-collection-no-border">
+		<li class="tvd-collection-header tvu-event-title">
+			<h4><?php echo __( 'Conversion:', TVE_Ult_Const::T ) ?>
+				<#= item.get('trigger_options').trigger == ThriveUlt.util.trigger_type.conversion ? 'TL Opt-in' : 'Visit to Conversion Page' #>
+			</h4>
+			<div class="tvu-conversion-action-btns tvd-inline-block">
+				<a class="tvu-bluegray-text tvu-btn-icon-small tvu-campaign-edit" href="javascript:void(0)">
+					<i class="tvd-icon-pencil"></i>
+				</a>
+				<a class="tvu-bluegray-text tvu-btn-icon-small tvu-campaign-delete" href="javascript:void(0)">
+					<i class="tvd-icon-trash-o tvd-left"></i>
+				</a>
+			</div>
+		</li>
+		<li class="tvd-collection-item tvu-conversion-event-box">
+			<p class="tvd-no-margin">
+				<span class="tvd-icon-chevron-right tvu-bluegray-text"></span>
+				<?php echo __( 'Ends current Campaign', TVE_Ult_Const::T ) ?>
+			</p>
+			<# if(campaign) { #>
+				<p class="tvd-no-margin">
+					<span class="tvd-icon-chevron-right tvu-bluegray-text"></span>
+					<?php echo __( 'Moves to campaign ', TVE_Ult_Const::T ) ?>
+					<a <# if(!campaign.get( 'designs' ) || !campaign.get( 'designs' ).size() || !campaign.checkDesignsTemplate() || !campaign.get('has_display_settings') || campaign.get( 'status' ) != ThriveUlt.util.status.running) { #> class="tvd-text-red tvd-relative" <# } #> href="#dashboard/campaign/<#= campaign.get( 'ID' ) #>">
+						<strong> <#= campaign.get( 'post_title' ) #> </strong>
+						<# if(!campaign.get( 'designs' ) || !campaign.get( 'designs' ).size() || !campaign.checkDesignsTemplate() || !campaign.get('has_display_settings')) { #>
+							<span class="tvd-tooltip-visible tvd-fixed-bottom tvd-tooltip-visible-big"><span><?php echo __( 'Tip: Complete the setup for this campaign, to enable this conversion event.', TVE_Ult_Const::T ) ?></span></span>
+						<# } else if ( campaign.get( 'status' ) != ThriveUlt.util.status.running ) { #>
+							<span class="tvd-tooltip-visible tvd-fixed-bottom"><span><?php echo __( 'Tip: You need to start the linked campaign', TVE_Ult_Const::T ) ?></span></span>
+						<# } #>
+					</a>
+				</p>
+			<# } #>
+		</li>
+	</ul>
+</div>

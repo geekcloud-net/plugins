@@ -1,0 +1,25 @@
+@import "../_ribbon";
+@import "../base/_base_set_09.scss";
+@import "config/_set_09_config.scss";
+#tvu_set_09 {
+  //ribbon general
+  .thrv_ult_bar {
+    @if $has-ribbon-box-shadow {
+      box-shadow: $ribbon-box-shadow;
+    }
+    border-bottom: 7px solid #fff;
+    .tve_editor_main_content {
+      max-width: $ribbon-max-width;
+      padding: $ribbon-padding;
+    }
+  }
+}
+@each $color in $color-pallete {
+  #tvu_set_09 {
+    .thrv_ult_bar.tve_#{nth($color, 1)} {
+      @include background-image(linear-gradient(-45deg, nth($color, 8) 0%, nth($color, 8) 40%, nth($color, 7) 40%, nth($color, 7) 100%));
+    }
+  }
+}
+
+@import '../_responsive';

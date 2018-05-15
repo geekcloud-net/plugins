@@ -1,0 +1,31 @@
+<div class="tvd-modal-content tve-add-new-category">
+	<h3 class="tvd-modal-title"><?php echo __( 'Add New Category', 'thrive-cb' ) ?></h3>
+	<p><?php echo __( 'Here you can add one or more categories.', 'thrive-cb' ) ?></p>
+	<div class="tvd-row" id="tcb-categ-input"></div>
+	<div class="tvd-row">
+		<div class="tvd-col tvd-s12">
+			<a href="javascript:void(0)" class="tvd-left tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-small tvd-btn-blue" id="tcb-add-new-category-input">
+				<?php echo __( 'Add new', 'thrive-cb' ) ?>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="tvd-modal-footer tve-add-new-category-foio">
+	<div class="tvd-row">
+		<div class="tvd-col tvd-s12">
+			<a href="javascript:void(0)" class="tvd-right tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-green tvd-modal-submit">
+				<?php echo __( 'Save', 'thrive-cb' ) ?>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="row hidden" id="tcb-categ-input-template" style="display: none;">
+	<div class="tcb-admin-text-element-wrapper">
+		<div class="tvd-col tvd-s11">
+			<input type="text" class="tcb-category-input-item" placeholder="<?php echo __( 'Enter the name of the new category', 'thrive-cb' ) ?>">
+		</div>
+		<div class="tvd-col tvd-s1">
+			<span class="tvd-icon-trash-o tvd-pointer tcb-admin-delete-text-element"></span>
+		</div>
+	</div>
+</div>

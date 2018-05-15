@@ -1,0 +1,1139 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Warranty Requests\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Jul 28 2015 06:26:44 GMT+0800 (PHT)\n"
+"POT-Revision-Date: Tue Jul 28 2015 06:26:51 GMT+0800 (PHT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../woocommerce-warranty.php:56 ../woocommerce-warranty.php:437 ../woocommerce-
+#: warranty.php:461
+msgid "New"
+msgstr ""
+
+#: ../woocommerce-warranty.php:56 ../woocommerce-warranty.php:438 ../woocommerce-
+#: warranty.php:462
+msgid "Processing"
+msgstr ""
+
+#: ../woocommerce-warranty.php:56 ../woocommerce-warranty.php:439 ../woocommerce-
+#: warranty.php:463 ../templates/report.php:10
+msgid "Completed"
+msgstr ""
+
+#: ../woocommerce-warranty.php:56 ../woocommerce-warranty.php:440 ../woocommerce-
+#: warranty.php:464
+msgid "Rejected"
+msgstr ""
+
+#: ../woocommerce-warranty.php:64
+msgid ""
+"The name of the field that gets displayed on the Warranty Requests Table "
+"(Admin Panel)"
+msgstr ""
+
+#: ../woocommerce-warranty.php:65
+msgid ""
+"The label of the field displayed to the user when requesting for an RMA "
+"(Frontend)"
+msgstr ""
+
+#: ../woocommerce-warranty.php:66
+msgid "The initial value of the field"
+msgstr ""
+
+#: ../woocommerce-warranty.php:67
+msgid "Check this to make this field required"
+msgstr ""
+
+#: ../woocommerce-warranty.php:68
+msgid "Check this to allow users to select one or more options"
+msgstr ""
+
+#: ../woocommerce-warranty.php:69
+msgid "One option per line"
+msgstr ""
+
+#: ../woocommerce-warranty.php:304 ../woocommerce-warranty.php:308 ../woocommerce-
+#: warranty.php:317 ../woocommerce-warranty.php:359 ../woocommerce-warranty.php:
+#: 607 ../woocommerce-warranty.php:639 ../woocommerce-warranty.php:2222 ..
+#: /templates/shortcode-order-items.php:326
+msgid "Request Warranty"
+msgstr ""
+
+#: ../woocommerce-warranty.php:390
+msgid "Warranty Statuses"
+msgstr ""
+
+#: ../woocommerce-warranty.php:391
+msgid "Warranty Status"
+msgstr ""
+
+#: ../woocommerce-warranty.php:392
+msgid "Search Warranty Statuses"
+msgstr ""
+
+#: ../woocommerce-warranty.php:393
+msgid "All Warranty Statuses"
+msgstr ""
+
+#: ../woocommerce-warranty.php:394
+msgid "Parent Warranty Status"
+msgstr ""
+
+#: ../woocommerce-warranty.php:395
+msgid "Parent Warranty Status:"
+msgstr ""
+
+#: ../woocommerce-warranty.php:396
+msgid "Edit Warranty Status"
+msgstr ""
+
+#: ../woocommerce-warranty.php:397
+msgid "Update Warranty Status"
+msgstr ""
+
+#: ../woocommerce-warranty.php:398
+msgid "Add New Warranty Status"
+msgstr ""
+
+#: ../woocommerce-warranty.php:399
+msgid "New Warranty Status Name"
+msgstr ""
+
+#: ../woocommerce-warranty.php:409 ../woocommerce-warranty.php:411
+msgid "Warranty Requests"
+msgstr ""
+
+#: ../woocommerce-warranty.php:412
+msgid "Warranty Request"
+msgstr ""
+
+#: ../woocommerce-warranty.php:413
+msgid "All Requests"
+msgstr ""
+
+#: ../woocommerce-warranty.php:414 ../woocommerce-warranty.php:858 ../woocommerce-
+#: warranty.php:965 ../woocommerce-warranty.php:1086 ../woocommerce-warranty.php:
+#: 2306 ../templates/manage.php:62
+msgid "Warranty"
+msgstr ""
+
+#: ../woocommerce-warranty.php:415
+msgid "No requests found"
+msgstr ""
+
+#: ../woocommerce-warranty.php:493
+msgid "Reason"
+msgstr ""
+
+#: ../woocommerce-warranty.php:494 ../woocommerce-warranty.php:3044
+msgid "Select reason to request for warranty"
+msgstr ""
+
+#: ../woocommerce-warranty.php:523
+msgid "Description"
+msgstr ""
+
+#: ../woocommerce-warranty.php:556
+msgid "Attachment"
+msgstr ""
+
+#: ../woocommerce-warranty.php:605 ../woocommerce-warranty.php:637
+msgid "View Warranty Request"
+msgstr ""
+
+#: ../woocommerce-warranty.php:661 ../woocommerce-warranty.php:664
+msgid "No order selected."
+msgstr ""
+
+#: ../woocommerce-warranty.php:724
+msgid "Order does not have a valid warranty"
+msgstr ""
+
+#: ../woocommerce-warranty.php:772
+msgid "Request sent"
+msgstr ""
+
+#: ../woocommerce-warranty.php:790
+msgid "Return Request for Order #"
+msgstr ""
+
+#: ../woocommerce-warranty.php:820 ../woocommerce-warranty.php:822
+msgid "Return request submitted successfully"
+msgstr ""
+
+#: ../woocommerce-warranty.php:846
+msgid "Tracking codes updated"
+msgstr ""
+
+#: ../woocommerce-warranty.php:926 ../woocommerce-warranty.php:1013 ..
+#: /woocommerce-warranty.php:1056 ../woocommerce-warranty.php:1127 ../woocommerce-
+#: warranty.php:2351 ../woocommerce-warranty.php:2923 ../woocommerce-warranty.php:
+#: 2944 ../templates/manage.php:175 ../templates/manage.php:218 ..
+#: /templates/manage.php:347 ../templates/manage.php:389 ../templates/manage.php:
+#: 514 ../templates/manage.php:574 ../templates/variables-panel-list.php:40 ..
+#: /templates/variables-panel-list.php:83 ../templates/variables-panel-table.php:
+#: 40 ../templates/variables-panel-table.php:85
+msgid "Days"
+msgstr ""
+
+#: ../woocommerce-warranty.php:927 ../woocommerce-warranty.php:1014 ..
+#: /woocommerce-warranty.php:1057 ../woocommerce-warranty.php:1128 ../woocommerce-
+#: warranty.php:2352 ../woocommerce-warranty.php:2924 ../woocommerce-warranty.php:
+#: 2945 ../templates/manage.php:176 ../templates/manage.php:219 ..
+#: /templates/manage.php:348 ../templates/manage.php:390 ../templates/manage.php:
+#: 515 ../templates/manage.php:575 ../templates/variables-panel-list.php:41 ..
+#: /templates/variables-panel-list.php:84 ../templates/variables-panel-table.php:
+#: 41 ../templates/variables-panel-table.php:86
+msgid "Weeks"
+msgstr ""
+
+#: ../woocommerce-warranty.php:928 ../woocommerce-warranty.php:1015 ..
+#: /woocommerce-warranty.php:1058 ../woocommerce-warranty.php:1129 ../woocommerce-
+#: warranty.php:2353 ../woocommerce-warranty.php:2925 ../woocommerce-warranty.php:
+#: 2946 ../templates/manage.php:177 ../templates/manage.php:220 ..
+#: /templates/manage.php:349 ../templates/manage.php:391 ../templates/manage.php:
+#: 516 ../templates/manage.php:576 ../templates/variables-panel-list.php:42 ..
+#: /templates/variables-panel-list.php:85 ../templates/variables-panel-table.php:
+#: 42 ../templates/variables-panel-table.php:87
+msgid "Months"
+msgstr ""
+
+#: ../woocommerce-warranty.php:929 ../woocommerce-warranty.php:1016 ..
+#: /woocommerce-warranty.php:1059 ../woocommerce-warranty.php:1130 ../woocommerce-
+#: warranty.php:2354 ../woocommerce-warranty.php:2926 ../woocommerce-warranty.php:
+#: 2947 ../templates/manage.php:178 ../templates/manage.php:221 ..
+#: /templates/manage.php:350 ../templates/manage.php:392 ../templates/manage.php:
+#: 517 ../templates/manage.php:577 ../templates/variables-panel-list.php:43 ..
+#: /templates/variables-panel-list.php:86 ../templates/variables-panel-table.php:
+#: 43 ../templates/variables-panel-table.php:88
+msgid "Years"
+msgstr ""
+
+#: ../woocommerce-warranty.php:977 ../templates/variables-panel-list.php:5
+msgid "Default Product Warranty"
+msgstr ""
+
+#: ../woocommerce-warranty.php:983 ../templates/variables-panel-list.php:10 ..
+#: /templates/variables-panel-table.php:11
+msgid "Product Warranty"
+msgstr ""
+
+#: ../woocommerce-warranty.php:986 ../woocommerce-warranty.php:2316 ..
+#: /templates/manage.php:138 ../templates/manage.php:311 ../templates/manage.php:
+#: 478 ../templates/variables-panel-list.php:13 ../templates/variables-panel-
+#: table.php:14
+msgid "No Warranty"
+msgstr ""
+
+#: ../woocommerce-warranty.php:987 ../woocommerce-warranty.php:2317 ..
+#: /templates/manage.php:139 ../templates/manage.php:312 ../templates/manage.php:
+#: 479 ../templates/variables-panel-list.php:14 ../templates/variables-panel-
+#: table.php:15
+msgid "Warranty Included"
+msgstr ""
+
+#: ../woocommerce-warranty.php:988 ../woocommerce-warranty.php:2318 ..
+#: /templates/manage.php:140 ../templates/manage.php:313 ../templates/manage.php:
+#: 480 ../templates/variables-panel-list.php:15 ../templates/variables-panel-
+#: table.php:16
+msgid "Warranty as Add-On"
+msgstr ""
+
+#: ../woocommerce-warranty.php:993 ../templates/variables-panel-list.php:20 ..
+#: /templates/variables-panel-table.php:20
+msgid "Warranty Label"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1001 ../templates/variables-panel-list.php:28 ..
+#: /templates/variables-panel-table.php:27
+msgid "Warranty Length"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1004 ../woocommerce-warranty.php:1330 ..
+#: /woocommerce-warranty.php:1604 ../woocommerce-warranty.php:1675 ../woocommerce-
+#: warranty.php:1735 ../woocommerce-warranty.php:2330 ../includes/class.
+#: warranty_active_reports_list_table.php:167 ../includes/class.
+#: warranty_completed_reports_list_table.php:168 ../templates/manage.php:158 ..
+#: /templates/manage.php:331 ../templates/manage.php:498 ../templates/shortcode-
+#: order-items.php:66 ../templates/variables-panel-list.php:31 ..
+#: /templates/variables-panel-table.php:30
+msgid "Lifetime"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1005 ../woocommerce-warranty.php:2329 ..
+#: /templates/manage.php:159 ../templates/manage.php:332 ../templates/manage.php:
+#: 499 ../templates/variables-panel-list.php:32 ../templates/variables-panel-
+#: table.php:31
+msgid "Limited"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1010 ../templates/variables-panel-list.php:37 ..
+#: /templates/variables-panel-table.php:37
+msgid "Warranty Duration"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1024 ../templates/manage.php:193 ..
+#: /templates/manage.php:364 ../templates/manage.php:531 ../templates/variables-
+#: panel-list.php:52 ../templates/variables-panel-table.php:54
+msgid "\"No Warranty\" option"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1032 ../woocommerce-warranty.php:2908 ..
+#: /templates/manage.php:203 ../templates/manage.php:374 ../templates/manage.php:
+#: 541 ../templates/variables-panel-list.php:59 ../templates/variables-panel-
+#: table.php:61
+msgid "Cost"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1033 ../woocommerce-warranty.php:2909 ..
+#: /templates/manage.php:204 ../templates/manage.php:375 ../templates/manage.php:
+#: 542 ../templates/variables-panel-list.php:60 ../templates/variables-panel-
+#: table.php:62
+msgid "Duration"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1040 ../templates/variables-panel-list.php:67 ..
+#: /templates/variables-panel-table.php:69
+msgid "Add Row"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1339 ../woocommerce-warranty.php:1349 ..
+#: /includes/functions.php:19
+msgid "No warranty"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1356
+msgid "Free"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1544
+#, php-format
+msgid "Please select your %s first."
+msgstr ""
+
+#: ../woocommerce-warranty.php:1946
+#, php-format
+msgid "<a href=\"admin.php?page=warranties&s=%s\">RMA (%s)</a> has been created for %s"
+msgstr ""
+
+#: ../woocommerce-warranty.php:1954
+msgid "Warranty request created"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2150
+msgid "Warranty Request Page"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2153
+msgid "Must contain the <code>[warranty_request]</code> shortcode"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2159
+msgid "Initiate RMA from My Account Page"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2160
+msgid ""
+"Selecting NO will hide the <em>Request Warranty</em> button from the "
+"customer's My Account page"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2170 ../templates/list.php:498
+msgid "Request Tracking Code"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2171
+msgid ""
+"Display a text field on the Request page where a customer can provide the "
+"shipping tracking code"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2181 ../templates/new.php:44
+msgid "Order Status"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2182
+msgid "The order status that starts the warranty duration"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2193
+msgid "Order Status to allow Warranty Request"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2194
+msgid ""
+"What statuses do you want to enable the warranty request button to your "
+"users?"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2205
+msgid "Returned Status"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2206
+msgid "The warranty status that marks an item as \"returned\""
+msgstr ""
+
+#: ../woocommerce-warranty.php:2217
+msgid "Warranty Button Text"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2218
+msgid "Default: Request Warranty"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2230
+msgid "RMA Code Format"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2237
+msgid "RMA Code Start"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2238
+msgid "The starting number for the incrementing portion of the code"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2248
+msgid "RMA Code Length"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2249
+msgid "The desired minimum length of the incrementing portion of the code"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2259
+msgid "RMA Code Prefix"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2260 ../woocommerce-warranty.php:2271
+msgid ""
+"You may use {DD}, {MM} and {YYYY} for the current day, month and year "
+"respectively"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2270
+msgid "RMA Code Suffix"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2287
+msgid "The default warranty settings to apply to all products."
+msgstr ""
+
+#: ../woocommerce-warranty.php:2292
+msgid "Override Existing Warranties"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2294
+msgid "Remove existing warranty settings to all products to apply the default"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2303 ../templates/manage.php:147 ..
+#: /templates/manage.php:320 ../templates/manage.php:487
+msgid "Label"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2312 ../templates/manage.php:135 ..
+#: /templates/manage.php:308 ../templates/manage.php:475
+msgid "Type"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2325 ../templates/manage.php:167 ..
+#: /templates/manage.php:340 ../templates/manage.php:507
+msgid "Length"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2338
+msgid "Length Value"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2347
+msgid "Length Duration"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2362
+msgid "&quot;No Warranty&quot; Option"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2366
+msgid "Yes"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2367
+msgid "No"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2375
+msgid "Add-Ons"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2410
+msgid "Emails"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2431 ../templates/settings.php:19
+msgid "Permissions"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2552
+msgid "Available variables:"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2571 ../woocommerce-warranty.php:2739 ..
+#: /templates/list.php:34 ../templates/shortcode-order-items.php:130
+msgid "Status"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2572
+msgid "Send To"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2573
+msgid "Subject"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2574
+msgid "Message"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2581
+msgid "+ Add Email"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2598 ../woocommerce-warranty.php:2640 ..
+#: /woocommerce-warranty.php:2696
+msgid "From"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2600 ../woocommerce-warranty.php:2642 ..
+#: /woocommerce-warranty.php:2698
+msgid "Any status"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2604 ../woocommerce-warranty.php:2614 ..
+#: /woocommerce-warranty.php:2646 ../woocommerce-warranty.php:2655 ../woocommerce-
+#: warranty.php:2704
+msgid "Request Tracking"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2609 ../woocommerce-warranty.php:2650 ..
+#: /woocommerce-warranty.php:2706
+msgid "To"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2620 ../woocommerce-warranty.php:2661 ..
+#: /templates/list.php:36 ../templates/new.php:43
+msgid "Customer"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2621 ../woocommerce-warranty.php:2662
+msgid "Admin"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2622 ../woocommerce-warranty.php:2663
+msgid "Customer &amp; Admin"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2740
+msgid "Users with Access"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2778
+msgid "Paragraph"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2782
+msgid "Text Field"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2786
+msgid "Multi-line Text Field"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2790
+msgid "Drop Down"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2794
+msgid "File Upload Field"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2813
+msgid "Warranty Form"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2814
+msgid "Drag the fields below to reorder"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2883
+msgid "Available Fields"
+msgstr ""
+
+#: ../woocommerce-warranty.php:2904
+msgid "Add Add-on"
+msgstr ""
+
+#: ../woocommerce-warranty.php:3110 ../woocommerce-warranty.php:3128
+#, php-format
+msgid "The field \"%s\" is required"
+msgstr ""
+
+#: ../woocommerce-warranty.php:3192
+msgid "Item Returned"
+msgstr ""
+
+#: ../woocommerce-warranty.php:3234
+msgid "Refund failed"
+msgstr ""
+
+#: ../woocommerce-warranty.php:3246 ../woocommerce-warranty.php:3258
+msgid "Order has been refunded"
+msgstr ""
+
+#: ../woocommerce-warranty.php:3252
+#, php-format
+msgid "An error occured while attempting to refund the order item (%s)"
+msgstr ""
+
+#: ../woocommerce-warranty.php:3265
+msgid "Order marked as Refunded"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:47 ../includes/class-warranty-admin.php:47
+msgid "Warranties"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:48 ../includes/class-warranty-admin.php:
+#: 48 ../templates/header.php:4 ../templates/list.php:657
+msgid "RMA Requests"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:49 ../includes/class-warranty-admin.php:49
+msgid "New Request"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:50 ../includes/class-warranty-admin.php:
+#: 50 ../templates/header.php:6
+msgid "Manage Warranties"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:51 ../includes/class-warranty-admin.php:
+#: 51 ../templates/header.php:7 ../templates/report.php:5
+msgid "Reports"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:52 ../includes/class-warranty-admin.php:
+#: 52 ../templates/settings.php:6
+msgid "Settings"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:80
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:81
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:82
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:83
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:84
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:85
+#, php-format
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:86
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:87
+#, php-format
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:88
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:89
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:90
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:91
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:106
+msgid "Do you really want to delete this request?"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:257 ../includes/class-warranty-admin.php:
+#: 259
+msgid "Request status updated"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:270
+msgid "RMA Code generated successfully"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:281
+msgid "Tracking code requested"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:294
+msgid "Return tracking code updated"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:312
+msgid "Shipping label uploaded"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:325
+msgid "Warranty request deleted"
+msgstr ""
+
+#: ../includes/class-warranty-admin.php:522 ../includes/class-warranty-admin.php:
+#: 526
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: ../includes/class.warranty_active_reports_list_table.php:17 ../includes/class.
+#: warranty_completed_reports_list_table.php:17 ../templates/list.php:35 ..
+#: /templates/new.php:42
+msgid "Order ID"
+msgstr ""
+
+#: ../includes/class.warranty_active_reports_list_table.php:18 ../includes/class.
+#: warranty_completed_reports_list_table.php:18
+msgid "RMA Status"
+msgstr ""
+
+#: ../includes/class.warranty_active_reports_list_table.php:19 ../includes/class.
+#: warranty_completed_reports_list_table.php:19
+msgid "Customer Name"
+msgstr ""
+
+#: ../includes/class.warranty_active_reports_list_table.php:20 ../includes/class.
+#: warranty_completed_reports_list_table.php:20 ../templates/list.php:37 ..
+#: /templates/shortcode-return-form.php:27
+msgid "Product"
+msgstr ""
+
+#: ../includes/class.warranty_active_reports_list_table.php:21 ../includes/class.
+#: warranty_completed_reports_list_table.php:21 ../templates/manage.php:155 ..
+#: /templates/manage.php:328 ../templates/manage.php:495
+msgid "Validity"
+msgstr ""
+
+#: ../includes/class.warranty_active_reports_list_table.php:22 ../includes/class.
+#: warranty_completed_reports_list_table.php:22
+msgid "Order Date"
+msgstr ""
+
+#: ../includes/class.warranty_active_reports_list_table.php:190 ../includes/class.
+#: warranty_completed_reports_list_table.php:191 ../templates/list.php:436
+msgid "No requests found."
+msgstr ""
+
+#: ../includes/class.warranty_active_reports_list_table.php:212 ../includes/class.
+#: warranty_completed_reports_list_table.php:214 ../templates/list.php:669 ..
+#: /templates/new.php:25
+msgid "Search"
+msgstr ""
+
+#: ../includes/functions.php:22
+msgid "Lifetime Warranty Included"
+msgstr ""
+
+#: ../includes/functions.php:25
+#, php-format
+msgid "Warranty Included (%d %s)"
+msgstr ""
+
+#: ../includes/functions.php:32
+#, php-format
+msgid "%d %s for %s; "
+msgstr ""
+
+#: ../includes/functions.php:284
+msgid "RMA Request for Order #"
+msgstr ""
+
+#: ../templates/header.php:5 ../templates/new.php:92
+msgid "Create Request"
+msgstr ""
+
+#: ../templates/list.php:38
+msgid "RMA #"
+msgstr ""
+
+#: ../templates/list.php:46
+msgid "Tracking"
+msgstr ""
+
+#: ../templates/list.php:47 ../templates/new.php:46
+msgid "Date"
+msgstr ""
+
+#: ../templates/list.php:69
+msgid "All Statuses"
+msgstr ""
+
+#: ../templates/list.php:78
+msgid "Filter"
+msgstr ""
+
+#: ../templates/list.php:267 ../templates/manage.php:236 ../templates/manage.php:
+#: 407
+msgid "Update"
+msgstr ""
+
+#: ../templates/list.php:271
+msgid "Shipping Tracking"
+msgstr ""
+
+#: ../templates/list.php:272
+msgid "Delete"
+msgstr ""
+
+#: ../templates/list.php:290
+msgid "Stock Returned"
+msgstr ""
+
+#: ../templates/list.php:292
+msgid "Return Stock"
+msgstr ""
+
+#: ../templates/list.php:300
+msgid "Refunded"
+msgstr ""
+
+#: ../templates/list.php:303
+msgid "Refund Item"
+msgstr ""
+
+#: ../templates/list.php:305
+msgid "Mark Order as Refunded"
+msgstr ""
+
+#: ../templates/list.php:387 ../templates/list.php:402 ../templates/list.php:519 .
+#: ./templates/shortcode-order-items.php:209
+msgid "Track Shipment"
+msgstr ""
+
+#: ../templates/list.php:450 ../templates/shortcode-order-items.php:283
+msgid "Shipping Label"
+msgstr ""
+
+#: ../templates/list.php:466
+msgid "Add Shipping Label"
+msgstr ""
+
+#: ../templates/list.php:477 ../templates/shortcode-order-items.php:164
+msgid "Tracking Code"
+msgstr ""
+
+#: ../templates/list.php:482
+msgid "Tracking already requested"
+msgstr ""
+
+#: ../templates/list.php:493
+msgid "Request tracking code from the Customer"
+msgstr ""
+
+#: ../templates/list.php:504
+msgid "Customer Provided Tracking"
+msgstr ""
+
+#: ../templates/list.php:533 ../templates/shortcode-order-items.php:148
+msgid "Shipping Provider"
+msgstr ""
+
+#: ../templates/list.php:548 ../templates/list.php:562 ../templates/shortcode-
+#: order-items.php:143
+msgid "Shipping Tracking Code"
+msgstr ""
+
+#: ../templates/list.php:550 ../templates/list.php:564
+msgid "Shipping Details/Tracking"
+msgstr ""
+
+#: ../templates/list.php:555 ../templates/list.php:569
+msgid "Set Return Tracking Code"
+msgstr ""
+
+#: ../templates/list.php:578 ../templates/manage.php:556
+msgid "Cancel"
+msgstr ""
+
+#: ../templates/manage.php:18
+msgid "Product Warranties"
+msgstr ""
+
+#: ../templates/manage.php:21
+msgid "Product warranties saved!"
+msgstr ""
+
+#: ../templates/manage.php:27 ../templates/manage.php:422
+msgid "Select bulk action"
+msgstr ""
+
+#: ../templates/manage.php:29 ../templates/manage.php:424
+msgid "Bulk Actions"
+msgstr ""
+
+#: ../templates/manage.php:30 ../templates/manage.php:96 ../templates/manage.php:
+#: 425
+msgid "Edit"
+msgstr ""
+
+#: ../templates/manage.php:57
+msgid "ID"
+msgstr ""
+
+#: ../templates/manage.php:59 ../templates/shortcode-return-form.php:11
+msgid "Name"
+msgstr ""
+
+#: ../templates/manage.php:60
+msgid "Price"
+msgstr ""
+
+#: ../templates/manage.php:61
+msgid "Categories"
+msgstr ""
+
+#: ../templates/manage.php:125 ../templates/manage.php:298 ../templates/manage.
+#: php:465
+msgid "Warranty Settings"
+msgstr ""
+
+#: ../templates/manage.php:130 ../templates/manage.php:303 ../templates/manage.
+#: php:470
+msgid "Default warranty"
+msgstr ""
+
+#: ../templates/manage.php:235 ../templates/manage.php:406
+msgid "Close"
+msgstr ""
+
+#: ../templates/manage.php:448
+msgid "Products per Page:"
+msgstr ""
+
+#: ../templates/new.php:4
+msgid "New Warranty Request"
+msgstr ""
+
+#: ../templates/new.php:8
+msgid "Search for an Order"
+msgstr ""
+
+#: ../templates/new.php:14 ../templates/shortcode-return-form.php:22
+msgid "Order Number"
+msgstr ""
+
+#: ../templates/new.php:15
+msgid "Customer Name or Email"
+msgstr ""
+
+#: ../templates/new.php:22
+msgid "Search for a customer..."
+msgstr ""
+
+#: ../templates/new.php:34
+msgid "No orders found"
+msgstr ""
+
+#: ../templates/new.php:45
+msgid "Order Items"
+msgstr ""
+
+#: ../templates/new.php:127
+msgid "No available warranties for products in this order."
+msgstr ""
+
+#: ../templates/new.php:133 ../templates/shortcode-request-form.php:29
+msgid "Quantity"
+msgstr ""
+
+#: ../templates/report.php:9
+msgid "Active"
+msgstr ""
+
+#: ../templates/settings.php:10
+msgid "Settings saved"
+msgstr ""
+
+#: ../templates/settings.php:15
+msgid "General"
+msgstr ""
+
+#: ../templates/settings.php:16
+msgid "Default Warranty"
+msgstr ""
+
+#: ../templates/settings.php:17
+msgid "Warranty Form Builder"
+msgstr ""
+
+#: ../templates/settings.php:18
+msgid "Notification Emails"
+msgstr ""
+
+#: ../templates/settings.php:57
+msgid "Save changes"
+msgstr ""
+
+#: ../templates/shortcode-content.php:31
+msgid "There are no valid warranties for this order"
+msgstr ""
+
+#: ../templates/shortcode-content.php:32
+msgid "Back to My Account"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:8
+msgid "Item"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:9
+msgid "Action"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:50
+#, php-format
+msgid "Product Name: %s"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:51
+#, php-format
+msgid "Quantity: %s"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:52
+#, php-format
+msgid "Price: %s"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:63
+msgid "Product has no warranty"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:69 ../templates/shortcode-order-items.
+#: php:74
+msgid "Expiry Date: "
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:98 ../templates/shortcode-order-items.
+#: php:114
+msgid "Expired Warranty"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:131
+msgid "Updated "
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:134
+msgid "RMA Code"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:181 ../templates/shortcode-order-items.
+#: php:224
+msgid "Shipment Tracking Code"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:189
+msgid "Track Your Package"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:212
+msgid "Tracking Number:"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:242
+msgid "Shipped via"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:243
+msgid "Tracking Code:"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:243
+msgid "Track Return Shipment"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:248
+msgid "Your Tracking Number is:"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:287
+msgid "Click on the link below to view your Shipping Label"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:289
+msgid "Download"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:291
+msgid "Download return label"
+msgstr ""
+
+#: ../templates/shortcode-order-items.php:326
+msgid "Click to request for warranty"
+msgstr ""
+
+#: ../templates/shortcode-request-form.php:10
+msgid "The following errors were found while processing your request:"
+msgstr ""
+
+#: ../templates/shortcode-return-form.php:17
+msgid "Email Address"
+msgstr ""

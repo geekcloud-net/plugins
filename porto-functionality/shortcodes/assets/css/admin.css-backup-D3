@@ -1,0 +1,53 @@
+
+.mce-i-porto {
+    background: url("../images/shortcodes.png") center center no-repeat !important;
+}
+
+/* Porto Visual Composer Elements */
+[class*="porto_vc_"] {
+    background: url(../images/vc_elements.png) !important;
+    width: 32px;
+    height: 32px;
+}
+
+.porto_vc_animation      { background-position: 0 0 !important; }
+.porto_vc_block          { background-position: 0 -32px !important; }
+.porto_vc_container      { background-position: 0 -64px !important; }
+.porto_vc_content_box    { background-position: 0 -96px !important; }
+.porto_vc_grid_container,
+.porto_vc_sort_container { background-position: 0 -128px !important; }
+.porto_vc_grid_item,
+.porto_vc_sort_item      { background-position: 0 -160px !important; }
+.porto_vc_links_block    { background-position: 0 -192px !important; }
+.porto_vc_links_item     { background-position: 0 -224px !important; }
+.porto_vc_blog,
+.porto_vc_recent_posts   { background-position: 0 -256px !important; }
+.porto_vc_faqs           { background-position: 0 -288px !important; }
+.porto_vc_history        { background-position: 0 -320px !important; }
+.porto_vc_recent_members { background-position: 0 -352px !important; }
+.porto_vc_members        { background-position: 0 -352px !important; }
+.porto_vc_recent_portfolios { background-position: 0 -384px !important; }
+.porto_vc_portfolios     { background-position: 0 -384px !important; }
+.porto_vc_testimonial    { background-position: 0 -416px !important; }
+.porto_vc_woocommerce    { background-position: 0 -448px !important; }
+.porto_vc_concept        { background-position: 0 -480px !important; }
+.porto_vc_map_section    { background-position: 0 -512px !important; }
+.porto_vc_section        { background-position: 0 -544px !important; }
+.porto_vc_toggles        { background-position: 0 -576px !important; }
+.porto_vc_blockquote     { background-position: 0 -608px !important; }
+.porto_vc_tooltip        { background-position: 0 -640px !important; }
+.porto_vc_popover        { background-position: 0 -672px !important; }
+.porto_vc_price_boxes,
+.porto_vc_price_box      { background-position: 0 -704px !important; }
+.porto_vc_sort_filters   { background-position: 0 -736px !important; }
+.porto_vc_sort_filter    { background-position: 0 -768px !important; }
+.porto_vc_preview_image  { background-position: 0 -256px !important; }
+.porto_vc_sticky         { background-position: 0 -800px !important; }
+.porto_vc_sticky_nav     { background-position: 0 -832px !important; }
+.porto_vc_sticky_nav_link { background-position: 0 -864px !important; }
+.porto_vc_carousel,
+.porto_vc_carousel_item  { background-position: 0 -896px !important; }
+.porto_vc_image_frame    { background-position: 0 -256px !important; }
+.porto_vc_lightbox       { background-position: 0 -928px !important; }
+.porto_vc_diamonds       { background-position: 0 -960px !important; }
+.porto_vc_feature_box    { background-position: 0 -992px !important; }

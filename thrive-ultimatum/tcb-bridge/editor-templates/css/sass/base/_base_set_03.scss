@@ -1,0 +1,337 @@
+@import "config/_base_set_03_config";
+#tvu_set_03 {
+  font-family: $font-family;
+  h5 {
+    color: $heading-color;
+    font-weight: $heading-font-weight;
+    font-size: $heading-font-size;
+    font-family: $font-family;
+    line-height: $heading-line-height;
+    letter-spacing: normal;
+    margin-bottom: 0;
+  }
+  p {
+    color: $paragraph-color;
+    font-size: $paragraph-font-size;
+    font-weight: $paragraph-font-weight;
+    font-family: $font-family;
+    line-height: $paragraph-line-height;
+    margin-bottom: $paragraph-margin-bottom;
+    &.bold_text {
+      font-weight: $paragraph-bold-weight;
+    }
+  }
+  .tve-ult-bar-close {
+    background: $close-btn-bg;
+    border: 1px solid $close-btn-border-color;
+    color: $close-btn-color;
+    @if $close-btn-no-border {
+      border: 0;
+    }
+    font-size: $close-btn-font-size;
+    height: $close-btn-size;
+    line-height: $close-btn-line-height;
+    top: 20%;
+    width: $close-btn-size;
+  }
+  //button
+  .thrv_button_shortcode {
+    margin-top: 0;
+    margin-bottom: 0;
+    .tve_btn3.tve_btn {
+      @if ($transparent-bg) {
+        background: none;
+      }
+      border: 0;
+      border-radius: $button-border-radius;
+      box-shadow: $button-box-shadow;
+      font-family: $font-family;
+      .tve_btnLink {
+        @if $same-colors-for-btns {
+          color: $button-default-color;
+        }
+        text-shadow: $button-text-shadow;
+        > span {
+          color: inherit;
+        }
+      }
+      @if $different-btn-white {
+        &.tve_white {
+          .tve_btnLink {
+            color: $button-white-color;
+          }
+        }
+      }
+      @if $different-btn-orange {
+        &.tve_orange {
+          .tve_btnLink {
+            color: $button-orange-color;
+          }
+        }
+      }
+      &:hover {
+        .tve_btnLink {
+          color: $button-color-hover;
+        }
+      }
+      @if $same-active-bg {
+        &:active:hover, &:active {
+          border: 2px solid $button-active-border;
+          background: $button-active-bg;
+        }
+      }
+      @if $different-btn-white-h {
+        &.tve_white {
+          &:hover {
+            .tve_btnLink {
+              color: $button-white-color-h;
+            }
+          }
+        }
+      }
+      @if $different-btn-orange-h {
+        &.tve_orange {
+          &:hover {
+            .tve_btnLink {
+              color: $button-orange-color-h;
+            }
+          }
+        }
+      }
+      @if $different-btn-white-a {
+        &.tve_white {
+          &:active {
+            .tve_btnLink {
+              color: $button-white-color-a;
+            }
+          }
+        }
+      }
+      @if $different-btn-orange-a {
+        &.tve_orange {
+          &:active {
+            .tve_btnLink {
+              color: $button-orange-color-a;
+            }
+          }
+        }
+      }
+      &.tve_normalBtn {
+        font-size: $button-font-size;
+        font-weight: $button-font-weight;
+        line-height: $button-line-height !important;
+        .tve_btnLink {
+          padding: $button-padding;
+        }
+      }
+    }
+  }
+  //countdown
+  .thrv_countdown_timer.tve_countdown_1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    .tve_t_part {
+      border-radius: $countdown-item-border-radius;
+      @if $countdown-no-border {
+        border: 0;
+      }
+      @if $countdown-same-color-items {
+        background: $countdown-item-bg;
+      }
+      @if $countdown-no-background {
+        background: none;
+      }
+      padding: 0;
+      &:after {
+        font-size: $item-font-size;
+        font-family: $font-family2;
+        font-weight: $item-font-weight;
+        line-height: $item-line-height;
+        content: ':';
+        position: absolute;
+        right: -23px;
+        bottom: 0;
+        top: 0;
+      }
+      &.tve_t_sec {
+        &:after {
+          display: none;
+        }
+      }
+      .t-digits {
+        height: $item-height;
+        min-width: $item-min-width;
+        padding: 0 $item-padding;
+        [class*="part-"] {
+          // color: $item-color;
+          font-size: $item-font-size;
+          font-weight: $item-font-weight;
+          font-style: $item-font-style;
+          font-family: $font-family2;
+          line-height: $item-line-height;
+          right: $item-spacing;
+          min-width: $item-min-width/2;
+          width: $item-min-width/2;
+        }
+        .part-2 {
+          right: $item2-spacing;
+        }
+        .part-3 {
+          right: $item3-spacing;
+        }
+        .part-4 {
+          right: $item4-spacing;
+        }
+      }
+      .t-caption {
+        border-top: 0;
+        //color: $caption-color;
+        font-weight: $caption-font-weight;
+        font-size: $caption-font-size;
+        font-family: $font-family2;
+        min-width: 15px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: -2px;
+        bottom: 0;
+        &:before {
+          display: none;
+        }
+      }
+    }
+    //&.tve_white {
+    //  .tve_t_part {
+    //    [class*="part-"] {
+    //      color: $item-color-dark;
+    //    }
+    //    .t-caption {
+    //      color: $caption-color-dark;
+    //    }
+    //  }
+    //}
+    &[data-dd="2"] {
+      .tve_t_day {
+        .t-digits {
+          min-width: $item-min-width;
+        }
+      }
+    }
+    &[data-dd="3"] {
+      .tve_t_day {
+        .t-digits {
+          min-width: $item-min-width * 1.5;
+        }
+      }
+    }
+    &[data-dd="4"] {
+      .tve_t_day {
+        .t-digits {
+          min-width: $item-min-width * 2;
+        }
+      }
+    }
+  }
+}
+//color pallete
+
+@each $color in $color-pallete {
+  #tvu_set_03 {
+    .thrv_button_shortcode {
+      .tve_btn3.tve_#{nth($color, 1)} {
+        background: nth($color, 2);
+        &:hover {
+          background: nth($color, 3);
+        }
+        &:active {
+          background: nth($color, 4);
+        }
+      }
+    }
+    .thrv_countdown_timer.tve_countdown_1.tve_#{nth($color, 1)} {
+      .tve_t_part {
+        color: nth($color, 6);
+        [class*='part-'] {
+          color: nth($color, 6);
+        }
+      }
+      .t-caption {
+        color: rgba(nth($color, 6), .25);
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1080px) {
+  #tvu_set_03 {
+    .thrv_countdown_timer.tve_countdown_1 {
+      .tve_t_part {
+        .t-digits {
+          height: $item-height-r;
+          min-width: $item-min-width-r;
+          padding: 0 $item-padding-r;
+          [class*="part-"] {
+            font-size: $item-font-size-r;
+            line-height: $item-line-height-r;
+            right: $item-spacing-r;
+            min-width: $item-min-width-r/2;
+            width: $item-min-width-r/2;
+          }
+          .part-2 {
+            right: $item2-spacing-r;
+          }
+          .part-3 {
+            right: $item3-spacing-r;
+          }
+          .part-4 {
+            right: $item4-spacing-r;
+          }
+        }
+        &:after {
+          font-size: $item-font-size-r;
+          line-height: $item-line-height-r;
+          right: -18px;
+        }
+        .t-caption {
+          font-size: 12px;
+          margin: 0 5px;
+          padding: 0 0 5px;
+          right: -10px;
+          bottom: -7px;
+        }
+      }
+      &[data-dd="2"] {
+        .tve_t_day {
+          .t-digits {
+            min-width: $item-min-width-r;
+          }
+        }
+      }
+      &[data-dd="3"] {
+        .tve_t_day {
+          .t-digits {
+            min-width: $item-min-width-r * 1.5;
+          }
+        }
+      }
+      &[data-dd="4"] {
+        .tve_t_day {
+          .t-digits {
+            min-width: $item-min-width-r * 2;
+          }
+        }
+      }
+    }
+  }
+
+}
+@media only screen and (max-width: 940px) {
+  #tvu_set_03 {
+    .thrv_countdown_timer.tve_countdown_1 {
+      margin: 10px auto;
+    }
+    .tvu-heading {
+      margin-top: 0 !important;
+      text-align: center !important;
+    }
+  }
+}

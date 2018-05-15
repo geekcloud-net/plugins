@@ -1,0 +1,105 @@
+# Copyright (C) 2016 WooThemes
+# This file is distributed under the GPL v3 or later - http://www.gnu.org/licenses/old-licenses/gpl-3.0.html.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Instagram 1.0.7\n"
+"Report-Msgid-Bugs-To: http://support.woothemes.com/hc/\n"
+"POT-Creation-Date: 2016-02-29 15:08:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: classes/class-woocommerce-instagram-admin.php:91
+#: classes/class-woocommerce-instagram-admin.php:105
+#: classes/class-woocommerce-instagram-integration.php:26
+msgid "Instagram"
+msgstr ""
+
+#: classes/class-woocommerce-instagram-admin.php:120
+msgid "Hash Tag"
+msgstr ""
+
+#: classes/class-woocommerce-instagram-admin.php:121
+msgid ""
+"This is the hashtag for which images will be displayed. If no hashtag is "
+"entered, no images will display."
+msgstr ""
+
+#: classes/class-woocommerce-instagram-admin.php:180
+msgid ""
+"%sWooCommerce Instagram is almost ready.%s To get started, %sconnect your "
+"Instagram account%s."
+msgstr ""
+
+#: classes/class-woocommerce-instagram-frontend.php:49
+msgid "%s on Instagram"
+msgstr ""
+
+#: classes/class-woocommerce-instagram-frontend.php:78
+msgid "Instagram of %s by %s"
+msgstr ""
+
+#: classes/class-woocommerce-instagram-frontend.php:88
+msgid "Want to share your instagrams of you with your %s? Use the %s hash tag."
+msgstr ""
+
+#: classes/class-woocommerce-instagram-integration.php:27
+msgid ""
+"Connect to your Instagram account, to display product-related Instagrams on "
+"each individual product screen."
+msgstr ""
+
+#: classes/class-woocommerce-instagram-integration.php:44
+msgid "Settings"
+msgstr ""
+
+#: classes/class-woocommerce-instagram-integration.php:150
+msgid "Instagram Username:"
+msgstr ""
+
+#: classes/class-woocommerce-instagram-integration.php:153
+msgid "Instagram Password:"
+msgstr ""
+
+#: classes/class-woocommerce-instagram-integration.php:156
+msgid "Connect Instagram Account"
+msgstr ""
+
+#: classes/class-woocommerce-instagram-integration.php:160
+msgid "Currently connected as %s."
+msgstr ""
+
+#: classes/class-woocommerce-instagram-integration.php:160
+msgid "Disconnect Instagram Account"
+msgstr ""
+
+#: classes/class-woocommerce-instagram-integration.php:175
+msgid "Error code %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Instagram"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://woothemes.com/products/woocommerce-instagram/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Hi, I'm here to connect your Instagram account with WooCommerce. Together, "
+"we can showcase Instagrams from all over the world, showing visitors how "
+"your customers are showcasing your products."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com/"
+msgstr ""

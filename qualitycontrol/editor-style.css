@@ -1,0 +1,15 @@
+html .mceContentBody {
+	font:0.75em Arial, Helvetica, sans-serif; color:#1c1c1c;
+}
+
+h3 {
+	font-weight:bold; font-size:1.17em; color:#434343;
+}
+
+a:link, a:active, a:visited {
+	color:#ffc039; text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}

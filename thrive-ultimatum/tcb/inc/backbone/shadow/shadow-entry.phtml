@@ -1,0 +1,45 @@
+<#
+var icon = '';
+if(item.get('css_attribute') === 'text-shadow'){
+	icon = 'tve-text-shadow-icon';
+}else{
+	if(item.get('inner')=='inset'){
+		icon = 'tve-inner-shadow-icon';
+	}else{
+		icon = 'tve-outer-shadow-icon';
+	}
+}
+#>
+
+<div class="preview-list-item tcb-relative click" data-fn="edit_shadow" data-index="<#=item.get('index')#>">
+	<div class="row middle-xs">
+		<div class="col-xs-2">
+			<span class="tcb-icon-inline <#= icon #>"></span>
+		</div>
+		<div class="col-xs-8">
+			<div class="preview-list-sort-handle clearfix">
+				<span class="col-sep tcb-left"></span>
+				<span class="col-sep tcb-left margin-left-5"></span>
+			</div>
+			<span class="tcb-truncate" style="padding-left: 10px;">
+				<# if(item.get('css_attribute') === 'text-shadow'){ #>
+					<?php echo __( 'Text Shadow', 'thrive-db' ) ?>
+					<# }else{ #>
+						<# if(item.get('inner')) { #>
+						<?php echo __( 'Inner Shadow', 'thrive-db' ) ?>
+						<# } else { #>
+					<?php echo __( 'Drop Shadow', 'thrive-db' ) ?>
+					<# } #>
+				<# } #>
+			</span>
+		</div>
+		<div class="col-xs-2 clearfix">
+			<div class="tcb-right">
+				<a href="javascript:void(0)" title="<?php esc_attr_e( 'Remove', 'thrive-db' ) ?>" class="click" data-fn="remove"
+				   data-index="<#=item.get('index')#>">
+					<?php tcb_icon( 'close2' ) ?>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

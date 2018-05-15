@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yoast SEO Local for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-14 12:08+0100\n"
+"PO-Revision-Date: 2016-12-14 13:10+0100\n"
+"Last-Translator: Floris P. Lof <floris@radischconcepts.com>\n"
+"Language-Team: floris@radischconcepts.com\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: woocommerce/admin/class-admin-columns.php:33
+msgid "Local Pickup allowed?"
+msgstr "Local Pickup toegestaan?"
+
+#: woocommerce/admin/class-admin-columns.php:46
+#: woocommerce/admin/class-admin-columns.php:63
+msgid "Yes"
+msgstr "Ja"
+
+#: woocommerce/admin/class-admin-columns.php:52
+#: woocommerce/admin/class-admin-columns.php:72
+msgid "No"
+msgstr "Nee"
+
+#: woocommerce/admin/class-wc-transport-list.php:11
+msgid "Order"
+msgstr "Bestelling"
+
+#: woocommerce/admin/class-wc-transport-list.php:12
+msgid "Status"
+msgstr "Status:"
+
+#: woocommerce/admin/class-wc-transport-list.php:13
+msgid "Products"
+msgstr "Producten "
+
+#: woocommerce/admin/class-wc-transport-list.php:14
+msgid "Destination"
+msgstr "Bestemming"
+
+#: woocommerce/admin/class-wc-transport-list.php:57
+msgid "Edit"
+msgstr "Bewerken"
+
+#: woocommerce/admin/class-wc-transport-list.php:59
+#: woocommerce/admin/class-wc-transport-list.php:68
+#: woocommerce/admin/class-wc-transport-list.php:159
+msgid "Processing"
+msgstr "In behandeling"
+
+#: woocommerce/admin/class-wc-transport-list.php:60
+#: woocommerce/admin/class-wc-transport-list.php:71
+#: woocommerce/admin/class-wc-transport-list.php:161
+#: woocommerce/includes/class-wc-post-types.php:15
+#: woocommerce/includes/class-wc-post-types.php:44
+msgid "Transporting"
+msgstr "Transporteren"
+
+#: woocommerce/admin/class-wc-transport-list.php:61
+#: woocommerce/admin/class-wc-transport-list.php:74
+#: woocommerce/admin/class-wc-transport-list.php:163
+#: woocommerce/includes/class-wc-post-types.php:24
+#: woocommerce/includes/class-wc-post-types.php:45
+msgid "Ready for pickup"
+msgstr "Klaar voor afhalen"
+
+#: woocommerce/admin/class-wc-transport-list.php:62
+msgid "Completed"
+msgstr "Afgerond"
+
+#: woocommerce/admin/class-wc-transport-list.php:89
+#: woocommerce/admin/class-wc-transport-list.php:98
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: woocommerce/admin/class-wc-transport-list.php:102
+msgid "Guest"
+msgstr "Gast"
+
+#: woocommerce/admin/class-wc-transport-list.php:108
+#, php-format
+msgid "%s by %s"
+msgstr "%s door %s"
+
+#: woocommerce/admin/class-wc-transport-list.php:116
+msgid "Show more details"
+msgstr "Toon meer details"
+
+#: woocommerce/admin/class-wc-transport.php:22
+#: woocommerce/admin/class-wc-transport.php:23
+#: woocommerce/admin/class-wc-transport.php:31
+msgid "Transport"
+msgstr "Transport"
+
+#: woocommerce/admin/class-wc-transport.php:33
+msgid "transport-page-description-text"
+msgstr ""
+"De Transportpagina toont een actueel overzicht van alle bestellingen die een "
+"‘local pickup store’  als bestemming hebben.\n"
+"Hier kunt u de bestellingen overzichtelijk terugvinden en tevens de status "
+"aanpassen naar: “In behandeling”, “Transporteren”, “Klaar voor afhalen” of "
+"“Afgerond”"
+
+#: woocommerce/admin/class-woocommerce-settings.php:56
+#, php-format
+msgid "%1$s settings"
+msgstr "%1$s instellingen"
+
+#: woocommerce/admin/class-woocommerce-settings.php:66
+#, php-format
+msgid "%1$s  settings"
+msgstr "%1$s instellingen"
+
+#: woocommerce/admin/class-woocommerce-settings.php:70
+#, php-format
+msgid "%1$sClick here%2$s for the specific WooCommerce settings"
+msgstr "%1$sklik hier%2$s voor de specifieke WooCommerce instellingen"
+
+#: woocommerce/emails/abstract-wc-email.php:97
+#: woocommerce/shipping/class-wc-shipping-method.php:182
+msgid "Enable/Disable"
+msgstr "Uitzetten/Aanzetten"
+
+#: woocommerce/emails/abstract-wc-email.php:99
+msgid "Enable this email notification"
+msgstr "Schakel deze email notificatie in"
+
+#: woocommerce/emails/abstract-wc-email.php:103
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: woocommerce/emails/abstract-wc-email.php:105
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Dit is het onderwerp van de email. Laat deze leeg om de standaard waarde te "
+"gebruiken: <code?%s</code>"
+
+#: woocommerce/emails/abstract-wc-email.php:110
+msgid "Email Heading"
+msgstr "Email heading"
+
+#: woocommerce/emails/abstract-wc-email.php:112
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Dit is de hoofd heading van de email notification. Laat deze leeg om de "
+"standaard waarde te gebruiken: <code>%s</code>."
+
+#: woocommerce/emails/abstract-wc-email.php:117
+msgid "Email type"
+msgstr "E-mail type"
+
+#: woocommerce/emails/abstract-wc-email.php:119
+msgid "Choose which format of email to send."
+msgstr "Kies een e-mail welk format."
+
+#: woocommerce/emails/abstract-wc-email.php:123
+msgid "Plain text"
+msgstr "Tekst"
+
+#: woocommerce/emails/abstract-wc-email.php:124
+msgid "HTML"
+msgstr "HTML"
+
+#: woocommerce/emails/abstract-wc-email.php:125
+msgid "Multipart"
+msgstr "Multipart"
+
+#: woocommerce/emails/class-wc-email-readyforpickup-order.php:28
+#: woocommerce/emails/class-wc-email-readyforpickup-order.php:34
+#: woocommerce/emails/class-wc-email-readyforpickup-order.php:35
+msgid "Ready for pickup order"
+msgstr "Klaar voor afhalen"
+
+#: woocommerce/emails/class-wc-email-readyforpickup-order.php:31
+msgid ""
+"Ready for pickup order notification emails are sent when an order has been "
+"delivered to the local pickup store and is ready for pickup"
+msgstr ""
+"\"Klaar om af te halen\" emails worden verzonden wanneer een bestelling is "
+"aangekomen bij het afhaalpunt."
+
+#: woocommerce/emails/class-wc-email-transporting.php:27
+msgid "Transporting order"
+msgstr "Bestelling transporteren"
+
+#: woocommerce/emails/class-wc-email-transporting.php:30
+msgid ""
+"Transporting order notification emails are sent when an order has been sent "
+"to the local pickup store"
+msgstr ""
+"\"Bestelling transporteren\" emails worden verzonden zodra een bestelling "
+"onderweg is naar het afhaalpunt"
+
+#: woocommerce/emails/class-wc-email-transporting.php:34
+#: woocommerce/emails/class-wc-email-transporting.php:35
+msgid "Transporting shipping order"
+msgstr "Bestelling transporteren"
+
+#: woocommerce/includes/class-wc-post-types.php:20
+#, php-format
+msgid "Transporting <span class=\"count\">(%s)</span>"
+msgstr "Transporteren <span class=\"count\">(%s)</span>"
+
+#: woocommerce/includes/class-wc-post-types.php:29
+#, php-format
+msgid "Ready for pickup <span class=\"count\">(%s)</span>"
+msgstr "Klaar voor afhalen <span class=\"count\">(%s)</span>"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:19
+#: woocommerce/templates/cart/cart-shipping.php:55
+msgid "Local store pickup"
+msgstr "Local store pickup"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:20
+msgid "Local Store Pickup"
+msgstr "Local Store Pickup"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:21
+msgid ""
+"This shipping method enables customers to pick up their order in local "
+"stores defined in the Local SEO plugin."
+msgstr ""
+"Middels deze verzendmethode kunnen uw klanten hun bestelling afhalen in een "
+"van de locaties die u heeft gedefinieerd middels de Local SEO plugin."
+
+#: woocommerce/shipping/class-wc-shipping-method.php:51
+msgid "Default: Allow"
+msgstr "Standaard: aan"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:53
+msgid "Default: Disallow"
+msgstr "Standaard: uit"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:56
+#, php-format
+msgid "Default: %d"
+msgstr "Standaard: %d"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:184
+msgid "Enable this shipping method"
+msgstr "Zet deze verzendmethode aan"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:188
+msgid "Checkout text"
+msgstr "Checkout tekst"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:190
+msgid ""
+"The text that appears during the checkout process for this shipping method"
+msgstr ""
+"De tekst die getoond wordt tijdens het bestelproces van deze verzendmethode"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:193
+msgid "Checkout mode"
+msgstr "Checkout modus"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:194
+msgid "Choose between these checkout modes"
+msgstr "Kies tussen deze checkout opties"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:198
+msgid "Radio"
+msgstr "Radio"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:199
+msgid "Dropdown (basic)"
+msgstr "Dropdown (simpel)"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:200
+msgid "Dropdown (advanced)"
+msgstr "Dropdown (geadvanceerd)"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:212
+#: woocommerce/shipping/includes/category-costs-table.php:2
+#: woocommerce/shipping/includes/location-costs-table.php:2
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
+msgstr ""
+"Vul de kosten in (ex. BTW), of een som b.v. <code>10,00 * [qty]</code>."
+
+#: woocommerce/shipping/class-wc-shipping-method.php:212
+#: woocommerce/shipping/includes/category-costs-table.php:2
+#: woocommerce/shipping/includes/location-costs-table.php:2
+msgid ""
+"Use <code>[qty]</code> for the number of items, <br/><code>[cost]</code> for "
+"the total cost of items, and <code>[fee percent=\"10\" min_fee=\"20\" "
+"max_fee=\"\"]</code> for percentage based fees."
+msgstr ""
+"Gebruik <code>[qty]</code> voor het aantal items, <br/><code>[costs]</code> "
+"voor het eindtotaal van de items, en <code>[fee percent=\"10\" min_fee="
+"\"20\" max_fee=\"\"]</code> voor een percentage."
+
+#: woocommerce/shipping/class-wc-shipping-method.php:215
+msgid "Local pickup costs"
+msgstr "Local pickup kosten"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:218
+msgid "The costs for the local pickup for customers"
+msgstr "De kosten voor de klanten voor het gebruik van een local-pickup"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:219
+#: woocommerce/shipping/class-wc-shipping.php:263
+msgid "Enter a price (excl. tax), like: 42.12"
+msgstr "Voer een prijs ( zonder BTW ) in, bijvoorbeeld: 42.12"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:379
+#, php-format
+msgid ""
+"You have not yet added any location categories, or you don't have assigned "
+"locations yet to these categories. After <a href=\"%s\">adding location "
+"categories</a>, you can set category specific shipping settings here."
+msgstr ""
+"U heeft nog geen locatie categorieën toegevoegd, of u heeft nog geen "
+"locaties gekoppeld aan deze categorieën. Nadat u <a href=\"%s\">categorieën "
+"heeft toegevoegd</a>, kunt u hier de categorie-specifieke instellingen "
+"beheren."
+
+#: woocommerce/shipping/class-wc-shipping-method.php:412
+#, php-format
+msgid ""
+"You manage only a single location. In the <a href=\"%s\">Local SEO settings</"
+"a>, you can specify if you want to manage multiple locations."
+msgstr ""
+"U gebruikt momenteel 1 locatie.  In de <a href=\"%s\">Local SEO "
+"instellingen</a> kunt u aangeven dat u meerdere locaties wilt gaan gebruiken"
+
+#: woocommerce/shipping/class-wc-shipping-method.php:422
+#, php-format
+msgid ""
+"You have not yet added any locations. After <a href=\"%s\">adding locations</"
+"a>, you can set location specific shipping settings here."
+msgstr ""
+"U heeft nog geen locaties toegevoegd. Na het <a href=\"%s\">toevoegen van "
+"locaties</a> kunt u hier de locatie specifieke verzendinstellingen beheren."
+
+#: woocommerce/shipping/class-wc-shipping.php:178
+msgid "Local Pickup Information"
+msgstr "Local Pickup Informatie"
+
+#: woocommerce/shipping/class-wc-shipping.php:260
+#: woocommerce/shipping/includes/location-costs-table.php:34
+msgid "Remove"
+msgstr "Verwijder"
+
+#: woocommerce/shipping/class-wc-shipping.php:261
+#: woocommerce/shipping/includes/location-costs-table.php:32
+#, php-format
+msgid "Allow pickup location: %s"
+msgstr "Sta pickup locatie toe: %s"
+
+#: woocommerce/shipping/class-wc-shipping.php:262
+#: woocommerce/shipping/includes/location-costs-table.php:33
+#, php-format
+msgid "Costs for pickup location: %s"
+msgstr "Kosten voor pickup locatie: %s"
+
+#: woocommerce/shipping/class-wc-shipping.php:265
+#, php-format
+msgid ""
+"Note: Please make sure you have configured at least one location before "
+"enabling this shipping method, as enabling Local Pickup in %1$s will disable "
+"the default %2$s local pickup."
+msgstr ""
+"NB: Zorg er a.u.b. voor dat u tenminste 1 locatie hebt geconfigureeerd "
+"voordat u deze verzendmethode aanzet. Want het aanzetten van deze methode in "
+"%1$s  zet de standaard local pickup van %2$s uit."
+
+#: woocommerce/shipping/includes/category-costs-table.php:5
+#: woocommerce/shipping/includes/category-costs-table.php:8
+msgid "Cost per category"
+msgstr "Kosten per categorie"
+
+#: woocommerce/shipping/includes/category-costs-table.php:12
+msgid "Location category"
+msgstr "Locatie categorie"
+
+#: woocommerce/shipping/includes/category-costs-table.php:13
+#: woocommerce/shipping/includes/location-costs-table.php:19
+msgid "Allow local pickup"
+msgstr "Sta local pickup toe"
+
+#: woocommerce/shipping/includes/category-costs-table.php:13
+msgid "Whether or not to allow local pickup from locations in this category."
+msgstr ""
+"Al dan niet toestaan van local pickup vanaf locaties in deze categorie."
+
+#: woocommerce/shipping/includes/category-costs-table.php:14
+#: woocommerce/shipping/includes/location-costs-table.php:20
+msgid "Costs"
+msgstr "Kosten"
+
+#: woocommerce/shipping/includes/category-costs-table.php:24
+#, php-format
+msgid "Allow pickup category: %s"
+msgstr "Sta pickup categorie toe: %s"
+
+#: woocommerce/shipping/includes/category-costs-table.php:25
+#, php-format
+msgid "Costs for pickup category: %s"
+msgstr "Kosten voor pickup categorie: %s"
+
+#: woocommerce/shipping/includes/location-costs-table.php:6
+#: woocommerce/shipping/includes/location-costs-table.php:14
+msgid "Cost per location"
+msgstr "Kosten per locatie"
+
+#: woocommerce/shipping/includes/location-costs-table.php:8
+msgid "These settings will override any category specific settings made above."
+msgstr ""
+"Deze instellingen hebben voorrang over de categorie-specifieke instellingen "
+"hierboven."
+
+#: woocommerce/shipping/includes/location-costs-table.php:18
+msgid "Location"
+msgstr "Locatie"
+
+#: woocommerce/shipping/includes/location-costs-table.php:19
+msgid "Whether or not to allow local pickup from this location."
+msgstr "Al dan niet toestaan van local pickup vanaf deze locatie."
+
+#: woocommerce/shipping/includes/location-costs-table.php:43
+msgid "New location specific settings for:"
+msgstr "Nieuwe locatie specifieke instellingen voor: "
+
+#: woocommerce/shipping/includes/location-costs-table.php:45
+msgid "Select a location to add"
+msgstr "Kies een locatie om toe te voegen"
+
+#: woocommerce/shipping/includes/location-costs-table.php:55
+msgid "Add"
+msgstr "Toevoegen"
+
+#: woocommerce/templates/cart/cart-shipping.php:179
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr "Verzendkosten worden berekend zodra u een adres heeft ingevoerd"
+
+#: woocommerce/templates/cart/cart-shipping.php:181
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+"Er zijn geen verzendmethodes beschikbaar. Controleer a.u.b. uw adres, of "
+"neem contact met ons op indien u hulp verlangt"
+
+#: woocommerce/templates/emails/customer-readyforpickup-order.php:12
+#: woocommerce/templates/emails/plain/customer-readyforpickup-order.php:9
+msgid "Your order is ready for pickup at local pickup store of your choosing"
+msgstr ""
+"Uw bestelling staat klaar om af te halen bij het afhaalpunt van uw keuze"
+
+#: woocommerce/templates/emails/customer-transporting-order.php:12
+#: woocommerce/templates/emails/plain/customer-transporting-order.php:9
+msgid "Your order has been sent to the local pickup store of your choosing"
+msgstr "Uw bestelling is verzonden naar het afhaalpunt van uw keuze"
+
+#: wpseo-local-woocommerce.php:160
+#, php-format
+msgid ""
+"The %1$s plugin is still active. In order to let the %2$s plugin work "
+"correctly, you need to disable the %1$s plugin."
+msgstr ""
+"De plugin %1$s is nog steeds actief. Om de plugin %2$s goed te laten werken "
+"moet u de %1$s plugin deactiveren."
+
+#: wpseo-local-woocommerce.php:189 wpseo-local-woocommerce.php:208
+#, php-format
+msgid ""
+"%s disabled this shipping method. To configure local pickup, go to the Local "
+"Store Pickup settings."
+msgstr ""
+"%s heeft deze verzendmethode uitgezet. Om de local pickup te configureren "
+"gaat u naar de Local Pickup instellingen"
+
+#: wpseo-local-woocommerce.php:323
+#, php-format
+msgid ""
+"Please <a href=\"%s\">install and activate WooCommerce</a> and then go to "
+"the Shipping Methods to enable the shipping methods from the \"%s\" plugin"
+msgstr ""
+"<a href=\"%s\">Installeer en activeer WooCommerce</a> en ga dan naar de "
+"\"Verzendmethodes\" om de verzendmethode van de \"%s\" plugin aan te zetten."
+
+#: wpseo-local-woocommerce.php:334
+#, php-format
+msgid ""
+"Please upgrade the WooCommerce plugin to the latest version to allow the \"%s"
+"\" plugin to work."
+msgstr ""
+"Werk a.u.b. uw versie van WooCommerce bij tot de laatste versie om ervoor te "
+"zorgen dat de \"%s\" plugin correct functioneert."
+
+#~ msgid "Local pickup:"
+#~ msgstr "Local pickup:"
+
+#~ msgid ""
+#~ "You have not yet added any location categories. After <a href=\"%s"
+#~ "\">adding location categories</a>, you can set category specific shipping "
+#~ "settings here."
+#~ msgstr ""
+#~ "U heeft nog geen locatie categorieën toegevoegd. Na het <a href=\"%s"
+#~ "\">toevoegen van locatie categorieën</a> kunt u hier de categorie "
+#~ "specifieke verzendinstellingen beheren."
+
+#~ msgid "<br/><br/>"
+#~ msgstr "<br/><br/>"
+
+#~ msgid "_checkout_text"
+#~ msgstr "_checkout_tekst"
+
+#~ msgid ""
+#~ "SINCE YOU ARE NOW USING LOCAL SEO FOR WOOCOMMERCE YOU SHOULD DEACTIVATE "
+#~ "THIS METHOD"
+#~ msgstr ""
+#~ "AANGEZIEN U NU LOCAL SEO VOOR WOOCOMMERCE GEBRUIKT DIENT U DEZE METHODE "
+#~ "TE DEACTIVEREN"
+
+#~ msgid ""
+#~ "Please <a href=\"%s\">install and activate WooCommerce</a> and then go to "
+#~ "the Local SEO section to enable the \"%s\" plugin to work."
+#~ msgstr ""
+#~ "<a href=\"%s\">Installeer en actiever WooCommerce</a> en ga daarna naar "
+#~ "de Local SEO sectie om de plugin “\"%s\" te laten werken"
+
+#~ msgid "Delete"
+#~ msgstr "Verwijderen"

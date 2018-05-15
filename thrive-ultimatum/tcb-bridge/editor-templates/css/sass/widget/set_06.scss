@@ -1,0 +1,41 @@
+@import "../_widget";
+@import "../base/_base_set_06.scss";
+@import "config/_set_06_config.scss";
+#tvu_set_06 {
+  //widget general
+  .thrv_ult_widget {
+    @if $has-widget-box-shadow {
+      box-shadow: $widget-box-shadow;
+    }
+    .tve_editor_main_content {
+      padding: $widget-padding;
+    }
+    .thrv_button_shortcode {
+      .tve_btn3.tve_btn.tve_normalBtn {
+        .tve_btnLink {
+          padding: 15px;
+        }
+      }
+    }
+    //countdown in ribbon
+    .sc_timer_content {
+      .tve_t_day, .tve_t_hour {
+        margin-bottom: $widget-countdown-item-spacing;
+      }
+      .tve_t_min {
+        clear: left;
+      }
+    }
+    .tve_normalBtn {
+      min-width: 10px;
+    }
+  }
+}
+@each $color in $color-pallete {
+  #tvu_set_06 {
+    .thrv_ult_widget.tve_#{nth($color, 1)} {
+      background: nth($color, 2);
+    }
+  }
+}
+@import '../_responsive';

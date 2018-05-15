@@ -1,0 +1,38 @@
+<div class="tcb-favorites<#=this.attr.expanded ? ' expanded' : ''#>">
+	<div class="row middle-xs hide-expanded">
+		<div class="col-xs-9">
+			<div class="recent colors">
+				<#=this.render_colors(this.get_recent(), true)#>
+			</div>
+		</div>
+		<div class="col-xs-3">
+			<a href="javascript:void(0)" class="tcb-right click show-more hide-expanded" data-fn="toggle"><?php echo __( 'more', 'thrive-cb' ) ?></a>
+		</div>
+	</div>
+	<div class="hide-collapsed padding-top-10">
+		<div class="colors all-colors clearfix">
+			<#=this.render_colors(undefined, true)#>
+		</div>
+		<div class="padding-top-10">
+			<span class="click tcb-text-uppercase remove-color" style="display: none" data-fn="remove_color">
+				<?php tcb_icon( 'close2' ) ?>&nbsp;<?php echo __( 'Remove selected color', 'thrive-cb' ) ?>
+			</span>
+		</div>
+		<div class="padding-top-10<#=!this.attr.color_sets || !this.attr.color_sets.length ? ' tcb-hide' : ''#>">
+			<label><?php echo __( 'Other Color Palettes', 'thrive-cb' ) ?></label>
+			<div class="row middle-xs">
+				<# _.each( this.attr.color_sets, function( color_set ) { #>
+				<div class="col-xs-12 palette-col">
+					<label class="palette-title">
+						<#=color_set.title ? color_set.title : '[default]'#>
+					</label>
+					<#=this.render_colors( color_set.colors )#>
+				</div>
+				<#}, this )#>
+			</div>
+		</div>
+	</div>
+	<div class="tcb-text-right padding-top-5 clearfix">
+		<a href="javascript:void(0)" class="tcb-right click show-less hide-collapsed" data-fn="toggle"><?php echo __( 'less', 'thrive-cb' ) ?></a>
+	</div>
+</div>

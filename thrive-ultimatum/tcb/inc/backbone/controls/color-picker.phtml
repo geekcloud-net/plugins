@@ -1,0 +1,22 @@
+<# if ( this.model.config.flat || ( this.model.config.options && this.model.config.options.flat ) ) { #>
+	<div class="color-picker-control"><input type="text" class="color-picker"></div>
+<# } else { #>
+	<div class="color-picker-control clearfix row middle-xs">
+		<# if(this.model.config.label || this.model.config.label_icon ) { #>
+			<div class="color-picker-label col-xs-<#= this.model.config.label_icon?'2':'6' #>">
+				 <#= this.model.config.label_icon ? TVE.icon( this.model.config.label_icon ) : this.model.config.label #>
+			</div>
+		<# } #>
+		<# if( this.model.config.icon ) { #>
+			<div class="color-picker-icon col-xs-2">
+				<#= TVE.icon('bucket') #>
+			</div>
+		<# } #>
+		<div class="color-picker-input col-xs-<#= this.model.config.label_icon?'10':'6' #>">
+			<input type="text" class="color-picker">
+			<div class="color-input-container">
+				<input type="text" class="color-input" disabled>
+			</div>
+		</div>
+	</div>
+<# } #>

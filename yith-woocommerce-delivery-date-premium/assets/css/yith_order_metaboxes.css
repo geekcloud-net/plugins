@@ -1,0 +1,28 @@
+.woocommerce-help-tip.ywcdd-icon-warning{
+
+    text-align: center;
+    vertical-align: top;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 10px;
+}
+.woocommerce-help-tip.ywcdd-icon-warning:after{
+    font-family: WooCommerce;
+    content: "\e016";
+
+}
+.woocommerce-help-tip.ywcdd-icon-warning.ywcdd_advise:after{
+    color:#d0c21f;
+}
+
+.woocommerce-help-tip.ywcdd-icon-warning.ywcdd_error:after{
+
+    color: #a00;
+}
+
+.woocommerce-help-tip.ywcdd-icon-warning.ywcdd_shipped:after{
+    content: "\e015";
+    color: #2ea2cc;
+}

@@ -1,0 +1,11 @@
+<div class="input-control <#= this.model.config.name?this.model.config.name+'-input':'' #>">
+	<span class="input-label">
+		<#= this.model.config.name #>
+	</span>
+	<span class="input-um <#= this.input_class() #>"><#= this.model.config.um ? this.model.config.um:'' #></span>
+	<div data-dir="top" class="handle reverse <#= this.input_class() #>">
+		<div class="up click" data-fn="up"></div>
+		<div class="down click" data-fn="down"></div>
+	</div>
+	<input<#=this.model.config.maxlength ? ' maxlength="' + this.model.config.maxlength + '"' : '' #> class="tve-input change input <#= this.input_class() #> <#= this.model.config.um ? 'has-um':'' #>" value="<#= this.model.config.default #>" data-fn-change="validate_and_change" data-fn-input="input" type="text">
+</div>

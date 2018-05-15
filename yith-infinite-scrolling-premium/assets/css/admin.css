@@ -1,0 +1,98 @@
+
+#wrap.plugin-option tr {
+    border-bottom: 0;
+}
+#wrap.plugin-option .form-table tr,
+#wrap.plugin-option .form-table td {
+    padding: 10px;
+}
+#wrap.plugin-option .yit_options .option {
+    padding-right: 10px;
+    width: 50%;
+}
+#wrap.plugin-option .yit_options.rm_text .option {
+    width: 100%;
+}
+#wrap.plugin-option .yit_options input[type="text"] {
+    width: 100%;
+}
+
+#wrap.plugin-option .error-input-section {
+    font-style: italic;
+    color: #ca0f0f;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.infs-sections-group {
+    margin: 20px 0;
+}
+.infs-sections-group .infs-section {
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+}
+.infs-sections-group .infs-section .section-head {
+    padding: 10px 70px 10px 10px;
+    cursor: pointer;
+    position: relative;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.infs-sections-group .infs-section .section-head:before {
+    content: '';
+    width: 35px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url( '../images/arrow.png' ) no-repeat center;
+    opacity: 0.6;
+}
+.infs-sections-group .infs-section.open .section-head:before {
+    transform: rotate( 180deg );
+    -webkit-transform: rotate( 180deg );
+    -moz-transform: rotate( 180deg );
+    -ms-transform: rotate( 180deg );
+    opacity: 1;
+}
+.infs-sections-group .infs-section .section-head .remove {
+    position: absolute;
+    width: 35px;
+    right: 35px;
+    top: 0;
+    bottom: 0;
+    background: url( '../images/remove.png' ) no-repeat center;
+    opacity: 0.6;
+}
+.infs-sections-group .infs-section .section-head .remove:hover {
+    opacity: 1;
+}
+.infs-sections-group .infs-section .section-body {
+    padding: 10px;
+    padding-top: 0;
+    display: none;
+}
+.infs-sections-group .infs-section .section-body table {
+    width: 80%;
+}
+
+.infs-sections-group .infs-section input[type="text"] {
+    display: block;
+    width: 100%;
+}
+.infs-sections-group .infs-section .desc-inline {
+    font-size: 12px;
+    font-style: italic;
+}
+.infs-sections-group .infs-section img.yith-infs-loader-preview {
+    max-width: 100%;
+    display: block;
+    margin: 10px 0;
+}
+td .select2-container .select2-choice {
+    padding: 3px 8px 4px;
+}

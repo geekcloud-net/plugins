@@ -1,0 +1,246 @@
+@import "config/_base_set_23_config";
+
+#tvu_set_23 {
+  font-family: $font-family;
+  //countdown
+  .thrv_countdown_timer.tve_countdown_3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    .sc_timer_content {
+      border-style: solid;
+      border-width: 2px 2px 0;
+      padding: 0 20px;
+    }
+    .tve_t_part {
+      @if $countdown-no-border {
+        border: 0;
+      }
+      @if $countdown-no-background {
+        background: none;
+      }
+      margin-right: 20px;
+      padding: 0;
+      &.tve_t_day {
+        &:after {
+          content: '';
+          display: block;
+          top: 0;
+          bottom: 0;
+          left: -21px;
+          position: absolute;
+          width: 21px;
+        }
+      }
+      &.tve_t_sec {
+        margin-right: 0;
+        &:after {
+          content: '';
+          display: block;
+          top: 0;
+          bottom: 0;
+          right: -21px;
+          position: absolute;
+          width: 21px;
+        }
+      }
+      &:first-child {
+        &:before {
+          display: none;
+        }
+      }
+      &:before {
+        content: ':';
+        display: block;
+        line-height: $item-line-height;
+        font-size: 43px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -20px;
+        text-align: center;
+        width: 21px;
+      }
+      .t-digits {
+        @if $countdown-same-color-items {
+          background: $countdown-item-bg;
+        }
+        border-radius: $countdown-item-border-radius;
+        height: $item-height;
+        min-width: $item-min-width;
+        padding: 0 $item-padding;
+        [class*="part-"] {
+          color: $item-color;
+          font-size: $item-font-size;
+          font-weight: $item-font-weight;
+          font-style: $item-font-style;
+          line-height: $item-line-height;
+          right: $item-spacing;
+          min-width: $item-min-width/2;
+          z-index: 1;
+          width: $item-min-width/2;
+        }
+        .part-2 {
+          right: $item2-spacing;
+        }
+        .part-3 {
+          right: $item3-spacing;
+        }
+        .part-4 {
+          right: $item4-spacing;
+        }
+        &:after {
+          display: none;
+        }
+      }
+      .t-caption {
+        color: $caption-color;
+        border-top: 0;
+        font-weight: $caption-font-weight;
+        font-size: $caption-font-size;
+        min-width: $item-min-width;
+        margin: 0 5px -17px;
+        position: relative;
+        top: -7px;
+        padding: 2px 0 0 0;
+        &:before {
+          display: none;
+        }
+      }
+    }
+    &.tve_white {
+      .tve_t_part {
+        [class*="part-"] {
+          color: $item-color-dark;
+        }
+        .t-caption {
+          color: $caption-color-dark;
+        }
+      }
+    }
+    &[data-dd="2"] {
+      .tve_t_day {
+        .t-digits {
+          min-width: $item-min-width;
+        }
+      }
+    }
+    &[data-dd="3"] {
+      .tve_t_day {
+        .t-digits {
+          min-width: $item-min-width * 1.5;
+        }
+      }
+    }
+    &[data-dd="4"] {
+      .tve_t_day {
+        .t-digits {
+          min-width: $item-min-width * 2;
+        }
+      }
+    }
+  }
+}
+
+//color pallete
+
+@each $color in $color-pallete {
+  #tvu_set_23 {
+    .thrv_countdown_timer.tve_countdown_3.tve_#{nth($color, 1)} {
+      .sc_timer_content {
+        border-color: nth($color, 2);
+      }
+      .tve_t_part {
+        &:before {
+          border-bottom: 2px solid nth($color, 2);
+          color: nth($color, 2);
+        }
+        &:after {
+          border-bottom: 2px solid nth($color, 2);
+        }
+      }
+      .t-digits {
+        [class*="part-"] {
+          color: nth($color, 2);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  #tvu_set_23 {
+    .thrv_countdown_timer.tve_countdown_3 {
+      .sc_timer_content {
+        border-width: 2px;
+        padding: 0;
+      }
+      .tve_t_part {
+        &:after {
+          display: none!important;
+        }
+        &:before {
+          border-bottom: 0!important;
+          font-size: $item-font-size-r;
+          line-height: $item-line-height-r;
+        }
+        .t-digits {
+          height: $item-height-r;
+          min-width: $item-min-width-r;
+          padding: 0 $item-padding-r;
+          [class*="part-"] {
+            font-size: $item-font-size-r;
+            line-height: $item-line-height-r;
+            right: $item-spacing-r;
+            min-width: $item-min-width-r/2;
+            width: $item-min-width-r/2;
+          }
+          .part-2 {
+            right: $item2-spacing-r;
+          }
+          .part-3 {
+            right: $item3-spacing-r;
+          }
+          .part-4 {
+            right: $item4-spacing-r;
+          }
+        }
+        .t-caption {
+          margin: 0 5px;
+          padding: 0 0 5px;
+        }
+      }
+      &[data-dd="2"] {
+        .tve_t_day {
+          .t-digits {
+            min-width: $item-min-width-r;
+          }
+        }
+      }
+      &[data-dd="3"] {
+        .tve_t_day {
+          .t-digits {
+            min-width: $item-min-width-r * 1.5;
+          }
+        }
+      }
+      &[data-dd="4"] {
+        .tve_t_day {
+          .t-digits {
+            min-width: $item-min-width-r * 2;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  #tvu_set_23 {
+    .thrv_countdown_timer.tve_countdown_3 {
+      margin: 10px auto;
+      .tve_t_part {
+        margin-right: 4px;
+      }
+    }
+  }
+}

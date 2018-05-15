@@ -1,0 +1,24 @@
+<div class="field-description margin-top-10 margin-bottom-10"><?php echo __( 'Choose your group:', 'thrive-cb' ) ?></div>
+<# if (item.type == 'dropdown' || item.type == 'hidden' ) { #>
+<select class="thrive-api-group-select tve-api-extra" name="group">
+	<# _.each( item.groups, function(group) { #>
+	<#= TVE.tpl( 'util/option', {value:group.id, selected: (selected_groups.indexOf(group.id) !== -1), text: group.name}) #>
+	<# } ) #>
+</select>
+<# } else {  #>
+<# _.each( item.groups, function(group) { #>
+
+<#= TVE.tpl( 'util/input',
+		{ id:'thrive-group-checkbox-'+group.id,
+		'_class': 'thrive-api-group-select tve-api-extra',
+		name:'group',
+		value:group.id,
+		checked: (selected_groups.indexOf(group.id) !== -1),
+		'_type': ( item.type == 'checkboxes' ? 'checkbox' : item.type)
+		}) #>
+
+<label class="thrive-api-group-select" for="thrive-group-checkbox-<#= group.id #>">
+	<#= group.name #>
+</label>
+<# } ) #>
+<# } #>

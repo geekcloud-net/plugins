@@ -1,0 +1,40 @@
+<?php $modify_facebook_options = apply_filters( 'tcb_modify_facebook_share_options', false ); ?>
+<?php if ( $modify_facebook_options ) : ?>
+	<?php if ( 1 === 2 ) : //No longer supported by facebook ?>
+		<div class="padding-top-5">
+			<?php echo __( 'App ID', 'thrive-cb' ) ?>
+			<input type="text" class="change" data-fn="validate_app_id" value="<#=TVE.CONST.social_fb_app_id#>">
+			<div class="fb-message inline-message padding-top-5"></div>
+			<div>
+				<a class="help-link" href="https://thrivethemes.com/tkb_item/facebook-app-id/" target="_blank">
+					<span style="font-size: 16px"><?php tcb_icon( 'info' ); ?></span>
+					<?php echo __( 'Learn how to set up a Facebook App.', 'thrive-cb' ) ?>
+				</a>
+			</div>
+		</div>
+	<?php endif; ?>
+
+	<?php if ( 1 === 2 ) : //No longer supported by facebook ?>
+		<div class="padding-top-10">
+			<?php echo __( 'Link title', 'thrive-cb' ) ?>
+			<input class="text" type="text" data-setting="name" value="<#=this.data.name#>">
+		</div>
+	<?php endif; ?>
+
+	<?php if ( 1 === 2 ) : //No longer supported by facebook ?>
+		<div class="padding-top-10">
+			<?php echo __( 'Caption', 'thrive-cb' ) ?>
+			<input class="text" type="text" data-setting="caption" value="<#=this.data.caption#>">
+		</div>
+	<?php endif; ?>
+
+	<div class="padding-top-10">
+		<?php echo __( 'Description', 'thrive-cb' ) ?>
+		<textarea rows="3" data-setting="description"><#=this.data.description#></textarea>
+	</div>
+
+	<?php if ( 1 === 2 ) : //No longer supported by facebook ?>
+		<div class="padding-top-10"><?php echo __( 'Custom image', 'thrive-cb' ) ?></div>
+		<div class="fb-image-upload"></div>
+	<?php endif; ?>
+<?php endif; ?>

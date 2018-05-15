@@ -1,0 +1,88 @@
+<div class="tvd-card tvd-white tvd-large tvd-slim-card">
+	<div class="tvu-campaign-controls">
+		<# if ( item.get( 'type' ) ) { #>
+            <span
+	            class="tvu-campaign-type-<#= item.get('type') #> tvu-campaign-type tvd-badge tvd-inline-block">
+                <#= ThriveUlt.util.upperFirst( item.get('type'))  #>
+            </span>
+			<# } #>
+				<div class="tvd-inline-block tvu-campaign-actions tvd-margin-left">
+					<a data-id="<#= item.get('ID') #>" class="tvu-campaign-display tvu-icon-gray tvu-btn-icon-small tvd-tooltipped" data-position="top"
+					   data-tooltip="<?php echo __( 'Display settings', TVE_Ult_Const::T ) ?>" href="javascript:void(0)">
+						<i class="tvd-icon-settings"></i>
+					</a>
+					<a data-id="<#= item.get('ID') #>" class="tvu-copy-campaign tvu-icon-gray tvu-btn-icon-small tvd-tooltipped" data-position="top"
+					   data-tooltip="<?php echo __( 'Duplicate campaign', TVE_Ult_Const::T ) ?>">
+						<i class="tvu-icon-clone"></i>
+					</a>
+					<a data-id="<#= item.get('ID') #>"
+					   class="tvu-delete-campaign tvu-icon-gray tvu-btn-icon-small tvd-tooltipped" data-position="top"
+					   data-tooltip="<?php echo __( 'Delete campaign', TVE_Ult_Const::T ) ?>">
+						<i class="tvd-icon-trash-o"></i>
+					</a>
+					<i class="tvu-drag-card tvu-icon-handle tvu-icon-gray tvu-btn-icon-small tvd-tooltipped" data-position="top"
+					   data-tooltip="<?php echo __( 'Drag & Drop the card in order to change the campaign priority.', TVE_Ult_Const::T ) ?>"></i>
+					<# if( ! item.is_archived()) { #>
+						<a data-id="<#= item.get('ID') #>" data-archived="false" href="javascript:void(0)"
+						   class="tvu-archive-campaign tvu-icon-gray tvu-btn-icon-small tvd-tooltipped" data-position="top"
+						   data-tooltip="<#= item.get_archive_tooltip() #>">
+							<i class="tvd-icon-archive"></i>
+						</a>
+						<# } #>
+				</div>
+		<span class="tvu-campaign-status-card tvu-campaign-status-running tvd-pointer tvu-campaign-status tvd-tooltipped<#= ( item.is_running() ? '' : ' tvd-hide' ) #>"
+		      data-tooltip="<?php echo __( 'Pause Campaign', TVE_Ult_Const::T ) ?>" data-position="top"></span>
+		<span class="tvu-campaign-status-card tvu-campaign-status-paused tvd-pointer tvu-campaign-status tvd-tooltipped<#= ( item.is_running() ? ' tvd-hide' : '' ) #>"
+		      data-tooltip="<?php echo __( 'Start Campaign', TVE_Ult_Const::T ) ?>" data-position="top"></span>
+	</div>
+	<div class="tvd-card-content">
+		<span class="tvd-icon-pencil tvd-pointer tvu-edit-campaign-title tvu-btn-icon-small tvd-right tvu-lightgray tvd-right-align"></span>
+		<h3 class="tvd-card-title tvd-truncate">
+			<#= item.get('post_title') #>
+		</h3>
+
+		<div class="tvu-campaign-chart" id="tu-chart-<#= item.get('ID') #>" style="height: 150px;">
+			<div class="tvd-center-align tu-chart-loader tvd-relative tvu-graph-overlay">
+				<div class="tvd-preloader-wrapper tvd-big tvd-active">
+					<div class="tvd-spinner-layer tvd-spinner-blue-only">
+						<div class="tvd-circle-clipper tvd-left">
+							<div class="tvd-circle"></div>
+						</div>
+						<div class="tvd-gap-patch">
+							<div class="tvd-circle"></div>
+						</div>
+						<div class="tvd-circle-clipper tvd-right">
+							<div class="tvd-circle"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tvd-center-align tvu-chart-no-data tvd-hide tvd-valign-wrapper">
+				<p class="tvd-valign">
+					<?php echo __( 'After the first few impressions / conversions are registered, the stats will be shown here', TVE_Ult_Const::T ) ?>
+				</p>
+			</div>
+		</div>
+		<div class="tvd-row">
+			<div class="tvd-col tvd-s6 <# if ( ! item.get( 'has_event_logs' ) ) { #>tvu-blurred-item<# } #>">
+				<span class="tvu-log-count tvu-log-count-impressions tvd-block"><#= item.get( 'impressions' ) #></span>
+				<span class="tvu-log-label"><?php echo __( 'Impressions', TVE_Ult_Const::T ) ?></span>
+			</div>
+			<div class="tvd-col tvd-s6 <# if ( ! item.get( 'has_event_logs' ) ) { #>tvu-blurred-item<# } #>">
+				<# if ( ! item.get( 'has_event_logs' ) || item.get( 'conversions' ) ) { #>
+					<span class="tvu-log-count tvu-log-count-conversions tvd-block"><#= item.get( 'conversion_rate' ) #><span class="tvu-log-count-percent">%</span></span>
+					<span class="tvu-log-label"><?php echo __( 'Conversion rate', TVE_Ult_Const::T ) ?></span>
+					<# } #>
+			</div>
+		</div>
+		<div class="tvd-card-action">
+			<div class="tvd-row tvd-no-margin">
+				<div class="tvd-col tvd-s10 tvd-offset-s1">
+					<a href="#dashboard/campaign/<#= item.get('ID') #>" class="tvd-waves-effect tvd-waves-light tvd-btn tvd-btn-green tvd-full-btn tvu-edit-campaign">
+						<?php echo __( 'Edit Campaign', TVE_Ult_Const::T ) ?>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

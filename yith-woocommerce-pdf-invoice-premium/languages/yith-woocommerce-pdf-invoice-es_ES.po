@@ -1,0 +1,1263 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce PDF Invoice\n"
+"POT-Creation-Date: 2017-02-25 12:04+0100\n"
+"PO-Revision-Date: 2017-02-25 12:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: init.php:54
+msgid ""
+"YITH WooCommerce PDF Invoice is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce PDF Invoice está activado pero no es efectivo. Requiere "
+"WooCommerce para funcionar."
+
+#: lib/class.yith-checkout-addon.php:149 lib/class.yith-checkout-addon.php:231
+#: lib/class.yith-checkout-addon.php:347 lib/class.yith-checkout-addon.php:401
+msgid "SSN"
+msgstr "DNI"
+
+#: lib/class.yith-checkout-addon.php:168 lib/class.yith-checkout-addon.php:246
+#: lib/class.yith-checkout-addon.php:355 lib/class.yith-checkout-addon.php:408
+msgid "VAT"
+msgstr "CIF"
+
+#: lib/class.yith-pdf-invoice-dropbox.php:81
+msgid "Dropbox backup: unable to disable authorization > "
+msgstr ""
+"Copia de seguridad Dropbox: no se ha podido desactivar la autorización > "
+
+#: lib/class.yith-pdf-invoice-dropbox.php:99
+msgid "Dropbox backup: unable to retrieve account information > "
+msgstr ""
+"Copia de seguridad de Dropbox: no se ha podido encontrar la información de "
+"la cuenta > "
+
+#: lib/class.yith-pdf-invoice-dropbox.php:124
+msgid "Dropbox backup: unable to get access token > "
+msgstr ""
+"Copia de seguridad de Dropbox: no se ha podido obtener el token de acceso > "
+
+#: lib/class.yith-pdf-invoice-dropbox.php:151
+msgid "Dropbox backup: unable to send file > "
+msgstr "Copia de seguridad de Dropbox: no se ha podido enviar el archivo > "
+
+#: lib/class.yith-woocommerce-pdf-invoice-premium.php:116
+msgid "Pro-forma Invoice"
+msgstr "Factura proforma"
+
+#: lib/class.yith-woocommerce-pdf-invoice-premium.php:120
+msgid "Credit note"
+msgstr "Nota de crédito"
+
+#: lib/class.yith-woocommerce-pdf-invoice-premium.php:202
+msgid "VAT number source"
+msgstr "Fuente del CIF"
+
+#: lib/class.yith-woocommerce-pdf-invoice-premium.php:299
+#: lib/class.yith-woocommerce-pdf-invoice.php:349
+#: lib/class.yith-woocommerce-pdf-invoice.php:933
+#: lib/class.yith-ywpi-multivendor-loader.php:544
+msgid "Invoice"
+msgstr "Factura"
+
+#: lib/class.yith-woocommerce-pdf-invoice-premium.php:305
+msgid "Pro-Forma"
+msgstr "Pro-Forma"
+
+#: lib/class.yith-woocommerce-pdf-invoice.php:127
+msgid "Weight: "
+msgstr ""
+
+#: lib/class.yith-woocommerce-pdf-invoice.php:133
+msgid "Dimensions: "
+msgstr ""
+
+#: lib/class.yith-woocommerce-pdf-invoice.php:200
+msgid "YITH PDF Invoice: unknown document type. Unable to manage this action."
+msgstr ""
+"YITH PDF Invoice: tipo de documento desconocido. No se ha podido llevar a "
+"cabo esta acción."
+
+#: lib/class.yith-woocommerce-pdf-invoice.php:351
+msgid "Packing slip"
+msgstr "Albarán de entrega"
+
+#: lib/class.yith-woocommerce-pdf-invoice.php:573
+#: lib/class.yith-ywpi-multivendor-loader.php:583
+msgid "View Invoice"
+msgstr "Ver Factura"
+
+#: lib/class.yith-woocommerce-pdf-invoice.php:574
+#, php-format
+msgid "View Invoice No. %s"
+msgstr "Ver factura nº %s"
+
+#: lib/class.yith-ywpi-backend.php:120
+#, php-format
+msgid ""
+"Dropbox backup is currently active for <b>%s</b>. Used  <b>%s</b> over total "
+"<b>%s</b>."
+msgstr ""
+"La copia de seguridad de Dropbox está activa ahora para <b>%s</b>. Usados  "
+"<b>%s</b> de un total de <b>%s</b>."
+
+#: lib/class.yith-ywpi-backend.php:121
+msgid "Disable DropBox"
+msgstr "Deshabilitar DropBox"
+
+#: lib/class.yith-ywpi-backend.php:124
+msgid ""
+"The authentication token provided is no longer valid, please repeat the "
+"Dropbox authentication steps."
+msgstr ""
+"El token de autenticación ya no es válido, por favor repite los pasos de "
+"autenticación de Dropbox."
+
+#: lib/class.yith-ywpi-backend.php:133
+msgid "Login to Dropbox"
+msgstr "Iniciar sesión en Dropbox"
+
+#: lib/class.yith-ywpi-backend.php:166
+msgid "YITH PDF Invoice"
+msgstr "YITH PDF Invoice"
+
+#: lib/class.yith-ywpi-backend.php:213
+msgid "Show invoice"
+msgstr "Mostrar factura"
+
+#: lib/class.yith-ywpi-backend.php:217
+msgid "Create invoice"
+msgstr "Crear factura"
+
+#: lib/class.yith-ywpi-backend.php:254
+msgid "Show packing slip"
+msgstr "Mostrar albarán de entrega"
+
+#: lib/class.yith-ywpi-backend.php:259 lib/class.yith-ywpi-backend.php:508
+msgid "Create packing slip"
+msgstr "Crear albarán de entrega"
+
+#: lib/class.yith-ywpi-backend.php:316 lib/class.yith-ywpi-backend.php:318
+msgid "Preview invoice"
+msgstr "Vista previa de factura"
+
+#: lib/class.yith-ywpi-backend.php:340
+#: lib/class.yith-ywpi-multivendor-loader.php:539
+msgid "Invoice status"
+msgstr "Estado de factura"
+
+#: lib/class.yith-ywpi-backend.php:344
+msgid "Invoice number: "
+msgstr "Número de factura: "
+
+#: lib/class.yith-ywpi-backend.php:349
+msgid "Created: "
+msgstr "Creado: "
+
+#: lib/class.yith-ywpi-backend.php:354
+msgid "There is no invoice for this order"
+msgstr "No hay factura para este pedido"
+
+#: lib/class.yith-ywpi-backend.php:364 lib/class.yith-ywpi-backend.php:366
+#: lib/class.yith-ywpi-backend.php:497
+msgid "View"
+msgstr "Ver"
+
+#: lib/class.yith-ywpi-backend.php:369 lib/class.yith-ywpi-backend.php:371
+msgid "Remove"
+msgstr "Quitar"
+
+#: lib/class.yith-ywpi-backend.php:377 lib/class.yith-ywpi-backend.php:379
+#: lib/class.yith-ywpi-backend.php:436 lib/class.yith-ywpi-backend.php:510
+msgid "Create"
+msgstr "Crear"
+
+#: lib/class.yith-ywpi-backend.php:409
+msgid "Credit note status"
+msgstr "Estado de nota de crédito"
+
+#: lib/class.yith-ywpi-backend.php:418
+msgid "Refund #"
+msgstr "Reembolso nº"
+
+#: lib/class.yith-ywpi-backend.php:423
+msgid "View credit note"
+msgstr "Ver nota de crédito"
+
+#: lib/class.yith-ywpi-backend.php:425
+msgctxt "Button text to display the credit note"
+msgid "View"
+msgstr "Ver"
+
+#: lib/class.yith-ywpi-backend.php:429
+msgid "Remove credit note"
+msgstr "Quitar nota de crédito"
+
+#: lib/class.yith-ywpi-backend.php:431
+msgctxt "Button text to delete a credit note"
+msgid "Remove"
+msgstr "Borrar"
+
+#: lib/class.yith-ywpi-backend.php:438
+msgctxt "Button text to create the credit note"
+msgid "Create"
+msgstr "Crear"
+
+#: lib/class.yith-ywpi-backend.php:478
+msgid "Packing slip status"
+msgstr "Estado del albarán de entrega"
+
+#: lib/class.yith-ywpi-backend.php:482
+msgid "Packing slip created."
+msgstr "Albarán de entrega creado."
+
+#: lib/class.yith-ywpi-backend.php:486
+msgid "There is no packing slip available for this order."
+msgstr "No hay albarán de entrega disponible para este pedido."
+
+#: lib/class.yith-ywpi-backend.php:495
+msgid "View packing slip"
+msgstr "Ver albarán de entrega"
+
+#: lib/class.yith-ywpi-backend.php:501
+msgid "Remove packing slip"
+msgstr "Quitar albarán de entrega"
+
+#: lib/class.yith-ywpi-backend.php:503
+msgctxt "Button text to remove a document"
+msgid "Remove"
+msgstr "Borrar"
+
+#: lib/class.yith-ywpi-multivendor-loader.php:176
+msgid "This feature is not available when used with YITH Multi Vendor plugin."
+msgstr ""
+
+#: lib/class.yith-ywpi-multivendor-loader.php:241
+#, php-format
+msgid "(Main order #%s)"
+msgstr ""
+
+#: lib/class.yith-ywpi-multivendor-loader.php:511
+msgid "<b>Current shop</b>"
+msgstr "<b>Tienda actual</b>"
+
+#: lib/class.yith-ywpi-multivendor-loader.php:519
+msgid "Download"
+msgstr "Descargar"
+
+#: lib/class.yith-ywpi-multivendor-loader.php:543
+msgid "Vendor"
+msgstr "Ajustes de factura de vendedor"
+
+#: lib/class.yith-ywpi-multivendor-loader.php:637
+msgid "Vendor settings"
+msgstr "Ajustes de vendedor"
+
+#: lib/class.yith-ywpi-multivendor-loader.php:642
+#: lib/class.yith-ywpi-multivendor-loader.php:643
+msgid "PDF Invoice"
+msgstr "PDF Invoice"
+
+#: lib/class.yith-ywpi-plugin-fw-loader.php:122
+msgid "General"
+msgstr "General"
+
+#: lib/class.yith-ywpi-plugin-fw-loader.php:125
+msgid "Documents"
+msgstr "Documentos"
+
+#: lib/class.yith-ywpi-plugin-fw-loader.php:126
+msgid "Template"
+msgstr "Plantilla"
+
+#: lib/class.yith-ywpi-plugin-fw-loader.php:129
+#: lib/class.yith-ywpi-plugin-fw-loader.php:194
+msgid "Premium Version"
+msgstr "Versión Premium"
+
+#: lib/class.yith-ywpi-plugin-fw-loader.php:190
+msgid "Settings"
+msgstr "Ajustes"
+
+#: lib/class.yith-ywpi-plugin-fw-loader.php:219
+msgid "Plugin Documentation"
+msgstr "Documentación del Plugin"
+
+#: lib/class.yith-ywpi-plugin-fw-loader.php:232
+msgid ""
+"YITH WooCommerce PDF Invoice and Packing slip is available in an outstanding "
+"PREMIUM version with many new options, discover it now."
+msgstr ""
+"YITH WooCommerce PDF Invoice and Packing slip está disponible en una "
+"impresionante versión PREMIUM con muchas nuevas opciones, descúbrelas ahora."
+
+#: lib/class.yith-ywpi-plugin-fw-loader.php:233
+msgid "Premium version"
+msgstr "Versión premium"
+
+#: lib/class.yith-ywpi-plugin-fw-loader.php:240
+msgid "YITH WooCommerce PDF Invoice and Packing slip"
+msgstr "YITH WooCommerce PDF Invoice and Packing slip"
+
+#: lib/class.yith-ywpi-plugin-fw-loader.php:241
+msgid ""
+"In YIT Plugins tab you can find YITH WooCommerce PDF Invoice and Packing "
+"slip options.<br> From this menu you can access all settings of YITH plugins "
+"activated."
+msgstr ""
+"En la pestaña YITH Plugins puedes encontrar las opciones de YITH WooCommerce "
+"PDF Invoice and Packing slip.<br> Desde este menú puedes acceder a todos los "
+"ajustes de los plugins YITH activados."
+
+#: lib/class.yith-ywpi-template.php:166
+msgid "THIS IS ONLY A PREVIEW DOCUMENT"
+msgstr "ESTE DOCUMENTO SÓLO ES UNA VISTA PREVIA"
+
+#: plugin-options/documents-options.php:21
+msgid "Document settings"
+msgstr "Ajustes de documento"
+
+#: plugin-options/documents-options.php:25 plugin-options/vendor-options.php:62
+msgid "Invoice number format"
+msgstr "Formato de número de factura"
+
+#: plugin-options/documents-options.php:28
+#: plugin-options/documents-options.php:39
+msgid ""
+"Set the format for the invoice number. Use [number], [prefix], [suffix], "
+"[year], [month] and [day] as placeholders. <b>The [number] placeholder is "
+"required</b>, if not\n"
+"specified, it will be queued to the corresponding text."
+msgstr ""
+
+#: plugin-options/documents-options.php:36
+msgid "Credit note number format"
+msgstr "Formato de número de nota de crédito"
+
+#: plugin-options/documents-options.php:47
+msgid "Invoice file name format"
+msgstr "Formato de nombre de archivo de factura"
+
+#: plugin-options/documents-options.php:50
+msgid ""
+"Set the format for the invoice file name. Use [number], [prefix], [suffix], "
+"[year], [month], [day] as placeholders.\n"
+"<b>The\n"
+"[number] placeholder is necessary</b>. If not specified, it will be queued "
+"to the corresponding text."
+msgstr ""
+"Establece el formato para el nombre de archivo de la factura. Usa [number], "
+"[prefix], [suffix], [year], [month], [day] como marcadores de posición.\n"
+"<b>El marcador de posición [number] es obligatorio</b>. Si no se especifica, "
+"se pondrá en cola al texto correspondiente."
+
+#: plugin-options/documents-options.php:60
+msgid "Credit note file name format"
+msgstr "Formato de nombre de archivo de nota de crédito"
+
+#: plugin-options/documents-options.php:63
+msgid ""
+"Set the format for the credit note file name. Use [number], [prefix], "
+"[suffix], [year], [month], [day] as placeholders. <b>The [number]\n"
+"placeholder is necessary</b>. If not specified, it will be queued to the "
+"corresponding text."
+msgstr ""
+"Establece el formato del nombre de archivo de la nota de crédito. Usa "
+"[number], [prefix], [suffix], [year], [month], [day] como marcadores\n"
+"de posición. <b>El marcador de posición [number] es obligatorio</b>. Si no "
+"se especifica, se pondrá en cola al texto correspondiente."
+
+#: plugin-options/documents-options.php:72
+msgid "Pro-forma invoice file name format"
+msgstr "Formato del nombre del archivo de la factura pro-forma"
+
+#: plugin-options/documents-options.php:75
+msgid ""
+"Set the format for the pro-forma file name. Use [order_number], [year], "
+"[month], [day] as placeholders. <b>The [order_number]\n"
+"placeholder is necessary</b>. If not specified, it will be queued to the "
+"corresponding text."
+msgstr ""
+"Escribe el formato para el nombre del archivo pro-forma. Usa [order_number], "
+"[year], [month], [day] como marcadores de posición. <b>\n"
+"El marcador de posición [order_number] es obligatorio</b>. Si no se "
+"especifica, se pondrá en cola al texto correspondiente."
+
+#: plugin-options/documents-options.php:84
+msgid "Packing slip file name format"
+msgstr "Formato del nombre de archivo de albarán de entrega"
+
+#: plugin-options/documents-options.php:87
+msgid ""
+"Set the format for the packing slip file name. Use [order_number], [year], "
+"[month], [day] as placeholders. <b>The [order_number]\n"
+"placeholder is necessary</b>. If not specified, it will be queued to the "
+"corresponding text."
+msgstr ""
+"Establece el formato de nombre de archivo del albarán de entrega. Usa "
+"[order_number], [year], [month], [day] como marcadores de\n"
+"posición. <b> El marcador de posición [order_number] es obligatorio</b>. Si "
+"no se especifica, se pondrá en cola al texto correspondiente."
+
+#: plugin-options/documents-options.php:100
+#: templates/yith-pdf-invoice/document-data-credit-note.php:19
+msgid "Invoice number"
+msgstr "Número de factura"
+
+#: plugin-options/documents-options.php:104
+#: plugin-options/vendor-options.php:29
+msgid "Next invoice number"
+msgstr "Número de la próxima factura"
+
+#: plugin-options/documents-options.php:107
+msgid ""
+"Choose the invoice number for the next invoice (use this option if you want "
+"to\n"
+"\t\t\t move away from automatic numeration)."
+msgstr ""
+"Elige el número de factura para la siguiente factura (usa esta opción si "
+"quieres\n"
+"\t\t\t apartarte de la numeración automática)."
+
+#: plugin-options/documents-options.php:119
+#: plugin-options/documents-options.php:167
+msgid "Billing year"
+msgstr "Año de facturación"
+
+#: plugin-options/documents-options.php:125
+#: plugin-options/vendor-options.php:48
+msgid "Invoice prefix"
+msgstr "Prefijo de factura"
+
+#: plugin-options/documents-options.php:128
+msgid ""
+"Set a text to be added as a prefix to the invoice number. Leave it blank if "
+"no prefix has to be used"
+msgstr ""
+"Escribe un texto para añadirlo como prefijo al número de factura. Déjalo en "
+"blanco para no usar prefijo."
+
+#: plugin-options/documents-options.php:132
+#: plugin-options/vendor-options.php:55
+msgid "Invoice suffix"
+msgstr "Sufijo de factura"
+
+#: plugin-options/documents-options.php:135
+msgid ""
+"Set a text to be added as a suffix to the invoice number. Leave it blank if "
+"no suffix has to be used"
+msgstr ""
+"Escribe un texto para añadirlo como sufijo al número de factura. Déjalo en "
+"blanco para no usar sufijo."
+
+#: plugin-options/documents-options.php:139
+#: plugin-options/documents-options.php:187
+#: plugin-options/vendor-options.php:74
+msgid "Reset on 1st January"
+msgstr "Reiniciar el 1 de enero"
+
+#: plugin-options/documents-options.php:142
+#: plugin-options/documents-options.php:190
+#: plugin-options/vendor-options.php:77
+msgid "Set restart from 1 on 1st January."
+msgstr "Establece el reinicio desde 1 el 1 de enero."
+
+#: plugin-options/documents-options.php:149
+msgid "Credit note number"
+msgstr "Número de nota de crédito"
+
+#: plugin-options/documents-options.php:153
+msgid "Next credit note number"
+msgstr "Próximo número de nota de crédito"
+
+#: plugin-options/documents-options.php:156
+msgid ""
+"Choose the number for the next credit note (use this option if you want to\n"
+"\t\t\t move away from automatic numeration)"
+msgstr ""
+"Elige el número para la siguiente nota de crédito (usa esta opción si "
+"quieres\n"
+"\t\t\t apartarte de la numeración automática)"
+
+#: plugin-options/documents-options.php:173
+msgid "Credit note prefix"
+msgstr "Prefijo de nota de crédito"
+
+#: plugin-options/documents-options.php:176
+msgid ""
+"Set a text to be used as a prefix to the credit note number. Leave it blank "
+"if no prefix has to be used"
+msgstr ""
+"Establece un texto para usar como prefijo de la nota del número de crédito. "
+"Déjalo en blanco para no usar prefijo."
+
+#: plugin-options/documents-options.php:180
+msgid "Credit note suffix"
+msgstr "Sufijo de nota de crédito"
+
+#: plugin-options/documents-options.php:183
+msgid ""
+"Set a text to be used as a suffix to the credit note number. Leave it blank "
+"if no suffix has to be used"
+msgstr ""
+"Establece un texto para usar como sufijo de la nota del número de crédito. "
+"Déjalo en blanco para no usar sufijo."
+
+#: plugin-options/general-options.php:21
+msgid "Generating documents"
+msgstr "Generando documentos"
+
+#: plugin-options/general-options.php:25
+msgid "Preview mode"
+msgstr "Modo de vista previa"
+
+#: plugin-options/general-options.php:28
+msgid ""
+"Flag this item if you want to preview the invoice. Useful to preview changes "
+"while customizing the invoice template.\n"
+"\t\t\tWhen this option is enabled, no counter will be incremented."
+msgstr ""
+"Flag this item if you want to preview the invoice. Useful to preview changes "
+"while customizing the invoice template.\n"
+"\t\t\tWhen this option is enabled, no counter will be incremented."
+
+#: plugin-options/general-options.php:34
+msgid "Enable packing slip"
+msgstr "Habilitar albarán de entrega"
+
+#: plugin-options/general-options.php:37
+msgid "Check this option to enable packing slip management."
+msgstr ""
+"Marca esta opción para habilitar la gestión de los albaranes de entrega."
+
+#: plugin-options/general-options.php:41
+msgid "Enable pro-forma"
+msgstr "Habilitar pro-forma"
+
+#: plugin-options/general-options.php:44
+msgid "Check this option to enable pro-forma document management."
+msgstr "Marca esta opción para habilitar la gestión de documentos pro-forma."
+
+#: plugin-options/general-options.php:48
+msgid "Enable credit notes"
+msgstr "Habilitar notas de crédito"
+
+#: plugin-options/general-options.php:51
+msgid "Check this option to enable credit note management."
+msgstr "Marca esta opción para habilitar la gestión de las notas de crédito."
+
+#: plugin-options/general-options.php:58
+msgid "General settings"
+msgstr "Ajustes generales"
+
+#: plugin-options/general-options.php:62
+msgid "Invoice folder format"
+msgstr "Formato de carpeta de factura"
+
+#: plugin-options/general-options.php:65
+msgid ""
+"Set the folder where you want to store documents. Use [year], [month], [day] "
+"as placeholders. Example:\n"
+"\t\t\t\"Invoices/[year]/[month]\" for invoices stored by year and month; "
+"leave it blank to store documents in root folder."
+msgstr ""
+"Establece dónde quieres almacenar los documentos. Usa [year], [month], [day] "
+"como marcadores de posición. Ejemplo:\n"
+"\t\t\t\"Facturas/[year]/[month]\" para facturas almacenadas por año y mes; "
+"déjalo en blanco para almacenar documentos en carpeta raíz."
+
+#: plugin-options/general-options.php:70
+msgid "Document date format"
+msgstr "Formato de fecha del documento"
+
+#: plugin-options/general-options.php:72
+msgid "Set date format as it should appear on documents (default is d/m/Y)."
+msgstr ""
+"Establece el formato de fecha que debe aparecer en los documentos (por "
+"defecto d/m/a)."
+
+#: plugin-options/general-options.php:77
+msgid "d/m/Y"
+msgstr "d/m/a"
+
+#: plugin-options/general-options.php:78
+msgid "d-m-Y"
+msgstr "d-m-a"
+
+#: plugin-options/general-options.php:79
+msgid "m/d/Y"
+msgstr "m-d-a"
+
+#: plugin-options/general-options.php:80
+msgid "m-d-Y"
+msgstr "m/d/a"
+
+#: plugin-options/general-options.php:84
+msgid "Generate invoices"
+msgstr "Generar facturas"
+
+#: plugin-options/general-options.php:88
+msgid "Automatically"
+msgstr "Automáticamente"
+
+#: plugin-options/general-options.php:89
+msgid "Manually"
+msgstr "Manualmente"
+
+#: plugin-options/general-options.php:95
+msgid "Generate invoice automatically"
+msgstr "Generar facturas automáticamente"
+
+#: plugin-options/general-options.php:99
+msgid "For new order"
+msgstr "Para nuevo pedido"
+
+#: plugin-options/general-options.php:100
+msgid "For processing order"
+msgstr "Para pedido en proceso"
+
+#: plugin-options/general-options.php:101
+msgid "For completed order"
+msgstr "Para pedido completado"
+
+#: plugin-options/general-options.php:107
+msgid "How to show the generated document?"
+msgstr "¿Cómo mostrar el documento generado?"
+
+#: plugin-options/general-options.php:111
+msgid "Download PDF"
+msgstr "Descargar PDF"
+
+#: plugin-options/general-options.php:112
+msgid "Open PDF file in the browser"
+msgstr "Abrir archivo PDF en el navegador"
+
+#: plugin-options/general-options.php:121
+msgid "Advanced settings"
+msgstr "Ajustes avanzados"
+
+#: plugin-options/general-options.php:125
+msgid "Send pro-forma"
+msgstr "Enviar pro-forma"
+
+#: plugin-options/general-options.php:128
+msgid "Attach pro-forma invoice to new order email"
+msgstr "Adjuntar factura pro-forma al nuevo email del pedido"
+
+#: plugin-options/general-options.php:132
+msgid "SSN number"
+msgstr "DNI"
+
+#: plugin-options/general-options.php:135
+msgid "Add a SSN number field on checkout page"
+msgstr "Añadir campo de DNI en página de pago"
+
+#: plugin-options/general-options.php:139
+msgid "Mandatory SSN number"
+msgstr "DNI obligatorio"
+
+#: plugin-options/general-options.php:142
+msgid "The SSN number is mandatory to complete the checkout process"
+msgstr "El DNI es obligatorio para completar el pago"
+
+#: plugin-options/general-options.php:146
+msgid "VAT number"
+msgstr "CIF"
+
+#: plugin-options/general-options.php:149
+msgid "Add a VAT number field on checkout page"
+msgstr "Añadir un campo de CIF en la página de pago"
+
+#: plugin-options/general-options.php:153
+msgid "Mandatory VAT number"
+msgstr "CIF obligatorio"
+
+#: plugin-options/general-options.php:156
+msgid "The VAT number is mandatory to complete the checkout process"
+msgstr "El CIF es obligatorio para completar el pago"
+
+#: plugin-options/general-options.php:161
+msgid "Authorize Dropbox"
+msgstr "Autorizar Dropbox"
+
+#: plugin-options/general-options.php:162
+msgid "Set automatic document backup to Dropbox."
+msgstr "Establecer copia de seguridad de documentos automática en Dropbox"
+
+#: plugin-options/template-options.php:22 plugin-options/vendor-options.php:84
+msgid "Template settings"
+msgstr "Ajustes de plantilla"
+
+#: plugin-options/template-options.php:27 plugin-options/vendor-options.php:88
+msgid "Company name"
+msgstr "Nombre de la empresa"
+
+#: plugin-options/template-options.php:30 plugin-options/vendor-options.php:91
+msgid "Set company name to be shown on invoices"
+msgstr "Establece el nombre de la empresa que se mostrará en las facturas"
+
+#: plugin-options/template-options.php:31 plugin-options/vendor-options.php:92
+msgid "Your company name"
+msgstr "El nombre de tu empresa"
+
+#: plugin-options/template-options.php:34 plugin-options/vendor-options.php:95
+msgid "Your company logo"
+msgstr "El logo de tu empresa"
+
+#: plugin-options/template-options.php:37 plugin-options/vendor-options.php:98
+msgid "Set a default logo to be shown"
+msgstr "Establecer un logo predeterminado"
+
+#: plugin-options/template-options.php:40 plugin-options/vendor-options.php:101
+msgid "Company details"
+msgstr "Detalles de la empresa"
+
+#: plugin-options/template-options.php:44
+msgid "Set company details to use in the invoice"
+msgstr "Establece los detalles de la empresa que se usarán en la factura"
+
+#: plugin-options/template-options.php:45 plugin-options/vendor-options.php:106
+msgid ""
+"Your company details\n"
+"Address\n"
+"City, State"
+msgstr ""
+"Detalles de tu empresa\n"
+"Dirección\n"
+"Ciudad, Estado"
+
+#: plugin-options/template-options.php:50
+#: plugin-options/template-options.php:143
+#: plugin-options/template-options.php:315
+#: plugin-options/template-options.php:390
+msgid "Visible sections"
+msgstr "Secciones visibles"
+
+#: plugin-options/template-options.php:54
+msgid "Show company name"
+msgstr "Mostrar logo de la empresa"
+
+#: plugin-options/template-options.php:58
+#: plugin-options/template-options.php:62
+msgid "Show company logo"
+msgstr "Mostrar logo de la empresa"
+
+#: plugin-options/template-options.php:66
+#: plugin-options/template-options.php:70
+msgid "Show company details"
+msgstr "Mostrar detalles de la empresa"
+
+#: plugin-options/template-options.php:74
+msgid "Customer invoice details"
+msgstr ""
+
+#: plugin-options/template-options.php:78
+msgid ""
+"Set the customer details to use in the invoice. Use the postmeta metakeys as "
+"placeholders within double curly\n"
+"\t\t\tbrackets, for example {{_billing_first_name}} for showing the order "
+"billing first name"
+msgstr ""
+"Establece los detalles de cliente que se van a usar en la factura. Usa las "
+"postmeta metakeys como marcadores\n"
+"\t\t\tde posición entre doble llaves, por ejemplo, {{_billing_first_name}} "
+"para mostrar el nombre de facturación del pedido"
+
+#: plugin-options/template-options.php:80
+msgid ""
+"{{_billing_first_name}} {{_billing_last_name}}\n"
+"{{_billing_address_1}}\n"
+"{{_billing_postcode}}{{_billing_city}}\n"
+"{{_billing_country}}\n"
+"SSN: {{_billing_vat_ssn}}\n"
+"VAT: {{_billing_vat_number}}\n"
+"{{_billing_phone}}\n"
+"{{_billing_email}}"
+msgstr ""
+"{{_billing_first_name}} {{_billing_last_name}}\n"
+"{{_billing_address_1}}\n"
+"{{_billing_postcode}}{{_billing_city}}\n"
+"{{_billing_country}}\n"
+"SSN: {{_billing_vat_ssn}}\n"
+"VAT: {{_billing_vat_number}}\n"
+"{{_billing_phone}}\n"
+"{{_billing_email}}"
+
+#: plugin-options/template-options.php:90
+msgid "Customer packing slip details"
+msgstr ""
+
+#: plugin-options/template-options.php:94
+msgid ""
+"Set the customer details to use in the invoice. Use the postmeta metakeys as "
+"placeholders within double curly\n"
+"\t\t\tbrackets, for example {{_shipping_first_name}} for showing the order "
+"shipping first name"
+msgstr ""
+"Establece los detalles del cliente que se van a usar en la factura. Usa los "
+"postmeta metakeys como marcadores de \n"
+"\t\t\tposición entre llaves dobles, por ejemplo, {{_shipping_first_name}} "
+"para mostrar el nombre de envío del pedido"
+
+#: plugin-options/template-options.php:106
+msgid "Invoice and Pro-Forma invoice template settings"
+msgstr "Ajustes de plantilla de factura y factura pro-forma"
+
+#: plugin-options/template-options.php:112
+#: plugin-options/vendor-options.php:111
+msgid "Invoice notes"
+msgstr "Notas de factura"
+
+#: plugin-options/template-options.php:116
+#: plugin-options/vendor-options.php:115
+msgid "Type the text to show as notes on invoices."
+msgstr "Escribe el texto para mostrar como notas en las facturas."
+
+#: plugin-options/template-options.php:119
+#: plugin-options/vendor-options.php:118
+msgid "Invoice footer"
+msgstr "Pie de factura"
+
+#: plugin-options/template-options.php:123
+#: plugin-options/vendor-options.php:122
+msgid "Type the text to show as footer on invoices."
+msgstr "Escribe el texto para mostrar en el pie de las facturas."
+
+#: plugin-options/template-options.php:127
+#: plugin-options/vendor-options.php:139
+msgid "Pro-Forma Invoice notes"
+msgstr "Notas de la factura pro-forma"
+
+#: plugin-options/template-options.php:131
+#: plugin-options/vendor-options.php:143
+msgid "Type the text to show as notes on Pro-Forma invoices."
+msgstr "Escribe el texto para mostrar como notas en las facturas Pro-Forma"
+
+#: plugin-options/template-options.php:135
+#: plugin-options/vendor-options.php:146
+msgid "Pro-Forma invoice footer"
+msgstr "Pie de la factura pro-forma"
+
+#: plugin-options/template-options.php:139
+msgid "Type the text to show as footer on Pro-Forma invoices."
+msgstr ""
+"Escribe el texto que se va a mostrar en el pie de las facturas pro-forma."
+
+#: plugin-options/template-options.php:147
+#: plugin-options/template-options.php:319
+#: plugin-options/template-options.php:398
+#: plugin-options/template-options.php:402
+msgid "Show notes"
+msgstr "Mostrar notas"
+
+#: plugin-options/template-options.php:151
+#: plugin-options/template-options.php:155
+#: plugin-options/template-options.php:323
+#: plugin-options/template-options.php:327
+#: plugin-options/template-options.php:406
+#: plugin-options/template-options.php:410
+msgid "Show footer"
+msgstr "Mostrar pie"
+
+#: plugin-options/template-options.php:159
+msgid "Discount on subtotal"
+msgstr "Descuento en subtotal"
+
+#: plugin-options/template-options.php:163
+msgid "Show order subtotal inclusive of order discount"
+msgstr "Mostrar subtotal del pedido incluyendo el descuento del pedido"
+
+#: plugin-options/template-options.php:167
+msgid "Show discount"
+msgstr "Mostrar descuento"
+
+#: plugin-options/template-options.php:171
+msgid "Show the order discount in the invoice summary amounts"
+msgstr "Mostrar el descuento del pedido en el resumen de importes de factura"
+
+#: plugin-options/template-options.php:175
+#: plugin-options/template-options.php:331
+#: plugin-options/template-options.php:414
+msgid "Visible columns"
+msgstr "Columnas visibles"
+
+#: plugin-options/template-options.php:181
+#: plugin-options/template-options.php:420
+msgid "Product picture"
+msgstr "Imagen de producto"
+
+#: plugin-options/template-options.php:185
+#: plugin-options/template-options.php:194
+#: plugin-options/template-options.php:203
+#: plugin-options/template-options.php:212
+#: plugin-options/template-options.php:221
+#: plugin-options/template-options.php:230
+#: plugin-options/template-options.php:239
+#: plugin-options/template-options.php:249
+#: plugin-options/template-options.php:258
+#: plugin-options/template-options.php:267
+#: plugin-options/template-options.php:276
+msgid "Invoice visible columns"
+msgstr "Columnas visibles de factura"
+
+#: plugin-options/template-options.php:190
+#: plugin-options/template-options.php:429
+msgid "Product SKU"
+msgstr "SKU del producto"
+
+#: plugin-options/template-options.php:199
+#: plugin-options/template-options.php:447
+msgid "Short description"
+msgstr "Descripción corta"
+
+#: plugin-options/template-options.php:208
+#: plugin-options/template-options.php:456
+msgid "Product variation"
+msgstr "Variación de producto"
+
+#: plugin-options/template-options.php:217
+#: plugin-options/template-options.php:465
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: plugin-options/template-options.php:226
+#: plugin-options/template-options.php:474
+#: templates/yith-pdf-invoice/invoice-details.php:30
+msgid "Product price"
+msgstr "Precio"
+
+#: plugin-options/template-options.php:235
+#: plugin-options/template-options.php:483
+msgid "Regular price"
+msgstr "Precio normal"
+
+#: plugin-options/template-options.php:244
+msgid "On sale price"
+msgstr "Precio rebajado"
+
+#: plugin-options/template-options.php:254
+#: plugin-options/template-options.php:501
+#: templates/yith-pdf-invoice/invoice-details.php:46
+msgid "Line total"
+msgstr "Total"
+
+#: plugin-options/template-options.php:263
+#: plugin-options/template-options.php:510
+#: templates/yith-pdf-invoice/invoice-details.php:50
+msgid "Tax"
+msgstr "Impuestos"
+
+#: plugin-options/template-options.php:272
+#: plugin-options/template-options.php:519
+msgid "Total (inc. tax)"
+msgstr "Total (imp. incl.)"
+
+#: plugin-options/template-options.php:281
+#: plugin-options/template-options.php:528
+msgid "Show discount percentage"
+msgstr "Mostrar porcentaje de descuento"
+
+#: plugin-options/template-options.php:290
+msgid "Credit note template settings"
+msgstr "Ajustes de plantilla de nota de crédito"
+
+#: plugin-options/template-options.php:294
+#: plugin-options/vendor-options.php:125
+msgid "Notes on credit note"
+msgstr "Notas en la nota de crédito"
+
+#: plugin-options/template-options.php:298
+#: plugin-options/vendor-options.php:129
+msgid "Type the text to show as notes on credit notes."
+msgstr "Escribe el texto para mostrar como notas en las notas de crédito."
+
+#: plugin-options/template-options.php:301
+#: plugin-options/vendor-options.php:132
+msgid "Credit note footer"
+msgstr "Pie de nota de crédito"
+
+#: plugin-options/template-options.php:305
+#: plugin-options/vendor-options.php:136
+msgid "Type the text to show as footer on credit notes."
+msgstr "Escribe el texto para mostrar como pie en las notas de crédito."
+
+#: plugin-options/template-options.php:308
+msgid "Refund text"
+msgstr "Texto de reembolso"
+
+#: plugin-options/template-options.php:312
+msgid "Type the refund text to show in the credit note."
+msgstr "Escribe el texto para mostrar como nota de crédito."
+
+#: plugin-options/template-options.php:337
+msgid "Show refund reason, if available."
+msgstr "Mostrar motivo del reembolso, si está disponible."
+
+#: plugin-options/template-options.php:345
+msgid "Show subtotal"
+msgstr "Mostrar subtotal"
+
+#: plugin-options/template-options.php:353
+msgid "Show total tax"
+msgstr "Mostrar total de impuestos"
+
+#: plugin-options/template-options.php:361
+msgid "Show total"
+msgstr "Mostrar total"
+
+#: plugin-options/template-options.php:369
+msgid "Packing slip template settings"
+msgstr "Ajustes de plantilla del albarán de entrega"
+
+#: plugin-options/template-options.php:375
+#: templates/yith-pdf-invoice/document-notes.php:17
+msgid "Notes"
+msgstr "Notas"
+
+#: plugin-options/template-options.php:379
+#: plugin-options/vendor-options.php:157
+msgid "Type the text to show as notes on packing slip."
+msgstr "Escribe un texto para mostrar como notas en el albarán de entrega."
+
+#: plugin-options/template-options.php:382
+msgid "Footer"
+msgstr "Pie"
+
+#: plugin-options/template-options.php:386
+#: plugin-options/vendor-options.php:164
+msgid "Type the text to show as footer on packing slip."
+msgstr "Escribe un texto para mostrar como pie del albarán de entrega."
+
+#: plugin-options/template-options.php:394
+msgid "Show order totals."
+msgstr "Mostrar totales del pedido."
+
+#: plugin-options/template-options.php:424
+#: plugin-options/template-options.php:433
+#: plugin-options/template-options.php:442
+#: plugin-options/template-options.php:451
+#: plugin-options/template-options.php:460
+#: plugin-options/template-options.php:469
+#: plugin-options/template-options.php:478
+#: plugin-options/template-options.php:487
+#: plugin-options/template-options.php:496
+#: plugin-options/template-options.php:505
+#: plugin-options/template-options.php:514
+#: plugin-options/template-options.php:523
+msgid "Visible columns in the packing slip"
+msgstr "Columnas visibles en el albarán de entrega"
+
+#: plugin-options/template-options.php:438
+msgid "Weight and dimension"
+msgstr ""
+
+#: plugin-options/template-options.php:492
+#: templates/yith-pdf-invoice/invoice-details.php:38
+msgid "Sale price"
+msgstr "Precio rebajado"
+
+#: plugin-options/vendor-options.php:25
+msgid "Vendor invoice settings"
+msgstr "Ajustes de factura de vendedor"
+
+#: plugin-options/vendor-options.php:32
+msgid "Invoice number for the next invoice."
+msgstr "Número de factura para la próxima factura."
+
+#: plugin-options/vendor-options.php:42
+msgid "billing year"
+msgstr "año de facturación"
+
+#: plugin-options/vendor-options.php:51
+msgid ""
+"Type a text to add as a prefix to the invoice number. Leave it blank if no "
+"prefix has to be used"
+msgstr ""
+"Escribe un texto para añadirlo como prefijo al número de factura. Déjalo en "
+"blanco para no usar prefijo."
+
+#: plugin-options/vendor-options.php:58
+msgid ""
+"Type a text to add as a suffix to the invoice number. Leave it blank if no "
+"suffix has to be used"
+msgstr ""
+"Escribe un texto para añadirlo como sufijo al número de factura. Déjalo en "
+"blanco para no usar sufijo."
+
+#: plugin-options/vendor-options.php:65
+msgid ""
+"Set the format for the invoice number. Use [number], [prefix] and [suffix] "
+"as placeholders. <b>The [number] placeholder is required</b>. If not\n"
+"specified,\n"
+"it will be queued to the corresponding text.</b>"
+msgstr ""
+"Establece el formato para el número Use [number], [prefix] and [suffix] as "
+"placeholders. <b>The [number] placeholder is required</b>. If not\n"
+"specified,\n"
+"it will be queued to the corresponding text.</b>"
+
+#: plugin-options/vendor-options.php:105
+msgid "Set company details to be used on the invoice"
+msgstr "Establece los detalles de la empresa que se usarán en la factura"
+
+#: plugin-options/vendor-options.php:150
+msgid "Type the text to show as footer on pro-forma invoices."
+msgstr ""
+"Escribe el texto que se va a mostrar en el pie de las facturas pro-forma."
+
+#: plugin-options/vendor-options.php:153
+msgid "Packing slip notes"
+msgstr "Notas del albarán de entrega"
+
+#: plugin-options/vendor-options.php:160
+msgid "Packing slip footer"
+msgstr "Pie del albarán de entrega"
+
+#: templates/yith-pdf-invoice/credit-note-details.php:21
+msgid "Description"
+msgstr "Descripción"
+
+#: templates/yith-pdf-invoice/credit-note-details.php:24
+#: templates/yith-pdf-invoice/invoice-totals.php:23
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: templates/yith-pdf-invoice/credit-note-details.php:28
+msgid "Total tax"
+msgstr "Total de impuestos"
+
+#: templates/yith-pdf-invoice/credit-note-details.php:32
+#: templates/yith-pdf-invoice/invoice-totals.php:46
+msgid "Total"
+msgstr "Total"
+
+#: templates/yith-pdf-invoice/credit-note-details.php:42
+msgid "Your refund"
+msgstr "Tu reembolso"
+
+#: templates/yith-pdf-invoice/document-data-credit-note.php:7
+msgid "CREDIT NOTE NUMBER"
+msgstr "NÚMERO DE NOTA DE CRÉDITO"
+
+#: templates/yith-pdf-invoice/document-data-credit-note.php:36
+#: templates/yith-pdf-invoice/document-data-invoice.php:19
+#: templates/yith-pdf-invoice/document-data-packing-slip.php:9
+#: templates/yith-pdf-invoice/document-data-proforma.php:5
+msgid "Order No."
+msgstr "Nº de pedido"
+
+#: templates/yith-pdf-invoice/document-data-credit-note.php:46
+msgid "Date"
+msgstr "Fecha"
+
+#: templates/yith-pdf-invoice/document-data-credit-note.php:56
+#: templates/yith-pdf-invoice/document-data-invoice.php:39
+#: templates/yith-pdf-invoice/document-data-packing-slip.php:33
+#: templates/yith-pdf-invoice/document-data-proforma.php:16
+msgid "Amount"
+msgstr "Importe"
+
+#: templates/yith-pdf-invoice/document-data-invoice.php:7
+msgid "INVOICE NUMBER"
+msgstr "NÚMERO DE FACTURA"
+
+#: templates/yith-pdf-invoice/document-data-invoice.php:29
+msgid "Invoice date"
+msgstr "Fecha de factura"
+
+#: templates/yith-pdf-invoice/document-data-packing-slip.php:21
+#: templates/yith-pdf-invoice/document-data-proforma.php:12
+msgid "Order date"
+msgstr "Fecha de pedido:"
+
+#: templates/yith-pdf-invoice/invoice-details.php:23
+msgid "Product"
+msgstr "Producto"
+
+#: templates/yith-pdf-invoice/invoice-details.php:26
+msgid "Qty"
+msgstr "Cantidad"
+
+#: templates/yith-pdf-invoice/invoice-details.php:34
+msgid "Price"
+msgstr "Precio"
+
+#: templates/yith-pdf-invoice/invoice-details.php:42
+msgid "Discount percentage"
+msgstr "Porcentaje de descuento"
+
+#: templates/yith-pdf-invoice/invoice-details.php:54
+msgid "total (inc. tax)"
+msgstr "Total (imp. incl)"
+
+#: templates/yith-pdf-invoice/invoice-details.php:160
+msgid "Fee"
+msgstr "Precio"
+
+#: templates/yith-pdf-invoice/invoice-details.php:224
+msgid "Shipping"
+msgstr "Envío"
+
+#: templates/yith-pdf-invoice/invoice-totals.php:29
+msgid "Discount"
+msgstr "Descuento"
+
+#~ msgid ""
+#~ "Set the format for the invoice number. Use [number], [prefix] and "
+#~ "[suffix] as placeholders. <b>The [number] placeholder is required</b>. If "
+#~ "not\n"
+#~ "specified, it will be queued to the corresponding text."
+#~ msgstr ""
+#~ "Establece el formato para el número de factura. Usa [number], [prefix] y "
+#~ "[suffix] como marcadores de posición. <b>El marcador de posición "
+#~ "[number]\n"
+#~ "es obligatorio</b>. Si no se especifica, se pondrá en cola al texto "
+#~ "correspondiente."
+
+#~ msgid ""
+#~ "Set the format for the credit note number. Use [number], [prefix] and "
+#~ "[suffix] as placeholders. <b>The [number] placeholder is necessary</b>. "
+#~ "If not\n"
+#~ "specified, it will be queued to the corresponding text."
+#~ msgstr ""
+#~ "Establece el formato para el número de nota de crédito. Usa [number], "
+#~ "[prefix] y [suffix] como marcadores de posición. <b>El marcador de "
+#~ "posición [number]\n"
+#~ "es obligatorio</b>. Si no se especifica, se pondrá en cola al texto "
+#~ "correspondiente."
+
+#~ msgid "Customer billing details"
+#~ msgstr "Detalles de facturación de cliente"
+
+#~ msgid "Customer shipping details"
+#~ msgstr "Detalles de envío del cliente"
+
+#~ msgid "Order"
+#~ msgstr "Pedido"
+
+#~ msgid "Invoice To:"
+#~ msgstr "Datos del cliente:"
+
+#~ msgid "To:"
+#~ msgstr "Cliente:"
+
+#~ msgid "Order Amount"
+#~ msgstr "Total"
+
+#~ msgid "Invoice From:"
+#~ msgstr " "

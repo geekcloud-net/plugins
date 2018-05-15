@@ -1,0 +1,333 @@
+
+
+/* general styles for edit pages (edit template, edit profile and settings) */
+.amazon-page #poststuff .postbox .inside {
+	margin-bottom: 15px;
+}
+
+.amazon-page #poststuff .postbox .inside p.desc {
+	font-size: smaller;
+	font-style: italic;
+	margin-top: 0;
+	margin-left: 35%;
+}
+.amazon-page #poststuff .postbox .inside p.edit_links {
+	margin-top: 0;
+	margin-left: 35%;
+}
+
+.amazon-page #poststuff .postbox label.text_label {
+	display: block;
+	float: left;
+	width: 33%;
+	margin: 1px;
+	padding: 3px;
+	/*white-space:nowrap;*/
+}
+.amazon-page #poststuff .postbox input.text_input,
+.amazon-page #poststuff .postbox textarea,
+.amazon-page #poststuff .postbox select.select {
+	width: 65%;
+	margin-bottom: 5px;
+	padding: 3px 8px;
+}
+.amazon-page #poststuff .postbox textarea {
+	height: 120px;
+}
+
+
+/* sandbox reminder - styled similar to screen options button */
+#wpl-sandbox-reminder-wrap {
+    float: right;
+    padding: 0;
+    margin: 0 6px 0 0;
+    background: #e3e3e3;
+    background: #ffc;
+    border: 1px solid #E6DB55;
+
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+}
+ 
+#wpl-sandbox-reminder-wrap a.show-settings {
+    background-image: none;
+    padding:0 6px 0 6px;
+}
+
+
+/* JobRunner styles */
+#wpla_jobs_window h2 {
+	margin: 5px 0 15px 0;
+}
+#wpla_jobs_window #wpla_jobs_message {
+	width: 100%;
+	text-align: center;
+	padding: 3px 5px;
+	font-size: 1em;
+}
+#wpla_jobs_window #wpla_jobs_footer_msg {
+	float:left; 
+	padding: 15px 0 0 0;
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+/* JobRunner log view */
+#wpla_jobs_window #wpla_jobs_log {
+	overflow: auto;
+	border: 1px solid #ddd;
+}
+
+#wpla_jobs_window #wpla_jobs_log .logRow {
+	position: relative;
+	height: 20px;
+	line-height: 20px;
+	padding: 2px 7px;
+	border-bottom: 1px solid #eee;
+}
+
+#wpla_jobs_window #wpla_jobs_log .logRowTitle {
+	/*display: inline;*/
+	display: block;
+	width: 90%;
+	overflow: hidden;
+	height: 20px;
+}
+
+#wpla_jobs_window #wpla_jobs_log .logRowErrors {
+	position: absolute;
+	top: 0px;
+	right: 32px;
+	line-height: 24px;
+	font-style: italic;
+}
+#wpla_jobs_window #wpla_jobs_log .logRowErrors a {
+	text-decoration: none;
+}
+#wpla_jobs_window #wpla_jobs_log .logRowErrors a:hover {
+	text-decoration: underline;
+}
+
+#wpla_jobs_window #wpla_jobs_log .logRowStatus {
+	position: absolute;
+	top: 4px;
+	right: 7px;
+}
+
+#wpla_jobs_window #wpla_jobs_log img {
+	max-width: 16px;
+	max-height: 16px;
+}
+
+#wpla_jobs_window #wpla_jobs_log .taskDetails {
+	background-color: #ffe;
+	border-bottom: 1px solid #ddd;
+	padding: 7px
+}
+
+#wpla_jobs_window #wpla_jobs_log div#message {
+	margin: 5px 5px 2px;
+}
+
+
+/* JobRunner progress bar */
+#wpla_jobs_window #wpla_progressbar {
+  height: 23px;
+  border: 1px solid #ccc;
+}
+#wpla_jobs_window #wpla_progressbar .ui-progressbar {
+  position: relative;
+}
+#wpla_jobs_window #wpla_progressbar .ui-progressbar-value {
+  margin-top: -23px;
+  height: 23px;
+  background-color: #0074a2;
+  opacity: 0.2;
+}
+#wpla_jobs_window #wpla_progressbar span.caption {
+  display: block;
+  position: static;
+  text-align: center;
+  line-height: 23px;
+}
+
+/* fix other plugins overriding progressbar style */
+#wpla_jobs_window .ui-progressbar .ui-progressbar-value {
+	/*background: #CCC url( smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png ) 50% 50% repeat-x;*/
+}
+
+
+/* bulk actions buttons */
+.submit .wpl_job_button {
+	margin-right: 15px;
+}
+
+body.toplevel_page_wpla .widefat .column-status mark,
+body.amazon_page_wpla-tools .widefat .column-status mark,
+body.amazon_page_wpla-settings-repricing .widefat .column-status mark {
+	display: block;
+	text-align: center;
+	white-space: nowrap;
+	padding: 0 2px;
+	background: #999;
+	border: 1px solid #999;
+	-webkit-box-shadow: inset 0 0 2px 1px rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	margin: 0;
+	font-size: 9px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	/* firefox only */
+	padding-top: 2px;
+}
+
+/* toggle links with little triangle */
+/* unused for now 
+.toggle_container a:link, .toggle_container a:visited, .toggle_container a:hover, .toggle_container a:active {
+	padding-left: 13px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-image: url(../img/triangle-closed.gif);
+	text-decoration: none;
+}
+
+.toggle_container a.open:link, .toggle_container a.open:visited, .toggle_container a.open:hover, .toggle_container a.open:active {
+	background-image: url(../img/triangle-open.gif);
+}
+ */
+
+.admin-color-mp6 .amazon-page .nav-tab-active {
+	background-color: #eee;
+}
+
+
+
+
+
+/* Tooltips */
+img.help_tip {
+	vertical-align: bottom;
+	float: right;
+	margin: 0;
+	margin-top: 2px;
+}
+
+.postbox .inside img.help_tip {
+	margin: 0;
+	margin-top: 2px;
+}
+
+.postbox .inside th img.help_tip {
+	float: none;
+	margin: -2px;
+}
+
+
+/* Tooltips */
+.tips {
+	cursor: help;
+	text-decoration: none;
+}
+img.tips {
+	padding: 5px 0 0 0;
+}
+
+/* TipTip CSS - Version 1.2 */
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+#tiptip_holder.tip_top {
+	padding-bottom: 5px;
+}
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+#tiptip_holder.tip_right {
+	padding-left: 5px;
+}
+#tiptip_holder.tip_left {
+	padding-right: 5px;
+}
+#tiptip_content {
+	font-size: 11px;
+	color: #fff;
+	padding: .5em .8em;
+	background: #a2678c;
+	background: #464646;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.10);
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.10);
+	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.10);
+	text-align: center;
+}
+#tiptip_content code {
+	background: #855c76;
+	background: #777;
+	padding: 1px;
+}
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top: -7px;
+	margin-left: -6px;
+	border-top-color: #464646;
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;
+	border-bottom-color: #464646;
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -5px;
+	border-right-color: #464646;
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -7px;
+	border-left-color: #464646;
+}
+
+
+/* fix cursor on metabox title bars */
+.js .amazon-page #poststuff .postbox .hndle {
+	cursor: inherit;
+}
+
+
+/* moved to admin toolbar class
+#wpadminbar .ab-top-menu > li.wpla-toolbar-top-spinner > a.ab-item,
+#wpadminbar .ab-top-menu > li.wpla-toolbar-top-spinner:hover > a.ab-item {
+	padding-left: 30px;
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	background-image: url(../img/spinner-16px.gif);
+}
+#wpadminbar .ab-top-menu > li.wpla-toolbar-top-spinner #wp-admin-bar-wpla_current_activity {
+	background-color: #444;
+}
+*/
